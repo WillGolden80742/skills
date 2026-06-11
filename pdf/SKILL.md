@@ -1,7 +1,20 @@
 ---
 name: pdf
 description: Processa arquivos PDF - ler, extrair texto/tabelas, mesclar, dividir, criar PDFs.
-triggers: ["pdf", "extrair texto", "mesclar pdf", "criar pdf", "dividir pdf"]
+triggers:
+  - "pdf"
+  - "convert * to pdf"
+  - "converter * para pdf"
+  - "merge pdf"
+  - "mesclar pdf"
+  - "split pdf"
+  - "dividir pdf"
+  - "extract text from pdf"
+  - "extrair texto do pdf"
+  - "create pdf"
+  - "criar pdf"
+  - "read pdf"
+  - "ler pdf"
 ---
 
 # Skill PDF - Processamento de PDFs

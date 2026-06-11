@@ -1,0 +1,183 @@
+
+--- C:\Users\willi\.config\opencode\skills\merge\.mergeignore ---
+
+# Diretórios e arquivos de sistema/build/dependências
+node_modules/      # Módulos Node.js
+.git/              # Repositório Git
+dist/              # Diretório de build/distribuição
+vendor/            # Dependências de terceiros (usado em PHP, Go, etc.)
+build/             # Diretório de build geral
+.next/             # Diretório de build do Next.js
+.nuxt/             # Diretório de build do Nuxt.js
+public/build/      # Outros diretórios de build comuns
+
+# Arquivos de configuração e de controle de versão
+.env               # Arquivos de variáveis de ambiente
+.env.*             # Variações de arquivos de variáveis de ambiente
+.gitignore         # O próprio .gitignore
+.npmrc             # Configuração do NPM
+.yarnrc            # Configuração do Yarn
+package-lock.json  # Arquivo de lock do NPM (geralmente não incluído na mesclagem de código-fonte)
+yarn.lock          # Arquivo de lock do Yarn (geralmente não incluído na mesclagem de código-source)
+pnpm-lock.yaml     # Arquivo de lock do PNPM
+
+# Arquivos temporários, de log e de banco de dados
+*.db               # Arquivos de banco de dados (SQLite, etc.)
+*.log              # Arquivos de log
+*.tmp              # Arquivos temporários
+temp/              # Diretório temporário
+cache/             # Diretório de cache
+tmp/               # Outro diretório temporário
+uploads/temp/      # Diretório temporário dentro de uploads
+storage/logs/      # Logs do Laravel
+storage/framework/cache/ # Cache do Laravel
+
+# Arquivos de imagem e mídia (comuns em projetos web)
+*.svg              # Imagens SVG
+*.png              # Imagens PNG
+*.jpg              # Imagens JPG/JPEG
+*.jpeg             # Imagens JPEG
+*.gif              # Imagens GIF
+*.bmp              # Imagens BMP
+*.ico              # Ícones
+*.webp             # Imagens WebP
+
+# Outros tipos de arquivos gerados ou binários
+*.map              # Source maps
+*.min.js           # Arquivos JavaScript minificados (se não forem o código-fonte principal)
+*.min.css          # Arquivos CSS minificados (se não forem o código-fonte principal)
+Thumbs.db          # Cache de miniaturas do Windows
+.DS_Store          # Arquivos de metadados do macOS
+
+--- C:\Users\willi\.config\opencode\skills\merge\merge.py ---
+
+import os
+import sys
+import fnmatch
+
+
+def load_ignore_patterns(target_path, script_path):
+    patterns = []
+
+    # 1️⃣ tenta no diretório alvo
+    target_ignore = os.path.join(target_path, ".mergeignore")
+
+    # 2️⃣ fallback: diretório do script
+    script_ignore = os.path.join(script_path, ".mergeignore")
+
+    ignore_file = None
+
+    if os.path.isfile(target_ignore):
+        ignore_file = target_ignore
+        print(f"Usando .mergeignore do alvo: {ignore_file}")
+    elif os.path.isfile(script_ignore):
+        ignore_file = script_ignore
+        print(f"Usando .mergeignore do script: {ignore_file}")
+    else:
+        print("Nenhum .mergeignore encontrado.")
+        return patterns
+
+    with open(ignore_file, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#"):
+                patterns.append(line)
+
+    return patterns
+
+
+def should_ignore(path, patterns, base_path):
+    rel_path = os.path.relpath(path, base_path).replace("\\", "/")
+
+    for pattern in patterns:
+        pattern = pattern.rstrip("/")
+
+        # ignora diretórios inteiros
+        if rel_path.startswith(pattern):
+            return True
+
+        # ignora por wildcard
+        if fnmatch.fnmatch(rel_path, pattern):
+            return True
+
+    return False
+
+
+def merge_files_in_directory(base_path, script_path, output_filename="merged_output.txt"):
+    print(f"Iniciando em: {base_path}")
+
+    ignore_patterns = load_ignore_patterns(base_path, script_path)
+    output_path = os.path.join(base_path, output_filename)
+
+    try:
+        with open(output_path, 'w', encoding='utf-8') as outfile:
+
+            for root, dirs, files in os.walk(base_path):
+
+                # 🔥 impede entrar em pastas ignoradas
+                dirs[:] = [
+                    d for d in dirs
+                    if not should_ignore(os.path.join(root, d), ignore_patterns, base_path)
+                ]
+
+                for filename in files:
+                    file_path = os.path.join(root, filename)
+
+                    if filename == output_filename:
+                        continue
+
+                    if should_ignore(file_path, ignore_patterns, base_path):
+                        print(f"Ignorado: {file_path}")
+                        continue
+
+                    try:
+                        with open(file_path, 'r', encoding='utf-8', errors='ignore') as infile:
+                            outfile.write(f"\n--- {file_path} ---\n\n")
+                            outfile.write(infile.read())
+
+                        print(f"OK: {file_path}")
+
+                    except Exception as e:
+                        print(f"Erro: {file_path} -> {e}")
+
+        print(f"\nFinalizado: {output_path}")
+
+    except Exception as e:
+        print(f"Erro geral: {e}")
+
+
+if __name__ == "__main__":
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+
+    if len(sys.argv) > 1:
+        base_dir = sys.argv[1].strip('"').strip("'")
+    else:
+        base_dir = script_dir
+
+    if not os.path.isdir(base_dir):
+        print(f"Caminho inválido: {base_dir}")
+    else:
+        merge_files_in_directory(base_dir, script_dir)
+
+--- C:\Users\willi\.config\opencode\skills\merge\SKILL.md ---
+
+---
+name: merge
+description: Mescla todos os arquivos de um diretório em um único arquivo de saída (respeitando regras de exclusão de um arquivo .mergeignore).
+triggers: ["merge", "mesclar arquivos", "mesclar pasta", "merge files", "merge directory"]
+---
+
+## What I do
+Executa um script Python que:
+1. Varre recursivamente um diretório informado (ou o diretório atual do script por padrão).
+2. Carrega padrões de arquivos a serem ignorados a partir de um arquivo `.mergeignore` (caso exista).
+3. Concatena o conteúdo de todos os arquivos não ignorados em um único arquivo chamado `merged_output.txt`.
+
+## Usage
+O skill usa o comando:
+```bash
+python "~/.config/opencode/skills/merge/merge.py" "caminho_diretorio"
+```
+
+## Parameters
+- `caminho_diretorio`: (Opcional) O diretório cujos arquivos devem ser mesclados. Se omitido, usa o diretório do próprio script.
