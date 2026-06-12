@@ -1,3 +1,9 @@
+---
+name: commit-recover
+description: Recupera e exibe os comentarios das ultimas alteracoes commitadas na pasta `commits/` de um projeto.
+triggers: ["recuperar commits", "historico de commits", "ver commits", "listar commits", "commit history", "recover commits", "commits folder", "commits/", "historico commits", "recuperar historico"]
+---
+
 # Skill: commit-recover
 
 ## What I do
