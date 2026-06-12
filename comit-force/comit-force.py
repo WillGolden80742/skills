@@ -14,7 +14,7 @@ def get_staged_files(cwd):
     return stdout.split("\n") if stdout else []
 
 def get_commit_hash(cwd):
-    stdout, _, _ = run_git_command(["git", "rev-HEAD", "--short"], cwd)
+    stdout, _, _ = run_git_command(["git", "rev-parse", "--short", "HEAD"], cwd)
     return stdout
 
 def create_commit_file(project_path, commit_id, message, files, commit_hash):
@@ -125,7 +125,17 @@ def main():
         print("Nenhum arquivo para comitar")
         return
     
-    _, stderr, code = run_git_command(["git", "commit", "--force-with-lease", "-m", args.message], project_path)
+    commit_hash = get_commit_hash(project_path)
+    commit_id = commit_hash[:7] if commit_hash else "0000000"
+    
+    print("Criando arquivo de commit em commits/...")
+    create_commit_file(project_path, commit_id, args.message, staged, commit_hash)
+    
+    print("Atualizando README.md...")
+    update_readme(project_path, args.message, staged)
+    
+    print("Fazendo commit...")
+    _, stderr, code = run_git_command(["git", "commit", "-m", args.message], project_path)
     
     if code != 0:
         if "nothing to commit" in stderr.lower():
@@ -135,24 +145,20 @@ def main():
         return
     
     commit_hash = get_commit_hash(project_path)
-    commit_id = commit_hash[:7]
     
-    create_commit_file(project_path, commit_id, args.message, staged, commit_hash)
-    update_readme(project_path, args.message, staged)
-    
-    print(f"Commit forcado realizado: {commit_id}")
+    print(f"Commit realizado: {commit_hash[:7]}")
     
     print("Fazendo pull --rebase antes do push...")
     _, pull_stderr, pull_code = run_git_command(["git", "pull", "--rebase"], project_path)
     if pull_code != 0:
         print(f"Aviso no pull: {pull_stderr}")
     
-    print("Fazendo push forcado com --force-with-lease...")
-    _, push_stderr, push_code = run_git_command(["git", "push", "--force-with-lease"], project_path)
+    print("Fazendo push...")
+    _, push_stderr, push_code = run_git_command(["git", "push"], project_path)
     if push_code != 0:
         print(f"Erro no push: {push_stderr}")
     else:
-        print("Push forcado realizado com sucesso")
+        print("Push realizado com sucesso")
 
 if __name__ == "__main__":
     main()
