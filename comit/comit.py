@@ -47,7 +47,7 @@ def create_commit_file(project_path, commit_id, message, files, commit_hash):
     return filepath
 
 def update_readme(project_path, message, files):
-    readme_path = os.path.join(project_path, "README.md")
+    readme_path = os.path.join(project_path, "README.MD")
     
     changes = []
     for f in files:
@@ -125,15 +125,6 @@ def main():
         print("Nenhum arquivo para comitar")
         return
     
-    commit_hash = get_commit_hash(project_path)
-    commit_id = commit_hash[:7] if commit_hash else "0000000"
-    
-    print("Criando arquivo de commit em commits/...")
-    create_commit_file(project_path, commit_id, args.message, staged, commit_hash)
-    
-    print("Atualizando README.md...")
-    update_readme(project_path, args.message, staged)
-    
     print("Fazendo commit...")
     _, stderr, code = run_git_command(["git", "commit", "-m", args.message], project_path)
     
@@ -145,8 +136,29 @@ def main():
         return
     
     commit_hash = get_commit_hash(project_path)
+    commit_id = commit_hash[:7] if commit_hash else "0000000"
     
     print(f"Commit realizado: {commit_hash[:7]}")
+    
+    print("Criando arquivo de commit em commits/...")
+    create_commit_file(project_path, commit_id, args.message, staged, commit_hash)
+    
+    print("Fazendo commit do historico...")
+    run_git_command(["git", "add", "commits/"], project_path)
+    _, _, commit_hist_code = run_git_command(["git", "commit", "-m", f"chore: historico commit {commit_id}"], project_path)
+    if commit_hist_code == 0:
+        commit_hash = get_commit_hash(project_path)
+        print(f"Commit do historico realizado: {commit_hash[:7]}")
+    
+    print("Atualizando README.md...")
+    update_readme(project_path, args.message, staged)
+    
+    print("Fazendo commit do README...")
+    run_git_command(["git", "add", "README.MD"], project_path)
+    _, _, readme_code = run_git_command(["git", "commit", "-m", f"docs: atualizar historico"], project_path)
+    if readme_code == 0:
+        commit_hash = get_commit_hash(project_path)
+        print(f"Commit do README realizado: {commit_hash[:7]}")
     
     print("Fazendo pull antes do push...")
     _, pull_stderr, pull_code = run_git_command(["git", "pull", "--rebase"], project_path)

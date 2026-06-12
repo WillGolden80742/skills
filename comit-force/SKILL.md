@@ -6,11 +6,12 @@ triggers: ["comit-force", "commit-force", "force commit", "comit forcado"]
 
 ## What I do
 Executa commits Git forçados com as seguintes caracteristicas:
-1. Cria arquivo de historico do commit em `commits/commit-[id]-[timestamp].md`
-2. Atualiza README.md com o historico de commits
-3. Executa o commit Git com --force-with-lease
-4. Faz pull --rebase antes do push
-5. Faz push forcado com --force-with-lease
+1. Executa o commit Git
+2. Cria arquivo de historico do commit em `commits/commit-[id]-[timestamp].md` (com hash correto)
+3. Commita o arquivo de historico
+4. Atualiza README.md com o historico de commits
+5. Faz pull --rebase antes do push
+6. Faz push forcado com --force-with-lease
 
 ## Parameters
 - `message`: Mensagem do commit
