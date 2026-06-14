@@ -1,5 +1,5 @@
 ---
-name: skill
+name: comit
 description: Cria commits Git com historico timestampado em commits/
 triggers: ["skill", "comit", "commit", "git commit"]
 ---
