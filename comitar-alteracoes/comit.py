@@ -10,7 +10,7 @@ IGNORE_DIRS = {'vendor', 'node_modules', '.git', 'commits'}
 IGNORE_FILES = {'.', '..'}
 
 def run_git_command(args, cwd):
-    result = subprocess.run(args, cwd=cwd, capture_output=True, text=True, shell=True)
+    result = subprocess.run(args, cwd=cwd, capture_output=True, text=True, encoding='utf-8', errors='replace', shell=True)
     return result.stdout.strip(), result.stderr.strip(), result.returncode
 
 def get_staged_files(cwd):
