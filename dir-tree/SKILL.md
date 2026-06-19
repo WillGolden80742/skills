@@ -33,7 +33,7 @@ python "~/.config/opencode/skills/dir-tree/dir_tree.py" C:/MeuProjeto arvore.md
 ```
 
 ## Observação
-A árvore exibe **todos** os arquivos e diretórios, sem ignorar nada. O filtro para o merge é feito pelo `.mergeignore` no skill de merge.
+A árvore exibe diretórios ignorados (`.git`, `node_modules`, `vendor`, `__pycache__`, etc.) mas **não** desce recursivamente neles — mostra apenas o nome, sem o conteúdo interno. O filtro para o merge é feito pelo `.mergeignore` no skill de merge.
 
 ## Exemplo de saída
 ```

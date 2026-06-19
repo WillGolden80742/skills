@@ -1,6 +1,11 @@
 import sys
 from pathlib import Path
 
+DIRS_TO_SKIP = {
+    ".git", "node_modules", "vendor", "__pycache__", ".pnpm",
+    ".next", ".nuxt", ".cache", "dist", "build", ".venv", "venv",
+}
+
 def generate_tree(path: Path, prefix: str = "", root: str = "") -> str:
     lines = []
 
@@ -23,6 +28,8 @@ def generate_tree(path: Path, prefix: str = "", root: str = "") -> str:
 
         if entry.is_dir():
             extension = "|   " if i < len(entries) - 1 else "    "
+            if entry.name in DIRS_TO_SKIP:
+                continue
             sub = generate_tree(entry, prefix + extension, root)
             lines.append(sub)
 
@@ -55,11 +62,10 @@ def main():
         sys.exit(1)
 
     tree = generate_tree(target)
+    print(tree)
 
-    if output:
-        save_to_file(tree, output)
-    else:
-        print(tree)
+    dir_md = target / "dir.md"
+    save_to_file(tree, str(dir_md))
 
 
 if __name__ == "__main__":

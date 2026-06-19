@@ -2,10 +2,39 @@ import os
 import sys
 import fnmatch
 import subprocess
+import re
 
 
 SKILLS_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DIR_TREE_PY = os.path.join(SKILLS_DIR, "dir-tree", "dir_tree.py")
+
+
+def parse_dir_md(base_path):
+    dir_md = os.path.join(base_path, "dir.md")
+    if not os.path.isfile(dir_md):
+        print(f"[AVISO] dir.md nao encontrado em: {dir_md}")
+        return None
+    files = set()
+    stack = []
+    with open(dir_md, "r", encoding="utf-8") as f:
+        for line in f:
+            raw = line.rstrip("\n")
+            if not raw or raw.startswith("#") or raw.startswith("```"):
+                continue
+            if "-- " not in raw:
+                continue
+            depth = raw.index("-- ") // 4
+            name = raw.split("-- ")[-1].strip()
+            if not name:
+                continue
+            stack = stack[:depth]
+            stack.append(name)
+            rel = "/".join(stack)
+            full = os.path.normpath(os.path.join(base_path, rel))
+            if os.path.isfile(full):
+                files.add(full)
+    print(f"[INFO] dir.md: {len(files)} arquivos listados")
+    return files
 
 
 def show_directory_tree(target_path):
@@ -71,6 +100,7 @@ def merge_files_in_directory(base_path, script_path, output_filename="merged_out
     print(f"Iniciando merge em: {base_path}")
 
     ignore_patterns = load_ignore_patterns(base_path, script_path)
+    manifest = parse_dir_md(base_path)
     output_path = os.path.join(base_path, output_filename)
 
     try:
@@ -90,7 +120,11 @@ def merge_files_in_directory(base_path, script_path, output_filename="merged_out
                         continue
 
                     if should_ignore(file_path, ignore_patterns, base_path):
-                        print(f"Ignorado: {file_path}")
+                        print(f"Ignorado (.mergeignore): {file_path}")
+                        continue
+
+                    if manifest is not None and file_path not in manifest:
+                        print(f"Ignorado (fora do dir.md): {file_path}")
                         continue
 
                     try:
