@@ -76,7 +76,7 @@ def scan_php_classes(project_path, subdir):
     files = sorted([f for f in os.listdir(d) if f.endswith('.php') and f not in IGNORE_FILES])
     result = []
     for f in files:
-        name = f.replace('.php', '')
+        name = f"`{f.replace('.php', '')}`"
         fp = os.path.join(d, f)
         description = ""
         with open(fp, 'r', encoding='utf-8', errors='ignore') as fh:
@@ -140,28 +140,28 @@ def update_readme_structure(project_path):
         'Services': scan_php_classes(project_path, 'services'),
     }
 
-    if 'Controllers' in str(content):
-        rows = [(name, desc[:60]) for name, desc in sections['Controllers']]
-        table = make_table(rows, ["Controller", "Responsabilidade"])
-        marker_start = "| `AdminController`"
-        marker_end = "### Models"
-        if marker_start in content and marker_end in content:
-            start_idx = content.rindex("| `", 0, content.index("### Models"))
-            end_idx = content.index("### Models")
-            old = content[start_idx:end_idx]
-            content = content.replace(old, table + "\n\n", 1)
-            changed = True
+    table_configs = [
+        ('Controllers', '### Controllers', '### Models',
+         ["Controller", "Responsabilidade"]),
+        ('Models', '### Models', '### Services',
+         ["Model", "Responsabilidade"]),
+        ('Services', '### Services', '## AJAX Actions',
+         ["Service", "Responsabilidade"]),
+    ]
 
-    if 'Models' in str(content):
-        rows = [(name, desc[:60]) for name, desc in sections['Models']]
-        table = make_table(rows, ["Model", "Responsabilidade"])
-        marker_start = "| `AdminModel`"
-        marker_end = "### Services"
-        if marker_start in content and marker_end in content:
-            start_idx = content.rindex("| `", 0, content.index("### Services"))
-            end_idx = content.index("### Services")
-            old = content[start_idx:end_idx]
-            content = content.replace(old, table + "\n\n", 1)
+    for section_name, section_header, next_header, headers in table_configs:
+        if section_header not in content or next_header not in content:
+            continue
+        rows = [(name, desc[:60]) for name, desc in sections[section_name]]
+        new_table = make_table(rows, headers)
+        section_start = content.index(section_header)
+        search_area = content[section_start:content.index(next_header)]
+        table_match = re.search(r'^\| ' + re.escape(headers[0]) + r'\s+\|', search_area, re.MULTILINE)
+        if table_match:
+            table_start = section_start + table_match.start()
+            table_end = content.index(next_header)
+            old = content[table_start:table_end]
+            content = content.replace(old, new_table + "\n\n", 1)
             changed = True
 
     if changed:
