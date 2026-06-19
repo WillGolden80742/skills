@@ -1,12 +1,7 @@
 ---
 name: uailove
 description: Tema WordPress tipo SPA (Single Page Application) para app de relacionamento, usando arquitetura MVC customizada em PHP com WebSocket externo Node.js.
-triggers:
-  - uailove
-  - tema wordpress mvc
-  - websocket moedadetroka
-  - app de relacionamento
-  - discovery / matches / messages / points / shop
+triggers: ["uailove", "tema uailove", "app relacionamento", "dating app", "tema wordpress mvc", "websocket", "moedadetroka", "spa wordpress", "discovery", "matches", "messages", "points", "shop", "mvc wordpress", "tema spa", "single page application", "uailove tema", "perfil usuario", "match", "chat mensagem", "notificacao", "pwa", "service worker", "likes", "fotos perfil", "websocket node", "node websocket", "tempo real", "real time", "long polling", "uailove ws", "app namoro", "site relacionamento", "platfroma dating", "mimos", "presente virtual"]
 ---
 
 ## Arquitetura

@@ -1,7 +1,7 @@
 ---
 name: web-artifacts-builder
 description: Cria artefatos HTML complexos com React, Tailwind CSS e shadcn/ui para exibir no chat.
-triggers: ["html", "react", "artifact", "shadcn", "webapp", "componente"]
+triggers: ["html", "react", "artifact", "shadcn", "webapp", "componente", "artefato web", "componente react", "tailwind css", "react typescript", "vite", "parcel", "bundle html", "web artifact", "criar artefato", "html bundle", "react componente", "shadcn ui", "ui component", "artefato html", "frontend react", "react app", "criar webapp", "componente ui", "single html", "self contained html", "html unico", "bundle react", "aplicacao react", "interface react", "gerar html"]
 ---
 
 # Skill Web Artifacts Builder

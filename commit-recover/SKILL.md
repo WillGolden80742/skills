@@ -1,7 +1,7 @@
 ---
 name: commit-recover
 description: Recupera e exibe os comentarios das ultimas alteracoes commitadas na pasta `commits/` de um projeto.
-triggers: ["recuperar commits", "historico de commits", "ver commits", "listar commits", "commit history", "recover commits", "commits folder", "commits/", "historico commits", "recuperar historico"]
+triggers: ["recuperar commits", "historico de commits", "ver commits", "listar commits", "commit history", "recover commits", "commits folder", "commits/", "historico commits", "recuperar historico", "ultimos commits", "commits recentes", "exibir commits", "mostrar commits", "recuperar alteracoes", "ver alteracoes", "log commits", "commit log", "historico alteracoes", "registro de commits", "commit messages", "recuperar mensagem", "commits antigos", "commits salvos", "pasta commits", "ler commits", "exibir historico", "buscar commits", "visualizar commits", "detalhes commit", "arquivo commit"]
 ---
 
 # Skill: commit-recover

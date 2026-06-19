@@ -1,7 +1,7 @@
 ---
 name: canvas-design
 description: Cria designs visuais artístico em PNG e PDF usando filosofia de design.
-triggers: ["poster", "arte", "design", "canvas", "visual", "criar arte"]
+triggers: ["poster", "arte", "design", "canvas", "visual", "criar arte", "filosofia design", "design visual", "composicao", "layout artistico", "arte digital", "criar poster", "gerar arte", "design grafico", "composicao visual", "espaco forma", "cor material", "escala ritmo", "equilibrio visual", "hierarquia visual", "design expressionista", "brutalista", "minimalismo", "poesia concreta", "png arte", "pdf arte", "design artistico", "peça visual", "comunicacao visual", "forma cor", "movimento artistico", "identidade visual arte", "criacao visual", "manifesto design"]
 ---
 
 # Skill Canvas Design

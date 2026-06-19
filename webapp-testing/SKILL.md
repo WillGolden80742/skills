@@ -1,7 +1,7 @@
 ---
 name: webapp-testing
 description: Toolkit para testar aplicações web locais usando Playwright. Verifica funcionalidade frontend, debug UI, screenshots.
-triggers: ["testar", "testing", "playwright", "webapp", "automacao", "debug"]
+triggers: ["testar", "testing", "playwright", "webapp", "automacao", "debug", "teste web", "automacao navegador", "browser automation", "e2e test", "end to end test", "teste funcional", "teste frontend", "teste integracao", "playwright test", "with server", "servidor teste", "teste local", "webapp test", "debug ui", "inspecionar dom", "seletores", "wait networkidle", "screenshot test", "teste visual", "page object", "browser test", "chrome test", "chromium", "headless test", "automacao web", "teste aceitacao", "teste regressao"]
 ---
 
 # Skill Webapp Testing

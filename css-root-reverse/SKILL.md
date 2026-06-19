@@ -1,7 +1,7 @@
 ---
 name: css-root-reverse
 description: Reverte um arquivo CSS refatorado com variáveis CSS (:root) de volta para valores diretos.
-triggers: ["css-root-reverse", "css root reverse", "reverter css", "reverter variaveis css", "css variables reverse"]
+triggers: ["css-root-reverse", "css root reverse", "reverter css", "reverter variaveis css", "css variables reverse", "desfazer root", "remover var css", "inline css", "css direto", "valores literais css", "reverter refatoracao", "desfazer refatoracao", "css original", "voltar css", "extrair valores css", "substituir var css", "css reverso", "reverter arquivo css", "desfazer variaveis", "remover :root", "tirar variaveis css", "css revertido", "backup css", "css desrefatorado", "reverter estilo", "css inline", "css sem variaveis", "excluir variaveis", "voltar ao normal css", "css original back", "reverse refactoring"]
 ---
 
 ## What I do

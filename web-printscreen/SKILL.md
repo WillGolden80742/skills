@@ -1,7 +1,7 @@
 ---
 name: web-printscreen
 description: Captura screenshots de paginas web usando Playwright, com suporte a servidor local
-triggers: ['printscreen', 'screenshot', 'capturar tela', 'web print', 'print tela']
+triggers: ["printscreen", "screenshot", "capturar tela", "web print", "print tela", "tirar print", "capturar pagina", "screenshot web", "foto site", "captura site", "screenshot full page", "full page screenshot", "playwright screenshot", "print navegador", "capturar url", "imagem site", "thumbnail site", "preview site", "captura tela inteira", "screenshot desktop", "screenshot mobile", "print responsivo", "screenshot viewport", "capturar webapp", "tela site", "salvar imagem site", "screenshot png", "captura servidor local", "with server screenshot", "networkidle screenshot"]
 ---
 
 # Web PrintScreen

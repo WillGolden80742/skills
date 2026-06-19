@@ -1,7 +1,7 @@
 ---
 name: pptx
 description: Cria e edita apresentações PowerPoint (.pptx). Use para criar slides, decks, apresentações.
-triggers: ["pptx", "powerpoint", "slides", "apresentacao", "deck", "criar slides"]
+triggers: ["pptx", "powerpoint", "slides", "apresentacao", "deck", "criar slides", "criar pptx", "editar pptx", "apresentacao slides", "slide deck", "powerpoint presentation", "criar apresentacao", "slide design", "template slides", "slide mestre", "microsoft powerpoint", "editar apresentacao", "paleta slides", "tema slides", "transicao slides", "animacao slides", "slide profissional", "deploy pptx", "converter pptx", "markitdown pptx", "slide imagem", "thumbnail slide", "design slide", "slide titulo", "slide conteudo", "slide grafico", "fonte slides", "tamanho slide"]
 ---
 
 # Skill PPTX - Apresentações PowerPoint

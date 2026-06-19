@@ -1,7 +1,7 @@
 ---
 name: file-rename
 description: Renomeia um arquivo e atualiza automaticamente todas as referências em arquivos do projeto (.php, .js, .css, etc.)
-triggers: ["renomear", "rename", "renomeia", "file rename", "rename file"]
+triggers: ["renomear", "rename", "renomeia", "file rename", "rename file", "renomear arquivo", "mudar nome", "trocar nome", "renomear classe", "refatorar nome", "alterar nome", "rename class", "mudar nome arquivo", "renomear pasta", "renomear diretorio", "atualizar referencias", "rename references", "mudar nome classe", "renomear projeto", "rename project", "mover arquivo", "file renaming", "renomear php", "rename php file", "renomear js", "rename js file", "alterar nome arquivo", "mudar referencia", "renomear com replace", "rename all", "atualizar imports", "atualizar includes", "refatorar renomear"]
 ---
 
 ## What I do

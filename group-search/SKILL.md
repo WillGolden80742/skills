@@ -1,13 +1,7 @@
 ---
 name: group-search
 description: Plugin WordPress Group Search Bot — bot de busca inteligente em grupos WhatsApp via Uazapi com IA think mode, logs detalhados e painel wp-admin.
-triggers:
-  - group search bot
-  - busca whatsapp grupo
-  - bot whatsapp woocommerce
-  - uazapi busca produtos
-  - think mode produtos
-  - grupo moeda troka
+triggers: ["group search", "group search bot", "busca whatsapp", "bot whatsapp", "uazapi", "think mode", "grupo moeda troka", "buscar produto whatsapp", "bot woocommerce", "whatsapp woocommerce", "busca inteligente", "busca em grupo", "pesquisar produto", "tem produto", "consulta estoque", "whatsapp bot", "uazapi bot", "group search plugin", "wordpress bot", "produto whatsapp", "busca woocommerce", "think mode retroativo", "deep search", "busca profunda", "inteligencia whatsapp", "bot busca", "pesquisa whatsapp", "whatsapp group", "wpp bot", "zap bot", "buscar oferta", "consulta whatsapp", "automacao whatsapp", "bot de busca"]
 ---
 
 ## Visão Geral

@@ -1,20 +1,7 @@
 ---
 name: pdf
 description: Processa arquivos PDF - ler, extrair texto/tabelas, mesclar, dividir, criar PDFs.
-triggers:
-  - "pdf"
-  - "convert * to pdf"
-  - "converter * para pdf"
-  - "merge pdf"
-  - "mesclar pdf"
-  - "split pdf"
-  - "dividir pdf"
-  - "extract text from pdf"
-  - "extrair texto do pdf"
-  - "create pdf"
-  - "criar pdf"
-  - "read pdf"
-  - "ler pdf"
+triggers: ["pdf", "arquivo pdf", "documento pdf", "ler pdf", "criar pdf", "extrair texto pdf", "extrair tabela pdf", "mesclar pdf", "merge pdf", "split pdf", "dividir pdf", "combinar pdf", "unir pdf", "converter pdf", "pdf para texto", "pdf para imagem", "pdf escaneado", "ocr pdf", "pypdf", "pdfplumber", "reportlab", "pdftotext", "qpdf", "pdf2image", "pytesseract", "gerar pdf", "editar pdf", "modificar pdf", "extrair pagina pdf", "remover pagina pdf", "adicionar pagina pdf", "pdf metadata", "ler documento pdf", "documento digitalizado", "pdf a4", "formulario pdf"]
 ---
 
 # Skill PDF - Processamento de PDFs

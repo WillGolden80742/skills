@@ -1,12 +1,7 @@
 ---
 name: trokapay
 description: Tema WordPress MoedaDeTroka/Trokapay — marketplace de permutas com WooCommerce, WhatsApp integrado, sistema de comissões e indicações.
-triggers:
-  - trokapay
-  - moeda de troka
-  - moedadetroka
-  - tema wordpress marketplace
-  - ofertas / permutas / whatsapp woocommerce
+triggers: ["trokapay", "moeda de troka", "moedadetroka", "tema marketplace", "wordpress marketplace", "ofertas", "permutas", "whatsapp woocommerce", "woocommerce troca", "marketplace permuta", "comissao", "indicacao", "afiliado", "voucher", "transacao", "cheque especial", "overdraft", "price split", "saldo pl", "moeda interna", "criar oferta", "produto troca", "associado", "empresa parceira", "uazapi trokapay", "whatsapp oferta", "cptfactory", "woocommerce personalizado", "rest api trokapay", "shortcode oferta", "wordpress trokapay", "tema trokapay", "permuta online", "negocio troca", "promotor"]
 ---
 
 ## Arquitetura

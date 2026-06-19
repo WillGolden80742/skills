@@ -1,7 +1,7 @@
 ---
 name: frontend-design
 description: Design visual distintivo para UI. Auxilia com estética, tipografia e escolhas que não pareçam templates genéricos.
-triggers: ["design", "frontend", "ui", " interface", "tipografia", "cores"]
+triggers: ["design", "frontend", "ui", "interface", "tipografia", "cores", "design frontend", "identidade visual ui", "componentes ui", "layout", "wireframe", "paleta cores", "fontes", "tipografia ui", "sistema design", "design system", "tokens design", "design tokens", "estilo visual", "tema frontend", "css design", "interface usuario", "ux design", "experiencia usuario", "escala tipografica", "hierarquia visual", "microinteracoes", "animacao ui", "grid layout", "espacamento", "design hero", "briefing design", "design unico"]
 ---
 
 # Skill Frontend Design

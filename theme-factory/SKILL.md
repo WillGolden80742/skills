@@ -1,7 +1,7 @@
 ---
 name: theme-factory
 description: Aplica temas de cores e fontes profissionais a slides e artefatos. 10 temas predefinidos disponíveis.
-triggers: ["tema", "cores", "estilo", "design theme", "slides"]
+triggers: ["tema", "cores", "estilo", "design theme", "slides", "aplicar tema", "escolher tema", "paleta tema", "tema slides", "tema apresentacao", "tema personalizado", "tema profissional", "esquema cores", "combinacao cores", "fontes tema", "temas disponiveis", "ocean depths", "sunset boulevard", "forest canopy", "modern minimalist", "golden hour", "arctic frost", "desert rose", "tech innovation", "botanical garden", "midnight galaxy", "tema escuro", "tema claro", "tema moderno", "identidade slides", "colorir slides", "estilo visual tema", "custom theme", "selecionar tema"]
 ---
 
 # Skill Theme Factory

@@ -1,7 +1,7 @@
 ---
 name: css-root
 description: Refatora um arquivo CSS comum para usar variáveis CSS no bloco :root, criando variáveis para valores que se repetem mais de 2 vezes.
-triggers: ["css-root", "css root", "refatorar css", "variaveis css", "css variables"]
+triggers: ["css-root", "css root", "refatorar css", "variaveis css", "css variables", "root css", "var css", "custom properties", "css custom properties", "refatorar arquivo css", "otimizar css", "repeticao css", "valores repetidos css", "organizar css", "padronizar css", "css :root", "bloco root", "declarar variaveis", "criar variaveis css", "substituir valores css", "css refatorado", "melhorar css", "limpar css", "css pendente", "refatoracao css", "extrair variaveis", "codigo css limpo", "css maintainable", "css manutencao", "css consistente", "automatizar css"]
 ---
 
 ## What I do

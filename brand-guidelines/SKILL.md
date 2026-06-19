@@ -1,7 +1,7 @@
 ---
 name: brand-guidelines
 description: Aplica cores e tipografia oficial da Anthropic a artefatos visuais.
-triggers: ["branding", "marca", "cores empresa", "identidade visual", "estilo anthropic"]
+triggers: ["branding", "marca", "cores empresa", "identidade visual", "estilo anthropic", "diretrizes marca", "brand guidelines", "paleta cores", "tipografia marca", "fontes marca", "poppins", "lora", "guia estilo", "style guide", "manual marca", "visual identity", "brand colors", "cores institucionais", "fontes institucionais", "aplicacao marca", "uso marca", "marca anthropic", "dark light", "mid gray", "orange destaque", "blue destaque", "green destaque", "comunicacao visual", "identidade corporativa", "brand design", "logo cores", "esquema cores", "brand book"]
 ---
 
 # Skill Brand Guidelines

@@ -1,7 +1,7 @@
 ---
 name: comit
 description: Cria commits Git com historico timestampado em commits/
-triggers: ["skill", "comit", "commit", "git commit"]
+triggers: ["comit", "comitar", "commit", "commitar", "git commit", "fazer commit", "criar commit", "enviar commit", "push", "git push", "commit force", "force push", "git force", "commit historico", "salvar alteracoes", "registrar alteracao", "versionar codigo", "git add", "git message", "mensagem commit", "commit arquivos", "commit projeto", "commits pasta", "timestamp commit", "registro commit", "git pull", "rebase", "git rebase", "commit com mensagem", "--force-with-lease", "git salvar"]
 ---
 
 ## What I do

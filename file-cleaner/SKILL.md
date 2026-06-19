@@ -1,7 +1,7 @@
 ---
 name: file-cleaner
 description: Remove arquivos, diretorios e dependencias de projetos (vendor Composer, pacotes npm)
-triggers: ["remover", "clean", "limpar", "delete", "remove", "cleaner", "deletar", "remover dependencia", "remove dependency"]
+triggers: ["remover", "clean", "limpar", "delete", "remove", "cleaner", "deletar", "remover dependencia", "remove dependency", "limpar projeto", "remover vendor", "remover node_modules", "composer remove", "npm remove", "limpar composer", "limpar npm", "desinstalar pacote", "remover pacote", "clean projeto", "limpar cache", "remover diretorio", "remover pasta", "delete folder", "remove directory", "excluir dependencia", "desinstalar dependencia", "composer clean", "npm clean", "limpar dependencias", "remover composer package", "remover npm package", "cleaner projeto", "file cleaner", "limpeza projeto", "limpar workspace"]
 ---
 
 ## What I do

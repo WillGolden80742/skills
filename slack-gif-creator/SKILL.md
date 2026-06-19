@@ -1,7 +1,7 @@
 ---
 name: slack-gif-creator
 description: Cria GIFs animados otimizados para Slack com ferramentas de validação e conceitos de animação.
-triggers: ["gif", "slack", "animacao", "criar gif", "emoji gif"]
+triggers: ["gif", "slack", "animacao", "criar gif", "emoji gif", "gif animado", "criar animacao", "gif slack", "gif emoji", "animated gif", "gif builder", "fazer gif", "gerar gif", "gif otimizado", "otimizar gif", "gif cores", "gif fps", "gif tamanho", "gif dimensoes", "gif 128x128", "gif 480x480", "gif validar", "validar gif", "slack ready", "easing animation", "pulse animation", "bounce animation", "shake animation", "spin animation", "fade animation", "slide animation", "explode animation"]
 ---
 
 # Skill Slack GIF Creator

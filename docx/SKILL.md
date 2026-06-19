@@ -1,7 +1,7 @@
 ---
 name: docx
 description: Cria, lê e edita documentos Word (.docx). Use para criar relatórios, cartas, documentos profissionais com formatação.
-triggers: ["word", "docx", "documento word", "relatorio word", "criar documento", "editar docx"]
+triggers: ["word", "docx", "documento word", "relatorio word", "criar documento", "editar docx", "criar docx", "editar word", "microsoft word", "arquivo word", "documento profissional", "carta formal", "relatorio profissional", "documento formatado", "word com tabela", "word com imagem", "cabecalho word", "rodape word", "sumario word", "numero pagina word", "estilos word", "fonte word", "margem word", "formatação word", "pandoc docx", "converter docx", "docx javascript", "criar relatorio", "carta comercial", "documento oficial", "word documento", "edit word", "ler docx", "abrir docx", "gerar word"]
 ---
 
 # Skill DOCX - Documentos Word

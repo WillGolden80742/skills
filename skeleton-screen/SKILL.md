@@ -1,7 +1,7 @@
 ---
 name: skeleton-screen
 description: Gera skeleton screens (placeholder de carregamento) com shimmer animation para componentes WordPress
-triggers: ["skeleton", "skeleton screen", "placeholder loading", "shimmer", "esqueleto carregamento", "loading placeholder", "skeleton loader"]
+triggers: ["skeleton", "skeleton screen", "placeholder loading", "shimmer", "esqueleto carregamento", "loading placeholder", "skeleton loader", "loading animation", "animacao carregamento", "shimmer animation", "carregando esqueleto", "skeleton css", "skeleton wordpress", "loading state", "estado carregamento", "skeleton component", "componente loading", "skeleton card", "skeleton text", "skeleton avatar", "skeleton image", "placeholder imagem", "placeholder texto", "skeleton php", "skeleton js", "skeleton javascript", "skeleton inline", "skeleton effect", "efeito carregamento", "skeleton shimmer", "shimmer css"]
 ---
 
 ## What I Do

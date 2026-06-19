@@ -1,3 +1,9 @@
+---
+name: agy
+description: Delega tarefas para o agy com monitoramento via agy-tasks/.
+triggers: ["agy", "tarefa", "task", "todo", "delegar", "monitorar", "agy-tasks", "status", "progresso", "andamento", "pendente", "concluir", "finalizar", "criar task", "nova tarefa", "listar tarefas", "minhas tarefas", "quadro de tarefas", "kanban", "board", "prioridade", "urgente", "bloqueio", "impedimento", "nota", "anotar", "agy.py", "init", "inicializar", "adicionar nota"]
+---
+
 # AGY - Skill de Gerenciamento de Tarefas
 
 Delega tarefas para o agy com monitoramento via `agy-tasks/`.

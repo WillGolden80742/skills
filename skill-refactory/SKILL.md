@@ -1,7 +1,7 @@
 ---
 name: skill-refactory
 description: Remove ou atualiza skills que nao ficaram boas o suficiente.
-triggers: ["remover skill", "refatorar skill", "deletar skill", "update skill", "remover skill ruim", "skill ruim", "skill broken", "atualize skill"]
+triggers: ["remover skill", "refatorar skill", "deletar skill", "update skill", "remover skill ruim", "skill ruim", "skill broken", "atualize skill", "editar skill", "modificar skill", "deletar skill", "excluir skill", "apagar skill", "remover skill opencode", "atualizar skill", "skill desnecessario", "skill quebrado", "corrigir skill", "fix skill", "skill errado", "skill remove", "skill delete", "skill update", "limpar skills", "gerenciar skills", "listar skills", "skill nao presta", "skill refactory", "refatorar skills", "organizar skills", "skill manager"]
 ---
 
 ## What I do

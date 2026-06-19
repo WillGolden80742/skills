@@ -1,7 +1,7 @@
 ---
 name: algorithmic-art
 description: Cria arte algorítmica usando p5.js com aleatoriedade controlada e exploração interativa de parâmetros.
-triggers: ["arte algoritmica", "generative art", "p5.js", "particle", "flow field"]
+triggers: ["arte algoritmica", "arte generativa", "generative art", "p5.js", "particula", "particle", "flow field", "campo de fluxo", "ruido perlin", "perlin noise", "arte computacional", "algoritmo visual", "arte generativa", "creative coding", "codigo criativo", "sketch p5", "animacao generativa", "canvas generative", "random seed", "noise seed", "sistema organico", "comportamento emergente", "caos controlado", "parametros visuais", "variacao parametrica", "mandala algoritmica", "filosofia algoritmica", "arte digital generativa", "turbulencia", "harmonicos", "recursive", "l system", "fractal"]
 ---
 
 # Skill Algorithmic Art

@@ -1,7 +1,7 @@
 ---
 name: skill-factory
 description: Cria um novo skill para o opencode a partir de um template padrao.
-triggers: ["criar skill", "criar nova skill", "new skill", "criar skill nova", "skill factory", "factory skill", "novo skill"]
+triggers: ["criar skill", "criar nova skill", "new skill", "criar skill nova", "skill factory", "factory skill", "novo skill", "criar skill opencode", "skill personalizado", "criar trigger", "adicionar skill", "skill template", "novo skill opencode", "cria skill", "crie skill", "gerar skill", "make skill", "create skill", "skill maker", "skill generator", "gerador skill", "fabricar skill", "skill do zero", "criar conhecimento", "skill custom", "opencode skill", "adicionar conhecimento", "registrar skill", "configurar skill", "criar plugin skill", "skill novo"]
 ---
 
 ## What I do

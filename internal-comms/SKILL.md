@@ -1,7 +1,7 @@
 ---
 name: internal-comms
 description: Cria comunicações internas da empresa - relatórios, newsletters, FAQs, atualizações de projetos.
-triggers: ["comunicado interno", "newsletter", "atualizacao", "relatorio", "faq"]
+triggers: ["comunicado interno", "newsletter", "atualizacao", "relatorio", "faq", "comunicacao interna", "internal comms", "3p update", "progresso planos problemas", "atualizacao semanal", "comunicado empresa", "memo interno", "aviso equipe", "boletim informativo", "email interno", "corporativo", "comunicado oficial", "informe", "relatorio status", "status report", "update projeto", "projeto atualizacao", "incidente relatorio", "post-mortem", "lideranca update", "comunicacao equipe", "newsletter empresa", "perguntas frequentes", "duvidas comuns", "FAQ equipe", "recado interno", "anuncio interno"]
 ---
 
 # Skill Internal Comms

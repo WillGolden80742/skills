@@ -1,7 +1,7 @@
 ---
 name: doc-coauthoring
 description: Guia workflow estruturado para co-autoria de documentação com usuários.
-triggers: ["documentacao", "proposta", "especificacao", "escrever docs", "co-autoria"]
+triggers: ["documentacao", "proposta", "especificacao", "escrever docs", "co-autoria", "co-authoring", "documento", "escrever documento", "criar documento", "redigir", "documentacao tecnica", "documentacao projeto", "prd", "design doc", "decision doc", "rfc", "documento de requisitos", "produto documento", "especificacao tecnica", "guia", "manual", "wiki", "notas release", "changelog", "documentar codigo", "criar guia", "documentar feature", "documento colaborativo", "escrita colaborativa", "co-criar documento", "escrever proposta", "criar especificacao", "doc projeto"]
 ---
 
 # Skill Doc Co-Authoring

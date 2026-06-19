@@ -1,6 +1,7 @@
 ---
 name: mcp-builder
 description: Guia para criar servidores MCP (Model Context Protocol) de alta qualidade que permitem LLMs interagir com serviços externos através de ferramentas bem projetadas. Use ao construir servidores MCP para integrar APIs ou serviços externos, seja em Python (FastMCP) ou Node/TypeScript (MCP SDK).
+triggers: ["mcp", "model context protocol", "criar servidor mcp", "mcp server", "fastmcp", "mcp sdk", "servidor mcp", "ferramenta mcp", "tool mcp", "mcp tool", "mcp resource", "mcp prompt", "mcp transporte", "mcp transport", "streamable http", "mcp stdio", "integrar api", "api externa", "mcp typescript", "mcp python", "mcp inspector", "criar ferramenta", "mcp authentication", "mcp pagination", "mcp error handling", "mcp tool design", "mcp avaliação", "mcp evaluation", "mcp zod", "mcp pydantic", "mcp sdk typescript", "mcp sdk python"]
 license: Termos completos em LICENSE.txt
 ---
 

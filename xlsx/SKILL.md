@@ -1,7 +1,7 @@
 ---
 name: xlsx
 description: Manipula arquivos de planilhas Excel (.xlsx, .xlsm, .csv, .tsv). Use para criar, editar, ler ou converter arquivos de planilhas.
-triggers: ["planilha", "excel", "xlsx", "csv", "spreadsheet", "criar planilha", "editar planilha"]
+triggers: ["planilha", "excel", "xlsx", "csv", "spreadsheet", "criar planilha", "editar planilha", "arquivo excel", "microsoft excel", "planilha excel", "dados tabela", "tabela excel", "formula excel", "openpyxl", "pandas excel", "ler planilha", "importar csv", "exportar csv", "converter csv", "tsv", "arquivo csv", "planilha calculo", "grafico excel", "formatar celula", "fonte planilha", "cor celula", "borda planilha", "sum excel", "abrir planilha", "modificar planilha", "salvar excel", " workbook", " worksheet"]
 ---
 
 # Skill XLSX - Manipulação de Planilhas
