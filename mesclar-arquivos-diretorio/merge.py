@@ -2,7 +2,6 @@ import os
 import sys
 import fnmatch
 import subprocess
-import re
 
 
 SKILLS_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -54,40 +53,90 @@ def show_directory_tree(target_path):
     print("=" * 60 + "\n")
 
 
-def load_ignore_patterns(target_path, script_path):
+def load_script_base_patterns(script_path):
     patterns = []
-
-    target_ignore = os.path.join(target_path, ".mergeignore")
     script_ignore = os.path.join(script_path, ".mergeignore")
+    if os.path.isfile(script_ignore):
+        with open(script_ignore, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.rstrip("\n")
+                if line and not line.startswith("#"):
+                    patterns.append(line)
+    return patterns
 
-    ignore_file = None
 
+def generate_mergeignore(base_path, script_path, manifest):
+    mergeignore_path = os.path.join(base_path, ".mergeignore")
+    base_patterns = load_script_base_patterns(script_path)
+
+    if manifest is None:
+        with open(mergeignore_path, "w", encoding="utf-8") as f:
+            f.write("# .mergeignore gerado automaticamente\n")
+            for p in base_patterns:
+                f.write(f"{p}\n")
+        print(f"[INFO] .mergeignore criado com padroes base (sem dir.md)")
+        return
+
+    excluded = set()
+
+    for root, dirs, files in os.walk(base_path):
+        rel_root = os.path.relpath(root, base_path).replace("\\", "/")
+
+        for f in files:
+            file_path = os.path.join(root, f)
+            if file_path == mergeignore_path:
+                continue
+            if file_path not in manifest:
+                rel = os.path.relpath(file_path, base_path).replace("\\", "/")
+                excluded.add(rel)
+
+        for d in dirs:
+            dir_path = os.path.join(root, d)
+            has_manifest = any(
+                p.startswith(dir_path + os.sep) for p in manifest
+            )
+            if not has_manifest:
+                rel = os.path.relpath(dir_path, base_path).replace("\\", "/")
+                excluded.add(rel + "/")
+
+    with open(mergeignore_path, "w", encoding="utf-8") as f:
+        f.write("# .mergeignore gerado automaticamente a partir do dir.md\n")
+        f.write("# Padroes base (do script):\n")
+        for p in base_patterns:
+            f.write(f"{p}\n")
+        f.write("\n# Auto-gerado: arquivos/diretorios fora do dir.md:\n")
+        for item in sorted(excluded):
+            f.write(f"{item}\n")
+
+    print(f"[INFO] .mergeignore gerado: {len(base_patterns)} padroes base + {len(excluded)} exclusoes do dir.md")
+
+
+def load_ignore_patterns(target_path):
+    patterns = []
+    target_ignore = os.path.join(target_path, ".mergeignore")
     if os.path.isfile(target_ignore):
-        ignore_file = target_ignore
-        print(f"Usando .mergeignore do alvo: {ignore_file}")
-    elif os.path.isfile(script_ignore):
-        ignore_file = script_ignore
-        print(f"Usando .mergeignore do script: {ignore_file}")
+        with open(target_ignore, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#"):
+                    patterns.append(line)
+        print(f"Usando .mergeignore: {target_ignore}")
     else:
         print("Nenhum .mergeignore encontrado.")
-        return patterns
-
-    with open(ignore_file, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if line and not line.startswith("#"):
-                patterns.append(line)
-
     return patterns
 
 
 def should_ignore(path, patterns, base_path):
     rel_path = os.path.relpath(path, base_path).replace("\\", "/")
+    filename = os.path.basename(path)
 
     for pattern in patterns:
         pattern = pattern.rstrip("/")
 
         if fnmatch.fnmatch(rel_path, pattern):
+            return True
+
+        if fnmatch.fnmatch(filename, pattern):
             return True
 
         if pattern in rel_path.split("/"):
@@ -99,8 +148,12 @@ def should_ignore(path, patterns, base_path):
 def merge_files_in_directory(base_path, script_path, output_filename="merged_output.txt"):
     print(f"Iniciando merge em: {base_path}")
 
-    ignore_patterns = load_ignore_patterns(base_path, script_path)
     manifest = parse_dir_md(base_path)
+
+    generate_mergeignore(base_path, script_path, manifest)
+
+    ignore_patterns = load_ignore_patterns(base_path)
+
     output_path = os.path.join(base_path, output_filename)
 
     try:

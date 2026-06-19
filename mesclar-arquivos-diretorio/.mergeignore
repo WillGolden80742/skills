@@ -43,5 +43,6 @@ storage/framework/cache/ # Cache do Laravel
 *.map              # Source maps
 *.min.js           # Arquivos JavaScript minificados (se não forem o código-fonte principal)
 *.min.css          # Arquivos CSS minificados (se não forem o código-fonte principal)
+*.xsd              # Arquivos de schema XML
 Thumbs.db          # Cache de miniaturas do Windows
 .DS_Store          # Arquivos de metadados do macOS
