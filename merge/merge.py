@@ -1,15 +1,34 @@
 import os
 import sys
 import fnmatch
+import subprocess
+
+
+SKILLS_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DIR_TREE_PY = os.path.join(SKILLS_DIR, "dir-tree", "dir_tree.py")
+
+
+def show_directory_tree(target_path):
+    print("\n" + "=" * 60)
+    print("ARVORE DE DIRETORIO:")
+    print("=" * 60)
+    if os.path.isfile(DIR_TREE_PY):
+        result = subprocess.run(
+            [sys.executable, DIR_TREE_PY, target_path],
+            capture_output=True, text=True, encoding="utf-8"
+        )
+        print(result.stdout)
+        if result.stderr:
+            print(result.stderr)
+    else:
+        print(f"[AVISO] dir_tree.py nao encontrado em: {DIR_TREE_PY}")
+    print("=" * 60 + "\n")
 
 
 def load_ignore_patterns(target_path, script_path):
     patterns = []
 
-    # 1️⃣ tenta no diretório alvo
     target_ignore = os.path.join(target_path, ".mergeignore")
-
-    # 2️⃣ fallback: diretório do script
     script_ignore = os.path.join(script_path, ".mergeignore")
 
     ignore_file = None
@@ -39,19 +58,17 @@ def should_ignore(path, patterns, base_path):
     for pattern in patterns:
         pattern = pattern.rstrip("/")
 
-        # ignora diretórios inteiros
-        if rel_path.startswith(pattern):
+        if fnmatch.fnmatch(rel_path, pattern):
             return True
 
-        # ignora por wildcard
-        if fnmatch.fnmatch(rel_path, pattern):
+        if pattern in rel_path.split("/"):
             return True
 
     return False
 
 
 def merge_files_in_directory(base_path, script_path, output_filename="merged_output.txt"):
-    print(f"Iniciando em: {base_path}")
+    print(f"Iniciando merge em: {base_path}")
 
     ignore_patterns = load_ignore_patterns(base_path, script_path)
     output_path = os.path.join(base_path, output_filename)
@@ -61,7 +78,6 @@ def merge_files_in_directory(base_path, script_path, output_filename="merged_out
 
             for root, dirs, files in os.walk(base_path):
 
-                # 🔥 impede entrar em pastas ignoradas
                 dirs[:] = [
                     d for d in dirs
                     if not should_ignore(os.path.join(root, d), ignore_patterns, base_path)
@@ -102,6 +118,7 @@ if __name__ == "__main__":
         base_dir = script_dir
 
     if not os.path.isdir(base_dir):
-        print(f"Caminho inválido: {base_dir}")
+        print(f"Caminho invalido: {base_dir}")
     else:
+        show_directory_tree(base_dir)
         merge_files_in_directory(base_dir, script_dir)
