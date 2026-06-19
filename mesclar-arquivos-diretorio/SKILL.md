@@ -6,11 +6,14 @@ triggers: ["merge", "mesclar arquivos", "mesclar pasta", "merge files", "merge d
 
 ## What I do
 Executa um script Python que:
-1. Primeiro, gera e exibe a árvore de diretório completa usando `dir_tree.py` (sem ignorar nada) para mostrar toda a estrutura do projeto.
-2. Carrega padrões de arquivos a serem ignorados a partir de um arquivo `.mergeignore` (caso exista).
-3. Concatena o conteúdo de todos os arquivos não ignorados em um único arquivo chamado `merged_output.txt`.
+1. Gera e exibe a árvore de diretório completa usando `dir_tree.py` (sem ignorar nada) para mostrar toda a estrutura do projeto.
+2. Lê o `dir.md` para saber quais arquivos fazem parte do projeto.
+3. Gera/atualiza automaticamente o `.mergeignore` no diretório alvo:
+   - Mantém os padrões base do script (genéricos como `node_modules/`, `*.log`, etc.)
+   - Adiciona automaticamente como exclusão todo arquivo/diretório que **não** está listado no `dir.md`
+4. Concatena o conteúdo de todos os arquivos não ignorados em um único arquivo chamado `merged_output.txt`.
 
-A árvore exibe tudo (sem filtro). O merge usa o `.mergeignore` para decidir o que excluir do arquivo final.
+A árvore exibe tudo (sem filtro). O `.mergeignore` é gerado dinamicamente a partir do `dir.md`, garantindo que só o que está no manifesto seja incluído.
 
 ## Usage
 O skill usa o comando:
