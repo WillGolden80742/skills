@@ -6,11 +6,12 @@ triggers: ["comit", "comitar", "commit", "commitar", "git commit", "fazer commit
 
 ## What I do
 Executa commits Git com as seguintes caracteristicas:
-1. Executa o commit Git
-2. Cria arquivo de historico do commit em `commits/commit-[id]-[timestamp].md` (com hash correto)
-3. Commita o arquivo de historico
-4. Atualiza README.md com a estrutura atual do projeto (arvore de diretorios, tabelas de classes)
-5. Faz pull --rebase e push (ou --force-with-lease com flag --force)
+1. Mostra o diff completo das alteracoes e solicita confirmacao antes de prosseguir
+2. Executa o commit Git
+3. Cria arquivo de historico do commit em `commits/commit-[id]-[timestamp].md` (com hash correto)
+4. Commita o arquivo de historico
+5. Atualiza README.md com a estrutura atual do projeto (arvore de diretorios, tabelas de classes)
+6. Faz pull --rebase e push (ou --force-with-lease com flag --force)
 
 ## Parameters
 - `message`: Mensagem do commit
@@ -22,22 +23,22 @@ Executa commits Git com as seguintes caracteristicas:
 
 ### Commit padrao (todos os arquivos):
 ```
-python "~/.config/opencode/skills/comit/comit.py" --message "feat: nova funcionalidade"
+python "~/.config/opencode/skills/comitar-alteracoes/comit.py" --message "feat: nova funcionalidade"
 ```
 
 ### Commit com arquivos especificos:
 ```
-python "~/.config/opencode/skills/comit/comit.py" --message "fix: corrigido bug" --files "src/index.php css/style.css"
+python "~/.config/opencode/skills/comitar-alteracoes/comit.py" --message "fix: corrigido bug" --files "src/index.php css/style.css"
 ```
 
 ### Commit forcado (--force-with-lease):
 ```
-python "~/.config/opencode/skills/comit/comit.py" --message "fix: reescrevendo historico" --force
+python "~/.config/opencode/skills/comitar-alteracoes/comit.py" --message "fix: reescrevendo historico" --force
 ```
 
 ### Commit em projeto especifico:
 ```
-python "~/.config/opencode/skills/comit/comit.py" --message "docs: atualizado documentacao" --project "C:\projeto"
+python "~/.config/opencode/skills/comitar-alteracoes/comit.py" --message "docs: atualizado documentacao" --project "C:\projeto"
 ```
 
 ## Formato do Arquivo de Commit

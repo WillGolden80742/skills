@@ -50,7 +50,7 @@ with sync_playwright() as p:
 ## Com with_server.py
 
 ```bash
-python "CAMINHO/skills/webapp-testing/scripts/with_server.py" \
+python "CAMINHO/skills/testar-aplicacoes-web/scripts/with_server.py" \
   --server "comando servidor" --port PORTA \
   -- python script.py
 ```

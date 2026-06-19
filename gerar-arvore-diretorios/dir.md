@@ -1,4 +1,4 @@
-# Arvore de Diretorio: `dir-tree`
+# Arvore de Diretorio: `gerar-arvore-diretorios`
 
 ```
 |-- dir_tree.py

@@ -20,17 +20,17 @@ Executa a remocao de arquivos e dependencias de projetos, suportando:
 
 ### Remover arquivo/diretorio:
 ```
-python "~/.config/opencode/skills/file-cleaner/clean.py" --path "vendor" --project "C:\projeto"
+python "~/.config/opencode/skills/limpar-arquivos-dependencias/clean.py" --path "vendor" --project "C:\projeto"
 ```
 
 ### Remover arquivo e dependencias Composer:
 ```
-python "~/.config/opencode/skills/file-cleaner/clean.py" --path "vendor" --remove-composer --project "C:\projeto"
+python "~/.config/opencode/skills/limpar-arquivos-dependencias/clean.py" --path "vendor" --remove-composer --project "C:\projeto"
 ```
 
 ### Remover dependencias especificas do Composer:
 ```
-python "~/.config/opencode/skills/file-cleaner/clean.py" --remove-composer-deps "cboden/ratchet,guzzlehttp/guzzle" --project "C:\projeto"
+python "~/.config/opencode/skills/limpar-arquivos-dependencias/clean.py" --remove-composer-deps "cboden/ratchet,guzzlehttp/guzzle" --project "C:\projeto"
 ```
 
 ## Notes

@@ -19,7 +19,7 @@ Executa um script Python que:
 ## Usage
 O skill usa o comando:
 ```
-python "~/.config/opencode/skills/file-rename/rename.py" "nome_original" "nome_novo" "caminho_projeto" "update_all"
+python "~/.config/opencode/skills/renomear-arquivos-referencias/rename.py" "nome_original" "nome_novo" "caminho_projeto" "update_all"
 ```
 
 ## Notes

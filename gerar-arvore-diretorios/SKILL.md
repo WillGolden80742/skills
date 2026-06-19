@@ -9,7 +9,7 @@ Gera uma árvore de diretórios formatada em Markdown (com caracteres Unicode �
 
 ## Usage
 ```bash
-python "~/.config/opencode/skills/dir-tree/dir_tree.py" [caminho] [arquivo_saida]
+python "~/.config/opencode/skills/gerar-arvore-diretorios/dir_tree.py" [caminho] [arquivo_saida]
 ```
 
 - `caminho`: (opcional) Diretório raiz. Padrão: diretório atual.
@@ -19,17 +19,17 @@ python "~/.config/opencode/skills/dir-tree/dir_tree.py" [caminho] [arquivo_saida
 
 Gerar árvore do diretório atual:
 ```bash
-python "~/.config/opencode/skills/dir-tree/dir_tree.py"
+python "~/.config/opencode/skills/gerar-arvore-diretorios/dir_tree.py"
 ```
 
 Gerar árvore de um diretório específico:
 ```bash
-python "~/.config/opencode/skills/dir-tree/dir_tree.py" C:/MeuProjeto
+python "~/.config/opencode/skills/gerar-arvore-diretorios/dir_tree.py" C:/MeuProjeto
 ```
 
 Gerar e salvar em arquivo .md:
 ```bash
-python "~/.config/opencode/skills/dir-tree/dir_tree.py" C:/MeuProjeto arvore.md
+python "~/.config/opencode/skills/gerar-arvore-diretorios/dir_tree.py" C:/MeuProjeto arvore.md
 ```
 
 ## Observação

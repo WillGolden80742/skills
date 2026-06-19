@@ -193,6 +193,23 @@ def main():
         print("Nenhum arquivo para comitar")
         return
 
+    print("\n=== DAS ALTERACOES QUE SERAO COMMITADAS ===\n")
+    diff_stdout, _, _ = run_git_command(["git", "diff", "--cached", "--stat"], project_path)
+    if diff_stdout:
+        print(diff_stdout)
+    print()
+    diff_content, _, _ = run_git_command(["git", "diff", "--cached"], project_path)
+    if diff_content:
+        print(diff_content[:3000])
+        if len(diff_content) > 3000:
+            print("... (diff truncado, mostrando primeiras 3000 linhas)")
+    print("\n==========================================\n")
+
+    confirm = input("Confirmar commit? (s/n): ").strip().lower()
+    if confirm != "s":
+        print("Commit cancelado.")
+        return
+
     print("Fazendo commit...")
     _, stderr, code = run_git_command(["git", "commit", "-m", args.message], project_path)
 
