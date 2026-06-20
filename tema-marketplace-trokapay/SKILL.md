@@ -331,6 +331,8 @@ Prefixo: `trokapay_` e `produto_status_`. Protegidas por `wp_ajax_{action}`.
 - `produto_status_update_all_products` — força estoque de todos os produtos
 - `get_last_product_timestamp` — timestamp do último produto
 - `get_category_tree_metadata` — metadata da árvore de categorias
+- `trokapay_get_commission_report_summary` — gera relatório resumo de comissões por promotor (mês/ano, filtro por promotor, ordem de aplicação de taxas)
+- `trokapay_get_promoter_transactions` — retorna transações detalhadas de um promotor no modal (com taxas, comissão bruta/utilizada/líquida)
 
 ---
 
@@ -384,6 +386,8 @@ Registradas via `add_menu_page` / `add_options_page`:
 | Avaliações MoedaDeTroka | `mdts-seller-reviews` | Gerenciador de avaliações de vendedores | Snippet 35013 |
 | Usuários sem produtos | `usuarios-sem-produtos` | Lista e exporta CSV de usuários sem produtos | Snippet 150261 |
 | Uazapi Config | `uazapi-config` | Configuração de tokens Uazapi (WhatsApp API), QR Code, status, logs | Snippet 24756 |
+| Comissões Pro | `trokapay-commission-reports-byp` | Relatório detalhado de comissões por promotor com cálculo de faturamento mensal, taxas de meio de pagamento, comissões utilizadas/descontadas e listagem de transações | Plugin externo `Moeda_de_Troka_Admin_Commission_Reports.php` |
+| Config. Comissão | `trokapay-commission-reports-byp-settings` | Configuração de taxas fixa e percentual por forma de pagamento + ordem de aplicação das taxas (antes/depois da comissão) | Plugin externo `Moeda_de_Troka_Admin_Commission_Reports.php` |
 
 ---
 
@@ -556,6 +560,37 @@ Classe `Uazapi_Integration_Pro` — substitui o servidor Node.js externo por int
 
 - `[products_search_form]` — formulário de busca com filtro de categorias (envia para `/ofertas/`)
 - `[questions user_id="X" posts_per_page="10"]` — perguntas e respostas
+
+---
+
+## Plugin Complementar — Admin Commission Reports
+
+Arquivo: `Moeda_de_Troka_Admin_Commission_Reports.php` (plugin independente, não é WPCode snippet).
+
+**Plugin Name:** Moeda de Troka Admin Commission Reports (Monolítico - Por Promotor)
+**Text Domain:** `trokapay-commission-reports-by-promoter`
+
+Plugin de relatórios administrativos que agrupa comissões **por promotor**, com cálculo de faturamento mensal baseado em pedidos WooCommerce (status `processing`/`completed`). A comissão do promotor é calculada sobre o valor total bruto do item de compras feitas por seus indicados.
+
+**Regras de cálculo:**
+- Comissão do promotor = `promoter_brl_commission` (user meta) × 10 (percentual sobre a base)
+- Base de cálculo: valor do item **após** dedução das taxas de meio de pagamento (se ordem = `before_commission`) ou valor bruto do item (se ordem = `after_commission`)
+- Taxas de meio de pagamento NÃO afetam o recebimento do vendedor para fins de comissão do promotor — afetam apenas a base de cálculo
+- Comissões "utilizadas" (descontadas) são subtraídas da comissão bruta para obter a comissão líquida
+
+**Opções registradas:**
+| Option Key | Descrição |
+|---|---|
+| `trokapay_payment_methods_fees` | Array de taxas por forma de pagamento: `[nome => ['fixed_fee' => float, 'percent_fee' => float]]` |
+| `trokapay_fee_application_order` | Ordem de aplicação: `before_commission` (padrão) ou `after_commission` |
+
+**Funções auxiliares:**
+- `trokapay_get_user_basic_data_for_commission($user_id)` — dados do usuário para comissão (display_name, promoter_brl_commission, is_promoter)
+- `trokapay_get_display_name($user_id)` — retorna display_name ou 'N/A'
+- `trokapay_get_payment_fees_for_item($payment_method_title, $item_amount)` — calcula taxas fixa + percentual para um item
+- `trokapay_get_used_commission_for_promoter($promoter_id, $start_date, $end_date)` — soma de `amount_used` do CPT `used_commission` no período
+
+**Admin pages:** Adiciona menu "Comissões Pro" com filtros por mês/ano/promotor, resumo geral (cards), tabela por promotor, modal de transações detalhadas e exportação CSV.
 
 ---
 
