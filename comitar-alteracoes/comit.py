@@ -177,6 +177,7 @@ def main():
     parser.add_argument("--message", required=True, help="Mensagem do commit")
     parser.add_argument("--files", help="Arquivos a comitar (separados por espaco)")
     parser.add_argument("--project", help="Caminho base do projeto")
+    parser.add_argument("--yes", "-y", action="store_true", help="Pular confirmacao interativa")
     parser.add_argument("--force", action="store_true", help="Usa --force-with-lease no push")
 
     args = parser.parse_args()
@@ -208,10 +209,11 @@ def main():
             print("... (diff truncado, mostrando primeiras 3000 linhas)")
     print("\n==========================================\n")
 
-    confirm = input("Confirmar commit? (s/n): ").strip().lower()
-    if confirm != "s":
-        print("Commit cancelado.")
-        return
+    if not args.yes:
+        confirm = input("Confirmar commit? (s/n): ").strip().lower()
+        if confirm != "s":
+            print("Commit cancelado.")
+            return
 
     print("Fazendo commit...")
     _, stderr, code = run_git_command(["git", "commit", "-m", args.message], project_path)

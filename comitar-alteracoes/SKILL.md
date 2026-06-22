@@ -6,7 +6,7 @@ triggers: ["comit", "comitar", "commit", "commitar", "git commit", "fazer commit
 
 ## What I do
 Executa commits Git com as seguintes caracteristicas:
-1. Mostra o diff completo das alteracoes e solicita confirmacao antes de prosseguir
+1. Mostra o diff completo das alteracoes e solicita confirmacao antes de prosseguir (ou usa --yes para pular)
 2. Executa o commit Git
 3. Cria arquivo de historico do commit em `commits/commit-[id]-[timestamp].md` (com hash correto)
 4. Commita o arquivo de historico
@@ -17,28 +17,36 @@ Executa commits Git com as seguintes caracteristicas:
 - `message`: Mensagem do commit
 - `files`: Arquivos a serem comitados (separados por espaco, default: todos)
 - `project_path`: Caminho base do projeto (default: workspace root)
+- `yes`: Pular confirmacao interativa (default: false)
 - `force`: Usa --force-with-lease no push (default: false)
 
 ## Usage
 
+**Nota:** Use `python3` no lugar de `python` se o `python` nao estiver disponivel.
+
 ### Commit padrao (todos os arquivos):
 ```
-python "~/.config/opencode/skills/comitar-alteracoes/comit.py" --message "feat: nova funcionalidade"
+python3 "~/.config/opencode/skills/comitar-alteracoes/comit.py" --yes --message "feat: nova funcionalidade"
+```
+
+### Commit sem confirmacao interativa:
+```
+python3 "~/.config/opencode/skills/comitar-alteracoes/comit.py" --yes --message "fix: corrigido bug"
 ```
 
 ### Commit com arquivos especificos:
 ```
-python "~/.config/opencode/skills/comitar-alteracoes/comit.py" --message "fix: corrigido bug" --files "src/index.php css/style.css"
+python3 "~/.config/opencode/skills/comitar-alteracoes/comit.py" --message "fix: corrigido bug" --files "src/index.php css/style.css"
 ```
 
 ### Commit forcado (--force-with-lease):
 ```
-python "~/.config/opencode/skills/comitar-alteracoes/comit.py" --message "fix: reescrevendo historico" --force
+python3 "~/.config/opencode/skills/comitar-alteracoes/comit.py" --message "fix: reescrevendo historico" --force
 ```
 
 ### Commit em projeto especifico:
 ```
-python "~/.config/opencode/skills/comitar-alteracoes/comit.py" --message "docs: atualizado documentacao" --project "C:\projeto"
+python3 "~/.config/opencode/skills/comitar-alteracoes/comit.py" --message "docs: atualizado documentacao" --project "C:\projeto"
 ```
 
 ## Formato do Arquivo de Commit
