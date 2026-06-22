@@ -10,7 +10,10 @@ IGNORE_DIRS = {'vendor', 'node_modules', '.git', 'commits'}
 IGNORE_FILES = {'.', '..'}
 
 def run_git_command(args, cwd):
-    result = subprocess.run(args, cwd=cwd, capture_output=True, text=True, encoding='utf-8', errors='replace', shell=True)
+    if isinstance(args, list):
+        result = subprocess.run(args, cwd=cwd, capture_output=True, text=True, encoding='utf-8', errors='replace')
+    else:
+        result = subprocess.run(args, cwd=cwd, capture_output=True, text=True, encoding='utf-8', errors='replace', shell=True)
     return result.stdout.strip(), result.stderr.strip(), result.returncode
 
 def get_staged_files(cwd):
@@ -25,8 +28,8 @@ def create_commit_file(project_path, commit_id, message, files, commit_hash):
     commits_dir = os.path.join(project_path, "commits")
     if not os.path.exists(commits_dir):
         os.makedirs(commits_dir)
-    timestamp = datetime.now().strftime("%d-%m-%Y-%H-%M-%S")
-    filename = f"commit-{commit_id}-{timestamp}.md"
+    timestamp = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
+    filename = f"commit-{timestamp}-{commit_id}.md"
     filepath = os.path.join(commits_dir, filename)
     files_list = "\n".join([f"- {f}" for f in files if f]) if files else "- (todos os arquivos)"
     content = f"""# Commit {commit_id} - {datetime.now().strftime("%d/%m/%Y %H:%M:%S")}
