@@ -28,10 +28,50 @@ Este skill não ensina sintaxe de Ruby/Rails. Ensina **modelos mentais**, princ�
 
 ### Fat Model, Skinny Controller
 
-- **Controller:** Só orquestra: recebe a requisição, chama o model/serviço, renderiza a view. Não contém regras de negócio.
-- **Model:** Contém regras de negócio, validações, associações, callbacks.
-- **Como pensar:** "Se uma action do controller tem mais de 4-5 linhas, algo provavelmente pertence ao model ou a um service object."
-- **Evolução natural:** Quando o model cresce demais, extraia para Service Objects, Query Objects, Value Objects, Form Objects, etc.
+- **Controller:** Só orquestra: recebe a requisição, chama o model, renderiza a view. Não contém regras de negócio.
+- **Model:** É a **camada de dados** (shameless copy do ActiveRecord do Rails). Contém persistência, regras de negócio, validações, associações, callbacks. Tudo em um lugar só.
+- **A regra de ouro:** Controller não sabe SQL. Controller não sabe onde os dados estão. Controller só pergunta ao Model: "me dá o que eu preciso", e o Model resolve.
+- **Como pensar:** "Se uma action do controller tem mais de 4-5 linhas, a lógica pertence ao model."
+- **Estrutura no Rails:**
+  ```
+  app/
+    controllers/    → orquestração fina (pergunta ao model, devolve view)
+    models/         → camada DE DADOS + regras de negócio (ActiveRecord)
+    views/          → apresentação simples
+  ```
+- **Não existe camada Service em Rails clássico.** O Model é o dono dos dados. Se o model cresce, você extrai para concerns, query objects, value objects — mas o model CONTINUA sendo a porta de entrada dos dados.
+- **Cópia descarada do Rails:** No Rails, você nunca cria um `UserService` para buscar usuários. Você chama `User.find(1)`, `User.where(active: true)`. O Model É a API de dados. Faça o mesmo em qualquer linguagem.
+- **Como pensar:** "O Controller conversa com o Model. O Model conversa com o banco. O Controller NUNCA conversa com o banco."
+- **Exemplo concreto (PHP seguindo Rails):**
+  ```php
+  // RUIM: Service layer separada
+  class UserController {
+      public function show(int $id) {
+          $service = new UserService();
+          $data = $service->getUserWithOrders($id);
+          $this->render('show', $data);
+      }
+  }
+  class UserService {
+      public function getUserWithOrders(int $id) {
+          $user = UserModel::find($id);
+          $orders = OrderModel::where('user_id', $id);
+          return ['user' => $user, 'orders' => $orders];
+      }
+  }
+
+  // BOM: Model como camada de dados (Rails way)
+  class UserController {
+      public function show(int $id) {
+          $user = User::find($id); // Model É a camada de dados
+          $this->render('show', ['user' => $user]);
+      }
+  }
+  class User {
+      public static function find(int $id): ?self { /* SQL aqui */ }
+      public function orders(): array { return Order::where('user_id', $this->id); }
+  }
+  ```
 
 ### Aplicativo Ruby, não Aplicativo Rails
 
@@ -143,29 +183,66 @@ MVC é uma **separação de preocupações** em 3 camadas:
 
 | Camada | O Que É | O Que NÃO É |
 |--------|---------|-------------|
-| **Model** | Domínio e regras de negócio | Active Record gigante com 500 linhas |
+| **Model** | **Camada de dados + regras de negócio** (ActiveRecord no Rails). É quem sabe buscar, salvar, validar e executar regras. | Uma classe anêmica com só getters/setters |
 | **View** | Apresentação dos dados ao usuário | Lógica condicional complexa |
-| **Controller** | Orquestração: entrada → saída | Onde moram as regras de negócio |
+| **Controller** | Orquestração: entrada → saída. Pergunta ao Model, devolve a View. | Onde moram as regras de negócio OU consultas ao banco |
+
+### A Regra Mais Importante do MVC no Rails
+
+**O Controller NUNCA acessa o banco de dados diretamente.** Ele sempre pergunta ao Model.
+
+```ruby
+# RUIM — Controller acessa dados
+class UsersController < ApplicationController
+  def index
+    @users = User.where(active: true).order(created_at: :desc)
+    #            ^^^^ O controller não deveria saber SQL
+  end
+end
+
+# BOM — Controller pergunta ao Model
+class UsersController < ApplicationController
+  def index
+    @users = User.active_recent # O Model encapsula a consulta
+  end
+end
+```
 
 ### Como Pensar MVC
 
-- **O Controller é um recepcionista:** Ele recebe o pedido, chama quem sabe fazer, entrega o resultado. Ele não cozinha a comida.
-- **O Model é o especialista:** Ele sabe as regras, validações, o que pode e não pode.
+- **O Controller é um recepcionista:** Ele recebe o pedido, CHAMA O MODEL, entrega a view. Ele não cozinha a comida E NEM BUSCA OS INGREDIENTES.
+- **O Model é o especialista + despensa:** Ele sabe as regras, validações, E também SAI ONDE OS DADOS ESTÃO. No Rails, Model herda de ActiveRecord — ele É a ponte com o banco.
 - **A View é o cardápio/apresentação:** Ela só exibe. Se tem `if` na view, provavelmente pertence a um helper, decorator ou presenter.
+
+### Model é a Camada de Dados (Cópia Descarada do Rails)
+
+No Rails, não existe `UserService` ou `UserRepository`. O próprio `User` (que herda de `ActiveRecord::Base`) é quem faz:
+
+```ruby
+# Isto é Rails puro — o Model É a camada de dados
+user = User.find(1)                    # SELECT * FROM users WHERE id = 1
+user.update(name: 'João')              # UPDATE users SET name = 'João' WHERE id = 1
+user.orders.each { |o| puts o.total }  # SELECT * FROM orders WHERE user_id = 1
+```
+
+**Tradução para outras linguagens:** Crie classes Model que encapsulam consultas como métodos estáticos ou de classe. O Controller chama `User::find($id)`, `User::activeUsers()`, `User::withRecentOrders()` — nunca SQL solto no controller.
 
 ### Onde Colocar Lógica no Rails
 
 ```
 app/
-  controllers/    → orquestração fina
-  models/         → regras de negócio + persistência
+  controllers/    → orquestração fina (chama Model, ponto)
+  models/         → **camada de dados + regras de negócio** (shameless copy do ActiveRecord)
   views/          → apresentação simples
-  services/       → operações complexas que não pertencem a um model só
-  queries/        → consultas complexas (Query Objects)
+  concerns/       → módulos compartilhados entre models (não services!)
+  queries/        → consultas complexas que poluem o model (Query Objects)
   forms/          → validação de formulários que não mapeiam 1:1 com model (Form Objects)
   presenters/     → lógica de exibição que a view não deveria ter
   policies/       → autorização (ex: Pundit)
   values/         → objetos de valor (Value Objects)
+
+# ⚠️ NÃO CRIE uma camada Service a menos que seja estritamente necessário.
+# O Model já é a camada de dados. Service layer é anti-padrão no Rails clássico.
 ```
 
 ### Princípios Relacionados
