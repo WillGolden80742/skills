@@ -15,11 +15,12 @@ def get_commit_files(project_path):
         return []
     
     files = []
-    for f in os.listdir(commits_dir):
-        if f.startswith("commit-") and f.endswith(".md"):
-            filepath = os.path.join(commits_dir, f)
-            mtime = os.path.getmtime(filepath)
-            files.append((mtime, filepath))
+    for root, dirs, filenames in os.walk(commits_dir):
+        for f in filenames:
+            if f.startswith("commit-") and f.endswith(".md"):
+                filepath = os.path.join(root, f)
+                mtime = os.path.getmtime(filepath)
+                files.append((mtime, filepath))
     
     files.sort(reverse=True)
     return files

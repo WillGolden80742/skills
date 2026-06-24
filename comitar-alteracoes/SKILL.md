@@ -50,7 +50,7 @@ python3 "~/.config/opencode/skills/comitar-alteracoes/comit.py" --message "docs:
 ```
 
 ## Formato do Arquivo de Commit
-`commits/commit-[id]-[dd-mm-yyyy-hh-mm-ss].md`
+`commits/yyyy-mm/dd/commit-[id]-[yyyy-mm-dd-hh-mm-ss].md`
 ```
 # Commit [id] - [dd/mm/yyyy hh:mm:ss]
 

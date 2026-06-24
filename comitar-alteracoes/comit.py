@@ -24,13 +24,15 @@ def get_commit_hash(cwd):
     stdout, _, _ = run_git_command(["git", "rev-parse", "--short", "HEAD"], cwd)
     return stdout
 
-def create_commit_file(project_path, commit_id, message, files, commit_hash):
+def create_commit_file(project_path, commit_id, message, files, commit_hash, diff_content=""):
     commits_dir = os.path.join(project_path, "commits")
-    if not os.path.exists(commits_dir):
-        os.makedirs(commits_dir)
+    day_subdir = datetime.now().strftime("%Y-%m/%d")
+    day_dir = os.path.join(commits_dir, day_subdir)
+    if not os.path.exists(day_dir):
+        os.makedirs(day_dir)
     timestamp = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
     filename = f"commit-{timestamp}-{commit_id}.md"
-    filepath = os.path.join(commits_dir, filename)
+    filepath = os.path.join(day_dir, filename)
     files_list = "\n".join([f"- {f}" for f in files if f]) if files else "- (todos os arquivos)"
     content = f"""# Commit {commit_id} - {datetime.now().strftime("%d/%m/%Y %H:%M:%S")}
 
@@ -42,7 +44,11 @@ def create_commit_file(project_path, commit_id, message, files, commit_hash):
 
 ## Hash
 {commit_hash}
-"""
+
+## Diff
+```diff
+{diff_content}
+```"""
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(content)
     print(f"Arquivo de commit criado: {filepath}")
@@ -231,7 +237,7 @@ def main():
     print(f"Commit realizado: {commit_hash[:7]}")
 
     print("Criando arquivo de commit em commits/...")
-    create_commit_file(project_path, commit_id, args.message, staged, commit_hash)
+    create_commit_file(project_path, commit_id, args.message, staged, commit_hash, diff_content)
 
     print("Fazendo commit do historico...")
     run_git_command(["git", "add", "commits/"], project_path)
