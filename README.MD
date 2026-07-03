@@ -85,6 +85,11 @@ Quando uma mensagem do usuário casa com algum `trigger`, o OpenCode carrega o c
 | `extrair-conteudo-paginas` | Extrai conteúdo de páginas web com Mozilla Readability e rotação de proxies (Node.js). |
 | `delegar-tarefas` | Delega tarefas ao agente "agy" com monitoramento de status via `agy-tasks/`. |
 
+### 🔄 DevOps & Servidores
+| Skill | Descrição |
+|---|---|
+| `configurar-espelhamento-server` | Configura espelhamento bidirecional em tempo real entre pasta local (Windows) e servidor Linux remoto via SSH/SFTP, com proteção contra race conditions, arquivos vazios e exclusão remota. |
+
 ### 🗂️ Git, Arquivos & Projetos
 | Skill | Descrição |
 |---|---|
