@@ -53,6 +53,12 @@ def show_directory_tree(target_path):
     print("=" * 60 + "\n")
 
 
+def _strip_inline_comment(line):
+    idx = line.find("#")
+    if idx >= 0:
+        return line[:idx].rstrip()
+    return line
+
 def load_script_base_patterns(script_path):
     patterns = []
     script_ignore = os.path.join(script_path, ".mergeignore")
@@ -60,8 +66,9 @@ def load_script_base_patterns(script_path):
         with open(script_ignore, "r", encoding="utf-8") as f:
             for line in f:
                 line = line.rstrip("\n")
-                if line and not line.startswith("#"):
-                    patterns.append(line)
+                stripped = _strip_inline_comment(line)
+                if stripped and not line.startswith("#"):
+                    patterns.append(stripped)
     return patterns
 
 
@@ -118,8 +125,9 @@ def load_ignore_patterns(target_path):
         with open(target_ignore, "r", encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
-                if line and not line.startswith("#"):
-                    patterns.append(line)
+                stripped = _strip_inline_comment(line)
+                if stripped and not line.startswith("#"):
+                    patterns.append(stripped)
         print(f"Usando .mergeignore: {target_ignore}")
     else:
         print("Nenhum .mergeignore encontrado.")

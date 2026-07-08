@@ -1,0 +1,1052 @@
+{
+  "arte-algoritmica-generativa/templates/generator_template.js": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "b0fd5cb4d4bb7cafee5e336b50f62c27",
+    "semantic_hash": ""
+  },
+  "comitar-alteracoes/comit.py": {
+    "mtime": 1783528448.8344579,
+    "ast_hash": "e183e93ec119bd1b495287c24353b6b0",
+    "semantic_hash": ""
+  },
+  "construir-artefatos-react/scripts/bundle-artifact.sh": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "22f56bef1c502e4ab4ae913ac27d622c",
+    "semantic_hash": ""
+  },
+  "construir-artefatos-react/scripts/init-artifact.sh": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "cffd995203d8d54844d67ed87572d1cd",
+    "semantic_hash": ""
+  },
+  "construir-servidor-mcp/scripts/connections.py": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "577a5757c0f687ad4a84eb48eac9d514",
+    "semantic_hash": ""
+  },
+  "construir-servidor-mcp/scripts/evaluation.py": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "78d39ae57d97d49295872ef1a04cfd20",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/scripts/__init__.py": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/scripts/add_slide.py": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "e01e791c85fbfaabc1ea76ecc85b512a",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/scripts/clean.py": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "802144f24fd71f6893f19e6bff48ac45",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/scripts/office/helpers/__init__.py": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/scripts/office/helpers/merge_runs.py": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "50d4546be7e221a5fd8620eea68d50d9",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/scripts/office/helpers/simplify_redlines.py": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "27067501a5bad066bd22891d8b6ee040",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/scripts/office/pack.py": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "20d61f93e874fd961122dd0da9de7898",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/scripts/office/soffice.py": {
+    "mtime": 1782055338.0608263,
+    "ast_hash": "080c37e6f18963f350dda51d922c9f06",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/scripts/office/unpack.py": {
+    "mtime": 1782055338.0608263,
+    "ast_hash": "345c1b6a0ea7ca37e2019c2491db5fd9",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/scripts/office/validate.py": {
+    "mtime": 1782055338.0608263,
+    "ast_hash": "918f544445da78a3a8927aeb4b75c2f5",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/scripts/office/validators/__init__.py": {
+    "mtime": 1782055338.0608263,
+    "ast_hash": "9577920dc811fff9762a96d4095d95e5",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/scripts/office/validators/base.py": {
+    "mtime": 1782055338.0608263,
+    "ast_hash": "fd8b4f0bf6c070363709936542cecc3b",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/scripts/office/validators/docx.py": {
+    "mtime": 1782055338.0608263,
+    "ast_hash": "dae6866b59e1066a69f7695fb106c798",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/scripts/office/validators/pptx.py": {
+    "mtime": 1782055338.0608263,
+    "ast_hash": "95836f2ecb3e53862b1d166d0a11e255",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/scripts/office/validators/redlining.py": {
+    "mtime": 1782055338.0608263,
+    "ast_hash": "b2306b0d59975cfbb1325a6c2de3a771",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/scripts/thumbnail.py": {
+    "mtime": 1782055338.0608263,
+    "ast_hash": "23ba48fadfd072a5f75c29e0624727d3",
+    "semantic_hash": ""
+  },
+  "criar-editar-documento-word/scripts/__init__.py": {
+    "mtime": 1782055338.0608263,
+    "ast_hash": "68b329da9893e34099c7d8ad5cb9c940",
+    "semantic_hash": ""
+  },
+  "criar-editar-documento-word/scripts/accept_changes.py": {
+    "mtime": 1782055338.0608263,
+    "ast_hash": "ddbb446842e4c03d128aa950c2d9cde4",
+    "semantic_hash": ""
+  },
+  "criar-editar-documento-word/scripts/comment.py": {
+    "mtime": 1782055338.0608263,
+    "ast_hash": "395d53e6f7465ef684ff28205dc5f9d6",
+    "semantic_hash": ""
+  },
+  "criar-editar-documento-word/scripts/office/helpers/__init__.py": {
+    "mtime": 1782055338.0608263,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "criar-editar-documento-word/scripts/office/helpers/merge_runs.py": {
+    "mtime": 1782055338.0608263,
+    "ast_hash": "50d4546be7e221a5fd8620eea68d50d9",
+    "semantic_hash": ""
+  },
+  "criar-editar-documento-word/scripts/office/helpers/simplify_redlines.py": {
+    "mtime": 1782055338.0608263,
+    "ast_hash": "27067501a5bad066bd22891d8b6ee040",
+    "semantic_hash": ""
+  },
+  "criar-editar-documento-word/scripts/office/pack.py": {
+    "mtime": 1782055338.0608263,
+    "ast_hash": "20d61f93e874fd961122dd0da9de7898",
+    "semantic_hash": ""
+  },
+  "criar-editar-documento-word/scripts/office/soffice.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "080c37e6f18963f350dda51d922c9f06",
+    "semantic_hash": ""
+  },
+  "criar-editar-documento-word/scripts/office/unpack.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "345c1b6a0ea7ca37e2019c2491db5fd9",
+    "semantic_hash": ""
+  },
+  "criar-editar-documento-word/scripts/office/validate.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "918f544445da78a3a8927aeb4b75c2f5",
+    "semantic_hash": ""
+  },
+  "criar-editar-documento-word/scripts/office/validators/__init__.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "9577920dc811fff9762a96d4095d95e5",
+    "semantic_hash": ""
+  },
+  "criar-editar-documento-word/scripts/office/validators/base.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "fd8b4f0bf6c070363709936542cecc3b",
+    "semantic_hash": ""
+  },
+  "criar-editar-documento-word/scripts/office/validators/docx.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "dae6866b59e1066a69f7695fb106c798",
+    "semantic_hash": ""
+  },
+  "criar-editar-documento-word/scripts/office/validators/pptx.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "95836f2ecb3e53862b1d166d0a11e255",
+    "semantic_hash": ""
+  },
+  "criar-editar-documento-word/scripts/office/validators/redlining.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "b2306b0d59975cfbb1325a6c2de3a771",
+    "semantic_hash": ""
+  },
+  "criar-editar-planilhas-excel/scripts/office/helpers/__init__.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "criar-editar-planilhas-excel/scripts/office/helpers/merge_runs.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "50d4546be7e221a5fd8620eea68d50d9",
+    "semantic_hash": ""
+  },
+  "criar-editar-planilhas-excel/scripts/office/helpers/simplify_redlines.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "27067501a5bad066bd22891d8b6ee040",
+    "semantic_hash": ""
+  },
+  "criar-editar-planilhas-excel/scripts/office/pack.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "20d61f93e874fd961122dd0da9de7898",
+    "semantic_hash": ""
+  },
+  "criar-editar-planilhas-excel/scripts/office/soffice.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "080c37e6f18963f350dda51d922c9f06",
+    "semantic_hash": ""
+  },
+  "criar-editar-planilhas-excel/scripts/office/unpack.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "345c1b6a0ea7ca37e2019c2491db5fd9",
+    "semantic_hash": ""
+  },
+  "criar-editar-planilhas-excel/scripts/office/validate.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "918f544445da78a3a8927aeb4b75c2f5",
+    "semantic_hash": ""
+  },
+  "criar-editar-planilhas-excel/scripts/office/validators/__init__.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "9577920dc811fff9762a96d4095d95e5",
+    "semantic_hash": ""
+  },
+  "criar-editar-planilhas-excel/scripts/office/validators/base.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "fd8b4f0bf6c070363709936542cecc3b",
+    "semantic_hash": ""
+  },
+  "criar-editar-planilhas-excel/scripts/office/validators/docx.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "dae6866b59e1066a69f7695fb106c798",
+    "semantic_hash": ""
+  },
+  "criar-editar-planilhas-excel/scripts/office/validators/pptx.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "95836f2ecb3e53862b1d166d0a11e255",
+    "semantic_hash": ""
+  },
+  "criar-editar-planilhas-excel/scripts/office/validators/redlining.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "b2306b0d59975cfbb1325a6c2de3a771",
+    "semantic_hash": ""
+  },
+  "criar-editar-planilhas-excel/scripts/recalc.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "530f1af38e5857df10c661d2356d179d",
+    "semantic_hash": ""
+  },
+  "criar-gifs-animados-slack/core/easing.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "e7fc06b3a101335c6f9c2694920f2905",
+    "semantic_hash": ""
+  },
+  "criar-gifs-animados-slack/core/frame_composer.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "12b7331866a67b0653b2c8e026210637",
+    "semantic_hash": ""
+  },
+  "criar-gifs-animados-slack/core/gif_builder.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "ad49e19c1e0219bc0e4156a5d8d240fe",
+    "semantic_hash": ""
+  },
+  "criar-gifs-animados-slack/core/validators.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "b5e65b65d0d099f5b0f92201adfaac05",
+    "semantic_hash": ""
+  },
+  "criar-novo-skill/skillFactory.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "9ac6abbdb3165c6b7efa64223e44a18e",
+    "semantic_hash": ""
+  },
+  "delegar-tarefas/agy.py": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "d1efb7832b663faec779ff05225f556c",
+    "semantic_hash": ""
+  },
+  "extrair-conteudo-paginas/package.json": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "5b26189c2813a26248c521ef173d70e6",
+    "semantic_hash": ""
+  },
+  "extrair-conteudo-paginas/script/index.js": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "f9745536cf3a2532e5749ae68734b23b",
+    "semantic_hash": ""
+  },
+  "gerar-arvore-diretorios/dir_tree.py": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "b90793d0e2a0f9a1db674749c5aa73a0",
+    "semantic_hash": ""
+  },
+  "gerar-historico-commits/generate_commit_history.py": {
+    "mtime": 1783552365.7493849,
+    "ast_hash": "172957c08f79d911cd467908f8ce7aac",
+    "semantic_hash": ""
+  },
+  "gerenciar-remover-skills/skillRefactory.py": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "45ec9478caeb535190b13a1d8e9648b1",
+    "semantic_hash": ""
+  },
+  "graphify/references/.model_prices_cache.json": {
+    "mtime": 1783527146.0577564,
+    "ast_hash": "e6c66fc55ae8f2d8b34490d47e78a6c7",
+    "semantic_hash": ""
+  },
+  "graphify/references/model_prices.py": {
+    "mtime": 1783527142.2016747,
+    "ast_hash": "34d03e7a12fda9578ceee53998b74cd8",
+    "semantic_hash": ""
+  },
+  "limpar-arquivos-dependencias/clean.py": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "c68af545e48571bdc801ebf4cce45100",
+    "semantic_hash": ""
+  },
+  "mesclar-arquivos-diretorio/merge.py": {
+    "mtime": 1783213277.5359526,
+    "ast_hash": "bf81da7939893684033ef3307095b36e",
+    "semantic_hash": ""
+  },
+  "processar-arquivos-pdf/scripts/check_bounding_boxes.py": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "f221feb172d30a7ab90583b17ce7b4b0",
+    "semantic_hash": ""
+  },
+  "processar-arquivos-pdf/scripts/check_fillable_fields.py": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "f4ac456f3f0450da2fff366725e095ba",
+    "semantic_hash": ""
+  },
+  "processar-arquivos-pdf/scripts/convert_pdf_to_images.py": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "0c65904b96ebb8af6f15851dbb6da239",
+    "semantic_hash": ""
+  },
+  "processar-arquivos-pdf/scripts/create_validation_image.py": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "858ffa552d1963e1d46e0391d45d518d",
+    "semantic_hash": ""
+  },
+  "processar-arquivos-pdf/scripts/extract_form_field_info.py": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "0b70a14d41ead20e387bd87f007d6b66",
+    "semantic_hash": ""
+  },
+  "processar-arquivos-pdf/scripts/extract_form_structure.py": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "1fa3730b44fd5511fc986887842962dd",
+    "semantic_hash": ""
+  },
+  "processar-arquivos-pdf/scripts/fill_fillable_fields.py": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "85f9da2696f510337ed36030d13e1c5e",
+    "semantic_hash": ""
+  },
+  "processar-arquivos-pdf/scripts/fill_pdf_form_with_annotations.py": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "f9d6c389c69edf3494a995c48c6739ab",
+    "semantic_hash": ""
+  },
+  "recuperar-commits-salvos/commitRecover.py": {
+    "mtime": 1782261605.519898,
+    "ast_hash": "e37763879ca3d1f6336593bf960bcd82",
+    "semantic_hash": ""
+  },
+  "refatorar-css-variaveis/cssRoot.py": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "3d86adac7de391f0fc92fadcc8359d45",
+    "semantic_hash": ""
+  },
+  "renomear-arquivos-referencias/rename.py": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "ab915c0cc52b5335e2ee6e0c8e0269cc",
+    "semantic_hash": ""
+  },
+  "reverter-css-variaveis/cssRootReverse.py": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "60dd1e87036c6381adb3364729e6ad29",
+    "semantic_hash": ""
+  },
+  "testar-aplicacoes-web/examples/console_logging.py": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "eeccdae76b3d57954c562d6116bf0dea",
+    "semantic_hash": ""
+  },
+  "testar-aplicacoes-web/examples/element_discovery.py": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "ab18cb3570c77564a08cc73269d7b97d",
+    "semantic_hash": ""
+  },
+  "testar-aplicacoes-web/examples/static_html_automation.py": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "b631a23dc044d41fae4614be9353527d",
+    "semantic_hash": ""
+  },
+  "testar-aplicacoes-web/scripts/with_server.py": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "5182121f66c1b4279a5b3013378e6ea9",
+    "semantic_hash": ""
+  },
+  "README.MD": {
+    "mtime": 1782055338.0528262,
+    "ast_hash": "b9930df4913a9f1a7543b094d5bf23a4",
+    "semantic_hash": ""
+  },
+  "aplicar-temas-cores-fontes/LICENSE.txt": {
+    "mtime": 1782055338.0528262,
+    "ast_hash": "0ee6429f4c66920b6744d818225fb58f",
+    "semantic_hash": ""
+  },
+  "aplicar-temas-cores-fontes/SKILL.md": {
+    "mtime": 1782168332.4212937,
+    "ast_hash": "86341637d02530bb6c7393d0b174b358",
+    "semantic_hash": ""
+  },
+  "aplicar-temas-cores-fontes/themes/arctic-frost.md": {
+    "mtime": 1782055338.0528262,
+    "ast_hash": "b965587321a87fec6fcfb74479a0792d",
+    "semantic_hash": ""
+  },
+  "aplicar-temas-cores-fontes/themes/botanical-garden.md": {
+    "mtime": 1782055338.0528262,
+    "ast_hash": "cbcf4b3c4440efbd2515c5edbb125cbd",
+    "semantic_hash": ""
+  },
+  "aplicar-temas-cores-fontes/themes/desert-rose.md": {
+    "mtime": 1782055338.0528262,
+    "ast_hash": "0bb0468ce18d9d8bdc13210e5e011199",
+    "semantic_hash": ""
+  },
+  "aplicar-temas-cores-fontes/themes/forest-canopy.md": {
+    "mtime": 1782055338.0528262,
+    "ast_hash": "a97be058e329c04c4b61de0f3072ccbd",
+    "semantic_hash": ""
+  },
+  "aplicar-temas-cores-fontes/themes/golden-hour.md": {
+    "mtime": 1782055338.0528262,
+    "ast_hash": "5b29778bec2c4fe98afff9f852d7bebc",
+    "semantic_hash": ""
+  },
+  "aplicar-temas-cores-fontes/themes/midnight-galaxy.md": {
+    "mtime": 1782055338.0528262,
+    "ast_hash": "f2c28f1a3a8e9f132cb2625fbb674317",
+    "semantic_hash": ""
+  },
+  "aplicar-temas-cores-fontes/themes/modern-minimalist.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "73b67cfa216fb776976ed268c36f394e",
+    "semantic_hash": ""
+  },
+  "aplicar-temas-cores-fontes/themes/ocean-depths.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "702f14f8a16eb7943f4f8fa18632bea7",
+    "semantic_hash": ""
+  },
+  "aplicar-temas-cores-fontes/themes/sunset-boulevard.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "7a533182584962e7bb5e7577874d0768",
+    "semantic_hash": ""
+  },
+  "aplicar-temas-cores-fontes/themes/tech-innovation.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "fcc062f7c91159298558ab7e2c23f102",
+    "semantic_hash": ""
+  },
+  "arte-algoritmica-generativa/LICENSE.txt": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "0ee6429f4c66920b6744d818225fb58f",
+    "semantic_hash": ""
+  },
+  "arte-algoritmica-generativa/SKILL.md": {
+    "mtime": 1782168332.4212937,
+    "ast_hash": "4860b74f1f98c48399a4c728bbc6ba62",
+    "semantic_hash": ""
+  },
+  "arte-algoritmica-generativa/templates/viewer.html": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "6fec68ff8079873799cf106892353adb",
+    "semantic_hash": ""
+  },
+  "autenticar-github-device-flow/SKILL.md": {
+    "mtime": 1783305305.3876574,
+    "ast_hash": "10e912e61421742750234271052cec80",
+    "semantic_hash": ""
+  },
+  "boas-praticas-de-codigo/SKILL.md": {
+    "mtime": 1782186746.8378494,
+    "ast_hash": "3bf4bb2276f097d995970502947b4420",
+    "semantic_hash": ""
+  },
+  "buscar-grupos-whatsapp/SKILL.md": {
+    "mtime": 1782168332.4212937,
+    "ast_hash": "0140c90a6de67233c5c6ee961fcae6e3",
+    "semantic_hash": ""
+  },
+  "capturar-screenshot-paginas/SKILL.md": {
+    "mtime": 1782168332.4212937,
+    "ast_hash": "450511995d8e86b47d35eed319fb3000",
+    "semantic_hash": ""
+  },
+  "coautoria-documentacao-tecnica/SKILL.md": {
+    "mtime": 1782168332.4212937,
+    "ast_hash": "623b39d8f2c23a31099bda1f89f2739b",
+    "semantic_hash": ""
+  },
+  "comitar-alteracoes/SKILL.md": {
+    "mtime": 1783552388.8098633,
+    "ast_hash": "92ee0710415b403fa88857eeb9cc5440",
+    "semantic_hash": ""
+  },
+  "commits/2026-06/23/commit-2026-06-23-21-41-54-f4fd71c.md": {
+    "mtime": 1782261714.1581757,
+    "ast_hash": "36f832a9c7d286a1b6e8d7c949b365b0",
+    "semantic_hash": ""
+  },
+  "commits/commit-2026-06-23-00-53-03-c368e71.md": {
+    "mtime": 1782186783.7706106,
+    "ast_hash": "65d49e306ed0f9acc8a469286d8f1d7c",
+    "semantic_hash": ""
+  },
+  "commits/commit-4e04532-18-06-2026-22-26-40.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "5e669ea36cf2b3280bf200cda0cfb45c",
+    "semantic_hash": ""
+  },
+  "commits/commit-5b4f870-18-06-2026-22-18-40.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "51966059ae9c32768be2d333438b46d2",
+    "semantic_hash": ""
+  },
+  "commits/commit-ac4e1f6-18-06-2026-23-34-35.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "0fb02c5accf5c97f26d2f6a7f204000f",
+    "semantic_hash": ""
+  },
+  "commits/commit-c857027-18-06-2026-23-31-20.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "0902c6dbfd8bbf9c973b40cbfc6c722e",
+    "semantic_hash": ""
+  },
+  "commits/commit-ce527ce-18-06-2026-22-16-36.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "df3854c6994b923a373856edc1bb2852",
+    "semantic_hash": ""
+  },
+  "comunicados-internos-empresa/LICENSE.txt": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "0ee6429f4c66920b6744d818225fb58f",
+    "semantic_hash": ""
+  },
+  "comunicados-internos-empresa/SKILL.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "1ff4b294a92eaf3589e09a4c70e952d7",
+    "semantic_hash": ""
+  },
+  "comunicados-internos-empresa/examples/3p-updates.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "acf74437a9e65edced3d56dd9ee63722",
+    "semantic_hash": ""
+  },
+  "comunicados-internos-empresa/examples/company-newsletter.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "6f97d1001ca99c1ef2db92ebe58e41eb",
+    "semantic_hash": ""
+  },
+  "comunicados-internos-empresa/examples/faq-answers.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "8765c9c2ac0f0f56c8690df4583a9643",
+    "semantic_hash": ""
+  },
+  "comunicados-internos-empresa/examples/general-comms.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "bdc6cf6bc1fad20a52a4662d430dcaf8",
+    "semantic_hash": ""
+  },
+  "construir-artefatos-react/LICENSE.txt": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "0ee6429f4c66920b6744d818225fb58f",
+    "semantic_hash": ""
+  },
+  "construir-artefatos-react/SKILL.md": {
+    "mtime": 1782168332.4212937,
+    "ast_hash": "574c548dd4c7bcbf8b0dab82bf043c93",
+    "semantic_hash": ""
+  },
+  "construir-servidor-mcp/LICENSE.txt": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "0ee6429f4c66920b6744d818225fb58f",
+    "semantic_hash": ""
+  },
+  "construir-servidor-mcp/SKILL.md": {
+    "mtime": 1782168332.4212937,
+    "ast_hash": "d261f8c5176867b15d7f977d85c7398c",
+    "semantic_hash": ""
+  },
+  "construir-servidor-mcp/reference/evaluation.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "4aa903da7d9c289eb167dce2747140f2",
+    "semantic_hash": ""
+  },
+  "construir-servidor-mcp/reference/mcp_best_practices.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "e7cd50e7527877687efebcd3877e3e9a",
+    "semantic_hash": ""
+  },
+  "construir-servidor-mcp/reference/node_mcp_server.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "214713cb0cfdf6ea4aa8eda85e2c6959",
+    "semantic_hash": ""
+  },
+  "construir-servidor-mcp/reference/python_mcp_server.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "af767546b4697efbb7348f5c06a6b071",
+    "semantic_hash": ""
+  },
+  "construir-servidor-mcp/scripts/requirements.txt": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "3ec2de45c75cadfbf997821049c09fbd",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/LICENSE.txt": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "f8515c3694eb11622110ca76c7c15d1b",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/SKILL.md": {
+    "mtime": 1782168332.4212937,
+    "ast_hash": "dc784653e9be599c31dba4f24b741635",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/editing.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "639f560d8c7d3eab2f0408796473ff8b",
+    "semantic_hash": ""
+  },
+  "criar-editar-apresentacao/pptxgenjs.md": {
+    "mtime": 1782055338.056826,
+    "ast_hash": "3def45c7cacef2a2f648bc9f1fce337a",
+    "semantic_hash": ""
+  },
+  "criar-editar-documento-word/LICENSE.txt": {
+    "mtime": 1782055338.0608263,
+    "ast_hash": "f8515c3694eb11622110ca76c7c15d1b",
+    "semantic_hash": ""
+  },
+  "criar-editar-documento-word/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "19105c81016d0fc6d391eda6abb19b3e",
+    "semantic_hash": ""
+  },
+  "criar-editar-planilhas-excel/LICENSE.txt": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "f8515c3694eb11622110ca76c7c15d1b",
+    "semantic_hash": ""
+  },
+  "criar-editar-planilhas-excel/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "b9f36e3483bb8cce86cb2efe9a4d2405",
+    "semantic_hash": ""
+  },
+  "criar-gifs-animados-slack/LICENSE.txt": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "0ee6429f4c66920b6744d818225fb58f",
+    "semantic_hash": ""
+  },
+  "criar-gifs-animados-slack/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "df89891b3585230f48c8627636b7a8d6",
+    "semantic_hash": ""
+  },
+  "criar-gifs-animados-slack/requirements.txt": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "f0438b406aa799a2f7be030d5f0e2185",
+    "semantic_hash": ""
+  },
+  "criar-novo-skill/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "de7b958e7bfc9703ef4985d33ea87877",
+    "semantic_hash": ""
+  },
+  "delegar-tarefas/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "eebc980644bfdccfdc052c8e2d3f62f4",
+    "semantic_hash": ""
+  },
+  "delegar-tarefas/agy-tasks/current/42aabab7.md": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "4d49e14c309134ec46752463e0b34a3d",
+    "semantic_hash": ""
+  },
+  "delegar-tarefas/agy-tasks/current/6f6f1dbc.md": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "b599ca7cf26e223f82cbf19338f87072",
+    "semantic_hash": ""
+  },
+  "delegar-tarefas/agy-tasks/status.md": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "f3aa20b5c8a8cddc6b07f37f11ed1d4b",
+    "semantic_hash": ""
+  },
+  "delegar-tarefas/agy-tasks/templates/task-template.md": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "f9c2edf91f91e1bb24706cdb646bb597",
+    "semantic_hash": ""
+  },
+  "design-interface-usuario/LICENSE.txt": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "2ee41112a44fe7014dce33e26468ba93",
+    "semantic_hash": ""
+  },
+  "design-interface-usuario/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "66fcc139bc267d1cf48556e0edca72a1",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/LICENSE.txt": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "0ee6429f4c66920b6744d818225fb58f",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "028a66c5029a47288a391442ffb76750",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/ArsenalSC-OFL.txt": {
+    "mtime": 1782055338.0648265,
+    "ast_hash": "6ba27859bff46d6040ce48e164b2b6b5",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/BigShoulders-OFL.txt": {
+    "mtime": 1782055338.0688264,
+    "ast_hash": "db35b3b1166369fabfe18614e67ad0f7",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/Boldonse-OFL.txt": {
+    "mtime": 1782055338.0688264,
+    "ast_hash": "fd1bd9bdc739431ca190a2178b29fe2e",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/BricolageGrotesque-OFL.txt": {
+    "mtime": 1782055338.0688264,
+    "ast_hash": "c01c6f2840f06aacc97899ab09ec0e01",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/CrimsonPro-OFL.txt": {
+    "mtime": 1782055338.0728266,
+    "ast_hash": "2b62069b71f49dddd2bde54448a986a0",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/DMMono-OFL.txt": {
+    "mtime": 1782055338.0728266,
+    "ast_hash": "c6a3ddf00ed346cbb45fdfa0ca2c4b9c",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/EricaOne-OFL.txt": {
+    "mtime": 1782055338.0728266,
+    "ast_hash": "0312065d0003e7a4ef6a459afd7e1ccb",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/GeistMono-OFL.txt": {
+    "mtime": 1782055338.0728266,
+    "ast_hash": "9678944f41fc8b46592ca1626f1c0896",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/Gloock-OFL.txt": {
+    "mtime": 1782055338.0728266,
+    "ast_hash": "2cc6d168f1171b25a10e825bb7a54ee7",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/IBMPlexMono-OFL.txt": {
+    "mtime": 1782055338.0768266,
+    "ast_hash": "30de3a874e3399fc7b9d1bec045d3166",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/InstrumentSans-OFL.txt": {
+    "mtime": 1782055338.0808268,
+    "ast_hash": "35856d470a6adf5d5c4a9bcdfd659bcc",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/Italiana-OFL.txt": {
+    "mtime": 1782055338.0808268,
+    "ast_hash": "233d74d83b54a786d21a429304775aef",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/JetBrainsMono-OFL.txt": {
+    "mtime": 1782055338.0808268,
+    "ast_hash": "2025a2ee80175b15561a8232e67d74d5",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/Jura-OFL.txt": {
+    "mtime": 1782055338.084827,
+    "ast_hash": "227060bfebf7bcf3f924fafa47d1237d",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/LibreBaskerville-OFL.txt": {
+    "mtime": 1782055338.084827,
+    "ast_hash": "077df2dc77ecd9ca43d6fbc15ed1c0cb",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/Lora-OFL.txt": {
+    "mtime": 1782055338.084827,
+    "ast_hash": "a6f35dd3870842fab964fbcd0ffb2908",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/NationalPark-OFL.txt": {
+    "mtime": 1782055338.088827,
+    "ast_hash": "67073750dbf1a5d68e56c4c5ffec8f09",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/NothingYouCouldDo-OFL.txt": {
+    "mtime": 1782055338.088827,
+    "ast_hash": "b3dd666855ec5cd55f351287c80b9eb1",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/Outfit-OFL.txt": {
+    "mtime": 1782055338.088827,
+    "ast_hash": "1b36bbe38eb97e26055123ff42f44fc7",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/PixelifySans-OFL.txt": {
+    "mtime": 1782055338.088827,
+    "ast_hash": "1f685eb54479bfa39bced4f64798a900",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/PoiretOne-OFL.txt": {
+    "mtime": 1782055338.088827,
+    "ast_hash": "954ca844e5dd9e31353213c6a142b9a4",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/RedHatMono-OFL.txt": {
+    "mtime": 1782055338.088827,
+    "ast_hash": "0787f4274246f7bbf6c429db807e3049",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/Silkscreen-OFL.txt": {
+    "mtime": 1782055338.088827,
+    "ast_hash": "ed13fbda3931ec8f3beb063f8fcd2182",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/SmoochSans-OFL.txt": {
+    "mtime": 1782055338.092827,
+    "ast_hash": "da377dd00a998b32d88274b2b17c64be",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/Tektur-OFL.txt": {
+    "mtime": 1782055338.092827,
+    "ast_hash": "40fd22c803f19bfbdb6383598f3bfacb",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/WorkSans-OFL.txt": {
+    "mtime": 1782055338.092827,
+    "ast_hash": "4bf1338afcac74d0c9ea569f07a87fab",
+    "semantic_hash": ""
+  },
+  "design-visual-artistico/canvas-fonts/YoungSerif-OFL.txt": {
+    "mtime": 1782055338.096827,
+    "ast_hash": "fa532d4441344be225f3f46d7ce2aabf",
+    "semantic_hash": ""
+  },
+  "diretrizes-marca-anthropic/LICENSE.txt": {
+    "mtime": 1782055338.096827,
+    "ast_hash": "0ee6429f4c66920b6744d818225fb58f",
+    "semantic_hash": ""
+  },
+  "diretrizes-marca-anthropic/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "ac7a6d70806f912a8296594f4c041f92",
+    "semantic_hash": ""
+  },
+  "extrair-conteudo-paginas/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "164c48c5727b2e69cb4a8c858e8785b2",
+    "semantic_hash": ""
+  },
+  "extrair-conteudo-paginas/proxies.txt": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "074d247ff396509268952e3ee9841ada",
+    "semantic_hash": ""
+  },
+  "gerar-arvore-diretorios/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "1483139feddb4bc41eb0793ad94edcee",
+    "semantic_hash": ""
+  },
+  "gerar-arvore-diretorios/dir.md": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "24ec14b9450dc768f080bd34fe443383",
+    "semantic_hash": ""
+  },
+  "gerar-historico-commits/SKILL.md": {
+    "mtime": 1783552374.6855702,
+    "ast_hash": "9149abef0c1560e86c05b8e72431daee",
+    "semantic_hash": ""
+  },
+  "gerenciar-remover-skills/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "751011948979e530e18297bfad211a52",
+    "semantic_hash": ""
+  },
+  "graphify/README.md": {
+    "mtime": 1783535597.0887518,
+    "ast_hash": "7d57b0d4c751db35715e85f2cfbf419a",
+    "semantic_hash": ""
+  },
+  "graphify/SKILL.md": {
+    "mtime": 1783528128.7354918,
+    "ast_hash": "d98d6516d393e2b46b057039a8940516",
+    "semantic_hash": ""
+  },
+  "graphify/references/add-watch.md": {
+    "mtime": 1783515306.5955737,
+    "ast_hash": "d59d027fe449f06aa03905a01184e779",
+    "semantic_hash": ""
+  },
+  "graphify/references/exports.md": {
+    "mtime": 1783515306.5955737,
+    "ast_hash": "9da2a2152e60a22f07f05fed5158f287",
+    "semantic_hash": ""
+  },
+  "graphify/references/extraction-spec.md": {
+    "mtime": 1783515306.5955737,
+    "ast_hash": "42fef56a01698118f7fd722acdadea34",
+    "semantic_hash": ""
+  },
+  "graphify/references/github-and-merge.md": {
+    "mtime": 1783515306.5955737,
+    "ast_hash": "cde13df085e4c492aeb7ba298a996d0d",
+    "semantic_hash": ""
+  },
+  "graphify/references/hooks.md": {
+    "mtime": 1783515306.5955737,
+    "ast_hash": "3f545db6ce646650bb9de588f5512a27",
+    "semantic_hash": ""
+  },
+  "graphify/references/query.md": {
+    "mtime": 1783515306.5955737,
+    "ast_hash": "3c46f8ad006874260614ed8657d02307",
+    "semantic_hash": ""
+  },
+  "graphify/references/transcribe.md": {
+    "mtime": 1783515306.5955737,
+    "ast_hash": "67b6a5fa6c0974e18f60db9f8932fbd8",
+    "semantic_hash": ""
+  },
+  "graphify/references/update.md": {
+    "mtime": 1783515306.5955737,
+    "ast_hash": "c698309979460d0f02ba616417844399",
+    "semantic_hash": ""
+  },
+  "limpar-arquivos-dependencias/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "0481136616399db296eada71c7ec3a6c",
+    "semantic_hash": ""
+  },
+  "mesclar-arquivos-diretorio/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "d7869db4053c77d261fa062f0cb460b6",
+    "semantic_hash": ""
+  },
+  "mesclar-arquivos-diretorio/dir.md": {
+    "mtime": 1783213177.7978637,
+    "ast_hash": "9a3e6492e640615674886235ec84264a",
+    "semantic_hash": ""
+  },
+  "mesclar-arquivos-diretorio/merged_output.txt": {
+    "mtime": 1783213177.8058639,
+    "ast_hash": "c4af01ecb4dc75b465015f6ddd1a579d",
+    "semantic_hash": ""
+  },
+  "placeholder-carregamento/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "8366001400cb7b2993650638ba46b192",
+    "semantic_hash": ""
+  },
+  "processar-arquivos-pdf/LICENSE.txt": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "f8515c3694eb11622110ca76c7c15d1b",
+    "semantic_hash": ""
+  },
+  "processar-arquivos-pdf/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "fb94900c62ab50702f65499c30929e2a",
+    "semantic_hash": ""
+  },
+  "processar-arquivos-pdf/forms.md": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "17def1f9054156caec43e0db22dfeb2d",
+    "semantic_hash": ""
+  },
+  "processar-arquivos-pdf/reference.md": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "c98b5ac274243622da3712daa2f859f5",
+    "semantic_hash": ""
+  },
+  "recuperar-commits-salvos/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "565bb14c42e3261bde5e778890199583",
+    "semantic_hash": ""
+  },
+  "refatorar-css-variaveis/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "caa9a3871758e6996022f563f0bfefb6",
+    "semantic_hash": ""
+  },
+  "renomear-arquivos-referencias/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "9a4639701629135ccba31eeeedf15c48",
+    "semantic_hash": ""
+  },
+  "reverter-css-variaveis/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "284172b6ba8ba4b6b205b72e2c144c6e",
+    "semantic_hash": ""
+  },
+  "tema-app-relacionamento/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "0d8687acf1ff2b29358567f13b0505a4",
+    "semantic_hash": ""
+  },
+  "tema-marketplace-trokapay/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "ba6fae20172383e38b54b79704aed182",
+    "semantic_hash": ""
+  },
+  "tema-moeda-de-troka/SKILL.md": {
+    "mtime": 1782168165.9497006,
+    "ast_hash": "bb9bb15ee3b3a6fb0476e099bd51cef9",
+    "semantic_hash": ""
+  },
+  "testar-aplicacoes-web/LICENSE.txt": {
+    "mtime": 1782055338.1768289,
+    "ast_hash": "0ee6429f4c66920b6744d818225fb58f",
+    "semantic_hash": ""
+  },
+  "testar-aplicacoes-web/SKILL.md": {
+    "mtime": 1782168332.425294,
+    "ast_hash": "ae792ed04a9e15b33553e63bd4ad4fbe",
+    "semantic_hash": ""
+  },
+  "aplicar-temas-cores-fontes/theme-showcase.pdf": {
+    "mtime": 1782055338.0528262,
+    "ast_hash": "ec8fbdc541a62160430606c2ff0a0577",
+    "semantic_hash": ""
+  }
+}

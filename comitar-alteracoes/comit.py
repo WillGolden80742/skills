@@ -6,7 +6,7 @@ import argparse
 from datetime import datetime
 
 BASE_DIRS = ['app']
-IGNORE_DIRS = {'vendor', 'node_modules', '.git', 'commits'}
+IGNORE_DIRS = {'vendor', 'node_modules', '.git'}
 IGNORE_FILES = {'.', '..'}
 
 def run_git_command(args, cwd):
@@ -178,6 +178,41 @@ def update_readme_structure(project_path):
             f.write(content)
         print("README.md atualizado com a estrutura do projeto")
 
+def update_graphify_base(project_path):
+    """Atualiza a base de dados graphify-out após o commit"""
+    graphify_out = os.path.join(project_path, "graphify-out")
+    if not os.path.exists(graphify_out):
+        print("graphify-out não encontrado, pulando atualização do grafo...")
+        return
+
+    print("Atualizando base de dados graphify-out...")
+
+    # Carregar configuração do graphify
+    config_path = os.path.join(graphify_out, ".graphify_config")
+    env_vars = {}
+    if os.path.exists(config_path):
+        with open(config_path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    key, value = line.split("=", 1)
+                    env_vars[key.strip()] = value.strip()
+
+    # Executar graphify update
+    cmd = ["graphify", ".", "--update"]
+    env = os.environ.copy()
+    env["PROJECT_PATH"] = project_path
+
+    for key, value in env_vars.items():
+        if key.endswith("_KEY") or key.endswith("_URL"):
+            env[key] = value
+
+    result = subprocess.run(cmd, cwd=project_path, capture_output=True, text=True, encoding="utf-8", env=env)
+    if result.returncode == 0:
+        print("Base graphify-out atualizada com sucesso")
+    else:
+        print(f"Aviso ao atualizar graphify-out: {result.stderr[:500] if result.stderr else 'erro desconhecido'}")
+
 def main():
     parser = argparse.ArgumentParser(description="Git commit com historico")
     parser.add_argument("--message", required=True, help="Mensagem do commit")
@@ -248,6 +283,9 @@ def main():
 
     print("Atualizando README com estrutura do projeto...")
     update_readme_structure(project_path)
+
+    print("Atualizando base de dados graphify-out...")
+    update_graphify_base(project_path)
 
     print("Fazendo pull antes do push...")
     _, pull_stderr, pull_code = run_git_command(["git", "pull", "--rebase"], project_path)

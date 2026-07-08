@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """
-model_prices.py — Python port of AdminModel::get_model_prices()
+model_prices.py — Mostra árvore de modelos gratuitos (prioridade DeepSeek)
 
-Fetches model prices from OpenRouter and OpenCode Zen APIs,
-merges, sorts (free DeepSeek → free GPT → free others →
-paid MiniMax → paid DeepSeek → paid GPT → paid others),
-and caches to a JSON file for 5 minutes.
+Faz fetch da OpenRouter API, filtra apenas modelos com "free" no id/name,
+e exibe em formato de árvore organizada por provedor/família.
 
 Usage:
-    python model_prices.py              # print JSON result
-    python model_prices.py --pretty      # print indented JSON
-    python model_prices.py --cache-only  # read cached data (if fresh)
+    python model_prices.py                  # árvore colorida
+    python model_prices.py --json           # JSON puro
+    python model_prices.py --flat           # lista plana
+    python model_prices.py --cache-only     # usa cache existente
+    python model_prices.py --update         # força refresh do cache
 """
 
 import json
@@ -20,6 +20,7 @@ import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone
+from collections import defaultdict
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -35,12 +36,31 @@ USER_AGENT = "uailove/1.0"
 REQUEST_TIMEOUT = 15
 
 
-def _fetch_json(url):
-    """Fetch URL, return parsed JSON dict/list, or None on failure."""
-    req = urllib.request.Request(
-        url,
-        headers={"User-Agent": USER_AGENT},
-    )
+def _load_env():
+    """Carrega .env se existir (prioridade: OPENAI_API_KEY para OpenRouter)."""
+    env_paths = [
+        os.path.join(SCRIPT_DIR, "..", "..", "..", "..", "graphify-out", ".env"),
+        os.path.join(SCRIPT_DIR, "..", "..", "..", "graphify-out", ".env"),
+        os.path.join(SCRIPT_DIR, ".env"),
+    ]
+    for p in env_paths:
+        p = os.path.abspath(p)
+        if os.path.isfile(p):
+            with open(p) as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith("#") and "=" in line:
+                        k, v = line.split("=", 1)
+                        os.environ.setdefault(k.strip(), v.strip())
+            break
+
+
+def _fetch_json(url, api_key=None):
+    """Fetch URL, return parsed JSON, or None on failure."""
+    headers = {"User-Agent": USER_AGENT}
+    if api_key:
+        headers["Authorization"] = f"Bearer {api_key}"
+    req = urllib.request.Request(url, headers=headers)
     try:
         with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
             if resp.status == 200:
@@ -51,7 +71,7 @@ def _fetch_json(url):
 
 
 # ---------------------------------------------------------------------------
-# Normalisation / helpers
+# Normalisation
 # ---------------------------------------------------------------------------
 def _normalise_model_id(model_id):
     """Strip provider prefix, lowercase, dots → hyphens."""
@@ -60,60 +80,14 @@ def _normalise_model_id(model_id):
     return model_id.lower().replace(".", "-")
 
 
-def _is_free_model(model):
-    """Check if a model has no prices or all prices are zero/null."""
-    prices = model.get("prices")
-    if not prices:
-        return True
-    for provider_prices in prices.values():
-        inp = provider_prices.get("input")
-        out = provider_prices.get("output")
-        if inp is not None and isinstance(inp, (int, float)) and inp > 0:
-            return False
-        if out is not None and isinstance(out, (int, float)) and out > 0:
-            return False
-    return True
-
-
-def _model_sort_score(model):
-    """
-    Composite sort score (lower = appears first):
-
-      Free:    0 DeepSeek, 1 GPT, 2 others
-      Paid:   10 MiniMax, 11 DeepSeek, 12 GPT, 13 others
-    """
-    mid = (model.get("id") or "").lower()
-    name = (model.get("name") or "").lower()
-
-    is_free = _is_free_model(model)
-
-    # Family priority
-    if "deepseek" in mid or "deepseek" in name:
-        family = 0
-    elif "gpt" in mid or "gpt" in name or "openai" in mid:
-        family = 1
-    else:
-        family = 2
-
-    if is_free:
-        return family  # 0, 1, or 2
-
-    # Paid — MiniMax gets its own tier
-    if "minimax" in mid or "minimax" in name:
-        return 10
-
-    return 11 + family  # 11, 12, or 13
-
-
 # ---------------------------------------------------------------------------
 # Cache
 # ---------------------------------------------------------------------------
 def _read_cache():
-    """Return cached data if fresh, else None."""
     try:
         mtime = os.path.getmtime(CACHE_FILE)
         if time.time() - mtime < CACHE_TTL:
-            with open(CACHE_FILE, "r") as f:
+            with open(CACHE_FILE) as f:
                 return json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
         pass
@@ -121,122 +95,163 @@ def _read_cache():
 
 
 def _write_cache(data):
-    """Persist data to cache file."""
     os.makedirs(os.path.dirname(CACHE_FILE) or ".", exist_ok=True)
     with open(CACHE_FILE, "w") as f:
         json.dump(data, f)
 
 
 # ---------------------------------------------------------------------------
-# Main
+# Fetch + filter
 # ---------------------------------------------------------------------------
-def get_model_prices(cache_only=False):
+def get_free_models(force_refresh=False):
     """
-    Python equivalent of AdminModel::get_model_prices().
-
-    Returns dict with keys:
-      - updated_at  (ISO‑8601)
-      - models      (list of model dicts)
+    Retorna lista de modelos gratuitos da OpenRouter, ordenados:
+    DeepSeek free → GPT free → outros free.
+    Cada item: {id, name, provider, family, context, input, output}
     """
-    # 1) Return cached data if fresh
-    if not cache_only:
+    if not force_refresh:
         cached = _read_cache()
         if cached is not None:
             return cached
 
-    models = []
+    _load_env()
+    api_key = os.environ.get("OPENAI_API_KEY") or os.environ.get("OPENCODE_API_KEY")
 
-    # 2) Fetch from OpenCode Zen API
-    zen_map = {}
-    zen_data = _fetch_json("https://opencode.ai/zen/v1/models")
-    if zen_data and isinstance(zen_data, dict):
-        zen_items = zen_data.get("data")
-        if isinstance(zen_items, list):
-            for m in zen_items:
-                norm_id = _normalise_model_id(m.get("id", ""))
-                zen_map[norm_id] = {"originalId": m.get("id")}
+    # Fetch OpenRouter
+    or_data = _fetch_json("https://openrouter.ai/api/v1/models", api_key=api_key)
+    free_models = []
 
-    # 3) Fetch from OpenRouter API
-    or_map = {}
-    or_data = _fetch_json("https://openrouter.ai/api/v1/models")
     if or_data and isinstance(or_data, dict):
-        or_items = or_data.get("data")
-        if isinstance(or_items, list):
-            for m in or_items:
-                norm = _normalise_model_id(m.get("id", ""))
+        items = or_data.get("data")
+        if isinstance(items, list):
+            for m in items:
+                mid = (m.get("id") or "").lower()
+                mname = (m.get("name") or "").lower()
+
+                # Critério: gratuito (contém "free") OU DeepSeek (prioridade do usuário)
+                is_free = "free" in mid or "free" in mname
+                is_deepseek = "deepseek" in mid or "deepseek" in mname
+                if not is_free and not is_deepseek:
+                    continue
+
                 pricing = m.get("pricing") or {}
-                arch = m.get("architecture")
-
-                # Extract family from architecture
-                family = None
-                if isinstance(arch, dict):
-                    family = arch.get("tokenizer") or arch.get("modality")
-                    if isinstance(family, str) and "-" in family:
-                        family = family.split("-")[0]
-                elif isinstance(arch, str):
-                    family = arch
-
                 prompt = pricing.get("prompt")
                 completion = pricing.get("completion")
 
-                or_map[norm] = {
-                    "originalId": m.get("id"),
+                # Extrair provider (ex: "openai/gpt-4o-free" → "openai")
+                provider = mid.split("/")[0] if "/" in mid else "other"
+
+                # Determinar família para prioridade
+                if "deepseek" in mid or "deepseek" in mname:
+                    family = "deepseek"
+                    priority = 0
+                elif "gpt" in mid or "openai" in mid or "gpt" in mname:
+                    family = "gpt"
+                    priority = 1
+                else:
+                    family = "other"
+                    priority = 2
+
+                free_models.append({
+                    "id": m.get("id"),
                     "name": m.get("name") or m.get("id"),
-                    "input": (float(prompt) * 1_000_000) if prompt is not None else None,
-                    "output": (float(completion) * 1_000_000) if completion is not None else None,
-                    "context": m.get("context_length"),
+                    "provider": provider,
                     "family": family,
-                }
+                    "priority": priority,
+                    "context": m.get("context_length"),
+                    "input_price": (float(prompt) * 1_000_000) if prompt is not None else 0,
+                    "output_price": (float(completion) * 1_000_000) if completion is not None else 0,
+                })
 
-    # 4) Merge
-    all_ids = sorted(set(list(zen_map.keys()) + list(or_map.keys())))
+    # Ordenar: priority (DeepSeek=0, GPT=1, other=2) → nome
+    free_models.sort(key=lambda x: (x["priority"], x["family"], x["name"]))
 
-    for norm_id in all_ids:
-        zen = zen_map.get(norm_id)
-        or_ = or_map.get(norm_id)
-
-        prices = {}
-        if or_ and (or_["input"] is not None or or_["output"] is not None):
-            prices["openrouter"] = {"input": or_["input"], "output": or_["output"]}
-        if zen:
-            prices["zen"] = {"input": None, "output": None}
-
-        providers = []
-        if zen:
-            providers.append("zen")
-        if or_:
-            providers.append("openrouter")
-
-        models.append({
-            "id": or_["originalId"] if or_ else (zen["originalId"] if zen else norm_id),
-            "name": or_["name"] if or_ else norm_id,
-            "prices": prices if prices else None,
-            "context": or_["context"] if or_ else None,
-            "family": or_["family"] if or_ else None,
-            "providers": providers,
-        })
-
-    # 5) Sort
-    models.sort(key=_model_sort_score)
-
-    result = {
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "models": models,
-    }
-
-    # 6) Cache
-    _write_cache(result)
-
-    return result
+    _write_cache(free_models)
+    return free_models
 
 
 # ---------------------------------------------------------------------------
-# CLI entry point
+# Display: árvore
+# ---------------------------------------------------------------------------
+def _print_tree(models):
+    """Exibe modelos em formato de árvore por família."""
+    if not models:
+        print(" Nenhum modelo gratuito encontrado.")
+        return
+
+    # Agrupar por família
+    tree = defaultdict(list)
+    for m in models:
+        tree[m["family"]].append(m)
+
+    family_names = {"deepseek": "DeepSeek", "gpt": "GPT / OpenAI", "other": "Outros"}
+    family_icons = {"deepseek": "", "gpt": "", "other": ""}
+
+    total = len(models)
+    print(f" Modelos gratuitos encontrados: {total}\n")
+
+    for fam_key in ["deepseek", "gpt", "other"]:
+        items = tree.get(fam_key, [])
+        if not items:
+            continue
+
+        label = family_names.get(fam_key, fam_key)
+        print(f" {label}")
+
+        for m in items:
+            # Provider badge
+            prov = m["provider"]
+            ctx = m["context"]
+            ctx_str = f"ctx={ctx}" if ctx else ""
+
+            # Preço (já multiplicado por 1M = preço por milhão de tokens)
+            out = m["output_price"]
+            inp = m["input_price"]
+            if out == 0 and inp == 0:
+                price_str = "Grátis"
+            elif out < 0.01:
+                price_str = f"${out:.4f}/1M"
+            else:
+                price_str = f"${out:.2f}/1M"
+
+            print(f"   {m['id']}")
+            print(f"       {price_str}  |  {ctx_str}  |  {prov}")
+
+        print()
+
+    print(f" ({total} modelos)")
+
+
+def _print_flat(models):
+    """Lista plana."""
+    for m in models:
+        print(f"{m['family']:10s}  {m['id']:50s}  Grátis")
+
+
+# ---------------------------------------------------------------------------
+# CLI
 # ---------------------------------------------------------------------------
 if __name__ == "__main__":
-    cache_only = "--cache-only" in sys.argv
-    pretty = "--pretty" in sys.argv
+    flags = set(sys.argv[1:])
 
-    data = get_model_prices(cache_only=cache_only)
-    kwargs = {"indent": 2, "ensure_ascii": False} if pretty else {}
-    print(json.dumps(data, **kwargs))
+    force = "--update" in flags or "--force" in flags
+    as_json = "--json" in flags
+    flat = "--flat" in flags
+    cache_only = "--cache-only" in flags
+
+    if cache_only and not force:
+        models = get_free_models(force_refresh=False)
+        if models is None or (isinstance(models, list) and not models):
+            # Try reading cache directly
+            cached = _read_cache()
+            if cached:
+                models = cached
+    else:
+        models = get_free_models(force_refresh=force)
+
+    if as_json:
+        print(json.dumps(models, indent=2, ensure_ascii=False))
+    elif flat:
+        _print_flat(models)
+    else:
+        _print_tree(models)

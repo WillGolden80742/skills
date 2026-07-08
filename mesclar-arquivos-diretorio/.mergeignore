@@ -46,3 +46,8 @@ storage/framework/cache/ # Cache do Laravel
 *.xsd              # Arquivos de schema XML
 Thumbs.db          # Cache de miniaturas do Windows
 .DS_Store          # Arquivos de metadados do macOS
+
+# Arquivos/diretórios gerados pelo próprio merge ou por skills
+commits/           # Histórico de commits do projeto
+dir.md             # Árvore de diretórios gerada automaticamente
+.mergeignore       # Arquivo de exclusão gerado automaticamente

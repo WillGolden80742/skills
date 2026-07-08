@@ -1,6 +1,6 @@
 ---
 name: graphify
-description: "Use for any question about a codebase, its architecture, file relationships, or project content — especially when graphify-out/ exists, where the question should be treated as a graphify query first. Turns any input (code, docs, papers, images, videos) into a persistent knowledge graph with god nodes, community detection, and query/path/explain tools."
+description: "Use for any question about a codebase, its architecture, file relationships, or project content — especially when graphify-out/ exists, where the question should be treated as a graphify query first. Turns code files into a persistent knowledge graph (AST-only, zero cost) or any input (code + docs + papers + images + videos) with an API key. Features: god nodes, community detection, query/path/explain tools."
 ---
 
 # /graphify
@@ -10,8 +10,9 @@ Turn any folder of files into a navigable knowledge graph with community detecti
 ## Usage
 
 ```
-/graphify                                             # full pipeline on current directory (HTML viz; add --obsidian for a vault)
-/graphify <path>                                      # full pipeline on specific path
+/graphify update <path>                               # [RECOMENDADO] re-extract code files e atualiza o grafo (AST, sem LLM, GRÁTIS)
+/graphify                                             # full pipeline on current directory (requer API key para semântica)
+/graphify <path>                                      # full pipeline on specific path (requer API key)
 /graphify https://github.com/<owner>/<repo>           # clone repo then run full pipeline on it
 /graphify https://github.com/<owner>/<repo> --branch <branch>  # clone a specific branch
 /graphify <url1> <url2> ...                           # clone multiple repos, build each, merge into one cross-repo graph
@@ -46,9 +47,13 @@ Turn any folder of files into a navigable knowledge graph with community detecti
 ## Project Configuration
 
 **Project:** UaiLove WordPress Theme
-**API Keys (priority order):**
-1. `DEEPSEEK_API_KEY` - Try first (free deepseek v4)
-2. `OPENAI_API_KEY` with `OPENAI_BASE_URL=https://openrouter.ai/api/v1` - fallback (gpt-oss)
+**API Keys (all empty = code-only mode, zero cost):**
+1. `DEEPSEEK_API_KEY` - DeepSeek (free tier)
+2. `OPENAI_API_KEY` - OpenAI via OpenRouter
+3. `ANTHROPIC_API_KEY` - Claude
+4. `GEMINI_API_KEY` / `GOOGLE_API_KEY` - Gemini
+5. `MOONSHOT_API_KEY` - Kimi
+> All keys empty by default → `graphify update <path>` (AST-only, no cost)
 
 ## What graphify is for
 
@@ -57,6 +62,8 @@ Drop any folder of code, docs, papers, images, or video into graphify and get a 
 ## What You Must Do When Invoked
 
 If the user invoked `/graphify --help` or `/graphify -h` (with no other arguments), print the contents of the `## Usage` section above verbatim and stop. Do not run any commands, do not detect files, do not default the path to `.`. Just print the Usage block and return.
+
+**Cost-free default:** `graphify update <path>` re-extracts code files structurally (AST) with **zero LLM cost**. It is the recommended way to keep the graph updated for daily development. Full semantic extraction (docs, images, papers) requires an API key and is only needed for mixed corpora.
 
 **Fast path — existing graph:** Before doing anything else, check whether `graphify-out/graph.json` exists. The expected location is `graphify-out/graph.json` relative to the **current working directory** (i.e. the project root where you are running commands). If it exists AND the user's request is a natural-language question about the codebase (e.g. "How does X work?", "What calls Y?", "Trace the data flow through Z") and NOT an explicit rebuild command (`--update`, `--commit`, `--cluster-only`, or a bare path/URL that implies fresh extraction): **skip Steps 1–5 entirely and jump straight to `## For /graphify query`.** Run `graphify query "<question>"` immediately. Do not run detect. Do not check corpus size. Do not ask the user to narrow. The graph is already built — use it.
 
@@ -75,16 +82,29 @@ Only when the path is one or more `https://github.com/...` URLs, or several loca
 ### Step 1 - Ensure graphify is installed + Setup API Keys
 
 ```bash
-# Project API Key - prioritize deepseek (free), fallback to openai/openrouter
+# Project API Key - all empty by default (code-only AST extraction = zero cost)
+# To enable semantic extraction (docs/images/papers), set one of the keys below.
+# Recommended (free): DEEPSEEK_API_KEY (deepseek v4), or OPENAI_API_KEY via OpenRouter
 export DEEPSEEK_API_KEY="${DEEPSEEK_API_KEY:-}"
-export OPENAI_API_KEY="${OPENAI_API_KEY:-sk-your-openrouter-key-here}"
+export OPENAI_API_KEY="${OPENAI_API_KEY:-}"
 export OPENAI_BASE_URL="${OPENAI_BASE_URL:-https://openrouter.ai/api/v1}"
+export ANTHROPIC_API_KEY="${ANTHROPIC_API_KEY:-}"
+export GEMINI_API_KEY="${GEMINI_API_KEY:-}"
+export GOOGLE_API_KEY="${GOOGLE_API_KEY:-}"
+export MOONSHOT_API_KEY="${MOONSHOT_API_KEY:-}"
 
-# Try DEEPSEEK_API_KEY first, if not set use openai via openrouter
-if [ -z "$DEEPSEEK_API_KEY" ]; then
-    BACKEND="openai"
-else
+# Default to no semantic backend (code-only). Set a key above to enable.
+BACKEND="none"
+if [ -n "$DEEPSEEK_API_KEY" ]; then
     BACKEND="deepseek"
+elif [ -n "$OPENAI_API_KEY" ]; then
+    BACKEND="openai"
+elif [ -n "$ANTHROPIC_API_KEY" ]; then
+    BACKEND="claude"
+elif [ -n "$GEMINI_API_KEY" ] || [ -n "$GOOGLE_API_KEY" ]; then
+    BACKEND="gemini"
+elif [ -n "$MOONSHOT_API_KEY" ]; then
+    BACKEND="kimi"
 fi
 
 # Detect the correct Python interpreter (handles uv tool, pipx, venv, system installs)
@@ -122,16 +142,19 @@ mkdir -p graphify-out
 echo "$(cd INPUT_PATH && pwd)" > graphify-out/.graphify_root
 # Save backend choice
 echo "$BACKEND" > graphify-out/.graphify_backend
-# Generate .env with all available provider API keys (used by model_prices.py etc.)
-cat > graphify-out/.env << ENVEOF
-# Graphify Environment - Auto-generated
-DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY:-}
-OPENAI_API_KEY=${OPENAI_API_KEY:-sk-your-openrouter-key-here}
-OPENAI_BASE_URL=${OPENAI_BASE_URL:-https://openrouter.ai/api/v1}
-ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
-GEMINI_API_KEY=${GEMINI_API_KEY:-}
-GOOGLE_API_KEY=${GOOGLE_API_KEY:-}
-MOONSHOT_API_KEY=${MOONSHOT_API_KEY:-}
+# Generate .env with all available provider API keys (all empty by default)
+# model_prices.py reads this to check which keys are available
+cat > graphify-out/.env << 'ENVEOF'
+# Graphify Environment - Auto-generated (all keys empty = code-only mode)
+# Set any of these to enable semantic extraction for docs/images/papers
+DEEPSEEK_API_KEY=
+OPENAI_API_KEY=
+OPENAI_BASE_URL=https://openrouter.ai/api/v1
+ANTHROPIC_API_KEY=
+GEMINI_API_KEY=
+GOOGLE_API_KEY=
+MOONSHOT_API_KEY=
+OPENCODE_API_KEY=
 ENVEOF
 ```
 
@@ -139,7 +162,11 @@ If the import succeeds, print nothing and move straight to Step 2.
 
 **Backend selection:**
 - If `DEEPSEEK_API_KEY` is set → use `--backend deepseek`
-- Otherwise → use openai via OpenRouter (`OPENAI_BASE_URL=https://openrouter.ai/api/v1`)
+- If `OPENAI_API_KEY` is set → use `--backend openai` (via `OPENAI_BASE_URL`)
+- If `ANTHROPIC_API_KEY` is set → use `--backend claude`
+- If `GEMINI_API_KEY` or `GOOGLE_API_KEY` is set → use `--backend gemini`
+- If `MOONSHOT_API_KEY` is set → use `--backend kimi`
+- **No keys set** → no semantic backend (code-only AST, zero cost). Use `graphify update <path>` instead of full pipeline.
 
 **In every subsequent bash block, replace `python3` with `$(cat graphify-out/.graphify_python)` to use the correct interpreter.**
 
@@ -192,17 +219,26 @@ This step has two parts: **structural extraction** (deterministic, free) and **s
 
 **API Key Setup for this project:**
 ```bash
-# Use DEEPSEEK first (free tier), fallback to OpenRouter OpenAI
-DEEPSEEK_KEY="${DEEPSEEK_API_KEY:-}"
-if [ -n "$DEEPSEEK_KEY" ]; then
-    export DEEPSEEK_API_KEY="$DEEPSEEK_KEY"
+# Try configured keys in priority order. If none set, skip semantic extraction.
+SEMANTIC_BACKEND="none"
+if [ -n "${DEEPSEEK_API_KEY:-}" ]; then
     SEMANTIC_BACKEND="deepseek"
-else
-    export OPENAI_API_KEY="sk-your-openrouter-key-here"
-    export OPENAI_BASE_URL="https://openrouter.ai/api/v1"
+elif [ -n "${OPENAI_API_KEY:-}" ]; then
+    export OPENAI_BASE_URL="${OPENAI_BASE_URL:-https://openrouter.ai/api/v1}"
     SEMANTIC_BACKEND="openai"
+elif [ -n "${ANTHROPIC_API_KEY:-}" ]; then
+    SEMANTIC_BACKEND="claude"
+elif [ -n "${GEMINI_API_KEY:-}" ] || [ -n "${GOOGLE_API_KEY:-}" ]; then
+    SEMANTIC_BACKEND="gemini"
+elif [ -n "${MOONSHOT_API_KEY:-}" ]; then
+    SEMANTIC_BACKEND="kimi"
 fi
-echo "Using backend: $SEMANTIC_BACKEND"
+
+if [ "$SEMANTIC_BACKEND" = "none" ]; then
+    echo "No API key set — code-only AST extraction only (zero cost)"
+else
+    echo "Using backend: $SEMANTIC_BACKEND"
+fi
 ```
 
 **Note:** Code is extracted structurally (AST) with no LLM - a code-only corpus skips semantic extraction entirely. For mixed corpora with docs/images, semantic extraction uses the configured backend.
@@ -708,9 +744,10 @@ if [ ! -f graphify-out/.graphify_python ]; then
 fi
 ```
 
-## For --update, --commit and --cluster-only
+## For --update (recommended), --commit and --cluster-only
 
-- `--update` - re-extracts only new or changed files
+- `--update` - re-extracts only new or changed files (code-only AST, no API key needed)
+- `graphify update <path>` - **recommended default**: re-extract code files and rebuild graph (zero cost)
 - `--commit` - incremental update + auto-commit to git
 - `--cluster-only` - reruns clustering on existing graph
 

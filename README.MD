@@ -71,11 +71,14 @@ Quando uma mensagem do usuário casa com algum `trigger`, o OpenCode carrega o c
 ### 💻 Desenvolvimento & Frontend
 | Skill | Descrição |
 |---|---|
+| `graphify` | Transforma código em um grafo de conhecimento persistente (AST-only, zero custo). Ideal para explorar arquiteturas, entender relações entre arquivos e fazer perguntas sobre o codebase. |
 | `construir-artefatos-react` | Cria artefatos HTML complexos com React, Tailwind CSS e shadcn/ui para exibição em chat. |
 | `testar-aplicacoes-web` | Toolkit de testes locais com Playwright — funcionalidade frontend, debug de UI, screenshots. |
 | `capturar-screenshot-paginas` | Captura screenshots de páginas web via Playwright, com suporte a servidor local. |
 | `refatorar-css-variaveis` | Refatora CSS para usar variáveis no `:root`, extraindo valores repetidos em variáveis. |
 | `reverter-css-variaveis` | Reverte um CSS refatorado com variáveis `:root` de volta para valores diretos. |
+
+> **Grafo interativo do projeto:** [`graphify-out/graph.html`](graphify-out/graph.html) — visualize 1631 nós e 1958 arestas com comunidades, busca e navegação.
 
 ### 🔌 Integração & Automação
 | Skill | Descrição |
@@ -119,8 +122,6 @@ Quando uma mensagem do usuário casa com algum `trigger`, o OpenCode carrega o c
 | `tema-marketplace-trokapay` | Conhecimento do tema WordPress MoedaDeTroka/Trokapay — marketplace de permutas com WooCommerce, WhatsApp e comissões/indicações. |
 
 ## Criando uma nova skill
-
-Use a skill `criar-novo-skill`, que executa um script Python interativo:
 
 ```bash
 python "~/.config/opencode/skills/criar-novo-skill/skillFactory.py"
