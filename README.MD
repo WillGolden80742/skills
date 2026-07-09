@@ -1,6 +1,6 @@
-# skills
+# Skills - OpenCode
 
-Coleção pessoal de **skills para o [OpenCode](https://opencode.ai)** — módulos de conhecimento e automação que estendem o agente com fluxos de trabalho prontos: geração de documentos Office, design visual, automação web, integração com WhatsApp/MCP, gestão de Git e organização de projetos.
+Coleção de **skills para o [OpenCode](https://opencode.ai)** — módulos de conhecimento e automação que estendem o agente com fluxos de trabalho prontos: geração de documentos Office, design visual, automação web, integração com WhatsApp/MCP, gestão de Git e organização de projetos.
 
 Cada skill vive em `~/.config/opencode/skills/<nome-da-skill>/` e é descoberta automaticamente pelo OpenCode através de um arquivo `SKILL.md` com front-matter (`name`, `description`, `triggers`).
 
@@ -9,11 +9,11 @@ Cada skill vive em `~/.config/opencode/skills/<nome-da-skill>/` e é descoberta 
 Clone o repositório diretamente dentro da pasta de skills do OpenCode:
 
 ```bash
-# Windows
-git clone https://github.com/WillGolden80742/skills.git "%USERPROFILE%\.config\opencode\skills"
-
 # Linux / macOS
 git clone https://github.com/WillGolden80742/skills.git ~/.config/opencode/skills
+
+# Windows
+git clone https://github.com/WillGolden80742/skills.git "%USERPROFILE%\.config\opencode\skills"
 ```
 
 Se já existir uma pasta `skills` local, copie apenas as subpastas desejadas para dentro de `~/.config/opencode/skills/`.
@@ -22,11 +22,11 @@ Se já existir uma pasta `skills` local, copie apenas as subpastas desejadas par
 
 ```
 skills/
-└── nome-da-skill/
-    ├── SKILL.md        # obrigatório: front-matter + instruções
-    ├── scripts/         # scripts auxiliares (opcional)
-    ├── templates/       # templates/exemplos (opcional)
-    └── LICENSE.txt       # licença, quando aplicável
+├── nome-da-skill/
+│   ├── SKILL.md           # obrigatório: front-matter + instruções
+│   ├── SKILL.json        # AST extraído automaticamente
+│   ├── scripts/           # scripts auxiliares (opcional)
+│   └── templates/         # templates/exemplos (opcional)
 ```
 
 `SKILL.md` segue o formato:
@@ -47,83 +47,161 @@ triggers: ["palavra-chave-1", "frase gatilho 2", ...]
 
 Quando uma mensagem do usuário casa com algum `trigger`, o OpenCode carrega o conteúdo da skill correspondente como contexto adicional para o agente.
 
+## Agente Buildify
+
+O agente **buildify** executa `graphify update` antes de qualquer tarefa de codificação:
+
+```bash
+# Ativar buildify
+# O agente automaticamente executa graphify update antes de codar
+```
+
+**Workflow:**
+```
+Tarefa → graphify update → graphify query → Implementar → graphify update
+```
+
 ## Skills disponíveis
 
-### 📄 Documentos Office & PDF
-| Skill | Descrição |
-|---|---|
-| `criar-editar-apresentacao` | Cria e edita apresentações PowerPoint (.pptx) — slides, decks, apresentações. |
-| `criar-editar-documento-word` | Cria, lê e edita documentos Word (.docx) — relatórios, cartas, documentos formatados. |
-| `criar-editar-planilhas-excel` | Manipula planilhas (.xlsx, .xlsm, .csv, .tsv) — criação, edição, leitura e conversão. |
-| `processar-arquivos-pdf` | Lê, extrai texto/tabelas, mescla, divide e cria arquivos PDF. |
+### 🛠️ Meta — Gestão de Skills
 
-### 🎨 Design & Visual
 | Skill | Descrição |
-|---|---|
-| `aplicar-temas-cores-fontes` | Aplica temas de cores e fontes profissionais a slides e artefatos (10 temas predefinidos). |
-| `design-interface-usuario` | Direção estética e tipográfica para UIs distintivas, evitando aparência de template genérico. |
-| `design-visual-artistico` | Cria designs visuais artísticos em PNG e PDF a partir de uma filosofia de design. |
-| `diretrizes-marca-anthropic` | Aplica as cores e a tipografia oficiais da Anthropic a artefatos visuais. |
-| `arte-algoritmica-generativa` | Cria arte algorítmica com p5.js usando aleatoriedade controlada e exploração interativa de parâmetros. |
-| `placeholder-carregamento` | Gera skeleton screens com shimmer animation para componentes WordPress. |
-| `criar-gifs-animados-slack` | Cria GIFs animados otimizados para Slack, com ferramentas de validação e conceitos de animação. |
+|-------|-----------|
+| `buildify` | Agente buildify que executa graphify antes de codar |
+| `criar-novo-skill` | Cria uma nova skill a partir de um template padrão |
+| `editar-skill` | Edita uma skill existente — conteúdo, triggers, descrição |
+| `gerenciar-remover-skills` | Lista, atualiza ou remove skills existentes |
+| `markdown-to-ast` | Converte arquivos .md em AST JSON (mesmo nome/diretório) |
+| `graphify-skill-router` | Router que usa graphify para navegar e encontrar skills |
 
 ### 💻 Desenvolvimento & Frontend
-| Skill | Descrição |
-|---|---|
-| `graphify` | Transforma código em um grafo de conhecimento persistente (AST-only, zero custo). Ideal para explorar arquiteturas, entender relações entre arquivos e fazer perguntas sobre o codebase. |
-| `construir-artefatos-react` | Cria artefatos HTML complexos com React, Tailwind CSS e shadcn/ui para exibição em chat. |
-| `testar-aplicacoes-web` | Toolkit de testes locais com Playwright — funcionalidade frontend, debug de UI, screenshots. |
-| `capturar-screenshot-paginas` | Captura screenshots de páginas web via Playwright, com suporte a servidor local. |
-| `refatorar-css-variaveis` | Refatora CSS para usar variáveis no `:root`, extraindo valores repetidos em variáveis. |
-| `reverter-css-variaveis` | Reverte um CSS refatorado com variáveis `:root` de volta para valores diretos. |
 
-> **Grafo interativo do projeto:** [`graphify-out/graph.html`](graphify-out/graph.html) — visualize 1631 nós e 1958 arestas com comunidades, busca e navegação.
-
-### 🔌 Integração & Automação
 | Skill | Descrição |
-|---|---|
-| `construir-servidor-mcp` | Guia para criar servidores MCP de alta qualidade (Python/FastMCP ou Node/TypeScript) para integrar APIs externas. |
-| `buscar-grupos-whatsapp` | Plugin WordPress de busca inteligente em grupos do WhatsApp via Uazapi, com IA em think mode e painel wp-admin. |
-| `extrair-conteudo-paginas` | Extrai conteúdo de páginas web com Mozilla Readability e rotação de proxies (Node.js). |
-| `delegar-tarefas` | Delega tarefas ao agente "agy" com monitoramento de status via `agy-tasks/`. |
+|-------|-----------|
+| `graphify` | Knowledge graph persistente (AST-only, zero custo) |
+| `construir-artefatos-react` | Cria artefatos HTML com React, Tailwind CSS, shadcn/ui |
+| `testar-aplicacoes-web` | Toolkit de testes locais com Playwright |
+| `capturar-screenshot-paginas` | Captura screenshots de páginas web via Playwright |
+| `refatorar-css-variaveis` | Refatora CSS para usar variáveis CSS no `:root` |
+| `reverter-css-variaveis` | Reverte CSS com variáveis `:root` para valores diretos |
+| `construir-servidor-mcp` | Guia para criar servidores MCP (Python/Node) |
+| `boas-praticas-de-codigo` | Boas práticas de OOP, Object Calisthenics, MVC |
 
-### 🔄 DevOps & Servidores
+### 📄 Documentos Office & PDF
+
 | Skill | Descrição |
-|---|---|
-| `configurar-espelhamento-server` | Configura espelhamento bidirecional em tempo real entre pasta local (Windows) e servidor Linux remoto via SSH/SFTP, com proteção contra race conditions, arquivos vazios e exclusão remota. |
+|-------|-----------|
+| `criar-editar-apresentacao` | Cria e edita apresentações PowerPoint (.pptx) |
+| `criar-editar-documento-word` | Cria e edita documentos Word (.docx) |
+| `criar-editar-planilhas-excel` | Manipula planilhas Excel (.xlsx, .xlsm, .csv, .tsv) |
+| `processar-arquivos-pdf` | Lê, extrai texto/tabelas, mescla, divide e cria PDFs |
+
+### 🎨 Design & Visual
+
+| Skill | Descrição |
+|-------|-----------|
+| `aplicar-temas-cores-fontes` | Aplica temas de cores e fontes profissionais (10 temas) |
+| `design-interface-usuario` | Design visual distintivo para UI |
+| `design-visual-artistico` | Cria designs visuais artísticos em PNG/PDF |
+| `diretrizes-marca-anthropic` | Aplica cores e tipografia oficial da Anthropic |
+| `arte-algoritmica-generativa` | Cria arte algorítmica com p5.js |
+| `criar-gifs-animados-slack` | Cria GIFs animados otimizados para Slack |
+| `placeholder-carregamento` | Gera skeleton screens com shimmer animation |
 
 ### 🗂️ Git, Arquivos & Projetos
-| Skill | Descrição |
-|---|---|
-| `comitar-alteracoes` | Cria commits Git com histórico timestampado salvo em `commits/`. |
-| `recuperar-commits-salvos` | Recupera e exibe, em ordem cronológica reversa, as mensagens dos commits salvos em `commits/`. |
-| `mesclar-arquivos-diretorio` | Mescla todos os arquivos de um diretório em um único arquivo de saída, respeitando um `.mergeignore`. |
-| `gerar-arvore-diretorios` | Gera uma representação em Markdown da árvore de diretórios de um projeto (recursiva). |
-| `limpar-arquivos-dependencias` | Remove pastas/dependências de projeto (`vendor` do Composer, pacotes npm, etc.). |
-| `renomear-arquivos-referencias` | Renomeia um arquivo e atualiza automaticamente todas as referências em `.php`, `.js`, `.css`, etc. |
 
-### 🛠️ Meta — Gestão de Skills
 | Skill | Descrição |
-|---|---|
-| `criar-novo-skill` | Cria uma nova skill a partir de um template padrão (nome, descrição, triggers e conteúdo). |
-| `gerenciar-remover-skills` | Lista, atualiza ou remove skills existentes na pasta `~/.config/opencode/skills/`. |
+|-------|-----------|
+| `comitar-alteracoes` | Cria commits Git com histórico timestampado |
+| `gerar-historico-commits` | Gera histórico de commits em `commits/yyyy/mm/dd/` |
+| `recuperar-commits-salvos` | Recupera e exibe commits salvos |
+| `gerar-arvore-diretorios` | Gera árvore de diretórios em Markdown |
+| `mesclar-arquivos-diretorio` | Mescla arquivos de um diretório em um único arquivo |
+| `renomear-arquivos-referencias` | Renomeia arquivos e atualiza referências |
+| `limpar-arquivos-dependencias` | Remove dependências (vendor, npm, etc.) |
+
+### 🔌 Integração & Automação
+
+| Skill | Descrição |
+|-------|-----------|
+| `autenticar-github-device-flow` | Autentica GitHub via device flow |
+| `delegar-tarefas` | Delega tarefas para o agente "agy" |
+| `extrair-conteudo-paginas` | Extrai conteúdo de páginas web (Mozilla Readability) |
+| `configurar-espelhamento-server` | Espelhamento bidirecional local ↔ servidor via SSH/SFTP |
 
 ### 📝 Comunicação & Documentação
+
 | Skill | Descrição |
-|---|---|
-| `comunicados-internos-empresa` | Cria comunicações internas — relatórios, newsletters, FAQs e atualizações de projeto. |
-| `coautoria-documentacao-tecnica` | Conduz um workflow estruturado de co-autoria de documentação técnica com o usuário. |
+|-------|-----------|
+| `comunicados-internos-empresa` | Cria comunicações internas — relatórios, newsletters, FAQs |
+| `coautoria-documentacao-tecnica` | Workflow estruturado de co-autoria de documentação |
+
+### 🛒 E-commerce & Marketplace
+
+| Skill | Descrição |
+|-------|-----------|
+| `tema-marketplace-trokapay` | Tema WordPress marketplace com WooCommerce e WhatsApp |
+
+## Grafo Interativo
+
+Visualize o grafo de conhecimento do projeto:
+
+```
+graphify-out/graph.html
+```
+
+Comando para atualizar:
+```bash
+graphify update .
+```
 
 ## Criando uma nova skill
 
 ```bash
-python "~/.config/opencode/skills/criar-novo-skill/skillFactory.py"
+python3 ~/.config/opencode/skills/criar-novo-skill/skillFactory.py
 ```
 
-O script pede, em sequência, o nome, a descrição, os triggers (separados por vírgula) e o conteúdo da nova skill, e cria automaticamente a pasta `~/.config/opencode/skills/<nome-da-skill>/SKILL.md`.
+O script pede, em sequência:
+1. Nome da skill (hífens, sem espaços)
+2. Descrição
+3. Triggers (separados por vírgula)
+4. Conteúdo do skill
 
-Para remover ou atualizar uma skill existente, use `gerenciar-remover-skills`.
+Após criar, o AST JSON é gerado automaticamente.
+
+## Editando uma skill existente
+
+```bash
+python3 ~/.config/opencode/skills/editar-skill/editSkillFactory.py
+```
+
+Lista todas as skills, permite selecionar e editar.
+
+## Gerando AST dos Markdown
+
+```bash
+# Gerar AST para todo o projeto
+python3 ~/.config/opencode/skills/markdown-to-ast/md_to_ast.py --path .
+
+# Gerar AST para uma skill específica
+python3 ~/.config/opencode/skills/markdown-to-ast/md_to_ast.py --path criar-novo-skill/SKILL.md
+```
+
+Cada `.md` gera um `.json` correspondente no mesmo diretório.
+
+## Comitar alterações
+
+```bash
+python3 ~/.config/opencode/skills/comitar-alteracoes/comit.py --message "feat: nova funcionalidade"
+```
+
+Fluxo:
+1. Mostra diff e pede confirmação
+2. Commita com mensagem
+3. Gera AST para todos os `.md`
+4. Commita AST gerados
+5. Atualiza graphify-out
+6. Push
 
 ## Licença
 
