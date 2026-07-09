@@ -1,0 +1,22 @@
+{
+  "extracted_at": "2026-07-08T21:06:34.495923",
+  "stats": {
+    "files": 1,
+    "headings": 1,
+    "code_blocks": 0,
+    "links": 0,
+    "images": 0,
+    "list_items": 0
+  },
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Titulo",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/teste-ast4/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": []
+}

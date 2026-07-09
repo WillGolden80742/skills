@@ -1,0 +1,1084 @@
+{
+  "source": "/root/.config/opencode/skills/graphify/SKILL.md",
+  "generated_at": "2026-07-08T21:11:13.232482",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "/graphify",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Usage",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_2",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_3",
+      "label": "Project Configuration",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_4",
+      "label": "What graphify is for",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_5",
+      "label": "What You Must Do When Invoked",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_6",
+      "label": "Step 0 - GitHub repos and multi-path merge (only if a URL or several paths)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_7",
+      "label": "Step 1 - Ensure graphify is installed + Setup API Keys",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_8",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_9",
+      "label": "If `DEEPSEEK_API_KEY` is set → use `--backend deepseek`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "If `OPENAI_API_KEY` is set → use `--backend openai` (via `OPENAI_BASE_URL`)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "If `ANTHROPIC_API_KEY` is set → use `--backend claude`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "If `GEMINI_API_KEY` or `GOOGLE_API_KEY` is set → use `--backend gemini`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "If `MOONSHOT_API_KEY` is set → use `--backend kimi`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "**No keys set** → no semantic backend (code-only AST, zero cost). Use `graphify ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_15",
+      "label": "Step 2 - Detect files",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_16",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_17",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_18",
+      "label": "If `total_files` is 0: stop with \"No supported files found in [path].\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_19",
+      "label": "If `skipped_sensitive` is non-empty: mention file count skipped, not the file na",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_20",
+      "label": "If `total_words` > 2,000,000 OR `total_files` > 500: show the warning. Then comp",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_21",
+      "label": "Read `scan_root` from the detect JSON (always an absolute path to the resolved I",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_22",
+      "label": "Concatenate all file lists across all types (`code`, `document`, `paper`, `image",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_23",
+      "label": "Filter out any path that starts with `scan_root + \"/graphify-out/\"` to exclude c",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_24",
+      "label": "For each file, strip the `scan_root` prefix and take the first path component. F",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_25",
+      "label": "If all files are in `(root)` with no subdirectories, do not ask to narrow — no s",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_26",
+      "label": "Otherwise rank by count, show the top 5 with file counts, then ask which subfold",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_27",
+      "label": "Otherwise: proceed directly to Step 2.5 if video files were detected, or Step 3 ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_28",
+      "label": "Step 2.5 - Video and audio (only if video files detected)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_29",
+      "label": "Step 3 - Extract entities and relationships",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_30",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_31",
+      "label": "Part A - Structural extraction for code files",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_32",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_33",
+      "label": "Part B - Semantic extraction (parallel subagents)",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_34",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_35",
+      "label": "Load `total_words` and file counts from `graphify-out/.graphify_detect.json`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_36",
+      "label": "Estimate agents needed: `ceil(uncached_non_code_files / 22)` (chunk size is 20-2",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_37",
+      "label": "Estimate time: ~45s per agent batch (they run in parallel, so total ≈ 45s × ceil",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_38",
+      "label": "Print: \"Semantic extraction: ~N files → X agents, estimated ~Ys\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_39",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_40",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_41",
+      "label": "Check that `graphify-out/.graphify_chunk_NN.json` exists on disk — this is the s",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_42",
+      "label": "If the file exists and contains valid JSON with `nodes` and `edges`, include it ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_43",
+      "label": "If the file is missing, the subagent was likely dispatched as read-only (Explore",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_44",
+      "label": "If a subagent failed or returned invalid JSON, print a warning and skip that chu",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_45",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_46",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_47",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_48",
+      "label": "Part C - Merge AST + semantic into final extraction",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_49",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_50",
+      "label": "Step 4 - Build graph, cluster, analyze, generate outputs",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_51",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_52",
+      "label": "Step 4.5 - Graph health check (read-only integrity gate)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_53",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_54",
+      "label": "Step 5 - Label communities",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_55",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_56",
+      "label": "Step 6 - Generate Obsidian vault (opt-in) + HTML",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_57",
+      "label": "If `--obsidian-dir <path>` was also given, pass it via `--dir`. Otherwise defaul",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_58",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_59",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_60",
+      "label": "Step 6b - Auto-Commit (if --commit flag was passed)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_61",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_62",
+      "label": "Steps 6c-8 - Wiki, Neo4j, FalkorDB, SVG, GraphML, MCP, benchmark (only on their ",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_63",
+      "label": "Step 9 - Save manifest, update cost tracker, clean up, and report",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_64",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_65",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_66",
+      "label": "God Nodes",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_67",
+      "label": "Surprising Connections",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_68",
+      "label": "Suggested Questions",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_69",
+      "label": "Interpreter guard for subcommands",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_70",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_71",
+      "label": "For --update (recommended), --commit and --cluster-only",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_72",
+      "label": "`--update` - re-extracts only new or changed files (code-only AST, no API key ne",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_73",
+      "label": "`graphify update <path>` - **recommended default**: re-extract code files and re",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_74",
+      "label": "`--commit` - incremental update + auto-commit to git",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_75",
+      "label": "`--cluster-only` - reruns clustering on existing graph",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_76",
+      "label": "For /graphify query",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_77",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_78",
+      "label": "For /graphify add and --watch",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_79",
+      "label": "For the commit hook and native CLAUDE.md integration",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_80",
+      "label": "Honesty Rules",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_81",
+      "label": "Never invent an edge. If unsure, use AMBIGUOUS.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_82",
+      "label": "Never skip the corpus check warning.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_83",
+      "label": "Always show token cost in the report.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_84",
+      "label": "Never hide cohesion scores behind symbols - show the raw number.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_85",
+      "label": "Never run HTML viz on a graph with more than 5,000 nodes without warning the use",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_h3_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_h3_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_7",
+      "to": "md_SKILL_code_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_7",
+      "to": "md_SKILL_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_7",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_7",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_7",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_7",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_7",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_h3_15",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_15",
+      "to": "md_SKILL_code_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_15",
+      "to": "md_SKILL_code_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_15",
+      "to": "md_SKILL_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_15",
+      "to": "md_SKILL_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_15",
+      "to": "md_SKILL_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_15",
+      "to": "md_SKILL_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_15",
+      "to": "md_SKILL_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_15",
+      "to": "md_SKILL_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_15",
+      "to": "md_SKILL_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_15",
+      "to": "md_SKILL_list_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_15",
+      "to": "md_SKILL_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_15",
+      "to": "md_SKILL_list_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_h3_28",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_h3_29",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_code_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_h4_31",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h4_31",
+      "to": "md_SKILL_code_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_h4_33",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_code_34",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_35",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_36",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_37",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_38",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_code_39",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_code_40",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_41",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_42",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_43",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_44",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_code_45",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_code_46",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_code_47",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_h4_48",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h4_48",
+      "to": "md_SKILL_code_49",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_h3_50",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_50",
+      "to": "md_SKILL_code_51",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_h3_52",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_52",
+      "to": "md_SKILL_code_53",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_h3_54",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_54",
+      "to": "md_SKILL_code_55",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_h3_56",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_56",
+      "to": "md_SKILL_list_57",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_56",
+      "to": "md_SKILL_code_58",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_56",
+      "to": "md_SKILL_code_59",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_h3_60",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_60",
+      "to": "md_SKILL_code_61",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_h3_62",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_h3_63",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_63",
+      "to": "md_SKILL_code_64",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_63",
+      "to": "md_SKILL_code_65",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_63",
+      "to": "md_SKILL_list_66",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_63",
+      "to": "md_SKILL_list_67",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_63",
+      "to": "md_SKILL_list_68",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_69",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_69",
+      "to": "md_SKILL_code_70",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_71",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_71",
+      "to": "md_SKILL_list_72",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_71",
+      "to": "md_SKILL_list_73",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_71",
+      "to": "md_SKILL_list_74",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_71",
+      "to": "md_SKILL_list_75",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_76",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_76",
+      "to": "md_SKILL_code_77",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_78",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_79",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_80",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_80",
+      "to": "md_SKILL_list_81",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_80",
+      "to": "md_SKILL_list_82",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_80",
+      "to": "md_SKILL_list_83",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_80",
+      "to": "md_SKILL_list_84",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_80",
+      "to": "md_SKILL_list_85",
+      "relation": "contains"
+    }
+  ]
+}

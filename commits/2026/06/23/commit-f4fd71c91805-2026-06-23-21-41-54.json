@@ -1,0 +1,3380 @@
+{
+  "source": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+  "generated_at": "2026-07-08T21:11:12.969873",
+  "nodes": [
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h1_0",
+      "label": "Commit f4fd71c91805 - 23/06/2026 21:41:54",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_1",
+      "label": "Mensagem",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_2",
+      "label": "Arquivos",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_3",
+      "label": "comitar-alteracoes/SKILL.md",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_4",
+      "label": "comitar-alteracoes/comit.py",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_5",
+      "label": "recuperar-commits-salvos/commitRecover.py",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_6",
+      "label": "tema-moeda-de-troka/SKILL.md",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_7",
+      "label": "Hash",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "label": "Diff",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_9",
+      "label": "if not os.path.exists(commits_dir):",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_10",
+      "label": "os.makedirs(commits_dir)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_11",
+      "label": "day_subdir = datetime.now().strftime(\"%Y-%m/%d\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_12",
+      "label": "day_dir = os.path.join(commits_dir, day_subdir)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_13",
+      "label": "if not os.path.exists(day_dir):",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_14",
+      "label": "os.makedirs(day_dir)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_15",
+      "label": "filepath = os.path.join(commits_dir, filename)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_16",
+      "label": "filepath = os.path.join(day_dir, filename)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_17",
+      "label": "create_commit_file(project_path, commit_id, args.message, staged, commit_hash)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_18",
+      "label": "create_commit_file(project_path, commit_id, args.message, staged, commit_hash, d",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_19",
+      "label": "for f in os.listdir(commits_dir):",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_20",
+      "label": "if f.startswith(\"commit-\") and f.endswith(\".md\"):",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_21",
+      "label": "filepath = os.path.join(commits_dir, f)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_22",
+      "label": "mtime = os.path.getmtime(filepath)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_23",
+      "label": "files.append((mtime, filepath))",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_24",
+      "label": "for root, dirs, filenames in os.walk(commits_dir):",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_25",
+      "label": "for f in filenames:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_26",
+      "label": "if f.startswith(\"commit-\") and f.endswith(\".md\"):",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_27",
+      "label": "filepath = os.path.join(root, f)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_28",
+      "label": "mtime = os.path.getmtime(filepath)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_29",
+      "label": "files.append((mtime, filepath))",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_30",
+      "label": "│                      │",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_31",
+      "label": "┌──────▼──────┐        ┌─────▼──────┐",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_32",
+      "label": "│ WordPress   │        │  Node.js   │",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_33",
+      "label": "│ (PHP 7.4+)  │        │  WhatsApp  │",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_34",
+      "label": "│ + MySQL     │        │  Server    │",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_35",
+      "label": "└──────┬──────┘        └─────┬──────┘",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_36",
+      "label": "│                     │",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_37",
+      "label": "┌──────▼─────────────────────▼──┐",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_38",
+      "label": "│         Redis Cache           │",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_39",
+      "label": "│  (produtos, sessões, filas)   │",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_40",
+      "label": "└───────────────────────────────┘",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_41",
+      "label": "├── define('_S_VERSION', current_time('timestamp'))",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_42",
+      "label": "├── define('MT_CACHE_ENABLED', true)              ← Cache global",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_43",
+      "label": "├── define('MT_RATE_LIMIT', 60)                   ← REST rate limit",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_44",
+      "label": "├── define('MT_ELASTICSEARCH_HOST', 'localhost:9200')",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_45",
+      "label": "├── api/custom-post-type/Instances.php",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_46",
+      "label": "├── api/endpoints/Instances.php",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_47",
+      "label": "├── cptscaffold.php",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_48",
+      "label": "├── mu_factory.php",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_49",
+      "label": "├── api/cache/CacheManager.php                    ← Cache layer",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_50",
+      "label": "├── api/search/SearchManager.php                  ← Elasticsearch",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_51",
+      "label": "├── api/payments/PaymentGateway.php               ← Gateways",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_52",
+      "label": "├── api/payments/AntiFraud.php                    ← Antifraude",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_53",
+      "label": "├── api/payments/EscrowService.php                ← Escrow",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_54",
+      "label": "├── api/payments/ReconciliationService.php        ← Reconciliação",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_55",
+      "label": "├── api/compliance/TaxService.php                 ← NF-e/DAS",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_56",
+      "label": "├── api/compliance/LgpdService.php                ← LGPD",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_57",
+      "label": "├── api/reports/FinancialReports.php              ← Relatórios",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_58",
+      "label": "├── api/notifications/EmailService.php            ← Email marketing",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_59",
+      "label": "├── api/notifications/SmsService.php              ← SMS fallback",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_60",
+      "label": "├── api/WooCommerce/Instances.php",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_61",
+      "label": "├── snippets/loader.php",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_62",
+      "label": "├── moedadetroka_setup()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_63",
+      "label": "└── moedadetroka_widgets_init()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_64",
+      "label": "├── Saldo PL$ suficiente? → Débito em PL$",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_65",
+      "label": "├── Precisa de R$? → Gateway externo",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_66",
+      "label": "│   ├── Cartão de Crédito (Cielo/Rede/Stone)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_67",
+      "label": "│   ├── Boleto (GerenciaNet/PagSeguro)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_68",
+      "label": "│   └── PIX (snippet PLIX 111591)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_69",
+      "label": "└── Price Split? → Divisão automática PL$/R$",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_70",
+      "label": "└── Notificação vendedor via WhatsApp",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_71",
+      "label": "public function processPayment($amount, $currency, $paymentData);",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_72",
+      "label": "public function refundPayment($transactionId, $amount);",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_73",
+      "label": "public function checkStatus($transactionId);",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_74",
+      "label": "// Cielo API 3.0",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_75",
+      "label": "// GerenciaNet API",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_76",
+      "label": "public static function create($type) {",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_77",
+      "label": "return match($type) {",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_78",
+      "label": "'cielo' => new CieloGateway(),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_79",
+      "label": "'gerencianet' => new GerenciaNetGateway(),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_80",
+      "label": "'plix' => new PixGateway(),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_81",
+      "label": "default => throw new \\Exception(\"Gateway $type not found\"),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_82",
+      "label": "};",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_83",
+      "label": "}",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_84",
+      "label": "$risk->blockOrder($order_id, 'high_risk_score');",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_85",
+      "label": "$risk->notifyAdmin($order_id, $score);",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_86",
+      "label": "$risk->holdOrder($order_id, 'medium_risk_score');",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_87",
+      "label": "$risk->requestVerification($user_id);",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_88",
+      "label": "$this->blockUser($user_id, 'device_blacklisted');",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_89",
+      "label": "├── Carrega transações do dia anterior (WooCommerce orders)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_90",
+      "label": "├── Compara com registros do CPT `transaction`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_91",
+      "label": "├── Verifica status no gateway externo",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_92",
+      "label": "├── Identifica discrepâncias:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_93",
+      "label": "│   ├── Pedido pago sem transação → Criar transação",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_94",
+      "label": "│   ├── Transação sem pedido → Investigar",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_95",
+      "label": "│   ├── Valor diferente → Flag + notificar admin",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_96",
+      "label": "│   └── Status inconsistente → Atualizar",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_97",
+      "label": "└── Gera relatório de reconciliação",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_98",
+      "label": "id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_99",
+      "label": "reconciliation_date DATE NOT NULL,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_100",
+      "label": "order_id BIGINT UNSIGNED,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_101",
+      "label": "transaction_id BIGINT UNSIGNED,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_102",
+      "label": "expected_amount DECIMAL(15,2),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_103",
+      "label": "actual_amount DECIMAL(15,2),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_104",
+      "label": "gateway_status VARCHAR(50),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_105",
+      "label": "local_status VARCHAR(50),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_106",
+      "label": "discrepancy VARCHAR(255),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_107",
+      "label": "resolved BOOLEAN DEFAULT FALSE,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_108",
+      "label": "resolved_at DATETIME,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_109",
+      "label": "created_at DATETIME DEFAULT CURRENT_TIMESTAMP,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_110",
+      "label": "INDEX idx_date (reconciliation_date),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_111",
+      "label": "INDEX idx_resolved (resolved),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_112",
+      "label": "INDEX idx_order (order_id)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_113",
+      "label": "├── Notificação automática para admin + ambas as partes",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_114",
+      "label": "├── Prazo: 7 dias para resolução",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_115",
+      "label": "├── Evidências:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_116",
+      "label": "│   ├── Prints de conversa WhatsApp",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_117",
+      "label": "│   ├── Fotos do produto",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_118",
+      "label": "│   ├── Comprovante de entrega",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_119",
+      "label": "│   └── Histórico de mensagens da plataforma",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_120",
+      "label": "├── Decisões possíveis:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_121",
+      "label": "│   ├── Reembolso total (comprador vence)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_122",
+      "label": "│   ├── Reembolso parcial (acordo)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_123",
+      "label": "│   ├── Liberação ao vendedor (vendedor vence)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_124",
+      "label": "│   └── Ambos perdem (taxa administrativa)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_125",
+      "label": "└── Após decisão:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_126",
+      "label": "├── Executa liberação/reembolso",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_127",
+      "label": "├── Registra no histórico de confiança",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_128",
+      "label": "└── Bloqueia usuário se reincidente",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_129",
+      "label": "public function getDailySummary($date) {",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_130",
+      "label": "return [",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_131",
+      "label": "'total_sales_pl' => $this->sumPL($date),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_132",
+      "label": "'total_sales_brl' => $this->sumBRL($date),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_133",
+      "label": "'total_commissions' => $this->sumCommissions($date),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_134",
+      "label": "'total_fees' => $this->sumFees($date),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_135",
+      "label": "'total_promoter_commissions' => $this->sumPromoterCommissions($date),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_136",
+      "label": "'new_users' => $this->countNewUsers($date),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_137",
+      "label": "'new_offers' => $this->countNewOffers($date),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_138",
+      "label": "'disputes_opened' => $this->countDisputes($date, 'opened'),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_139",
+      "label": "'disputes_resolved' => $this->countDisputes($date, 'resolved'),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_140",
+      "label": "];",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_141",
+      "label": "}",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_142",
+      "label": "→ API SEFAZ (NF-e)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_143",
+      "label": "├── Empresa CNPJ → NF-e modelo 55",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_144",
+      "label": "├── Empresa CPF → Nota do Consumidor",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_145",
+      "label": "└── Microempreendedor → ISento",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_146",
+      "label": "→ XML é armazenado no CPT `transaction`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_147",
+      "label": "→ DANCE (PDF) é gerado e enviado por email",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_148",
+      "label": "public function log($event, $data) {",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_149",
+      "label": "global $wpdb;",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_150",
+      "label": "$wpdb->insert(\"{$wpdb->prefix}mt_audit_log\", [",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_151",
+      "label": "'event_type' => $event,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_152",
+      "label": "'user_id' => get_current_user_id(),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_153",
+      "label": "'user_ip' => $_SERVER['REMOTE_ADDR'],",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_154",
+      "label": "'user_agent' => $_SERVER['HTTP_USER_AGENT'],",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_155",
+      "label": "'event_data' => json_encode($data),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_156",
+      "label": "'created_at' => current_time('mysql'),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_157",
+      "label": "]);",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_158",
+      "label": "}",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_159",
+      "label": "id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_160",
+      "label": "event_type VARCHAR(50) NOT NULL,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_161",
+      "label": "user_id BIGINT UNSIGNED,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_162",
+      "label": "user_ip VARCHAR(45),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_163",
+      "label": "user_agent TEXT,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_164",
+      "label": "event_data JSON,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_165",
+      "label": "created_at DATETIME(3) NOT NULL,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_166",
+      "label": "INDEX idx_event (event_type, created_at),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_167",
+      "label": "INDEX idx_user (user_id, created_at),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_168",
+      "label": "INDEX idx_type_date (event_type, created_at)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_169",
+      "label": "wp_mt_transactions wp_mt_reconciliation wp_mt_audit_log \\",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_170",
+      "label": "wp_postmeta wp_posts \\",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_171",
+      "label": "--where=\"post_type IN ('transaction','voucher','used_commission')\" \\",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_172",
+      "label": "| gzip > /backups/mt-financeiro-$(date +%Y%m%d-%H%M).sql.gz",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_173",
+      "label": "public function confirmExistence($user_id) { /* Art. 18.I */ }",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_174",
+      "label": "public function exportData($user_id) {       /* Art. 18.II */ }",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_175",
+      "label": "public function correctData($user_id, $data) { /* Art. 18.III */ }",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_176",
+      "label": "public function anonymizeUser($user_id) {    /* Art. 18.IV */ }",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_177",
+      "label": "public function deleteData($user_id) {       /* Art. 18.VI */ }",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_178",
+      "label": "public function revokeConsent($user_id) {    /* Art. 18.IX */ }",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_179",
+      "label": "'termos_uso' => true,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_180",
+      "label": "'politica_privacidade' => true,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_181",
+      "label": "'comunicacao_whatsapp' => $whatsapp_consent,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_182",
+      "label": "'comunicacao_email' => $email_consent,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_183",
+      "label": "'compartilhamento_dados' => $share_consent,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_184",
+      "label": "'geolocalizacao' => $geo_consent,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_185",
+      "label": "'data' => current_time('mysql'),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_186",
+      "label": "'ip' => $_SERVER['REMOTE_ADDR'],",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_187",
+      "label": "'default' => ['requests' => 30, 'window' => 60],",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_188",
+      "label": "'authenticated' => ['requests' => 60, 'window' => 60],",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_189",
+      "label": "'admin' => ['requests' => 120, 'window' => 60],",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_190",
+      "label": "'financial' => ['requests' => 10, 'window' => 60],",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_191",
+      "label": "wp_send_json_error(['message' => 'Rate limit exceeded'], 429);",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_192",
+      "label": "// Tag-based invalidation",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_193",
+      "label": "const TAGS = [",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_194",
+      "label": "'offers' => ['prefix' => 'mt_offers_', 'ttl' => 300],",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_195",
+      "label": "'profile' => ['prefix' => 'mt_profile_', 'ttl' => 900],",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_196",
+      "label": "'categories' => ['prefix' => 'mt_cats_', 'ttl' => 3600],",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_197",
+      "label": "];",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_198",
+      "label": "public function invalidateByTag($tag) {",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_199",
+      "label": "// Incrementa versão da tag → todos os caches com essa tag expiram",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_200",
+      "label": "$version = get_option(\"mt_cache_tag_{$tag}\") ?: 1;",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_201",
+      "label": "update_option(\"mt_cache_tag_{$tag}\", $version + 1);",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_202",
+      "label": "}",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_203",
+      "label": "public function get($key, $tag) {",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_204",
+      "label": "$version = get_option(\"mt_cache_tag_{$tag}\") ?: 1;",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_205",
+      "label": "return get_transient(\"{$key}_v{$version}\");",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_206",
+      "label": "}",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_207",
+      "label": "private $client;",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_208",
+      "label": "public function __construct() {",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_209",
+      "label": "$this->client = ClientBuilder::create()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_210",
+      "label": "->setHosts([MT_ELASTICSEARCH_HOST])",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_211",
+      "label": "->build();",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_212",
+      "label": "}",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_213",
+      "label": "public function indexOffer($product_id) {",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_214",
+      "label": "$product = wc_get_product($product_id);",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_215",
+      "label": "$params = [",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_216",
+      "label": "'index' => 'mt_offers',",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_217",
+      "label": "'id' => $product_id,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_218",
+      "label": "'body' => [",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_219",
+      "label": "'title' => $product->get_title(),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_220",
+      "label": "'description' => $product->get_description(),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_221",
+      "label": "'price_pl' => (float) get_post_meta($product_id, 'price', true),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_222",
+      "label": "'category' => wp_get_object_terms($product_id, 'product_cat', ['fields' => 'name",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_223",
+      "label": "'condition' => wp_get_object_terms($product_id, 'offer_product_condition_categor",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_224",
+      "label": "'city' => get_user_meta($product->get_author_id(), 'company_address_city', true)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_225",
+      "label": "'state' => get_user_meta($product->get_author_id(), 'company_address_state', tru",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_226",
+      "label": "'created_at' => get_the_date('c', $product_id),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_227",
+      "label": "]",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_228",
+      "label": "];",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_229",
+      "label": "return $this->client->index($params);",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_230",
+      "label": "}",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_231",
+      "label": "public function search($query, $filters = [], $page = 1, $perPage = 20) {",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_232",
+      "label": "$must = [];",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_233",
+      "label": "if ($query) $must[] = ['multi_match' => ['query' => $query, 'fields' => ['title^",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_234",
+      "label": "if (!empty($filters['state'])) $must[] = ['term' => ['state' => $filters['state'",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_235",
+      "label": "if (!empty($filters['min_price'])) $must[] = ['range' => ['price_pl' => ['gte' =",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_236",
+      "label": "if (!empty($filters['max_price'])) $must[] = ['range' => ['price_pl' => ['lte' =",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_237",
+      "label": "$params = [",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_238",
+      "label": "'index' => 'mt_offers',",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_239",
+      "label": "'body' => [",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_240",
+      "label": "'query' => ['bool' => ['must' => $must]],",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_241",
+      "label": "'sort' => ['created_at' => ['order' => 'DESC']],",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_242",
+      "label": "'from' => ($page - 1) * $perPage,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_243",
+      "label": "'size' => $perPage,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_244",
+      "label": "]",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_245",
+      "label": "];",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_246",
+      "label": "return $this->client->search($params);",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_247",
+      "label": "}",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_248",
+      "label": "private $provider;",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_249",
+      "label": "public function __construct() {",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_250",
+      "label": "$this->provider = new SendGrid(MT_SENDGRID_KEY);",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_251",
+      "label": "}",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_252",
+      "label": "public function sendTemplate($to, $template, $data) {",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_253",
+      "label": "$email = new \\SendGrid\\Mail\\Mail();",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_254",
+      "label": "$email->setFrom(\"naoresponda@moedadetroka.com.br\", \"MoedaDeTroka\");",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_255",
+      "label": "$email->setSubject($this->getSubject($template, $data));",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_256",
+      "label": "$email->addTo($to);",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_257",
+      "label": "$email->addContent(\"text/html\", $this->renderTemplate($template, $data));",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_258",
+      "label": "return $this->provider->send($email);",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_259",
+      "label": "}",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_260",
+      "label": "private $provider;",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_261",
+      "label": "public function __construct() {",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_262",
+      "label": "$this->provider = new Twilio(MT_TWILIO_SID, MT_TWILIO_TOKEN);",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_263",
+      "label": "}",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_264",
+      "label": "public function send($to, $message) {",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_265",
+      "label": "// Fallback: se WhatsApp falhar, tenta SMS",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_266",
+      "label": "try {",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_267",
+      "label": "$whatsapp = new WhatsAppService();",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_268",
+      "label": "$whatsapp->send($to, $message);",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_269",
+      "label": "} catch (\\Exception $e) {",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_270",
+      "label": "$this->log(\"WhatsApp falhou, enviando SMS: \" . $e->getMessage());",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_271",
+      "label": "$this->provider->messages->create($to, [",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_272",
+      "label": "'from' => MT_TWILIO_NUMBER,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_273",
+      "label": "'body' => strip_tags($message),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_274",
+      "label": "]);",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_275",
+      "label": "}",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_276",
+      "label": "}",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_277",
+      "label": "├── Registra evidências",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_278",
+      "label": "├── Notifica admin + partes",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_279",
+      "label": "├── Escrow: fundos em hold",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_280",
+      "label": "└── Inicia cronômetro de resolução",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/23/commit-f4fd71c91805-2026-06-23-21-41-54.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h1_0",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h1_0",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_2",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_2",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_2",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_2",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h1_0",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h1_0",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_31",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_33",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_34",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_35",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_36",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_37",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_38",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_39",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_40",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_41",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_42",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_43",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_44",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_45",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_46",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_47",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_48",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_49",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_50",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_51",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_52",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_53",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_54",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_55",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_56",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_57",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_58",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_59",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_60",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_61",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_62",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_63",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_64",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_65",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_66",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_67",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_68",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_69",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_70",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_71",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_72",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_73",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_74",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_75",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_76",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_77",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_78",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_79",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_80",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_81",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_82",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_83",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_84",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_85",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_86",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_87",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_88",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_89",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_90",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_91",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_92",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_93",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_94",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_95",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_96",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_97",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_98",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_99",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_100",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_101",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_102",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_103",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_104",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_105",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_106",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_107",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_108",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_109",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_110",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_111",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_112",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_113",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_114",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_115",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_116",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_117",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_118",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_119",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_120",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_121",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_122",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_123",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_124",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_125",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_126",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_127",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_128",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_129",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_130",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_131",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_132",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_133",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_134",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_135",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_136",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_137",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_138",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_139",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_140",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_141",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_142",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_143",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_144",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_145",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_146",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_147",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_148",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_149",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_150",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_151",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_152",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_153",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_154",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_155",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_156",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_157",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_158",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_159",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_160",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_161",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_162",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_163",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_164",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_165",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_166",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_167",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_168",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_169",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_170",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_171",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_172",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_173",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_174",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_175",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_176",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_177",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_178",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_179",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_180",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_181",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_182",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_183",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_184",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_185",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_186",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_187",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_188",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_189",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_190",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_191",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_192",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_193",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_194",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_195",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_196",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_197",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_198",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_199",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_200",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_201",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_202",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_203",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_204",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_205",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_206",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_207",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_208",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_209",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_210",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_211",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_212",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_213",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_214",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_215",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_216",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_217",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_218",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_219",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_220",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_221",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_222",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_223",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_224",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_225",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_226",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_227",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_228",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_229",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_230",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_231",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_232",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_233",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_234",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_235",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_236",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_237",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_238",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_239",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_240",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_241",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_242",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_243",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_244",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_245",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_246",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_247",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_248",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_249",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_250",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_251",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_252",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_253",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_254",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_255",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_256",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_257",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_258",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_259",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_260",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_261",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_262",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_263",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_264",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_265",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_266",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_267",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_268",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_269",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_270",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_271",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_272",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_273",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_274",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_275",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_276",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_277",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_278",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_279",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f4fd71c91805-2026-06-23-21-41-54_h2_8",
+      "to": "md_commit-f4fd71c91805-2026-06-23-21-41-54_list_280",
+      "relation": "contains"
+    }
+  ]
+}

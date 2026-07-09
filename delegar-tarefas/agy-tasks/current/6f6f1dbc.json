@@ -1,0 +1,104 @@
+{
+  "source": "/root/.config/opencode/skills/delegar-tarefas/agy-tasks/current/6f6f1dbc.md",
+  "generated_at": "2026-07-08T21:11:12.839417",
+  "nodes": [
+    {
+      "id": "md_6f6f1dbc_h1_0",
+      "label": "Task Template",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/agy-tasks/current/6f6f1dbc.md",
+      "community": 999
+    },
+    {
+      "id": "md_6f6f1dbc_h2_1",
+      "label": "Descricao",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/agy-tasks/current/6f6f1dbc.md",
+      "community": 999
+    },
+    {
+      "id": "md_6f6f1dbc_h2_2",
+      "label": "Progresso",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/agy-tasks/current/6f6f1dbc.md",
+      "community": 999
+    },
+    {
+      "id": "md_6f6f1dbc_list_3",
+      "label": "[ ] Pendente",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/agy-tasks/current/6f6f1dbc.md",
+      "community": 999
+    },
+    {
+      "id": "md_6f6f1dbc_list_4",
+      "label": "[ ] Em andamento",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/agy-tasks/current/6f6f1dbc.md",
+      "community": 999
+    },
+    {
+      "id": "md_6f6f1dbc_list_5",
+      "label": "[ ] Concluido",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/agy-tasks/current/6f6f1dbc.md",
+      "community": 999
+    },
+    {
+      "id": "md_6f6f1dbc_h2_6",
+      "label": "Notas de Execucao",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/agy-tasks/current/6f6f1dbc.md",
+      "community": 999
+    },
+    {
+      "id": "md_6f6f1dbc_h2_7",
+      "label": "Entregas",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/agy-tasks/current/6f6f1dbc.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_6f6f1dbc_h1_0",
+      "to": "md_6f6f1dbc_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_6f6f1dbc_h1_0",
+      "to": "md_6f6f1dbc_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_6f6f1dbc_h2_2",
+      "to": "md_6f6f1dbc_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_6f6f1dbc_h2_2",
+      "to": "md_6f6f1dbc_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_6f6f1dbc_h2_2",
+      "to": "md_6f6f1dbc_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_6f6f1dbc_h1_0",
+      "to": "md_6f6f1dbc_h2_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_6f6f1dbc_h1_0",
+      "to": "md_6f6f1dbc_h2_7",
+      "relation": "section"
+    }
+  ]
+}

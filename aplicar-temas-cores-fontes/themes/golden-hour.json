@@ -1,0 +1,127 @@
+{
+  "source": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/golden-hour.md",
+  "generated_at": "2026-07-08T21:11:12.811266",
+  "nodes": [
+    {
+      "id": "md_golden-hour_h1_0",
+      "label": "Golden Hour",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/golden-hour.md",
+      "community": 999
+    },
+    {
+      "id": "md_golden-hour_h2_1",
+      "label": "Color Palette",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/golden-hour.md",
+      "community": 999
+    },
+    {
+      "id": "md_golden-hour_list_2",
+      "label": "**Mustard Yellow**: `#f4a900` - Bold primary accent",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/golden-hour.md",
+      "community": 999
+    },
+    {
+      "id": "md_golden-hour_list_3",
+      "label": "**Terracotta**: `#c1666b` - Warm secondary color",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/golden-hour.md",
+      "community": 999
+    },
+    {
+      "id": "md_golden-hour_list_4",
+      "label": "**Warm Beige**: `#d4b896` - Neutral backgrounds",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/golden-hour.md",
+      "community": 999
+    },
+    {
+      "id": "md_golden-hour_list_5",
+      "label": "**Chocolate Brown**: `#4a403a` - Dark text and anchors",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/golden-hour.md",
+      "community": 999
+    },
+    {
+      "id": "md_golden-hour_h2_6",
+      "label": "Typography",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/golden-hour.md",
+      "community": 999
+    },
+    {
+      "id": "md_golden-hour_list_7",
+      "label": "**Headers**: FreeSans Bold",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/golden-hour.md",
+      "community": 999
+    },
+    {
+      "id": "md_golden-hour_list_8",
+      "label": "**Body Text**: FreeSans",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/golden-hour.md",
+      "community": 999
+    },
+    {
+      "id": "md_golden-hour_h2_9",
+      "label": "Best Used For",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/golden-hour.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_golden-hour_h1_0",
+      "to": "md_golden-hour_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_golden-hour_h2_1",
+      "to": "md_golden-hour_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_golden-hour_h2_1",
+      "to": "md_golden-hour_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_golden-hour_h2_1",
+      "to": "md_golden-hour_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_golden-hour_h2_1",
+      "to": "md_golden-hour_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_golden-hour_h1_0",
+      "to": "md_golden-hour_h2_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_golden-hour_h2_6",
+      "to": "md_golden-hour_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_golden-hour_h2_6",
+      "to": "md_golden-hour_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_golden-hour_h1_0",
+      "to": "md_golden-hour_h2_9",
+      "relation": "section"
+    }
+  ]
+}

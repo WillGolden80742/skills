@@ -1,0 +1,737 @@
+{
+  "source": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+  "generated_at": "2026-07-08T21:11:12.848218",
+  "nodes": [
+    {
+      "id": "md_pptxgenjs_h1_0",
+      "label": "PptxGenJS Tutorial",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h2_1",
+      "label": "Setup & Basic Structure",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_code_2",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h2_3",
+      "label": "Layout Dimensions",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_4",
+      "label": "`LAYOUT_16x9`: 10\" × 5.625\" (default)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_5",
+      "label": "`LAYOUT_16x10`: 10\" × 6.25\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_6",
+      "label": "`LAYOUT_4x3`: 10\" × 7.5\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_7",
+      "label": "`LAYOUT_WIDE`: 13.3\" × 7.5\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h2_8",
+      "label": "Text & Formatting",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_code_9",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h2_10",
+      "label": "Lists & Bullets",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_code_11",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h2_12",
+      "label": "Shapes",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_code_13",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h2_14",
+      "label": "Images",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h3_15",
+      "label": "Image Sources",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_code_16",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h3_17",
+      "label": "Image Options",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_code_18",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h3_19",
+      "label": "Image Sizing Modes",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_code_20",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h3_21",
+      "label": "Calculate Dimensions (preserve aspect ratio)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_code_22",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h3_23",
+      "label": "Supported Formats",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_24",
+      "label": "**Standard**: PNG, JPG, GIF (animated GIFs work in Microsoft 365)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_25",
+      "label": "**SVG**: Works in modern PowerPoint/Microsoft 365",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h2_26",
+      "label": "Icons",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h3_27",
+      "label": "Setup",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_code_28",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h3_29",
+      "label": "Add Icon to Slide",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_code_30",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h3_31",
+      "label": "Icon Libraries",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_32",
+      "label": "`react-icons/fa` - Font Awesome",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_33",
+      "label": "`react-icons/md` - Material Design",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_34",
+      "label": "`react-icons/hi` - Heroicons",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_35",
+      "label": "`react-icons/bi` - Bootstrap Icons",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h2_36",
+      "label": "Slide Backgrounds",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_code_37",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h2_38",
+      "label": "Tables",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_code_39",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h2_40",
+      "label": "Charts",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_code_41",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h3_42",
+      "label": "Better-Looking Charts",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_code_43",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_44",
+      "label": "`chartColors: [...]` - hex colors for series/segments",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_45",
+      "label": "`chartArea: { fill, border, roundedCorners }` - chart background",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_46",
+      "label": "`catGridLine/valGridLine: { color, style, size }` - grid lines (`style: \"none\"` ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_47",
+      "label": "`lineSmooth: true` - curved lines (line charts)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_48",
+      "label": "`legendPos: \"r\"` - legend position: \"b\", \"t\", \"l\", \"r\", \"tr\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h2_49",
+      "label": "Slide Masters",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_code_50",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h2_51",
+      "label": "Common Pitfalls",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_h2_52",
+      "label": "Quick Reference",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_53",
+      "label": "**Shapes**: RECTANGLE, OVAL, LINE, ROUNDED_RECTANGLE",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_54",
+      "label": "**Charts**: BAR, LINE, PIE, DOUGHNUT, SCATTER, BUBBLE, RADAR",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_55",
+      "label": "**Layouts**: LAYOUT_16x9 (10\"×5.625\"), LAYOUT_16x10, LAYOUT_4x3, LAYOUT_WIDE",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_56",
+      "label": "**Alignment**: \"left\", \"center\", \"right\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    },
+    {
+      "id": "md_pptxgenjs_list_57",
+      "label": "**Chart data labels**: \"outEnd\", \"inEnd\", \"center\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/pptxgenjs.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_pptxgenjs_h1_0",
+      "to": "md_pptxgenjs_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h2_1",
+      "to": "md_pptxgenjs_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h1_0",
+      "to": "md_pptxgenjs_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h2_3",
+      "to": "md_pptxgenjs_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h2_3",
+      "to": "md_pptxgenjs_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h2_3",
+      "to": "md_pptxgenjs_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h2_3",
+      "to": "md_pptxgenjs_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h1_0",
+      "to": "md_pptxgenjs_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h2_8",
+      "to": "md_pptxgenjs_code_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h1_0",
+      "to": "md_pptxgenjs_h2_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h2_10",
+      "to": "md_pptxgenjs_code_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h1_0",
+      "to": "md_pptxgenjs_h2_12",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h2_12",
+      "to": "md_pptxgenjs_code_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h1_0",
+      "to": "md_pptxgenjs_h2_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h2_14",
+      "to": "md_pptxgenjs_h3_15",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h3_15",
+      "to": "md_pptxgenjs_code_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h2_14",
+      "to": "md_pptxgenjs_h3_17",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h3_17",
+      "to": "md_pptxgenjs_code_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h2_14",
+      "to": "md_pptxgenjs_h3_19",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h3_19",
+      "to": "md_pptxgenjs_code_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h2_14",
+      "to": "md_pptxgenjs_h3_21",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h3_21",
+      "to": "md_pptxgenjs_code_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h2_14",
+      "to": "md_pptxgenjs_h3_23",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h3_23",
+      "to": "md_pptxgenjs_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h3_23",
+      "to": "md_pptxgenjs_list_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h1_0",
+      "to": "md_pptxgenjs_h2_26",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h2_26",
+      "to": "md_pptxgenjs_h3_27",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h3_27",
+      "to": "md_pptxgenjs_code_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h2_26",
+      "to": "md_pptxgenjs_h3_29",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h3_29",
+      "to": "md_pptxgenjs_code_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h2_26",
+      "to": "md_pptxgenjs_h3_31",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h3_31",
+      "to": "md_pptxgenjs_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h3_31",
+      "to": "md_pptxgenjs_list_33",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h3_31",
+      "to": "md_pptxgenjs_list_34",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h3_31",
+      "to": "md_pptxgenjs_list_35",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h1_0",
+      "to": "md_pptxgenjs_h2_36",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h2_36",
+      "to": "md_pptxgenjs_code_37",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h1_0",
+      "to": "md_pptxgenjs_h2_38",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h2_38",
+      "to": "md_pptxgenjs_code_39",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h1_0",
+      "to": "md_pptxgenjs_h2_40",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h2_40",
+      "to": "md_pptxgenjs_code_41",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h2_40",
+      "to": "md_pptxgenjs_h3_42",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h3_42",
+      "to": "md_pptxgenjs_code_43",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h3_42",
+      "to": "md_pptxgenjs_list_44",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h3_42",
+      "to": "md_pptxgenjs_list_45",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h3_42",
+      "to": "md_pptxgenjs_list_46",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h3_42",
+      "to": "md_pptxgenjs_list_47",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h3_42",
+      "to": "md_pptxgenjs_list_48",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h1_0",
+      "to": "md_pptxgenjs_h2_49",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h2_49",
+      "to": "md_pptxgenjs_code_50",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h1_0",
+      "to": "md_pptxgenjs_h2_51",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h1_0",
+      "to": "md_pptxgenjs_h2_52",
+      "relation": "section"
+    },
+    {
+      "from": "md_pptxgenjs_h2_52",
+      "to": "md_pptxgenjs_list_53",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h2_52",
+      "to": "md_pptxgenjs_list_54",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h2_52",
+      "to": "md_pptxgenjs_list_55",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h2_52",
+      "to": "md_pptxgenjs_list_56",
+      "relation": "contains"
+    },
+    {
+      "from": "md_pptxgenjs_h2_52",
+      "to": "md_pptxgenjs_list_57",
+      "relation": "contains"
+    }
+  ]
+}

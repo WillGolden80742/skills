@@ -1,0 +1,81 @@
+{
+  "source": "/root/.config/opencode/skills/mesclar-arquivos-diretorio/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.836448",
+  "nodes": [
+    {
+      "id": "md_SKILL_h2_0",
+      "label": "What I do",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/mesclar-arquivos-diretorio/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_1",
+      "label": "Mantém os padrões base do script (genéricos como `node_modules/`, `*.log`, etc.)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/mesclar-arquivos-diretorio/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "Adiciona automaticamente como exclusão todo arquivo/diretório que **não** está l",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/mesclar-arquivos-diretorio/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_3",
+      "label": "Usage",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/mesclar-arquivos-diretorio/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_4",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/mesclar-arquivos-diretorio/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_5",
+      "label": "Parameters",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/mesclar-arquivos-diretorio/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "`caminho_diretorio`: (Opcional) O diretório cujos arquivos devem ser mesclados. ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/mesclar-arquivos-diretorio/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_list_1",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_code_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    }
+  ]
+}

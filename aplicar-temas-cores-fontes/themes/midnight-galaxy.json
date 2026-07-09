@@ -1,0 +1,127 @@
+{
+  "source": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/midnight-galaxy.md",
+  "generated_at": "2026-07-08T21:11:12.810527",
+  "nodes": [
+    {
+      "id": "md_midnight-galaxy_h1_0",
+      "label": "Midnight Galaxy",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/midnight-galaxy.md",
+      "community": 999
+    },
+    {
+      "id": "md_midnight-galaxy_h2_1",
+      "label": "Color Palette",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/midnight-galaxy.md",
+      "community": 999
+    },
+    {
+      "id": "md_midnight-galaxy_list_2",
+      "label": "**Deep Purple**: `#2b1e3e` - Rich dark base",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/midnight-galaxy.md",
+      "community": 999
+    },
+    {
+      "id": "md_midnight-galaxy_list_3",
+      "label": "**Cosmic Blue**: `#4a4e8f` - Mystical mid-tone",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/midnight-galaxy.md",
+      "community": 999
+    },
+    {
+      "id": "md_midnight-galaxy_list_4",
+      "label": "**Lavender**: `#a490c2` - Soft accent color",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/midnight-galaxy.md",
+      "community": 999
+    },
+    {
+      "id": "md_midnight-galaxy_list_5",
+      "label": "**Silver**: `#e6e6fa` - Light highlights and text",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/midnight-galaxy.md",
+      "community": 999
+    },
+    {
+      "id": "md_midnight-galaxy_h2_6",
+      "label": "Typography",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/midnight-galaxy.md",
+      "community": 999
+    },
+    {
+      "id": "md_midnight-galaxy_list_7",
+      "label": "**Headers**: FreeSans Bold",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/midnight-galaxy.md",
+      "community": 999
+    },
+    {
+      "id": "md_midnight-galaxy_list_8",
+      "label": "**Body Text**: FreeSans",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/midnight-galaxy.md",
+      "community": 999
+    },
+    {
+      "id": "md_midnight-galaxy_h2_9",
+      "label": "Best Used For",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/midnight-galaxy.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_midnight-galaxy_h1_0",
+      "to": "md_midnight-galaxy_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_midnight-galaxy_h2_1",
+      "to": "md_midnight-galaxy_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_midnight-galaxy_h2_1",
+      "to": "md_midnight-galaxy_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_midnight-galaxy_h2_1",
+      "to": "md_midnight-galaxy_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_midnight-galaxy_h2_1",
+      "to": "md_midnight-galaxy_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_midnight-galaxy_h1_0",
+      "to": "md_midnight-galaxy_h2_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_midnight-galaxy_h2_6",
+      "to": "md_midnight-galaxy_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_midnight-galaxy_h2_6",
+      "to": "md_midnight-galaxy_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_midnight-galaxy_h1_0",
+      "to": "md_midnight-galaxy_h2_9",
+      "relation": "section"
+    }
+  ]
+}

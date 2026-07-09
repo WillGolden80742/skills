@@ -1,0 +1,1142 @@
+{
+  "source": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+  "generated_at": "2026-07-08T21:11:12.835018",
+  "nodes": [
+    {
+      "id": "md_reference_h1_0",
+      "label": "PDF Processing Advanced Reference",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h2_1",
+      "label": "pypdfium2 Library (Apache/BSD License)",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_2",
+      "label": "Overview",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_3",
+      "label": "Render PDF to Images",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_4",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_5",
+      "label": "Extract Text with pypdfium2",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_6",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h2_7",
+      "label": "JavaScript Libraries",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_8",
+      "label": "pdf-lib (MIT License)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h4_9",
+      "label": "Load and Manipulate Existing PDF",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_10",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h4_11",
+      "label": "Create Complex PDFs from Scratch",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_12",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h4_13",
+      "label": "Advanced Merge and Split Operations",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_14",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_15",
+      "label": "pdfjs-dist (Apache License)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h4_16",
+      "label": "Basic PDF Loading and Rendering",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_17",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h4_18",
+      "label": "Extract Text with Coordinates",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_19",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h4_20",
+      "label": "Extract Annotations and Forms",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_21",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h2_22",
+      "label": "Advanced Command-Line Operations",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_23",
+      "label": "poppler-utils Advanced Features",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h4_24",
+      "label": "Extract Text with Bounding Box Coordinates",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_25",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h4_26",
+      "label": "Advanced Image Conversion",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_27",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h4_28",
+      "label": "Extract Embedded Images",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_29",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_30",
+      "label": "qpdf Advanced Features",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h4_31",
+      "label": "Complex Page Manipulation",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_32",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h4_33",
+      "label": "PDF Optimization and Repair",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_34",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h4_35",
+      "label": "Advanced Encryption",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_36",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h2_37",
+      "label": "Advanced Python Techniques",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_38",
+      "label": "pdfplumber Advanced Features",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h4_39",
+      "label": "Extract Text with Precise Coordinates",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_40",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h4_41",
+      "label": "Advanced Table Extraction with Custom Settings",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_42",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_43",
+      "label": "reportlab Advanced Features",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h4_44",
+      "label": "Create Professional Reports with Tables",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_45",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h2_46",
+      "label": "Complex Workflows",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_47",
+      "label": "Extract Figures/Images from PDF",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h4_48",
+      "label": "Method 1: Using pdfimages (fastest)",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_49",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h4_50",
+      "label": "Method 2: Using pypdfium2 + Image Processing",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_51",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_52",
+      "label": "Batch PDF Processing with Error Handling",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_53",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_54",
+      "label": "Advanced PDF Cropping",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_55",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h2_56",
+      "label": "Performance Optimization Tips",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_57",
+      "label": "1. For Large PDFs",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_list_58",
+      "label": "Use streaming approaches instead of loading entire PDF in memory",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_list_59",
+      "label": "Use `qpdf --split-pages` for splitting large files",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_list_60",
+      "label": "Process pages individually with pypdfium2",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_61",
+      "label": "2. For Text Extraction",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_list_62",
+      "label": "`pdftotext -bbox-layout` is fastest for plain text extraction",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_list_63",
+      "label": "Use pdfplumber for structured data and tables",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_list_64",
+      "label": "Avoid `pypdf.extract_text()` for very large documents",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_65",
+      "label": "3. For Image Extraction",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_list_66",
+      "label": "`pdfimages` is much faster than rendering pages",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_list_67",
+      "label": "Use low resolution for previews, high resolution for final output",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_68",
+      "label": "4. For Form Filling",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_list_69",
+      "label": "pdf-lib maintains form structure better than most alternatives",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_list_70",
+      "label": "Pre-validate form fields before processing",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_71",
+      "label": "5. Memory Management",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_72",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h2_73",
+      "label": "Troubleshooting Common Issues",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_74",
+      "label": "Encrypted PDFs",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_75",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_76",
+      "label": "Corrupted PDFs",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_77",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h3_78",
+      "label": "Text Extraction Issues",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_code_79",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_h2_80",
+      "label": "License Information",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_list_81",
+      "label": "**pypdf**: BSD License",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_list_82",
+      "label": "**pdfplumber**: MIT License",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_list_83",
+      "label": "**pypdfium2**: Apache/BSD License",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_list_84",
+      "label": "**reportlab**: BSD License",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_list_85",
+      "label": "**poppler-utils**: GPL-2 License",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_list_86",
+      "label": "**qpdf**: Apache License",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_list_87",
+      "label": "**pdf-lib**: MIT License",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_reference_list_88",
+      "label": "**pdfjs-dist**: Apache License",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/reference.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_reference_h1_0",
+      "to": "md_reference_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h2_1",
+      "to": "md_reference_h3_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h2_1",
+      "to": "md_reference_h3_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_3",
+      "to": "md_reference_code_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_1",
+      "to": "md_reference_h3_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_5",
+      "to": "md_reference_code_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h1_0",
+      "to": "md_reference_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h2_7",
+      "to": "md_reference_h3_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_8",
+      "to": "md_reference_h4_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h4_9",
+      "to": "md_reference_code_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h3_8",
+      "to": "md_reference_h4_11",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h4_11",
+      "to": "md_reference_code_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h3_8",
+      "to": "md_reference_h4_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h4_13",
+      "to": "md_reference_code_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_7",
+      "to": "md_reference_h3_15",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_15",
+      "to": "md_reference_h4_16",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h4_16",
+      "to": "md_reference_code_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h3_15",
+      "to": "md_reference_h4_18",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h4_18",
+      "to": "md_reference_code_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h3_15",
+      "to": "md_reference_h4_20",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h4_20",
+      "to": "md_reference_code_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h1_0",
+      "to": "md_reference_h2_22",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h2_22",
+      "to": "md_reference_h3_23",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_23",
+      "to": "md_reference_h4_24",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h4_24",
+      "to": "md_reference_code_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h3_23",
+      "to": "md_reference_h4_26",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h4_26",
+      "to": "md_reference_code_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h3_23",
+      "to": "md_reference_h4_28",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h4_28",
+      "to": "md_reference_code_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_22",
+      "to": "md_reference_h3_30",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_30",
+      "to": "md_reference_h4_31",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h4_31",
+      "to": "md_reference_code_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h3_30",
+      "to": "md_reference_h4_33",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h4_33",
+      "to": "md_reference_code_34",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h3_30",
+      "to": "md_reference_h4_35",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h4_35",
+      "to": "md_reference_code_36",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h1_0",
+      "to": "md_reference_h2_37",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h2_37",
+      "to": "md_reference_h3_38",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_38",
+      "to": "md_reference_h4_39",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h4_39",
+      "to": "md_reference_code_40",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h3_38",
+      "to": "md_reference_h4_41",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h4_41",
+      "to": "md_reference_code_42",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_37",
+      "to": "md_reference_h3_43",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_43",
+      "to": "md_reference_h4_44",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h4_44",
+      "to": "md_reference_code_45",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h1_0",
+      "to": "md_reference_h2_46",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h2_46",
+      "to": "md_reference_h3_47",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_47",
+      "to": "md_reference_h4_48",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h4_48",
+      "to": "md_reference_code_49",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h3_47",
+      "to": "md_reference_h4_50",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h4_50",
+      "to": "md_reference_code_51",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_46",
+      "to": "md_reference_h3_52",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_52",
+      "to": "md_reference_code_53",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_46",
+      "to": "md_reference_h3_54",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_54",
+      "to": "md_reference_code_55",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h1_0",
+      "to": "md_reference_h2_56",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h2_56",
+      "to": "md_reference_h3_57",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_57",
+      "to": "md_reference_list_58",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h3_57",
+      "to": "md_reference_list_59",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h3_57",
+      "to": "md_reference_list_60",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_56",
+      "to": "md_reference_h3_61",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_61",
+      "to": "md_reference_list_62",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h3_61",
+      "to": "md_reference_list_63",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h3_61",
+      "to": "md_reference_list_64",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_56",
+      "to": "md_reference_h3_65",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_65",
+      "to": "md_reference_list_66",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h3_65",
+      "to": "md_reference_list_67",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_56",
+      "to": "md_reference_h3_68",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_68",
+      "to": "md_reference_list_69",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h3_68",
+      "to": "md_reference_list_70",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_56",
+      "to": "md_reference_h3_71",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_71",
+      "to": "md_reference_code_72",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h1_0",
+      "to": "md_reference_h2_73",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h2_73",
+      "to": "md_reference_h3_74",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_74",
+      "to": "md_reference_code_75",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_73",
+      "to": "md_reference_h3_76",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_76",
+      "to": "md_reference_code_77",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_73",
+      "to": "md_reference_h3_78",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h3_78",
+      "to": "md_reference_code_79",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h1_0",
+      "to": "md_reference_h2_80",
+      "relation": "section"
+    },
+    {
+      "from": "md_reference_h2_80",
+      "to": "md_reference_list_81",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_80",
+      "to": "md_reference_list_82",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_80",
+      "to": "md_reference_list_83",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_80",
+      "to": "md_reference_list_84",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_80",
+      "to": "md_reference_list_85",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_80",
+      "to": "md_reference_list_86",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_80",
+      "to": "md_reference_list_87",
+      "relation": "contains"
+    },
+    {
+      "from": "md_reference_h2_80",
+      "to": "md_reference_list_88",
+      "relation": "contains"
+    }
+  ]
+}

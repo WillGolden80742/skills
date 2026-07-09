@@ -1,0 +1,155 @@
+{
+  "source": "/root/.config/opencode/skills/gerar-arvore-diretorios/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.812771",
+  "nodes": [
+    {
+      "id": "md_SKILL_h2_0",
+      "label": "What I do",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/gerar-arvore-diretorios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Usage",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/gerar-arvore-diretorios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_2",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/gerar-arvore-diretorios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "`caminho`: (opcional) Diretório raiz. Padrão: diretório atual.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/gerar-arvore-diretorios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "`arquivo_saida`: (opcional) Arquivo .md onde salvar a árvore. Se omitido, imprim",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/gerar-arvore-diretorios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_5",
+      "label": "Exemplos",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/gerar-arvore-diretorios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_6",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/gerar-arvore-diretorios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_7",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/gerar-arvore-diretorios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_8",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/gerar-arvore-diretorios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_9",
+      "label": "Observação",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/gerar-arvore-diretorios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_10",
+      "label": "Exemplo de saída",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/gerar-arvore-diretorios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_11",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/gerar-arvore-diretorios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_12",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/gerar-arvore-diretorios/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_code_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_code_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_code_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_code_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_code_12",
+      "relation": "contains"
+    }
+  ]
+}

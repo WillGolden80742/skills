@@ -1,0 +1,320 @@
+{
+  "source": "/root/.config/opencode/skills/graphify/references/query.md",
+  "generated_at": "2026-07-08T21:11:13.235788",
+  "nodes": [
+    {
+      "id": "md_query_h1_0",
+      "label": "graphify reference: query, path, explain",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_code_1",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_h3_2",
+      "label": "Step 0 — Constrained query expansion (REQUIRED before traversal)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_code_3",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_list_4",
+      "label": "You MUST pick only tokens present in the vocabulary file. Do NOT invent tokens.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_list_5",
+      "label": "If a query concept has no plausible token in the vocab, skip it — do not substit",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_list_6",
+      "label": "If **no** vocab tokens match the query at all, output an empty list and tell the",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_list_7",
+      "label": "Translate cross-language: Russian \"аутентификация\" → look for `auth`, `credentia",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_list_8",
+      "label": "Morphology: \"handlers\" maps to `handler` IFF present; \"todos\" maps to `todo` IFF",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_code_9",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_h3_10",
+      "label": "Step 1 — Traversal",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_code_11",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_code_12",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_code_13",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_list_14",
+      "label": "`useful` — the cited nodes answered the question well (they become *preferred so",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_list_15",
+      "label": "`dead_end` — the question/path led nowhere; don't re-derive it next time.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_list_16",
+      "label": "`corrected` — the saved answer was wrong; `--correction` records what was right.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_h2_17",
+      "label": "For /graphify path",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_code_18",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_code_19",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_code_20",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_h2_21",
+      "label": "For /graphify explain",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_code_22",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_code_23",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    },
+    {
+      "id": "md_query_code_24",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/query.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_query_h1_0",
+      "to": "md_query_code_1",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h1_0",
+      "to": "md_query_h3_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_query_h3_2",
+      "to": "md_query_code_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h3_2",
+      "to": "md_query_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h3_2",
+      "to": "md_query_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h3_2",
+      "to": "md_query_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h3_2",
+      "to": "md_query_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h3_2",
+      "to": "md_query_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h3_2",
+      "to": "md_query_code_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h1_0",
+      "to": "md_query_h3_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_query_h3_10",
+      "to": "md_query_code_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h3_10",
+      "to": "md_query_code_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h3_10",
+      "to": "md_query_code_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h3_10",
+      "to": "md_query_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h3_10",
+      "to": "md_query_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h3_10",
+      "to": "md_query_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h1_0",
+      "to": "md_query_h2_17",
+      "relation": "section"
+    },
+    {
+      "from": "md_query_h2_17",
+      "to": "md_query_code_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h2_17",
+      "to": "md_query_code_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h2_17",
+      "to": "md_query_code_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h1_0",
+      "to": "md_query_h2_21",
+      "relation": "section"
+    },
+    {
+      "from": "md_query_h2_21",
+      "to": "md_query_code_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h2_21",
+      "to": "md_query_code_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_query_h2_21",
+      "to": "md_query_code_24",
+      "relation": "contains"
+    }
+  ]
+}

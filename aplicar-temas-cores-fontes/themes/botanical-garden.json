@@ -1,0 +1,127 @@
+{
+  "source": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/botanical-garden.md",
+  "generated_at": "2026-07-08T21:11:12.811877",
+  "nodes": [
+    {
+      "id": "md_botanical-garden_h1_0",
+      "label": "Botanical Garden",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/botanical-garden.md",
+      "community": 999
+    },
+    {
+      "id": "md_botanical-garden_h2_1",
+      "label": "Color Palette",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/botanical-garden.md",
+      "community": 999
+    },
+    {
+      "id": "md_botanical-garden_list_2",
+      "label": "**Fern Green**: `#4a7c59` - Rich natural green",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/botanical-garden.md",
+      "community": 999
+    },
+    {
+      "id": "md_botanical-garden_list_3",
+      "label": "**Marigold**: `#f9a620` - Bright floral accent",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/botanical-garden.md",
+      "community": 999
+    },
+    {
+      "id": "md_botanical-garden_list_4",
+      "label": "**Terracotta**: `#b7472a` - Earthy warm tone",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/botanical-garden.md",
+      "community": 999
+    },
+    {
+      "id": "md_botanical-garden_list_5",
+      "label": "**Cream**: `#f5f3ed` - Soft neutral backgrounds",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/botanical-garden.md",
+      "community": 999
+    },
+    {
+      "id": "md_botanical-garden_h2_6",
+      "label": "Typography",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/botanical-garden.md",
+      "community": 999
+    },
+    {
+      "id": "md_botanical-garden_list_7",
+      "label": "**Headers**: DejaVu Serif Bold",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/botanical-garden.md",
+      "community": 999
+    },
+    {
+      "id": "md_botanical-garden_list_8",
+      "label": "**Body Text**: DejaVu Sans",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/botanical-garden.md",
+      "community": 999
+    },
+    {
+      "id": "md_botanical-garden_h2_9",
+      "label": "Best Used For",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/botanical-garden.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_botanical-garden_h1_0",
+      "to": "md_botanical-garden_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_botanical-garden_h2_1",
+      "to": "md_botanical-garden_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_botanical-garden_h2_1",
+      "to": "md_botanical-garden_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_botanical-garden_h2_1",
+      "to": "md_botanical-garden_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_botanical-garden_h2_1",
+      "to": "md_botanical-garden_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_botanical-garden_h1_0",
+      "to": "md_botanical-garden_h2_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_botanical-garden_h2_6",
+      "to": "md_botanical-garden_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_botanical-garden_h2_6",
+      "to": "md_botanical-garden_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_botanical-garden_h1_0",
+      "to": "md_botanical-garden_h2_9",
+      "relation": "section"
+    }
+  ]
+}

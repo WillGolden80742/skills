@@ -1,0 +1,29 @@
+{
+  "source": "/root/.config/opencode/skills/graphify/references/extraction-spec.md",
+  "generated_at": "2026-07-08T21:11:13.236147",
+  "nodes": [
+    {
+      "id": "md_extraction-spec_h1_0",
+      "label": "graphify reference: extraction subagent prompt",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/graphify/references/extraction-spec.md",
+      "community": 999
+    },
+    {
+      "id": "md_extraction-spec_code_1",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/graphify/references/extraction-spec.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_extraction-spec_h1_0",
+      "to": "md_extraction-spec_code_1",
+      "relation": "contains"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "source": "/root/.config/opencode/skills/graphify/references/hooks.md",
+  "generated_at": "2026-07-08T21:11:13.236602",
+  "nodes": [
+    {
+      "id": "md_hooks_h1_0",
+      "label": "graphify reference: commit hook and native CLAUDE.md integration",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/graphify/references/hooks.md",
+      "community": 999
+    },
+    {
+      "id": "md_hooks_h2_1",
+      "label": "For git commit hook",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/references/hooks.md",
+      "community": 999
+    },
+    {
+      "id": "md_hooks_code_2",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/hooks.md",
+      "community": 999
+    },
+    {
+      "id": "md_hooks_h2_3",
+      "label": "For native CLAUDE.md integration",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/references/hooks.md",
+      "community": 999
+    },
+    {
+      "id": "md_hooks_code_4",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/hooks.md",
+      "community": 999
+    },
+    {
+      "id": "md_hooks_code_5",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/hooks.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_hooks_h1_0",
+      "to": "md_hooks_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_hooks_h2_1",
+      "to": "md_hooks_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_hooks_h1_0",
+      "to": "md_hooks_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_hooks_h2_3",
+      "to": "md_hooks_code_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_hooks_h2_3",
+      "to": "md_hooks_code_5",
+      "relation": "contains"
+    }
+  ]
+}

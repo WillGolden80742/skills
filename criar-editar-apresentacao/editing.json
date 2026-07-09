@@ -1,0 +1,663 @@
+{
+  "source": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+  "generated_at": "2026-07-08T21:11:12.847335",
+  "nodes": [
+    {
+      "id": "md_editing_h1_0",
+      "label": "Editing Presentations",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_h2_1",
+      "label": "Template-Based Workflow",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_2",
+      "label": "Multi-column layouts (2-column, 3-column)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_3",
+      "label": "Image + text combinations",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_4",
+      "label": "Full-bleed images with text overlay",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_5",
+      "label": "Quote or callout slides",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_6",
+      "label": "Section dividers",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_7",
+      "label": "Stat/number callouts",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_8",
+      "label": "Icon grids or icon + text rows",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_9",
+      "label": "Delete unwanted slides (remove from `<p:sldIdLst>`)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_10",
+      "label": "Duplicate slides you want to reuse (`add_slide.py`)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_11",
+      "label": "Reorder slides in `<p:sldIdLst>`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_12",
+      "label": "**Complete all structural changes before step 5**",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_h2_13",
+      "label": "Scripts",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_h3_14",
+      "label": "unpack.py",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_code_15",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_h3_16",
+      "label": "add_slide.py",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_code_17",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_h3_18",
+      "label": "clean.py",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_code_19",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_h3_20",
+      "label": "pack.py",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_code_21",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_h3_22",
+      "label": "thumbnail.py",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_code_23",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_h2_24",
+      "label": "Slide Operations",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_h2_25",
+      "label": "Editing Content",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_26",
+      "label": "The slide file path(s) to edit",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_27",
+      "label": "**\"Use the Edit tool for all changes\"**",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_28",
+      "label": "The formatting rules and common pitfalls below",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_h3_29",
+      "label": "Formatting Rules",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_30",
+      "label": "**Bold all headers, subheadings, and inline labels**: Use `b=\"1\"` on `<a:rPr>`. ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_31",
+      "label": "Slide titles",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_32",
+      "label": "Section headers within a slide",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_33",
+      "label": "Inline labels like (e.g.: \"Status:\", \"Description:\") at the start of a line",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_34",
+      "label": "**Never use unicode bullets (•)**: Use proper list formatting with `<a:buChar>` ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_35",
+      "label": "**Bullet consistency**: Let bullets inherit from the layout. Only specify `<a:bu",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_h2_36",
+      "label": "Common Pitfalls",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_h3_37",
+      "label": "Template Adaptation",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_38",
+      "label": "**Remove excess elements entirely** (images, shapes, text boxes), don't just cle",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_39",
+      "label": "Check for orphaned visuals after clearing text content",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_40",
+      "label": "Run visual QA to catch mismatched counts",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_41",
+      "label": "**Shorter replacements**: Usually safe",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_42",
+      "label": "**Longer replacements**: May overflow or wrap unexpectedly",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_43",
+      "label": "Test with visual QA after text changes",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_44",
+      "label": "Consider truncating or splitting content to fit the template's design constraint",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_h3_45",
+      "label": "Multi-Item Content",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_code_46",
+      "label": "Code: xml",
+      "type": "code_block",
+      "language": "xml",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_code_47",
+      "label": "Code: xml",
+      "type": "code_block",
+      "language": "xml",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_h3_48",
+      "label": "Smart Quotes",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_code_49",
+      "label": "Code: xml",
+      "type": "code_block",
+      "language": "xml",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_h3_50",
+      "label": "Other",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_51",
+      "label": "**Whitespace**: Use `xml:space=\"preserve\"` on `<a:t>` with leading/trailing spac",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    },
+    {
+      "id": "md_editing_list_52",
+      "label": "**XML parsing**: Use `defusedxml.minidom`, not `xml.etree.ElementTree` (corrupts",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/editing.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_editing_h1_0",
+      "to": "md_editing_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_editing_h2_1",
+      "to": "md_editing_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_1",
+      "to": "md_editing_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_1",
+      "to": "md_editing_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_1",
+      "to": "md_editing_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_1",
+      "to": "md_editing_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_1",
+      "to": "md_editing_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_1",
+      "to": "md_editing_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_1",
+      "to": "md_editing_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_1",
+      "to": "md_editing_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_1",
+      "to": "md_editing_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_1",
+      "to": "md_editing_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h1_0",
+      "to": "md_editing_h2_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_editing_h2_13",
+      "to": "md_editing_h3_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_editing_h3_14",
+      "to": "md_editing_code_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_13",
+      "to": "md_editing_h3_16",
+      "relation": "section"
+    },
+    {
+      "from": "md_editing_h3_16",
+      "to": "md_editing_code_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_13",
+      "to": "md_editing_h3_18",
+      "relation": "section"
+    },
+    {
+      "from": "md_editing_h3_18",
+      "to": "md_editing_code_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_13",
+      "to": "md_editing_h3_20",
+      "relation": "section"
+    },
+    {
+      "from": "md_editing_h3_20",
+      "to": "md_editing_code_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_13",
+      "to": "md_editing_h3_22",
+      "relation": "section"
+    },
+    {
+      "from": "md_editing_h3_22",
+      "to": "md_editing_code_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h1_0",
+      "to": "md_editing_h2_24",
+      "relation": "section"
+    },
+    {
+      "from": "md_editing_h1_0",
+      "to": "md_editing_h2_25",
+      "relation": "section"
+    },
+    {
+      "from": "md_editing_h2_25",
+      "to": "md_editing_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_25",
+      "to": "md_editing_list_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_25",
+      "to": "md_editing_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_25",
+      "to": "md_editing_h3_29",
+      "relation": "section"
+    },
+    {
+      "from": "md_editing_h3_29",
+      "to": "md_editing_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h3_29",
+      "to": "md_editing_list_31",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h3_29",
+      "to": "md_editing_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h3_29",
+      "to": "md_editing_list_33",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h3_29",
+      "to": "md_editing_list_34",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h3_29",
+      "to": "md_editing_list_35",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h1_0",
+      "to": "md_editing_h2_36",
+      "relation": "section"
+    },
+    {
+      "from": "md_editing_h2_36",
+      "to": "md_editing_h3_37",
+      "relation": "section"
+    },
+    {
+      "from": "md_editing_h3_37",
+      "to": "md_editing_list_38",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h3_37",
+      "to": "md_editing_list_39",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h3_37",
+      "to": "md_editing_list_40",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h3_37",
+      "to": "md_editing_list_41",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h3_37",
+      "to": "md_editing_list_42",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h3_37",
+      "to": "md_editing_list_43",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h3_37",
+      "to": "md_editing_list_44",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_36",
+      "to": "md_editing_h3_45",
+      "relation": "section"
+    },
+    {
+      "from": "md_editing_h3_45",
+      "to": "md_editing_code_46",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h3_45",
+      "to": "md_editing_code_47",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_36",
+      "to": "md_editing_h3_48",
+      "relation": "section"
+    },
+    {
+      "from": "md_editing_h3_48",
+      "to": "md_editing_code_49",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h2_36",
+      "to": "md_editing_h3_50",
+      "relation": "section"
+    },
+    {
+      "from": "md_editing_h3_50",
+      "to": "md_editing_list_51",
+      "relation": "contains"
+    },
+    {
+      "from": "md_editing_h3_50",
+      "to": "md_editing_list_52",
+      "relation": "contains"
+    }
+  ]
+}

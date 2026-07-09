@@ -1,0 +1,68 @@
+{
+  "source": "/root/.config/opencode/skills/delegar-tarefas/agy-tasks/status.md",
+  "generated_at": "2026-07-08T21:11:12.838841",
+  "nodes": [
+    {
+      "id": "md_status_h1_0",
+      "label": "Status AGY",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/agy-tasks/status.md",
+      "community": 999
+    },
+    {
+      "id": "md_status_h2_1",
+      "label": "Resumo",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/agy-tasks/status.md",
+      "community": 999
+    },
+    {
+      "id": "md_status_h2_2",
+      "label": "Tasks Ativas",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/agy-tasks/status.md",
+      "community": 999
+    },
+    {
+      "id": "md_status_h2_3",
+      "label": "Comandos",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/agy-tasks/status.md",
+      "community": 999
+    },
+    {
+      "id": "md_status_code_4",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/agy-tasks/status.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_status_h1_0",
+      "to": "md_status_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_status_h1_0",
+      "to": "md_status_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_status_h1_0",
+      "to": "md_status_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_status_h2_3",
+      "to": "md_status_code_4",
+      "relation": "contains"
+    }
+  ]
+}

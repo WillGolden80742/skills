@@ -1,0 +1,229 @@
+{
+  "source": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.809548",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Skill: autenticar-github-device-flow",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "O que faz",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_2",
+      "label": "Fluxo",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_3",
+      "label": "1. Autenticar",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_4",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "Isso exibe um código de uso único (ex: `4C74-34CB`)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "O usuário deve acessar `https://github.com/login/device` e inserir o código",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "O comando fica aguardando até a autenticação ser concluída no navegador",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "Após autenticar, o gh CLI armazena o token em `~/.config/gh/hosts.yml`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_9",
+      "label": "2. Verificar autenticação",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_10",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_11",
+      "label": "3. Criar repositório e commitar",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_12",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_13",
+      "label": "Observações",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "O `GITHUB_TOKEN=\"\"` é necessário para forçar o fluxo interativo mesmo em ambient",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "Usar `--web` faz o `gh` gerar um device code e exibir no terminal (em vez de ten",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "Após autenticação bem-sucedida, comandos como `gh repo create`, `gh pr create`, ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "O token fica salvo em disco (`~/.config/gh/hosts.yml`), então autenticações futu",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/autenticar-github-device-flow/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_3",
+      "to": "md_SKILL_code_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_3",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_3",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_3",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_3",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_code_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_11",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_code_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    }
+  ]
+}

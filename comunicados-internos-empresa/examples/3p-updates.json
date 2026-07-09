@@ -1,0 +1,124 @@
+{
+  "source": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/3p-updates.md",
+  "generated_at": "2026-07-08T21:11:12.830150",
+  "nodes": [
+    {
+      "id": "md_3p-updates_h2_0",
+      "label": "Instructions",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/3p-updates.md",
+      "community": 999
+    },
+    {
+      "id": "md_3p-updates_h2_1",
+      "label": "Tools Available",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/3p-updates.md",
+      "community": 999
+    },
+    {
+      "id": "md_3p-updates_list_2",
+      "label": "Slack: posts from team members with their updates - ideally look for posts in la",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/3p-updates.md",
+      "community": 999
+    },
+    {
+      "id": "md_3p-updates_list_3",
+      "label": "Google Drive: docs written from critical team members with lots of views",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/3p-updates.md",
+      "community": 999
+    },
+    {
+      "id": "md_3p-updates_list_4",
+      "label": "Email: emails with lots of responses of lots of content that seems relevant",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/3p-updates.md",
+      "community": 999
+    },
+    {
+      "id": "md_3p-updates_list_5",
+      "label": "Calendar: non-recurring meetings that have a lot of importance, like product rev",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/3p-updates.md",
+      "community": 999
+    },
+    {
+      "id": "md_3p-updates_list_6",
+      "label": "Progress: anything between a week ago and today",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/3p-updates.md",
+      "community": 999
+    },
+    {
+      "id": "md_3p-updates_list_7",
+      "label": "Plans: anything from today to the next week",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/3p-updates.md",
+      "community": 999
+    },
+    {
+      "id": "md_3p-updates_list_8",
+      "label": "Problems: anything between a week ago and today",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/3p-updates.md",
+      "community": 999
+    },
+    {
+      "id": "md_3p-updates_h2_9",
+      "label": "Workflow",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/3p-updates.md",
+      "community": 999
+    },
+    {
+      "id": "md_3p-updates_h2_10",
+      "label": "Formatting",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/3p-updates.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_3p-updates_h2_1",
+      "to": "md_3p-updates_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_3p-updates_h2_1",
+      "to": "md_3p-updates_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_3p-updates_h2_1",
+      "to": "md_3p-updates_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_3p-updates_h2_1",
+      "to": "md_3p-updates_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_3p-updates_h2_1",
+      "to": "md_3p-updates_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_3p-updates_h2_1",
+      "to": "md_3p-updates_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_3p-updates_h2_1",
+      "to": "md_3p-updates_list_8",
+      "relation": "contains"
+    }
+  ]
+}

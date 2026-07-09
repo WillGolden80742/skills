@@ -1,0 +1,220 @@
+{
+  "source": "/root/.config/opencode/skills/criar-editar-documento-word/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.836085",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Skill DOCX - Documentos Word",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/criar-editar-documento-word/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Visão Geral",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-documento-word/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_2",
+      "label": "Abordagens",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-documento-word/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_3",
+      "label": "Converter .doc para .docx",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-documento-word/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_4",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/criar-editar-documento-word/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_5",
+      "label": "Extração de Texto",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-documento-word/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_6",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/criar-editar-documento-word/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_7",
+      "label": "Criação de Documentos",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-documento-word/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_8",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/criar-editar-documento-word/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_9",
+      "label": "Regras Importantes",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-documento-word/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "**Definir tamanho da página explicitamente** - docx-js usa A4 por padrão",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-documento-word/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "**Nunca use `\\n`** - use elementos Paragraph separados",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-documento-word/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "**Nunca use bullets Unicode** - use numeração config com LevelFormat.BULLET",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-documento-word/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "**PageBreak deve estar dentro de Paragraph**",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-documento-word/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_14",
+      "label": "Validação",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-documento-word/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_15",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/criar-editar-documento-word/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_16",
+      "label": "Edição de Documentos Existentes",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-documento-word/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_code_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_code_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_code_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_14",
+      "to": "md_SKILL_code_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_16",
+      "relation": "section"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "source": "/root/.config/opencode/skills/extrair-conteudo-paginas/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.842744",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Skill Leitor de Pagina (Node.js)",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/extrair-conteudo-paginas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Instalacao",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/extrair-conteudo-paginas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_2",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/extrair-conteudo-paginas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_3",
+      "label": "Uso",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/extrair-conteudo-paginas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_4",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/extrair-conteudo-paginas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_5",
+      "label": "Exemplo",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/extrair-conteudo-paginas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_6",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/extrair-conteudo-paginas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_7",
+      "label": "Dependencias",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/extrair-conteudo-paginas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "`@mozilla/readability`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/extrair-conteudo-paginas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_9",
+      "label": "`jsdom`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/extrair-conteudo-paginas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "`node-fetch`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/extrair-conteudo-paginas/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_code_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_code_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    }
+  ]
+}

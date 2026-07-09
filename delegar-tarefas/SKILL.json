@@ -1,0 +1,533 @@
+{
+  "source": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.838378",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "AGY - Skill de Gerenciamento de Tarefas",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Triggers",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_2",
+      "label": "任务操作",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "\"任务\" / \"tarefa\" / \"task\" / \"todo\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "\"新任务\" / \"criar task\" / \"new task\" / \"criar tarefa\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "\"列任务\" / \"listar tarefas\" / \"list tasks\" / \"minhas tarefas\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "\"任务状态\" / \"status\" / \"andamento\" / \"progresso\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "\"完成任务\" / \"done\" / \"concluir\" / \"finalizar\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "\"看任务\" / \"ver task\" / \"show task\" / \"detalhes da tarefa\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_9",
+      "label": "操作命令",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "\"agy\" / \"agy.py\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "\"init\" / \"inicializar\" / \"inicia\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "\"agy-tasks\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "\"task-template\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_14",
+      "label": "状态相关",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "\"pending\" / \"aguardando\" / \"pendente\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "\"in_progress\" / \"andamento\" / \"em progresso\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "\"completed\" / \"concluida\" / \"completa\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_18",
+      "label": "\" blockage\" / \"bloqueio\" / \"impedimento\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_19",
+      "label": "任务管理",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_20",
+      "label": "\"delegar\" / \"delegar tarefa\" / \"assign\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_21",
+      "label": "\"monitorar\" / \"monitorar tarefas\" / \"monitor\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_22",
+      "label": "\"atualizar status\" / \"update status\" / \"mudar status\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_23",
+      "label": "\"adicionar nota\" / \"add note\" / \"anotar\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_24",
+      "label": "\"prioridade\" / \"priority\" / \"urgente\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_25",
+      "label": "文件操作",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_26",
+      "label": "\"criar arquivo de task\" / \"criar task file\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_27",
+      "label": "\"ver pastas agy\" / \"agy folders\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_28",
+      "label": "\"diretório de tarefas\" / \"tasks directory\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_29",
+      "label": "进度追踪",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_30",
+      "label": "\"progresso\" / \"progress\" / \"como vai\" / \"how is it going\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_31",
+      "label": "\"quadro de tarefas\" / \"kanban\" / \"board\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_32",
+      "label": "\"estatísticas\" / \"stats\" / \"resumo\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_33",
+      "label": "\"tarefas pendentes\" / \"pending tasks\" / \"backlog\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_34",
+      "label": "Estrutura",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_35",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_36",
+      "label": "Comandos",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_37",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_38",
+      "label": "Status Values",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_39",
+      "label": "`pending` - Aguardando",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_40",
+      "label": "`in_progress` - Em andamento",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_41",
+      "label": "`completed` - Concluida",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_42",
+      "label": "Uso pelo OpenCode",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/delegar-tarefas/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_2",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_2",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_2",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_2",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_2",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_2",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_14",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_14",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_14",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_14",
+      "to": "md_SKILL_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_19",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_19",
+      "to": "md_SKILL_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_19",
+      "to": "md_SKILL_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_19",
+      "to": "md_SKILL_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_19",
+      "to": "md_SKILL_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_19",
+      "to": "md_SKILL_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_25",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_25",
+      "to": "md_SKILL_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_25",
+      "to": "md_SKILL_list_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_25",
+      "to": "md_SKILL_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_29",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_list_31",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_list_33",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_34",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_34",
+      "to": "md_SKILL_code_35",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_36",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_36",
+      "to": "md_SKILL_code_37",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_38",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_38",
+      "to": "md_SKILL_list_39",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_38",
+      "to": "md_SKILL_list_40",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_38",
+      "to": "md_SKILL_list_41",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_42",
+      "relation": "section"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "source": "/root/.config/opencode/skills/graphify/references/transcribe.md",
+  "generated_at": "2026-07-08T21:11:13.235181",
+  "nodes": [
+    {
+      "id": "md_transcribe_h1_0",
+      "label": "graphify reference: transcribe video and audio",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/graphify/references/transcribe.md",
+      "community": 999
+    },
+    {
+      "id": "md_transcribe_h3_1",
+      "label": "Step 2.5 - Transcribe video / audio files (only if video files detected)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/references/transcribe.md",
+      "community": 999
+    },
+    {
+      "id": "md_transcribe_list_2",
+      "label": "Labels: `transformer, attention, encoder, decoder` → `\"Machine learning research",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/transcribe.md",
+      "community": 999
+    },
+    {
+      "id": "md_transcribe_list_3",
+      "label": "Labels: `kubernetes, deployment, pod, helm` → `\"DevOps discussion about Kubernet",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/transcribe.md",
+      "community": 999
+    },
+    {
+      "id": "md_transcribe_code_4",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/transcribe.md",
+      "community": 999
+    },
+    {
+      "id": "md_transcribe_list_5",
+      "label": "Read the transcript paths from `graphify-out/.graphify_transcripts.json`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/transcribe.md",
+      "community": 999
+    },
+    {
+      "id": "md_transcribe_list_6",
+      "label": "Add them to the docs list before dispatching semantic subagents in Step 3B",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/transcribe.md",
+      "community": 999
+    },
+    {
+      "id": "md_transcribe_list_7",
+      "label": "Print how many transcripts were created: `Transcribed N video file(s) -> treatin",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/transcribe.md",
+      "community": 999
+    },
+    {
+      "id": "md_transcribe_list_8",
+      "label": "If transcription fails for a file, print a warning and continue with the rest",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/transcribe.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_transcribe_h1_0",
+      "to": "md_transcribe_h3_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_transcribe_h3_1",
+      "to": "md_transcribe_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_transcribe_h3_1",
+      "to": "md_transcribe_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_transcribe_h3_1",
+      "to": "md_transcribe_code_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_transcribe_h3_1",
+      "to": "md_transcribe_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_transcribe_h3_1",
+      "to": "md_transcribe_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_transcribe_h3_1",
+      "to": "md_transcribe_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_transcribe_h3_1",
+      "to": "md_transcribe_list_8",
+      "relation": "contains"
+    }
+  ]
+}

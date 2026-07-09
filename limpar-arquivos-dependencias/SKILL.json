@@ -1,0 +1,202 @@
+{
+  "source": "/root/.config/opencode/skills/limpar-arquivos-dependencias/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.809934",
+  "nodes": [
+    {
+      "id": "md_SKILL_h2_0",
+      "label": "What I do",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/limpar-arquivos-dependencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Parameters",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/limpar-arquivos-dependencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "`target_path`: Caminho do arquivo ou diretorio a ser removido",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/limpar-arquivos-dependencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "`remove_composer`: \"true\" para remover dependencias do composer.json",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/limpar-arquivos-dependencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "`remove_npm`: \"true\" para remover dependencias do package.json",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/limpar-arquivos-dependencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "`project_path`: Caminho base do projeto (default: workspace root)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/limpar-arquivos-dependencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_6",
+      "label": "Usage",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/limpar-arquivos-dependencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_7",
+      "label": "Remover arquivo/diretorio:",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/limpar-arquivos-dependencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_8",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/limpar-arquivos-dependencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_9",
+      "label": "Remover arquivo e dependencias Composer:",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/limpar-arquivos-dependencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_10",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/limpar-arquivos-dependencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_11",
+      "label": "Remover dependencias especificas do Composer:",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/limpar-arquivos-dependencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_12",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/limpar-arquivos-dependencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_13",
+      "label": "Notes",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/limpar-arquivos-dependencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "O script automaticamente atualiza composer.json e package.json apos remover depe",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/limpar-arquivos-dependencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "Scripts que referenciam vendor tambem sao removidos dos arquivos de configuracao",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/limpar-arquivos-dependencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "Requer PowerShell no Windows ou Bash no Unix/Linux/macOS",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/limpar-arquivos-dependencias/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_h3_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_7",
+      "to": "md_SKILL_code_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_h3_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_code_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_h3_11",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_code_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    }
+  ]
+}

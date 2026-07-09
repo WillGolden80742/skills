@@ -1,94 +1,137 @@
 ---
 name: graphify-skill-router
-description: "Skill router maestro que analisa o codebase via graphify e roteia para skills especializadas. ATIVADO EM QUALQUER TAREFA. Usa o knowledge graph para consultar e encontrar a skill apropriada."
-triggers: ["", "*", "codigo", "code", "arquivo", "file", "projeto", "project", "tarefa", "task", "bug", "erro", "error", "feature", "funcao", "function", "classe", "class", "api", "database", "banco", "frontend", "backend", "fullstack", "script", "automacao", "automation", "teste", "test", "deploy", "docker", "git", "github", "wordpress", "theme", "plugin", "react", "vue", "node", "python", "php", "javascript", "typescript", "css", "html", "sql", "query", "refatorar", "refactor", "otimizar", "optimize", "performance", "seguranca", "security", "auth", "login", "crud", "create", "read", "update", "delete", "listar", "list", "mostrar", "show", "buscar", "search", "filtrar", "filter", "ordenar", "sort", "paginar", "pagination", "upload", "download", "export", "import", "pdf", "excel", "csv", "json", "xml", "yaml", "config", "configurar", "configure", "instalar", "install", "setup", "inicializar", "initialize", "build", "compilar", "compile", "run", "executar", "execute", "start", "stop", "restart", "debug", "log", "monitor", "alert", "notification", "email", "webhook", "websocket", "rest", "graphql", "microservico", "microservice", "monorepo", "library", "package", "dependency", "update", "upgrade", "migrate", "migration", "schema", "model", "controller", "service", "route", "middleware", "validator", "serializer", "view", "template", "component", "widget", "layout", "style", "design", "ui", "ux", "mobile", "responsive", "accessibility", "a11y", "seo", "cache", "session", "cookie", "header", "body", "request", "response", "status", "param", "path", "variable", "const", "let", "var", "async", "await", "promise", "callback", "event", "listener", "hook", "effect", "state", "store", "context", "provider", "consumer", "redux", "mobx", "vuex", "pinia", "db", "orm", "eloquent", "prisma", "sequelize", "typeorm", "mongodb", "mysql", "postgresql", "redis", "elasticsearch", "queue", "job", "worker", "cron", "scheduler", "logger", "monitoring", "tracing", "metrics", "ci", "cd", "pipeline", "jenkins", "actions", "gitlab", "docker", "kubernetes", "helm", "terraform", "ansible", "aws", "gcp", "azure", "cloud", "server", "hosting", "domain", "ssl", "tls", "https", "http", "dns", "cdn", "static", "dynamic", "ssr", "csr", "next", "nuxt", "remix", "sveltekit", "laravel", "django", "flask", "fastapi", "spring", "rails", "symfony", "codeigniter", "api", "rest", "graphql", "grpc", "telemetry", "logging", "alerting", "incident", "documentation", "docs", "readme", "changelog", "license", "contributing", "roadmap", "planning", "estimation", "scrum", "kanban", "agile", "vcs", "svn", "git", "branch", "checkout", "merge", "pull", "push", "fetch", "clone", "commit", "status", "diff", "log", "rebase", "reset", "revert", "tag", "release", "hotfix", "patch", "pr", "mr", "pullrequest", "review", "approve", "comment", "suggestion", "fix", "blocker", "critical", "major", "minor", "typo", "grammar", "style", "architecture", "refactor", "performance", "security", "bug", "vulnerability", "exploit", "injection", "xss", "csrf", "sqli", "ssrf", "encryption", "hashing", "tls", "ssl", "https", "ssh", "sftp", "certificate", "ca", "dns", "load", "balancing", "failover", "backup", "dr", "disaster", "recovery", "gc", "garbage", "collection", "memory", "leak", "allocation", "pool", "heap", "stack", "thread", "process", "concurrency", "parallel", "async", "await", "promise", "callback", "event", "listener", "hook", "middleware", "filter", "interceptor", "decorator", "proxy", "adapter", "facade", "singleton", "factory", "builder", "prototype", "observer", "pub/sub", "mvc", "mvvm", "flux", "redux", " CQRS", "event sourcing", "ddd", "domain driven design", "ubiquitous language", "bounded context", "aggregate", "entity", "value object", "repository", "unit of work", "domain event", "application service", "infrastructure", "persistence", "orm", "data mapper", "active record", "transaction", "lock", "semaphore", "mutex", "race condition", "deadlock", "livelock", "starvation", "priority inversion", "wait", "notify", "sleep", "yield", "park", "unpark", "blocking", "non-blocking", "synchronous", "asynchronous", "concurrent", "parallel", "distributed", "local", "remote", "network", "latency", "bandwidth", "throughput", "latency", "response time", "load time", "first byte", "time to", "first paint", "first contentful paint", "largest contentful paint", "cumulative layout shift", "speed index", "time to interactive", "total blocking time", "memory", "cpu", "gpu", "disk", "io", "network", "request", "response", "header", "body", "param", "query", "path", "variable", "constant", "function", "class", "interface", "trait", "enum", "struct", "union", "type", "generic", "template", "lambda", "closure", "curry", "compose", "pipe", "higher order function", "pure function", "side effect", "immutable", "mutable", "state", "副作用", "不可变", "并发", "并行", "分布式", "本地", "远程", "网络", "延迟", "带宽", "吞吐量"]
+description: "Skill router maestro que analisa o codebase via graphify e navega pelos AST JSON de cada .md. Usa o knowledge graph para consultar e encontrar a skill apropriada."
+triggers: ["", "*", "codigo", "code", "arquivo", "file", "projeto", "project", "tarefa", "task", "bug", "erro", "error", "feature", "funcao", "function", "classe", "class", "api", "database", "banco", "frontend", "backend", "fullstack", "script", "automacao", "automation", "teste", "test", "deploy", "docker", "git", "github", "wordpress", "theme", "plugin", "react", "vue", "node", "python", "php", "javascript", "typescript", "css", "html", "sql", "query", "refatorar", "refactor", "otimizar", "optimize", "performance", "seguranca", "security", "auth", "login", "crud", "create", "read", "update", "delete", "listar", "list", "mostrar", "show", "buscar", "search", "filtrar", "filter", "ordenar", "sort", "paginar", "pagination", "upload", "download", "export", "import", "pdf", "excel", "csv", "json", "xml", "yaml", "config", "configurar", "configure", "instalar", "install", "setup", "inicializar", "initialize", "build", "compilar", "compile", "run", "executar", "execute", "start", "stop", "restart", "debug", "log", "monitor", "alert", "notification", "email", "webhook", "websocket", "rest", "graphql", "microservico", "microservice", "monorepo", "library", "package", "dependency", "update", "upgrade", "migrate", "migration", "schema", "model", "controller", "service", "route", "middleware", "validator", "serializer", "view", "template", "component", "widget", "layout", "style", "design", "ui", "ux", "mobile", "responsive", "accessibility", "a11y", "seo", "cache", "session", "cookie", "header", "body", "request", "response", "status", "param", "path", "variable", "const", "let", "var", "async", "await", "promise", "callback", "event", "listener", "hook", "effect", "state", "store", "context", "provider", "consumer", "redux", "mobx", "vuex", "pinia", "db", "orm", "eloquent", "prisma", "sequelize", "typeorm", "mongodb", "mysql", "postgresql", "redis", "elasticsearch", "queue", "job", "worker", "cron", "scheduler", "logger", "monitoring", "tracing", "metrics", "ci", "cd", "pipeline", "jenkins", "github actions", "web", "page", "url", "link", "navigation", "menu", "form", "input", "button", "modal", "dropdown", "table", "grid", "chart", "graph", "tree", "modal", "popup", "toast", "notification", "skeleton", "loading", "spinner", "progress", "badge", "tag", "chip", "avatar", "icon", "image", "video", "audio", "upload", "file", "folder", "directory", "path", "skill", "knowledge", "markdown", "docs", "documentation"]
 ---
 
 # Graphify Skill Router
 
-Skill router maestro que usa **graphify para navegar pelo knowledge graph** e encontrar a skill mais apropriada para cada tarefa.
+Skill router maestro que usa **graphify para navegar pelo knowledge graph** e encontrar a skill mais apropriada para cada tarefa. Agora com suporte a **AST JSON** de arquivos markdown.
+
+## Estrutura de AST
+
+Cada arquivo `.md` tem um `.json` correspondente com a estrutura AST:
+
+```
+skill.md      →  skill.json
+README.MD     →  README.json
+dir/file.md   →  dir/file.json
+```
+
+### Estrutura do AST JSON
+
+```json
+{
+  "source": "/path/to/arquivo.md",
+  "generated_at": "2026-07-08T21:11:12",
+  "nodes": [
+    {"id": "md_SKILL_h1_0", "label": "Titulo", "type": "heading", "level": 1, "file": "...", "community": 999},
+    {"id": "md_SKILL_h2_1", "label": "Subtitulo", "type": "heading", "level": 2, "file": "...", "community": 999},
+    {"id": "md_SKILL_code_2", "label": "Code: python", "type": "code_block", "language": "python", "file": "...", "community": 999},
+    {"id": "md_SKILL_link_3", "label": "Link Text", "type": "link", "url": "https://...", "file": "...", "community": 999},
+    {"id": "md_SKILL_list_4", "label": "Item de lista", "type": "list_item", "file": "...", "community": 999}
+  ],
+  "edges": [
+    {"from": "md_SKILL_h1_0", "to": "md_SKILL_h2_1", "relation": "section"},
+    {"from": "md_SKILL_h1_0", "to": "md_SKILL_code_2", "relation": "contains"}
+  ]
+}
+```
+
+### Tipos de Node
+
+| Type | Descrição |
+|------|-----------|
+| `heading` | Títulos (# h1 a ###### h6) |
+| `code_block` | Blocos de código (```) |
+| `link` | Links ([text](url)) |
+| `image` | Imagens (![alt](src)) |
+| `list_item` | Itens de lista (-, *, +) |
+
+### Relações (Edges)
+
+| Relation | Descrição |
+|----------|-----------|
+| `section` | Relação hierárquica entre headings (h1 → h2 → h3) |
+| `contains` | Elemento contenido em uma seção |
 
 ## Fluxo de Routing
 
 ```
-Tarefa → [Graphify Query] → [Analisar Resultados] → [Skill Selection] → [Execute]
+Tarefa → [Graphify Query] → [Consultar AST JSON] → [Skill Selection] → [Execute]
 ```
 
-## Passo 1: Consultar o Knowledge Graph
+## Passo 1: Atualizar o Knowledge Graph
 
-Para cada tarefa, execute queries no graph para entender o contexto:
+Execute graphify para construir/atualizar o grafo:
+
+```bash
+# Atualizar grafo de código
+graphify update .
+
+# Navegar grafo interativo
+# Abra: graphify-out/graph.html
+```
+
+## Passo 2: Consultar o Knowledge Graph
+
+Para cada tarefa, execute queries no graph:
 
 ```bash
 # Query 1: O que é este projeto?
-graphify query "What is this project about? What technologies and frameworks does it use?"
+graphify query "What is this project about?"
 
 # Query 2: Qual a estrutura de diretórios?
-graphify query "What is the directory structure? What are the main components?"
+graphify query "What is the directory structure?"
 
 # Query 3: Encontrar módulos relacionados à tarefa
-graphify query "What files or modules are related to [TASK_KEYWORD]?"
+graphify query "What files are related to [TASK_KEYWORD]?"
 
-# Query 4: Encontrar padrões existentes similares
-graphify query "What patterns or implementations exist for [TASK_KEYWORD]?"
+# Query 4: Encontrar padrões existentes
+graphify query "What patterns exist for [TASK_KEYWORD]?"
 
-# Query 5: Encontrar dependências e conexões
-graphify path "[EXISTING_MODULE]" "[TASK_MODULE]"
+# Query 5: Encontrar conexões entre módulos
+graphify path "[MODULE_A]" "[MODULE_B]"
 ```
 
-## Passo 2: Queries Comuns por Tipo de Tarefa
+## Passo 3: Consultar AST dos Markdown
 
-### Para tarefas de CRU D
+Use os JSONs AST para entender estrutura de documentação:
+
 ```bash
-graphify query "What are the database models and how are they structured?"
-graphify query "What API endpoints exist for [RESOURCE]?"
-graphify path "Database" "[RESOURCE]"
+# Ler AST de um arquivo específico
+cat skill/SKILL.json
+
+# Procurar headings específicos
+grep '"type": "heading"' **/*.json
+
+# Procurar code blocks
+grep '"type": "code_block"' **/*.json
+
+# Procurar por linguagem de código
+grep '"language": "python"' **/*.json
 ```
 
-### Para tarefas de Frontend
+### Queries Úteis via grep/jq
+
 ```bash
-graphify query "What frontend components and pages exist?"
-graphify query "What is the state management approach?"
-graphify path "Component" "[FEATURE]"
+# Listar todos os títulos (h1, h2, h3)
+grep -r '"type": "heading"' . --include="*.json" | jq -r '.[] | select(.level <= 2) | .label'
+
+# Listar todos os code blocks
+grep -r '"type": "code_block"' . --include="*.json"
+
+# Buscar por linguagem específica
+grep -r '"language": "python"' . --include="*.json"
+
+# Listar links externos
+grep -r '"type": "link"' . --include="*.json" | grep 'http'
+
+# Ver estrutura de uma skill
+cat criar-novo-skill/SKILL.json | jq '.nodes[] | select(.type == "heading")'
 ```
 
-### Para tarefas de API/Backend
-```bash
-graphify query "What API routes and controllers exist?"
-graphify query "What services handle business logic?"
-graphify path "Controller" "[SERVICE]"
-```
-
-### Para tarefas de WordPress
-```bash
-graphify query "What WordPress theme or plugin files exist?"
-graphify query "What custom post types and taxonomies are defined?"
-graphify path "WordPress" "[FEATURE]"
-```
-
-### Para tarefas de Refatoração
-```bash
-graphify query "What code smells or technical debt exists?"
-graphify query "What are the main classes and their responsibilities?"
-graphify path "[OLD_IMPLEMENTATION]" "[NEW_IMPLEMENTATION]"
-```
-
-### Para tarefas de Performance
-```bash
-graphify query "What are the slow queries or bottlenecks?"
-graphify query "What caching mechanisms exist?"
-graphify path "Cache" "[FEATURE]"
-```
-
-### Para tarefas de Segurança
-```bash
-graphify query "What authentication and authorization mechanisms exist?"
-graphify query "What are the security considerations?"
-graphify path "Auth" "[FEATURE]"
-```
-
-## Passo 3: Mapear Resultados para Skills
-
-Após consultar o graph, mapeie os resultados para skills:
+## Passo 4: Mapear Resultados para Skills
 
 | Resultado da Query | Skill Recomendada |
 |-------------------|-------------------|
@@ -106,123 +149,112 @@ Após consultar o graph, mapeie os resultados para skills:
 | "mcp", "tool", "integration" | `construir-servidor-mcp` |
 | "animation", "canvas", "visual" | `arte-algoritmica-generativa` |
 | "WhatsApp", "message", "group" | `buscar-grupos-whatsapp` |
+| "skill", "create", "new" | `criar-novo-skill` |
+| "skill", "edit", "modify" | `editar-skill` |
+| "markdown", "ast", "structure" | `markdown-to-ast` |
 
-## Passo 4: Executar a Skill
-
-1. Carregue a skill recomendada
-2. Execute as instruções
-3. Retorne o resultado
-
-## Exemplo de Routing
-
-**Tarefa:** "Criar um componente de carousel em React"
+## Gerar/Atualizar AST dos Markdown
 
 ```bash
-# 1. Query para entender o projeto
-$ graphify query "What frontend framework is used? React or Vue?"
+# Gerar AST para todos os .md do projeto
+python3 markdown-to-ast/md_to_ast.py --path .
 
-# 2. Query para encontrar componentes existentes
-$ graphify query "What existing React components exist?"
+# Gerar AST para uma skill específica
+python3 markdown-to-ast/md_to_ast.py --path criar-novo-skill/SKILL.md
 
-# 3. Query para padrões de componente
-$ graphify query "What component patterns are used?"
+# Modo verbose
+python3 markdown-to-ast/md_to_ast.py --path . --verbose
 
-# Resultado: Projeto usa React + shadcn/ui
-# Skill recomendada: construir-artefatos-react
+# Dry-run (ver sem salvar)
+python3 markdown-to-ast/md_to_ast.py --path . --dry-run
 ```
 
-**Tarefa:** "Adicionar autenticação JWT ao WordPress"
+## Exemplo de Routing Completo
+
+**Tarefa:** "Documentar uma nova API REST"
 
 ```bash
-# 1. Query para entender a estrutura WordPress
-$ graphify query "What WordPress authentication exists?"
+# 1. Atualizar grafo
+graphify update .
 
-# 2. Query para encontrar ações/hooks
-$ graphify query "What WordPress hooks and actions are used?"
+# 2. Consultar estrutura existente
+graphify query "What API routes and controllers exist?"
 
-# Resultado: WordPress theme com custom auth
-# Skill recomendada: tema-marketplace-trokapay + boas-praticas-de-codigo
+# 3. Ver AST dos documentos existentes
+cat coautoria-documentacao-tecnica/SKILL.json | jq '.nodes[] | select(.type == "heading")'
+
+# 4. Resultado: Skill recomendada: coautoria-documentacao-tecnica
 ```
 
-## Comandos de Router
+**Tarefa:** "Criar uma nova skill"
 
 ```bash
-# Listar todas as skills disponíveis
-graphify query "What skills exist in this codebase?"
+# 1. Ver templates de skills existentes
+ls */SKILL.json | head -5
 
-# Ver contexto do projeto atual
-graphify query "What type of project is this? WordPress, React, Node, Python?"
+# 2. Ver estrutura de uma skill
+cat criar-novo-skill/SKILL.json | jq '.nodes'
 
-# Encontrar skill para tarefa específica
-graphify query "Which skill should I use for [TASK]?"
+# 3. Criar a skill
+python3 criar-novo-skill/skillFactory.py
 
-# Ver todas as conexões de um domínio
-graphify path "[DOMAIN]" "[RELATED_DOMAIN]"
+# 4. Gerar AST automaticamente (já integrado)
 ```
 
 ## Skills por Categoria
 
-### 💻 Desenvolvimento & Frontend
-- `construir-artefatos-react` - React components com Tailwind/shadcn
-- `design-interface-usuario` - Design de interface
-- `design-visual-artistico` - Arte visual e design artístico
-- `placeholder-carregamento` - Skeleton screens com shimmer
-- `arte-algoritmica-generativa` - Animação algorítmica com p5.js
-
-### 📄 Documentos Office & PDF
-- `criar-editar-apresentacao` - Apresentações PowerPoint
-- `criar-editar-documento-word` - Documentos Word
-- `criar-editar-planilhas-excel` - Planilhas Excel
-- `processar-arquivos-pdf` - Processamento de PDFs
-
-### 🗂️ Git, Arquivos & Projetos
-- `comitar-alteracoes` - Commits com histórico
-- `gerar-historico-commits` - Histórico de commits
-- `recuperar-commits-salvos` - Recuperar commits
-- `gerar-arvore-diretorios` - Árvore de diretórios
-- `mesclar-arquivos-diretorio` - Mesclar arquivos
-- `renomear-arquivos-referencias` - Renomear com refs
-- `limpar-arquivos-dependencias` - Limpar dependências
-
-### 🔌 Integração & Automação
-- `construir-servidor-mcp` - Servidores MCP
-- `buscar-grupos-whatsapp` - Bot WhatsApp
-- `testar-aplicacoes-web` - Testes Playwright
-- `capturar-screenshot-paginas` - Screenshots
-- `extrair-conteudo-paginas` - Extrair conteúdo web
-- `autenticar-github-device-flow` - GitHub auth
-
-### 📝 Comunicação & Documentação
-- `coautoria-documentacao-tecnica` - Documentação técnica
-- `comunicados-internos-empresa` - Comunicados internos
-- `diretrizes-marca-anthropic` - Marca Anthropic
-
-### 🎨 Design & Visual
-- `aplicar-temas-cores-fontes` - Temas de cores e fontes
-- `criar-gifs-animados-slack` - GIFs para Slack
-
 ### 🛠️ Meta — Gestão de Skills
 - `criar-novo-skill` - Criar nova skill
+- `editar-skill` - Editar skill existente
 - `gerenciar-remover-skills` - Gerenciar skills
+- `markdown-to-ast` - Gerar AST dos markdown
 
-### 🧩 Skills de Projeto Específico
-- `tema-marketplace-trokapay` - WordPress marketplace
-- `graphify` - Knowledge graph ( sempre disponível)
+### 💻 Desenvolvimento & Frontend
+- `construir-artefatos-react` - React components
+- `testar-aplicacoes-web` - Testes Playwright
+- `refatorar-css-variaveis` - CSS variables
+- `reverter-css-variaveis` - Reverter CSS
+
+### 📄 Documentos Office & PDF
+- `criar-editar-apresentacao` - PowerPoint
+- `criar-editar-documento-word` - Word
+- `criar-editar-planilhas-excel` - Excel
+- `processar-arquivos-pdf` - PDFs
+
+### 🗂️ Git, Arquivos & Projetos
+- `comitar-alteracoes` - Commits
+- `gerar-historico-commits` - Histórico
+- `gerar-arvore-diretorios` - Árvore dir
+- `mesclar-arquivos-diretorio` - Mesclar
+- `renomear-arquivos-referencias` - Renomear
+
+### 🎨 Design & Visual
+- `aplicar-temas-cores-fontes` - Temas
+- `design-interface-usuario` - UI design
+- `arte-algoritmica-generativa` - Arte p5.js
+
+## Comandos de Router
+
+```bash
+# Ver todas as skills disponíveis
+graphify query "What skills exist?"
+
+# Ver tipo do projeto
+graphify query "What type of project is this?"
+
+# Encontrar skill para tarefa
+graphify query "Which skill for [TASK]?"
+
+# Ver conexões de domínio
+graphify path "[DOMAIN_A]" "[DOMAIN_B]"
+
+# Listar AST JSONs disponíveis
+find . -name "*.json" -path "*/skills/*" | head -20
+```
 
 ## Regras de Fallback
 
 1. **Se nenhuma skill específica for encontrada** → Use `graphify update` + `graphify query`
 2. **Se o graph não existir** → Execute `graphify update .` primeiro
 3. **Se a tarefa for ambígua** → Consulte múltiplas skills em paralelo
-
-## Integração com Buildify
-
-O agente `buildify` já executa `graphify update .` antes de codar. Use o graph já construído para fazer routing inteligente:
-
-```bash
-# Verificar se graph existe
-ls graphify-out/graph.json
-
-# Fazer query
-graphify query "[SUA_PERGUNTA]"
-```
+4. **Se precisar entender estrutura de docs** → Consulte os `.json` AST correspondentes

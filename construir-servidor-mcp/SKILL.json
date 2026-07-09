@@ -1,0 +1,1375 @@
+{
+  "source": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.816595",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Guia de Desenvolvimento de Servidores MCP",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Visão Geral",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h1_2",
+      "label": "Processo",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_3",
+      "label": "🚀 Fluxo de Trabalho de Alto Nível",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_4",
+      "label": "Fase 1: Pesquisa Profunda e Planejamento",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_5",
+      "label": "1.1 Compreender o Design Moderno do MCP",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_6",
+      "label": "1.2 Estudar Documentação do Protocolo MCP",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "Visão geral da especificação e arquitetura",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "Mecanismos de transporte (streamable HTTP, stdio)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_9",
+      "label": "Definições de ferramentas, recursos e prompts",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_10",
+      "label": "1.3 Estudar Documentação do Framework",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "**Linguagem**: TypeScript (suporte SDK de alta qualidade e boa compatibilidade e",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "**Transporte**: Streamable HTTP para servidores remotos, usando JSON stateless (",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_13",
+      "label": "📋 Ver Melhores Práticas",
+      "type": "link",
+      "url": "./reference/mcp_best_practices.md",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "**Melhores Práticas MCP**: [📋 Ver Melhores Práticas](./reference/mcp_best_practi",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "**TypeScript SDK**: Use WebFetch para carregar `https://raw.githubusercontent.co",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_16",
+      "label": "⚡ Guia TypeScript",
+      "type": "link",
+      "url": "./reference/node_mcp_server.md",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "[⚡ Guia TypeScript](./reference/node_mcp_server.md) - Padrões e exemplos TypeScr",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_18",
+      "label": "**Python SDK**: Use WebFetch para carregar `https://raw.githubusercontent.com/mo",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_19",
+      "label": "🐍 Guia Python",
+      "type": "link",
+      "url": "./reference/python_mcp_server.md",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_20",
+      "label": "[🐍 Guia Python](./reference/python_mcp_server.md) - Padrões e exemplos Python",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_21",
+      "label": "1.4 Planeje Sua Implementação",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_22",
+      "label": "Fase 2: Implementação",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_23",
+      "label": "2.1 Configure Estrutura do Projeto",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_24",
+      "label": "⚡ Guia TypeScript",
+      "type": "link",
+      "url": "./reference/node_mcp_server.md",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_25",
+      "label": "[⚡ Guia TypeScript](./reference/node_mcp_server.md) - Estrutura do projeto, pack",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_26",
+      "label": "🐍 Guia Python",
+      "type": "link",
+      "url": "./reference/python_mcp_server.md",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_27",
+      "label": "[🐍 Guia Python](./reference/python_mcp_server.md) - Organização de módulos, depe",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_28",
+      "label": "2.2 Implemente Infraestrutura Compartilhada",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_29",
+      "label": "Cliente de API com autenticação",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_30",
+      "label": "Helpers de tratamento de erros",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_31",
+      "label": "Formatação de resposta (JSON/Markdown)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_32",
+      "label": "Suporte a paginação",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_33",
+      "label": "2.3 Implemente Ferramentas",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_34",
+      "label": "Use Zod (TypeScript) ou Pydantic (Python)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_35",
+      "label": "Inclua restrições e descrições claras",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_36",
+      "label": "Adicione exemplos nas descrições dos campos",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_37",
+      "label": "Defina `outputSchema` onde possível para dados estruturados",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_38",
+      "label": "Use `structuredContent` em respostas de ferramentas (recurso TypeScript SDK)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_39",
+      "label": "Ajuda clientes a entenderem e processarem saídas de ferramentas",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_40",
+      "label": "Resumo conciso da funcionalidade",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_41",
+      "label": "Descrições de parâmetros",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_42",
+      "label": "Schema do tipo de retorno",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_43",
+      "label": "Async/await para operações de I/O",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_44",
+      "label": "Tratamento de erros adequado com mensagens açãoáveis",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_45",
+      "label": "Suporte a paginação onde aplicável",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_46",
+      "label": "Retorne tanto conteúdo textual quanto dados estruturados ao usar SDKs modernos",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_47",
+      "label": "`readOnlyHint`: true/false",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_48",
+      "label": "`destructiveHint`: true/false",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_49",
+      "label": "`idempotentHint`: true/false",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_50",
+      "label": "`openWorldHint`: true/false",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_51",
+      "label": "Fase 3: Revisão e Teste",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_52",
+      "label": "3.1 Qualidade do Código",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_53",
+      "label": "Sem código duplicado (princípio DRY)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_54",
+      "label": "Tratamento de erros consistente",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_55",
+      "label": "Cobertura de tipos completa",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_56",
+      "label": "Descrições de ferramentas claras",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_57",
+      "label": "3.2 Compile e Teste",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_58",
+      "label": "Execute `npm run build` para verificar compilação",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_59",
+      "label": "Teste com MCP Inspector: `npx @modelcontextprotocol/inspector`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_60",
+      "label": "Verifique sintaxe: `python -m py_compile seu_servidor.py`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_61",
+      "label": "Teste com MCP Inspector",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_62",
+      "label": "Fase 4: Crie Avaliações",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_63",
+      "label": "✅ Guia de Avaliação",
+      "type": "link",
+      "url": "./reference/evaluation.md",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_64",
+      "label": "4.1 Entenda o Propósito da Avaliação",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_65",
+      "label": "4.2 Crie 10 Perguntas de Avaliação",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_66",
+      "label": "4.3 Requisitos da Avaliação",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_67",
+      "label": "**Independente**: Não depende de outras perguntas",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_68",
+      "label": "**Apenas leitura**: Apenas operações não-destrutivas necessárias",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_69",
+      "label": "**Complexa**: Requer múltiplas chamadas de ferramentas e exploração profunda",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_70",
+      "label": "**Realista**: Baseada em casos de uso reais que humanos se preocupariam",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_71",
+      "label": "**Verificável**: Resposta única e clara que pode ser verificada por comparação d",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_72",
+      "label": "**Estável**: Resposta não mudará com o tempo",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_73",
+      "label": "4.4 Formato de Saída",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_74",
+      "label": "Code: xml",
+      "type": "code_block",
+      "language": "xml",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h1_75",
+      "label": "Arquivos de Referência",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_76",
+      "label": "📚 Biblioteca de Documentação",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_77",
+      "label": "Documentação Principal MCP (Carregue Primeiro)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_78",
+      "label": "**Protocolo MCP**: Comece com sitemap em `https://modelcontextprotocol.io/sitema",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_79",
+      "label": "📋 Melhores Práticas MCP",
+      "type": "link",
+      "url": "./reference/mcp_best_practices.md",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_80",
+      "label": "[📋 Melhores Práticas MCP](./reference/mcp_best_practices.md) - Diretrizes univer",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_81",
+      "label": "Convenções de nomeação de servidor e ferramentas",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_82",
+      "label": "Diretrizes de formato de resposta (JSON vs Markdown)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_83",
+      "label": "Melhores práticas de paginação",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_84",
+      "label": "Seleção de transporte (streamable HTTP vs stdio)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_85",
+      "label": "Padrões de segurança e tratamento de erros",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_86",
+      "label": "Documentação SDK (Carregue Durante Fase 1/2)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_87",
+      "label": "**Python SDK**: Busque de `https://raw.githubusercontent.com/modelcontextprotoco",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_88",
+      "label": "**TypeScript SDK**: Busque de `https://raw.githubusercontent.com/modelcontextpro",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_89",
+      "label": "Guias de Implementação Específicos por Linguagem (Carregue Durante Fase 2)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_90",
+      "label": "🐍 Guia de Implementação Python",
+      "type": "link",
+      "url": "./reference/python_mcp_server.md",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_91",
+      "label": "[🐍 Guia de Implementação Python](./reference/python_mcp_server.md) - Guia comple",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_92",
+      "label": "Padrões de inicialização de servidor",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_93",
+      "label": "Exemplos de modelos Pydantic",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_94",
+      "label": "Registro de ferramentas com `@mcp.tool`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_95",
+      "label": "Exemplos funcionais completos",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_96",
+      "label": "Checklist de qualidade",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_97",
+      "label": "⚡ Guia de Implementação TypeScript",
+      "type": "link",
+      "url": "./reference/node_mcp_server.md",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_98",
+      "label": "[⚡ Guia de Implementação TypeScript](./reference/node_mcp_server.md) - Guia Type",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_99",
+      "label": "Estrutura do projeto",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_100",
+      "label": "Padrões de schema Zod",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_101",
+      "label": "Registro de ferramentas com `server.registerTool`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_102",
+      "label": "Exemplos funcionais completos",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_103",
+      "label": "Checklist de qualidade",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_104",
+      "label": "Guia de Avaliação (Carregue Durante Fase 4)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_105",
+      "label": "✅ Guia de Avaliação",
+      "type": "link",
+      "url": "./reference/evaluation.md",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_106",
+      "label": "[✅ Guia de Avaliação](./reference/evaluation.md) - Guia completo de criação de a",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_107",
+      "label": "Diretrizes de criação de perguntas",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_108",
+      "label": "Estratégias de verificação de respostas",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_109",
+      "label": "Especificações de formato XML",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_110",
+      "label": "Exemplos de perguntas e respostas",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_111",
+      "label": "Executando uma avaliação com os scripts fornecidos",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_2",
+      "to": "md_SKILL_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_h3_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_4",
+      "to": "md_SKILL_h4_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_4",
+      "to": "md_SKILL_h4_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h4_6",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_6",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_6",
+      "to": "md_SKILL_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_4",
+      "to": "md_SKILL_h4_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h4_10",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_10",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_10",
+      "to": "md_SKILL_link_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_10",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_10",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_10",
+      "to": "md_SKILL_link_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_10",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_10",
+      "to": "md_SKILL_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_10",
+      "to": "md_SKILL_link_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_10",
+      "to": "md_SKILL_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_4",
+      "to": "md_SKILL_h4_21",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_h3_22",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_22",
+      "to": "md_SKILL_h4_23",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h4_23",
+      "to": "md_SKILL_link_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_23",
+      "to": "md_SKILL_list_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_23",
+      "to": "md_SKILL_link_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_23",
+      "to": "md_SKILL_list_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_22",
+      "to": "md_SKILL_h4_28",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h4_28",
+      "to": "md_SKILL_list_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_28",
+      "to": "md_SKILL_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_28",
+      "to": "md_SKILL_list_31",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_28",
+      "to": "md_SKILL_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_22",
+      "to": "md_SKILL_h4_33",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_34",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_35",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_36",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_37",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_38",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_39",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_40",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_41",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_42",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_43",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_44",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_45",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_46",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_47",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_48",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_49",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_33",
+      "to": "md_SKILL_list_50",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_h3_51",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_51",
+      "to": "md_SKILL_h4_52",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h4_52",
+      "to": "md_SKILL_list_53",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_52",
+      "to": "md_SKILL_list_54",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_52",
+      "to": "md_SKILL_list_55",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_52",
+      "to": "md_SKILL_list_56",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_51",
+      "to": "md_SKILL_h4_57",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h4_57",
+      "to": "md_SKILL_list_58",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_57",
+      "to": "md_SKILL_list_59",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_57",
+      "to": "md_SKILL_list_60",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_57",
+      "to": "md_SKILL_list_61",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_h3_62",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_62",
+      "to": "md_SKILL_link_63",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_62",
+      "to": "md_SKILL_h4_64",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_62",
+      "to": "md_SKILL_h4_65",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_62",
+      "to": "md_SKILL_h4_66",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h4_66",
+      "to": "md_SKILL_list_67",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_66",
+      "to": "md_SKILL_list_68",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_66",
+      "to": "md_SKILL_list_69",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_66",
+      "to": "md_SKILL_list_70",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_66",
+      "to": "md_SKILL_list_71",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_66",
+      "to": "md_SKILL_list_72",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_62",
+      "to": "md_SKILL_h4_73",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h4_73",
+      "to": "md_SKILL_code_74",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_75",
+      "to": "md_SKILL_h2_76",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_76",
+      "to": "md_SKILL_h3_77",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_77",
+      "to": "md_SKILL_list_78",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_77",
+      "to": "md_SKILL_link_79",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_77",
+      "to": "md_SKILL_list_80",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_77",
+      "to": "md_SKILL_list_81",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_77",
+      "to": "md_SKILL_list_82",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_77",
+      "to": "md_SKILL_list_83",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_77",
+      "to": "md_SKILL_list_84",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_77",
+      "to": "md_SKILL_list_85",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_76",
+      "to": "md_SKILL_h3_86",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_86",
+      "to": "md_SKILL_list_87",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_86",
+      "to": "md_SKILL_list_88",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_76",
+      "to": "md_SKILL_h3_89",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_89",
+      "to": "md_SKILL_link_90",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_89",
+      "to": "md_SKILL_list_91",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_89",
+      "to": "md_SKILL_list_92",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_89",
+      "to": "md_SKILL_list_93",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_89",
+      "to": "md_SKILL_list_94",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_89",
+      "to": "md_SKILL_list_95",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_89",
+      "to": "md_SKILL_list_96",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_89",
+      "to": "md_SKILL_link_97",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_89",
+      "to": "md_SKILL_list_98",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_89",
+      "to": "md_SKILL_list_99",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_89",
+      "to": "md_SKILL_list_100",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_89",
+      "to": "md_SKILL_list_101",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_89",
+      "to": "md_SKILL_list_102",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_89",
+      "to": "md_SKILL_list_103",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_76",
+      "to": "md_SKILL_h3_104",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_104",
+      "to": "md_SKILL_link_105",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_104",
+      "to": "md_SKILL_list_106",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_104",
+      "to": "md_SKILL_list_107",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_104",
+      "to": "md_SKILL_list_108",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_104",
+      "to": "md_SKILL_list_109",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_104",
+      "to": "md_SKILL_list_110",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_104",
+      "to": "md_SKILL_list_111",
+      "relation": "contains"
+    }
+  ]
+}

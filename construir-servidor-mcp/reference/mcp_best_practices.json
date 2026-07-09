@@ -1,0 +1,1377 @@
+{
+  "source": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+  "generated_at": "2026-07-08T21:11:12.825409",
+  "nodes": [
+    {
+      "id": "md_mcp_best_practices_h1_0",
+      "label": "MCP Server Best Practices",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h2_1",
+      "label": "Quick Reference",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h3_2",
+      "label": "Server Naming",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_3",
+      "label": "**Python**: `{service}_mcp` (e.g., `slack_mcp`)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_4",
+      "label": "**Node/TypeScript**: `{service}-mcp-server` (e.g., `slack-mcp-server`)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h3_5",
+      "label": "Tool Naming",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_6",
+      "label": "Use snake_case with service prefix",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_7",
+      "label": "Format: `{service}_{action}_{resource}`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_8",
+      "label": "Example: `slack_send_message`, `github_create_issue`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h3_9",
+      "label": "Response Formats",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_10",
+      "label": "Support both JSON and Markdown formats",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_11",
+      "label": "JSON for programmatic processing",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_12",
+      "label": "Markdown for human readability",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h3_13",
+      "label": "Pagination",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_14",
+      "label": "Always respect `limit` parameter",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_15",
+      "label": "Return `has_more`, `next_offset`, `total_count`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_16",
+      "label": "Default to 20-50 items",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h3_17",
+      "label": "Transport",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_18",
+      "label": "**Streamable HTTP**: For remote servers, multi-client scenarios",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_19",
+      "label": "**stdio**: For local integrations, command-line tools",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_20",
+      "label": "Avoid SSE (deprecated in favor of streamable HTTP)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h2_21",
+      "label": "Server Naming Conventions",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_22",
+      "label": "Examples: `slack_mcp`, `github_mcp`, `jira_mcp`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_23",
+      "label": "Examples: `slack-mcp-server`, `github-mcp-server`, `jira-mcp-server`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h2_24",
+      "label": "Tool Naming and Design",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h3_25",
+      "label": "Tool Naming",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_26",
+      "label": "Use `slack_send_message` instead of just `send_message`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_27",
+      "label": "Use `github_create_issue` instead of just `create_issue`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h3_28",
+      "label": "Tool Design",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_29",
+      "label": "Tool descriptions must narrowly and unambiguously describe functionality",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_30",
+      "label": "Descriptions must precisely match actual functionality",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_31",
+      "label": "Provide tool annotations (readOnlyHint, destructiveHint, idempotentHint, openWor",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_32",
+      "label": "Keep tool operations focused and atomic",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h2_33",
+      "label": "Response Formats",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h3_34",
+      "label": "JSON Format (`response_format=\"json\"`)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_35",
+      "label": "Machine-readable structured data",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_36",
+      "label": "Include all available fields and metadata",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_37",
+      "label": "Consistent field names and types",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_38",
+      "label": "Use for programmatic processing",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h3_39",
+      "label": "Markdown Format (`response_format=\"markdown\"`, typically default)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_40",
+      "label": "Human-readable formatted text",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_41",
+      "label": "Use headers, lists, and formatting for clarity",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_42",
+      "label": "Convert timestamps to human-readable format",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_43",
+      "label": "Show display names with IDs in parentheses",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_44",
+      "label": "Omit verbose metadata",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h2_45",
+      "label": "Pagination",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_46",
+      "label": "**Always respect the `limit` parameter**",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_47",
+      "label": "**Implement pagination**: Use `offset` or cursor-based pagination",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_48",
+      "label": "**Return pagination metadata**: Include `has_more`, `next_offset`/`next_cursor`,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_49",
+      "label": "**Never load all results into memory**: Especially important for large datasets",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_50",
+      "label": "**Default to reasonable limits**: 20-50 items is typical",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_code_51",
+      "label": "Code: json",
+      "type": "code_block",
+      "language": "json",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h2_52",
+      "label": "Transport Options",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h3_53",
+      "label": "Streamable HTTP",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_54",
+      "label": "Bidirectional communication over HTTP",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_55",
+      "label": "Supports multiple simultaneous clients",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_56",
+      "label": "Can be deployed as a web service",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_57",
+      "label": "Enables server-to-client notifications",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_58",
+      "label": "Serving multiple clients simultaneously",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_59",
+      "label": "Deploying as a cloud service",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_60",
+      "label": "Integration with web applications",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h3_61",
+      "label": "stdio",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_62",
+      "label": "Standard input/output stream communication",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_63",
+      "label": "Simple setup, no network configuration needed",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_64",
+      "label": "Runs as a subprocess of the client",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_65",
+      "label": "Building tools for local development environments",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_66",
+      "label": "Integrating with desktop applications",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_67",
+      "label": "Single-user, single-session scenarios",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h3_68",
+      "label": "Transport Selection",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h2_69",
+      "label": "Security Best Practices",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h3_70",
+      "label": "Authentication and Authorization",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_71",
+      "label": "Use secure OAuth 2.1 with certificates from recognized authorities",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_72",
+      "label": "Validate access tokens before processing requests",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_73",
+      "label": "Only accept tokens specifically intended for your server",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_74",
+      "label": "Store API keys in environment variables, never in code",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_75",
+      "label": "Validate keys on server startup",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_76",
+      "label": "Provide clear error messages when authentication fails",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h3_77",
+      "label": "Input Validation",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_78",
+      "label": "Sanitize file paths to prevent directory traversal",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_79",
+      "label": "Validate URLs and external identifiers",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_80",
+      "label": "Check parameter sizes and ranges",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_81",
+      "label": "Prevent command injection in system calls",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_82",
+      "label": "Use schema validation (Pydantic/Zod) for all inputs",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h3_83",
+      "label": "Error Handling",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_84",
+      "label": "Don't expose internal errors to clients",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_85",
+      "label": "Log security-relevant errors server-side",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_86",
+      "label": "Provide helpful but not revealing error messages",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_87",
+      "label": "Clean up resources after errors",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h3_88",
+      "label": "DNS Rebinding Protection",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_89",
+      "label": "Enable DNS rebinding protection",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_90",
+      "label": "Validate the `Origin` header on all incoming connections",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_91",
+      "label": "Bind to `127.0.0.1` rather than `0.0.0.0`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h2_92",
+      "label": "Tool Annotations",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h2_93",
+      "label": "Error Handling",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_94",
+      "label": "Use standard JSON-RPC error codes",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_95",
+      "label": "Report tool errors within result objects (not protocol-level errors)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_96",
+      "label": "Provide helpful, specific error messages with suggested next steps",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_97",
+      "label": "Don't expose internal implementation details",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_98",
+      "label": "Clean up resources properly on errors",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_code_99",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h2_100",
+      "label": "Testing Requirements",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_101",
+      "label": "**Functional testing**: Verify correct execution with valid/invalid inputs",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_102",
+      "label": "**Integration testing**: Test interaction with external systems",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_103",
+      "label": "**Security testing**: Validate auth, input sanitization, rate limiting",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_104",
+      "label": "**Performance testing**: Check behavior under load, timeouts",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_105",
+      "label": "**Error handling**: Ensure proper error reporting and cleanup",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_h2_106",
+      "label": "Documentation Requirements",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_107",
+      "label": "Provide clear documentation of all tools and capabilities",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_108",
+      "label": "Include working examples (at least 3 per major feature)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_109",
+      "label": "Document security considerations",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_110",
+      "label": "Specify required permissions and access levels",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    },
+    {
+      "id": "md_mcp_best_practices_list_111",
+      "label": "Document rate limits and performance characteristics",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/mcp_best_practices.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_mcp_best_practices_h1_0",
+      "to": "md_mcp_best_practices_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_1",
+      "to": "md_mcp_best_practices_h3_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_2",
+      "to": "md_mcp_best_practices_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_2",
+      "to": "md_mcp_best_practices_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_1",
+      "to": "md_mcp_best_practices_h3_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_5",
+      "to": "md_mcp_best_practices_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_5",
+      "to": "md_mcp_best_practices_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_5",
+      "to": "md_mcp_best_practices_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_1",
+      "to": "md_mcp_best_practices_h3_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_9",
+      "to": "md_mcp_best_practices_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_9",
+      "to": "md_mcp_best_practices_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_9",
+      "to": "md_mcp_best_practices_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_1",
+      "to": "md_mcp_best_practices_h3_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_13",
+      "to": "md_mcp_best_practices_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_13",
+      "to": "md_mcp_best_practices_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_13",
+      "to": "md_mcp_best_practices_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_1",
+      "to": "md_mcp_best_practices_h3_17",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_17",
+      "to": "md_mcp_best_practices_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_17",
+      "to": "md_mcp_best_practices_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_17",
+      "to": "md_mcp_best_practices_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h1_0",
+      "to": "md_mcp_best_practices_h2_21",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_21",
+      "to": "md_mcp_best_practices_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_21",
+      "to": "md_mcp_best_practices_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h1_0",
+      "to": "md_mcp_best_practices_h2_24",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_24",
+      "to": "md_mcp_best_practices_h3_25",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_25",
+      "to": "md_mcp_best_practices_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_25",
+      "to": "md_mcp_best_practices_list_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_24",
+      "to": "md_mcp_best_practices_h3_28",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_28",
+      "to": "md_mcp_best_practices_list_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_28",
+      "to": "md_mcp_best_practices_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_28",
+      "to": "md_mcp_best_practices_list_31",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_28",
+      "to": "md_mcp_best_practices_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h1_0",
+      "to": "md_mcp_best_practices_h2_33",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_33",
+      "to": "md_mcp_best_practices_h3_34",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_34",
+      "to": "md_mcp_best_practices_list_35",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_34",
+      "to": "md_mcp_best_practices_list_36",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_34",
+      "to": "md_mcp_best_practices_list_37",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_34",
+      "to": "md_mcp_best_practices_list_38",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_33",
+      "to": "md_mcp_best_practices_h3_39",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_39",
+      "to": "md_mcp_best_practices_list_40",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_39",
+      "to": "md_mcp_best_practices_list_41",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_39",
+      "to": "md_mcp_best_practices_list_42",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_39",
+      "to": "md_mcp_best_practices_list_43",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_39",
+      "to": "md_mcp_best_practices_list_44",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h1_0",
+      "to": "md_mcp_best_practices_h2_45",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_45",
+      "to": "md_mcp_best_practices_list_46",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_45",
+      "to": "md_mcp_best_practices_list_47",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_45",
+      "to": "md_mcp_best_practices_list_48",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_45",
+      "to": "md_mcp_best_practices_list_49",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_45",
+      "to": "md_mcp_best_practices_list_50",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_45",
+      "to": "md_mcp_best_practices_code_51",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h1_0",
+      "to": "md_mcp_best_practices_h2_52",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_52",
+      "to": "md_mcp_best_practices_h3_53",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_53",
+      "to": "md_mcp_best_practices_list_54",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_53",
+      "to": "md_mcp_best_practices_list_55",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_53",
+      "to": "md_mcp_best_practices_list_56",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_53",
+      "to": "md_mcp_best_practices_list_57",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_53",
+      "to": "md_mcp_best_practices_list_58",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_53",
+      "to": "md_mcp_best_practices_list_59",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_53",
+      "to": "md_mcp_best_practices_list_60",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_52",
+      "to": "md_mcp_best_practices_h3_61",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_61",
+      "to": "md_mcp_best_practices_list_62",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_61",
+      "to": "md_mcp_best_practices_list_63",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_61",
+      "to": "md_mcp_best_practices_list_64",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_61",
+      "to": "md_mcp_best_practices_list_65",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_61",
+      "to": "md_mcp_best_practices_list_66",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_61",
+      "to": "md_mcp_best_practices_list_67",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_52",
+      "to": "md_mcp_best_practices_h3_68",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h1_0",
+      "to": "md_mcp_best_practices_h2_69",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_69",
+      "to": "md_mcp_best_practices_h3_70",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_70",
+      "to": "md_mcp_best_practices_list_71",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_70",
+      "to": "md_mcp_best_practices_list_72",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_70",
+      "to": "md_mcp_best_practices_list_73",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_70",
+      "to": "md_mcp_best_practices_list_74",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_70",
+      "to": "md_mcp_best_practices_list_75",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_70",
+      "to": "md_mcp_best_practices_list_76",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_69",
+      "to": "md_mcp_best_practices_h3_77",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_77",
+      "to": "md_mcp_best_practices_list_78",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_77",
+      "to": "md_mcp_best_practices_list_79",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_77",
+      "to": "md_mcp_best_practices_list_80",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_77",
+      "to": "md_mcp_best_practices_list_81",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_77",
+      "to": "md_mcp_best_practices_list_82",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_69",
+      "to": "md_mcp_best_practices_h3_83",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_83",
+      "to": "md_mcp_best_practices_list_84",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_83",
+      "to": "md_mcp_best_practices_list_85",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_83",
+      "to": "md_mcp_best_practices_list_86",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_83",
+      "to": "md_mcp_best_practices_list_87",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_69",
+      "to": "md_mcp_best_practices_h3_88",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_88",
+      "to": "md_mcp_best_practices_list_89",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_88",
+      "to": "md_mcp_best_practices_list_90",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h3_88",
+      "to": "md_mcp_best_practices_list_91",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h1_0",
+      "to": "md_mcp_best_practices_h2_92",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h1_0",
+      "to": "md_mcp_best_practices_h2_93",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_93",
+      "to": "md_mcp_best_practices_list_94",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_93",
+      "to": "md_mcp_best_practices_list_95",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_93",
+      "to": "md_mcp_best_practices_list_96",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_93",
+      "to": "md_mcp_best_practices_list_97",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_93",
+      "to": "md_mcp_best_practices_list_98",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_93",
+      "to": "md_mcp_best_practices_code_99",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h1_0",
+      "to": "md_mcp_best_practices_h2_100",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_100",
+      "to": "md_mcp_best_practices_list_101",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_100",
+      "to": "md_mcp_best_practices_list_102",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_100",
+      "to": "md_mcp_best_practices_list_103",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_100",
+      "to": "md_mcp_best_practices_list_104",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_100",
+      "to": "md_mcp_best_practices_list_105",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h1_0",
+      "to": "md_mcp_best_practices_h2_106",
+      "relation": "section"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_106",
+      "to": "md_mcp_best_practices_list_107",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_106",
+      "to": "md_mcp_best_practices_list_108",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_106",
+      "to": "md_mcp_best_practices_list_109",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_106",
+      "to": "md_mcp_best_practices_list_110",
+      "relation": "contains"
+    },
+    {
+      "from": "md_mcp_best_practices_h2_106",
+      "to": "md_mcp_best_practices_list_111",
+      "relation": "contains"
+    }
+  ]
+}

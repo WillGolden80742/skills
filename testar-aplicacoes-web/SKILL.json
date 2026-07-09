@@ -1,0 +1,206 @@
+{
+  "source": "/root/.config/opencode/skills/testar-aplicacoes-web/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.828619",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Skill Webapp Testing",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/testar-aplicacoes-web/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Scripts Auxiliares",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/testar-aplicacoes-web/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "`scripts/with_server.py` - Gerencia ciclo de vida do servidor",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/testar-aplicacoes-web/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_3",
+      "label": "Árvore de Decisão",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/testar-aplicacoes-web/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_4",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/testar-aplicacoes-web/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_5",
+      "label": "Exemplo: with_server.py",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/testar-aplicacoes-web/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_6",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/testar-aplicacoes-web/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_7",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/testar-aplicacoes-web/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_8",
+      "label": "Script de Automação",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/testar-aplicacoes-web/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_9",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/testar-aplicacoes-web/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_10",
+      "label": "Armadilha Comum",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/testar-aplicacoes-web/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_11",
+      "label": "Melhores Práticas",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/testar-aplicacoes-web/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "Use seletores descritivos: `text=`, `role=`, CSS, IDs",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/testar-aplicacoes-web/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "Adicione waits apropriados",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/testar-aplicacoes-web/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "Sempre feche o browser",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/testar-aplicacoes-web/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "Use `sync_playwright()`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/testar-aplicacoes-web/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_code_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_code_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_code_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_8",
+      "to": "md_SKILL_code_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_11",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_11",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_11",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_11",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_11",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    }
+  ]
+}

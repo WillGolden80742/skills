@@ -1,0 +1,228 @@
+{
+  "source": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.831047",
+  "nodes": [
+    {
+      "id": "md_SKILL_h2_0",
+      "label": "What I do",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Script Location",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_2",
+      "label": "Uso",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_3",
+      "label": "Gerar todos os historicos de commits (padrão):",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_4",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_5",
+      "label": "Gerar com caminhos customizados:",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_6",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_7",
+      "label": "Parâmetros:",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "`--repo`: Caminho do repositório Git (default: theme WordPress)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_9",
+      "label": "`--output`: Diretório base para salvar os arquivos (default: `/www/wwwroot/sac.m",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_10",
+      "label": "O que o script faz:",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_11",
+      "label": "Formato do Arquivo de Commit",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_12",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_13",
+      "label": "Code: markdown",
+      "type": "code_block",
+      "language": "markdown",
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_14",
+      "label": "Exemplo",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_15",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_16",
+      "label": "Notes",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "O script detecta automaticamente commits ja documentados",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_18",
+      "label": "Diff limitado a 500k caracteres por commit para evitar arquivos gigantes",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_19",
+      "label": "Para recuperar/ver commits salvos, use a skill \"recuperar-commits-salvos\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/gerar-historico-commits/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_3",
+      "to": "md_SKILL_code_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_code_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_7",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_7",
+      "to": "md_SKILL_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_11",
+      "to": "md_SKILL_code_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_11",
+      "to": "md_SKILL_code_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_14",
+      "to": "md_SKILL_code_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_16",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_16",
+      "to": "md_SKILL_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_16",
+      "to": "md_SKILL_list_19",
+      "relation": "contains"
+    }
+  ]
+}

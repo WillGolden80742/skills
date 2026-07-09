@@ -1,0 +1,706 @@
+{
+  "source": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+  "generated_at": "2026-07-08T21:11:12.832167",
+  "nodes": [
+    {
+      "id": "md_forms_h1_0",
+      "label": "Fillable fields",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_1",
+      "label": "Run this script from this file's directory: `python scripts/extract_form_field_i",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_code_2",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_3",
+      "label": "Convert the PDF to PNGs (one image for each page) with this script (run from thi",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_4",
+      "label": "Create a `field_values.json` file in this format with the values to be entered f",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_code_5",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_6",
+      "label": "Run the `fill_fillable_fields.py` script from this file's directory to create a ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_h1_7",
+      "label": "Non-fillable fields",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_h2_8",
+      "label": "Step 1: Try Structure Extraction First",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_9",
+      "label": "**labels**: Every text element with exact coordinates (x0, top, x1, bottom in PD",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_10",
+      "label": "**lines**: Horizontal lines that define row boundaries",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_11",
+      "label": "**checkboxes**: Small square rectangles that are checkboxes (with center coordin",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_12",
+      "label": "**row_boundaries**: Row top/bottom positions calculated from horizontal lines",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_h2_13",
+      "label": "Approach A: Structure-Based Coordinates (Preferred)",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_h3_14",
+      "label": "A.1: Analyze the Structure",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_h3_15",
+      "label": "A.2: Check for Missing Elements",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_16",
+      "label": "**Circular checkboxes**: Only square rectangles are detected as checkboxes",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_17",
+      "label": "**Complex graphics**: Decorative elements or non-standard form controls",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_18",
+      "label": "**Faded or light-colored elements**: May not be extracted",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_h3_19",
+      "label": "A.3: Create fields.json with PDF Coordinates",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_20",
+      "label": "entry x0 = label x1 + 5 (small gap after label)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_21",
+      "label": "entry x1 = next label's x0, or row boundary",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_22",
+      "label": "entry top = same as label top",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_23",
+      "label": "entry bottom = row boundary line below, or label bottom + row_height",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_24",
+      "label": "Use the checkbox rectangle coordinates directly from form_structure.json",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_25",
+      "label": "entry_bounding_box = [checkbox.x0, checkbox.top, checkbox.x1, checkbox.bottom]",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_code_26",
+      "label": "Code: json",
+      "type": "code_block",
+      "language": "json",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_h3_27",
+      "label": "A.4: Validate Bounding Boxes",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_h2_28",
+      "label": "Approach B: Visual Estimation (Fallback)",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_h3_29",
+      "label": "B.1: Convert PDF to Images",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_h3_30",
+      "label": "B.2: Initial Field Identification",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_31",
+      "label": "Form field labels and their approximate positions",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_32",
+      "label": "Entry areas (lines, boxes, or blank spaces for text input)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_33",
+      "label": "Checkboxes and their approximate locations",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_h3_34",
+      "label": "B.3: Zoom Refinement (CRITICAL for accuracy)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_code_35",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_36",
+      "label": "`<x>, <y>` = top-left corner of crop region (use your rough estimate minus paddi",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_37",
+      "label": "`<width>, <height>` = size of crop region (field area plus ~50px padding on each",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_code_38",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_39",
+      "label": "full_x = crop_x + crop_offset_x",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_40",
+      "label": "full_y = crop_y + crop_offset_y",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_41",
+      "label": "entry_x0 = 52 + 50 = 102",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_42",
+      "label": "entry_top = 18 + 120 = 138",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_h3_43",
+      "label": "B.4: Create fields.json with Refined Coordinates",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_code_44",
+      "label": "Code: json",
+      "type": "code_block",
+      "language": "json",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_h3_45",
+      "label": "B.5: Validate Bounding Boxes",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_h2_46",
+      "label": "Hybrid Approach: Structure + Visual",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_47",
+      "label": "pdf_x = image_x * (pdf_width / image_width)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_48",
+      "label": "pdf_y = image_y * (pdf_height / image_height)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_h2_49",
+      "label": "Step 2: Validate Before Filling",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_50",
+      "label": "Intersecting bounding boxes (which would cause overlapping text)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_51",
+      "label": "Entry boxes that are too small for the specified font size",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_h2_52",
+      "label": "Step 3: Fill the Form",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_h2_53",
+      "label": "Step 4: Verify Output",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_54",
+      "label": "**Approach A**: Check that you're using PDF coordinates from form_structure.json",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_55",
+      "label": "**Approach B**: Check that image dimensions match and coordinates are accurate p",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    },
+    {
+      "id": "md_forms_list_56",
+      "label": "**Hybrid**: Ensure coordinate conversions are correct for visually-estimated fie",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/processar-arquivos-pdf/forms.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_forms_h1_0",
+      "to": "md_forms_list_1",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h1_0",
+      "to": "md_forms_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h1_0",
+      "to": "md_forms_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h1_0",
+      "to": "md_forms_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h1_0",
+      "to": "md_forms_code_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h1_0",
+      "to": "md_forms_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h1_7",
+      "to": "md_forms_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_forms_h2_8",
+      "to": "md_forms_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h2_8",
+      "to": "md_forms_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h2_8",
+      "to": "md_forms_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h2_8",
+      "to": "md_forms_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h1_7",
+      "to": "md_forms_h2_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_forms_h2_13",
+      "to": "md_forms_h3_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_forms_h2_13",
+      "to": "md_forms_h3_15",
+      "relation": "section"
+    },
+    {
+      "from": "md_forms_h3_15",
+      "to": "md_forms_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h3_15",
+      "to": "md_forms_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h3_15",
+      "to": "md_forms_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h2_13",
+      "to": "md_forms_h3_19",
+      "relation": "section"
+    },
+    {
+      "from": "md_forms_h3_19",
+      "to": "md_forms_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h3_19",
+      "to": "md_forms_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h3_19",
+      "to": "md_forms_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h3_19",
+      "to": "md_forms_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h3_19",
+      "to": "md_forms_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h3_19",
+      "to": "md_forms_list_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h3_19",
+      "to": "md_forms_code_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h2_13",
+      "to": "md_forms_h3_27",
+      "relation": "section"
+    },
+    {
+      "from": "md_forms_h1_7",
+      "to": "md_forms_h2_28",
+      "relation": "section"
+    },
+    {
+      "from": "md_forms_h2_28",
+      "to": "md_forms_h3_29",
+      "relation": "section"
+    },
+    {
+      "from": "md_forms_h2_28",
+      "to": "md_forms_h3_30",
+      "relation": "section"
+    },
+    {
+      "from": "md_forms_h3_30",
+      "to": "md_forms_list_31",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h3_30",
+      "to": "md_forms_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h3_30",
+      "to": "md_forms_list_33",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h2_28",
+      "to": "md_forms_h3_34",
+      "relation": "section"
+    },
+    {
+      "from": "md_forms_h3_34",
+      "to": "md_forms_code_35",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h3_34",
+      "to": "md_forms_list_36",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h3_34",
+      "to": "md_forms_list_37",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h3_34",
+      "to": "md_forms_code_38",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h3_34",
+      "to": "md_forms_list_39",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h3_34",
+      "to": "md_forms_list_40",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h3_34",
+      "to": "md_forms_list_41",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h3_34",
+      "to": "md_forms_list_42",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h2_28",
+      "to": "md_forms_h3_43",
+      "relation": "section"
+    },
+    {
+      "from": "md_forms_h3_43",
+      "to": "md_forms_code_44",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h2_28",
+      "to": "md_forms_h3_45",
+      "relation": "section"
+    },
+    {
+      "from": "md_forms_h1_7",
+      "to": "md_forms_h2_46",
+      "relation": "section"
+    },
+    {
+      "from": "md_forms_h2_46",
+      "to": "md_forms_list_47",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h2_46",
+      "to": "md_forms_list_48",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h1_7",
+      "to": "md_forms_h2_49",
+      "relation": "section"
+    },
+    {
+      "from": "md_forms_h2_49",
+      "to": "md_forms_list_50",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h2_49",
+      "to": "md_forms_list_51",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h1_7",
+      "to": "md_forms_h2_52",
+      "relation": "section"
+    },
+    {
+      "from": "md_forms_h1_7",
+      "to": "md_forms_h2_53",
+      "relation": "section"
+    },
+    {
+      "from": "md_forms_h2_53",
+      "to": "md_forms_list_54",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h2_53",
+      "to": "md_forms_list_55",
+      "relation": "contains"
+    },
+    {
+      "from": "md_forms_h2_53",
+      "to": "md_forms_list_56",
+      "relation": "contains"
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "source": "/root/.config/opencode/skills/graphify/README.md",
+  "generated_at": "2026-07-08T21:11:13.233888",
+  "nodes": [
+    {
+      "id": "md_README_h1_0",
+      "label": "Graphify",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_1",
+      "label": "**Code maps for free, fully local.** Code is parsed with tree-sitter AST: determ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_2",
+      "label": "**Every edge is explained.** Each connection is tagged `EXTRACTED` (explicit in ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_3",
+      "label": "**Not a vector index.** No embeddings, no vector store: a real graph you travers",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_code_4",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_code_5",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_code_6",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_h2_7",
+      "label": "See it in action",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_code_8",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_h2_9",
+      "label": "What it does",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_h2_10",
+      "label": "Benchmarks",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_h2_11",
+      "label": "Common commands",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_code_12",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_h2_13",
+      "label": "Graph HTML para grafos grandes",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_h3_14",
+      "label": "Opção 1: Gerar visualização agregada por comunidade",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_code_15",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_h3_16",
+      "label": "Opção 2: Usar --no-viz para grafos muito grandes",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_code_17",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_h3_18",
+      "label": "Opção 3: HTML leve com dados externos",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_19",
+      "label": "graph.html pequeno (<100KB)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_20",
+      "label": "graph.json carregado sob demanda",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_h2_21",
+      "label": "Privacy",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_22",
+      "label": "**Code files** — processed locally via tree-sitter. Nothing leaves your machine.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_23",
+      "label": "**Video / audio** — transcribed locally with faster-whisper. Nothing leaves your",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_24",
+      "label": "**Docs, PDFs, images** — sent to your AI assistant for semantic extraction.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_25",
+      "label": "**No telemetry**, no usage tracking, no analytics.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_h2_26",
+      "label": "Learn more",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_27",
+      "label": "How it works",
+      "type": "link",
+      "url": "docs/how-it-works.md",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_28",
+      "label": "[How it works](docs/how-it-works.md) — the extraction pipeline, community detect",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_29",
+      "label": "ARCHITECTURE.md",
+      "type": "link",
+      "url": "ARCHITECTURE.md",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_30",
+      "label": "[ARCHITECTURE.md](ARCHITECTURE.md) — module breakdown, how to add a language",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_31",
+      "label": "Optional integrations",
+      "type": "link",
+      "url": "docs/docker-mcp-sqlite.md",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_32",
+      "label": "[Optional integrations](docs/docker-mcp-sqlite.md) — Docker MCP Toolkit + SQLite",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_33",
+      "label": "The Memory Layer",
+      "type": "link",
+      "url": "https://safishamsi.gumroad.com/l/qetvlo",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_34",
+      "label": "[The Memory Layer](https://safishamsi.gumroad.com/l/qetvlo) — the book on the id",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_h2_35",
+      "label": "Built on graphify: Penpax",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_36",
+      "label": "**Penpax**",
+      "type": "link",
+      "url": "https://graphifylabs.ai",
+      "file": "/root/.config/opencode/skills/graphify/README.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_list_1",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_code_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_code_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_code_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_README_h2_7",
+      "to": "md_README_code_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_h2_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_h2_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_h2_11",
+      "relation": "section"
+    },
+    {
+      "from": "md_README_h2_11",
+      "to": "md_README_code_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_h2_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_README_h2_13",
+      "to": "md_README_h3_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_README_h3_14",
+      "to": "md_README_code_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_13",
+      "to": "md_README_h3_16",
+      "relation": "section"
+    },
+    {
+      "from": "md_README_h3_16",
+      "to": "md_README_code_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_13",
+      "to": "md_README_h3_18",
+      "relation": "section"
+    },
+    {
+      "from": "md_README_h3_18",
+      "to": "md_README_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h3_18",
+      "to": "md_README_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_h2_21",
+      "relation": "section"
+    },
+    {
+      "from": "md_README_h2_21",
+      "to": "md_README_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_21",
+      "to": "md_README_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_21",
+      "to": "md_README_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_21",
+      "to": "md_README_list_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_h2_26",
+      "relation": "section"
+    },
+    {
+      "from": "md_README_h2_26",
+      "to": "md_README_link_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_26",
+      "to": "md_README_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_26",
+      "to": "md_README_link_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_26",
+      "to": "md_README_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_26",
+      "to": "md_README_link_31",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_26",
+      "to": "md_README_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_26",
+      "to": "md_README_link_33",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_26",
+      "to": "md_README_list_34",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_h2_35",
+      "relation": "section"
+    },
+    {
+      "from": "md_README_h2_35",
+      "to": "md_README_link_36",
+      "relation": "contains"
+    }
+  ]
+}

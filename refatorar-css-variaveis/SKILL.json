@@ -1,0 +1,58 @@
+{
+  "source": "/root/.config/opencode/skills/refatorar-css-variaveis/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.844903",
+  "nodes": [
+    {
+      "id": "md_SKILL_h2_0",
+      "label": "What I do",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/refatorar-css-variaveis/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Usage",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/refatorar-css-variaveis/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_2",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/refatorar-css-variaveis/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_3",
+      "label": "Input",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/refatorar-css-variaveis/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_4",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/refatorar-css-variaveis/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_code_4",
+      "relation": "contains"
+    }
+  ]
+}

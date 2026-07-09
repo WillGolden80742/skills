@@ -115,12 +115,6 @@ Quando uma mensagem do usuário casa com algum `trigger`, o OpenCode carrega o c
 | `comunicados-internos-empresa` | Cria comunicações internas — relatórios, newsletters, FAQs e atualizações de projeto. |
 | `coautoria-documentacao-tecnica` | Conduz um workflow estruturado de co-autoria de documentação técnica com o usuário. |
 
-### 🧩 Skills de projeto específico
-| Skill | Descrição |
-|---|---|
-| `tema-app-relacionamento` | Conhecimento do tema WordPress SPA de um app de relacionamento, com MVC customizado em PHP e WebSocket Node.js externo. |
-| `tema-marketplace-trokapay` | Conhecimento do tema WordPress MoedaDeTroka/Trokapay — marketplace de permutas com WooCommerce, WhatsApp e comissões/indicações. |
-
 ## Criando uma nova skill
 
 ```bash

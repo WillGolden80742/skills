@@ -1,0 +1,127 @@
+{
+  "source": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/desert-rose.md",
+  "generated_at": "2026-07-08T21:11:12.812504",
+  "nodes": [
+    {
+      "id": "md_desert-rose_h1_0",
+      "label": "Desert Rose",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/desert-rose.md",
+      "community": 999
+    },
+    {
+      "id": "md_desert-rose_h2_1",
+      "label": "Color Palette",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/desert-rose.md",
+      "community": 999
+    },
+    {
+      "id": "md_desert-rose_list_2",
+      "label": "**Dusty Rose**: `#d4a5a5` - Soft primary color",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/desert-rose.md",
+      "community": 999
+    },
+    {
+      "id": "md_desert-rose_list_3",
+      "label": "**Clay**: `#b87d6d` - Earthy accent",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/desert-rose.md",
+      "community": 999
+    },
+    {
+      "id": "md_desert-rose_list_4",
+      "label": "**Sand**: `#e8d5c4` - Warm neutral backgrounds",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/desert-rose.md",
+      "community": 999
+    },
+    {
+      "id": "md_desert-rose_list_5",
+      "label": "**Deep Burgundy**: `#5d2e46` - Rich dark contrast",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/desert-rose.md",
+      "community": 999
+    },
+    {
+      "id": "md_desert-rose_h2_6",
+      "label": "Typography",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/desert-rose.md",
+      "community": 999
+    },
+    {
+      "id": "md_desert-rose_list_7",
+      "label": "**Headers**: FreeSans Bold",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/desert-rose.md",
+      "community": 999
+    },
+    {
+      "id": "md_desert-rose_list_8",
+      "label": "**Body Text**: FreeSans",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/desert-rose.md",
+      "community": 999
+    },
+    {
+      "id": "md_desert-rose_h2_9",
+      "label": "Best Used For",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/desert-rose.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_desert-rose_h1_0",
+      "to": "md_desert-rose_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_desert-rose_h2_1",
+      "to": "md_desert-rose_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_desert-rose_h2_1",
+      "to": "md_desert-rose_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_desert-rose_h2_1",
+      "to": "md_desert-rose_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_desert-rose_h2_1",
+      "to": "md_desert-rose_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_desert-rose_h1_0",
+      "to": "md_desert-rose_h2_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_desert-rose_h2_6",
+      "to": "md_desert-rose_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_desert-rose_h2_6",
+      "to": "md_desert-rose_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_desert-rose_h1_0",
+      "to": "md_desert-rose_h2_9",
+      "relation": "section"
+    }
+  ]
+}

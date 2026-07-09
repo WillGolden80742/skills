@@ -1,0 +1,80 @@
+{
+  "source": "/root/.config/opencode/skills/commits/2026/06/18/commit-f22566cada90-2026-06-18-22-26-41.md",
+  "generated_at": "2026-07-08T21:11:13.065146",
+  "nodes": [
+    {
+      "id": "md_commit-f22566cada90-2026-06-18-22-26-41_h1_0",
+      "label": "Commit f22566cada90 - 18/06/2026 22:26:41",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/commits/2026/06/18/commit-f22566cada90-2026-06-18-22-26-41.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f22566cada90-2026-06-18-22-26-41_h2_1",
+      "label": "Mensagem",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/06/18/commit-f22566cada90-2026-06-18-22-26-41.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f22566cada90-2026-06-18-22-26-41_h2_2",
+      "label": "Arquivos",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/06/18/commit-f22566cada90-2026-06-18-22-26-41.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f22566cada90-2026-06-18-22-26-41_list_3",
+      "label": "commits/commit-4e04532-18-06-2026-22-26-40.md",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/18/commit-f22566cada90-2026-06-18-22-26-41.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f22566cada90-2026-06-18-22-26-41_h2_4",
+      "label": "Hash",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/06/18/commit-f22566cada90-2026-06-18-22-26-41.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-f22566cada90-2026-06-18-22-26-41_h2_5",
+      "label": "Diff",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/06/18/commit-f22566cada90-2026-06-18-22-26-41.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_commit-f22566cada90-2026-06-18-22-26-41_h1_0",
+      "to": "md_commit-f22566cada90-2026-06-18-22-26-41_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-f22566cada90-2026-06-18-22-26-41_h1_0",
+      "to": "md_commit-f22566cada90-2026-06-18-22-26-41_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-f22566cada90-2026-06-18-22-26-41_h2_2",
+      "to": "md_commit-f22566cada90-2026-06-18-22-26-41_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-f22566cada90-2026-06-18-22-26-41_h1_0",
+      "to": "md_commit-f22566cada90-2026-06-18-22-26-41_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-f22566cada90-2026-06-18-22-26-41_h1_0",
+      "to": "md_commit-f22566cada90-2026-06-18-22-26-41_h2_5",
+      "relation": "section"
+    }
+  ]
+}

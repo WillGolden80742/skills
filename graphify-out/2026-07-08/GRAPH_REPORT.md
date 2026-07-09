@@ -1,16 +1,16 @@
 # Graph Report - skills  (2026-07-08)
 
 ## Corpus Check
-- 163 files · ~140,573 words
+- 317 files · ~1,071,409 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1609 nodes · 1920 edges · 168 communities (151 shown, 17 thin omitted)
-- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 47 edges (avg confidence: 0.67)
+- 1845 nodes · 2145 edges · 192 communities (175 shown, 17 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 48 edges (avg confidence: 0.67)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a6bde8c1`
+- Built from commit: `2c7a7fc4`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -156,29 +156,54 @@
 - check_bounding_boxes.py
 - Backup Strategy for Financial Data
 - Email Marketing Automation
-- Escrow System Design
-- Financial Reporting
-- SMS Notification Fallback
-- Search Optimization (Elasticsearch)
-- Transaction Reconciliation
+- Commit 4e045320b529 - 18/06/2026 22:26:40
+- Commit 5b4f870d5bc4 - 18/06/2026 22:18:39
+- Commit 66f3760aa78f - 18/06/2026 22:55:36
+- Commit 72196b9e360a - 18/06/2026 22:16:36
+- Commit 982f3f1c7f70 - 18/06/2026 23:32:37
 - bundle-artifact.sh
 - init-artifact.sh
+- skillFactory.py
 - dir.md
 - extraction-spec.md
 - dir.md
-- Monitoramento e Alertas
+- Commit ac4e1f682d99 - 18/06/2026 23:33:55
+- Commit c857027bebd2 - 18/06/2026 23:31:06
+- Commit ce527ce5c6be - 18/06/2026 22:16:35
+- Commit d18112a32806 - 18/06/2026 23:11:40
+- Commit d6e5c5b40965 - 18/06/2026 23:34:49
+- Commit e26280635cca - 18/06/2026 23:35:35
+- Commit f22566cada90 - 18/06/2026 22:26:41
+- Commit 0bd8346e875a - 19/06/2026 22:42:50
+- Commit d435d1f1508e - 20/06/2026 22:52:19
+- Commit 63bf3b5f8757 - 22/06/2026 19:31:57
+- Commit e070ea778a7e - 22/06/2026 19:21:21
+- Commit c368e710e400 - 23/06/2026 00:53:03
+- Commit eadadb7bfe2c - 23/06/2026 00:53:03
+- Commit eb6b5f096b3b - 23/06/2026 21:41:54
+- Commit f4fd71c91805 - 23/06/2026 21:41:54
+- Commit 1fbb116f36d6 - 02/07/2026 23:06:29
+- Commit f76e4ca51ff8 - 02/07/2026 22:58:56
+- Commit 2c7a7fc4aa1f - 08/07/2026 20:42:38
+- Commit ae7ec2ceff5e - 08/07/2026 20:42:37
+- Commit ae8d370f1e28 - 08/07/2026 12:39:46
+- Commit b423c66b5a34 - 08/07/2026 12:58:39
+- DOCXSchemaValidator
+- RedliningValidator
+- Skill: markdown-to-ast
+- md_to_ast.py
 
 ## God Nodes (most connected - your core abstractions)
-1. `BaseSchemaValidator` - 26 edges
+1. `Available Skills` - 39 edges
 2. `BaseSchemaValidator` - 26 edges
 3. `BaseSchemaValidator` - 26 edges
-4. `Node/TypeScript MCP Server Implementation Guide` - 21 edges
-5. `DOCXSchemaValidator` - 18 edges
+4. `BaseSchemaValidator` - 26 edges
+5. `Node/TypeScript MCP Server Implementation Guide` - 21 edges
 6. `DOCXSchemaValidator` - 18 edges
 7. `DOCXSchemaValidator` - 18 edges
-8. `Python MCP Server Implementation Guide` - 18 edges
-9. `PptxGenJS Tutorial` - 14 edges
-10. `MCPConnection` - 13 edges
+8. `DOCXSchemaValidator` - 18 edges
+9. `Python MCP Server Implementation Guide` - 18 edges
+10. `PptxGenJS Tutorial` - 14 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `_run_validation()` --calls--> `DOCXSchemaValidator`  [INFERRED]
@@ -195,7 +220,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (168 total, 17 thin omitted)
+## Communities (192 total, 17 thin omitted)
 
 ### Community 0 - "BaseSchemaValidator"
 Cohesion: 0.05
@@ -250,8 +275,8 @@ Cohesion: 0.13
 Nodes (12): GIFBuilder, Image, Path, Remove duplicate or near-duplicate consecutive frames.          Args:, Save frames as optimized GIF for Slack.          Args:             output_path:, Builder for creating optimized GIFs from frames., Initialize GIF builder.          Args:             width: Frame width in pixels, Clear all frames (useful for creating multiple GIFs). (+4 more)
 
 ### Community 15 - "SKILL.md"
-Cohesion: 0.10
-Nodes (19): AJAX Actions, Ambiente Local, Arquitetura, Controllers, Convenções, Custom Post Types, Estrutura de Arquivos, Fluxo de Inicialização (+11 more)
+Cohesion: 0.04
+Nodes (44): 10. graphify, 11. graphify-skill-router, 12. mesclar-arquivos-diretorio, 13. gerar-arvore-diretorios, 14. comitar-alteracoes, 15. gerar-historico-commits, 16. recuperar-commits-salvos, 17. renomear-arquivos-referencias (+36 more)
 
 ### Community 16 - "comit.py"
 Cohesion: 0.18
@@ -282,8 +307,8 @@ Cohesion: 0.25
 Nodes (16): _can_merge(), _consolidate_text(), _find_elements(), _first_child_run(), _get_child(), _get_children(), _is_adjacent(), _is_run() (+8 more)
 
 ### Community 23 - "SKILL.md"
-Cohesion: 0.12
-Nodes (15): 1. Instalação, 2. Configuração no wp-admin, 3. Webhook Uazapi, 4. Grupo WhatsApp, Aba IA, Aba Uazapi, Como Usar, Config via wp-config.php (opcional) (+7 more)
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit 029721d8871b - 11/06/2026 23:38:42, Diff, Hash, Mensagem
 
 ### Community 24 - "Skill Frontend Design"
 Cohesion: 0.13
@@ -291,11 +316,11 @@ Nodes (14): Abordagem, Assinatura, Cores, Escrita em Design, Estrutura é Inform
 
 ### Community 25 - "Skills disponíveis"
 Cohesion: 0.13
-Nodes (14): Como funciona uma skill, 📝 Comunicação & Documentação, Criando uma nova skill, 💻 Desenvolvimento & Frontend, 🎨 Design & Visual, 📄 Documentos Office & PDF, 🗂️ Git, Arquivos & Projetos, Instalação (+6 more)
+Nodes (14): Como funciona uma skill, 📝 Comunicação & Documentação, Criando uma nova skill, 💻 Desenvolvimento & Frontend, 🎨 Design & Visual, 🔄 DevOps & Servidores, 📄 Documentos Office & PDF, 🗂️ Git, Arquivos & Projetos (+6 more)
 
 ### Community 26 - "SKILL.md"
-Cohesion: 0.13
-Nodes (14): Ambiente Local, Antipadrões a Evitar, Arquitetura, Base Directory (Skill), Comparação: Formas de Pagamento, Decision Tree, Dispute Resolution Workflow, Estrutura de Arquivos (+6 more)
+Cohesion: 0.07
+Nodes (26): Comandos de Router, 📝 Comunicação & Documentação, 💻 Desenvolvimento & Frontend, 🎨 Design & Visual, 📄 Documentos Office & PDF, Exemplo de Routing, Fluxo de Routing, 🗂️ Git, Arquivos & Projetos (+18 more)
 
 ### Community 27 - "Fase 1: Pesquisa Profunda e Planejamento"
 Cohesion: 0.14
@@ -373,10 +398,6 @@ Nodes (11): dependencies, jsdom, @mozilla/readability, node-fetch, description, 
 Cohesion: 0.17
 Nodes (11): Bibliotecas Python, Dividir PDF, Extrair Texto de PDFs Escaneados, Ferramentas de Linha de Comando, Mesclar PDFs, pdfplumber - Extrair Texto e Tabelas, pypdf - Operações Básicas, Referência Rápida (+3 more)
 
-### Community 48 - "RedliningValidator"
-Cohesion: 0.25
-Nodes (3): main(), Command line tool to validate Office document XML files against XSD schemas and, RedliningValidator
-
 ### Community 49 - "Skill PPTX - Apresentações PowerPoint"
 Cohesion: 0.18
 Nodes (10): Converter para Imagens, Dependências, Design de Slides, Dicas de Design, Ler Conteúdo, Paletas de Cores, QA (Verificação Obrigatória), Referência Rápida (+2 more)
@@ -398,12 +419,16 @@ Cohesion: 0.49
 Nodes (8): _add_to_content_types(), _add_to_presentation_rels(), create_slide_from_layout(), duplicate_slide(), _get_next_slide_id(), get_next_slide_number(), Path, Add a new slide to an unpacked PPTX directory.  Usage: python add_slide.py <unpa
 
 ### Community 54 - "__init__.py"
-Cohesion: 0.24
-Nodes (5): Base validator with common validation logic for document files., Validator for Word document XML files against XSD schemas., Validation modules for Word document processing., Validator for PowerPoint presentation XML files against XSD schemas., Validator for tracked changes in Word documents.
+Cohesion: 0.32
+Nodes (4): Base validator with common validation logic for document files., Validator for Word document XML files against XSD schemas., Validation modules for Word document processing., Validator for PowerPoint presentation XML files against XSD schemas.
 
 ### Community 55 - "Skill DOCX - Documentos Word"
 Cohesion: 0.20
 Nodes (9): Abordagens, Converter .doc para .docx, Criação de Documentos, Edição de Documentos Existentes, Extração de Texto, Regras Importantes, Skill DOCX - Documentos Word, Validação (+1 more)
+
+### Community 56 - "RedliningValidator"
+Cohesion: 0.25
+Nodes (3): main(), Command line tool to validate Office document XML files against XSD schemas and, RedliningValidator
 
 ### Community 57 - "Skill Algorithmic Art"
 Cohesion: 0.22
@@ -430,8 +455,8 @@ Cohesion: 0.25
 Nodes (7): Dicas, Estágio 1: Coleta de Contexto, Estágio 2: Refinamento e Estrutura, Estágio 3: Teste com Leitor, Quando Oferecer, Skill Doc Co-Authoring, Workflow em 3 Estágios
 
 ### Community 64 - "__init__.py"
-Cohesion: 0.32
-Nodes (4): Base validator with common validation logic for document files., Validator for Word document XML files against XSD schemas., Validation modules for Word document processing., Validator for PowerPoint presentation XML files against XSD schemas.
+Cohesion: 0.24
+Nodes (5): Base validator with common validation logic for document files., Validator for Word document XML files against XSD schemas., Validation modules for Word document processing., Validator for PowerPoint presentation XML files against XSD schemas., Validator for tracked changes in Word documents.
 
 ### Community 66 - "Skill XLSX - Manipulação de Planilhas"
 Cohesion: 0.25
@@ -479,7 +504,7 @@ Nodes (6): Notes, Output, Parameters, Skill: recuperar-commits-salvos, Usage, Wh
 
 ### Community 77 - "Commit f4fd71c - 23/06/2026 21:41:54"
 Cohesion: 0.33
-Nodes (5): Arquivos, Commit f4fd71c - 23/06/2026 21:41:54, Diff, Hash, Mensagem
+Nodes (5): Arquivos, Commit 3c247271a7cd - 11/06/2026 19:41:33, Diff, Hash, Mensagem
 
 ### Community 78 - "company-newsletter.md"
 Cohesion: 0.33
@@ -582,28 +607,28 @@ Cohesion: 0.40
 Nodes (4): Best Used For, Color Palette, Tech Innovation, Typography
 
 ### Community 104 - "Commit c368e71 - 23/06/2026 00:53:03"
-Cohesion: 0.40
-Nodes (4): Arquivos, Commit c368e71 - 23/06/2026 00:53:03, Hash, Mensagem
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit 4140690bc87f - 11/06/2026 19:41:29, Diff, Hash, Mensagem
 
 ### Community 105 - "Commit 4e04532 - 18/06/2026 22:26:40"
-Cohesion: 0.40
-Nodes (4): Arquivos, Commit 4e04532 - 18/06/2026 22:26:40, Hash, Mensagem
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit 9b373ac20f0c - 11/06/2026 23:39:42, Diff, Hash, Mensagem
 
 ### Community 106 - "Commit 5b4f870 - 18/06/2026 22:18:40"
-Cohesion: 0.40
-Nodes (4): Arquivos, Commit 5b4f870 - 18/06/2026 22:18:40, Hash, Mensagem
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit ae52af39c9aa - 11/06/2026 20:55:53, Diff, Hash, Mensagem
 
 ### Community 107 - "Commit ac4e1f6 - 18/06/2026 23:34:35"
-Cohesion: 0.40
-Nodes (4): Arquivos, Commit ac4e1f6 - 18/06/2026 23:34:35, Hash, Mensagem
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit b4eda5ffc166 - 11/06/2026 19:58:47, Diff, Hash, Mensagem
 
 ### Community 108 - "Commit c857027 - 18/06/2026 23:31:20"
-Cohesion: 0.40
-Nodes (4): Arquivos, Commit c857027 - 18/06/2026 23:31:20, Hash, Mensagem
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit f235cdf67c9d - 11/06/2026 23:22:41, Diff, Hash, Mensagem
 
 ### Community 109 - "Commit ce527ce - 18/06/2026 22:16:36"
-Cohesion: 0.40
-Nodes (4): Arquivos, Commit ce527ce - 18/06/2026 22:16:36, Hash, Mensagem
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit e3b8ac8f2122 - 12/06/2026 00:18:44, Diff, Hash, Mensagem
 
 ### Community 110 - "3p-updates.md"
 Cohesion: 0.40
@@ -682,80 +707,180 @@ Cohesion: 0.50
 Nodes (3): Input, Usage, What I do
 
 ### Community 129 - "Anti-Fraud System"
-Cohesion: 0.50
-Nodes (4): Anti-Fraud System, Blacklist Compartilhada, Regras de Fraude, Score de Risco
+Cohesion: 0.19
+Nodes (14): download_all(), download_worker(), _ensure_remote_dir(), is_excluded(), main(), poll_remote(), remote_list_all(), safe_remove_local() (+6 more)
 
 ### Community 130 - "Payment Gateway Integration Patterns"
-Cohesion: 0.50
-Nodes (4): Arquitetura de Pagamentos, Gateway Adapter Pattern, Gateways Suportados, Payment Gateway Integration Patterns
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit 172f025f9ea0 - 13/06/2026 02:26:15, Diff, Hash, Mensagem
 
 ### Community 131 - "Audit Trail"
-Cohesion: 0.50
-Nodes (4): Audit Trail, Implementação, O que é auditado, Tabela Audit Log
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit bcb83e30eef7 - 14/06/2026 00:07:59, Diff, Hash, Mensagem
 
 ### Community 132 - "REST API — Rate Limiting & Cache"
-Cohesion: 0.50
-Nodes (4): Cache Strategy for Product Listings, Implementação, Rate Limiting, REST API — Rate Limiting & Cache
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit 2f2c5af0c7a0 - 18/06/2026 23:31:20, Diff, Hash, Mensagem
 
 ### Community 133 - "Tax Compliance (NF-e / DAS)"
-Cohesion: 0.50
-Nodes (4): Compliance Config, Cálculo de Impostos, NF-e Integration Flow, Tax Compliance (NF-e / DAS)
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit 35a0fd7ff866 - 18/06/2026 21:50:13, Diff, Hash, Mensagem
 
 ### Community 134 - "GDPR / LGPD Compliance"
-Cohesion: 0.50
-Nodes (4): Consentimento Explícito, Direitos do Titular (Art. 18 LGPD), GDPR / LGPD Compliance, LGPD Data Mapping
+Cohesion: 0.29
+Nodes (6): Como usar, Como usar apos configurar, O que faz, O que será gerado na pasta local, Seguranca, Skill: configurar-espelhamento-server
 
 ### Community 135 - "is_server_ready"
 Cohesion: 0.67
 Nodes (3): is_server_ready(), main(), Wait for server to be ready by polling the port.
 
 ### Community 139 - "Backup Strategy for Financial Data"
-Cohesion: 0.67
-Nodes (3): Backup Strategy for Financial Data, Comando de Backup, Estratégia
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit 4dc78735b7db - 18/06/2026 22:18:40, Diff, Hash, Mensagem
 
 ### Community 140 - "Email Marketing Automation"
-Cohesion: 0.67
-Nodes (3): Email Marketing Automation, Email Service Implementation, Triggered Emails
+Cohesion: 0.83
+Nodes (3): ask(), banner(), main()
 
-### Community 141 - "Escrow System Design"
-Cohesion: 0.67
-Nodes (3): Escrow System Design, Fluxo Escrow, Status Escrow
+### Community 141 - "Commit 4e045320b529 - 18/06/2026 22:26:40"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit 4e045320b529 - 18/06/2026 22:26:40, Diff, Hash, Mensagem
 
-### Community 142 - "Financial Reporting"
-Cohesion: 0.67
-Nodes (3): Financial Reporting, Implementação, Relatórios Disponíveis
+### Community 142 - "Commit 5b4f870d5bc4 - 18/06/2026 22:18:39"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit 5b4f870d5bc4 - 18/06/2026 22:18:39, Diff, Hash, Mensagem
 
-### Community 143 - "SMS Notification Fallback"
-Cohesion: 0.67
-Nodes (3): Implementação, Quando Usar SMS, SMS Notification Fallback
+### Community 143 - "Commit 66f3760aa78f - 18/06/2026 22:55:36"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit 66f3760aa78f - 18/06/2026 22:55:36, Diff, Hash, Mensagem
 
-### Community 144 - "Search Optimization (Elasticsearch)"
-Cohesion: 0.67
-Nodes (3): Integração, Quando Usar Elasticsearch, Search Optimization (Elasticsearch)
+### Community 144 - "Commit 72196b9e360a - 18/06/2026 22:16:36"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit 72196b9e360a - 18/06/2026 22:16:36, Diff, Hash, Mensagem
 
-### Community 145 - "Transaction Reconciliation"
-Cohesion: 0.67
-Nodes (3): Processo Diário de Reconciliação, Tabela de Conciliação, Transaction Reconciliation
+### Community 145 - "Commit 982f3f1c7f70 - 18/06/2026 23:32:37"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit 982f3f1c7f70 - 18/06/2026 23:32:37, Diff, Hash, Mensagem
+
+### Community 157 - "Commit ac4e1f682d99 - 18/06/2026 23:33:55"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit ac4e1f682d99 - 18/06/2026 23:33:55, Diff, Hash, Mensagem
+
+### Community 168 - "Commit c857027bebd2 - 18/06/2026 23:31:06"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit c857027bebd2 - 18/06/2026 23:31:06, Diff, Hash, Mensagem
+
+### Community 169 - "Commit ce527ce5c6be - 18/06/2026 22:16:35"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit ce527ce5c6be - 18/06/2026 22:16:35, Diff, Hash, Mensagem
+
+### Community 170 - "Commit d18112a32806 - 18/06/2026 23:11:40"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit d18112a32806 - 18/06/2026 23:11:40, Diff, Hash, Mensagem
+
+### Community 171 - "Commit d6e5c5b40965 - 18/06/2026 23:34:49"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit d6e5c5b40965 - 18/06/2026 23:34:49, Diff, Hash, Mensagem
+
+### Community 172 - "Commit e26280635cca - 18/06/2026 23:35:35"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit e26280635cca - 18/06/2026 23:35:35, Diff, Hash, Mensagem
+
+### Community 173 - "Commit f22566cada90 - 18/06/2026 22:26:41"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit f22566cada90 - 18/06/2026 22:26:41, Diff, Hash, Mensagem
+
+### Community 174 - "Commit 0bd8346e875a - 19/06/2026 22:42:50"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit 0bd8346e875a - 19/06/2026 22:42:50, Diff, Hash, Mensagem
+
+### Community 175 - "Commit d435d1f1508e - 20/06/2026 22:52:19"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit d435d1f1508e - 20/06/2026 22:52:19, Diff, Hash, Mensagem
+
+### Community 176 - "Commit 63bf3b5f8757 - 22/06/2026 19:31:57"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit 63bf3b5f8757 - 22/06/2026 19:31:57, Diff, Hash, Mensagem
+
+### Community 177 - "Commit e070ea778a7e - 22/06/2026 19:21:21"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit e070ea778a7e - 22/06/2026 19:21:21, Diff, Hash, Mensagem
+
+### Community 178 - "Commit c368e710e400 - 23/06/2026 00:53:03"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit c368e710e400 - 23/06/2026 00:53:03, Diff, Hash, Mensagem
+
+### Community 179 - "Commit eadadb7bfe2c - 23/06/2026 00:53:03"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit eadadb7bfe2c - 23/06/2026 00:53:03, Diff, Hash, Mensagem
+
+### Community 180 - "Commit eb6b5f096b3b - 23/06/2026 21:41:54"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit eb6b5f096b3b - 23/06/2026 21:41:54, Diff, Hash, Mensagem
+
+### Community 181 - "Commit f4fd71c91805 - 23/06/2026 21:41:54"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit f4fd71c91805 - 23/06/2026 21:41:54, Diff, Hash, Mensagem
+
+### Community 182 - "Commit 1fbb116f36d6 - 02/07/2026 23:06:29"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit 1fbb116f36d6 - 02/07/2026 23:06:29, Diff, Hash, Mensagem
+
+### Community 183 - "Commit f76e4ca51ff8 - 02/07/2026 22:58:56"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit f76e4ca51ff8 - 02/07/2026 22:58:56, Diff, Hash, Mensagem
+
+### Community 184 - "Commit 2c7a7fc4aa1f - 08/07/2026 20:42:38"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit 2c7a7fc4aa1f - 08/07/2026 20:42:38, Diff, Hash, Mensagem
+
+### Community 185 - "Commit ae7ec2ceff5e - 08/07/2026 20:42:37"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit ae7ec2ceff5e - 08/07/2026 20:42:37, Diff, Hash, Mensagem
+
+### Community 186 - "Commit ae8d370f1e28 - 08/07/2026 12:39:46"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit ae8d370f1e28 - 08/07/2026 12:39:46, Diff, Hash, Mensagem
+
+### Community 187 - "Commit b423c66b5a34 - 08/07/2026 12:58:39"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit b423c66b5a34 - 08/07/2026 12:58:39, Diff, Hash, Mensagem
+
+### Community 188 - "DOCXSchemaValidator"
+Cohesion: 0.29
+Nodes (9): list_skills(), main(), Lista todas as skills existentes., Le o conteudo de uma skill. Retorna (frontmatter_dict, body_content)., Escreve o conteudo da skill com frontmatter., Roda o script md_to_ast.py para um arquivo., read_skill_content(), run_md_to_ast() (+1 more)
+
+### Community 189 - "RedliningValidator"
+Cohesion: 0.40
+Nodes (4): Comando, Estrutura de um Skill, Usage, What I do
+
+### Community 190 - "Skill: markdown-to-ast"
+Cohesion: 0.33
+Nodes (5): Exemplo de output, Integracao, Output, Uso, What I do
+
+### Community 193 - "md_to_ast.py"
+Cohesion: 0.29
+Nodes (9): extract_markdown_structure(), find_markdown_files(), main(), md_to_json_path(), Encontra todos os arquivos .md em um diretório ou arquivo único., Converte caminho .md para .json (mesmo diretório, mesmo nome)., Salva AST de um único arquivo .md como .json no mesmo diretório., Extrai estrutura AST de um arquivo markdown. (+1 more)
 
 ## Knowledge Gaps
-- **686 isolated node(s):** `params`, `bundle-artifact.sh script`, `init-artifact.sh script`, `name`, `version` (+681 more)
+- **822 isolated node(s):** `params`, `bundle-artifact.sh script`, `init-artifact.sh script`, `name`, `version` (+817 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **17 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `DOCXSchemaValidator` connect `DOCXSchemaValidator` to `RedliningValidator`, `BaseSchemaValidator`, `_run_validation`, `__init__.py`?**
-  _High betweenness centrality (0.008) - this node is a cross-community bridge._
-- **Why does `BaseSchemaValidator` connect `BaseSchemaValidator` to `__init__.py`, `PPTXSchemaValidator`, `DOCXSchemaValidator`?**
-  _High betweenness centrality (0.008) - this node is a cross-community bridge._
-- **Why does `DOCXSchemaValidator` connect `DOCXSchemaValidator` to `__init__.py`, `validators.py`, `BaseSchemaValidator`, `_run_validation`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
+- **Why does `Node/TypeScript MCP Server Implementation Guide` connect `Node/TypeScript MCP Server Implementation Guide` to `SKILL.md`?**
+  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+- **Why does `DOCXSchemaValidator` connect `DOCXSchemaValidator` to `BaseSchemaValidator`, `_run_validation`, `validators.py`, `__init__.py`?**
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+- **Why does `Python MCP Server Implementation Guide` connect `Python MCP Server Implementation Guide` to `SKILL.md`?**
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `BaseSchemaValidator` (e.g. with `DOCXSchemaValidator` and `PPTXSchemaValidator`) actually correct?**
   _`BaseSchemaValidator` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 2 inferred relationships involving `BaseSchemaValidator` (e.g. with `DOCXSchemaValidator` and `PPTXSchemaValidator`) actually correct?**
   _`BaseSchemaValidator` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 2 inferred relationships involving `BaseSchemaValidator` (e.g. with `DOCXSchemaValidator` and `PPTXSchemaValidator`) actually correct?**
   _`BaseSchemaValidator` has 2 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 3 inferred relationships involving `DOCXSchemaValidator` (e.g. with `_run_validation()` and `main()`) actually correct?**
-  _`DOCXSchemaValidator` has 3 INFERRED edges - model-reasoned connections that need verification._
+- **What connects `params`, `Gera a árvore de diretórios em formato ASCII`, `Gera a árvore de diretórios do projeto a partir de app/` to the rest of the system?**
+  _936 weakly-connected nodes found - possible documentation gaps or missing edges._

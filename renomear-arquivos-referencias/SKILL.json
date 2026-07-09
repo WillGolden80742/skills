@@ -1,0 +1,101 @@
+{
+  "source": "/root/.config/opencode/skills/renomear-arquivos-referencias/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.831736",
+  "nodes": [
+    {
+      "id": "md_SKILL_h2_0",
+      "label": "What I do",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/renomear-arquivos-referencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Parameters",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/renomear-arquivos-referencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "`original_name`: Nome original do arquivo (ex: PointsController.php)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/renomear-arquivos-referencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "`new_name`: Novo nome para o arquivo (ex: EventsController.php)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/renomear-arquivos-referencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "`project_path`: Caminho base do projeto",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/renomear-arquivos-referencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "`update_all`: \"true\" para todos os tipos de arquivo, \"false\" para apenas .php",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/renomear-arquivos-referencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_6",
+      "label": "Usage",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/renomear-arquivos-referencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_7",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/renomear-arquivos-referencias/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_8",
+      "label": "Notes",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/renomear-arquivos-referencias/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_code_7",
+      "relation": "contains"
+    }
+  ]
+}

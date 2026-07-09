@@ -1,0 +1,104 @@
+{
+  "source": "/root/.config/opencode/skills/commits/2026/06/18/commit-982f3f1c7f70-2026-06-18-23-32-37.md",
+  "generated_at": "2026-07-08T21:11:13.062689",
+  "nodes": [
+    {
+      "id": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_h1_0",
+      "label": "Commit 982f3f1c7f70 - 18/06/2026 23:32:37",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/commits/2026/06/18/commit-982f3f1c7f70-2026-06-18-23-32-37.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_h2_1",
+      "label": "Mensagem",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/06/18/commit-982f3f1c7f70-2026-06-18-23-32-37.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_h2_2",
+      "label": "Arquivos",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/06/18/commit-982f3f1c7f70-2026-06-18-23-32-37.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_list_3",
+      "label": "mesclar-arquivos-diretorio/SKILL.md",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/18/commit-982f3f1c7f70-2026-06-18-23-32-37.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_h2_4",
+      "label": "Hash",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/06/18/commit-982f3f1c7f70-2026-06-18-23-32-37.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_h2_5",
+      "label": "Diff",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/06/18/commit-982f3f1c7f70-2026-06-18-23-32-37.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_list_6",
+      "label": "- Mantém os padrões base do script (genéricos como `node_modules/`, `*.log`, etc",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/18/commit-982f3f1c7f70-2026-06-18-23-32-37.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_list_7",
+      "label": "- Adiciona automaticamente como exclusão todo arquivo/diretório que **não** está",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/18/commit-982f3f1c7f70-2026-06-18-23-32-37.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_h1_0",
+      "to": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_h1_0",
+      "to": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_h2_2",
+      "to": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_h1_0",
+      "to": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_h1_0",
+      "to": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_h2_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_h2_5",
+      "to": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_h2_5",
+      "to": "md_commit-982f3f1c7f70-2026-06-18-23-32-37_list_7",
+      "relation": "contains"
+    }
+  ]
+}

@@ -1,0 +1,1216 @@
+{
+  "source": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.845779",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Skill: Boas Práticas — Object Calisthenics, MVC e Filosofia Rails",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Abordagem",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_2",
+      "label": "1. Filosofia Ruby on Rails (O Rails Way)",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_3",
+      "label": "Convenção sobre Configuração (CoC)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "O framework já sabe o que você quer na maioria das vezes. Siga as convenções de ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "**Como pensar:** \"Qual é o caminho óbvio? O nome da tabela é o plural do modelo.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "**Resultado:** Menos arquivos de configuração, menos decisões triviais, mais foc",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_7",
+      "label": "DRY — Don't Repeat Yourself",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "Todo conhecimento deve ter uma representação única, não ambígua e autoritária de",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_9",
+      "label": "**Como pensar:** \"Se eu precisar mudar isso, quantos lugares vou ter que tocar? ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "**Aplicação:** Extraia lógica duplicada para métodos, partials, helpers, concern",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_11",
+      "label": "Fat Model, Skinny Controller",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "**Controller:** Só orquestra: recebe a requisição, chama o model, renderiza a vi",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "**Model:** É a **camada de dados** (shameless copy do ActiveRecord do Rails). Co",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "**A regra de ouro:** Controller não sabe SQL. Controller não sabe onde os dados ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "**Como pensar:** \"Se uma action do controller tem mais de 4-5 linhas, a lógica p",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "**Estrutura no Rails:**",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "**Não existe camada Service em Rails clássico.** O Model é o dono dos dados. Se ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_18",
+      "label": "**Cópia descarada do Rails:** No Rails, você nunca cria um `UserService` para bu",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_19",
+      "label": "**Como pensar:** \"O Controller conversa com o Model. O Model conversa com o banc",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_20",
+      "label": "**Exemplo concreto (PHP seguindo Rails):**",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_21",
+      "label": "Aplicativo Ruby, não Aplicativo Rails",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_22",
+      "label": "Rails é um framework, mas você escreve Ruby. Não force tudo a ser uma concern do",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_23",
+      "label": "**Como pensar:** \"Isso é uma regra de negócio pura? Então é uma classe Ruby comu",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_24",
+      "label": "**PORO (Plain Old Ruby Object):** Use classes Ruby simples sempre que possível. ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_25",
+      "label": "Testes São Cidadãos de Primeira Classe",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_26",
+      "label": "Rails nasceu com testing em mente. Escreva testes primeiro (TDD) ou pelo menos j",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_27",
+      "label": "**Como pensar:** \"Se eu não sei testar, não sei o que o código deveria fazer. Te",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_28",
+      "label": "Minúsculo (Tiny) é Lindo",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_29",
+      "label": "Métodos pequenos, classes pequenas, arquivos pequenos.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_30",
+      "label": "**Como pensar:** \"Se um método não cabe na tela sem scroll, ele faz mais de uma ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_31",
+      "label": "2. Object Calisthenics (9 Regras)",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_32",
+      "label": "Regra 1 — Apenas Um Nível de Indentação por Método",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_33",
+      "label": "**O que:** Todo método deve ter no máximo um nível de indentação. Sem `if` dentr",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_34",
+      "label": "**Como pensar:** \"Se eu preciso de indentação aninhada, esse método deveria dele",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_35",
+      "label": "**Por quê:** Força a extrair lógica, revela a verdadeira estrutura do problema.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_36",
+      "label": "Regra 2 — Não Use `else`",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_37",
+      "label": "**O que:** Elimine `else`. Use early returns, polimorfismo, guard clauses ou Has",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_38",
+      "label": "**Como pensar:** \"Cada `else` é um caminho condicional escondido. Extraia para u",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_39",
+      "label": "**Exemplo:**",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_40",
+      "label": "Regra 3 — Wrappe Todos os Primitivos e Strings",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_41",
+      "label": "**O que:** Não use `int`, `string`, `boolean` soltos como parâmetros ou atributo",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_42",
+      "label": "**Como pensar:** \"CPF não é string. Money não é float. Email não é string. O val",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_43",
+      "label": "**Por quê:** Primitivos são anêmicos. Um objeto `CPF` pode validar, formatar, ex",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_44",
+      "label": "Regra 4 — Objetos com Primeira Classe / Coleções",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_45",
+      "label": "**O que:** Toda coleção deve ser a única propriedade de sua própria classe.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_46",
+      "label": "**Como pensar:** \"Uma lista de itens não é só array — é um `Carrinho`, `Fila`, `",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_47",
+      "label": "**Por quê:** Coleções soltas espalham lógica de filtragem/busca pelo sistema.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_48",
+      "label": "Regra 5 — Apenas Um Ponto por Linha",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_49",
+      "label": "**O que:** Nunca encadeie mais de um `.` por linha (uma exceção: DSLs).",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_50",
+      "label": "**Como pensar:** \"Cada ponto é um acoplamento. `cliente.ultimoPedido.total` queb",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_51",
+      "label": "**Lei de Demeter:** Fale apenas com seus amigos imediatos. Não atravesse a hiera",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_52",
+      "label": "**Como pensar:** \"Não pergunte ao cliente qual o último pedido para somar o tota",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_53",
+      "label": "Regra 6 — Não Abrevie Nomes",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_54",
+      "label": "**O que:** Nomes devem ser completos, expressivos e revelar intenção.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_55",
+      "label": "**Como pensar:** \"`calc_val_tot` não diz nada. `calcular_valor_total_pedido` diz",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_56",
+      "label": "**Tamanho ideal:** Quanto maior o escopo, maior o nome. `i` para índice de loop ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_57",
+      "label": "Regra 7 — Mantenha Todas as Entidades Pequenas",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_58",
+      "label": "**O que:** Nenhuma classe > 50 linhas. Nenhum pacote > 10 arquivos. Nenhum arqui",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_59",
+      "label": "**Como pensar:** \"Se passou de 50 linhas, tem responsabilidade demais. Extraia.\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_60",
+      "label": "**Efeito colateral:** Força composição, coesão, e previne God Classes.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_61",
+      "label": "Regra 8 — Nenhuma Classe com Mais de 2 Atributos de Instância",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_62",
+      "label": "**O que:** Cada classe pode ter no máximo 2 variáveis de instância. Se precisar ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_63",
+      "label": "**Como pensar:** \"Endereço com rua, numero, bairro, cidade, cep não são 5 atribu",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_64",
+      "label": "**Efeito:** Força composição profundamente. Uma `Pessoa` não tem `nome, idade, r",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_65",
+      "label": "Regra 9 — Não Use Getters/Setters (Tell, Don't Ask)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_66",
+      "label": "**O que:** Não exponha estado interno. Não pergunte ao objeto seu estado para de",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_67",
+      "label": "**Princípio Tell, Don't Ask:** Diga ao objeto *o que fazer*, não pergunte seus d",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_68",
+      "label": "**Como pensar:**",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_69",
+      "label": "Ruim: `if carro.gasolina > 0 then carro.acelerar`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_70",
+      "label": "Bom: `carro.acelerar` (ele mesmo decide se tem gasolina)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_71",
+      "label": "Ruim: `if usuario.idade >= 18 then ...`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_72",
+      "label": "Bom: `usuario.pode_votar?`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_73",
+      "label": "3. MVC — Model-View-Controller (Além do Rails)",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_74",
+      "label": "A Essência",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_75",
+      "label": "A Regra Mais Importante do MVC no Rails",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_76",
+      "label": "Code: ruby",
+      "type": "code_block",
+      "language": "ruby",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_77",
+      "label": "Como Pensar MVC",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_78",
+      "label": "**O Controller é um recepcionista:** Ele recebe o pedido, CHAMA O MODEL, entrega",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_79",
+      "label": "**O Model é o especialista + despensa:** Ele sabe as regras, validações, E també",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_80",
+      "label": "**A View é o cardápio/apresentação:** Ela só exibe. Se tem `if` na view, provave",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_81",
+      "label": "Model é a Camada de Dados (Cópia Descarada do Rails)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_82",
+      "label": "Code: ruby",
+      "type": "code_block",
+      "language": "ruby",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_83",
+      "label": "Onde Colocar Lógica no Rails",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_84",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_85",
+      "label": "Princípios Relacionados",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_86",
+      "label": "4. Modelos Mentais para o Dia a Dia",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_87",
+      "label": "\"Programação Orientada a Objetos é sobre Mensagens\"",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_88",
+      "label": "\"Duplicação é Melhor que Abstração Prematura\"",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_89",
+      "label": "\"Testar é Projetar\"",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_90",
+      "label": "\"Código é Escrito uma Vez, Lido Muitas\"",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_91",
+      "label": "\"Ser Expressivo > Ser Curto\"",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_92",
+      "label": "Como Usar Este Skill no Contexto do Projeto",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_93",
+      "label": "Leituras Recomendadas",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_94",
+      "label": "*Practical Object-Oriented Design in Ruby* — Sandi Metz (POODR)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_95",
+      "label": "*99 Bottles of OOP* — Sandi Metz & Katrina Owen",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_96",
+      "label": "*The Rails Doctrine* — rubyonrails.org/doctrine (em português: doutrina Rails)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_97",
+      "label": "*Object Calisthenics* — Jeff Bay (PDF original, parte do livro *ThoughtWorks Ant",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/boas-praticas-de-codigo/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_3",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_3",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_3",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_7",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_7",
+      "to": "md_SKILL_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_7",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_11",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_21",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_21",
+      "to": "md_SKILL_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_21",
+      "to": "md_SKILL_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_21",
+      "to": "md_SKILL_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_25",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_25",
+      "to": "md_SKILL_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_25",
+      "to": "md_SKILL_list_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_28",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_28",
+      "to": "md_SKILL_list_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_28",
+      "to": "md_SKILL_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_31",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_31",
+      "to": "md_SKILL_h3_32",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_32",
+      "to": "md_SKILL_list_33",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_32",
+      "to": "md_SKILL_list_34",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_32",
+      "to": "md_SKILL_list_35",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_31",
+      "to": "md_SKILL_h3_36",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_36",
+      "to": "md_SKILL_list_37",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_36",
+      "to": "md_SKILL_list_38",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_36",
+      "to": "md_SKILL_list_39",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_31",
+      "to": "md_SKILL_h3_40",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_40",
+      "to": "md_SKILL_list_41",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_40",
+      "to": "md_SKILL_list_42",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_40",
+      "to": "md_SKILL_list_43",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_31",
+      "to": "md_SKILL_h3_44",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_44",
+      "to": "md_SKILL_list_45",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_44",
+      "to": "md_SKILL_list_46",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_44",
+      "to": "md_SKILL_list_47",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_31",
+      "to": "md_SKILL_h3_48",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_48",
+      "to": "md_SKILL_list_49",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_48",
+      "to": "md_SKILL_list_50",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_48",
+      "to": "md_SKILL_list_51",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_48",
+      "to": "md_SKILL_list_52",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_31",
+      "to": "md_SKILL_h3_53",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_53",
+      "to": "md_SKILL_list_54",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_53",
+      "to": "md_SKILL_list_55",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_53",
+      "to": "md_SKILL_list_56",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_31",
+      "to": "md_SKILL_h3_57",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_57",
+      "to": "md_SKILL_list_58",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_57",
+      "to": "md_SKILL_list_59",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_57",
+      "to": "md_SKILL_list_60",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_31",
+      "to": "md_SKILL_h3_61",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_61",
+      "to": "md_SKILL_list_62",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_61",
+      "to": "md_SKILL_list_63",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_61",
+      "to": "md_SKILL_list_64",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_31",
+      "to": "md_SKILL_h3_65",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_65",
+      "to": "md_SKILL_list_66",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_65",
+      "to": "md_SKILL_list_67",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_65",
+      "to": "md_SKILL_list_68",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_65",
+      "to": "md_SKILL_list_69",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_65",
+      "to": "md_SKILL_list_70",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_65",
+      "to": "md_SKILL_list_71",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_65",
+      "to": "md_SKILL_list_72",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_73",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_h3_74",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_h3_75",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_75",
+      "to": "md_SKILL_code_76",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_h3_77",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_77",
+      "to": "md_SKILL_list_78",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_77",
+      "to": "md_SKILL_list_79",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_77",
+      "to": "md_SKILL_list_80",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_h3_81",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_81",
+      "to": "md_SKILL_code_82",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_h3_83",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_83",
+      "to": "md_SKILL_code_84",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_h3_85",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_86",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_86",
+      "to": "md_SKILL_h3_87",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_86",
+      "to": "md_SKILL_h3_88",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_86",
+      "to": "md_SKILL_h3_89",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_86",
+      "to": "md_SKILL_h3_90",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_86",
+      "to": "md_SKILL_h3_91",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_92",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_93",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_93",
+      "to": "md_SKILL_list_94",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_93",
+      "to": "md_SKILL_list_95",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_93",
+      "to": "md_SKILL_list_96",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_93",
+      "to": "md_SKILL_list_97",
+      "relation": "contains"
+    }
+  ]
+}

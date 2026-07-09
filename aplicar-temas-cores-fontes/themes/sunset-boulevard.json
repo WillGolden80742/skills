@@ -1,0 +1,127 @@
+{
+  "source": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/sunset-boulevard.md",
+  "generated_at": "2026-07-08T21:11:12.810756",
+  "nodes": [
+    {
+      "id": "md_sunset-boulevard_h1_0",
+      "label": "Sunset Boulevard",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/sunset-boulevard.md",
+      "community": 999
+    },
+    {
+      "id": "md_sunset-boulevard_h2_1",
+      "label": "Color Palette",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/sunset-boulevard.md",
+      "community": 999
+    },
+    {
+      "id": "md_sunset-boulevard_list_2",
+      "label": "**Burnt Orange**: `#e76f51` - Primary accent color",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/sunset-boulevard.md",
+      "community": 999
+    },
+    {
+      "id": "md_sunset-boulevard_list_3",
+      "label": "**Coral**: `#f4a261` - Secondary warm accent",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/sunset-boulevard.md",
+      "community": 999
+    },
+    {
+      "id": "md_sunset-boulevard_list_4",
+      "label": "**Warm Sand**: `#e9c46a` - Highlighting and backgrounds",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/sunset-boulevard.md",
+      "community": 999
+    },
+    {
+      "id": "md_sunset-boulevard_list_5",
+      "label": "**Deep Purple**: `#264653` - Dark contrast and text",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/sunset-boulevard.md",
+      "community": 999
+    },
+    {
+      "id": "md_sunset-boulevard_h2_6",
+      "label": "Typography",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/sunset-boulevard.md",
+      "community": 999
+    },
+    {
+      "id": "md_sunset-boulevard_list_7",
+      "label": "**Headers**: DejaVu Serif Bold",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/sunset-boulevard.md",
+      "community": 999
+    },
+    {
+      "id": "md_sunset-boulevard_list_8",
+      "label": "**Body Text**: DejaVu Sans",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/sunset-boulevard.md",
+      "community": 999
+    },
+    {
+      "id": "md_sunset-boulevard_h2_9",
+      "label": "Best Used For",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/aplicar-temas-cores-fontes/themes/sunset-boulevard.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_sunset-boulevard_h1_0",
+      "to": "md_sunset-boulevard_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_sunset-boulevard_h2_1",
+      "to": "md_sunset-boulevard_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_sunset-boulevard_h2_1",
+      "to": "md_sunset-boulevard_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_sunset-boulevard_h2_1",
+      "to": "md_sunset-boulevard_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_sunset-boulevard_h2_1",
+      "to": "md_sunset-boulevard_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_sunset-boulevard_h1_0",
+      "to": "md_sunset-boulevard_h2_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_sunset-boulevard_h2_6",
+      "to": "md_sunset-boulevard_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_sunset-boulevard_h2_6",
+      "to": "md_sunset-boulevard_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_sunset-boulevard_h1_0",
+      "to": "md_sunset-boulevard_h2_9",
+      "relation": "section"
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "source": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+  "generated_at": "2026-07-08T21:11:13.231009",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Skill Slack GIF Creator",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Requisitos do Slack",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "GIFs de emoji: 128x128 (recomendado)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "GIFs de mensagem: 480x480",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "FPS: 10-30 (menor = arquivo menor)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "Cores: 48-128 (menos = arquivo menor)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "Duração: Mantenha sob 3 segundos para emoji GIFs",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_7",
+      "label": "Workflow Core",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_8",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_9",
+      "label": "Desenhando Gráficos",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_10",
+      "label": "Imagens Enviadas pelo Usuário",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "**Usar diretamente** (\"animate isso\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "**Usar como inspiração** (\"faça algo assim\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_13",
+      "label": "Desenhando do Zero",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_14",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_15",
+      "label": "Fazendo Gráficos Ficarem Bons",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "**Linhas mais grossas** - Use `width=2` ou mais",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "**Profundidade visual** - Gradientes, múltiplas camadas",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_18",
+      "label": "**Formas interessantes** - Adicione highlights, anéis, padrões",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_19",
+      "label": "**Cores vibrantes** - Contraste complementar",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_20",
+      "label": "Utilitários Disponíveis",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_21",
+      "label": "GIFBuilder",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_22",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_23",
+      "label": "Validadores",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_24",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_25",
+      "label": "Funções de Ease",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_26",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_27",
+      "label": "Conceitos de Animação",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_28",
+      "label": "**Shake/Vibrar** - Use `math.sin()` com índice do frame",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_29",
+      "label": "**Pulse** - Escale rhythmicamente com `math.sin()`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_30",
+      "label": "**Bounce** - Use `easing='bounce_out'`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_31",
+      "label": "**Spin/Rotate** - `image.rotate(angle)`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_32",
+      "label": "**Fade In/Out** - Ajuste canal alpha",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_33",
+      "label": "**Slide** - Move de fora para posição com `ease_out`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_34",
+      "label": "**Zoom** - Escale e posicione",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_35",
+      "label": "**Explode** - Partículas radiando para fora",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_36",
+      "label": "Otimização",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-gifs-animados-slack/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_code_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_h3_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_10",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_10",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_h3_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_13",
+      "to": "md_SKILL_code_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_15",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_20",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_20",
+      "to": "md_SKILL_h3_21",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_21",
+      "to": "md_SKILL_code_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_20",
+      "to": "md_SKILL_h3_23",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_23",
+      "to": "md_SKILL_code_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_20",
+      "to": "md_SKILL_h3_25",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_25",
+      "to": "md_SKILL_code_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_27",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_27",
+      "to": "md_SKILL_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_27",
+      "to": "md_SKILL_list_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_27",
+      "to": "md_SKILL_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_27",
+      "to": "md_SKILL_list_31",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_27",
+      "to": "md_SKILL_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_27",
+      "to": "md_SKILL_list_33",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_27",
+      "to": "md_SKILL_list_34",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_27",
+      "to": "md_SKILL_list_35",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_36",
+      "relation": "section"
+    }
+  ]
+}

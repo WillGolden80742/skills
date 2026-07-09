@@ -1,0 +1,116 @@
+{
+  "source": "/root/.config/opencode/skills/commits/2026/06/19/commit-0bd8346e875a-2026-06-19-22-42-50.md",
+  "generated_at": "2026-07-08T21:11:12.851246",
+  "nodes": [
+    {
+      "id": "md_commit-0bd8346e875a-2026-06-19-22-42-50_h1_0",
+      "label": "Commit 0bd8346e875a - 19/06/2026 22:42:50",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/commits/2026/06/19/commit-0bd8346e875a-2026-06-19-22-42-50.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-0bd8346e875a-2026-06-19-22-42-50_h2_1",
+      "label": "Mensagem",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/06/19/commit-0bd8346e875a-2026-06-19-22-42-50.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-0bd8346e875a-2026-06-19-22-42-50_h2_2",
+      "label": "Arquivos",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/06/19/commit-0bd8346e875a-2026-06-19-22-42-50.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-0bd8346e875a-2026-06-19-22-42-50_list_3",
+      "label": "tema-marketplace-trokapay/SKILL.md",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/19/commit-0bd8346e875a-2026-06-19-22-42-50.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-0bd8346e875a-2026-06-19-22-42-50_h2_4",
+      "label": "Hash",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/06/19/commit-0bd8346e875a-2026-06-19-22-42-50.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-0bd8346e875a-2026-06-19-22-42-50_h2_5",
+      "label": "Diff",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/06/19/commit-0bd8346e875a-2026-06-19-22-42-50.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-0bd8346e875a-2026-06-19-22-42-50_list_6",
+      "label": "`produto_status_update_all_products` — força estoque de todos os produtos",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/19/commit-0bd8346e875a-2026-06-19-22-42-50.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-0bd8346e875a-2026-06-19-22-42-50_list_7",
+      "label": "`get_last_product_timestamp` — timestamp do último produto",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/19/commit-0bd8346e875a-2026-06-19-22-42-50.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-0bd8346e875a-2026-06-19-22-42-50_list_8",
+      "label": "`get_category_tree_metadata` — metadata da árvore de categorias",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/06/19/commit-0bd8346e875a-2026-06-19-22-42-50.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_commit-0bd8346e875a-2026-06-19-22-42-50_h1_0",
+      "to": "md_commit-0bd8346e875a-2026-06-19-22-42-50_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-0bd8346e875a-2026-06-19-22-42-50_h1_0",
+      "to": "md_commit-0bd8346e875a-2026-06-19-22-42-50_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-0bd8346e875a-2026-06-19-22-42-50_h2_2",
+      "to": "md_commit-0bd8346e875a-2026-06-19-22-42-50_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-0bd8346e875a-2026-06-19-22-42-50_h1_0",
+      "to": "md_commit-0bd8346e875a-2026-06-19-22-42-50_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-0bd8346e875a-2026-06-19-22-42-50_h1_0",
+      "to": "md_commit-0bd8346e875a-2026-06-19-22-42-50_h2_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-0bd8346e875a-2026-06-19-22-42-50_h2_5",
+      "to": "md_commit-0bd8346e875a-2026-06-19-22-42-50_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-0bd8346e875a-2026-06-19-22-42-50_h2_5",
+      "to": "md_commit-0bd8346e875a-2026-06-19-22-42-50_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-0bd8346e875a-2026-06-19-22-42-50_h2_5",
+      "to": "md_commit-0bd8346e875a-2026-06-19-22-42-50_list_8",
+      "relation": "contains"
+    }
+  ]
+}

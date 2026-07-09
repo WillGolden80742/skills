@@ -1,0 +1,194 @@
+{
+  "source": "/root/.config/opencode/skills/arte-algoritmica-generativa/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.830683",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Skill Algorithmic Art",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/arte-algoritmica-generativa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Filosofia Algorítmica",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/arte-algoritmica-generativa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "Processos computacionais, comportamento emergente",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/arte-algoritmica-generativa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "Aleatoriedade controlada, campos de ruído, sistemas orgânicos",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/arte-algoritmica-generativa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "Partículas, fluxos, campos, forças",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/arte-algoritmica-generativa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "Variação paramétrica e caos controlado",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/arte-algoritmica-generativa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_6",
+      "label": "Processo",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/arte-algoritmica-generativa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_7",
+      "label": "Requisitos Técnicos",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/arte-algoritmica-generativa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_8",
+      "label": "Aleatoriedade com Seed",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/arte-algoritmica-generativa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_9",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/arte-algoritmica-generativa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_10",
+      "label": "Estrutura de Parâmetros",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/arte-algoritmica-generativa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_11",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/arte-algoritmica-generativa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_12",
+      "label": "Canvas Setup",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/arte-algoritmica-generativa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_13",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/arte-algoritmica-generativa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_14",
+      "label": "Filosofias de Exemplo",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/arte-algoritmica-generativa/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_h3_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_8",
+      "to": "md_SKILL_code_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_h3_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_10",
+      "to": "md_SKILL_code_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_h3_12",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_12",
+      "to": "md_SKILL_code_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_14",
+      "relation": "section"
+    }
+  ]
+}

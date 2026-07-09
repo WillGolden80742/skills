@@ -1,0 +1,1665 @@
+{
+  "source": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+  "generated_at": "2026-07-08T21:11:12.827133",
+  "nodes": [
+    {
+      "id": "md_python_mcp_server_h1_0",
+      "label": "Python MCP Server Implementation Guide",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h2_1",
+      "label": "Overview",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h2_2",
+      "label": "Quick Reference",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h3_3",
+      "label": "Key Imports",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_code_4",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h3_5",
+      "label": "Server Initialization",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_code_6",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h3_7",
+      "label": "Tool Registration Pattern",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_code_8",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h2_9",
+      "label": "MCP Python SDK and FastMCP",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_10",
+      "label": "Automatic description and inputSchema generation from function signatures and do",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_11",
+      "label": "Pydantic model integration for input validation",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_12",
+      "label": "Decorator-based tool registration with `@mcp.tool`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h2_13",
+      "label": "Server Naming Convention",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_14",
+      "label": "**Format**: `{service}_mcp` (lowercase with underscores)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_15",
+      "label": "**Examples**: `github_mcp`, `jira_mcp`, `stripe_mcp`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_16",
+      "label": "General (not tied to specific features)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_17",
+      "label": "Descriptive of the service/API being integrated",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_18",
+      "label": "Easy to infer from the task description",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_19",
+      "label": "Without version numbers or dates",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h2_20",
+      "label": "Tool Implementation",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h3_21",
+      "label": "Tool Naming",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_22",
+      "label": "Use \"slack_send_message\" instead of just \"send_message\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_23",
+      "label": "Use \"github_create_issue\" instead of just \"create_issue\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_24",
+      "label": "Use \"asana_list_tasks\" instead of just \"list_tasks\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h3_25",
+      "label": "Tool Structure with FastMCP",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_code_26",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h2_27",
+      "label": "Pydantic v2 Key Features",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_28",
+      "label": "Use `model_config` instead of nested `Config` class",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_29",
+      "label": "Use `field_validator` instead of deprecated `validator`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_30",
+      "label": "Use `model_dump()` instead of deprecated `dict()`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_31",
+      "label": "Validators require `@classmethod` decorator",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_32",
+      "label": "Type hints are required for validator methods",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_code_33",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h2_34",
+      "label": "Response Format Options",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_code_35",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_36",
+      "label": "Use headers, lists, and formatting for clarity",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_37",
+      "label": "Convert timestamps to human-readable format (e.g., \"2024-01-15 10:30:00 UTC\" ins",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_38",
+      "label": "Show display names with IDs in parentheses (e.g., \"@john.doe (U123456)\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_39",
+      "label": "Omit verbose metadata (e.g., show only one profile image URL, not all sizes)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_40",
+      "label": "Group related information logically",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_41",
+      "label": "Return complete, structured data suitable for programmatic processing",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_42",
+      "label": "Include all available fields and metadata",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_43",
+      "label": "Use consistent field names and types",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h2_44",
+      "label": "Pagination Implementation",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_code_45",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h2_46",
+      "label": "Error Handling",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_code_47",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h2_48",
+      "label": "Shared Utilities",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_code_49",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h2_50",
+      "label": "Async/Await Best Practices",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_code_51",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h2_52",
+      "label": "Type Hints",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_code_53",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h2_54",
+      "label": "Tool Docstrings",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_code_55",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h2_56",
+      "label": "Complete Example",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_code_57",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h2_58",
+      "label": "Advanced FastMCP Features",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h3_59",
+      "label": "Context Parameter Injection",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_code_60",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_61",
+      "label": "`ctx.report_progress(progress, message)` - Report progress for long operations",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_62",
+      "label": "`ctx.log_info(message, data)` / `ctx.log_error()` / `ctx.log_debug()` - Logging",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_63",
+      "label": "`ctx.elicit(prompt, input_type)` - Request input from users",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_64",
+      "label": "`ctx.fastmcp.name` - Access server configuration",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_65",
+      "label": "`ctx.read_resource(uri)` - Read MCP resources",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h3_66",
+      "label": "Resource Registration",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_code_67",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_68",
+      "label": "**Resources**: For data access with simple parameters (URI templates)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_69",
+      "label": "**Tools**: For complex operations with validation and business logic",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h3_70",
+      "label": "Structured Output Types",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_code_71",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h3_72",
+      "label": "Lifespan Management",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_code_73",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h3_74",
+      "label": "Transport Options",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_code_75",
+      "label": "Code: python",
+      "type": "code_block",
+      "language": "python",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_76",
+      "label": "**stdio**: Command-line tools, local integrations, subprocess execution",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_77",
+      "label": "**Streamable HTTP**: Web services, remote access, multiple clients",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h2_78",
+      "label": "Code Best Practices",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h3_79",
+      "label": "Code Composability and Reusability",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_80",
+      "label": "Create reusable helper functions for operations used across multiple tools",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_81",
+      "label": "Build shared API clients for HTTP requests instead of duplicating code",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_82",
+      "label": "Centralize error handling logic in utility functions",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_83",
+      "label": "Extract business logic into dedicated functions that can be composed",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_84",
+      "label": "Extract shared markdown or JSON field selection & formatting functionality",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_85",
+      "label": "NEVER copy-paste similar code between tools",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_86",
+      "label": "If you find yourself writing similar logic twice, extract it into a function",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_87",
+      "label": "Common operations like pagination, filtering, field selection, and formatting sh",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_88",
+      "label": "Authentication/authorization logic should be centralized",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h3_89",
+      "label": "Python-Specific Best Practices",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h2_90",
+      "label": "Quality Checklist",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h3_91",
+      "label": "Strategic Design",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_92",
+      "label": "[ ] Tools enable complete workflows, not just API endpoint wrappers",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_93",
+      "label": "[ ] Tool names reflect natural task subdivisions",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_94",
+      "label": "[ ] Response formats optimize for agent context efficiency",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_95",
+      "label": "[ ] Human-readable identifiers used where appropriate",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_96",
+      "label": "[ ] Error messages guide agents toward correct usage",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h3_97",
+      "label": "Implementation Quality",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_98",
+      "label": "[ ] FOCUSED IMPLEMENTATION: Most important and valuable tools implemented",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_99",
+      "label": "[ ] All tools have descriptive names and documentation",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_100",
+      "label": "[ ] Return types are consistent across similar operations",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_101",
+      "label": "[ ] Error handling is implemented for all external calls",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_102",
+      "label": "[ ] Server name follows format: `{service}_mcp`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_103",
+      "label": "[ ] All network operations use async/await",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_104",
+      "label": "[ ] Common functionality is extracted into reusable functions",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_105",
+      "label": "[ ] Error messages are clear, actionable, and educational",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_106",
+      "label": "[ ] Outputs are properly validated and formatted",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h3_107",
+      "label": "Tool Configuration",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_108",
+      "label": "[ ] All tools implement 'name' and 'annotations' in the decorator",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_109",
+      "label": "[ ] Annotations correctly set (readOnlyHint, destructiveHint, idempotentHint, op",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_110",
+      "label": "[ ] All tools use Pydantic BaseModel for input validation with Field() definitio",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_111",
+      "label": "[ ] All Pydantic Fields have explicit types and descriptions with constraints",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_112",
+      "label": "[ ] All tools have comprehensive docstrings with explicit input/output types",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_113",
+      "label": "[ ] Docstrings include complete schema structure for dict/JSON returns",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_114",
+      "label": "[ ] Pydantic models handle input validation (no manual validation needed)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h3_115",
+      "label": "Advanced Features (where applicable)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_116",
+      "label": "[ ] Context injection used for logging, progress, or elicitation",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_117",
+      "label": "[ ] Resources registered for appropriate data endpoints",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_118",
+      "label": "[ ] Lifespan management implemented for persistent connections",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_119",
+      "label": "[ ] Structured output types used (TypedDict, Pydantic models)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_120",
+      "label": "[ ] Appropriate transport configured (stdio or streamable HTTP)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h3_121",
+      "label": "Code Quality",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_122",
+      "label": "[ ] File includes proper imports including Pydantic imports",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_123",
+      "label": "[ ] Pagination is properly implemented where applicable",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_124",
+      "label": "[ ] Filtering options are provided for potentially large result sets",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_125",
+      "label": "[ ] All async functions are properly defined with `async def`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_126",
+      "label": "[ ] HTTP client usage follows async patterns with proper context managers",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_127",
+      "label": "[ ] Type hints are used throughout the code",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_128",
+      "label": "[ ] Constants are defined at module level in UPPER_CASE",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_h3_129",
+      "label": "Testing",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_130",
+      "label": "[ ] Server runs successfully: `python your_server.py --help`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_131",
+      "label": "[ ] All imports resolve correctly",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_132",
+      "label": "[ ] Sample tool calls work as expected",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_python_mcp_server_list_133",
+      "label": "[ ] Error scenarios handled gracefully",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/python_mcp_server.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_python_mcp_server_h1_0",
+      "to": "md_python_mcp_server_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h1_0",
+      "to": "md_python_mcp_server_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h2_2",
+      "to": "md_python_mcp_server_h3_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h3_3",
+      "to": "md_python_mcp_server_code_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_2",
+      "to": "md_python_mcp_server_h3_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h3_5",
+      "to": "md_python_mcp_server_code_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_2",
+      "to": "md_python_mcp_server_h3_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h3_7",
+      "to": "md_python_mcp_server_code_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h1_0",
+      "to": "md_python_mcp_server_h2_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h2_9",
+      "to": "md_python_mcp_server_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_9",
+      "to": "md_python_mcp_server_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_9",
+      "to": "md_python_mcp_server_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h1_0",
+      "to": "md_python_mcp_server_h2_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h2_13",
+      "to": "md_python_mcp_server_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_13",
+      "to": "md_python_mcp_server_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_13",
+      "to": "md_python_mcp_server_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_13",
+      "to": "md_python_mcp_server_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_13",
+      "to": "md_python_mcp_server_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_13",
+      "to": "md_python_mcp_server_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h1_0",
+      "to": "md_python_mcp_server_h2_20",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h2_20",
+      "to": "md_python_mcp_server_h3_21",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h3_21",
+      "to": "md_python_mcp_server_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_21",
+      "to": "md_python_mcp_server_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_21",
+      "to": "md_python_mcp_server_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_20",
+      "to": "md_python_mcp_server_h3_25",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h3_25",
+      "to": "md_python_mcp_server_code_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h1_0",
+      "to": "md_python_mcp_server_h2_27",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h2_27",
+      "to": "md_python_mcp_server_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_27",
+      "to": "md_python_mcp_server_list_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_27",
+      "to": "md_python_mcp_server_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_27",
+      "to": "md_python_mcp_server_list_31",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_27",
+      "to": "md_python_mcp_server_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_27",
+      "to": "md_python_mcp_server_code_33",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h1_0",
+      "to": "md_python_mcp_server_h2_34",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h2_34",
+      "to": "md_python_mcp_server_code_35",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_34",
+      "to": "md_python_mcp_server_list_36",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_34",
+      "to": "md_python_mcp_server_list_37",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_34",
+      "to": "md_python_mcp_server_list_38",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_34",
+      "to": "md_python_mcp_server_list_39",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_34",
+      "to": "md_python_mcp_server_list_40",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_34",
+      "to": "md_python_mcp_server_list_41",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_34",
+      "to": "md_python_mcp_server_list_42",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_34",
+      "to": "md_python_mcp_server_list_43",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h1_0",
+      "to": "md_python_mcp_server_h2_44",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h2_44",
+      "to": "md_python_mcp_server_code_45",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h1_0",
+      "to": "md_python_mcp_server_h2_46",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h2_46",
+      "to": "md_python_mcp_server_code_47",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h1_0",
+      "to": "md_python_mcp_server_h2_48",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h2_48",
+      "to": "md_python_mcp_server_code_49",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h1_0",
+      "to": "md_python_mcp_server_h2_50",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h2_50",
+      "to": "md_python_mcp_server_code_51",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h1_0",
+      "to": "md_python_mcp_server_h2_52",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h2_52",
+      "to": "md_python_mcp_server_code_53",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h1_0",
+      "to": "md_python_mcp_server_h2_54",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h2_54",
+      "to": "md_python_mcp_server_code_55",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h1_0",
+      "to": "md_python_mcp_server_h2_56",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h2_56",
+      "to": "md_python_mcp_server_code_57",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h1_0",
+      "to": "md_python_mcp_server_h2_58",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h2_58",
+      "to": "md_python_mcp_server_h3_59",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h3_59",
+      "to": "md_python_mcp_server_code_60",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_59",
+      "to": "md_python_mcp_server_list_61",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_59",
+      "to": "md_python_mcp_server_list_62",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_59",
+      "to": "md_python_mcp_server_list_63",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_59",
+      "to": "md_python_mcp_server_list_64",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_59",
+      "to": "md_python_mcp_server_list_65",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_58",
+      "to": "md_python_mcp_server_h3_66",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h3_66",
+      "to": "md_python_mcp_server_code_67",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_66",
+      "to": "md_python_mcp_server_list_68",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_66",
+      "to": "md_python_mcp_server_list_69",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_58",
+      "to": "md_python_mcp_server_h3_70",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h3_70",
+      "to": "md_python_mcp_server_code_71",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_58",
+      "to": "md_python_mcp_server_h3_72",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h3_72",
+      "to": "md_python_mcp_server_code_73",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_58",
+      "to": "md_python_mcp_server_h3_74",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h3_74",
+      "to": "md_python_mcp_server_code_75",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_74",
+      "to": "md_python_mcp_server_list_76",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_74",
+      "to": "md_python_mcp_server_list_77",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h1_0",
+      "to": "md_python_mcp_server_h2_78",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h2_78",
+      "to": "md_python_mcp_server_h3_79",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h3_79",
+      "to": "md_python_mcp_server_list_80",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_79",
+      "to": "md_python_mcp_server_list_81",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_79",
+      "to": "md_python_mcp_server_list_82",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_79",
+      "to": "md_python_mcp_server_list_83",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_79",
+      "to": "md_python_mcp_server_list_84",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_79",
+      "to": "md_python_mcp_server_list_85",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_79",
+      "to": "md_python_mcp_server_list_86",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_79",
+      "to": "md_python_mcp_server_list_87",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_79",
+      "to": "md_python_mcp_server_list_88",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_78",
+      "to": "md_python_mcp_server_h3_89",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h1_0",
+      "to": "md_python_mcp_server_h2_90",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h2_90",
+      "to": "md_python_mcp_server_h3_91",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h3_91",
+      "to": "md_python_mcp_server_list_92",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_91",
+      "to": "md_python_mcp_server_list_93",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_91",
+      "to": "md_python_mcp_server_list_94",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_91",
+      "to": "md_python_mcp_server_list_95",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_91",
+      "to": "md_python_mcp_server_list_96",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_90",
+      "to": "md_python_mcp_server_h3_97",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h3_97",
+      "to": "md_python_mcp_server_list_98",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_97",
+      "to": "md_python_mcp_server_list_99",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_97",
+      "to": "md_python_mcp_server_list_100",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_97",
+      "to": "md_python_mcp_server_list_101",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_97",
+      "to": "md_python_mcp_server_list_102",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_97",
+      "to": "md_python_mcp_server_list_103",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_97",
+      "to": "md_python_mcp_server_list_104",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_97",
+      "to": "md_python_mcp_server_list_105",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_97",
+      "to": "md_python_mcp_server_list_106",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_90",
+      "to": "md_python_mcp_server_h3_107",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h3_107",
+      "to": "md_python_mcp_server_list_108",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_107",
+      "to": "md_python_mcp_server_list_109",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_107",
+      "to": "md_python_mcp_server_list_110",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_107",
+      "to": "md_python_mcp_server_list_111",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_107",
+      "to": "md_python_mcp_server_list_112",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_107",
+      "to": "md_python_mcp_server_list_113",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_107",
+      "to": "md_python_mcp_server_list_114",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_90",
+      "to": "md_python_mcp_server_h3_115",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h3_115",
+      "to": "md_python_mcp_server_list_116",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_115",
+      "to": "md_python_mcp_server_list_117",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_115",
+      "to": "md_python_mcp_server_list_118",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_115",
+      "to": "md_python_mcp_server_list_119",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_115",
+      "to": "md_python_mcp_server_list_120",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_90",
+      "to": "md_python_mcp_server_h3_121",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h3_121",
+      "to": "md_python_mcp_server_list_122",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_121",
+      "to": "md_python_mcp_server_list_123",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_121",
+      "to": "md_python_mcp_server_list_124",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_121",
+      "to": "md_python_mcp_server_list_125",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_121",
+      "to": "md_python_mcp_server_list_126",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_121",
+      "to": "md_python_mcp_server_list_127",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_121",
+      "to": "md_python_mcp_server_list_128",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h2_90",
+      "to": "md_python_mcp_server_h3_129",
+      "relation": "section"
+    },
+    {
+      "from": "md_python_mcp_server_h3_129",
+      "to": "md_python_mcp_server_list_130",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_129",
+      "to": "md_python_mcp_server_list_131",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_129",
+      "to": "md_python_mcp_server_list_132",
+      "relation": "contains"
+    },
+    {
+      "from": "md_python_mcp_server_h3_129",
+      "to": "md_python_mcp_server_list_133",
+      "relation": "contains"
+    }
+  ]
+}

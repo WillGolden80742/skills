@@ -1,0 +1,243 @@
+{
+  "source": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.846798",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Skill PPTX - Apresentações PowerPoint",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Referência Rápida",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_2",
+      "label": "Ler Conteúdo",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_3",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_4",
+      "label": "Design de Slides",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_5",
+      "label": "Paletas de Cores",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_6",
+      "label": "Dicas de Design",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "**Não crie slides tediosos** - texto simples em fundo branco não impressiona",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "**Use elemento visual** - imagem, gráfico, ícone ou forma",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_9",
+      "label": "**Contraste dark/light** - fundos escuros para títulos, claros para conteúdo",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "**Nunca use linhas decorativas sob títulos** - é sinal de slides gerados por IA",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_11",
+      "label": "Tipografia",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_12",
+      "label": "QA (Verificação Obrigatória)",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_13",
+      "label": "Converter para Imagens",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_14",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_15",
+      "label": "Dependências",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "`pip install \"markitdown[pptx]\"`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "`pip install Pillow`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_18",
+      "label": "`npm install -g pptxgenjs`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-editar-apresentacao/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_code_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_h3_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_h3_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_6",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_6",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_6",
+      "to": "md_SKILL_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_6",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_h3_11",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_12",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_code_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_15",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_18",
+      "relation": "contains"
+    }
+  ]
+}

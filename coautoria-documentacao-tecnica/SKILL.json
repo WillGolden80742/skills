@@ -1,0 +1,166 @@
+{
+  "source": "/root/.config/opencode/skills/coautoria-documentacao-tecnica/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.831368",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Skill Doc Co-Authoring",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/coautoria-documentacao-tecnica/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Quando Oferecer",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/coautoria-documentacao-tecnica/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "Usuário menciona escrever documentação",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/coautoria-documentacao-tecnica/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "Tipos específicos: PRD, design doc, decision doc, RFC",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/coautoria-documentacao-tecnica/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "Tarefa substancial de escrita",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/coautoria-documentacao-tecnica/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_5",
+      "label": "Workflow em 3 Estágios",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/coautoria-documentacao-tecnica/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_6",
+      "label": "Estágio 1: Coleta de Contexto",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/coautoria-documentacao-tecnica/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_7",
+      "label": "Estágio 2: Refinamento e Estrutura",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/coautoria-documentacao-tecnica/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_8",
+      "label": "Estágio 3: Teste com Leitor",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/coautoria-documentacao-tecnica/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_9",
+      "label": "Dicas",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/coautoria-documentacao-tecnica/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "Seja direto e procedural",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/coautoria-documentacao-tecnica/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "Dê agência ao usuário para ajustar o processo",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/coautoria-documentacao-tecnica/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "Priorize qualidade sobre velocidade",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/coautoria-documentacao-tecnica/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_h3_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_h3_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_h3_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    }
+  ]
+}

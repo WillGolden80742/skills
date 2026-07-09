@@ -1,0 +1,2696 @@
+{
+  "source": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+  "generated_at": "2026-07-08T21:11:13.072685",
+  "nodes": [
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h1_0",
+      "label": "Commit 1fbb116f36d6 - 02/07/2026 23:06:29",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_1",
+      "label": "Mensagem",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_2",
+      "label": "Arquivos",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_3",
+      "label": "configurar-espelhamento-server/.sync_theme.py",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_4",
+      "label": "configurar-espelhamento-server/configurar_espelho.py",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_5",
+      "label": "Hash",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "label": "Diff",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_7",
+      "label": "level=logging.INFO,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_8",
+      "label": "format=\"[%(asctime)s] %(levelname)-8s %(message)s\",",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_9",
+      "label": "datefmt=\"%H:%M:%S\",",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_10",
+      "label": "client = paramiko.SSHClient()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_11",
+      "label": "client.set_missing_host_key_policy(paramiko.AutoAddPolicy())",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_12",
+      "label": "client.connect(REMOTE_HOST, port=REMOTE_PORT, username=REMOTE_USER, password=SSH",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_13",
+      "label": "stdin, stdout, stderr = client.exec_command(cmd, timeout=30)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_14",
+      "label": "rc = stdout.channel.recv_exit_status()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_15",
+      "label": "out = stdout.read().decode(\"utf-8\", errors=\"replace\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_16",
+      "label": "err = stderr.read().decode(\"utf-8\", errors=\"replace\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_17",
+      "label": "client.close()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_18",
+      "label": "return rc, out, err",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_19",
+      "label": "os.makedirs(os.path.dirname(local_path), exist_ok=True)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_20",
+      "label": "client = paramiko.SSHClient()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_21",
+      "label": "client.set_missing_host_key_policy(paramiko.AutoAddPolicy())",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_22",
+      "label": "client.connect(REMOTE_HOST, port=REMOTE_PORT, username=REMOTE_USER, password=SSH",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_23",
+      "label": "sftp = client.open_sftp()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_24",
+      "label": "try:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_25",
+      "label": "sftp.get(remote_path, local_path)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_26",
+      "label": "finally:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_27",
+      "label": "sftp.close()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_28",
+      "label": "client.close()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_29",
+      "label": "client = paramiko.SSHClient()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_30",
+      "label": "client.set_missing_host_key_policy(paramiko.AutoAddPolicy())",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_31",
+      "label": "client.connect(REMOTE_HOST, port=REMOTE_PORT, username=REMOTE_USER, password=SSH",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_32",
+      "label": "sftp = client.open_sftp()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_33",
+      "label": "try:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_34",
+      "label": "remote_dir = os.path.dirname(remote_path)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_35",
+      "label": "_ensure_remote_dir(sftp, remote_dir)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_36",
+      "label": "sftp.put(local_path, remote_path)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_37",
+      "label": "finally:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_38",
+      "label": "sftp.close()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_39",
+      "label": "client.close()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_40",
+      "label": "parts = path.replace(\"\\\\\", \"/\").split(\"/\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_41",
+      "label": "current = \"\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_42",
+      "label": "for p in parts:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_43",
+      "label": "if not p:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_44",
+      "label": "continue",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_45",
+      "label": "current += \"/\" + p",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_46",
+      "label": "try:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_47",
+      "label": "sftp.stat(current)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_48",
+      "label": "except FileNotFoundError:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_49",
+      "label": "sftp.mkdir(current)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_50",
+      "label": "exclude_git = r\"-not -path '*/\\.git' -a -not -path '*/\\.git/*' -a -not -path '*/",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_51",
+      "label": "exclude_extra = r\"-a -not -name '.sync_theme.py' -a -not -name '.sync_meta.json'",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_52",
+      "label": "cmd = f\"find {REMOTE_BASE} -type f {exclude_git} {exclude_extra} -printf '%P\\\\t%",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_53",
+      "label": "rc, out, err = ssh_exec(cmd)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_54",
+      "label": "if rc != 0:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_55",
+      "label": "log.error(\"Falha ao listar remoto: %s\", err)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_56",
+      "label": "return {}",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_57",
+      "label": "files = {}",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_58",
+      "label": "for line in out.strip().split(\"\\n\"):",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_59",
+      "label": "if not line.strip():",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_60",
+      "label": "continue",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_61",
+      "label": "parts = line.split(\"\\t\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_62",
+      "label": "if len(parts) >= 3:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_63",
+      "label": "relpath = parts[0].replace(\"\\\\\", \"/\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_64",
+      "label": "try:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_65",
+      "label": "size = int(parts[1])",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_66",
+      "label": "mtime = float(parts[2])",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_67",
+      "label": "except ValueError:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_68",
+      "label": "continue",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_69",
+      "label": "if size > 0:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_70",
+      "label": "files[relpath] = {\"size\": size, \"mtime\": mtime}",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_71",
+      "label": "return files",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_72",
+      "label": "if name in EXCLUDED:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_73",
+      "label": "return True",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_74",
+      "label": "for p in EXCLUDED_PREFIXES:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_75",
+      "label": "if name.startswith(p):",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_76",
+      "label": "return True",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_77",
+      "label": "return False",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_78",
+      "label": "try:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_79",
+      "label": "if os.path.isdir(path):",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_80",
+      "label": "os.rmdir(path)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_81",
+      "label": "else:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_82",
+      "label": "os.remove(path)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_83",
+      "label": "except OSError:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_84",
+      "label": "pass",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_85",
+      "label": "def on_modified(self, event):",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_86",
+      "label": "if event.is_directory:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_87",
+      "label": "return",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_88",
+      "label": "self._process(event.src_path)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_89",
+      "label": "def on_created(self, event):",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_90",
+      "label": "if event.is_directory:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_91",
+      "label": "return",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_92",
+      "label": "time.sleep(0.3)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_93",
+      "label": "self._process(event.src_path)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_94",
+      "label": "def on_moved(self, event):",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_95",
+      "label": "if event.is_directory:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_96",
+      "label": "return",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_97",
+      "label": "time.sleep(0.3)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_98",
+      "label": "self._process(event.dest_path)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_99",
+      "label": "def _process(self, src_path):",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_100",
+      "label": "rel = os.path.relpath(src_path, str(BASE)).replace(\"\\\\\", \"/\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_101",
+      "label": "if is_excluded(rel):",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_102",
+      "label": "return",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_103",
+      "label": "if not os.path.isfile(src_path):",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_104",
+      "label": "return",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_105",
+      "label": "size = os.path.getsize(src_path)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_106",
+      "label": "if size == 0:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_107",
+      "label": "log.info(\"WATCH-SAFE Ignorado envio do arquivo local vazio: %s\", rel)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_108",
+      "label": "return",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_109",
+      "label": "with DOWNLOAD_LOCK:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_110",
+      "label": "if rel in DOWNLOADING_FILES:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_111",
+      "label": "log.info(\"WATCH-SAFE Ignorado: %s esta sendo baixado agora\", rel)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_112",
+      "label": "return",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_113",
+      "label": "remote_path = REMOTE_BASE + \"/\" + rel",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_114",
+      "label": "log.info(\"UPLOAD %s (%d bytes)\", rel, size)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_115",
+      "label": "try:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_116",
+      "label": "sftp_put(src_path, remote_path)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_117",
+      "label": "log.info(\"UPLOAD OK %s\", rel)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_118",
+      "label": "except Exception as e:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_119",
+      "label": "log.error(\"UPLOAD FAIL %s: %s\", rel, e)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_120",
+      "label": "with DOWNLOAD_LOCK:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_121",
+      "label": "DOWNLOADING_FILES.add(rel)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_122",
+      "label": "try:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_123",
+      "label": "sftp_get(remote_path, local_path)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_124",
+      "label": "size = os.path.getsize(local_path)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_125",
+      "label": "if size == 0:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_126",
+      "label": "safe_remove_local(local_path)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_127",
+      "label": "log.warning(\"DOWNLOAD-SAFE Removido local vazio: %s\", rel)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_128",
+      "label": "else:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_129",
+      "label": "log.info(\"DOWNLOAD OK %s (%d bytes)\", rel, size)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_130",
+      "label": "except Exception as e:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_131",
+      "label": "log.error(\"DOWNLOAD FAIL %s: %s\", rel, e)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_132",
+      "label": "finally:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_133",
+      "label": "with DOWNLOAD_LOCK:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_134",
+      "label": "DOWNLOADING_FILES.discard(rel)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_135",
+      "label": "existing = {}",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_136",
+      "label": "for root, dirs, fnames in os.walk(str(BASE)):",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_137",
+      "label": "for fname in fnames:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_138",
+      "label": "fpath = os.path.join(root, fname)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_139",
+      "label": "rel = os.path.relpath(fpath, str(BASE)).replace(\"\\\\\", \"/\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_140",
+      "label": "existing[rel] = fpath",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_141",
+      "label": "to_download = []",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_142",
+      "label": "for rel, meta in remote_files.items():",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_143",
+      "label": "if rel in existing:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_144",
+      "label": "continue",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_145",
+      "label": "local_path = str(BASE / rel)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_146",
+      "label": "to_download.append((rel, REMOTE_BASE + \"/\" + rel, local_path))",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_147",
+      "label": "if not to_download:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_148",
+      "label": "log.info(\"Nenhum arquivo novo para baixar.\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_149",
+      "label": "return",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_150",
+      "label": "log.info(\"Preparando download de %d arquivos...\", len(to_download))",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_151",
+      "label": "from concurrent.futures import ThreadPoolExecutor",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_152",
+      "label": "with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_153",
+      "label": "for rel, rpath, lpath in to_download:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_154",
+      "label": "pool.submit(download_worker, rel, rpath, lpath)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_155",
+      "label": "log.info(\"Downloads concluidos.\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_156",
+      "label": "local_set = set()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_157",
+      "label": "for root, dirs, fnames in os.walk(str(BASE)):",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_158",
+      "label": "for fname in fnames:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_159",
+      "label": "rel = os.path.relpath(os.path.join(root, fname), str(BASE)).replace(\"\\\\\", \"/\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_160",
+      "label": "if not is_excluded(rel):",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_161",
+      "label": "local_set.add(rel)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_162",
+      "label": "missing = [r for r in remote_files if r not in local_set]",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_163",
+      "label": "if missing:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_164",
+      "label": "log.info(\"Remoto tem %d arquivos que faltam localmente. Iniciando download...\", ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_165",
+      "label": "for rel in missing:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_166",
+      "label": "rpath = REMOTE_BASE + \"/\" + rel",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_167",
+      "label": "lpath = str(BASE / rel)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_168",
+      "label": "download_worker(rel, rpath, lpath)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_169",
+      "label": "with open(META, \"w\", encoding=\"utf-8\") as f:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_170",
+      "label": "json.dump(data, f, indent=2)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_171",
+      "label": "if META.exists():",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_172",
+      "label": "with open(META, \"r\", encoding=\"utf-8\") as f:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_173",
+      "label": "return json.load(f)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_174",
+      "label": "return {}",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_175",
+      "label": "if not SSH_PASSWORD:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_176",
+      "label": "log.error(\"Variavel VPS_SSH_PW nao definida!\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_177",
+      "label": "sys.exit(1)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_178",
+      "label": "log.info(\"Origem : %s\", REMOTE_BASE)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_179",
+      "label": "log.info(\"Destino: %s\", BASE)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_180",
+      "label": "log.info(\"Carregando metadados...\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_181",
+      "label": "remote_files = remote_list_all()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_182",
+      "label": "if not remote_files:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_183",
+      "label": "log.error(\"Nao foi possivel obter lista de arquivos remotos!\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_184",
+      "label": "sys.exit(1)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_185",
+      "label": "log.info(\"Remoto: %d arquivos (%.2f MB)\", len(remote_files),",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_186",
+      "label": "sum(f[\"size\"] for f in remote_files.values()) / 1e6)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_187",
+      "label": "save_meta(remote_files)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_188",
+      "label": "log.info(\"Metadados salvos (%d entradas).\", len(remote_files))",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_189",
+      "label": "download_all(remote_files)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_190",
+      "label": "event_handler = UploadHandler()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_191",
+      "label": "observer = Observer()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_192",
+      "label": "observer.schedule(event_handler, str(BASE), recursive=True)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_193",
+      "label": "observer.start()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_194",
+      "label": "log.info(\"Observador de arquivos iniciado.\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_195",
+      "label": "end_time = time.time() + runtime_minutes * 60",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_196",
+      "label": "poll_counter = 0",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_197",
+      "label": "try:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_198",
+      "label": "while time.time() < end_time:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_199",
+      "label": "time.sleep(POLL_INTERVAL)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_200",
+      "label": "poll_counter += 1",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_201",
+      "label": "if poll_counter % 15 == 0:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_202",
+      "label": "log.info(\"Poll #%d — verificando novidades no servidor...\", poll_counter)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_203",
+      "label": "try:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_204",
+      "label": "fresh_remote = remote_list_all()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_205",
+      "label": "poll_remote(fresh_remote)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_206",
+      "label": "save_meta(fresh_remote)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_207",
+      "label": "except Exception as e:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_208",
+      "label": "log.error(\"Poll error: %s\", e)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_209",
+      "label": "except KeyboardInterrupt:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_210",
+      "label": "log.info(\"Encerrando por solicitacao do usuario...\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_211",
+      "label": "finally:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_212",
+      "label": "observer.stop()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_213",
+      "label": "observer.join()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_214",
+      "label": "log.info(\"Espelho encerrado.\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_215",
+      "label": "parser = argparse.ArgumentParser(description=\"Sync bidirecional seguro\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_216",
+      "label": "parser.add_argument(\"runtime\", nargs=\"?\", type=int, default=120,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_217",
+      "label": "help=\"Tempo de execucao em minutos (default: 120)\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_218",
+      "label": "args = parser.parse_args()",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_219",
+      "label": "main(args.runtime)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_220",
+      "label": "log.error(\"Variavel BHM_SSH_PW nao definida!\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_221",
+      "label": "log.error(\"Variavel VPS_SSH_PW nao definida!\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_222",
+      "label": "print(f'  set \"BHM_SSH_PW={pw_preview}\"')",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    },
+    {
+      "id": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_223",
+      "label": "print(f'  set \"VPS_SSH_PW={pw_preview}\"')",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/commits/2026/07/02/commit-1fbb116f36d6-2026-07-02-23-06-29.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h1_0",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h1_0",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_2",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_2",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h1_0",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h1_0",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_31",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_33",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_34",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_35",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_36",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_37",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_38",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_39",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_40",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_41",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_42",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_43",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_44",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_45",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_46",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_47",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_48",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_49",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_50",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_51",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_52",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_53",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_54",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_55",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_56",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_57",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_58",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_59",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_60",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_61",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_62",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_63",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_64",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_65",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_66",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_67",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_68",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_69",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_70",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_71",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_72",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_73",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_74",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_75",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_76",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_77",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_78",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_79",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_80",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_81",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_82",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_83",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_84",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_85",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_86",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_87",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_88",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_89",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_90",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_91",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_92",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_93",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_94",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_95",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_96",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_97",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_98",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_99",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_100",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_101",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_102",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_103",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_104",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_105",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_106",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_107",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_108",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_109",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_110",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_111",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_112",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_113",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_114",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_115",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_116",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_117",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_118",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_119",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_120",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_121",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_122",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_123",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_124",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_125",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_126",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_127",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_128",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_129",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_130",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_131",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_132",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_133",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_134",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_135",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_136",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_137",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_138",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_139",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_140",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_141",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_142",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_143",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_144",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_145",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_146",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_147",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_148",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_149",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_150",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_151",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_152",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_153",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_154",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_155",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_156",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_157",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_158",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_159",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_160",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_161",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_162",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_163",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_164",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_165",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_166",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_167",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_168",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_169",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_170",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_171",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_172",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_173",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_174",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_175",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_176",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_177",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_178",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_179",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_180",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_181",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_182",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_183",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_184",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_185",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_186",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_187",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_188",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_189",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_190",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_191",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_192",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_193",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_194",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_195",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_196",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_197",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_198",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_199",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_200",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_201",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_202",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_203",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_204",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_205",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_206",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_207",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_208",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_209",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_210",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_211",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_212",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_213",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_214",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_215",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_216",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_217",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_218",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_219",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_220",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_221",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_222",
+      "relation": "contains"
+    },
+    {
+      "from": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_h2_6",
+      "to": "md_commit-1fbb116f36d6-2026-07-02-23-06-29_list_223",
+      "relation": "contains"
+    }
+  ]
+}

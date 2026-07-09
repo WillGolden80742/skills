@@ -1,0 +1,314 @@
+{
+  "source": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.843662",
+  "nodes": [
+    {
+      "id": "md_SKILL_h2_0",
+      "label": "What I Do",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Estruturas de Skeleton Identificadas no Tema",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_2",
+      "label": "1. CSS Base - Animacao Shimmer",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_3",
+      "label": "Code: css",
+      "type": "code_block",
+      "language": "css",
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_4",
+      "label": "Code: css",
+      "type": "code_block",
+      "language": "css",
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_5",
+      "label": "2. Variacoes de Skeleton Classes",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_6",
+      "label": "3. Metodo PHP - Skeleton Renderizado no Servidor",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_7",
+      "label": "Code: php",
+      "type": "code_block",
+      "language": "php",
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_8",
+      "label": "Code: php",
+      "type": "code_block",
+      "language": "php",
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_9",
+      "label": "4. Metodo JavaScript - Injecao de Skeleton no Fetch",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_10",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_11",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_12",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_13",
+      "label": "5. Metodo CSS-in-JS ou Inline",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_14",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_15",
+      "label": "Passos para Criar um Skeleton Screen",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "**PHP estatico**: quando o HTML inicial pode conter skeletons (secao carregada v",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "**JS injecao**: quando o componente carrega dados via AJAX",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_18",
+      "label": "**CSS classes**: para elementos que removem a classe `.skeleton` apos carregar",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_19",
+      "label": "Convencoes de Nomenclatura",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_20",
+      "label": "Container: `.skeleton-card` (aponta para remocao em massa)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_21",
+      "label": "Itens internos: `.skeleton-text`, `.skeleton-avatar`, etc.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_22",
+      "label": "Prefixo especifico: `notif-sk-*`, `points-sk-*`, `gifts-sk-*` para estilos conte",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_23",
+      "label": "Altura customizada: `.sk-h{altura-em-px}` (ex: `.sk-h18`)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_24",
+      "label": "Padrao de Remocao",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_25",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/placeholder-carregamento/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_2",
+      "to": "md_SKILL_code_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_2",
+      "to": "md_SKILL_code_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_6",
+      "to": "md_SKILL_code_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_6",
+      "to": "md_SKILL_code_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_code_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_code_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_code_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_13",
+      "to": "md_SKILL_code_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_19",
+      "to": "md_SKILL_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_19",
+      "to": "md_SKILL_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_19",
+      "to": "md_SKILL_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_19",
+      "to": "md_SKILL_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_24",
+      "to": "md_SKILL_code_25",
+      "relation": "contains"
+    }
+  ]
+}

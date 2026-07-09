@@ -1,0 +1,29 @@
+{
+  "source": "/root/.config/opencode/skills/gerar-arvore-diretorios/dir.md",
+  "generated_at": "2026-07-08T21:11:12.813006",
+  "nodes": [
+    {
+      "id": "md_dir_h1_0",
+      "label": "Arvore de Diretorio: `gerar-arvore-diretorios`",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/gerar-arvore-diretorios/dir.md",
+      "community": 999
+    },
+    {
+      "id": "md_dir_code_1",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/gerar-arvore-diretorios/dir.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_dir_h1_0",
+      "to": "md_dir_code_1",
+      "relation": "contains"
+    }
+  ]
+}

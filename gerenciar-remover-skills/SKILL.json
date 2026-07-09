@@ -1,0 +1,113 @@
+{
+  "source": "/root/.config/opencode/skills/gerenciar-remover-skills/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.809118",
+  "nodes": [
+    {
+      "id": "md_SKILL_h2_0",
+      "label": "What I do",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/gerenciar-remover-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Usage",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/gerenciar-remover-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "Para **remover**: digite o numero do skill",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/gerenciar-remover-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "Para **atualizar**: digite \"u\" seguido do numero (ex: u3)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/gerenciar-remover-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "Para **sair**: digite \"q\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/gerenciar-remover-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_5",
+      "label": "Acoes disponiveis",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/gerenciar-remover-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "**Remover skill**: Remove completamente o diretorio do skill",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/gerenciar-remover-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "**Atualizar skill**: Abre o skill para edicao no editor padrao",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/gerenciar-remover-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_8",
+      "label": "Comando",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/gerenciar-remover-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_9",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/gerenciar-remover-skills/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_8",
+      "to": "md_SKILL_code_9",
+      "relation": "contains"
+    }
+  ]
+}

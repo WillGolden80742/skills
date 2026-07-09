@@ -1,0 +1,245 @@
+{
+  "source": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.842994",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Skill: markdown-to-ast",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "O que faz",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "**Headers** (h1, h2, h3...) como nós de título",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "**Code blocks** como nós de código (com syntax highlighting info)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "**Lists** como nós de itens",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "**Links** como referências a outros nós",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "**Images** como nós de mídia",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_7",
+      "label": "Uso",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_8",
+      "label": "Converter todos os .md do projeto atual:",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_9",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_10",
+      "label": "Converter .md de um diretório específico:",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_11",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_12",
+      "label": "Converter e ver resultado:",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_13",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_14",
+      "label": "Flags",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_15",
+      "label": "Exemplo de output",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_16",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_17",
+      "label": "Integração com Graphify",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_18",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/markdown-to-ast/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_h3_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_8",
+      "to": "md_SKILL_code_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_h3_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_10",
+      "to": "md_SKILL_code_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_h3_12",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_12",
+      "to": "md_SKILL_code_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_15",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_code_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_17",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_17",
+      "to": "md_SKILL_code_18",
+      "relation": "contains"
+    }
+  ]
+}

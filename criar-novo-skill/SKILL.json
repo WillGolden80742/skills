@@ -1,0 +1,101 @@
+{
+  "source": "/root/.config/opencode/skills/criar-novo-skill/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.845077",
+  "nodes": [
+    {
+      "id": "md_SKILL_h2_0",
+      "label": "What I do",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-novo-skill/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Usage",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-novo-skill/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_2",
+      "label": "Estrutura de um Skill",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-novo-skill/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "**name**: nome interno do skill",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-novo-skill/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "**description**: descricao em uma linha do que o skill faz",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-novo-skill/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "**triggers**: array de palavras/frases que ativam o skill",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-novo-skill/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "**Conteudo**: documentacao de como executar o skill, inputs esperados e outputs",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/criar-novo-skill/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_7",
+      "label": "Comando",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/criar-novo-skill/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_8",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/criar-novo-skill/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_code_8",
+      "relation": "contains"
+    }
+  ]
+}

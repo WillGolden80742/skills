@@ -1,0 +1,237 @@
+{
+  "source": "/root/.config/opencode/skills/graphify/references/exports.md",
+  "generated_at": "2026-07-08T21:11:13.234517",
+  "nodes": [
+    {
+      "id": "md_exports_h1_0",
+      "label": "graphify reference: extra exports and benchmark",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/graphify/references/exports.md",
+      "community": 999
+    },
+    {
+      "id": "md_exports_h3_1",
+      "label": "Step 6b - Wiki (only if --wiki flag)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/references/exports.md",
+      "community": 999
+    },
+    {
+      "id": "md_exports_code_2",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/exports.md",
+      "community": 999
+    },
+    {
+      "id": "md_exports_h3_3",
+      "label": "Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/references/exports.md",
+      "community": 999
+    },
+    {
+      "id": "md_exports_code_4",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/exports.md",
+      "community": 999
+    },
+    {
+      "id": "md_exports_code_5",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/exports.md",
+      "community": 999
+    },
+    {
+      "id": "md_exports_h3_6",
+      "label": "Step 7a - FalkorDB export (only if --falkordb or --falkordb-push flag)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/references/exports.md",
+      "community": 999
+    },
+    {
+      "id": "md_exports_code_7",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/exports.md",
+      "community": 999
+    },
+    {
+      "id": "md_exports_code_8",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/exports.md",
+      "community": 999
+    },
+    {
+      "id": "md_exports_h3_9",
+      "label": "Step 7b - SVG export (only if --svg flag)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/references/exports.md",
+      "community": 999
+    },
+    {
+      "id": "md_exports_code_10",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/exports.md",
+      "community": 999
+    },
+    {
+      "id": "md_exports_h3_11",
+      "label": "Step 7c - GraphML export (only if --graphml flag)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/references/exports.md",
+      "community": 999
+    },
+    {
+      "id": "md_exports_code_12",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/exports.md",
+      "community": 999
+    },
+    {
+      "id": "md_exports_h3_13",
+      "label": "Step 7d - MCP server (only if --mcp flag)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/references/exports.md",
+      "community": 999
+    },
+    {
+      "id": "md_exports_code_14",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/exports.md",
+      "community": 999
+    },
+    {
+      "id": "md_exports_code_15",
+      "label": "Code: json",
+      "type": "code_block",
+      "language": "json",
+      "file": "/root/.config/opencode/skills/graphify/references/exports.md",
+      "community": 999
+    },
+    {
+      "id": "md_exports_h3_16",
+      "label": "Step 8 - Token reduction benchmark (only if total_words > 5000)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify/references/exports.md",
+      "community": 999
+    },
+    {
+      "id": "md_exports_code_17",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/exports.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_exports_h1_0",
+      "to": "md_exports_h3_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_exports_h3_1",
+      "to": "md_exports_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_exports_h1_0",
+      "to": "md_exports_h3_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_exports_h3_3",
+      "to": "md_exports_code_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_exports_h3_3",
+      "to": "md_exports_code_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_exports_h1_0",
+      "to": "md_exports_h3_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_exports_h3_6",
+      "to": "md_exports_code_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_exports_h3_6",
+      "to": "md_exports_code_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_exports_h1_0",
+      "to": "md_exports_h3_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_exports_h3_9",
+      "to": "md_exports_code_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_exports_h1_0",
+      "to": "md_exports_h3_11",
+      "relation": "section"
+    },
+    {
+      "from": "md_exports_h3_11",
+      "to": "md_exports_code_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_exports_h1_0",
+      "to": "md_exports_h3_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_exports_h3_13",
+      "to": "md_exports_code_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_exports_h3_13",
+      "to": "md_exports_code_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_exports_h1_0",
+      "to": "md_exports_h3_16",
+      "relation": "section"
+    },
+    {
+      "from": "md_exports_h3_16",
+      "to": "md_exports_code_17",
+      "relation": "contains"
+    }
+  ]
+}

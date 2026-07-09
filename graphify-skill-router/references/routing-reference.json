@@ -1,0 +1,708 @@
+{
+  "source": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+  "generated_at": "2026-07-08T21:11:12.814897",
+  "nodes": [
+    {
+      "id": "md_routing-reference_h1_0",
+      "label": "Graphify Skill Router - Reference",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h2_1",
+      "label": "Skill Directory",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h2_2",
+      "label": "Available Skills",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_3",
+      "label": "1. construir-artefatos-react",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_4",
+      "label": "2. construir-servidor-mcp",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_5",
+      "label": "3. criar-editar-apresentacao",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_6",
+      "label": "4. criar-editar-documento-word",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_7",
+      "label": "5. criar-editar-planilhas-excel",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_8",
+      "label": "6. criar-gifs-animados-slack",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_9",
+      "label": "7. criar-novo-skill",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_10",
+      "label": "8. delegar-tarefas",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_11",
+      "label": "9. gerenciar-remover-skills",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_12",
+      "label": "10. graphify",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_13",
+      "label": "11. graphify-skill-router",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_14",
+      "label": "12. mesclar-arquivos-diretorio",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_15",
+      "label": "13. gerar-arvore-diretorios",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_16",
+      "label": "14. comitar-alteracoes",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_17",
+      "label": "15. gerar-historico-commits",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_18",
+      "label": "16. recuperar-commits-salvos",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_19",
+      "label": "17. renomear-arquivos-referencias",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_20",
+      "label": "18. refatorar-css-variaveis",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_21",
+      "label": "19. reverter-css-variaveis",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_22",
+      "label": "20. boas-praticas-de-codigo",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_23",
+      "label": "21. aplicar-temas-cores-fontes",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_24",
+      "label": "22. design-interface-usuario",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_25",
+      "label": "23. design-visual-artistico",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_26",
+      "label": "24. placeholder-carregamento",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_27",
+      "label": "25. coautoria-documentacao-tecnica",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_28",
+      "label": "26. limpar-arquivos-dependencias",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_29",
+      "label": "27. buscar-grupos-whatsapp",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_30",
+      "label": "28. configurar-espelhamento-server",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_31",
+      "label": "29. testar-aplicacoes-web",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_32",
+      "label": "30. capturar-screenshot-paginas",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_33",
+      "label": "31. extrair-conteudo-paginas",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_34",
+      "label": "32. autenticar-github-device-flow",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_35",
+      "label": "33. arte-algoritmica-generativa",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_36",
+      "label": "34. processar-arquivos-pdf",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_37",
+      "label": "35. diretrizes-marca-anthropic",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_38",
+      "label": "36. comunicados-internos-empresa",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_39",
+      "label": "37. tema-marketplace-trokapay",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h3_40",
+      "label": "38. tema-app-relacionamento",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h2_41",
+      "label": "Routing Algorithm",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_code_42",
+      "label": "Code: javascript",
+      "type": "code_block",
+      "language": "javascript",
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h2_43",
+      "label": "Project Type Detection",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_list_44",
+      "label": "**WordPress Theme/Plugin**: presence of `style.css` header, `functions.php`, `wp",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_list_45",
+      "label": "**React App**: presence of `package.json` with react, `src/components/`, `jsx`/`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_list_46",
+      "label": "**Node.js**: presence of `package.json`, `node_modules/`, `npm` scripts",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_list_47",
+      "label": "**Python**: presence of `requirements.txt`, `setup.py`, `__init__.py`, `.py` fil",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_list_48",
+      "label": "**PHP**: presence of `composer.json`, `.php` files, Laravel/CodeIgniter patterns",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_list_49",
+      "label": "**Generic**: when no specific pattern is detected",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_h2_50",
+      "label": "Confidence Levels",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_list_51",
+      "label": "**high**: Exact keyword match (e.g., \"pdf\" → processar-arquivos-pdf)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_list_52",
+      "label": "**medium**: Partial match (e.g., \"create a pdf document\" → processar-arquivos-pd",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_list_53",
+      "label": "**low**: Project-type inference (e.g., WordPress project → tema-marketplace-trok",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    },
+    {
+      "id": "md_routing-reference_list_54",
+      "label": "**fallback**: No match → graphify for analysis",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify-skill-router/references/routing-reference.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_routing-reference_h1_0",
+      "to": "md_routing-reference_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h1_0",
+      "to": "md_routing-reference_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_11",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_12",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_15",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_16",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_17",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_18",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_19",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_20",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_21",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_22",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_23",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_24",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_25",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_26",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_27",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_28",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_29",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_30",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_31",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_32",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_33",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_34",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_35",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_36",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_37",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_38",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_39",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_2",
+      "to": "md_routing-reference_h3_40",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h1_0",
+      "to": "md_routing-reference_h2_41",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_41",
+      "to": "md_routing-reference_code_42",
+      "relation": "contains"
+    },
+    {
+      "from": "md_routing-reference_h1_0",
+      "to": "md_routing-reference_h2_43",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_43",
+      "to": "md_routing-reference_list_44",
+      "relation": "contains"
+    },
+    {
+      "from": "md_routing-reference_h2_43",
+      "to": "md_routing-reference_list_45",
+      "relation": "contains"
+    },
+    {
+      "from": "md_routing-reference_h2_43",
+      "to": "md_routing-reference_list_46",
+      "relation": "contains"
+    },
+    {
+      "from": "md_routing-reference_h2_43",
+      "to": "md_routing-reference_list_47",
+      "relation": "contains"
+    },
+    {
+      "from": "md_routing-reference_h2_43",
+      "to": "md_routing-reference_list_48",
+      "relation": "contains"
+    },
+    {
+      "from": "md_routing-reference_h2_43",
+      "to": "md_routing-reference_list_49",
+      "relation": "contains"
+    },
+    {
+      "from": "md_routing-reference_h1_0",
+      "to": "md_routing-reference_h2_50",
+      "relation": "section"
+    },
+    {
+      "from": "md_routing-reference_h2_50",
+      "to": "md_routing-reference_list_51",
+      "relation": "contains"
+    },
+    {
+      "from": "md_routing-reference_h2_50",
+      "to": "md_routing-reference_list_52",
+      "relation": "contains"
+    },
+    {
+      "from": "md_routing-reference_h2_50",
+      "to": "md_routing-reference_list_53",
+      "relation": "contains"
+    },
+    {
+      "from": "md_routing-reference_h2_50",
+      "to": "md_routing-reference_list_54",
+      "relation": "contains"
+    }
+  ]
+}

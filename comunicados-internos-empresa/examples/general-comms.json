@@ -1,0 +1,42 @@
+{
+  "source": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/general-comms.md",
+  "generated_at": "2026-07-08T21:11:12.830421",
+  "nodes": [
+    {
+      "id": "md_general-comms_list_0",
+      "label": "Be clear and concise",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/general-comms.md",
+      "community": 999
+    },
+    {
+      "id": "md_general-comms_list_1",
+      "label": "Use active voice",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/general-comms.md",
+      "community": 999
+    },
+    {
+      "id": "md_general-comms_list_2",
+      "label": "Put the most important information first",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/general-comms.md",
+      "community": 999
+    },
+    {
+      "id": "md_general-comms_list_3",
+      "label": "Include relevant links and references",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/general-comms.md",
+      "community": 999
+    },
+    {
+      "id": "md_general-comms_list_4",
+      "label": "Match the company's communication style",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/general-comms.md",
+      "community": 999
+    }
+  ],
+  "edges": []
+}

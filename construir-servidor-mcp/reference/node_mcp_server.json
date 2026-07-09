@@ -1,0 +1,1805 @@
+{
+  "source": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+  "generated_at": "2026-07-08T21:11:12.823760",
+  "nodes": [
+    {
+      "id": "md_node_mcp_server_h1_0",
+      "label": "Node/TypeScript MCP Server Implementation Guide",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_1",
+      "label": "Overview",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_2",
+      "label": "Quick Reference",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h3_3",
+      "label": "Key Imports",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_4",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h3_5",
+      "label": "Server Initialization",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_6",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h3_7",
+      "label": "Tool Registration Pattern",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_8",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_9",
+      "label": "MCP TypeScript SDK",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_10",
+      "label": "`McpServer` class for server initialization",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_11",
+      "label": "`registerTool` method for tool registration",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_12",
+      "label": "Zod schema integration for runtime input validation",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_13",
+      "label": "Type-safe tool handler implementations",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_14",
+      "label": "**DO use**: `server.registerTool()`, `server.registerResource()`, `server.regist",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_15",
+      "label": "**DO NOT use**: Old deprecated APIs such as `server.tool()`, `server.setRequestH",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_16",
+      "label": "The `register*` methods provide better type safety, automatic schema handling, a",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_17",
+      "label": "Server Naming Convention",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_18",
+      "label": "**Format**: `{service}-mcp-server` (lowercase with hyphens)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_19",
+      "label": "**Examples**: `github-mcp-server`, `jira-mcp-server`, `stripe-mcp-server`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_20",
+      "label": "General (not tied to specific features)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_21",
+      "label": "Descriptive of the service/API being integrated",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_22",
+      "label": "Easy to infer from the task description",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_23",
+      "label": "Without version numbers or dates",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_24",
+      "label": "Project Structure",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_25",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_26",
+      "label": "Tool Implementation",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h3_27",
+      "label": "Tool Naming",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_28",
+      "label": "Use \"slack_send_message\" instead of just \"send_message\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_29",
+      "label": "Use \"github_create_issue\" instead of just \"create_issue\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_30",
+      "label": "Use \"asana_list_tasks\" instead of just \"list_tasks\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h3_31",
+      "label": "Tool Structure",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_32",
+      "label": "Use Zod schemas for runtime input validation and type safety",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_33",
+      "label": "The `description` field must be explicitly provided - JSDoc comments are NOT aut",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_34",
+      "label": "Explicitly provide `title`, `description`, `inputSchema`, and `annotations`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_35",
+      "label": "The `inputSchema` must be a Zod schema object (not a JSON schema)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_36",
+      "label": "Type all parameters and return values explicitly",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_37",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_38",
+      "label": "Zod Schemas for Input Validation",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_39",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_40",
+      "label": "Response Format Options",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_41",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_42",
+      "label": "Use headers, lists, and formatting for clarity",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_43",
+      "label": "Convert timestamps to human-readable format",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_44",
+      "label": "Show display names with IDs in parentheses",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_45",
+      "label": "Omit verbose metadata",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_46",
+      "label": "Group related information logically",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_47",
+      "label": "Return complete, structured data suitable for programmatic processing",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_48",
+      "label": "Include all available fields and metadata",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_49",
+      "label": "Use consistent field names and types",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_50",
+      "label": "Pagination Implementation",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_51",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_52",
+      "label": "Character Limits and Truncation",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_53",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_54",
+      "label": "Error Handling",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_55",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_56",
+      "label": "Shared Utilities",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_57",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_58",
+      "label": "Async/Await Best Practices",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_59",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_60",
+      "label": "TypeScript Best Practices",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_61",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_62",
+      "label": "Package Configuration",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h3_63",
+      "label": "package.json",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_64",
+      "label": "Code: json",
+      "type": "code_block",
+      "language": "json",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h3_65",
+      "label": "tsconfig.json",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_66",
+      "label": "Code: json",
+      "type": "code_block",
+      "language": "json",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_67",
+      "label": "Complete Example",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_68",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_69",
+      "label": "Advanced MCP Features",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h3_70",
+      "label": "Resource Registration",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_71",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_72",
+      "label": "**Resources**: For data access with simple URI-based parameters",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_73",
+      "label": "**Tools**: For complex operations requiring validation and business logic",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_74",
+      "label": "**Resources**: When data is relatively static or template-based",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_75",
+      "label": "**Tools**: When operations have side effects or complex workflows",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h3_76",
+      "label": "Transport Options",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h4_77",
+      "label": "Streamable HTTP (Recommended for Remote Servers)",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_78",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h4_79",
+      "label": "stdio (For Local Integrations)",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_80",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_81",
+      "label": "**Streamable HTTP**: Web services, remote access, multiple clients",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_82",
+      "label": "**stdio**: Command-line tools, local development, subprocess integration",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h3_83",
+      "label": "Notification Support",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_84",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_85",
+      "label": "Code Best Practices",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h3_86",
+      "label": "Code Composability and Reusability",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_87",
+      "label": "Create reusable helper functions for operations used across multiple tools",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_88",
+      "label": "Build shared API clients for HTTP requests instead of duplicating code",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_89",
+      "label": "Centralize error handling logic in utility functions",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_90",
+      "label": "Extract business logic into dedicated functions that can be composed",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_91",
+      "label": "Extract shared markdown or JSON field selection & formatting functionality",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_92",
+      "label": "NEVER copy-paste similar code between tools",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_93",
+      "label": "If you find yourself writing similar logic twice, extract it into a function",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_94",
+      "label": "Common operations like pagination, filtering, field selection, and formatting sh",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_95",
+      "label": "Authentication/authorization logic should be centralized",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_96",
+      "label": "Building and Running",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_code_97",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h2_98",
+      "label": "Quality Checklist",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h3_99",
+      "label": "Strategic Design",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_100",
+      "label": "[ ] Tools enable complete workflows, not just API endpoint wrappers",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_101",
+      "label": "[ ] Tool names reflect natural task subdivisions",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_102",
+      "label": "[ ] Response formats optimize for agent context efficiency",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_103",
+      "label": "[ ] Human-readable identifiers used where appropriate",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_104",
+      "label": "[ ] Error messages guide agents toward correct usage",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h3_105",
+      "label": "Implementation Quality",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_106",
+      "label": "[ ] FOCUSED IMPLEMENTATION: Most important and valuable tools implemented",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_107",
+      "label": "[ ] All tools registered using `registerTool` with complete configuration",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_108",
+      "label": "[ ] All tools include `title`, `description`, `inputSchema`, and `annotations`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_109",
+      "label": "[ ] Annotations correctly set (readOnlyHint, destructiveHint, idempotentHint, op",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_110",
+      "label": "[ ] All tools use Zod schemas for runtime input validation with `.strict()` enfo",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_111",
+      "label": "[ ] All Zod schemas have proper constraints and descriptive error messages",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_112",
+      "label": "[ ] All tools have comprehensive descriptions with explicit input/output types",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_113",
+      "label": "[ ] Descriptions include return value examples and complete schema documentation",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_114",
+      "label": "[ ] Error messages are clear, actionable, and educational",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h3_115",
+      "label": "TypeScript Quality",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_116",
+      "label": "[ ] TypeScript interfaces are defined for all data structures",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_117",
+      "label": "[ ] Strict TypeScript is enabled in tsconfig.json",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_118",
+      "label": "[ ] No use of `any` type - use `unknown` or proper types instead",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_119",
+      "label": "[ ] All async functions have explicit Promise<T> return types",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_120",
+      "label": "[ ] Error handling uses proper type guards (e.g., `axios.isAxiosError`, `z.ZodEr",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h3_121",
+      "label": "Advanced Features (where applicable)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_122",
+      "label": "[ ] Resources registered for appropriate data endpoints",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_123",
+      "label": "[ ] Appropriate transport configured (stdio or streamable HTTP)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_124",
+      "label": "[ ] Notifications implemented for dynamic server capabilities",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_125",
+      "label": "[ ] Type-safe with SDK interfaces",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h3_126",
+      "label": "Project Configuration",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_127",
+      "label": "[ ] Package.json includes all necessary dependencies",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_128",
+      "label": "[ ] Build script produces working JavaScript in dist/ directory",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_129",
+      "label": "[ ] Main entry point is properly configured as dist/index.js",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_130",
+      "label": "[ ] Server name follows format: `{service}-mcp-server`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_131",
+      "label": "[ ] tsconfig.json properly configured with strict mode",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h3_132",
+      "label": "Code Quality",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_133",
+      "label": "[ ] Pagination is properly implemented where applicable",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_134",
+      "label": "[ ] Large responses check CHARACTER_LIMIT constant and truncate with clear messa",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_135",
+      "label": "[ ] Filtering options are provided for potentially large result sets",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_136",
+      "label": "[ ] All network operations handle timeouts and connection errors gracefully",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_137",
+      "label": "[ ] Common functionality is extracted into reusable functions",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_138",
+      "label": "[ ] Return types are consistent across similar operations",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_h3_139",
+      "label": "Testing and Build",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_140",
+      "label": "[ ] `npm run build` completes successfully without errors",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_141",
+      "label": "[ ] dist/index.js created and executable",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_142",
+      "label": "[ ] Server runs: `node dist/index.js --help`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_143",
+      "label": "[ ] All imports resolve correctly",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    },
+    {
+      "id": "md_node_mcp_server_list_144",
+      "label": "[ ] Sample tool calls work as expected",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/node_mcp_server.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_2",
+      "to": "md_node_mcp_server_h3_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h3_3",
+      "to": "md_node_mcp_server_code_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_2",
+      "to": "md_node_mcp_server_h3_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h3_5",
+      "to": "md_node_mcp_server_code_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_2",
+      "to": "md_node_mcp_server_h3_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h3_7",
+      "to": "md_node_mcp_server_code_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_9",
+      "to": "md_node_mcp_server_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_9",
+      "to": "md_node_mcp_server_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_9",
+      "to": "md_node_mcp_server_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_9",
+      "to": "md_node_mcp_server_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_9",
+      "to": "md_node_mcp_server_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_9",
+      "to": "md_node_mcp_server_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_9",
+      "to": "md_node_mcp_server_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_17",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_17",
+      "to": "md_node_mcp_server_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_17",
+      "to": "md_node_mcp_server_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_17",
+      "to": "md_node_mcp_server_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_17",
+      "to": "md_node_mcp_server_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_17",
+      "to": "md_node_mcp_server_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_17",
+      "to": "md_node_mcp_server_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_24",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_24",
+      "to": "md_node_mcp_server_code_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_26",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_26",
+      "to": "md_node_mcp_server_h3_27",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h3_27",
+      "to": "md_node_mcp_server_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_27",
+      "to": "md_node_mcp_server_list_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_27",
+      "to": "md_node_mcp_server_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_26",
+      "to": "md_node_mcp_server_h3_31",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h3_31",
+      "to": "md_node_mcp_server_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_31",
+      "to": "md_node_mcp_server_list_33",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_31",
+      "to": "md_node_mcp_server_list_34",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_31",
+      "to": "md_node_mcp_server_list_35",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_31",
+      "to": "md_node_mcp_server_list_36",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_31",
+      "to": "md_node_mcp_server_code_37",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_38",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_38",
+      "to": "md_node_mcp_server_code_39",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_40",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_40",
+      "to": "md_node_mcp_server_code_41",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_40",
+      "to": "md_node_mcp_server_list_42",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_40",
+      "to": "md_node_mcp_server_list_43",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_40",
+      "to": "md_node_mcp_server_list_44",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_40",
+      "to": "md_node_mcp_server_list_45",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_40",
+      "to": "md_node_mcp_server_list_46",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_40",
+      "to": "md_node_mcp_server_list_47",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_40",
+      "to": "md_node_mcp_server_list_48",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_40",
+      "to": "md_node_mcp_server_list_49",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_50",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_50",
+      "to": "md_node_mcp_server_code_51",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_52",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_52",
+      "to": "md_node_mcp_server_code_53",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_54",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_54",
+      "to": "md_node_mcp_server_code_55",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_56",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_56",
+      "to": "md_node_mcp_server_code_57",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_58",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_58",
+      "to": "md_node_mcp_server_code_59",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_60",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_60",
+      "to": "md_node_mcp_server_code_61",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_62",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_62",
+      "to": "md_node_mcp_server_h3_63",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h3_63",
+      "to": "md_node_mcp_server_code_64",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_62",
+      "to": "md_node_mcp_server_h3_65",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h3_65",
+      "to": "md_node_mcp_server_code_66",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_67",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_67",
+      "to": "md_node_mcp_server_code_68",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_69",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_69",
+      "to": "md_node_mcp_server_h3_70",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h3_70",
+      "to": "md_node_mcp_server_code_71",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_70",
+      "to": "md_node_mcp_server_list_72",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_70",
+      "to": "md_node_mcp_server_list_73",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_70",
+      "to": "md_node_mcp_server_list_74",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_70",
+      "to": "md_node_mcp_server_list_75",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_69",
+      "to": "md_node_mcp_server_h3_76",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h3_76",
+      "to": "md_node_mcp_server_h4_77",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h4_77",
+      "to": "md_node_mcp_server_code_78",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_76",
+      "to": "md_node_mcp_server_h4_79",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h4_79",
+      "to": "md_node_mcp_server_code_80",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h4_79",
+      "to": "md_node_mcp_server_list_81",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h4_79",
+      "to": "md_node_mcp_server_list_82",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_69",
+      "to": "md_node_mcp_server_h3_83",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h3_83",
+      "to": "md_node_mcp_server_code_84",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_85",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_85",
+      "to": "md_node_mcp_server_h3_86",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h3_86",
+      "to": "md_node_mcp_server_list_87",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_86",
+      "to": "md_node_mcp_server_list_88",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_86",
+      "to": "md_node_mcp_server_list_89",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_86",
+      "to": "md_node_mcp_server_list_90",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_86",
+      "to": "md_node_mcp_server_list_91",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_86",
+      "to": "md_node_mcp_server_list_92",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_86",
+      "to": "md_node_mcp_server_list_93",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_86",
+      "to": "md_node_mcp_server_list_94",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_86",
+      "to": "md_node_mcp_server_list_95",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_96",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_96",
+      "to": "md_node_mcp_server_code_97",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h1_0",
+      "to": "md_node_mcp_server_h2_98",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h2_98",
+      "to": "md_node_mcp_server_h3_99",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h3_99",
+      "to": "md_node_mcp_server_list_100",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_99",
+      "to": "md_node_mcp_server_list_101",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_99",
+      "to": "md_node_mcp_server_list_102",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_99",
+      "to": "md_node_mcp_server_list_103",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_99",
+      "to": "md_node_mcp_server_list_104",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_98",
+      "to": "md_node_mcp_server_h3_105",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h3_105",
+      "to": "md_node_mcp_server_list_106",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_105",
+      "to": "md_node_mcp_server_list_107",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_105",
+      "to": "md_node_mcp_server_list_108",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_105",
+      "to": "md_node_mcp_server_list_109",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_105",
+      "to": "md_node_mcp_server_list_110",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_105",
+      "to": "md_node_mcp_server_list_111",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_105",
+      "to": "md_node_mcp_server_list_112",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_105",
+      "to": "md_node_mcp_server_list_113",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_105",
+      "to": "md_node_mcp_server_list_114",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_98",
+      "to": "md_node_mcp_server_h3_115",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h3_115",
+      "to": "md_node_mcp_server_list_116",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_115",
+      "to": "md_node_mcp_server_list_117",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_115",
+      "to": "md_node_mcp_server_list_118",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_115",
+      "to": "md_node_mcp_server_list_119",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_115",
+      "to": "md_node_mcp_server_list_120",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_98",
+      "to": "md_node_mcp_server_h3_121",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h3_121",
+      "to": "md_node_mcp_server_list_122",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_121",
+      "to": "md_node_mcp_server_list_123",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_121",
+      "to": "md_node_mcp_server_list_124",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_121",
+      "to": "md_node_mcp_server_list_125",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_98",
+      "to": "md_node_mcp_server_h3_126",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h3_126",
+      "to": "md_node_mcp_server_list_127",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_126",
+      "to": "md_node_mcp_server_list_128",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_126",
+      "to": "md_node_mcp_server_list_129",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_126",
+      "to": "md_node_mcp_server_list_130",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_126",
+      "to": "md_node_mcp_server_list_131",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_98",
+      "to": "md_node_mcp_server_h3_132",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h3_132",
+      "to": "md_node_mcp_server_list_133",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_132",
+      "to": "md_node_mcp_server_list_134",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_132",
+      "to": "md_node_mcp_server_list_135",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_132",
+      "to": "md_node_mcp_server_list_136",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_132",
+      "to": "md_node_mcp_server_list_137",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_132",
+      "to": "md_node_mcp_server_list_138",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h2_98",
+      "to": "md_node_mcp_server_h3_139",
+      "relation": "section"
+    },
+    {
+      "from": "md_node_mcp_server_h3_139",
+      "to": "md_node_mcp_server_list_140",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_139",
+      "to": "md_node_mcp_server_list_141",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_139",
+      "to": "md_node_mcp_server_list_142",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_139",
+      "to": "md_node_mcp_server_list_143",
+      "relation": "contains"
+    },
+    {
+      "from": "md_node_mcp_server_h3_139",
+      "to": "md_node_mcp_server_list_144",
+      "relation": "contains"
+    }
+  ]
+}

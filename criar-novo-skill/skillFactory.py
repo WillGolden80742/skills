@@ -1,7 +1,23 @@
 import os
 import sys
+import subprocess
 
 SKILLS_DIR = os.path.expanduser("~/.config/opencode/skills")
+MD_TO_AST_SCRIPT = os.path.join(SKILLS_DIR, "markdown-to-ast", "md_to_ast.py")
+
+
+def run_md_to_ast(file_path: str):
+    """Roda o script md_to_ast.py para um arquivo específico."""
+    try:
+        result = subprocess.run(
+            ["python3", MD_TO_AST_SCRIPT, "--path", file_path, "--dry-run"],
+            capture_output=True,
+            text=True
+        )
+        return result.returncode == 0, result.stdout, result.stderr
+    except Exception as e:
+        return False, "", str(e)
+
 
 def main():
     print("=== Skill Factory - Criador de Skills ===\n")
@@ -42,7 +58,30 @@ def main():
         f.write(content)
         f.write("\n")
 
-    print(f"\nSkill criada com sucesso em: {skill_file}")
+    print(f"\nSkill criada: {skill_file}")
+
+    # Rodar md_to_ast.py para extrair AST
+    print("\nExtraindo AST do markdown...")
+    try:
+        result = subprocess.run(
+            ["python3", MD_TO_AST_SCRIPT, "--path", skill_file, "--verbose"],
+            capture_output=True,
+            text=True,
+            timeout=30
+        )
+        if result.returncode == 0:
+            print(result.stdout)
+            print(f"\nAST gerado com sucesso!")
+        else:
+            print(f"Erro ao gerar AST: {result.stderr}")
+    except subprocess.TimeoutExpired:
+        print("Timeout ao gerar AST")
+    except Exception as e:
+        print(f"Erro: {e}")
+
+    print("\nPara atualizar o grafo global:")
+    print(f"  graphify update {SKILLS_DIR}")
+
 
 if __name__ == "__main__":
     main()

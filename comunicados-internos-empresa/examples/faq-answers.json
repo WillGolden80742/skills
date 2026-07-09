@@ -1,0 +1,192 @@
+{
+  "source": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/faq-answers.md",
+  "generated_at": "2026-07-08T21:11:12.829139",
+  "nodes": [
+    {
+      "id": "md_faq-answers_h2_0",
+      "label": "Instructions",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/faq-answers.md",
+      "community": 999
+    },
+    {
+      "id": "md_faq-answers_list_1",
+      "label": "Find questions that are big sources of confusion for lots of employees at the co",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/faq-answers.md",
+      "community": 999
+    },
+    {
+      "id": "md_faq-answers_list_2",
+      "label": "Attempt to give a nice summarized answer to that question in order to minimize c",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/faq-answers.md",
+      "community": 999
+    },
+    {
+      "id": "md_faq-answers_h2_3",
+      "label": "Tools Available",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/faq-answers.md",
+      "community": 999
+    },
+    {
+      "id": "md_faq-answers_list_4",
+      "label": "Slack: questions being asked across the company - it could be questions in respo",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/faq-answers.md",
+      "community": 999
+    },
+    {
+      "id": "md_faq-answers_list_5",
+      "label": "Email: emails with FAQs written directly in them can be a good source as well",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/faq-answers.md",
+      "community": 999
+    },
+    {
+      "id": "md_faq-answers_list_6",
+      "label": "Documents: docs in places like Google Drive, linked on calendar events, etc. can",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/faq-answers.md",
+      "community": 999
+    },
+    {
+      "id": "md_faq-answers_h2_7",
+      "label": "Formatting",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/faq-answers.md",
+      "community": 999
+    },
+    {
+      "id": "md_faq-answers_list_8",
+      "label": "*Question*: [insert question - 1 sentence]",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/faq-answers.md",
+      "community": 999
+    },
+    {
+      "id": "md_faq-answers_list_9",
+      "label": "*Answer*: [insert answer - 1-2 sentence]",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/faq-answers.md",
+      "community": 999
+    },
+    {
+      "id": "md_faq-answers_h2_10",
+      "label": "Guidance",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/faq-answers.md",
+      "community": 999
+    },
+    {
+      "id": "md_faq-answers_h2_11",
+      "label": "Answer Guidelines",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/faq-answers.md",
+      "community": 999
+    },
+    {
+      "id": "md_faq-answers_list_12",
+      "label": "Base answers on official company communications when possible",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/faq-answers.md",
+      "community": 999
+    },
+    {
+      "id": "md_faq-answers_list_13",
+      "label": "If information is uncertain, indicate that clearly",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/faq-answers.md",
+      "community": 999
+    },
+    {
+      "id": "md_faq-answers_list_14",
+      "label": "Link to authoritative sources (docs, announcements, emails)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/faq-answers.md",
+      "community": 999
+    },
+    {
+      "id": "md_faq-answers_list_15",
+      "label": "Keep tone professional but approachable",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/faq-answers.md",
+      "community": 999
+    },
+    {
+      "id": "md_faq-answers_list_16",
+      "label": "Flag if a question requires executive input or official response",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/comunicados-internos-empresa/examples/faq-answers.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_faq-answers_h2_0",
+      "to": "md_faq-answers_list_1",
+      "relation": "contains"
+    },
+    {
+      "from": "md_faq-answers_h2_0",
+      "to": "md_faq-answers_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_faq-answers_h2_3",
+      "to": "md_faq-answers_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_faq-answers_h2_3",
+      "to": "md_faq-answers_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_faq-answers_h2_3",
+      "to": "md_faq-answers_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_faq-answers_h2_7",
+      "to": "md_faq-answers_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_faq-answers_h2_7",
+      "to": "md_faq-answers_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_faq-answers_h2_11",
+      "to": "md_faq-answers_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_faq-answers_h2_11",
+      "to": "md_faq-answers_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_faq-answers_h2_11",
+      "to": "md_faq-answers_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_faq-answers_h2_11",
+      "to": "md_faq-answers_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_faq-answers_h2_11",
+      "to": "md_faq-answers_list_16",
+      "relation": "contains"
+    }
+  ]
+}

@@ -1,0 +1,2857 @@
+{
+  "source": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+  "generated_at": "2026-07-08T21:11:12.820903",
+  "nodes": [
+    {
+      "id": "md_evaluation_h1_0",
+      "label": "MCP Server Evaluation Guide",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h2_1",
+      "label": "Overview",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h2_2",
+      "label": "Quick Reference",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_3",
+      "label": "Evaluation Requirements",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_4",
+      "label": "Create 10 human-readable questions",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_5",
+      "label": "Questions must be READ-ONLY, INDEPENDENT, NON-DESTRUCTIVE",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_6",
+      "label": "Each question requires multiple tool calls (potentially dozens)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_7",
+      "label": "Answers must be single, verifiable values",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_8",
+      "label": "Answers must be STABLE (won't change over time)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_9",
+      "label": "Output Format",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_10",
+      "label": "Code: xml",
+      "type": "code_block",
+      "language": "xml",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h2_11",
+      "label": "Purpose of Evaluations",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h2_12",
+      "label": "Evaluation Overview",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_13",
+      "label": "Realistic",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_14",
+      "label": "Clear and concise",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_15",
+      "label": "Unambiguous",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_16",
+      "label": "Complex, requiring potentially dozens of tool calls or steps",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_17",
+      "label": "Answerable with a single, verifiable value that you identify in advance",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h2_18",
+      "label": "Question Guidelines",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_19",
+      "label": "Core Requirements",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_20",
+      "label": "Each question should NOT depend on the answer to any other question",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_21",
+      "label": "Should not assume prior write operations from processing another question",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_22",
+      "label": "Should not instruct or require modifying state to arrive at the correct answer",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_23",
+      "label": "Must require another LLM to use multiple (potentially dozens of) tools or steps ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_24",
+      "label": "Complexity and Depth",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_25",
+      "label": "Consider multi-hop questions requiring multiple sub-questions and sequential too",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_26",
+      "label": "Each step should benefit from information found in previous questions",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_27",
+      "label": "May need paging through multiple pages of results",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_28",
+      "label": "May require querying old data (1-2 years out-of-date) to find niche information",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_29",
+      "label": "The questions must be DIFFICULT",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_30",
+      "label": "Rather than surface-level knowledge",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_31",
+      "label": "May pose complex ideas as True/False questions requiring evidence",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_32",
+      "label": "May use multiple-choice format where LLM must search different hypotheses",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_33",
+      "label": "Do not include specific keywords from the target content",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_34",
+      "label": "Use synonyms, related concepts, or paraphrases",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_35",
+      "label": "Require multiple searches, analyzing multiple related items, extracting context,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_36",
+      "label": "Tool Testing",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_37",
+      "label": "May elicit tools returning large JSON objects or lists, overwhelming the LLM",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_38",
+      "label": "Should require understanding multiple modalities of data:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_39",
+      "label": "IDs and names",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_40",
+      "label": "Timestamps and datetimes (months, days, years, seconds)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_41",
+      "label": "File IDs, names, extensions, and mimetypes",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_42",
+      "label": "URLs, GIDs, etc.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_43",
+      "label": "Should probe the tool's ability to return all useful forms of data",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_44",
+      "label": "The kinds of information retrieval tasks that HUMANS assisted by an LLM would ca",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_45",
+      "label": "This challenges LLMs with limited context",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_46",
+      "label": "Encourages MCP server tools to reduce information returned",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_47",
+      "label": "May be ambiguous OR require difficult decisions on which tools to call",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_48",
+      "label": "Force the LLM to potentially make mistakes or misinterpret",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_49",
+      "label": "Ensure that despite AMBIGUITY, there is STILL A SINGLE VERIFIABLE ANSWER",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_50",
+      "label": "Stability",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_51",
+      "label": "Do not ask questions that rely on \"current state\" which is dynamic",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_52",
+      "label": "For example, do not count:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_53",
+      "label": "Number of reactions to a post",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_54",
+      "label": "Number of replies to a thread",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_55",
+      "label": "Number of members in a channel",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_56",
+      "label": "Create challenging and complex questions",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_57",
+      "label": "Some may not be solvable with the available MCP server tools",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_58",
+      "label": "Questions may require specific output formats (datetime vs. epoch time, JSON vs.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_59",
+      "label": "Questions may require dozens of tool calls to complete",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h2_60",
+      "label": "Answer Guidelines",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_61",
+      "label": "Verification",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_62",
+      "label": "If the answer can be re-written in many formats, clearly specify the output form",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_63",
+      "label": "Examples: \"Use YYYY/MM/DD.\", \"Respond True or False.\", \"Answer A, B, C, or D and",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_64",
+      "label": "Answer should be a single VERIFIABLE value such as:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_65",
+      "label": "User ID, user name, display name, first name, last name",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_66",
+      "label": "Channel ID, channel name",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_67",
+      "label": "Message ID, string",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_68",
+      "label": "URL, title",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_69",
+      "label": "Numerical quantity",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_70",
+      "label": "Timestamp, datetime",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_71",
+      "label": "Boolean (for True/False questions)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_72",
+      "label": "Email address, phone number",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_73",
+      "label": "File ID, file name, file extension",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_74",
+      "label": "Multiple choice answer",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_75",
+      "label": "Answers must not require special formatting or complex, structured output",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_76",
+      "label": "Answer will be verified using DIRECT STRING COMPARISON",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_77",
+      "label": "Readability",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_78",
+      "label": "Examples: names, first name, last name, datetime, file name, message string, URL",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_79",
+      "label": "Rather than opaque IDs (though IDs are acceptable)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_80",
+      "label": "The VAST MAJORITY of answers should be human-readable",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_81",
+      "label": "Stability",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_82",
+      "label": "Look at old content (e.g., conversations that have ended, projects that have lau",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_83",
+      "label": "Create QUESTIONS based on \"closed\" concepts that will always return the same ans",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_84",
+      "label": "Questions may ask to consider a fixed time window to insulate from non-stationar",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_85",
+      "label": "Rely on context UNLIKELY to change",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_86",
+      "label": "Example: if finding a paper name, be SPECIFIC enough so answer is not confused w",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_87",
+      "label": "Questions must be designed so there is a single, clear answer",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_88",
+      "label": "Answer can be derived from using the MCP server tools",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_89",
+      "label": "Diversity",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_90",
+      "label": "Answer should be a single VERIFIABLE value in diverse modalities and formats",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_91",
+      "label": "User concept: user ID, user name, display name, first name, last name, email add",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_92",
+      "label": "Channel concept: channel ID, channel name, channel topic",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_93",
+      "label": "Message concept: message ID, message string, timestamp, month, day, year",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_94",
+      "label": "Not a list of values",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_95",
+      "label": "Not a complex object",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_96",
+      "label": "Not a list of IDs or strings",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_97",
+      "label": "Not natural language text",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_98",
+      "label": "UNLESS the answer can be straightforwardly verified using DIRECT STRING COMPARIS",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_99",
+      "label": "And can be realistically reproduced",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_100",
+      "label": "It should be unlikely that an LLM would return the same list in any other order ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h2_101",
+      "label": "Evaluation Process",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_102",
+      "label": "Step 1: Documentation Inspection",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_103",
+      "label": "Available endpoints and functionality",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_104",
+      "label": "If ambiguity exists, fetch additional information from the web",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_105",
+      "label": "Parallelize this step AS MUCH AS POSSIBLE",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_106",
+      "label": "Ensure each subagent is ONLY examining documentation from the file system or on ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_107",
+      "label": "Step 2: Tool Inspection",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_108",
+      "label": "Inspect the MCP server directly",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_109",
+      "label": "Understand input/output schemas, docstrings, and descriptions",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_110",
+      "label": "WITHOUT calling the tools themselves at this stage",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_111",
+      "label": "Step 3: Developing Understanding",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_112",
+      "label": "Iterate multiple times",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_113",
+      "label": "Think about the kinds of tasks you want to create",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_114",
+      "label": "Refine your understanding",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_115",
+      "label": "At NO stage should you READ the code of the MCP server implementation itself",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_116",
+      "label": "Use your intuition and understanding to create reasonable, realistic, but VERY c",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_117",
+      "label": "Step 4: Read-Only Content Inspection",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_118",
+      "label": "Inspect content using READ-ONLY and NON-DESTRUCTIVE operations ONLY",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_119",
+      "label": "Goal: identify specific content (e.g., users, channels, messages, projects, task",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_120",
+      "label": "Should NOT call any tools that modify state",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_121",
+      "label": "Will NOT read the code of the MCP server implementation itself",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_122",
+      "label": "Parallelize this step with individual sub-agents pursuing independent exploratio",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_123",
+      "label": "Ensure each subagent is only performing READ-ONLY, NON-DESTRUCTIVE, and IDEMPOTE",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_124",
+      "label": "BE CAREFUL: SOME TOOLS may return LOTS OF DATA which would cause you to run out ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_125",
+      "label": "Make INCREMENTAL, SMALL, AND TARGETED tool calls for exploration",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_126",
+      "label": "In all tool call requests, use the `limit` parameter to limit results (<10)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_127",
+      "label": "Use pagination",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_128",
+      "label": "Step 5: Task Generation",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_129",
+      "label": "An LLM should be able to answer these with the MCP server",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_130",
+      "label": "Follow all question and answer guidelines above",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h2_131",
+      "label": "Output Format",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_132",
+      "label": "Code: xml",
+      "type": "code_block",
+      "language": "xml",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h2_133",
+      "label": "Evaluation Examples",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_134",
+      "label": "Good Questions",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_135",
+      "label": "Code: xml",
+      "type": "code_block",
+      "language": "xml",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_136",
+      "label": "Requires multiple searches to find archived repositories",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_137",
+      "label": "Needs to identify which had the most forks before archival",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_138",
+      "label": "Requires examining repository details for the language",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_139",
+      "label": "Answer is a simple, verifiable value",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_140",
+      "label": "Based on historical (closed) data that won't change",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_141",
+      "label": "Code: xml",
+      "type": "code_block",
+      "language": "xml",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_142",
+      "label": "Doesn't use specific project name (\"initiative focused on improving customer onb",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_143",
+      "label": "Requires finding completed projects from specific timeframe",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_144",
+      "label": "Needs to identify the project lead and their role",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_145",
+      "label": "Requires understanding context from retrospective documents",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_146",
+      "label": "Answer is human-readable and stable",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_147",
+      "label": "Based on completed work (won't change)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_148",
+      "label": "Code: xml",
+      "type": "code_block",
+      "language": "xml",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_149",
+      "label": "Requires filtering bugs by date, priority, and status",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_150",
+      "label": "Needs to group by assignee and calculate resolution rates",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_151",
+      "label": "Requires understanding timestamps to determine 48-hour windows",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_152",
+      "label": "Tests pagination (potentially many bugs to process)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_153",
+      "label": "Answer is a single username",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_154",
+      "label": "Based on historical data from specific time period",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_155",
+      "label": "Code: xml",
+      "type": "code_block",
+      "language": "xml",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_156",
+      "label": "Requires understanding subscription tier changes",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_157",
+      "label": "Needs to identify upgrade events in specific timeframe",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_158",
+      "label": "Requires comparing contract values",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_159",
+      "label": "Must access account industry information",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_160",
+      "label": "Answer is simple and verifiable",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_161",
+      "label": "Based on completed historical transactions",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_162",
+      "label": "Poor Questions",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_163",
+      "label": "Code: xml",
+      "type": "code_block",
+      "language": "xml",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_164",
+      "label": "The answer will change as issues are created, closed, or reassigned",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_165",
+      "label": "Not based on stable/stationary data",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_166",
+      "label": "Relies on \"current state\" which is dynamic",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_167",
+      "label": "Code: xml",
+      "type": "code_block",
+      "language": "xml",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_168",
+      "label": "Can be solved with a straightforward keyword search for exact title",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_169",
+      "label": "Doesn't require deep exploration or understanding",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_170",
+      "label": "No synthesis or analysis needed",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_171",
+      "label": "Code: xml",
+      "type": "code_block",
+      "language": "xml",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_172",
+      "label": "Answer is a list that could be returned in any order",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_173",
+      "label": "Difficult to verify with direct string comparison",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_174",
+      "label": "LLM might format differently (JSON array, comma-separated, newline-separated)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_175",
+      "label": "Better to ask for a specific aggregate (count) or superlative (most stars)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h2_176",
+      "label": "Verification Process",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h2_177",
+      "label": "Tips for Creating Quality Evaluations",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h1_178",
+      "label": "Running Evaluations",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h2_179",
+      "label": "Setup",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h2_180",
+      "label": "Evaluation File Format",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_181",
+      "label": "Code: xml",
+      "type": "code_block",
+      "language": "xml",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h2_182",
+      "label": "Running Evaluations",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_183",
+      "label": "**stdio transport**: The evaluation script automatically launches and manages th",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_184",
+      "label": "**sse/http transports**: You must start the MCP server separately before running",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_185",
+      "label": "1. Local STDIO Server",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_186",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_187",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_188",
+      "label": "2. Server-Sent Events (SSE)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_189",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_190",
+      "label": "3. HTTP (Streamable HTTP)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_191",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h2_192",
+      "label": "Command-Line Options",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_193",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h2_194",
+      "label": "Output",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_195",
+      "label": "**Summary Statistics**:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_196",
+      "label": "Accuracy (correct/total)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_197",
+      "label": "Average task duration",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_198",
+      "label": "Average tool calls per task",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_199",
+      "label": "Total tool calls",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_200",
+      "label": "**Per-Task Results**:",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_201",
+      "label": "Prompt and expected response",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_202",
+      "label": "Actual response from the agent",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_203",
+      "label": "Whether the answer was correct (✅/❌)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_204",
+      "label": "Duration and tool call details",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_205",
+      "label": "Agent's summary of its approach",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_206",
+      "label": "Agent's feedback on the tools",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_207",
+      "label": "Save Report to File",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_208",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h2_209",
+      "label": "Complete Example Workflow",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_210",
+      "label": "Code: xml",
+      "type": "code_block",
+      "language": "xml",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_211",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_code_212",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_213",
+      "label": "See which questions passed/failed",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_214",
+      "label": "Read the agent's feedback on your tools",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_215",
+      "label": "Identify areas for improvement",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_216",
+      "label": "Iterate on your MCP server design",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h2_217",
+      "label": "Troubleshooting",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_218",
+      "label": "Connection Errors",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_219",
+      "label": "**STDIO**: Verify the command and arguments are correct",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_220",
+      "label": "**SSE/HTTP**: Check the URL is accessible and headers are correct",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_221",
+      "label": "Ensure any required API keys are set in environment variables or headers",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_222",
+      "label": "Low Accuracy",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_223",
+      "label": "Review the agent's feedback for each task",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_224",
+      "label": "Check if tool descriptions are clear and comprehensive",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_225",
+      "label": "Verify input parameters are well-documented",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_226",
+      "label": "Consider whether tools return too much or too little data",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_227",
+      "label": "Ensure error messages are actionable",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_h3_228",
+      "label": "Timeout Issues",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_229",
+      "label": "Use a more capable model (e.g., `claude-3-7-sonnet-20250219`)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_230",
+      "label": "Check if tools are returning too much data",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_231",
+      "label": "Verify pagination is working correctly",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    },
+    {
+      "id": "md_evaluation_list_232",
+      "label": "Consider simplifying complex questions",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/construir-servidor-mcp/reference/evaluation.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_evaluation_h1_0",
+      "to": "md_evaluation_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h1_0",
+      "to": "md_evaluation_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h2_2",
+      "to": "md_evaluation_h3_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_3",
+      "to": "md_evaluation_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_3",
+      "to": "md_evaluation_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_3",
+      "to": "md_evaluation_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_3",
+      "to": "md_evaluation_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_3",
+      "to": "md_evaluation_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_2",
+      "to": "md_evaluation_h3_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_9",
+      "to": "md_evaluation_code_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h1_0",
+      "to": "md_evaluation_h2_11",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h1_0",
+      "to": "md_evaluation_h2_12",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h2_12",
+      "to": "md_evaluation_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_12",
+      "to": "md_evaluation_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_12",
+      "to": "md_evaluation_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_12",
+      "to": "md_evaluation_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_12",
+      "to": "md_evaluation_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h1_0",
+      "to": "md_evaluation_h2_18",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h2_18",
+      "to": "md_evaluation_h3_19",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_19",
+      "to": "md_evaluation_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_19",
+      "to": "md_evaluation_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_19",
+      "to": "md_evaluation_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_19",
+      "to": "md_evaluation_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_18",
+      "to": "md_evaluation_h3_24",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_24",
+      "to": "md_evaluation_list_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_24",
+      "to": "md_evaluation_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_24",
+      "to": "md_evaluation_list_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_24",
+      "to": "md_evaluation_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_24",
+      "to": "md_evaluation_list_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_24",
+      "to": "md_evaluation_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_24",
+      "to": "md_evaluation_list_31",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_24",
+      "to": "md_evaluation_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_24",
+      "to": "md_evaluation_list_33",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_24",
+      "to": "md_evaluation_list_34",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_24",
+      "to": "md_evaluation_list_35",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_18",
+      "to": "md_evaluation_h3_36",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_36",
+      "to": "md_evaluation_list_37",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_36",
+      "to": "md_evaluation_list_38",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_36",
+      "to": "md_evaluation_list_39",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_36",
+      "to": "md_evaluation_list_40",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_36",
+      "to": "md_evaluation_list_41",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_36",
+      "to": "md_evaluation_list_42",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_36",
+      "to": "md_evaluation_list_43",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_36",
+      "to": "md_evaluation_list_44",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_36",
+      "to": "md_evaluation_list_45",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_36",
+      "to": "md_evaluation_list_46",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_36",
+      "to": "md_evaluation_list_47",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_36",
+      "to": "md_evaluation_list_48",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_36",
+      "to": "md_evaluation_list_49",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_18",
+      "to": "md_evaluation_h3_50",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_50",
+      "to": "md_evaluation_list_51",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_50",
+      "to": "md_evaluation_list_52",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_50",
+      "to": "md_evaluation_list_53",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_50",
+      "to": "md_evaluation_list_54",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_50",
+      "to": "md_evaluation_list_55",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_50",
+      "to": "md_evaluation_list_56",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_50",
+      "to": "md_evaluation_list_57",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_50",
+      "to": "md_evaluation_list_58",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_50",
+      "to": "md_evaluation_list_59",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h1_0",
+      "to": "md_evaluation_h2_60",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h2_60",
+      "to": "md_evaluation_h3_61",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_61",
+      "to": "md_evaluation_list_62",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_61",
+      "to": "md_evaluation_list_63",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_61",
+      "to": "md_evaluation_list_64",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_61",
+      "to": "md_evaluation_list_65",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_61",
+      "to": "md_evaluation_list_66",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_61",
+      "to": "md_evaluation_list_67",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_61",
+      "to": "md_evaluation_list_68",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_61",
+      "to": "md_evaluation_list_69",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_61",
+      "to": "md_evaluation_list_70",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_61",
+      "to": "md_evaluation_list_71",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_61",
+      "to": "md_evaluation_list_72",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_61",
+      "to": "md_evaluation_list_73",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_61",
+      "to": "md_evaluation_list_74",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_61",
+      "to": "md_evaluation_list_75",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_61",
+      "to": "md_evaluation_list_76",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_60",
+      "to": "md_evaluation_h3_77",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_77",
+      "to": "md_evaluation_list_78",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_77",
+      "to": "md_evaluation_list_79",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_77",
+      "to": "md_evaluation_list_80",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_60",
+      "to": "md_evaluation_h3_81",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_81",
+      "to": "md_evaluation_list_82",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_81",
+      "to": "md_evaluation_list_83",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_81",
+      "to": "md_evaluation_list_84",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_81",
+      "to": "md_evaluation_list_85",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_81",
+      "to": "md_evaluation_list_86",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_81",
+      "to": "md_evaluation_list_87",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_81",
+      "to": "md_evaluation_list_88",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_60",
+      "to": "md_evaluation_h3_89",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_89",
+      "to": "md_evaluation_list_90",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_89",
+      "to": "md_evaluation_list_91",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_89",
+      "to": "md_evaluation_list_92",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_89",
+      "to": "md_evaluation_list_93",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_89",
+      "to": "md_evaluation_list_94",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_89",
+      "to": "md_evaluation_list_95",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_89",
+      "to": "md_evaluation_list_96",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_89",
+      "to": "md_evaluation_list_97",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_89",
+      "to": "md_evaluation_list_98",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_89",
+      "to": "md_evaluation_list_99",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_89",
+      "to": "md_evaluation_list_100",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h1_0",
+      "to": "md_evaluation_h2_101",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h2_101",
+      "to": "md_evaluation_h3_102",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_102",
+      "to": "md_evaluation_list_103",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_102",
+      "to": "md_evaluation_list_104",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_102",
+      "to": "md_evaluation_list_105",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_102",
+      "to": "md_evaluation_list_106",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_101",
+      "to": "md_evaluation_h3_107",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_107",
+      "to": "md_evaluation_list_108",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_107",
+      "to": "md_evaluation_list_109",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_107",
+      "to": "md_evaluation_list_110",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_101",
+      "to": "md_evaluation_h3_111",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_111",
+      "to": "md_evaluation_list_112",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_111",
+      "to": "md_evaluation_list_113",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_111",
+      "to": "md_evaluation_list_114",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_111",
+      "to": "md_evaluation_list_115",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_111",
+      "to": "md_evaluation_list_116",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_101",
+      "to": "md_evaluation_h3_117",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_117",
+      "to": "md_evaluation_list_118",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_117",
+      "to": "md_evaluation_list_119",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_117",
+      "to": "md_evaluation_list_120",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_117",
+      "to": "md_evaluation_list_121",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_117",
+      "to": "md_evaluation_list_122",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_117",
+      "to": "md_evaluation_list_123",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_117",
+      "to": "md_evaluation_list_124",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_117",
+      "to": "md_evaluation_list_125",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_117",
+      "to": "md_evaluation_list_126",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_117",
+      "to": "md_evaluation_list_127",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_101",
+      "to": "md_evaluation_h3_128",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_128",
+      "to": "md_evaluation_list_129",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_128",
+      "to": "md_evaluation_list_130",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h1_0",
+      "to": "md_evaluation_h2_131",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h2_131",
+      "to": "md_evaluation_code_132",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h1_0",
+      "to": "md_evaluation_h2_133",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h2_133",
+      "to": "md_evaluation_h3_134",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_code_135",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_136",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_137",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_138",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_139",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_140",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_code_141",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_142",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_143",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_144",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_145",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_146",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_147",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_code_148",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_149",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_150",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_151",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_152",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_153",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_154",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_code_155",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_156",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_157",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_158",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_159",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_160",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_134",
+      "to": "md_evaluation_list_161",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_133",
+      "to": "md_evaluation_h3_162",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_162",
+      "to": "md_evaluation_code_163",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_162",
+      "to": "md_evaluation_list_164",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_162",
+      "to": "md_evaluation_list_165",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_162",
+      "to": "md_evaluation_list_166",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_162",
+      "to": "md_evaluation_code_167",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_162",
+      "to": "md_evaluation_list_168",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_162",
+      "to": "md_evaluation_list_169",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_162",
+      "to": "md_evaluation_list_170",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_162",
+      "to": "md_evaluation_code_171",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_162",
+      "to": "md_evaluation_list_172",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_162",
+      "to": "md_evaluation_list_173",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_162",
+      "to": "md_evaluation_list_174",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_162",
+      "to": "md_evaluation_list_175",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h1_0",
+      "to": "md_evaluation_h2_176",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h1_0",
+      "to": "md_evaluation_h2_177",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h1_178",
+      "to": "md_evaluation_h2_179",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h1_178",
+      "to": "md_evaluation_h2_180",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h2_180",
+      "to": "md_evaluation_code_181",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h1_178",
+      "to": "md_evaluation_h2_182",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h2_182",
+      "to": "md_evaluation_list_183",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_182",
+      "to": "md_evaluation_list_184",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_182",
+      "to": "md_evaluation_h3_185",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_185",
+      "to": "md_evaluation_code_186",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_185",
+      "to": "md_evaluation_code_187",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_182",
+      "to": "md_evaluation_h3_188",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_188",
+      "to": "md_evaluation_code_189",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_182",
+      "to": "md_evaluation_h3_190",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_190",
+      "to": "md_evaluation_code_191",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h1_178",
+      "to": "md_evaluation_h2_192",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h2_192",
+      "to": "md_evaluation_code_193",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h1_178",
+      "to": "md_evaluation_h2_194",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h2_194",
+      "to": "md_evaluation_list_195",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_194",
+      "to": "md_evaluation_list_196",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_194",
+      "to": "md_evaluation_list_197",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_194",
+      "to": "md_evaluation_list_198",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_194",
+      "to": "md_evaluation_list_199",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_194",
+      "to": "md_evaluation_list_200",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_194",
+      "to": "md_evaluation_list_201",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_194",
+      "to": "md_evaluation_list_202",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_194",
+      "to": "md_evaluation_list_203",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_194",
+      "to": "md_evaluation_list_204",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_194",
+      "to": "md_evaluation_list_205",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_194",
+      "to": "md_evaluation_list_206",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_194",
+      "to": "md_evaluation_h3_207",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_207",
+      "to": "md_evaluation_code_208",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h1_178",
+      "to": "md_evaluation_h2_209",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h2_209",
+      "to": "md_evaluation_code_210",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_209",
+      "to": "md_evaluation_code_211",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_209",
+      "to": "md_evaluation_code_212",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_209",
+      "to": "md_evaluation_list_213",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_209",
+      "to": "md_evaluation_list_214",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_209",
+      "to": "md_evaluation_list_215",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_209",
+      "to": "md_evaluation_list_216",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h1_178",
+      "to": "md_evaluation_h2_217",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h2_217",
+      "to": "md_evaluation_h3_218",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_218",
+      "to": "md_evaluation_list_219",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_218",
+      "to": "md_evaluation_list_220",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_218",
+      "to": "md_evaluation_list_221",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_217",
+      "to": "md_evaluation_h3_222",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_222",
+      "to": "md_evaluation_list_223",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_222",
+      "to": "md_evaluation_list_224",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_222",
+      "to": "md_evaluation_list_225",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_222",
+      "to": "md_evaluation_list_226",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_222",
+      "to": "md_evaluation_list_227",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h2_217",
+      "to": "md_evaluation_h3_228",
+      "relation": "section"
+    },
+    {
+      "from": "md_evaluation_h3_228",
+      "to": "md_evaluation_list_229",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_228",
+      "to": "md_evaluation_list_230",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_228",
+      "to": "md_evaluation_list_231",
+      "relation": "contains"
+    },
+    {
+      "from": "md_evaluation_h3_228",
+      "to": "md_evaluation_list_232",
+      "relation": "contains"
+    }
+  ]
+}

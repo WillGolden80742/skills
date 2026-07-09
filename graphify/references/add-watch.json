@@ -1,0 +1,164 @@
+{
+  "source": "/root/.config/opencode/skills/graphify/references/add-watch.md",
+  "generated_at": "2026-07-08T21:11:13.234892",
+  "nodes": [
+    {
+      "id": "md_add-watch_h1_0",
+      "label": "graphify reference: add a URL and watch a folder",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/graphify/references/add-watch.md",
+      "community": 999
+    },
+    {
+      "id": "md_add-watch_h2_1",
+      "label": "For /graphify add",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/references/add-watch.md",
+      "community": 999
+    },
+    {
+      "id": "md_add-watch_code_2",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/add-watch.md",
+      "community": 999
+    },
+    {
+      "id": "md_add-watch_list_3",
+      "label": "YouTube / any video URL → audio downloaded via yt-dlp, transcribed to `.txt` on ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/add-watch.md",
+      "community": 999
+    },
+    {
+      "id": "md_add-watch_list_4",
+      "label": "Twitter/X → fetched via oEmbed, saved as `.md` with tweet text and author",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/add-watch.md",
+      "community": 999
+    },
+    {
+      "id": "md_add-watch_list_5",
+      "label": "arXiv → abstract + metadata saved as `.md`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/add-watch.md",
+      "community": 999
+    },
+    {
+      "id": "md_add-watch_list_6",
+      "label": "PDF → downloaded as `.pdf`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/add-watch.md",
+      "community": 999
+    },
+    {
+      "id": "md_add-watch_list_7",
+      "label": "Images (.png/.jpg/.webp) → downloaded, Claude vision extracts on next run",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/add-watch.md",
+      "community": 999
+    },
+    {
+      "id": "md_add-watch_list_8",
+      "label": "Any webpage → converted to markdown via html2text",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/add-watch.md",
+      "community": 999
+    },
+    {
+      "id": "md_add-watch_h2_9",
+      "label": "For --watch",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify/references/add-watch.md",
+      "community": 999
+    },
+    {
+      "id": "md_add-watch_code_10",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify/references/add-watch.md",
+      "community": 999
+    },
+    {
+      "id": "md_add-watch_list_11",
+      "label": "**Code files only (.py, .ts, .go, etc.):** re-runs AST extraction + rebuild + cl",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/add-watch.md",
+      "community": 999
+    },
+    {
+      "id": "md_add-watch_list_12",
+      "label": "**Docs, papers, or images:** writes a `graphify-out/needs_update` flag and print",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify/references/add-watch.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_add-watch_h1_0",
+      "to": "md_add-watch_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_add-watch_h2_1",
+      "to": "md_add-watch_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_add-watch_h2_1",
+      "to": "md_add-watch_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_add-watch_h2_1",
+      "to": "md_add-watch_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_add-watch_h2_1",
+      "to": "md_add-watch_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_add-watch_h2_1",
+      "to": "md_add-watch_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_add-watch_h2_1",
+      "to": "md_add-watch_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_add-watch_h2_1",
+      "to": "md_add-watch_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_add-watch_h1_0",
+      "to": "md_add-watch_h2_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_add-watch_h2_9",
+      "to": "md_add-watch_code_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_add-watch_h2_9",
+      "to": "md_add-watch_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_add-watch_h2_9",
+      "to": "md_add-watch_list_12",
+      "relation": "contains"
+    }
+  ]
+}

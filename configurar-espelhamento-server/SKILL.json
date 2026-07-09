@@ -1,0 +1,213 @@
+{
+  "source": "/root/.config/opencode/skills/configurar-espelhamento-server/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.837202",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Skill: configurar-espelhamento-server",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/configurar-espelhamento-server/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "O que faz",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/configurar-espelhamento-server/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "Race condition (watcher local vs poller remoto)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/configurar-espelhamento-server/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "Upload/download de arquivos de 0 bytes",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/configurar-espelhamento-server/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "Exclusão acidental no servidor (additive-only)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/configurar-espelhamento-server/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "Pastas `.git` ignoradas automaticamente",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/configurar-espelhamento-server/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_6",
+      "label": "Como usar",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/configurar-espelhamento-server/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_7",
+      "label": "O que será gerado na pasta local",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/configurar-espelhamento-server/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_8",
+      "label": "Como usar apos configurar",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/configurar-espelhamento-server/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_9",
+      "label": "Dê dois cliques em `iniciar_espelho.bat` dentro da pasta espelhada",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/configurar-espelhamento-server/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "Ou execute manualmente: `python .sync_theme.py 120` (minutos)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/configurar-espelhamento-server/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "Logs mostram uploads/downloads/protecoes em tempo real",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/configurar-espelhamento-server/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_12",
+      "label": "Seguranca",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/configurar-espelhamento-server/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "Senha SSH via variavel de ambiente (`BHM_SSH_PW`), nunca em disco",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/configurar-espelhamento-server/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "Nada e deletado no remoto",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/configurar-espelhamento-server/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "Lock de download evita race condition",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/configurar-espelhamento-server/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "`.git` e arquivos do proprio sync (.sync_*) sao ignorados",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/configurar-espelhamento-server/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_8",
+      "to": "md_SKILL_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_8",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_8",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_12",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_12",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_12",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_12",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_12",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    }
+  ]
+}

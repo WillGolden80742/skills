@@ -1,0 +1,1479 @@
+{
+  "source": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.841422",
+  "nodes": [
+    {
+      "id": "md_SKILL_h2_0",
+      "label": "Arquitetura",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Estrutura de Arquivos",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_2",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_3",
+      "label": "Fluxo de Inicialização",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_4",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_5",
+      "label": "Theme Info",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_6",
+      "label": "Custom Post Types",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "Tags com prefixo `porcentagem_` (ex: `porcentagem_50`) definem a divisão de preç",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_8",
+      "label": "User Meta Fields",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_9",
+      "label": "Post Meta Fields",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_10",
+      "label": "REST API",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "`GET /autores-sem-produtos` — clientes sem produtos publicados",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "`GET /autores-sem-produtos-cheque` — clientes sem produtos com cheque especial",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "`GET /autores-referencias` — dados de indicações",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "`GET /sellers-with-orders` — vendedores com pedidos",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "`GET /buyers-with-orders` — compradores com pedidos",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "`GET /clientes-sem-compras-ou-vendas` — clientes inativos",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "`GET /clientes-produtos-sem-thumbnail` — produtos sem imagem",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_18",
+      "label": "`GET /clientes-sem-login` — clientes que nunca logaram",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_19",
+      "label": "`GET /orders-processing-month` — pedidos em processamento no mês",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_20",
+      "label": "`GET /vendedores-sem-vendas` — vendedores sem vendas concluídas",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_21",
+      "label": "`GET /products/authors` — autores de produtos",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_22",
+      "label": "`POST /send-whatsapp-offer` — envia oferta via WhatsApp",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_23",
+      "label": "`POST /test-sales-notification` — testa notificação de venda (admin only)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_24",
+      "label": "`GET /associated/v1/companies/` — empresas associadas",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_25",
+      "label": "`GET /custom/v1/get-all-customers/` — lista de clientes",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_26",
+      "label": "`POST /custom/v1/create-product/` — cria produto temporário",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_27",
+      "label": "AJAX Actions",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_28",
+      "label": "`trokapay_trigger_send_offers` — dispara envio de ofertas via WhatsApp",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_29",
+      "label": "`trokapay_update_user_preference_meta` — atualiza meta de preferências",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_30",
+      "label": "`trokapay_update_user_meta_ajax_handler` — handler genérico de meta",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_31",
+      "label": "`update_company_info` — atualiza dados da empresa (com upload de fotos/vídeos)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_32",
+      "label": "`produto_status_update_all_products` — força estoque de todos os produtos",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_33",
+      "label": "`get_last_product_timestamp` — timestamp do último produto",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_34",
+      "label": "`get_category_tree_metadata` — metadata da árvore de categorias",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_35",
+      "label": "`trokapay_get_commission_report_summary` — gera relatório resumo de comissões po",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_36",
+      "label": "`trokapay_get_promoter_transactions` — retorna transações detalhadas de um promo",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_37",
+      "label": "WhatsApp Integration",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_38",
+      "label": "`POST /new-product` — publica oferta em grupo WhatsApp",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_39",
+      "label": "`POST /send-individual-offer` — envia oferta individual",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_40",
+      "label": "`POST /wp-json/uazapi-integration/v1/send-order-payment-custom` — envio de mensa",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_41",
+      "label": "WooCommerce Integration",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_42",
+      "label": "Produtos renomeados para \"Ofertas\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_43",
+      "label": "Checkout customizado com sistema de crédito (currency_balance) e cheque especial",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_44",
+      "label": "Comissões por tipo de usuário (CNPJ, CPF, Promotor)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_45",
+      "label": "Taxa de compra configurável (mínimo R$7.50)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_46",
+      "label": "Criação automática de transação (CPT `transaction`) ao finalizar pedido",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_47",
+      "label": "Restrições de compra/venda por usuário",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_48",
+      "label": "Pedidos em status \"processing\" como referência principal",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_49",
+      "label": "**Price Split:** divisão de preço entre PL$ e R$ via tags `porcentagem_X`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_50",
+      "label": "**Comissão Promotor:** carrinho zerado quando promotor usa comissão para pagar t",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_51",
+      "label": "**Notificação Vendedor:** WhatsApp automático ao vendedor quando pedido vai para",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_52",
+      "label": "**Modal de Avaliação:** modal flutuante após compra para avaliar produto/vendedo",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_53",
+      "label": "**Avaliações:** sistema de reviews com `trokapay_seller_comments` e `company_rat",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_54",
+      "label": "**Ofertas Aceitas:** meta `_wpcp_accepted_product_offers` para preços customizad",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_55",
+      "label": "Admin Pages",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_56",
+      "label": "Regras de Negócio",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_57",
+      "label": "Frontend",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_58",
+      "label": "Font Awesome 5.15.4",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_59",
+      "label": "Material Design Icons (MDI) 6.5.95",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_60",
+      "label": "Slick Carousel 1.8.1",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_61",
+      "label": "Google Fonts: Montserrat",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_62",
+      "label": "jQuery (nativo WordPress)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_63",
+      "label": "Slick Carousel",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_64",
+      "label": "Scripts custom em `api/js/`: `trokapay-core.js`, `ofertas.js`, `associados.js`, ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_65",
+      "label": "`[offersForm]` — formulário de criação/edição de oferta",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_66",
+      "label": "`[offer_container]` — container de listagem de ofertas",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_67",
+      "label": "`[novo_associados]` — listagem de associados",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_68",
+      "label": "`[minha_conta user_id='X']` — conta de associado",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_69",
+      "label": "`[extrato_transacoes]` — extrato de transações",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_70",
+      "label": "`[total_media_block]` — bloco de mídia do total",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_71",
+      "label": "`[affiliate_panel]` — painel de afiliado",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_72",
+      "label": "`[render_buy_offer_page]` — página de compra de oferta",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_73",
+      "label": "WPCode Snippets (Plugin WPCode)",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_74",
+      "label": "`uazapi_tokens_data` — array de tokens (nome, token, instance_url), suporta múlt",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_75",
+      "label": "`server_api_key` — chave de servidor para proteger endpoints REST",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_76",
+      "label": "Texto com link preview",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_77",
+      "label": "Mídia (imagem, vídeo, áudio, documento)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_78",
+      "label": "Contato (vCard)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_79",
+      "label": "Localização",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_80",
+      "label": "Menu interativo (buttons, list, poll)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_81",
+      "label": "Carrossel",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_82",
+      "label": "Solicitação de pagamento",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_83",
+      "label": "Botão PIX",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_84",
+      "label": "Botão de solicitação de localização",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_85",
+      "label": "`getCommission($promoter_id, $applyTax, $applyCommissionUse, $month, $year)` — c",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_86",
+      "label": "`intendToUseCommission($promoterID, $status)` — verifica intenção de uso de comi",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_87",
+      "label": "`add_custom_price($cart)` — aplica taxa de compra no carrinho (mínimo R$7.50)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_88",
+      "label": "`add_custom_price_promoter($cart)` — zera carrinho se promotor pagou taxa com co",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_89",
+      "label": "`update_used_commission_on_order_status_change($order_id)` — atualiza CPT `used_",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_90",
+      "label": "`trokapay_register_question_cpt()` — registra CPT `question`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_91",
+      "label": "`render_questions_shortcode($atts)` — shortcode `[questions user_id=\"X\" posts_pe",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_92",
+      "label": "`trokapay_get_user_avatar_url($user_id, $size)` — avatar via `company_logo` ou G",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_93",
+      "label": "`trokapay_send_seller_sales_notification($order_id)` — notifica vendedor via Wha",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_94",
+      "label": "`trokapay_send_whatsapp_message_to_individual($phone, $message, $image_url)` — h",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_95",
+      "label": "`ContratoMoedaTrokaUserMeta` — classe que adiciona campo `contrato_moedadetroka`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_96",
+      "label": "`MdtSrmPlugin` — gerenciador de avaliações (admin page \"Avaliações MoedaDeTroka\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_97",
+      "label": "`MoedaDeTrokaRatingModal` — modal de avaliação de pedido (rating 1-5 estrelas, \"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_98",
+      "label": "`trokapay_load_questions` — carrega perguntas (paginação AJAX)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_99",
+      "label": "`trokapay_submit_question` — envia nova pergunta",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_100",
+      "label": "`trokapay_vote_question` — upvote/downvote em pergunta",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_101",
+      "label": "`trokapay_submit_answer` — envia resposta",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_102",
+      "label": "`trokapay_edit_answer` — edita resposta",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_103",
+      "label": "`trokapay_delete_question` — exclui pergunta",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_104",
+      "label": "`trokapay_delete_answer` — exclui resposta",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_105",
+      "label": "`trokapay_load_single_question` — carrega dados de uma pergunta específica",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_106",
+      "label": "`moedadetroka_get_last_unrated_order` — busca último pedido não avaliado",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_107",
+      "label": "`moedadetroka_submit_rating` — submete avaliação de pedido",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_108",
+      "label": "`moedadetroka_mark_not_arrived` — marca produto como \"não chegou\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_109",
+      "label": "`moedadetroka_modal_closed` — registra fechamento do modal",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_110",
+      "label": "`mdts_srm_clear_modal_meta` — limpa meta de fechamento do modal (admin)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_111",
+      "label": "`[products_search_form]` — formulário de busca com filtro de categorias (envia p",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_112",
+      "label": "`[questions user_id=\"X\" posts_per_page=\"10\"]` — perguntas e respostas",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_113",
+      "label": "Plugin Complementar — Admin Commission Reports",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_114",
+      "label": "Comissão do promotor = `promoter_brl_commission` (user meta) × 10 (percentual so",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_115",
+      "label": "Base de cálculo: valor do item **após** dedução das taxas de meio de pagamento (",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_116",
+      "label": "Taxas de meio de pagamento NÃO afetam o recebimento do vendedor para fins de com",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_117",
+      "label": "Comissões \"utilizadas\" (descontadas) são subtraídas da comissão bruta para obter",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_118",
+      "label": "`trokapay_get_user_basic_data_for_commission($user_id)` — dados do usuário para ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_119",
+      "label": "`trokapay_get_display_name($user_id)` — retorna display_name ou 'N/A'",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_120",
+      "label": "`trokapay_get_payment_fees_for_item($payment_method_title, $item_amount)` — calc",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_121",
+      "label": "`trokapay_get_used_commission_for_promoter($promoter_id, $start_date, $end_date)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_122",
+      "label": "User Meta Fields Adicionais (WPCode Snippets)",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_123",
+      "label": "Criptomoeda Interna",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_124",
+      "label": "Scripts de Desenvolvimento",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_125",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_126",
+      "label": "Convenções",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_127",
+      "label": "Segurança",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_128",
+      "label": "Requisitos",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_129",
+      "label": "Ambiente Local",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/tema-marketplace-trokapay/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_code_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_27",
+      "to": "md_SKILL_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_27",
+      "to": "md_SKILL_list_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_27",
+      "to": "md_SKILL_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_27",
+      "to": "md_SKILL_list_31",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_27",
+      "to": "md_SKILL_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_27",
+      "to": "md_SKILL_list_33",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_27",
+      "to": "md_SKILL_list_34",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_27",
+      "to": "md_SKILL_list_35",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_27",
+      "to": "md_SKILL_list_36",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_37",
+      "to": "md_SKILL_list_38",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_37",
+      "to": "md_SKILL_list_39",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_37",
+      "to": "md_SKILL_list_40",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_41",
+      "to": "md_SKILL_list_42",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_41",
+      "to": "md_SKILL_list_43",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_41",
+      "to": "md_SKILL_list_44",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_41",
+      "to": "md_SKILL_list_45",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_41",
+      "to": "md_SKILL_list_46",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_41",
+      "to": "md_SKILL_list_47",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_41",
+      "to": "md_SKILL_list_48",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_41",
+      "to": "md_SKILL_list_49",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_41",
+      "to": "md_SKILL_list_50",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_41",
+      "to": "md_SKILL_list_51",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_41",
+      "to": "md_SKILL_list_52",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_41",
+      "to": "md_SKILL_list_53",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_41",
+      "to": "md_SKILL_list_54",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_57",
+      "to": "md_SKILL_list_58",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_57",
+      "to": "md_SKILL_list_59",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_57",
+      "to": "md_SKILL_list_60",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_57",
+      "to": "md_SKILL_list_61",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_57",
+      "to": "md_SKILL_list_62",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_57",
+      "to": "md_SKILL_list_63",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_57",
+      "to": "md_SKILL_list_64",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_57",
+      "to": "md_SKILL_list_65",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_57",
+      "to": "md_SKILL_list_66",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_57",
+      "to": "md_SKILL_list_67",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_57",
+      "to": "md_SKILL_list_68",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_57",
+      "to": "md_SKILL_list_69",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_57",
+      "to": "md_SKILL_list_70",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_57",
+      "to": "md_SKILL_list_71",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_57",
+      "to": "md_SKILL_list_72",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_74",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_75",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_76",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_77",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_78",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_79",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_80",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_81",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_82",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_83",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_84",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_85",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_86",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_87",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_88",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_89",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_90",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_91",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_92",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_93",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_94",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_95",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_96",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_97",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_98",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_99",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_100",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_101",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_102",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_103",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_104",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_105",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_106",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_107",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_108",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_109",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_110",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_111",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_73",
+      "to": "md_SKILL_list_112",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_113",
+      "to": "md_SKILL_list_114",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_113",
+      "to": "md_SKILL_list_115",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_113",
+      "to": "md_SKILL_list_116",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_113",
+      "to": "md_SKILL_list_117",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_113",
+      "to": "md_SKILL_list_118",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_113",
+      "to": "md_SKILL_list_119",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_113",
+      "to": "md_SKILL_list_120",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_113",
+      "to": "md_SKILL_list_121",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_124",
+      "to": "md_SKILL_code_125",
+      "relation": "contains"
+    }
+  ]
+}

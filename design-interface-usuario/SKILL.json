@@ -1,0 +1,211 @@
+{
+  "source": "/root/.config/opencode/skills/design-interface-usuario/SKILL.md",
+  "generated_at": "2026-07-08T21:11:12.837616",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Skill Frontend Design",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/design-interface-usuario/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Abordagem",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/design-interface-usuario/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_2",
+      "label": "Princípios de Design",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/design-interface-usuario/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_3",
+      "label": "Visualize o Herói",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/design-interface-usuario/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_4",
+      "label": "Tipografia com Personalidade",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/design-interface-usuario/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_5",
+      "label": "Estrutura é Informação",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/design-interface-usuario/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_6",
+      "label": "Movimento Deliberado",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/design-interface-usuario/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_7",
+      "label": "Processo",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/design-interface-usuario/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_8",
+      "label": "Cores",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/design-interface-usuario/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_9",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/design-interface-usuario/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_10",
+      "label": "Tipografia",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/design-interface-usuario/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_11",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/design-interface-usuario/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_12",
+      "label": "Layout",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/design-interface-usuario/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_13",
+      "label": "Assinatura",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/design-interface-usuario/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_14",
+      "label": "Restrição e Autocrítica",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/design-interface-usuario/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_15",
+      "label": "Escrita em Design",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/design-interface-usuario/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_8",
+      "to": "md_SKILL_code_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_code_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_12",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_15",
+      "relation": "section"
+    }
+  ]
+}
