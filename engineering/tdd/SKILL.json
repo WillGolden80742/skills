@@ -1,0 +1,166 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/tdd/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.028907",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Test-Driven Development",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/tdd/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "What a good test is",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/tdd/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_2",
+      "label": "tests.md",
+      "type": "link",
+      "url": "tests.md",
+      "file": "/root/.config/opencode/skills/engineering/tdd/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_3",
+      "label": "mocking.md",
+      "type": "link",
+      "url": "mocking.md",
+      "file": "/root/.config/opencode/skills/engineering/tdd/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_4",
+      "label": "Seams — where tests go",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/tdd/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_5",
+      "label": "Anti-patterns",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/tdd/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "**Implementation-coupled** — mocks internal collaborators, tests private methods",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/tdd/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "**Tautological** — the assertion recomputes the expected value the way the code ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/tdd/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "**Horizontal slicing** — writing all tests first, then all implementation. Bulk ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/tdd/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_9",
+      "label": "Rules of the loop",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/tdd/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "**Red before green.** Write the failing test first, then only enough code to pas",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/tdd/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "**One slice at a time.** One seam, one test, one minimal implementation per cycl",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/tdd/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "**Refactoring is not part of the loop.** It belongs to the review stage (see the",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/tdd/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_link_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_link_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    }
+  ]
+}

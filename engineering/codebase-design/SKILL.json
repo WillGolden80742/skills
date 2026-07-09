@@ -1,0 +1,363 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.024953",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Codebase Design",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Glossary",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_2",
+      "label": "Deep vs shallow",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_3",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_4",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "Can I reduce the number of methods?",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "Can I simplify the parameters?",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "Can I hide more complexity inside?",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_8",
+      "label": "Principles",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_9",
+      "label": "**Depth is a property of the interface, not the implementation.** A deep module ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "**The deletion test.** Imagine deleting the module. If complexity vanishes, it w",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "**The interface is the test surface.** Callers and tests cross the same seam. If",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "**One adapter means a hypothetical seam. Two adapters means a real one.** Don't ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_13",
+      "label": "Designing for testability",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_14",
+      "label": "Relationships",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "A **Module** has exactly one **Interface** (the surface it presents to callers a",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "**Depth** is a property of a **Module**, measured against its **Interface**.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "A **Seam** is where a **Module**'s **Interface** lives.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_18",
+      "label": "An **Adapter** sits at a **Seam** and satisfies the **Interface**.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_19",
+      "label": "**Depth** produces **Leverage** for callers and **Locality** for maintainers.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_20",
+      "label": "Rejected framings",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_21",
+      "label": "**Depth as ratio of implementation-lines to interface-lines** (Ousterhout): rewa",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_22",
+      "label": "**\"Interface\" as the TypeScript `interface` keyword or a class's public methods*",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_23",
+      "label": "**\"Boundary\"**: overloaded with DDD's bounded context. Say **seam** or **interfa",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_24",
+      "label": "Going deeper",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_25",
+      "label": "DEEPENING.md",
+      "type": "link",
+      "url": "DEEPENING.md",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_26",
+      "label": "**Deepening a cluster given its dependencies** — see [DEEPENING.md](DEEPENING.md",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_27",
+      "label": "DESIGN-IT-TWICE.md",
+      "type": "link",
+      "url": "DESIGN-IT-TWICE.md",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_28",
+      "label": "**Exploring alternative interfaces** — see [DESIGN-IT-TWICE.md](DESIGN-IT-TWICE.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_code_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_code_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_8",
+      "to": "md_SKILL_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_8",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_8",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_8",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_14",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_14",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_14",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_14",
+      "to": "md_SKILL_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_14",
+      "to": "md_SKILL_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_20",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_20",
+      "to": "md_SKILL_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_20",
+      "to": "md_SKILL_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_20",
+      "to": "md_SKILL_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_24",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_24",
+      "to": "md_SKILL_link_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_24",
+      "to": "md_SKILL_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_24",
+      "to": "md_SKILL_link_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_24",
+      "to": "md_SKILL_list_28",
+      "relation": "contains"
+    }
+  ]
+}

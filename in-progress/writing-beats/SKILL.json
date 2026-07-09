@@ -1,0 +1,164 @@
+{
+  "source": "/root/.config/opencode/skills/in-progress/writing-beats/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.015474",
+  "nodes": [
+    {
+      "id": "md_SKILL_link_0",
+      "label": "Grounding",
+      "type": "link",
+      "url": "#grounding",
+      "file": "/root/.config/opencode/skills/in-progress/writing-beats/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Grounding",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/writing-beats/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "**Prerequisite** — grounded before the first beat. The audience brings it. Fixed",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-beats/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "**Introduced** — a beat establishes it, and from then on it's grounded for every",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-beats/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_4",
+      "label": "What is a beat",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/writing-beats/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "A single sentence if that's all the move is (\"And then nothing happened for thre",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-beats/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "A short paragraph if the move needs setup.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-beats/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "Multiple paragraphs if the beat is a self-contained vignette, argument, or examp",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-beats/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_8",
+      "label": "Pulling from the pile",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/writing-beats/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_9",
+      "label": "Ending the journey",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/writing-beats/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_10",
+      "label": "Writing rhythm",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/writing-beats/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "Append one beat at a time. Never write ahead.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-beats/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "Re-read the article file from disk before every write. Preserve user edits absol",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-beats/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "If the user edits a previous beat substantially, let it change what comes next.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-beats/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "If the user says \"rewrite that beat\" or \"go back and try a different beat 3\", do",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-beats/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    }
+  ]
+}

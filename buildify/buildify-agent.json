@@ -1,0 +1,190 @@
+{
+  "source": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+  "generated_at": "2026-07-08T22:23:48.989608",
+  "nodes": [
+    {
+      "id": "md_buildify-agent_h1_0",
+      "label": "Buildify Agent",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_h2_1",
+      "label": "Core Rule (MANDATORY)",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_h2_2",
+      "label": "Workflow",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_h2_3",
+      "label": "Cost-Free Knowledge Graph",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_list_4",
+      "label": "Code files are parsed structurally (functions, classes, variables, calls)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_list_5",
+      "label": "Docs/images are skipped (no semantic LLM extraction needed)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_list_6",
+      "label": "Result: a full knowledge graph of your codebase for free",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_h2_7",
+      "label": "Commands",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_list_8",
+      "label": "`graphify update <path>` - Build/update graph from code files (AST, no cost)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_list_9",
+      "label": "`graphify query \"<question>\"` - Ask questions against the graph",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_list_10",
+      "label": "`graphify path \"A\" \"B\"` - Find shortest path between two concepts",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_list_11",
+      "label": "`graphify explain \"<symbol>\"` - Explain a specific symbol/node",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_list_12",
+      "label": "`graphify prs` - PR dashboard with CI state and review status",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_h2_13",
+      "label": "Example Workflow",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_code_14",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_buildify-agent_h1_0",
+      "to": "md_buildify-agent_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_buildify-agent_h1_0",
+      "to": "md_buildify-agent_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_buildify-agent_h1_0",
+      "to": "md_buildify-agent_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_buildify-agent_h2_3",
+      "to": "md_buildify-agent_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_buildify-agent_h2_3",
+      "to": "md_buildify-agent_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_buildify-agent_h2_3",
+      "to": "md_buildify-agent_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_buildify-agent_h1_0",
+      "to": "md_buildify-agent_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_buildify-agent_h2_7",
+      "to": "md_buildify-agent_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_buildify-agent_h2_7",
+      "to": "md_buildify-agent_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_buildify-agent_h2_7",
+      "to": "md_buildify-agent_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_buildify-agent_h2_7",
+      "to": "md_buildify-agent_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_buildify-agent_h2_7",
+      "to": "md_buildify-agent_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_buildify-agent_h1_0",
+      "to": "md_buildify-agent_h2_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_buildify-agent_h2_13",
+      "to": "md_buildify-agent_code_14",
+      "relation": "contains"
+    }
+  ]
+}

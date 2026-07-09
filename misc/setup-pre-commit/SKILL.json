@@ -1,0 +1,368 @@
+{
+  "source": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.041071",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Setup Pre-Commit Hooks",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "What This Sets Up",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "**Husky** pre-commit hook",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "**lint-staged** running Prettier on all staged files",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "**Prettier** config (if missing)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "**typecheck** and **test** scripts in the pre-commit hook",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_6",
+      "label": "Steps",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_7",
+      "label": "1. Detect package manager",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_8",
+      "label": "2. Install dependencies",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_9",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_10",
+      "label": "3. Initialize Husky",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_11",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_12",
+      "label": "4. Create `.husky/pre-commit`",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_13",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_14",
+      "label": "5. Create `.lintstagedrc`",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_15",
+      "label": "Code: json",
+      "type": "code_block",
+      "language": "json",
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_16",
+      "label": "6. Create `.prettierrc` (if missing)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_17",
+      "label": "Code: json",
+      "type": "code_block",
+      "language": "json",
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_18",
+      "label": "7. Verify",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_19",
+      "label": "[ ] `.husky/pre-commit` exists and is executable",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_20",
+      "label": "[ ] `.lintstagedrc` exists",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_21",
+      "label": "[ ] `prepare` script in package.json is `\"husky\"`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_22",
+      "label": "[ ] `prettier` config exists",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_23",
+      "label": "[ ] Run `npx lint-staged` to verify it works",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_24",
+      "label": "8. Commit",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_25",
+      "label": "Notes",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_26",
+      "label": "Husky v9+ doesn't need shebangs in hook files",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_27",
+      "label": "`prettier --ignore-unknown` skips files Prettier can't parse (images, etc.)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_28",
+      "label": "The pre-commit runs lint-staged first (fast, staged-only), then full typecheck a",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/setup-pre-commit/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_h3_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_h3_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_8",
+      "to": "md_SKILL_code_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_h3_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_10",
+      "to": "md_SKILL_code_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_h3_12",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_12",
+      "to": "md_SKILL_code_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_h3_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_14",
+      "to": "md_SKILL_code_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_h3_16",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_16",
+      "to": "md_SKILL_code_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_h3_18",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_18",
+      "to": "md_SKILL_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_18",
+      "to": "md_SKILL_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_18",
+      "to": "md_SKILL_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_18",
+      "to": "md_SKILL_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_18",
+      "to": "md_SKILL_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_h3_24",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_25",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_25",
+      "to": "md_SKILL_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_25",
+      "to": "md_SKILL_list_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_25",
+      "to": "md_SKILL_list_28",
+      "relation": "contains"
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 # Graph Report - skills  (2026-07-08)
 
 ## Corpus Check
-- 317 files · ~1,071,409 words
+- 317 files · ~1,071,094 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1845 nodes · 2145 edges · 192 communities (175 shown, 17 thin omitted)
+- 1840 nodes · 2140 edges · 192 communities (175 shown, 17 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 48 edges (avg confidence: 0.67)
 - Token cost: 0 input · 0 output
 
@@ -206,25 +206,21 @@
 10. `PptxGenJS Tutorial` - 14 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `_run_validation()` --calls--> `DOCXSchemaValidator`  [INFERRED]
-  criar-editar-apresentacao/scripts/office/pack.py → criar-editar-apresentacao/scripts/office/validators/docx.py
-- `_run_validation()` --calls--> `PPTXSchemaValidator`  [INFERRED]
-  criar-editar-apresentacao/scripts/office/pack.py → criar-editar-apresentacao/scripts/office/validators/pptx.py
-- `_run_validation()` --calls--> `RedliningValidator`  [INFERRED]
-  criar-editar-apresentacao/scripts/office/pack.py → criar-editar-apresentacao/scripts/office/validators/redlining.py
 - `main()` --calls--> `DOCXSchemaValidator`  [INFERRED]
   criar-editar-apresentacao/scripts/office/validate.py → criar-editar-apresentacao/scripts/office/validators/docx.py
 - `main()` --calls--> `PPTXSchemaValidator`  [INFERRED]
   criar-editar-apresentacao/scripts/office/validate.py → criar-editar-apresentacao/scripts/office/validators/pptx.py
+- `main()` --calls--> `RedliningValidator`  [INFERRED]
+  criar-editar-apresentacao/scripts/office/validate.py → criar-editar-apresentacao/scripts/office/validators/redlining.py
+- `_run_validation()` --calls--> `DOCXSchemaValidator`  [INFERRED]
+  criar-editar-documento-word/scripts/office/pack.py → criar-editar-documento-word/scripts/office/validators/docx.py
+- `_run_validation()` --calls--> `PPTXSchemaValidator`  [INFERRED]
+  criar-editar-documento-word/scripts/office/pack.py → criar-editar-documento-word/scripts/office/validators/pptx.py
 
 ## Import Cycles
 - None detected.
 
 ## Communities (192 total, 17 thin omitted)
-
-### Community 0 - "BaseSchemaValidator"
-Cohesion: 0.05
-Nodes (16): _condense_xml(), pack(), Path, Pack a directory into a DOCX, PPTX, or XLSX file.  Validates with auto-repair, c, _run_validation(), BaseSchemaValidator, Base validator with common validation logic for document files., DOCXSchemaValidator (+8 more)
 
 ### Community 1 - "MCPConnection"
 Cohesion: 0.06
@@ -265,6 +261,10 @@ Nodes (23): Add Icon to Slide, Better-Looking Charts, Calculate Dimensions (pres
 ### Community 10 - "SKILL.md"
 Cohesion: 0.08
 Nodes (23): Admin Pages, AJAX Actions, Ambiente Local, Arquitetura, Convenções, Criptomoeda Interna, Custom Post Types, Estrutura de Arquivos (+15 more)
+
+### Community 11 - "BaseSchemaValidator"
+Cohesion: 0.05
+Nodes (16): _condense_xml(), pack(), Path, Pack a directory into a DOCX, PPTX, or XLSX file.  Validates with auto-repair, c, _run_validation(), BaseSchemaValidator, Base validator with common validation logic for document files., DOCXSchemaValidator (+8 more)
 
 ### Community 13 - "generator_template.js"
 Cohesion: 0.11
@@ -319,8 +319,8 @@ Cohesion: 0.13
 Nodes (14): Como funciona uma skill, 📝 Comunicação & Documentação, Criando uma nova skill, 💻 Desenvolvimento & Frontend, 🎨 Design & Visual, 🔄 DevOps & Servidores, 📄 Documentos Office & PDF, 🗂️ Git, Arquivos & Projetos (+6 more)
 
 ### Community 26 - "SKILL.md"
-Cohesion: 0.07
-Nodes (26): Comandos de Router, 📝 Comunicação & Documentação, 💻 Desenvolvimento & Frontend, 🎨 Design & Visual, 📄 Documentos Office & PDF, Exemplo de Routing, Fluxo de Routing, 🗂️ Git, Arquivos & Projetos (+18 more)
+Cohesion: 0.09
+Nodes (21): Comandos de Router, 💻 Desenvolvimento & Frontend, 🎨 Design & Visual, 📄 Documentos Office & PDF, Estrutura de AST, Estrutura do AST JSON, Exemplo de Routing Completo, Fluxo de Routing (+13 more)
 
 ### Community 27 - "Fase 1: Pesquisa Profunda e Planejamento"
 Cohesion: 0.14
@@ -398,6 +398,10 @@ Nodes (11): dependencies, jsdom, @mozilla/readability, node-fetch, description, 
 Cohesion: 0.17
 Nodes (11): Bibliotecas Python, Dividir PDF, Extrair Texto de PDFs Escaneados, Ferramentas de Linha de Comando, Mesclar PDFs, pdfplumber - Extrair Texto e Tabelas, pypdf - Operações Básicas, Referência Rápida (+3 more)
 
+### Community 48 - "RedliningValidator"
+Cohesion: 0.25
+Nodes (3): main(), Command line tool to validate Office document XML files against XSD schemas and, RedliningValidator
+
 ### Community 49 - "Skill PPTX - Apresentações PowerPoint"
 Cohesion: 0.18
 Nodes (10): Converter para Imagens, Dependências, Design de Slides, Dicas de Design, Ler Conteúdo, Paletas de Cores, QA (Verificação Obrigatória), Referência Rápida (+2 more)
@@ -419,16 +423,12 @@ Cohesion: 0.49
 Nodes (8): _add_to_content_types(), _add_to_presentation_rels(), create_slide_from_layout(), duplicate_slide(), _get_next_slide_id(), get_next_slide_number(), Path, Add a new slide to an unpacked PPTX directory.  Usage: python add_slide.py <unpa
 
 ### Community 54 - "__init__.py"
-Cohesion: 0.32
-Nodes (4): Base validator with common validation logic for document files., Validator for Word document XML files against XSD schemas., Validation modules for Word document processing., Validator for PowerPoint presentation XML files against XSD schemas.
+Cohesion: 0.24
+Nodes (5): Base validator with common validation logic for document files., Validator for Word document XML files against XSD schemas., Validation modules for Word document processing., Validator for PowerPoint presentation XML files against XSD schemas., Validator for tracked changes in Word documents.
 
 ### Community 55 - "Skill DOCX - Documentos Word"
 Cohesion: 0.20
 Nodes (9): Abordagens, Converter .doc para .docx, Criação de Documentos, Edição de Documentos Existentes, Extração de Texto, Regras Importantes, Skill DOCX - Documentos Word, Validação (+1 more)
-
-### Community 56 - "RedliningValidator"
-Cohesion: 0.25
-Nodes (3): main(), Command line tool to validate Office document XML files against XSD schemas and, RedliningValidator
 
 ### Community 57 - "Skill Algorithmic Art"
 Cohesion: 0.22
@@ -455,8 +455,8 @@ Cohesion: 0.25
 Nodes (7): Dicas, Estágio 1: Coleta de Contexto, Estágio 2: Refinamento e Estrutura, Estágio 3: Teste com Leitor, Quando Oferecer, Skill Doc Co-Authoring, Workflow em 3 Estágios
 
 ### Community 64 - "__init__.py"
-Cohesion: 0.24
-Nodes (5): Base validator with common validation logic for document files., Validator for Word document XML files against XSD schemas., Validation modules for Word document processing., Validator for PowerPoint presentation XML files against XSD schemas., Validator for tracked changes in Word documents.
+Cohesion: 0.32
+Nodes (4): Base validator with common validation logic for document files., Validator for Word document XML files against XSD schemas., Validation modules for Word document processing., Validator for PowerPoint presentation XML files against XSD schemas.
 
 ### Community 66 - "Skill XLSX - Manipulação de Planilhas"
 Cohesion: 0.25
@@ -863,7 +863,7 @@ Cohesion: 0.29
 Nodes (9): extract_markdown_structure(), find_markdown_files(), main(), md_to_json_path(), Encontra todos os arquivos .md em um diretório ou arquivo único., Converte caminho .md para .json (mesmo diretório, mesmo nome)., Salva AST de um único arquivo .md como .json no mesmo diretório., Extrai estrutura AST de um arquivo markdown. (+1 more)
 
 ## Knowledge Gaps
-- **822 isolated node(s):** `params`, `bundle-artifact.sh script`, `init-artifact.sh script`, `name`, `version` (+817 more)
+- **816 isolated node(s):** `params`, `bundle-artifact.sh script`, `init-artifact.sh script`, `name`, `version` (+811 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **17 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -872,7 +872,7 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Node/TypeScript MCP Server Implementation Guide` connect `Node/TypeScript MCP Server Implementation Guide` to `SKILL.md`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
-- **Why does `DOCXSchemaValidator` connect `DOCXSchemaValidator` to `BaseSchemaValidator`, `_run_validation`, `validators.py`, `__init__.py`?**
+- **Why does `DOCXSchemaValidator` connect `BaseSchemaValidator` to `validators.py`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **Why does `Python MCP Server Implementation Guide` connect `Python MCP Server Implementation Guide` to `SKILL.md`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
@@ -883,4 +883,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Are the 2 inferred relationships involving `BaseSchemaValidator` (e.g. with `DOCXSchemaValidator` and `PPTXSchemaValidator`) actually correct?**
   _`BaseSchemaValidator` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `params`, `Gera a árvore de diretórios em formato ASCII`, `Gera a árvore de diretórios do projeto a partir de app/` to the rest of the system?**
-  _936 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _930 weakly-connected nodes found - possible documentation gaps or missing edges._

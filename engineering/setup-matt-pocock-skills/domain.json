@@ -1,0 +1,130 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/domain.md",
+  "generated_at": "2026-07-08T22:23:49.022484",
+  "nodes": [
+    {
+      "id": "md_domain_h1_0",
+      "label": "Domain Docs",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/domain.md",
+      "community": 999
+    },
+    {
+      "id": "md_domain_h2_1",
+      "label": "Before exploring, read these",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/domain.md",
+      "community": 999
+    },
+    {
+      "id": "md_domain_list_2",
+      "label": "**`CONTEXT.md`** at the repo root, or",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/domain.md",
+      "community": 999
+    },
+    {
+      "id": "md_domain_list_3",
+      "label": "**`CONTEXT-MAP.md`** at the repo root if it exists — it points at one `CONTEXT.m",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/domain.md",
+      "community": 999
+    },
+    {
+      "id": "md_domain_list_4",
+      "label": "**`docs/adr/`** — read ADRs that touch the area you're about to work in. In mult",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/domain.md",
+      "community": 999
+    },
+    {
+      "id": "md_domain_h2_5",
+      "label": "File structure",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/domain.md",
+      "community": 999
+    },
+    {
+      "id": "md_domain_code_6",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/domain.md",
+      "community": 999
+    },
+    {
+      "id": "md_domain_code_7",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/domain.md",
+      "community": 999
+    },
+    {
+      "id": "md_domain_h2_8",
+      "label": "Use the glossary's vocabulary",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/domain.md",
+      "community": 999
+    },
+    {
+      "id": "md_domain_h2_9",
+      "label": "Flag ADR conflicts",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/domain.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_domain_h1_0",
+      "to": "md_domain_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_domain_h2_1",
+      "to": "md_domain_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_domain_h2_1",
+      "to": "md_domain_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_domain_h2_1",
+      "to": "md_domain_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_domain_h1_0",
+      "to": "md_domain_h2_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_domain_h2_5",
+      "to": "md_domain_code_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_domain_h2_5",
+      "to": "md_domain_code_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_domain_h1_0",
+      "to": "md_domain_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_domain_h1_0",
+      "to": "md_domain_h2_9",
+      "relation": "section"
+    }
+  ]
+}

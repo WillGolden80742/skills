@@ -1,0 +1,384 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.028459",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "To Tickets",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Process",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_2",
+      "label": "1. Gather context",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_3",
+      "label": "2. Explore the codebase (optional)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_4",
+      "label": "3. Draft vertical slices",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "Each slice cuts a narrow but COMPLETE path through every layer (schema, API, UI,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "A completed slice is demoable or verifiable on its own",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "Each slice is sized to fit in a single fresh context window",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "Any prefactoring should be done first",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_9",
+      "label": "4. Quiz the user",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "**Title**: short descriptive name",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "**Blocked by**: which other tickets (if any) must complete first",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "**What it delivers**: the end-to-end behaviour this ticket makes work",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "Does the granularity feel right? (too coarse / too fine)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "Are the blocking edges correct — does each ticket only depend on tickets that ge",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "Should any tickets be merged or split further?",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_16",
+      "label": "5. Publish the tickets to the configured tracker",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "**Local files** → write one `tickets.md` in the repo root, all tickets in depend",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_18",
+      "label": "**A real issue tracker (GitHub, Linear, …)** → publish one issue per ticket in d",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h1_19",
+      "label": "Tickets: <short name of the work>",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_20",
+      "label": "<Ticket title>",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_21",
+      "label": "[ ] Acceptance criterion 1",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_22",
+      "label": "[ ] Acceptance criterion 2",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_23",
+      "label": "<Ticket title>",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_24",
+      "label": "Parent",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_25",
+      "label": "What to build",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_26",
+      "label": "Acceptance criteria",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_27",
+      "label": "[ ] Criterion 1",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_28",
+      "label": "[ ] Criterion 2",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_29",
+      "label": "Blocked by",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_30",
+      "label": "A reference to each blocking ticket, or \"None — can start immediately\".",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/to-tickets/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_4",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_4",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_4",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_4",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_16",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_16",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_16",
+      "to": "md_SKILL_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_19",
+      "to": "md_SKILL_h2_20",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_20",
+      "to": "md_SKILL_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_20",
+      "to": "md_SKILL_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_19",
+      "to": "md_SKILL_h2_23",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_19",
+      "to": "md_SKILL_h2_24",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_19",
+      "to": "md_SKILL_h2_25",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_19",
+      "to": "md_SKILL_h2_26",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_26",
+      "to": "md_SKILL_list_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_26",
+      "to": "md_SKILL_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_19",
+      "to": "md_SKILL_h2_29",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_29",
+      "to": "md_SKILL_list_30",
+      "relation": "contains"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/triage-labels.md",
+  "generated_at": "2026-07-08T22:23:49.022364",
+  "nodes": [
+    {
+      "id": "md_triage-labels_h1_0",
+      "label": "Triage Labels",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/triage-labels.md",
+      "community": 999
+    }
+  ],
+  "edges": []
+}

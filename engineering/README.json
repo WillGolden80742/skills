@@ -1,0 +1,417 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/README.md",
+  "generated_at": "2026-07-08T22:23:49.018812",
+  "nodes": [
+    {
+      "id": "md_README_h1_0",
+      "label": "Engineering",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_h2_1",
+      "label": "User-invoked",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_2",
+      "label": "ask-matt",
+      "type": "link",
+      "url": "./ask-matt/SKILL.md",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_3",
+      "label": "**[ask-matt](./ask-matt/SKILL.md)** — Ask which skill or flow fits your situatio",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_4",
+      "label": "grill-with-docs",
+      "type": "link",
+      "url": "./grill-with-docs/SKILL.md",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_5",
+      "label": "**[grill-with-docs](./grill-with-docs/SKILL.md)** — Grilling session that also b",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_6",
+      "label": "triage",
+      "type": "link",
+      "url": "./triage/SKILL.md",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_7",
+      "label": "**[triage](./triage/SKILL.md)** — Move issues through a state machine of triage ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_8",
+      "label": "improve-codebase-architecture",
+      "type": "link",
+      "url": "./improve-codebase-architecture/SKILL.md",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_9",
+      "label": "**[improve-codebase-architecture](./improve-codebase-architecture/SKILL.md)** — ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_10",
+      "label": "setup-matt-pocock-skills",
+      "type": "link",
+      "url": "./setup-matt-pocock-skills/SKILL.md",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_11",
+      "label": "**[setup-matt-pocock-skills](./setup-matt-pocock-skills/SKILL.md)** — Configure ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_12",
+      "label": "to-spec",
+      "type": "link",
+      "url": "./to-spec/SKILL.md",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_13",
+      "label": "**[to-spec](./to-spec/SKILL.md)** — Turn the current conversation into a spec an",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_14",
+      "label": "to-tickets",
+      "type": "link",
+      "url": "./to-tickets/SKILL.md",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_15",
+      "label": "**[to-tickets](./to-tickets/SKILL.md)** — Break any plan, spec, or conversation ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_16",
+      "label": "wayfinder",
+      "type": "link",
+      "url": "./wayfinder/SKILL.md",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_17",
+      "label": "**[wayfinder](./wayfinder/SKILL.md)** — Plan a huge chunk of work — more than on",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_h2_18",
+      "label": "Model-invoked",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_19",
+      "label": "prototype",
+      "type": "link",
+      "url": "./prototype/SKILL.md",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_20",
+      "label": "**[prototype](./prototype/SKILL.md)** — Build a throwaway prototype to answer a ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_21",
+      "label": "diagnosing-bugs",
+      "type": "link",
+      "url": "./diagnosing-bugs/SKILL.md",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_22",
+      "label": "**[diagnosing-bugs](./diagnosing-bugs/SKILL.md)** — Disciplined diagnosis loop f",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_23",
+      "label": "research",
+      "type": "link",
+      "url": "./research/SKILL.md",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_24",
+      "label": "**[research](./research/SKILL.md)** — Investigate a question against high-trust ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_25",
+      "label": "tdd",
+      "type": "link",
+      "url": "./tdd/SKILL.md",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_26",
+      "label": "**[tdd](./tdd/SKILL.md)** — Test-driven development with a red-green-refactor lo",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_27",
+      "label": "domain-modeling",
+      "type": "link",
+      "url": "./domain-modeling/SKILL.md",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_28",
+      "label": "**[domain-modeling](./domain-modeling/SKILL.md)** — Actively build and sharpen a",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_29",
+      "label": "codebase-design",
+      "type": "link",
+      "url": "./codebase-design/SKILL.md",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_30",
+      "label": "**[codebase-design](./codebase-design/SKILL.md)** — Shared discipline and vocabu",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_31",
+      "label": "code-review",
+      "type": "link",
+      "url": "./code-review/SKILL.md",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_32",
+      "label": "**[code-review](./code-review/SKILL.md)** — Two-axis review of the diff since a ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/README.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_README_h2_1",
+      "to": "md_README_link_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_1",
+      "to": "md_README_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_1",
+      "to": "md_README_link_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_1",
+      "to": "md_README_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_1",
+      "to": "md_README_link_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_1",
+      "to": "md_README_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_1",
+      "to": "md_README_link_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_1",
+      "to": "md_README_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_1",
+      "to": "md_README_link_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_1",
+      "to": "md_README_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_1",
+      "to": "md_README_link_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_1",
+      "to": "md_README_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_1",
+      "to": "md_README_link_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_1",
+      "to": "md_README_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_1",
+      "to": "md_README_link_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_1",
+      "to": "md_README_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_h2_18",
+      "relation": "section"
+    },
+    {
+      "from": "md_README_h2_18",
+      "to": "md_README_link_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_18",
+      "to": "md_README_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_18",
+      "to": "md_README_link_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_18",
+      "to": "md_README_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_18",
+      "to": "md_README_link_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_18",
+      "to": "md_README_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_18",
+      "to": "md_README_link_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_18",
+      "to": "md_README_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_18",
+      "to": "md_README_link_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_18",
+      "to": "md_README_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_18",
+      "to": "md_README_link_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_18",
+      "to": "md_README_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_18",
+      "to": "md_README_link_31",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_18",
+      "to": "md_README_list_32",
+      "relation": "contains"
+    }
+  ]
+}

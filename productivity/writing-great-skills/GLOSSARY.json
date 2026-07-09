@@ -1,0 +1,481 @@
+{
+  "source": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+  "generated_at": "2026-07-08T22:23:49.034576",
+  "nodes": [
+    {
+      "id": "md_GLOSSARY_h1_0",
+      "label": "Glossary — Building Great Skills",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_link_1",
+      "label": "`writing-great-skills`",
+      "type": "link",
+      "url": "SKILL.md",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h2_2",
+      "label": "Predictability",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h2_3",
+      "label": "Invocation",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_4",
+      "label": "Model-Invoked",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_5",
+      "label": "User-Invoked",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_6",
+      "label": "Description",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_7",
+      "label": "Context Pointer",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_8",
+      "label": "Context Load",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_9",
+      "label": "Cognitive Load",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_10",
+      "label": "Router Skill",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_11",
+      "label": "Granularity",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h2_12",
+      "label": "Information Hierarchy",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_13",
+      "label": "Information Hierarchy",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_list_14",
+      "label": "**Steps** — in-file, primary",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_list_15",
+      "label": "**Reference**, in-file — secondary",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_list_16",
+      "label": "**Reference**, disclosed — behind a **context pointer**",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_17",
+      "label": "Steps",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_18",
+      "label": "Reference",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_19",
+      "label": "External Reference",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_20",
+      "label": "Progressive Disclosure",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_21",
+      "label": "Co-location",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_22",
+      "label": "Sprawl",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h2_23",
+      "label": "Steering",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_24",
+      "label": "Branch",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_25",
+      "label": "Leading Word",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_26",
+      "label": "Completion Criterion",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_27",
+      "label": "Legwork",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_28",
+      "label": "Post-Completion Steps",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_29",
+      "label": "Premature Completion",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_30",
+      "label": "Negation",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h2_31",
+      "label": "Pruning",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_32",
+      "label": "Single Source of Truth",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_33",
+      "label": "Duplication",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_34",
+      "label": "Relevance",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_35",
+      "label": "Sediment",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    },
+    {
+      "id": "md_GLOSSARY_h3_36",
+      "label": "No-Op",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/GLOSSARY.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_GLOSSARY_h1_0",
+      "to": "md_GLOSSARY_link_1",
+      "relation": "contains"
+    },
+    {
+      "from": "md_GLOSSARY_h1_0",
+      "to": "md_GLOSSARY_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h1_0",
+      "to": "md_GLOSSARY_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_3",
+      "to": "md_GLOSSARY_h3_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_3",
+      "to": "md_GLOSSARY_h3_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_3",
+      "to": "md_GLOSSARY_h3_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_3",
+      "to": "md_GLOSSARY_h3_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_3",
+      "to": "md_GLOSSARY_h3_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_3",
+      "to": "md_GLOSSARY_h3_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_3",
+      "to": "md_GLOSSARY_h3_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_3",
+      "to": "md_GLOSSARY_h3_11",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h1_0",
+      "to": "md_GLOSSARY_h2_12",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_12",
+      "to": "md_GLOSSARY_h3_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h3_13",
+      "to": "md_GLOSSARY_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_GLOSSARY_h3_13",
+      "to": "md_GLOSSARY_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_GLOSSARY_h3_13",
+      "to": "md_GLOSSARY_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_GLOSSARY_h2_12",
+      "to": "md_GLOSSARY_h3_17",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_12",
+      "to": "md_GLOSSARY_h3_18",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_12",
+      "to": "md_GLOSSARY_h3_19",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_12",
+      "to": "md_GLOSSARY_h3_20",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_12",
+      "to": "md_GLOSSARY_h3_21",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_12",
+      "to": "md_GLOSSARY_h3_22",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h1_0",
+      "to": "md_GLOSSARY_h2_23",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_23",
+      "to": "md_GLOSSARY_h3_24",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_23",
+      "to": "md_GLOSSARY_h3_25",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_23",
+      "to": "md_GLOSSARY_h3_26",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_23",
+      "to": "md_GLOSSARY_h3_27",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_23",
+      "to": "md_GLOSSARY_h3_28",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_23",
+      "to": "md_GLOSSARY_h3_29",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_23",
+      "to": "md_GLOSSARY_h3_30",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h1_0",
+      "to": "md_GLOSSARY_h2_31",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_31",
+      "to": "md_GLOSSARY_h3_32",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_31",
+      "to": "md_GLOSSARY_h3_33",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_31",
+      "to": "md_GLOSSARY_h3_34",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_31",
+      "to": "md_GLOSSARY_h3_35",
+      "relation": "section"
+    },
+    {
+      "from": "md_GLOSSARY_h2_31",
+      "to": "md_GLOSSARY_h3_36",
+      "relation": "section"
+    }
+  ]
+}

@@ -1,0 +1,557 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.021366",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Setup Matt Pocock's Skills",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_1",
+      "label": "**Issue tracker** — where issues live (GitHub by default; local markdown is also",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "**Triage labels** — the strings used for the five canonical triage roles",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "**Domain docs** — where `CONTEXT.md` and ADRs live, and the consumer rules for r",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_4",
+      "label": "Process",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_5",
+      "label": "1. Explore",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "`git remote -v` and `.git/config` — is this a GitHub repo? Which one?",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "`AGENTS.md` and `CLAUDE.md` at the repo root — does either exist? Is there alrea",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "`CONTEXT.md` and `CONTEXT-MAP.md` at the repo root",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_9",
+      "label": "`docs/adr/` and any `src/*/docs/adr/` directories",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "`docs/agents/` — does this skill's prior output already exist?",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "`.scratch/` — sign that a local-markdown issue tracker convention is already in ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_12",
+      "label": "2. Present findings and ask",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "**GitHub** — issues live in the repo's GitHub Issues (uses the `gh` CLI)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_14",
+      "label": "`glab`",
+      "type": "link",
+      "url": "https://gitlab.com/gitlab-org/cli",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "**GitLab** — issues live in the repo's GitLab Issues (uses the [`glab`](https://",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "**Local markdown** — issues live as files under `.scratch/<feature>/` in this re",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "**Other** (Jira, Linear, etc.) — ask the user to describe the workflow in one pa",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_18",
+      "label": "**PRs as a request surface** — yes / no (default: no). Record the answer in `doc",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_19",
+      "label": "`needs-triage` — maintainer needs to evaluate",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_20",
+      "label": "`needs-info` — waiting on reporter",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_21",
+      "label": "`ready-for-agent` — fully specified, AFK-ready (an agent can pick it up with no ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_22",
+      "label": "`ready-for-human` — needs human implementation",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_23",
+      "label": "`wontfix` — will not be actioned",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_24",
+      "label": "**Single-context** — one `CONTEXT.md` + `docs/adr/` at the repo root. Most repos",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_25",
+      "label": "**Multi-context** — `CONTEXT-MAP.md` at the root pointing to per-context `CONTEX",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_26",
+      "label": "3. Confirm and edit",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_27",
+      "label": "The `## Agent skills` block to add to whichever of `CLAUDE.md` / `AGENTS.md` is ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_28",
+      "label": "The contents of `docs/agents/issue-tracker.md`, `docs/agents/triage-labels.md`, ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_29",
+      "label": "4. Write",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_30",
+      "label": "If `CLAUDE.md` exists, edit it.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_31",
+      "label": "Else if `AGENTS.md` exists, edit it.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_32",
+      "label": "If neither exists, ask the user which one to create — don't pick for them.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_33",
+      "label": "Code: markdown",
+      "type": "code_block",
+      "language": "markdown",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_34",
+      "label": "issue-tracker-github.md",
+      "type": "link",
+      "url": "./issue-tracker-github.md",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_35",
+      "label": "[issue-tracker-github.md](./issue-tracker-github.md) — GitHub issue tracker",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_36",
+      "label": "issue-tracker-gitlab.md",
+      "type": "link",
+      "url": "./issue-tracker-gitlab.md",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_37",
+      "label": "[issue-tracker-gitlab.md](./issue-tracker-gitlab.md) — GitLab issue tracker",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_38",
+      "label": "issue-tracker-local.md",
+      "type": "link",
+      "url": "./issue-tracker-local.md",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_39",
+      "label": "[issue-tracker-local.md](./issue-tracker-local.md) — local-markdown issue tracke",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_40",
+      "label": "triage-labels.md",
+      "type": "link",
+      "url": "./triage-labels.md",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_41",
+      "label": "[triage-labels.md](./triage-labels.md) — label mapping",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_42",
+      "label": "domain.md",
+      "type": "link",
+      "url": "./domain.md",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_43",
+      "label": "[domain.md](./domain.md) — domain doc consumer rules + layout",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_44",
+      "label": "5. Done",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_list_1",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_h3_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_h3_12",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_12",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_12",
+      "to": "md_SKILL_link_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_12",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_12",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_12",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_12",
+      "to": "md_SKILL_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_12",
+      "to": "md_SKILL_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_12",
+      "to": "md_SKILL_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_12",
+      "to": "md_SKILL_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_12",
+      "to": "md_SKILL_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_12",
+      "to": "md_SKILL_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_12",
+      "to": "md_SKILL_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_12",
+      "to": "md_SKILL_list_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_h3_26",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_26",
+      "to": "md_SKILL_list_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_26",
+      "to": "md_SKILL_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_h3_29",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_list_31",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_code_33",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_link_34",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_list_35",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_link_36",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_list_37",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_link_38",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_list_39",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_link_40",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_list_41",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_link_42",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_29",
+      "to": "md_SKILL_list_43",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_h3_44",
+      "relation": "section"
+    }
+  ]
+}

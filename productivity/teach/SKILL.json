@@ -1,0 +1,461 @@
+{
+  "source": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.033096",
+  "nodes": [
+    {
+      "id": "md_SKILL_h2_0",
+      "label": "Teaching Workspace",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_1",
+      "label": "MISSION-FORMAT.md",
+      "type": "link",
+      "url": "./MISSION-FORMAT.md",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "`MISSION.md`: A document capturing the _reason_ the user is interested in the to",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "`./reference/*.html`: A directory of reference materials. These are the compress",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_4",
+      "label": "RESOURCES-FORMAT.md",
+      "type": "link",
+      "url": "./RESOURCES-FORMAT.md",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "`RESOURCES.md`: A list of resources which can be explored to ground your teachin",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_6",
+      "label": "LEARNING-RECORD-FORMAT.md",
+      "type": "link",
+      "url": "./LEARNING-RECORD-FORMAT.md",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "`./learning-records/*.md`: A directory of learning records, which capture what t",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "`./lessons/*.html`: A directory of lessons. A **lesson** is a single, self-conta",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_9",
+      "label": "Assets",
+      "type": "link",
+      "url": "#assets",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "`./assets/*`: Reusable **components** shared across lessons. See [Assets](#asset",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "`NOTES.md`: A scratchpad for you to jot down user preferences, or working notes.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_12",
+      "label": "Philosophy",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "**Knowledge**, captured from high-quality, high-trust resources",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "**Skills**, acquired through highly-relevant interactive lessons devised by you,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "**Wisdom**, which comes from interacting with other learners and practitioners",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_16",
+      "label": "Fluency vs Storage Strength",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "**Fluency strength**: in-the-moment retrieval of knowledge",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_18",
+      "label": "**Storage strength**: long-term retention of knowledge",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_19",
+      "label": "Using retrieval practice (recall from memory)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_20",
+      "label": "Spacing (distributing practice over time)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_21",
+      "label": "Interleaving (mixing up different but related topics in practice - for skills pr",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_22",
+      "label": "Lessons",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_23",
+      "label": "Assets",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_24",
+      "label": "The Mission",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_25",
+      "label": "Zone Of Proximal Development",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_26",
+      "label": "Reading their `learning-records`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_27",
+      "label": "Figuring out the right thing to teach them based on their mission",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_28",
+      "label": "Teach the most relevant thing that fits in their zone of proximal development",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_29",
+      "label": "Knowledge",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_30",
+      "label": "Skills",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_31",
+      "label": "Interactive lessons, using quizzes and light in-browser tasks",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_32",
+      "label": "Lessons which guide the user through a list of real-world steps to take (for ins",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_33",
+      "label": "Acquiring Wisdom",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_34",
+      "label": "Reference Documents",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_35",
+      "label": "Syntax and code snippets for programming",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_36",
+      "label": "Algorithms and flowcharts for processes",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_37",
+      "label": "Yoga poses and sequences for yoga",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_38",
+      "label": "Exercises and routines for fitness",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_39",
+      "label": "Glossaries for any topic with its own nomenclature",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_40",
+      "label": "`NOTES.md`",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_link_1",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_link_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_link_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_link_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_12",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_12",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_12",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_12",
+      "to": "md_SKILL_h3_16",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_16",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_16",
+      "to": "md_SKILL_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_16",
+      "to": "md_SKILL_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_16",
+      "to": "md_SKILL_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_16",
+      "to": "md_SKILL_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_25",
+      "to": "md_SKILL_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_25",
+      "to": "md_SKILL_list_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_25",
+      "to": "md_SKILL_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_30",
+      "to": "md_SKILL_list_31",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_30",
+      "to": "md_SKILL_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_34",
+      "to": "md_SKILL_list_35",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_34",
+      "to": "md_SKILL_list_36",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_34",
+      "to": "md_SKILL_list_37",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_34",
+      "to": "md_SKILL_list_38",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_34",
+      "to": "md_SKILL_list_39",
+      "relation": "contains"
+    }
+  ]
+}

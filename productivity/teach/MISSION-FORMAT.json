@@ -1,0 +1,115 @@
+{
+  "source": "/root/.config/opencode/skills/productivity/teach/MISSION-FORMAT.md",
+  "generated_at": "2026-07-08T22:23:49.033940",
+  "nodes": [
+    {
+      "id": "md_MISSION-FORMAT_h1_0",
+      "label": "MISSION.md Format",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/productivity/teach/MISSION-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_MISSION-FORMAT_h2_1",
+      "label": "Template",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/MISSION-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_MISSION-FORMAT_code_2",
+      "label": "Code: md",
+      "type": "code_block",
+      "language": "md",
+      "file": "/root/.config/opencode/skills/productivity/teach/MISSION-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_MISSION-FORMAT_h2_3",
+      "label": "Rules",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/MISSION-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_MISSION-FORMAT_list_4",
+      "label": "**One mission per workspace.** If the user wants to learn two unrelated things, ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/MISSION-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_MISSION-FORMAT_list_5",
+      "label": "**Concrete over abstract.** \"Run a half marathon by October\" beats \"get fitter.\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/MISSION-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_MISSION-FORMAT_list_6",
+      "label": "**Push back on vagueness.** If the user cannot articulate why, interview them be",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/MISSION-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_MISSION-FORMAT_list_7",
+      "label": "**Revise when reality shifts.** Missions change. When the user's goal moves, upd",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/MISSION-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_MISSION-FORMAT_list_8",
+      "label": "**Keep it short.** If `MISSION.md` runs past a screen, it has stopped being a co",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/MISSION-FORMAT.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_MISSION-FORMAT_h1_0",
+      "to": "md_MISSION-FORMAT_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_MISSION-FORMAT_h2_1",
+      "to": "md_MISSION-FORMAT_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_MISSION-FORMAT_h1_0",
+      "to": "md_MISSION-FORMAT_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_MISSION-FORMAT_h2_3",
+      "to": "md_MISSION-FORMAT_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_MISSION-FORMAT_h2_3",
+      "to": "md_MISSION-FORMAT_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_MISSION-FORMAT_h2_3",
+      "to": "md_MISSION-FORMAT_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_MISSION-FORMAT_h2_3",
+      "to": "md_MISSION-FORMAT_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_MISSION-FORMAT_h2_3",
+      "to": "md_MISSION-FORMAT_list_8",
+      "relation": "contains"
+    }
+  ]
+}

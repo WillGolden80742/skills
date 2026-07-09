@@ -1,0 +1,240 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.023866",
+  "nodes": [
+    {
+      "id": "md_SKILL_h2_0",
+      "label": "Plan, don't do",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Refer by name",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_2",
+      "label": "The Map",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_3",
+      "label": "The map body",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_4",
+      "label": "Code: markdown",
+      "type": "code_block",
+      "language": "markdown",
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_5",
+      "label": "Tickets",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_6",
+      "label": "Code: markdown",
+      "type": "code_block",
+      "language": "markdown",
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_7",
+      "label": "Ticket Types",
+      "type": "link",
+      "url": "#ticket-types",
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_8",
+      "label": "Work through the map",
+      "type": "link",
+      "url": "#work-through-the-map",
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_9",
+      "label": "Ticket Types",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "**Research** (AFK): Reading documentation, third-party APIs, or local resources ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "**Prototype** (HITL): Raise the fidelity of the discussion by making a cheap, ro",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "**Grilling** (HITL): Conversation via the /grilling and /domain-modeling skills,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "**Task** (HITL or AFK): Manual work that must happen before a *decision* can be ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_14",
+      "label": "Fog of war",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "**Ticket when** the question is already sharp — even if it's blocked and you can",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "**Not yet specified when** you can't yet phrase it that sharply. Don't pre-slice",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_17",
+      "label": "Out of scope",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_18",
+      "label": "Invocation",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_19",
+      "label": "Chart the map",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_20",
+      "label": "Work through the map",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/wayfinder/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_3",
+      "to": "md_SKILL_code_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_code_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_link_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_link_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_14",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_14",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_18",
+      "to": "md_SKILL_h3_19",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_18",
+      "to": "md_SKILL_h3_20",
+      "relation": "section"
+    }
+  ]
+}

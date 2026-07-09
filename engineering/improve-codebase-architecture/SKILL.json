@@ -1,0 +1,285 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.023029",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Improve Codebase Architecture",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_1",
+      "label": "Run the `/codebase-design` skill for the architecture vocabulary (**module**, **",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "The domain language in `CONTEXT.md` gives names to good seams; ADRs in `docs/adr",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_3",
+      "label": "Process",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_4",
+      "label": "1. Explore",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "Where does understanding one concept require bouncing between many small modules",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "Where are modules **shallow** — interface nearly as complex as the implementatio",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "Where have pure functions been extracted just for testability, but the real bugs",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "Where do tightly-coupled modules leak across their seams?",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_9",
+      "label": "Which parts of the codebase are untested, or hard to test through their current ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_10",
+      "label": "2. Present candidates as an HTML report",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "**Files** — which files/modules are involved",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "**Problem** — why the current architecture is causing friction",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "**Solution** — plain English description of what would change",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "**Benefits** — explained in terms of locality and leverage, and how tests would ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "**Before / After diagram** — side-by-side, custom-drawn, illustrating the shallo",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "**Recommendation strength** — one of `Strong`, `Worth exploring`, `Speculative`,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_17",
+      "label": "HTML-REPORT.md",
+      "type": "link",
+      "url": "HTML-REPORT.md",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_18",
+      "label": "3. Grilling loop",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_19",
+      "label": "**Naming a deepened module after a concept not in `CONTEXT.md`?** Add the term t",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_20",
+      "label": "**Sharpening a fuzzy term during the conversation?** Update `CONTEXT.md` right t",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_21",
+      "label": "**User rejects the candidate with a load-bearing reason?** Offer an ADR, framed ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_22",
+      "label": "**Want to explore alternative interfaces for the deepened module?** Run the `/co",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_list_1",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_h3_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_4",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_4",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_4",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_4",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_4",
+      "to": "md_SKILL_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_h3_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_10",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_10",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_10",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_10",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_10",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_10",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_10",
+      "to": "md_SKILL_link_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_h3_18",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_18",
+      "to": "md_SKILL_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_18",
+      "to": "md_SKILL_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_18",
+      "to": "md_SKILL_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_18",
+      "to": "md_SKILL_list_22",
+      "relation": "contains"
+    }
+  ]
+}

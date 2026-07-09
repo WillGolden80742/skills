@@ -1,0 +1,166 @@
+{
+  "source": "/root/.config/opencode/skills/in-progress/README.md",
+  "generated_at": "2026-07-08T22:23:49.014471",
+  "nodes": [
+    {
+      "id": "md_README_h1_0",
+      "label": "In Progress",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/in-progress/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_1",
+      "label": "loop-me",
+      "type": "link",
+      "url": "./loop-me/SKILL.md",
+      "file": "/root/.config/opencode/skills/in-progress/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_2",
+      "label": "**[loop-me](./loop-me/SKILL.md)** — Grill yourself into implementable workflow s",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_3",
+      "label": "wizard",
+      "type": "link",
+      "url": "./wizard/SKILL.md",
+      "file": "/root/.config/opencode/skills/in-progress/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_4",
+      "label": "**[wizard](./wizard/SKILL.md)** — Generate an interactive bash wizard that walks",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_5",
+      "label": "writing-beats",
+      "type": "link",
+      "url": "./writing-beats/SKILL.md",
+      "file": "/root/.config/opencode/skills/in-progress/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_6",
+      "label": "**[writing-beats](./writing-beats/SKILL.md)** — Shape an article as a journey of",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_7",
+      "label": "writing-fragments",
+      "type": "link",
+      "url": "./writing-fragments/SKILL.md",
+      "file": "/root/.config/opencode/skills/in-progress/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_8",
+      "label": "**[writing-fragments](./writing-fragments/SKILL.md)** — Grilling session that mi",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_9",
+      "label": "writing-shape",
+      "type": "link",
+      "url": "./writing-shape/SKILL.md",
+      "file": "/root/.config/opencode/skills/in-progress/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_10",
+      "label": "**[writing-shape](./writing-shape/SKILL.md)** — Take a markdown file of raw mate",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_11",
+      "label": "claude-handoff",
+      "type": "link",
+      "url": "./claude-handoff/SKILL.md",
+      "file": "/root/.config/opencode/skills/in-progress/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_12",
+      "label": "**[claude-handoff](./claude-handoff/SKILL.md)** — Hand the current conversation ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/README.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_link_1",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_link_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_link_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_link_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_link_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_link_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_list_12",
+      "relation": "contains"
+    }
+  ]
+}

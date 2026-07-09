@@ -1,0 +1,349 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.029722",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Ask Matt",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "The main flow: idea → ship",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "**`/handoff`** out, then open a fresh session against that file,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "**`/prototype`** to answer the question with throwaway code,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "**`/handoff`** back what you learned, and reference it from the original idea th",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "**Yes** → **`/to-spec`** (turn the thread into a spec), then **`/to-tickets`** t",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "**No** → **`/implement`** right here, in the same context window.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_7",
+      "label": "Context hygiene",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_8",
+      "label": "smart zone",
+      "type": "link",
+      "url": "https://www.aihero.dev/ai-coding-dictionary/smart-zone",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_9",
+      "label": "On-ramps",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "**Bugs and requests piling up** → **`/triage`**. It moves issues through triage ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "**Something's broken** → **`/diagnosing-bugs`**. For the hard ones: the bug that",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "**A huge, foggy effort — a greenfield project or a huge feature build, too big f",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_13",
+      "label": "Codebase health",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "**`/improve-codebase-architecture`** — run whenever you have a spare moment to k",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_15",
+      "label": "Vocabulary underneath",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "**`/domain-modeling`** — sharpen the project's *domain* language: challenge a fu",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "**`/codebase-design`** — the deep-module vocabulary (module, interface, depth, s",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_18",
+      "label": "Crossing sessions",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_19",
+      "label": "**`/handoff`** — when a thread is full or you need to branch off (e.g. into a `/",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_20",
+      "label": "**`/compact`** (built-in) — stay in the **same conversation**, letting the earli",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_21",
+      "label": "Standalone",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_22",
+      "label": "**`/grill-me`** — the same relentless interview as `/grill-with-docs`, but for w",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_23",
+      "label": "**`/prototype`** — a small, throwaway program that answers one design question: ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_24",
+      "label": "**`/research`** — delegate reading legwork to a **background agent**: it investi",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_25",
+      "label": "**`/teach`** — learn a concept over multiple sessions, using the current directo",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_26",
+      "label": "**`/writing-great-skills`** — reference for writing and editing skills well.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_27",
+      "label": "Precondition",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/ask-matt/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_7",
+      "to": "md_SKILL_link_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_15",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_18",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_18",
+      "to": "md_SKILL_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_18",
+      "to": "md_SKILL_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_21",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_21",
+      "to": "md_SKILL_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_21",
+      "to": "md_SKILL_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_21",
+      "to": "md_SKILL_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_21",
+      "to": "md_SKILL_list_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_21",
+      "to": "md_SKILL_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_27",
+      "relation": "section"
+    }
+  ]
+}

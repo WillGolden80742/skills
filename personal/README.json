@@ -1,0 +1,66 @@
+{
+  "source": "/root/.config/opencode/skills/personal/README.md",
+  "generated_at": "2026-07-08T22:23:49.042156",
+  "nodes": [
+    {
+      "id": "md_README_h1_0",
+      "label": "Personal",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/personal/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_1",
+      "label": "edit-article",
+      "type": "link",
+      "url": "./edit-article/SKILL.md",
+      "file": "/root/.config/opencode/skills/personal/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_2",
+      "label": "**[edit-article](./edit-article/SKILL.md)** — Edit and improve articles by restr",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/personal/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_3",
+      "label": "obsidian-vault",
+      "type": "link",
+      "url": "./obsidian-vault/SKILL.md",
+      "file": "/root/.config/opencode/skills/personal/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_4",
+      "label": "**[obsidian-vault](./obsidian-vault/SKILL.md)** — Search, create, and manage not",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/personal/README.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_link_1",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_link_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_list_4",
+      "relation": "contains"
+    }
+  ]
+}

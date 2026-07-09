@@ -1015,8 +1015,8 @@
     "semantic_hash": ""
   },
   "graphify-skill-router/SKILL.md": {
-    "mtime": 1783553381.8068023,
-    "ast_hash": "8207d5dbaf55b9d607e34cc6777ff964",
+    "mtime": 1783556221.4192827,
+    "ast_hash": "687ccd0975a98d4b07428d9cde1847bc",
     "semantic_hash": ""
   },
   "graphify-skill-router/references/routing-reference.md": {
@@ -1690,8 +1690,8 @@
     "semantic_hash": ""
   },
   "graphify-skill-router/SKILL.json": {
-    "mtime": 1783555872.8117743,
-    "ast_hash": "6e8e0cebbdc9efa8852d198fd33bf939",
+    "mtime": 1783556226.095384,
+    "ast_hash": "ea666b06491fe43e9ecda8836a33a93a",
     "semantic_hash": ""
   },
   "graphify-skill-router/references/routing-reference.json": {
@@ -1817,6 +1817,11 @@
   "testar-aplicacoes-web/SKILL.json": {
     "mtime": 1783555872.8237746,
     "ast_hash": "ceb8f0915ec4003af5450341c4ddeee6",
+    "semantic_hash": ""
+  },
+  "README.html": {
+    "mtime": 1783556069.7439914,
+    "ast_hash": "f706f3aad81e6378146f43be0922c685",
     "semantic_hash": ""
   }
 }

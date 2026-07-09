@@ -1,208 +1,189 @@
-# Skills - OpenCode
+# OpenCode Skills
 
-Coleção de **skills para o [OpenCode](https://opencode.ai)** — módulos de conhecimento e automação que estendem o agente com fluxos de trabalho prontos: geração de documentos Office, design visual, automação web, integração com WhatsApp/MCP, gestão de Git e organização de projetos.
+Repositório de skills especializados para o OpenCode — agentes que executam tarefas específicas com expertise especializada.
 
-Cada skill vive em `~/.config/opencode/skills/<nome-da-skill>/` e é descoberta automaticamente pelo OpenCode através de um arquivo `SKILL.md` com front-matter (`name`, `description`, `triggers`).
+Inclui skills originais + [mattpocock/skills](https://github.com/mattpocock/skills) (TypeScript-first).
 
-## Instalação
-
-Clone o repositório diretamente dentro da pasta de skills do OpenCode:
-
-```bash
-# Linux / macOS
-git clone https://github.com/WillGolden80742/skills.git ~/.config/opencode/skills
-
-# Windows
-git clone https://github.com/WillGolden80742/skills.git "%USERPROFILE%\.config\opencode\skills"
-```
-
-Se já existir uma pasta `skills` local, copie apenas as subpastas desejadas para dentro de `~/.config/opencode/skills/`.
-
-## Como funciona uma skill
+## 📁 Estrutura do Projeto
 
 ```
 skills/
-├── nome-da-skill/
-│   ├── SKILL.md           # obrigatório: front-matter + instruções
-│   ├── SKILL.json        # AST extraído automaticamente
-│   ├── scripts/           # scripts auxiliares (opcional)
-│   └── templates/         # templates/exemplos (opcional)
+├── graphify/                          # Knowledge graph do codebase
+├── graphify-skill-router/             # Router maestro de skills
+├── buildify/                          # Agente buildify (graphify + codificar)
+├── editar-skill/                      # Editar skill existente
+├── criar-novo-skill/                  # Criar novo skill
+├── gerenciar-remover-skills/          # Remover/atualizar skills
+│
+├── commits/                           # Histórico de commits (yyyy/mm/dd/)
+├── graphify-out/                      # Grafo gerado automaticamente
+│
+├── engineering/                       # mattpocock: engenharia de código
+├── productivity/                      # mattpocock: produtividade
+├── deprecated/                        # mattpocock: skills depreciados
+├── in-progress/                       # mattpocock: em desenvolvimento
+├── misc/                              # mattpocock: diversos
+├── personal/                          # mattpocock: uso pessoal
+│
+└── [skills originais]/
 ```
 
-`SKILL.md` segue o formato:
-
-```yaml
----
-name: nome-da-skill
-description: descrição de uma linha sobre o que a skill faz.
-triggers: ["palavra-chave-1", "frase gatilho 2", ...]
----
-
-## What I do
-...
-
-## Usage
-...
-```
-
-Quando uma mensagem do usuário casa com algum `trigger`, o OpenCode carrega o conteúdo da skill correspondente como contexto adicional para o agente.
-
-## Agente Buildify
-
-O agente **buildify** executa `graphify update` antes de qualquer tarefa de codificação:
-
-```bash
-# Ativar buildify
-# O agente automaticamente executa graphify update antes de codar
-```
-
-**Workflow:**
-```
-Tarefa → graphify update → graphify query → Implementar → graphify update
-```
-
-## Skills disponíveis
+## 🎯 Skills por Categoria
 
 ### 🛠️ Meta — Gestão de Skills
 
 | Skill | Descrição |
 |-------|-----------|
-| `buildify` | Agente buildify que executa graphify antes de codar |
-| `criar-novo-skill` | Cria uma nova skill a partir de um template padrão |
-| `editar-skill` | Edita uma skill existente — conteúdo, triggers, descrição |
-| `gerenciar-remover-skills` | Lista, atualiza ou remove skills existentes |
-| `markdown-to-ast` | Converte arquivos .md em AST JSON (mesmo nome/diretório) |
-| `graphify-skill-router` | Router que usa graphify para navegar e encontrar skills |
+| `criar-novo-skill` | Cria um novo skill para o opencode a partir de um template padrão |
+| `editar-skill` | Edita uma skill existente — altera conteúdo, triggers, descrição e re-gerencia AST |
+| `gerenciar-remover-skills` | Remove ou atualiza skills que não ficaram boas o suficiente |
+| `graphify` | Knowledge graph do codebase — query/path/explain AST-only, zero cost |
+| `graphify-skill-router` | Router maestro que analisa o codebase via graphify e navega pelos AST JSON |
+| `buildify` | Agente buildify que executa graphify update antes de codar |
 
 ### 💻 Desenvolvimento & Frontend
 
 | Skill | Descrição |
 |-------|-----------|
-| `graphify` | Knowledge graph persistente (AST-only, zero custo) |
-| `construir-artefatos-react` | Cria artefatos HTML com React, Tailwind CSS, shadcn/ui |
-| `testar-aplicacoes-web` | Toolkit de testes locais com Playwright |
-| `capturar-screenshot-paginas` | Captura screenshots de páginas web via Playwright |
-| `refatorar-css-variaveis` | Refatora CSS para usar variáveis CSS no `:root` |
-| `reverter-css-variaveis` | Reverte CSS com variáveis `:root` para valores diretos |
-| `construir-servidor-mcp` | Guia para criar servidores MCP (Python/Node) |
-| `boas-praticas-de-codigo` | Boas práticas de OOP, Object Calisthenics, MVC |
-
-### 📄 Documentos Office & PDF
-
-| Skill | Descrição |
-|-------|-----------|
-| `criar-editar-apresentacao` | Cria e edita apresentações PowerPoint (.pptx) |
-| `criar-editar-documento-word` | Cria e edita documentos Word (.docx) |
-| `criar-editar-planilhas-excel` | Manipula planilhas Excel (.xlsx, .xlsm, .csv, .tsv) |
-| `processar-arquivos-pdf` | Lê, extrai texto/tabelas, mescla, divide e cria PDFs |
+| `construir-artefatos-react` | Cria artefatos HTML complexos com React, Tailwind CSS e shadcn/ui |
+| `construir-servidor-mcp` | Cria servidores MCP (Model Context Protocol) para integrar APIs/serviços externos |
+| `boas-praticas-de-codigo` | Boas práticas de OOP, Object Calisthenics, MVC e filosofia Rails |
+| `placeholder-carregamento` | Gera skeleton screens com shimmer animation para componentes WordPress |
+| `testar-aplicacoes-web` | Toolkit para testar aplicações web locais usando Playwright |
+| `capturar-screenshot-paginas` | Captura screenshots de páginas web usando Playwright |
 
 ### 🎨 Design & Visual
 
 | Skill | Descrição |
 |-------|-----------|
-| `aplicar-temas-cores-fontes` | Aplica temas de cores e fontes profissionais (10 temas) |
-| `design-interface-usuario` | Design visual distintivo para UI |
-| `design-visual-artistico` | Cria designs visuais artísticos em PNG/PDF |
+| `design-interface-usuario` | Design visual distintivo para UI — estética, tipografia |
+| `design-visual-artistico` | Cria designs visuais artístico em PNG e PDF |
+| `aplicar-temas-cores-fontes` | Aplica temas de cores e fontes profissionais a slides e artefatos |
 | `diretrizes-marca-anthropic` | Aplica cores e tipografia oficial da Anthropic |
-| `arte-algoritmica-generativa` | Cria arte algorítmica com p5.js |
+| `arte-algoritmica-generativa` | Cria arte algorítmica usando p5.js com aleatoriedade controlada |
 | `criar-gifs-animados-slack` | Cria GIFs animados otimizados para Slack |
-| `placeholder-carregamento` | Gera skeleton screens com shimmer animation |
+
+### 📄 Documentos Office & PDF
+
+| Skill | Descrição |
+|-------|-----------|
+| `criar-editar-documento-word` | Cria, lê e edita documentos Word (.docx) |
+| `criar-editar-planilhas-excel` | Manipula arquivos de planilhas Excel (.xlsx, .xlsm, .csv, .tsv) |
+| `criar-editar-apresentacao` | Cria e edita apresentações PowerPoint (.pptx) |
+| `processar-arquivos-pdf` | Processa PDFs — ler, extrair texto/tabelas, mesclar, dividir, criar |
 
 ### 🗂️ Git, Arquivos & Projetos
 
 | Skill | Descrição |
 |-------|-----------|
-| `comitar-alteracoes` | Cria commits Git com histórico timestampado |
-| `gerar-historico-commits` | Gera histórico de commits em `commits/yyyy/mm/dd/` |
-| `recuperar-commits-salvos` | Recupera e exibe commits salvos |
-| `gerar-arvore-diretorios` | Gera árvore de diretórios em Markdown |
-| `mesclar-arquivos-diretorio` | Mescla arquivos de um diretório em um único arquivo |
-| `renomear-arquivos-referencias` | Renomeia arquivos e atualiza referências |
-| `limpar-arquivos-dependencias` | Remove dependências (vendor, npm, etc.) |
+| `comitar-alteracoes` | Cria commits Git com histórico timestampado em commits/ |
+| `gerar-historico-commits` | Gera arquivos de histórico de commits do Git (yyyy/mm/dd/) |
+| `recuperar-commits-salvos` | Recupera e exibe os comentários das últimas alterações commitadas |
+| `gerar-arvore-diretorios` | Cria árvore de diretórios em Markdown (.md) de um projeto |
+| `mesclar-arquivos-diretorio` | Mescla arquivos de um diretório em um único arquivo de saída |
+| `renomear-arquivos-referencias` | Renomeia arquivo e atualiza todas as referências no projeto |
+| `limpar-arquivos-dependencias` | Remove arquivos, diretórios e dependências de projetos |
+| `configurar-espelhamento-server` | Espelhamento bidirecional seguro entre pasta local e servidor Linux |
 
-### 🔌 Integração & Automação
-
-| Skill | Descrição |
-|-------|-----------|
-| `autenticar-github-device-flow` | Autentica GitHub via device flow |
-| `delegar-tarefas` | Delega tarefas para o agente "agy" |
-| `extrair-conteudo-paginas` | Extrai conteúdo de páginas web (Mozilla Readability) |
-| `configurar-espelhamento-server` | Espelhamento bidirecional local ↔ servidor via SSH/SFTP |
-
-### 📝 Comunicação & Documentação
+### 🌐 Web & Extrações
 
 | Skill | Descrição |
 |-------|-----------|
+| `extrair-conteudo-paginas` | Extrai conteúdo de páginas web usando Mozilla Readability |
+| `autenticar-github-device-flow` | Autentica GitHub via device flow em ambientes sem token |
+
+### 📝 Documentação & Comunicação
+
+| Skill | Descrição |
+|-------|-----------|
+| `coautoria-documentacao-tecnica` | Workflow estruturado para co-autoria de documentação |
 | `comunicados-internos-empresa` | Cria comunicações internas — relatórios, newsletters, FAQs |
-| `coautoria-documentacao-tecnica` | Workflow estruturado de co-autoria de documentação |
 
-### 🛒 E-commerce & Marketplace
+### 🧩 CSS & Estilização
 
 | Skill | Descrição |
 |-------|-----------|
-| `tema-marketplace-trokapay` | Tema WordPress marketplace com WooCommerce e WhatsApp |
+| `refatorar-css-variaveis` | Refatora CSS para usar variáveis CSS (:root) |
+| `reverter-css-variaveis` | Reverte CSS com variáveis (:root) de volta para valores diretos |
 
-## Grafo Interativo
+### ⚙️ Engineering (mattpocock)
 
-Visualize o grafo de conhecimento do projeto:
+| Skill | Descrição |
+|-------|-----------|
+| `ask-matt` | Faz perguntas ao Matt sobre código/decisões |
+| `codebase-design` | Desenhar a arquitetura de um codebase |
+| `code-review` | Revisar código com foco em TypeScript/boas práticas |
+| `diagnosing-bugs` | Diagnosticar e corrigir bugs em código existente |
+| `domain-modeling` | Modelar domínios de negócio com tipos TypeScript |
+| `grill-with-docs` | Investigar código usando documentação como referência |
+| `implement` | Implementar funcionalidades a partir de specs |
+| `improve-codebase-architecture` | Melhorar a arquitetura de codebases existentes |
+| `prototype` | Criar protótipos rápidos de funcionalidades |
+| `research` | Pesquisar tecnologias, bibliotecas e soluções |
+| `resolving-merge-conflicts` | Resolver conflitos de merge no Git |
+| `setup-matt-pocock-skills` | Configurar o ambiente de skills do Matt |
+| `tdd` | Desenvolvimento orientado a testes (TDD) |
+| `to-spec` | Converter requisitos em specifications técnicas |
+| `to-tickets` | Converter specs em tickets de tarefa |
+| `triage` | Triagem e priorização de issues |
+| `wayfinder` | Navegar por codebases desconhecidos |
+
+### 🚀 Productivity (mattpocock)
+
+| Skill | Descrição |
+|-------|-----------|
+| `grilling` | Fazer perguntas profundas sobre código/arquitetura |
+| `grill-me` | Auto-reflexão e revisão de decisões técnicas |
+| `handoff` | Entregar trabalho de forma estruturada |
+| `teach` | Ensinar conceitos técnicos de forma clara |
+| `writing-great-skills` | Escrever skills eficazes para agentes |
+
+### ⚰️ Deprecated (mattpocock)
+
+| Skill | Descrição |
+|-------|-----------|
+| `design-an-interface` | Desenhar interfaces de usuário |
+| `qa` | Quality assurance e testes |
+| `request-refactor-plan` | Solicitar planos de refatoração |
+| `ubiquitous-language` | Estabelecer linguagem ubíqua no domínio |
+
+## 🔄 Fluxo de Routing (graphify-skill-router)
 
 ```
-graphify-out/graph.html
+Tarefa do usuário
+       ↓
+[1] Atualizar Knowledge Graph (graphify update)
+       ↓
+[2] Consultar o Grafo (graphify query)
+       ↓
+[3] Analisar AST dos Markdown (graphify --markdown-ast)
+       ↓
+[4] Mapear para Skill Apropriada
+       ↓
+Skill executa a tarefa
 ```
 
-Comando para atualizar:
+## 🚀 Uso Rápido
+
 ```bash
-graphify update .
+# Carregar um skill
+/skill <nome-do-skill>
+
+# Exemplos:
+/skill criar-editar-documento-word
+/skill graphify query "como funciona a autenticação?"
+/skill criar-novo-skill
+/skill engineering/domain-modeling
+/skill productivity/teach
 ```
 
-## Criando uma nova skill
+## 📊 Estatísticas
 
-```bash
-python3 ~/.config/opencode/skills/criar-novo-skill/skillFactory.py
-```
+- **Total de skills**: 60+
+- **Categorias**: 10
+- **Origens**: originais + mattpocock/skills
+- **Grafo**: AST-only extraction (zero cost)
 
-O script pede, em sequência:
-1. Nome da skill (hífens, sem espaços)
-2. Descrição
-3. Triggers (separados por vírgula)
-4. Conteúdo do skill
+---
 
-Após criar, o AST JSON é gerado automaticamente.
-
-## Editando uma skill existente
-
-```bash
-python3 ~/.config/opencode/skills/editar-skill/editSkillFactory.py
-```
-
-Lista todas as skills, permite selecionar e editar.
-
-## Gerando AST dos Markdown
-
-```bash
-# Gerar AST para todo o projeto
-python3 ~/.config/opencode/skills/markdown-to-ast/md_to_ast.py --path .
-
-# Gerar AST para uma skill específica
-python3 ~/.config/opencode/skills/markdown-to-ast/md_to_ast.py --path criar-novo-skill/SKILL.md
-```
-
-Cada `.md` gera um `.json` correspondente no mesmo diretório.
-
-## Comitar alterações
-
-```bash
-python3 ~/.config/opencode/skills/comitar-alteracoes/comit.py --message "feat: nova funcionalidade"
-```
-
-Fluxo:
-1. Mostra diff e pede confirmação
-2. Commita com mensagem
-3. Gera AST para todos os `.md`
-4. Commita AST gerados
-5. Atualiza graphify-out
-6. Push
-
-## Licença
-
-Algumas skills (baseadas em ferramentas públicas de criação de documentos, apresentações e artefatos) são distribuídas sob **Apache License 2.0** — veja o `LICENSE.txt` dentro de cada pasta de skill correspondente. As demais skills são de uso pessoal/interno.
+_Fonte: [mattpocock/skills](https://github.com/mattpocock/skills) | Atualizado automaticamente via graphify-skill-router_

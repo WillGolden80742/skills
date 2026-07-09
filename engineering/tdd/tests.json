@@ -1,0 +1,226 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+  "generated_at": "2026-07-08T22:23:49.029394",
+  "nodes": [
+    {
+      "id": "md_tests_h1_0",
+      "label": "Good and Bad Tests",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+      "community": 999
+    },
+    {
+      "id": "md_tests_h2_1",
+      "label": "Good Tests",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+      "community": 999
+    },
+    {
+      "id": "md_tests_code_2",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+      "community": 999
+    },
+    {
+      "id": "md_tests_list_3",
+      "label": "Tests behavior users/callers care about",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+      "community": 999
+    },
+    {
+      "id": "md_tests_list_4",
+      "label": "Uses public API only",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+      "community": 999
+    },
+    {
+      "id": "md_tests_list_5",
+      "label": "Survives internal refactors",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+      "community": 999
+    },
+    {
+      "id": "md_tests_list_6",
+      "label": "Describes WHAT, not HOW",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+      "community": 999
+    },
+    {
+      "id": "md_tests_list_7",
+      "label": "One logical assertion per test",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+      "community": 999
+    },
+    {
+      "id": "md_tests_h2_8",
+      "label": "Bad Tests",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+      "community": 999
+    },
+    {
+      "id": "md_tests_code_9",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+      "community": 999
+    },
+    {
+      "id": "md_tests_list_10",
+      "label": "Mocking internal collaborators",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+      "community": 999
+    },
+    {
+      "id": "md_tests_list_11",
+      "label": "Testing private methods",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+      "community": 999
+    },
+    {
+      "id": "md_tests_list_12",
+      "label": "Asserting on call counts/order",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+      "community": 999
+    },
+    {
+      "id": "md_tests_list_13",
+      "label": "Test breaks when refactoring without behavior change",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+      "community": 999
+    },
+    {
+      "id": "md_tests_list_14",
+      "label": "Test name describes HOW not WHAT",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+      "community": 999
+    },
+    {
+      "id": "md_tests_list_15",
+      "label": "Verifying through external means instead of interface",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+      "community": 999
+    },
+    {
+      "id": "md_tests_code_16",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+      "community": 999
+    },
+    {
+      "id": "md_tests_code_17",
+      "label": "Code: typescript",
+      "type": "code_block",
+      "language": "typescript",
+      "file": "/root/.config/opencode/skills/engineering/tdd/tests.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_tests_h1_0",
+      "to": "md_tests_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_tests_h2_1",
+      "to": "md_tests_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_tests_h2_1",
+      "to": "md_tests_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_tests_h2_1",
+      "to": "md_tests_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_tests_h2_1",
+      "to": "md_tests_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_tests_h2_1",
+      "to": "md_tests_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_tests_h2_1",
+      "to": "md_tests_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_tests_h1_0",
+      "to": "md_tests_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_tests_h2_8",
+      "to": "md_tests_code_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_tests_h2_8",
+      "to": "md_tests_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_tests_h2_8",
+      "to": "md_tests_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_tests_h2_8",
+      "to": "md_tests_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_tests_h2_8",
+      "to": "md_tests_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_tests_h2_8",
+      "to": "md_tests_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_tests_h2_8",
+      "to": "md_tests_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_tests_h2_8",
+      "to": "md_tests_code_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_tests_h2_8",
+      "to": "md_tests_code_17",
+      "relation": "contains"
+    }
+  ]
+}

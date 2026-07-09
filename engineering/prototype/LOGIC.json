@@ -1,0 +1,315 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+  "generated_at": "2026-07-08T22:23:49.026145",
+  "nodes": [
+    {
+      "id": "md_LOGIC_h1_0",
+      "label": "Logic Prototype",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_h2_1",
+      "label": "When this is the right shape",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_list_2",
+      "label": "\"I'm not sure if this state machine handles the edge case where X then Y.\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_list_3",
+      "label": "\"Does this data model actually let me represent the case where...\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_list_4",
+      "label": "\"I want to feel out what the API should look like before writing it.\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_list_5",
+      "label": "Anything where the user wants to **press buttons and watch state change**.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_link_6",
+      "label": "UI.md",
+      "type": "link",
+      "url": "UI.md",
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_h2_7",
+      "label": "Process",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_h3_8",
+      "label": "1. State the question",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_h3_9",
+      "label": "2. Pick the language",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_h3_10",
+      "label": "3. Isolate the logic in a portable module",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_list_11",
+      "label": "**A pure reducer** — `(state, action) => state`. Good when actions are discrete ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_list_12",
+      "label": "**A state machine** — explicit states and transitions. Good when \"which actions ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_list_13",
+      "label": "**A small set of pure functions** over a plain data type. Good when there's no i",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_list_14",
+      "label": "**A class or module with a clear method surface** when the logic genuinely owns ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_h3_15",
+      "label": "4. Build the smallest TUI that exposes the state",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_h3_16",
+      "label": "5. Make it runnable in one command",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_h3_17",
+      "label": "6. Hand it over",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_h3_18",
+      "label": "7. Capture the answer",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_h2_19",
+      "label": "Anti-patterns",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_list_20",
+      "label": "**Don't add tests.** A prototype that needs tests is no longer a prototype.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_list_21",
+      "label": "**Don't wire it to the real database.** Use an in-memory store unless the questi",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_list_22",
+      "label": "**Don't generalise.** No \"what if we wanted to support X later.\" The prototype a",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_list_23",
+      "label": "**Don't blur the logic and the TUI together.** If the reducer / state machine re",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    },
+    {
+      "id": "md_LOGIC_list_24",
+      "label": "**Don't ship the TUI shell into production.** The shell is optimised for being d",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/LOGIC.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_LOGIC_h1_0",
+      "to": "md_LOGIC_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_LOGIC_h2_1",
+      "to": "md_LOGIC_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LOGIC_h2_1",
+      "to": "md_LOGIC_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LOGIC_h2_1",
+      "to": "md_LOGIC_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LOGIC_h2_1",
+      "to": "md_LOGIC_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LOGIC_h2_1",
+      "to": "md_LOGIC_link_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LOGIC_h1_0",
+      "to": "md_LOGIC_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_LOGIC_h2_7",
+      "to": "md_LOGIC_h3_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_LOGIC_h2_7",
+      "to": "md_LOGIC_h3_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_LOGIC_h2_7",
+      "to": "md_LOGIC_h3_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_LOGIC_h3_10",
+      "to": "md_LOGIC_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LOGIC_h3_10",
+      "to": "md_LOGIC_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LOGIC_h3_10",
+      "to": "md_LOGIC_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LOGIC_h3_10",
+      "to": "md_LOGIC_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LOGIC_h2_7",
+      "to": "md_LOGIC_h3_15",
+      "relation": "section"
+    },
+    {
+      "from": "md_LOGIC_h2_7",
+      "to": "md_LOGIC_h3_16",
+      "relation": "section"
+    },
+    {
+      "from": "md_LOGIC_h2_7",
+      "to": "md_LOGIC_h3_17",
+      "relation": "section"
+    },
+    {
+      "from": "md_LOGIC_h2_7",
+      "to": "md_LOGIC_h3_18",
+      "relation": "section"
+    },
+    {
+      "from": "md_LOGIC_h1_0",
+      "to": "md_LOGIC_h2_19",
+      "relation": "section"
+    },
+    {
+      "from": "md_LOGIC_h2_19",
+      "to": "md_LOGIC_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LOGIC_h2_19",
+      "to": "md_LOGIC_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LOGIC_h2_19",
+      "to": "md_LOGIC_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LOGIC_h2_19",
+      "to": "md_LOGIC_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LOGIC_h2_19",
+      "to": "md_LOGIC_list_24",
+      "relation": "contains"
+    }
+  ]
+}

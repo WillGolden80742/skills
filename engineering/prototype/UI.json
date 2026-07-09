@@ -1,0 +1,438 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+  "generated_at": "2026-07-08T22:23:49.026563",
+  "nodes": [
+    {
+      "id": "md_UI_h1_0",
+      "label": "UI Prototype",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_link_1",
+      "label": "LOGIC.md",
+      "type": "link",
+      "url": "LOGIC.md",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_h2_2",
+      "label": "When this is the right shape",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_3",
+      "label": "\"What should this page look like?\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_4",
+      "label": "\"I want to see a few options for this dashboard before committing.\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_5",
+      "label": "\"Try a different layout for the settings screen.\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_6",
+      "label": "Any time the user would otherwise spend a day picking between three vague mockup",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_h2_7",
+      "label": "Two sub-shapes — strongly prefer sub-shape A",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_h3_8",
+      "label": "Sub-shape A — adjustment to an existing page (preferred)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_h3_9",
+      "label": "Sub-shape B — a new page (last resort)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_h2_10",
+      "label": "Process",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_h3_11",
+      "label": "1. State the question and pick N",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_h3_12",
+      "label": "2. Generate radically different variants",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_13",
+      "label": "The page's purpose and the data it has access to.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_14",
+      "label": "The project's component library / styling system (TailwindCSS, shadcn, MUI, plai",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_15",
+      "label": "A clear exported component name, e.g. `VariantA`, `VariantB`, `VariantC`.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_h3_16",
+      "label": "3. Wire them together",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_code_17",
+      "label": "Code: tsx",
+      "type": "code_block",
+      "language": "tsx",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_h3_18",
+      "label": "4. Build the floating switcher",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_19",
+      "label": "**Left arrow** — cycles to the previous variant (wraps around).",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_20",
+      "label": "**Variant label** — shows the current variant key and, if the variant exports a ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_21",
+      "label": "**Right arrow** — cycles forward (wraps around).",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_22",
+      "label": "Clicking an arrow updates the URL search param (use the framework's router — `ro",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_23",
+      "label": "Keyboard: `←` and `→` arrow keys also cycle. Don't intercept arrow keys when an ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_24",
+      "label": "Visually distinct from the page (e.g. high-contrast pill, subtle shadow) so it's",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_25",
+      "label": "Hidden in production builds — gate on `process.env.NODE_ENV !== 'production'` or",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_h3_26",
+      "label": "5. Hand it over",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_h3_27",
+      "label": "6. Capture the answer and clean up",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_28",
+      "label": "**Sub-shape A** — delete the losing variants and the switcher; fold the winner i",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_29",
+      "label": "**Sub-shape B** — promote the winning variant to a real route, delete the throwa",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_h2_30",
+      "label": "Anti-patterns",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_31",
+      "label": "**Variants that differ only in colour or copy.** That's a tweak, not a prototype",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_32",
+      "label": "**Sharing too much code between variants.** A shared `<Header>` is fine; a share",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_33",
+      "label": "**Wiring variants to real mutations.** Read-only prototypes are fine. If a varia",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    },
+    {
+      "id": "md_UI_list_34",
+      "label": "**Promoting the prototype directly to production.** The variant code was written",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/UI.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_UI_h1_0",
+      "to": "md_UI_link_1",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h1_0",
+      "to": "md_UI_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_UI_h2_2",
+      "to": "md_UI_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h2_2",
+      "to": "md_UI_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h2_2",
+      "to": "md_UI_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h2_2",
+      "to": "md_UI_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h1_0",
+      "to": "md_UI_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_UI_h2_7",
+      "to": "md_UI_h3_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_UI_h2_7",
+      "to": "md_UI_h3_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_UI_h1_0",
+      "to": "md_UI_h2_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_UI_h2_10",
+      "to": "md_UI_h3_11",
+      "relation": "section"
+    },
+    {
+      "from": "md_UI_h2_10",
+      "to": "md_UI_h3_12",
+      "relation": "section"
+    },
+    {
+      "from": "md_UI_h3_12",
+      "to": "md_UI_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h3_12",
+      "to": "md_UI_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h3_12",
+      "to": "md_UI_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h2_10",
+      "to": "md_UI_h3_16",
+      "relation": "section"
+    },
+    {
+      "from": "md_UI_h3_16",
+      "to": "md_UI_code_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h2_10",
+      "to": "md_UI_h3_18",
+      "relation": "section"
+    },
+    {
+      "from": "md_UI_h3_18",
+      "to": "md_UI_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h3_18",
+      "to": "md_UI_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h3_18",
+      "to": "md_UI_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h3_18",
+      "to": "md_UI_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h3_18",
+      "to": "md_UI_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h3_18",
+      "to": "md_UI_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h3_18",
+      "to": "md_UI_list_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h2_10",
+      "to": "md_UI_h3_26",
+      "relation": "section"
+    },
+    {
+      "from": "md_UI_h2_10",
+      "to": "md_UI_h3_27",
+      "relation": "section"
+    },
+    {
+      "from": "md_UI_h3_27",
+      "to": "md_UI_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h3_27",
+      "to": "md_UI_list_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h1_0",
+      "to": "md_UI_h2_30",
+      "relation": "section"
+    },
+    {
+      "from": "md_UI_h2_30",
+      "to": "md_UI_list_31",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h2_30",
+      "to": "md_UI_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h2_30",
+      "to": "md_UI_list_33",
+      "relation": "contains"
+    },
+    {
+      "from": "md_UI_h2_30",
+      "to": "md_UI_list_34",
+      "relation": "contains"
+    }
+  ]
+}

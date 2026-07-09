@@ -1,0 +1,112 @@
+{
+  "source": "/root/.config/opencode/skills/in-progress/loop-me/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.015156",
+  "nodes": [
+    {
+      "id": "md_SKILL_h2_0",
+      "label": "The loop lens",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/loop-me/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Vocabulary",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/loop-me/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "**Trigger** — what fires each run: an **event** (a new email, a new issue) or a ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/loop-me/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "**Checkpoint** — a human-in-the-loop point where the user is asked to verify or ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/loop-me/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "**Push right** — defer the checkpoint as far as it will go. Do maximal work befo",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/loop-me/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "**Brief** — what a checkpoint presents: a tight, decision-ready summary — what w",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/loop-me/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_6",
+      "label": "Definition of done",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/loop-me/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_7",
+      "label": "The workspace",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/loop-me/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "`workflows/*.md` — one spec per workflow.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/loop-me/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_9",
+      "label": "`NOTES.md` — raw notes on the user's world: the tools they use, the channels the",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/loop-me/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_list_9",
+      "relation": "contains"
+    }
+  ]
+}

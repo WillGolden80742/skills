@@ -1,0 +1,192 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/codebase-design/DEEPENING.md",
+  "generated_at": "2026-07-08T22:23:49.025263",
+  "nodes": [
+    {
+      "id": "md_DEEPENING_h1_0",
+      "label": "Deepening",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/DEEPENING.md",
+      "community": 999
+    },
+    {
+      "id": "md_DEEPENING_link_1",
+      "label": "SKILL.md",
+      "type": "link",
+      "url": "SKILL.md",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/DEEPENING.md",
+      "community": 999
+    },
+    {
+      "id": "md_DEEPENING_h2_2",
+      "label": "Dependency categories",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/DEEPENING.md",
+      "community": 999
+    },
+    {
+      "id": "md_DEEPENING_h3_3",
+      "label": "1. In-process",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/DEEPENING.md",
+      "community": 999
+    },
+    {
+      "id": "md_DEEPENING_h3_4",
+      "label": "2. Local-substitutable",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/DEEPENING.md",
+      "community": 999
+    },
+    {
+      "id": "md_DEEPENING_h3_5",
+      "label": "3. Remote but owned (Ports & Adapters)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/DEEPENING.md",
+      "community": 999
+    },
+    {
+      "id": "md_DEEPENING_h3_6",
+      "label": "4. True external (Mock)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/DEEPENING.md",
+      "community": 999
+    },
+    {
+      "id": "md_DEEPENING_h2_7",
+      "label": "Seam discipline",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/DEEPENING.md",
+      "community": 999
+    },
+    {
+      "id": "md_DEEPENING_list_8",
+      "label": "**One adapter means a hypothetical seam. Two adapters means a real one.** Don't ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/DEEPENING.md",
+      "community": 999
+    },
+    {
+      "id": "md_DEEPENING_list_9",
+      "label": "**Internal seams vs external seams.** A deep module can have internal seams (pri",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/DEEPENING.md",
+      "community": 999
+    },
+    {
+      "id": "md_DEEPENING_h2_10",
+      "label": "Testing strategy: replace, don't layer",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/DEEPENING.md",
+      "community": 999
+    },
+    {
+      "id": "md_DEEPENING_list_11",
+      "label": "Old unit tests on shallow modules become waste once tests at the deepened module",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/DEEPENING.md",
+      "community": 999
+    },
+    {
+      "id": "md_DEEPENING_list_12",
+      "label": "Write new tests at the deepened module's interface. The **interface is the test ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/DEEPENING.md",
+      "community": 999
+    },
+    {
+      "id": "md_DEEPENING_list_13",
+      "label": "Tests assert on observable outcomes through the interface, not internal state.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/DEEPENING.md",
+      "community": 999
+    },
+    {
+      "id": "md_DEEPENING_list_14",
+      "label": "Tests should survive internal refactors — they describe behaviour, not implement",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/codebase-design/DEEPENING.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_DEEPENING_h1_0",
+      "to": "md_DEEPENING_link_1",
+      "relation": "contains"
+    },
+    {
+      "from": "md_DEEPENING_h1_0",
+      "to": "md_DEEPENING_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_DEEPENING_h2_2",
+      "to": "md_DEEPENING_h3_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_DEEPENING_h2_2",
+      "to": "md_DEEPENING_h3_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_DEEPENING_h2_2",
+      "to": "md_DEEPENING_h3_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_DEEPENING_h2_2",
+      "to": "md_DEEPENING_h3_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_DEEPENING_h1_0",
+      "to": "md_DEEPENING_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_DEEPENING_h2_7",
+      "to": "md_DEEPENING_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_DEEPENING_h2_7",
+      "to": "md_DEEPENING_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_DEEPENING_h1_0",
+      "to": "md_DEEPENING_h2_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_DEEPENING_h2_10",
+      "to": "md_DEEPENING_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_DEEPENING_h2_10",
+      "to": "md_DEEPENING_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_DEEPENING_h2_10",
+      "to": "md_DEEPENING_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_DEEPENING_h2_10",
+      "to": "md_DEEPENING_list_14",
+      "relation": "contains"
+    }
+  ]
+}

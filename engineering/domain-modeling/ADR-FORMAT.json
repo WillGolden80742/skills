@@ -1,0 +1,214 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/domain-modeling/ADR-FORMAT.md",
+  "generated_at": "2026-07-08T22:23:49.019862",
+  "nodes": [
+    {
+      "id": "md_ADR-FORMAT_h1_0",
+      "label": "ADR Format",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_ADR-FORMAT_h2_1",
+      "label": "Template",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_ADR-FORMAT_code_2",
+      "label": "Code: md",
+      "type": "code_block",
+      "language": "md",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_ADR-FORMAT_h2_3",
+      "label": "Optional sections",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_ADR-FORMAT_list_4",
+      "label": "**Status** frontmatter (`proposed | accepted | deprecated | superseded by ADR-NN",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_ADR-FORMAT_list_5",
+      "label": "**Considered Options** — only when the rejected alternatives are worth rememberi",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_ADR-FORMAT_list_6",
+      "label": "**Consequences** — only when non-obvious downstream effects need to be called ou",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_ADR-FORMAT_h2_7",
+      "label": "Numbering",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_ADR-FORMAT_h2_8",
+      "label": "When to offer an ADR",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_ADR-FORMAT_h3_9",
+      "label": "What qualifies",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_ADR-FORMAT_list_10",
+      "label": "**Architectural shape.** \"We're using a monorepo.\" \"The write model is event-sou",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_ADR-FORMAT_list_11",
+      "label": "**Integration patterns between contexts.** \"Ordering and Billing communicate via",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_ADR-FORMAT_list_12",
+      "label": "**Technology choices that carry lock-in.** Database, message bus, auth provider,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_ADR-FORMAT_list_13",
+      "label": "**Boundary and scope decisions.** \"Customer data is owned by the Customer contex",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_ADR-FORMAT_list_14",
+      "label": "**Deliberate deviations from the obvious path.** \"We're using manual SQL instead",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_ADR-FORMAT_list_15",
+      "label": "**Constraints not visible in the code.** \"We can't use AWS because of compliance",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_ADR-FORMAT_list_16",
+      "label": "**Rejected alternatives when the rejection is non-obvious.** If you considered G",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_ADR-FORMAT_h1_0",
+      "to": "md_ADR-FORMAT_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_ADR-FORMAT_h2_1",
+      "to": "md_ADR-FORMAT_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_ADR-FORMAT_h1_0",
+      "to": "md_ADR-FORMAT_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_ADR-FORMAT_h2_3",
+      "to": "md_ADR-FORMAT_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_ADR-FORMAT_h2_3",
+      "to": "md_ADR-FORMAT_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_ADR-FORMAT_h2_3",
+      "to": "md_ADR-FORMAT_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_ADR-FORMAT_h1_0",
+      "to": "md_ADR-FORMAT_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_ADR-FORMAT_h1_0",
+      "to": "md_ADR-FORMAT_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_ADR-FORMAT_h2_8",
+      "to": "md_ADR-FORMAT_h3_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_ADR-FORMAT_h3_9",
+      "to": "md_ADR-FORMAT_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_ADR-FORMAT_h3_9",
+      "to": "md_ADR-FORMAT_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_ADR-FORMAT_h3_9",
+      "to": "md_ADR-FORMAT_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_ADR-FORMAT_h3_9",
+      "to": "md_ADR-FORMAT_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_ADR-FORMAT_h3_9",
+      "to": "md_ADR-FORMAT_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_ADR-FORMAT_h3_9",
+      "to": "md_ADR-FORMAT_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_ADR-FORMAT_h3_9",
+      "to": "md_ADR-FORMAT_list_16",
+      "relation": "contains"
+    }
+  ]
+}

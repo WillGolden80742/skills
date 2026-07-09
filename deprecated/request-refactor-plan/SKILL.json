@@ -1,0 +1,184 @@
+{
+  "source": "/root/.config/opencode/skills/deprecated/request-refactor-plan/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.039522",
+  "nodes": [
+    {
+      "id": "md_SKILL_h2_0",
+      "label": "Problem Statement",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/deprecated/request-refactor-plan/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Solution",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/deprecated/request-refactor-plan/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_2",
+      "label": "Commits",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/deprecated/request-refactor-plan/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_3",
+      "label": "Decision Document",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/deprecated/request-refactor-plan/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "The modules that will be built/modified",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/request-refactor-plan/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "The interfaces of those modules that will be modified",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/request-refactor-plan/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "Technical clarifications from the developer",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/request-refactor-plan/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "Architectural decisions",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/request-refactor-plan/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "Schema changes",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/request-refactor-plan/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_9",
+      "label": "API contracts",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/request-refactor-plan/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "Specific interactions",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/request-refactor-plan/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_11",
+      "label": "Testing Decisions",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/deprecated/request-refactor-plan/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "A description of what makes a good test (only test external behavior, not implem",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/request-refactor-plan/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "Which modules will be tested",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/request-refactor-plan/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "Prior art for the tests (i.e. similar types of tests in the codebase)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/request-refactor-plan/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_15",
+      "label": "Out of Scope",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/deprecated/request-refactor-plan/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_16",
+      "label": "Further Notes (optional)",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/deprecated/request-refactor-plan/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_11",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_11",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_11",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    }
+  ]
+}

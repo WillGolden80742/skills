@@ -1,0 +1,428 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+  "generated_at": "2026-07-08T22:23:49.028006",
+  "nodes": [
+    {
+      "id": "md_AGENT-BRIEF_h1_0",
+      "label": "Writing Agent Briefs",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_h2_1",
+      "label": "Principles",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_h3_2",
+      "label": "Durability over precision",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_list_3",
+      "label": "**Do** describe interfaces, types, and behavioral contracts",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_list_4",
+      "label": "**Do** name specific types, function signatures, or config shapes that the agent",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_list_5",
+      "label": "**Don't** reference file paths — they go stale",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_list_6",
+      "label": "**Don't** reference line numbers",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_list_7",
+      "label": "**Don't** assume the current implementation structure will remain the same",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_h3_8",
+      "label": "Behavioral, not procedural",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_list_9",
+      "label": "**Good:** \"The `SkillConfig` type should accept an optional `schedule` field of ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_list_10",
+      "label": "**Bad:** \"Open src/types/skill.ts and add a schedule field on line 42\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_list_11",
+      "label": "**Good:** \"When a user runs `/triage` with no arguments, they should see a summa",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_list_12",
+      "label": "**Bad:** \"Add a switch statement in the main handler function\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_h3_13",
+      "label": "Complete acceptance criteria",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_list_14",
+      "label": "**Good:** \"Running `gh issue list --label needs-triage` returns issues that have",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_list_15",
+      "label": "**Bad:** \"Triage should work correctly\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_h3_16",
+      "label": "Explicit scope boundaries",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_h2_17",
+      "label": "Template",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_code_18",
+      "label": "Code: markdown",
+      "type": "code_block",
+      "language": "markdown",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_h2_19",
+      "label": "Examples",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_h3_20",
+      "label": "Good agent brief (bug)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_code_21",
+      "label": "Code: markdown",
+      "type": "code_block",
+      "language": "markdown",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_h3_22",
+      "label": "Good agent brief (enhancement)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_code_23",
+      "label": "Code: markdown",
+      "type": "code_block",
+      "language": "markdown",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_h3_24",
+      "label": "Good agent brief (PR)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_code_25",
+      "label": "Code: markdown",
+      "type": "code_block",
+      "language": "markdown",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_h3_26",
+      "label": "Bad agent brief",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_code_27",
+      "label": "Code: markdown",
+      "type": "code_block",
+      "language": "markdown",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_list_28",
+      "label": "No category",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_list_29",
+      "label": "Vague description (\"the triage thing is broken\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_list_30",
+      "label": "References file paths and line numbers that will go stale",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_list_31",
+      "label": "No acceptance criteria",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_list_32",
+      "label": "No scope boundaries",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENT-BRIEF_list_33",
+      "label": "No description of current vs desired behavior",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/AGENT-BRIEF.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_AGENT-BRIEF_h1_0",
+      "to": "md_AGENT-BRIEF_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h2_1",
+      "to": "md_AGENT-BRIEF_h3_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_2",
+      "to": "md_AGENT-BRIEF_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_2",
+      "to": "md_AGENT-BRIEF_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_2",
+      "to": "md_AGENT-BRIEF_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_2",
+      "to": "md_AGENT-BRIEF_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_2",
+      "to": "md_AGENT-BRIEF_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h2_1",
+      "to": "md_AGENT-BRIEF_h3_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_8",
+      "to": "md_AGENT-BRIEF_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_8",
+      "to": "md_AGENT-BRIEF_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_8",
+      "to": "md_AGENT-BRIEF_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_8",
+      "to": "md_AGENT-BRIEF_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h2_1",
+      "to": "md_AGENT-BRIEF_h3_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_13",
+      "to": "md_AGENT-BRIEF_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_13",
+      "to": "md_AGENT-BRIEF_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h2_1",
+      "to": "md_AGENT-BRIEF_h3_16",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h1_0",
+      "to": "md_AGENT-BRIEF_h2_17",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h2_17",
+      "to": "md_AGENT-BRIEF_code_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h1_0",
+      "to": "md_AGENT-BRIEF_h2_19",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h2_19",
+      "to": "md_AGENT-BRIEF_h3_20",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_20",
+      "to": "md_AGENT-BRIEF_code_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h2_19",
+      "to": "md_AGENT-BRIEF_h3_22",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_22",
+      "to": "md_AGENT-BRIEF_code_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h2_19",
+      "to": "md_AGENT-BRIEF_h3_24",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_24",
+      "to": "md_AGENT-BRIEF_code_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h2_19",
+      "to": "md_AGENT-BRIEF_h3_26",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_26",
+      "to": "md_AGENT-BRIEF_code_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_26",
+      "to": "md_AGENT-BRIEF_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_26",
+      "to": "md_AGENT-BRIEF_list_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_26",
+      "to": "md_AGENT-BRIEF_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_26",
+      "to": "md_AGENT-BRIEF_list_31",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_26",
+      "to": "md_AGENT-BRIEF_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENT-BRIEF_h3_26",
+      "to": "md_AGENT-BRIEF_list_33",
+      "relation": "contains"
+    }
+  ]
+}

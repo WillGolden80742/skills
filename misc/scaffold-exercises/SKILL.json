@@ -1,0 +1,376 @@
+{
+  "source": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.040434",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Scaffold Exercises",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Directory naming",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "**Sections**: `XX-section-name/` inside `exercises/` (e.g., `01-retrieval-skill-",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "**Exercises**: `XX.YY-exercise-name/` inside a section (e.g., `01.03-retrieval-w",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "Section number = `XX`, exercise number = `XX.YY`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "Names are dash-case (lowercase, hyphens)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_6",
+      "label": "Exercise variants",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "`problem/` - student workspace with TODOs",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "`solution/` - reference implementation",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_9",
+      "label": "`explainer/` - conceptual material, no TODOs",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_10",
+      "label": "Required files",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "Is **not empty** (must have real content, even a single title line works)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "Has no broken links",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_13",
+      "label": "Code: md",
+      "type": "code_block",
+      "language": "md",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_14",
+      "label": "Workflow",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_15",
+      "label": "Lint rules summary",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "Each exercise has subfolders (`problem/`, `solution/`, `explainer/`)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "At least one of `problem/`, `explainer/`, or `explainer.1/` exists",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_18",
+      "label": "`readme.md` exists and is non-empty in the primary subfolder",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_19",
+      "label": "No `.gitkeep` files",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_20",
+      "label": "No `speaker-notes.md` files",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_21",
+      "label": "No broken links in readmes",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_22",
+      "label": "No `pnpm run exercise` commands in readmes",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_23",
+      "label": "`main.ts` required per subfolder unless it's readme-only",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_24",
+      "label": "Moving/renaming exercises",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_25",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_26",
+      "label": "Example: stubbing from a plan",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_27",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_28",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_29",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/misc/scaffold-exercises/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_code_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_15",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_15",
+      "to": "md_SKILL_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_24",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_24",
+      "to": "md_SKILL_code_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_26",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_26",
+      "to": "md_SKILL_code_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_26",
+      "to": "md_SKILL_code_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_26",
+      "to": "md_SKILL_code_29",
+      "relation": "contains"
+    }
+  ]
+}

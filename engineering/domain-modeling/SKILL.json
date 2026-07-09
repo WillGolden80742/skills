@@ -1,0 +1,172 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/domain-modeling/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.019221",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Domain Modeling",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "File structure",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_2",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_3",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_4",
+      "label": "During the session",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_5",
+      "label": "Challenge against the glossary",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_6",
+      "label": "Sharpen fuzzy language",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_7",
+      "label": "Discuss concrete scenarios",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_8",
+      "label": "Cross-reference with code",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_9",
+      "label": "Update CONTEXT.md inline",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_10",
+      "label": "CONTEXT-FORMAT.md",
+      "type": "link",
+      "url": "./CONTEXT-FORMAT.md",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_11",
+      "label": "Offer ADRs sparingly",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_12",
+      "label": "ADR-FORMAT.md",
+      "type": "link",
+      "url": "./ADR-FORMAT.md",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_code_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_h3_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_h3_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_h3_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_h3_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_h3_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_link_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_h3_11",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_link_12",
+      "relation": "contains"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+  "generated_at": "2026-07-08T22:23:49.021869",
+  "nodes": [
+    {
+      "id": "md_issue-tracker-local_h1_0",
+      "label": "Issue tracker: Local Markdown",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-local_h2_1",
+      "label": "Conventions",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-local_list_2",
+      "label": "One feature per directory: `.scratch/<feature-slug>/`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-local_list_3",
+      "label": "The PRD is `.scratch/<feature-slug>/PRD.md`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-local_list_4",
+      "label": "Implementation issues are `.scratch/<feature-slug>/issues/<NN>-<slug>.md`, numbe",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-local_list_5",
+      "label": "Triage state is recorded as a `Status:` line near the top of each issue file (se",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-local_list_6",
+      "label": "Comments and conversation history append to the bottom of the file under a `## C",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-local_h2_7",
+      "label": "When a skill says \"publish to the issue tracker\"",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-local_h2_8",
+      "label": "When a skill says \"fetch the relevant ticket\"",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-local_h2_9",
+      "label": "Wayfinding operations",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-local_list_10",
+      "label": "**Map**: `.scratch/<effort>/map.md` — the Notes / Decisions-so-far / Fog body.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-local_list_11",
+      "label": "**Child ticket**: `.scratch/<effort>/issues/NN-<slug>.md`, numbered from `01`, w",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-local_list_12",
+      "label": "**Blocking**: a `Blocked by: NN, NN` line near the top. A ticket is unblocked wh",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-local_list_13",
+      "label": "**Frontier**: scan `.scratch/<effort>/issues/` for files that are open, unblocke",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-local_list_14",
+      "label": "**Claim**: set `Status: claimed` and save before any work.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-local_list_15",
+      "label": "**Resolve**: append the answer under an `## Answer` heading, set `Status: resolv",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_issue-tracker-local_h1_0",
+      "to": "md_issue-tracker-local_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_issue-tracker-local_h2_1",
+      "to": "md_issue-tracker-local_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-local_h2_1",
+      "to": "md_issue-tracker-local_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-local_h2_1",
+      "to": "md_issue-tracker-local_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-local_h2_1",
+      "to": "md_issue-tracker-local_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-local_h2_1",
+      "to": "md_issue-tracker-local_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-local_h1_0",
+      "to": "md_issue-tracker-local_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_issue-tracker-local_h1_0",
+      "to": "md_issue-tracker-local_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_issue-tracker-local_h1_0",
+      "to": "md_issue-tracker-local_h2_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_issue-tracker-local_h2_9",
+      "to": "md_issue-tracker-local_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-local_h2_9",
+      "to": "md_issue-tracker-local_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-local_h2_9",
+      "to": "md_issue-tracker-local_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-local_h2_9",
+      "to": "md_issue-tracker-local_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-local_h2_9",
+      "to": "md_issue-tracker-local_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-local_h2_9",
+      "to": "md_issue-tracker-local_list_15",
+      "relation": "contains"
+    }
+  ]
+}

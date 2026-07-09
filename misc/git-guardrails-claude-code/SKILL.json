@@ -1,0 +1,243 @@
+{
+  "source": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.040783",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Setup Git Guardrails",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "What Gets Blocked",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "`git push` (all variants including `--force`)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "`git reset --hard`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "`git clean -f` / `git clean -fd`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "`git branch -D`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "`git checkout .` / `git restore .`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_7",
+      "label": "Steps",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_8",
+      "label": "1. Ask scope",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_9",
+      "label": "2. Copy the hook script",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_10",
+      "label": "scripts/block-dangerous-git.sh",
+      "type": "link",
+      "url": "scripts/block-dangerous-git.sh",
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "**Project**: `.claude/hooks/block-dangerous-git.sh`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "**Global**: `~/.claude/hooks/block-dangerous-git.sh`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_13",
+      "label": "3. Add hook to settings",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_14",
+      "label": "Code: json",
+      "type": "code_block",
+      "language": "json",
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_15",
+      "label": "Code: json",
+      "type": "code_block",
+      "language": "json",
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_16",
+      "label": "4. Ask about customization",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_17",
+      "label": "5. Verify",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_18",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/misc/git-guardrails-claude-code/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_h3_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_h3_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_link_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_h3_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_13",
+      "to": "md_SKILL_code_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_13",
+      "to": "md_SKILL_code_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_h3_16",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_h3_17",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_17",
+      "to": "md_SKILL_code_18",
+      "relation": "contains"
+    }
+  ]
+}

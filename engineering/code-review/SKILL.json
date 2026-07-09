@@ -1,0 +1,367 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.020330",
+  "nodes": [
+    {
+      "id": "md_SKILL_list_0",
+      "label": "**Standards** — does the code conform to this repo's documented coding standards",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_1",
+      "label": "**Spec** — does the code faithfully implement the originating issue / PRD / spec",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_2",
+      "label": "Process",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_3",
+      "label": "1. Pin the fixed point",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_4",
+      "label": "2. Identify the spec source",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_5",
+      "label": "3. Identify the standards sources",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "**The repo overrides.** A documented repo standard always wins; where it endorse",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "**Always a judgement call.** Each smell is a labelled heuristic (\"possible Featu",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "**Mysterious Name** — a function, variable, or type whose name doesn't reveal wh",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_9",
+      "label": "**Duplicated Code** — the same logic shape appears in more than one hunk or file",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "**Feature Envy** — a method that reaches into another object's data more than it",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "**Data Clumps** — the same few fields or params keep travelling together (a type",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "**Primitive Obsession** — a primitive or string standing in for a domain concept",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "**Repeated Switches** — the same `switch`/`if`-cascade on the same type recurs a",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "**Shotgun Surgery** — one logical change forces scattered edits across many file",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "**Divergent Change** — one file or module is edited for several unrelated reason",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "**Speculative Generality** — abstraction, parameters, or hooks added for needs t",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "**Message Chains** — long `a.b().c().d()` navigation the caller shouldn't depend",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_18",
+      "label": "**Middle Man** — a class or function that mostly just delegates onward. → cut it",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_19",
+      "label": "**Refused Bequest** — a subclass or implementer that ignores or overrides most o",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_20",
+      "label": "4. Spawn both sub-agents in parallel",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_21",
+      "label": "The full diff command and commit list.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_22",
+      "label": "The list of standards-source files you found in step 3, **plus the smell baselin",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_23",
+      "label": "The brief: \"Report — per file/hunk where relevant — (a) every place the diff vio",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_24",
+      "label": "The diff command and commit list.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_25",
+      "label": "The path or fetched contents of the spec.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_26",
+      "label": "The brief: \"Report: (a) requirements the spec asked for that are missing or part",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_27",
+      "label": "5. Aggregate",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_28",
+      "label": "Why two axes",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_29",
+      "label": "Code that follows every standard but implements the wrong thing → **Standards pa",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_30",
+      "label": "Code that does exactly what the issue asked but breaks the project's conventions",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/code-review/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_5",
+      "to": "md_SKILL_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_20",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_20",
+      "to": "md_SKILL_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_20",
+      "to": "md_SKILL_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_20",
+      "to": "md_SKILL_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_20",
+      "to": "md_SKILL_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_20",
+      "to": "md_SKILL_list_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_20",
+      "to": "md_SKILL_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_h3_27",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_28",
+      "to": "md_SKILL_list_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_28",
+      "to": "md_SKILL_list_30",
+      "relation": "contains"
+    }
+  ]
+}

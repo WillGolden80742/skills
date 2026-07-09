@@ -1,0 +1,261 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+  "generated_at": "2026-07-08T22:23:49.022713",
+  "nodes": [
+    {
+      "id": "md_issue-tracker-github_h1_0",
+      "label": "Issue tracker: GitHub",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_h2_1",
+      "label": "Conventions",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_list_2",
+      "label": "**Create an issue**: `gh issue create --title \"...\" --body \"...\"`. Use a heredoc",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_list_3",
+      "label": "**Read an issue**: `gh issue view <number> --comments`, filtering comments by `j",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_list_4",
+      "label": "**List issues**: `gh issue list --state open --json number,title,body,labels,com",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_list_5",
+      "label": "**Comment on an issue**: `gh issue comment <number> --body \"...\"`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_list_6",
+      "label": "**Apply / remove labels**: `gh issue edit <number> --add-label \"...\"` / `--remov",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_list_7",
+      "label": "**Close**: `gh issue close <number> --comment \"...\"`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_h2_8",
+      "label": "Pull requests as a triage surface",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_list_9",
+      "label": "**Read a PR**: `gh pr view <number> --comments` and `gh pr diff <number>` for th",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_list_10",
+      "label": "**List external PRs for triage**: `gh pr list --state open --json number,title,b",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_list_11",
+      "label": "**Comment / label / close**: `gh pr comment`, `gh pr edit --add-label`/`--remove",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_h2_12",
+      "label": "When a skill says \"publish to the issue tracker\"",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_h2_13",
+      "label": "When a skill says \"fetch the relevant ticket\"",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_h2_14",
+      "label": "Wayfinding operations",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_list_15",
+      "label": "**Map**: a single issue labelled `wayfinder:map`, holding the Notes / Decisions-",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_list_16",
+      "label": "**Child ticket**: an issue linked to the map as a GitHub sub-issue (`gh api` on ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_list_17",
+      "label": "**Blocking**: GitHub's **native issue dependencies** — the canonical, UI-visible",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_list_18",
+      "label": "**Frontier query**: list the map's open children (`gh issue list --state open`, ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_list_19",
+      "label": "**Claim**: `gh issue edit <n> --add-assignee @me` — the session's first write.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    },
+    {
+      "id": "md_issue-tracker-github_list_20",
+      "label": "**Resolve**: `gh issue comment <n> --body \"<answer>\"`, then `gh issue close <n>`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_issue-tracker-github_h1_0",
+      "to": "md_issue-tracker-github_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_issue-tracker-github_h2_1",
+      "to": "md_issue-tracker-github_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-github_h2_1",
+      "to": "md_issue-tracker-github_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-github_h2_1",
+      "to": "md_issue-tracker-github_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-github_h2_1",
+      "to": "md_issue-tracker-github_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-github_h2_1",
+      "to": "md_issue-tracker-github_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-github_h2_1",
+      "to": "md_issue-tracker-github_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-github_h1_0",
+      "to": "md_issue-tracker-github_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_issue-tracker-github_h2_8",
+      "to": "md_issue-tracker-github_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-github_h2_8",
+      "to": "md_issue-tracker-github_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-github_h2_8",
+      "to": "md_issue-tracker-github_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-github_h1_0",
+      "to": "md_issue-tracker-github_h2_12",
+      "relation": "section"
+    },
+    {
+      "from": "md_issue-tracker-github_h1_0",
+      "to": "md_issue-tracker-github_h2_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_issue-tracker-github_h1_0",
+      "to": "md_issue-tracker-github_h2_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_issue-tracker-github_h2_14",
+      "to": "md_issue-tracker-github_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-github_h2_14",
+      "to": "md_issue-tracker-github_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-github_h2_14",
+      "to": "md_issue-tracker-github_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-github_h2_14",
+      "to": "md_issue-tracker-github_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-github_h2_14",
+      "to": "md_issue-tracker-github_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_issue-tracker-github_h2_14",
+      "to": "md_issue-tracker-github_list_20",
+      "relation": "contains"
+    }
+  ]
+}

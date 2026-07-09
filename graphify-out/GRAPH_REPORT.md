@@ -1,16 +1,16 @@
 # Graph Report - skills  (2026-07-08)
 
 ## Corpus Check
-- 317 files · ~1,071,094 words
+- 319 files · ~1,071,483 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1840 nodes · 2140 edges · 192 communities (175 shown, 17 thin omitted)
+- 1867 nodes · 2177 edges · 194 communities (177 shown, 17 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 48 edges (avg confidence: 0.67)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2c7a7fc4`
+- Built from commit: `bb889464`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -40,7 +40,6 @@
 - merge_runs.py
 - SKILL.md
 - Skill Frontend Design
-- Skills disponíveis
 - SKILL.md
 - Fase 1: Pesquisa Profunda e Planejamento
 - DOCXSchemaValidator
@@ -191,6 +190,8 @@
 - DOCXSchemaValidator
 - RedliningValidator
 - Skill: markdown-to-ast
+- Buildify Agent
+- _run_validation
 - md_to_ast.py
 
 ## God Nodes (most connected - your core abstractions)
@@ -206,21 +207,25 @@
 10. `PptxGenJS Tutorial` - 14 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `_run_validation()` --calls--> `DOCXSchemaValidator`  [INFERRED]
+  criar-editar-apresentacao/scripts/office/pack.py → criar-editar-apresentacao/scripts/office/validators/docx.py
+- `_run_validation()` --calls--> `PPTXSchemaValidator`  [INFERRED]
+  criar-editar-apresentacao/scripts/office/pack.py → criar-editar-apresentacao/scripts/office/validators/pptx.py
+- `_run_validation()` --calls--> `RedliningValidator`  [INFERRED]
+  criar-editar-apresentacao/scripts/office/pack.py → criar-editar-apresentacao/scripts/office/validators/redlining.py
 - `main()` --calls--> `DOCXSchemaValidator`  [INFERRED]
   criar-editar-apresentacao/scripts/office/validate.py → criar-editar-apresentacao/scripts/office/validators/docx.py
 - `main()` --calls--> `PPTXSchemaValidator`  [INFERRED]
   criar-editar-apresentacao/scripts/office/validate.py → criar-editar-apresentacao/scripts/office/validators/pptx.py
-- `main()` --calls--> `RedliningValidator`  [INFERRED]
-  criar-editar-apresentacao/scripts/office/validate.py → criar-editar-apresentacao/scripts/office/validators/redlining.py
-- `_run_validation()` --calls--> `DOCXSchemaValidator`  [INFERRED]
-  criar-editar-documento-word/scripts/office/pack.py → criar-editar-documento-word/scripts/office/validators/docx.py
-- `_run_validation()` --calls--> `PPTXSchemaValidator`  [INFERRED]
-  criar-editar-documento-word/scripts/office/pack.py → criar-editar-documento-word/scripts/office/validators/pptx.py
 
 ## Import Cycles
 - None detected.
 
-## Communities (192 total, 17 thin omitted)
+## Communities (194 total, 17 thin omitted)
+
+### Community 0 - "BaseSchemaValidator"
+Cohesion: 0.05
+Nodes (16): _condense_xml(), pack(), Path, Pack a directory into a DOCX, PPTX, or XLSX file.  Validates with auto-repair, c, _run_validation(), BaseSchemaValidator, Base validator with common validation logic for document files., DOCXSchemaValidator (+8 more)
 
 ### Community 1 - "MCPConnection"
 Cohesion: 0.06
@@ -262,10 +267,6 @@ Nodes (23): Add Icon to Slide, Better-Looking Charts, Calculate Dimensions (pres
 Cohesion: 0.08
 Nodes (23): Admin Pages, AJAX Actions, Ambiente Local, Arquitetura, Convenções, Criptomoeda Interna, Custom Post Types, Estrutura de Arquivos (+15 more)
 
-### Community 11 - "BaseSchemaValidator"
-Cohesion: 0.05
-Nodes (16): _condense_xml(), pack(), Path, Pack a directory into a DOCX, PPTX, or XLSX file.  Validates with auto-repair, c, _run_validation(), BaseSchemaValidator, Base validator with common validation logic for document files., DOCXSchemaValidator (+8 more)
-
 ### Community 13 - "generator_template.js"
 Cohesion: 0.11
 Nodes (5): Entity, initializeSeed(), params, regenerate(), setup()
@@ -279,8 +280,8 @@ Cohesion: 0.04
 Nodes (44): 10. graphify, 11. graphify-skill-router, 12. mesclar-arquivos-diretorio, 13. gerar-arvore-diretorios, 14. comitar-alteracoes, 15. gerar-historico-commits, 16. recuperar-commits-salvos, 17. renomear-arquivos-referencias (+36 more)
 
 ### Community 16 - "comit.py"
-Cohesion: 0.18
-Nodes (18): create_commit_file(), generate_dir_tree(), get_commit_hash(), get_staged_files(), main(), make_table(), Substitui conteúdo entre marcadores (incluindo os marcadores), Atualiza as seções estruturais do README.md: árvore de diretórios e tabelas de c (+10 more)
+Cohesion: 0.16
+Nodes (20): create_commit_file(), generate_dir_tree(), generate_markdown_ast(), get_commit_hash(), get_staged_files(), main(), make_table(), Substitui conteúdo entre marcadores (incluindo os marcadores) (+12 more)
 
 ### Community 17 - "thumbnail.py"
 Cohesion: 0.19
@@ -314,13 +315,9 @@ Nodes (5): Arquivos, Commit 029721d8871b - 11/06/2026 23:38:42, Diff, Hash, Mens
 Cohesion: 0.13
 Nodes (14): Abordagem, Assinatura, Cores, Escrita em Design, Estrutura é Informação, Layout, Movimento Deliberado, Princípios de Design (+6 more)
 
-### Community 25 - "Skills disponíveis"
-Cohesion: 0.13
-Nodes (14): Como funciona uma skill, 📝 Comunicação & Documentação, Criando uma nova skill, 💻 Desenvolvimento & Frontend, 🎨 Design & Visual, 🔄 DevOps & Servidores, 📄 Documentos Office & PDF, 🗂️ Git, Arquivos & Projetos (+6 more)
-
 ### Community 26 - "SKILL.md"
-Cohesion: 0.09
-Nodes (21): Comandos de Router, 💻 Desenvolvimento & Frontend, 🎨 Design & Visual, 📄 Documentos Office & PDF, Estrutura de AST, Estrutura do AST JSON, Exemplo de Routing Completo, Fluxo de Routing (+13 more)
+Cohesion: 0.08
+Nodes (25): Agente Buildify (Auto-Instalação), Comandos de Router, 💻 Desenvolvimento & Frontend, 🎨 Design & Visual, 📄 Documentos Office & PDF, Estrutura de AST, Estrutura do AST JSON, Exemplo de Routing Completo (+17 more)
 
 ### Community 27 - "Fase 1: Pesquisa Profunda e Planejamento"
 Cohesion: 0.14
@@ -423,8 +420,8 @@ Cohesion: 0.49
 Nodes (8): _add_to_content_types(), _add_to_presentation_rels(), create_slide_from_layout(), duplicate_slide(), _get_next_slide_id(), get_next_slide_number(), Path, Add a new slide to an unpacked PPTX directory.  Usage: python add_slide.py <unpa
 
 ### Community 54 - "__init__.py"
-Cohesion: 0.24
-Nodes (5): Base validator with common validation logic for document files., Validator for Word document XML files against XSD schemas., Validation modules for Word document processing., Validator for PowerPoint presentation XML files against XSD schemas., Validator for tracked changes in Word documents.
+Cohesion: 0.20
+Nodes (9): Agente Injetado, Arquivos da Skill, Ativação, Buildify Skill, Comandos do Graphify, Custo Zero, Exemplo de Uso, O que faz (+1 more)
 
 ### Community 55 - "Skill DOCX - Documentos Word"
 Cohesion: 0.20
@@ -453,6 +450,10 @@ Nodes (7): Com with_server.py, Dicas, Passos, Scripts Auxiliares, Stack, Templat
 ### Community 62 - "Skill Doc Co-Authoring"
 Cohesion: 0.25
 Nodes (7): Dicas, Estágio 1: Coleta de Contexto, Estágio 2: Refinamento e Estrutura, Estágio 3: Teste com Leitor, Quando Oferecer, Skill Doc Co-Authoring, Workflow em 3 Estágios
+
+### Community 63 - "PPTXSchemaValidator"
+Cohesion: 0.24
+Nodes (5): Base validator with common validation logic for document files., Validator for Word document XML files against XSD schemas., Validation modules for Word document processing., Validator for PowerPoint presentation XML files against XSD schemas., Validator for tracked changes in Word documents.
 
 ### Community 64 - "__init__.py"
 Cohesion: 0.32
@@ -491,8 +492,8 @@ Cohesion: 0.38
 Nodes (6): carregarProxies(), __dirname, __filename, lerPagina(), main(), PROXY_FILE
 
 ### Community 74 - "generate_commit_history.py"
-Cohesion: 0.48
-Nodes (6): create_commit_file(), get_commit_details(), main(), Extrai detalhes de um commit específico., Cria arquivo de histórico para um commit., run_git()
+Cohesion: 0.13
+Nodes (24): create_commit_file(), extract_ast(), extract_css_ast(), extract_file_ast_content(), extract_html_ast(), extract_js_ast(), extract_node_details(), extract_php_ast() (+16 more)
 
 ### Community 75 - "commitRecover.py"
 Cohesion: 0.52
@@ -521,10 +522,6 @@ Nodes (6): Pagination, Quick Reference, Response Formats, Server Naming, Tool Na
 ### Community 82 - "📚 Biblioteca de Documentação"
 Cohesion: 0.33
 Nodes (6): Arquivos de Referência, 📚 Biblioteca de Documentação, Documentação Principal MCP (Carregue Primeiro), Documentação SDK (Carregue Durante Fase 1/2), Guia de Avaliação (Carregue Durante Fase 4), Guias de Implementação Específicos por Linguagem (Carregue Durante Fase 2)
-
-### Community 83 - "_run_validation"
-Cohesion: 0.60
-Nodes (5): _condense_xml(), pack(), Path, Pack a directory into a DOCX, PPTX, or XLSX file.  Validates with auto-repair, c, _run_validation()
 
 ### Community 84 - "unpack.py"
 Cohesion: 0.60
@@ -858,12 +855,20 @@ Nodes (4): Comando, Estrutura de um Skill, Usage, What I do
 Cohesion: 0.33
 Nodes (5): Exemplo de output, Integracao, Output, Uso, What I do
 
+### Community 191 - "Buildify Agent"
+Cohesion: 0.29
+Nodes (6): Buildify Agent, Commands, Core Rule (MANDATORY), Cost-Free Knowledge Graph, Example Workflow, Workflow
+
+### Community 192 - "_run_validation"
+Cohesion: 0.60
+Nodes (5): _condense_xml(), pack(), Path, Pack a directory into a DOCX, PPTX, or XLSX file.  Validates with auto-repair, c, _run_validation()
+
 ### Community 193 - "md_to_ast.py"
 Cohesion: 0.29
 Nodes (9): extract_markdown_structure(), find_markdown_files(), main(), md_to_json_path(), Encontra todos os arquivos .md em um diretório ou arquivo único., Converte caminho .md para .json (mesmo diretório, mesmo nome)., Salva AST de um único arquivo .md como .json no mesmo diretório., Extrai estrutura AST de um arquivo markdown. (+1 more)
 
 ## Knowledge Gaps
-- **816 isolated node(s):** `params`, `bundle-artifact.sh script`, `init-artifact.sh script`, `name`, `version` (+811 more)
+- **819 isolated node(s):** `params`, `bundle-artifact.sh script`, `init-artifact.sh script`, `name`, `version` (+814 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **17 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -872,9 +877,7 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Node/TypeScript MCP Server Implementation Guide` connect `Node/TypeScript MCP Server Implementation Guide` to `SKILL.md`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
-- **Why does `DOCXSchemaValidator` connect `BaseSchemaValidator` to `validators.py`?**
-  _High betweenness centrality (0.004) - this node is a cross-community bridge._
-- **Why does `Python MCP Server Implementation Guide` connect `Python MCP Server Implementation Guide` to `SKILL.md`?**
+- **Why does `DOCXSchemaValidator` connect `DOCXSchemaValidator` to `_run_validation`, `RedliningValidator`, `BaseSchemaValidator`, `PPTXSchemaValidator`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `BaseSchemaValidator` (e.g. with `DOCXSchemaValidator` and `PPTXSchemaValidator`) actually correct?**
   _`BaseSchemaValidator` has 2 INFERRED edges - model-reasoned connections that need verification._
@@ -883,4 +886,6 @@ _Questions this graph is uniquely positioned to answer:_
 - **Are the 2 inferred relationships involving `BaseSchemaValidator` (e.g. with `DOCXSchemaValidator` and `PPTXSchemaValidator`) actually correct?**
   _`BaseSchemaValidator` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `params`, `Gera a árvore de diretórios em formato ASCII`, `Gera a árvore de diretórios do projeto a partir de app/` to the rest of the system?**
-  _930 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _943 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `BaseSchemaValidator` be split into smaller, more focused modules?**
+  _Cohesion score 0.051560379918588875 - nodes in this community are weakly interconnected._

@@ -1,0 +1,141 @@
+{
+  "source": "/root/.config/opencode/skills/in-progress/writing-fragments/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.018248",
+  "nodes": [
+    {
+      "id": "md_SKILL_h2_0",
+      "label": "What is a fragment",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/writing-fragments/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_1",
+      "label": "A sharp sentence you'd want to deploy somewhere but don't yet know where.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-fragments/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "A claim with a one-line justification.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-fragments/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "A vignette: a thing that happened, a code snippet, a scenario, an analogy.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-fragments/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "A half-thought: \"something about how X feels like Y, work this out later.\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-fragments/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "A quote, a piece of dialogue, an overheard line.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-fragments/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "A list of related observations that hang together by feel.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-fragments/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "A complaint, a confession, a punchline.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-fragments/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "A **leading word** — a compact metaphor or coinage the whole piece can hang on (",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-fragments/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_9",
+      "label": "File format",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/writing-fragments/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_10",
+      "label": "Code: markdown",
+      "type": "code_block",
+      "language": "markdown",
+      "file": "/root/.config/opencode/skills/in-progress/writing-fragments/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_11",
+      "label": "Writing rhythm",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/writing-fragments/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_list_1",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_code_10",
+      "relation": "contains"
+    }
+  ]
+}

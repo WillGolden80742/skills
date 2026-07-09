@@ -1,0 +1,140 @@
+{
+  "source": "/root/.config/opencode/skills/productivity/teach/RESOURCES-FORMAT.md",
+  "generated_at": "2026-07-08T22:23:49.034087",
+  "nodes": [
+    {
+      "id": "md_RESOURCES-FORMAT_h1_0",
+      "label": "RESOURCES.md Format",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/productivity/teach/RESOURCES-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_RESOURCES-FORMAT_h2_1",
+      "label": "Structure",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/RESOURCES-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_RESOURCES-FORMAT_code_2",
+      "label": "Code: md",
+      "type": "code_block",
+      "language": "md",
+      "file": "/root/.config/opencode/skills/productivity/teach/RESOURCES-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_RESOURCES-FORMAT_h2_3",
+      "label": "Rules",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/RESOURCES-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_RESOURCES-FORMAT_list_4",
+      "label": "**High-trust only.** Prefer primary sources, recognised experts, peer-reviewed w",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/RESOURCES-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_RESOURCES-FORMAT_list_5",
+      "label": "**Annotate every entry.** A bare link is useless in three months. Add one line: ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/RESOURCES-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_RESOURCES-FORMAT_link_6",
+      "label": "SKILL.md",
+      "type": "link",
+      "url": "./SKILL.md",
+      "file": "/root/.config/opencode/skills/productivity/teach/RESOURCES-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_RESOURCES-FORMAT_list_7",
+      "label": "**Group by Knowledge / Wisdom.** Mirrors the philosophy in [SKILL.md](./SKILL.md",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/RESOURCES-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_RESOURCES-FORMAT_list_8",
+      "label": "**Surface gaps explicitly.** If no good resource exists for an area the mission ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/RESOURCES-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_RESOURCES-FORMAT_list_9",
+      "label": "**Prune ruthlessly.** A resource that turned out to be wrong, shallow, or off-mi",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/RESOURCES-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_RESOURCES-FORMAT_list_10",
+      "label": "**Record community preferences.** If the user has opted out of joining communiti",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/RESOURCES-FORMAT.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_RESOURCES-FORMAT_h1_0",
+      "to": "md_RESOURCES-FORMAT_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_RESOURCES-FORMAT_h2_1",
+      "to": "md_RESOURCES-FORMAT_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_RESOURCES-FORMAT_h1_0",
+      "to": "md_RESOURCES-FORMAT_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_RESOURCES-FORMAT_h2_3",
+      "to": "md_RESOURCES-FORMAT_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_RESOURCES-FORMAT_h2_3",
+      "to": "md_RESOURCES-FORMAT_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_RESOURCES-FORMAT_h2_3",
+      "to": "md_RESOURCES-FORMAT_link_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_RESOURCES-FORMAT_h2_3",
+      "to": "md_RESOURCES-FORMAT_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_RESOURCES-FORMAT_h2_3",
+      "to": "md_RESOURCES-FORMAT_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_RESOURCES-FORMAT_h2_3",
+      "to": "md_RESOURCES-FORMAT_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_RESOURCES-FORMAT_h2_3",
+      "to": "md_RESOURCES-FORMAT_list_10",
+      "relation": "contains"
+    }
+  ]
+}

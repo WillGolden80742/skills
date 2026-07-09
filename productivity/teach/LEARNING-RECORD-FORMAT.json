@@ -1,0 +1,179 @@
+{
+  "source": "/root/.config/opencode/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+  "generated_at": "2026-07-08T22:23:49.033569",
+  "nodes": [
+    {
+      "id": "md_LEARNING-RECORD-FORMAT_h1_0",
+      "label": "Learning Record Format",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_LEARNING-RECORD-FORMAT_h2_1",
+      "label": "Template",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_LEARNING-RECORD-FORMAT_code_2",
+      "label": "Code: md",
+      "type": "code_block",
+      "language": "md",
+      "file": "/root/.config/opencode/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_LEARNING-RECORD-FORMAT_h2_3",
+      "label": "Optional sections",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_LEARNING-RECORD-FORMAT_list_4",
+      "label": "**Status** frontmatter (`active | superseded by LR-NNNN`) — useful when an earli",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_LEARNING-RECORD-FORMAT_list_5",
+      "label": "**Evidence** — how the user demonstrated the understanding (a question answered,",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_LEARNING-RECORD-FORMAT_list_6",
+      "label": "**Implications** — what this unlocks or rules out for future sessions. Worth rec",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_LEARNING-RECORD-FORMAT_h2_7",
+      "label": "Numbering",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_LEARNING-RECORD-FORMAT_h2_8",
+      "label": "When to write a learning record",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_LEARNING-RECORD-FORMAT_h3_9",
+      "label": "What does _not_ qualify",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_LEARNING-RECORD-FORMAT_list_10",
+      "label": "Material that was merely covered. Coverage is not learning. Wait for evidence.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_LEARNING-RECORD-FORMAT_list_11",
+      "label": "Anything already captured tersely in [[GLOSSARY.md]] as a term definition. Don't",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_LEARNING-RECORD-FORMAT_list_12",
+      "label": "Session-by-session activity logs. Learning records are not a journal — they are ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_LEARNING-RECORD-FORMAT_h2_13",
+      "label": "Supersession",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_LEARNING-RECORD-FORMAT_h1_0",
+      "to": "md_LEARNING-RECORD-FORMAT_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_LEARNING-RECORD-FORMAT_h2_1",
+      "to": "md_LEARNING-RECORD-FORMAT_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LEARNING-RECORD-FORMAT_h1_0",
+      "to": "md_LEARNING-RECORD-FORMAT_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_LEARNING-RECORD-FORMAT_h2_3",
+      "to": "md_LEARNING-RECORD-FORMAT_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LEARNING-RECORD-FORMAT_h2_3",
+      "to": "md_LEARNING-RECORD-FORMAT_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LEARNING-RECORD-FORMAT_h2_3",
+      "to": "md_LEARNING-RECORD-FORMAT_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LEARNING-RECORD-FORMAT_h1_0",
+      "to": "md_LEARNING-RECORD-FORMAT_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_LEARNING-RECORD-FORMAT_h1_0",
+      "to": "md_LEARNING-RECORD-FORMAT_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_LEARNING-RECORD-FORMAT_h2_8",
+      "to": "md_LEARNING-RECORD-FORMAT_h3_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_LEARNING-RECORD-FORMAT_h3_9",
+      "to": "md_LEARNING-RECORD-FORMAT_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LEARNING-RECORD-FORMAT_h3_9",
+      "to": "md_LEARNING-RECORD-FORMAT_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LEARNING-RECORD-FORMAT_h3_9",
+      "to": "md_LEARNING-RECORD-FORMAT_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_LEARNING-RECORD-FORMAT_h1_0",
+      "to": "md_LEARNING-RECORD-FORMAT_h2_13",
+      "relation": "section"
+    }
+  ]
+}

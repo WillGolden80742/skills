@@ -1,0 +1,290 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+  "generated_at": "2026-07-08T22:23:49.027636",
+  "nodes": [
+    {
+      "id": "md_OUT-OF-SCOPE_h1_0",
+      "label": "Out-of-Scope Knowledge Base",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_h2_1",
+      "label": "Directory structure",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_code_2",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_h2_3",
+      "label": "File format",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_code_4",
+      "label": "Code: markdown",
+      "type": "code_block",
+      "language": "markdown",
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_code_5",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_h3_6",
+      "label": "Naming the file",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_h3_7",
+      "label": "Writing the reason",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_list_8",
+      "label": "Project scope or philosophy (\"This project focuses on X; theming is a downstream",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_list_9",
+      "label": "Technical constraints (\"Supporting this would require Y, which conflicts with ou",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_list_10",
+      "label": "Strategic decisions (\"We chose to use A instead of B because...\")",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_h2_11",
+      "label": "When to check `.out-of-scope/`",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_list_12",
+      "label": "Check if the request matches an existing out-of-scope concept",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_list_13",
+      "label": "Matching is by concept similarity, not keyword — \"night theme\" matches `dark-mod",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_list_14",
+      "label": "If there's a match, surface it to the maintainer: \"This is similar to `.out-of-s",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_list_15",
+      "label": "**Confirm** — the new issue gets added to the existing file's \"Prior requests\" l",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_list_16",
+      "label": "**Reconsider** — the out-of-scope file gets deleted or updated, and the issue pr",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_list_17",
+      "label": "**Disagree** — the issues are related but distinct, proceed with normal triage",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_h2_18",
+      "label": "When to write to `.out-of-scope/`",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_h2_19",
+      "label": "Updating or removing out-of-scope files",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_list_20",
+      "label": "Delete the `.out-of-scope/` file",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_list_21",
+      "label": "The skill does not need to reopen old issues — they're historical records",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    },
+    {
+      "id": "md_OUT-OF-SCOPE_list_22",
+      "label": "The new issue that triggered the reconsideration proceeds through normal triage",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/triage/OUT-OF-SCOPE.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_OUT-OF-SCOPE_h1_0",
+      "to": "md_OUT-OF-SCOPE_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h2_1",
+      "to": "md_OUT-OF-SCOPE_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h1_0",
+      "to": "md_OUT-OF-SCOPE_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h2_3",
+      "to": "md_OUT-OF-SCOPE_code_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h2_3",
+      "to": "md_OUT-OF-SCOPE_code_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h2_3",
+      "to": "md_OUT-OF-SCOPE_h3_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h2_3",
+      "to": "md_OUT-OF-SCOPE_h3_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h3_7",
+      "to": "md_OUT-OF-SCOPE_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h3_7",
+      "to": "md_OUT-OF-SCOPE_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h3_7",
+      "to": "md_OUT-OF-SCOPE_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h1_0",
+      "to": "md_OUT-OF-SCOPE_h2_11",
+      "relation": "section"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h2_11",
+      "to": "md_OUT-OF-SCOPE_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h2_11",
+      "to": "md_OUT-OF-SCOPE_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h2_11",
+      "to": "md_OUT-OF-SCOPE_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h2_11",
+      "to": "md_OUT-OF-SCOPE_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h2_11",
+      "to": "md_OUT-OF-SCOPE_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h2_11",
+      "to": "md_OUT-OF-SCOPE_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h1_0",
+      "to": "md_OUT-OF-SCOPE_h2_18",
+      "relation": "section"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h1_0",
+      "to": "md_OUT-OF-SCOPE_h2_19",
+      "relation": "section"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h2_19",
+      "to": "md_OUT-OF-SCOPE_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h2_19",
+      "to": "md_OUT-OF-SCOPE_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_OUT-OF-SCOPE_h2_19",
+      "to": "md_OUT-OF-SCOPE_list_22",
+      "relation": "contains"
+    }
+  ]
+}

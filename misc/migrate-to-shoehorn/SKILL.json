@@ -1,0 +1,355 @@
+{
+  "source": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.040051",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Migrate to Shoehorn",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Why shoehorn?",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "Trained not to use it",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "Must manually specify target type",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "Double-as (`as unknown as Type`) for intentionally wrong data",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_5",
+      "label": "Install",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_6",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_7",
+      "label": "Migration patterns",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_8",
+      "label": "Large objects with few needed properties",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_9",
+      "label": "Code: ts",
+      "type": "code_block",
+      "language": "ts",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_10",
+      "label": "Code: ts",
+      "type": "code_block",
+      "language": "ts",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_11",
+      "label": "`as Type` → `fromPartial()`",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_12",
+      "label": "Code: ts",
+      "type": "code_block",
+      "language": "ts",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_13",
+      "label": "Code: ts",
+      "type": "code_block",
+      "language": "ts",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_14",
+      "label": "`as unknown as Type` → `fromAny()`",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_15",
+      "label": "Code: ts",
+      "type": "code_block",
+      "language": "ts",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_16",
+      "label": "Code: ts",
+      "type": "code_block",
+      "language": "ts",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_17",
+      "label": "When to use each",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_18",
+      "label": "Workflow",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_19",
+      "label": "What test files have `as` assertions causing problems?",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_20",
+      "label": "Are they dealing with large objects where only some properties matter?",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_21",
+      "label": "Do they need to pass intentionally wrong data for error testing?",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_22",
+      "label": "[ ] Install: `npm i @total-typescript/shoehorn`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_23",
+      "label": "[ ] Find test files with `as` assertions: `grep -r \" as [A-Z]\" --include=\"*.test",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_24",
+      "label": "[ ] Replace `as Type` with `fromPartial()`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_25",
+      "label": "[ ] Replace `as unknown as Type` with `fromAny()`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_26",
+      "label": "[ ] Add imports from `@total-typescript/shoehorn`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_27",
+      "label": "[ ] Run type check to verify",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/migrate-to-shoehorn/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_code_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_h3_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_8",
+      "to": "md_SKILL_code_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_8",
+      "to": "md_SKILL_code_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_h3_11",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_code_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_code_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_h3_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_14",
+      "to": "md_SKILL_code_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_14",
+      "to": "md_SKILL_code_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_17",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_18",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_18",
+      "to": "md_SKILL_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_18",
+      "to": "md_SKILL_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_18",
+      "to": "md_SKILL_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_18",
+      "to": "md_SKILL_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_18",
+      "to": "md_SKILL_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_18",
+      "to": "md_SKILL_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_18",
+      "to": "md_SKILL_list_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_18",
+      "to": "md_SKILL_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_18",
+      "to": "md_SKILL_list_27",
+      "relation": "contains"
+    }
+  ]
+}

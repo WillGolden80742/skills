@@ -1,0 +1,116 @@
+{
+  "source": "/root/.config/opencode/skills/misc/README.md",
+  "generated_at": "2026-07-08T22:23:49.039701",
+  "nodes": [
+    {
+      "id": "md_README_h1_0",
+      "label": "Misc",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/misc/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_1",
+      "label": "git-guardrails-claude-code",
+      "type": "link",
+      "url": "./git-guardrails-claude-code/SKILL.md",
+      "file": "/root/.config/opencode/skills/misc/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_2",
+      "label": "**[git-guardrails-claude-code](./git-guardrails-claude-code/SKILL.md)** — Set up",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_3",
+      "label": "migrate-to-shoehorn",
+      "type": "link",
+      "url": "./migrate-to-shoehorn/SKILL.md",
+      "file": "/root/.config/opencode/skills/misc/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_4",
+      "label": "**[migrate-to-shoehorn](./migrate-to-shoehorn/SKILL.md)** — Migrate test files f",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_5",
+      "label": "scaffold-exercises",
+      "type": "link",
+      "url": "./scaffold-exercises/SKILL.md",
+      "file": "/root/.config/opencode/skills/misc/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_6",
+      "label": "**[scaffold-exercises](./scaffold-exercises/SKILL.md)** — Create exercise direct",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_link_7",
+      "label": "setup-pre-commit",
+      "type": "link",
+      "url": "./setup-pre-commit/SKILL.md",
+      "file": "/root/.config/opencode/skills/misc/README.md",
+      "community": 999
+    },
+    {
+      "id": "md_README_list_8",
+      "label": "**[setup-pre-commit](./setup-pre-commit/SKILL.md)** — Set up Husky pre-commit ho",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/misc/README.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_link_1",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_link_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_link_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_link_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h1_0",
+      "to": "md_README_list_8",
+      "relation": "contains"
+    }
+  ]
+}

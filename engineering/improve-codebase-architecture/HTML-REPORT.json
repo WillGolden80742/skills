@@ -1,0 +1,402 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+  "generated_at": "2026-07-08T22:23:49.023459",
+  "nodes": [
+    {
+      "id": "md_HTML-REPORT_h1_0",
+      "label": "HTML Report Format",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_h2_1",
+      "label": "Scaffold",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_code_2",
+      "label": "Code: html",
+      "type": "code_block",
+      "language": "html",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_h2_3",
+      "label": "Header",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_h2_4",
+      "label": "Candidate card",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_list_5",
+      "label": "**Title** — short, names the deepening (e.g. \"Collapse the Order intake pipeline",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_list_6",
+      "label": "**Badge row** — recommendation strength (`Strong` = emerald, `Worth exploring` =",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_list_7",
+      "label": "**Files** — monospaced list, `font-mono text-sm`.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_list_8",
+      "label": "**Before / After diagram** — the centrepiece. Two columns, side by side. See pat",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_list_9",
+      "label": "**Problem** — one sentence. What hurts.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_list_10",
+      "label": "**Solution** — one sentence. What changes.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_list_11",
+      "label": "**Wins** — bullets, ≤6 words each. e.g. \"Tests hit one interface\", \"Pricing logi",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_list_12",
+      "label": "**ADR callout** (if applicable) — one line in an amber-tinted box.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_h2_13",
+      "label": "Diagram patterns",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_h3_14",
+      "label": "Mermaid graph (the workhorse for dependencies / call flow)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_code_15",
+      "label": "Code: html",
+      "type": "code_block",
+      "language": "html",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_h3_16",
+      "label": "Hand-built boxes-and-arrows (when Mermaid's layout fights you)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_h3_17",
+      "label": "Cross-section (good for layered shallowness)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_h3_18",
+      "label": "Mass diagram (good for \"interface as wide as implementation\")",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_h3_19",
+      "label": "Call-graph collapse",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_h2_20",
+      "label": "Style guidance",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_list_21",
+      "label": "Lean editorial, not corporate-dashboard. Generous whitespace. Serif optional for",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_list_22",
+      "label": "Colour sparingly: one accent (emerald or indigo) plus red for leakage and amber ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_list_23",
+      "label": "Keep diagrams ~320px tall so before/after sits comfortably side by side without ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_list_24",
+      "label": "Use `text-xs uppercase tracking-wider` for module labels inside diagrams — they ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_list_25",
+      "label": "The only scripts are the Tailwind CDN and the Mermaid ESM import. The report is ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_h2_26",
+      "label": "Top recommendation section",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_h2_27",
+      "label": "Tone",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_list_28",
+      "label": "\"Order intake module is shallow — interface nearly matches the implementation.\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_list_29",
+      "label": "\"Pricing leaks across the seam.\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_list_30",
+      "label": "\"Deepen: one interface, one place to test.\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    },
+    {
+      "id": "md_HTML-REPORT_list_31",
+      "label": "\"Two adapters justify the seam: HTTP in prod, in-memory in tests.\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/improve-codebase-architecture/HTML-REPORT.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_HTML-REPORT_h1_0",
+      "to": "md_HTML-REPORT_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_1",
+      "to": "md_HTML-REPORT_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_HTML-REPORT_h1_0",
+      "to": "md_HTML-REPORT_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_HTML-REPORT_h1_0",
+      "to": "md_HTML-REPORT_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_4",
+      "to": "md_HTML-REPORT_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_4",
+      "to": "md_HTML-REPORT_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_4",
+      "to": "md_HTML-REPORT_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_4",
+      "to": "md_HTML-REPORT_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_4",
+      "to": "md_HTML-REPORT_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_4",
+      "to": "md_HTML-REPORT_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_4",
+      "to": "md_HTML-REPORT_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_4",
+      "to": "md_HTML-REPORT_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_HTML-REPORT_h1_0",
+      "to": "md_HTML-REPORT_h2_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_13",
+      "to": "md_HTML-REPORT_h3_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_HTML-REPORT_h3_14",
+      "to": "md_HTML-REPORT_code_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_13",
+      "to": "md_HTML-REPORT_h3_16",
+      "relation": "section"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_13",
+      "to": "md_HTML-REPORT_h3_17",
+      "relation": "section"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_13",
+      "to": "md_HTML-REPORT_h3_18",
+      "relation": "section"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_13",
+      "to": "md_HTML-REPORT_h3_19",
+      "relation": "section"
+    },
+    {
+      "from": "md_HTML-REPORT_h1_0",
+      "to": "md_HTML-REPORT_h2_20",
+      "relation": "section"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_20",
+      "to": "md_HTML-REPORT_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_20",
+      "to": "md_HTML-REPORT_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_20",
+      "to": "md_HTML-REPORT_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_20",
+      "to": "md_HTML-REPORT_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_20",
+      "to": "md_HTML-REPORT_list_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_HTML-REPORT_h1_0",
+      "to": "md_HTML-REPORT_h2_26",
+      "relation": "section"
+    },
+    {
+      "from": "md_HTML-REPORT_h1_0",
+      "to": "md_HTML-REPORT_h2_27",
+      "relation": "section"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_27",
+      "to": "md_HTML-REPORT_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_27",
+      "to": "md_HTML-REPORT_list_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_27",
+      "to": "md_HTML-REPORT_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_HTML-REPORT_h2_27",
+      "to": "md_HTML-REPORT_list_31",
+      "relation": "contains"
+    }
+  ]
+}

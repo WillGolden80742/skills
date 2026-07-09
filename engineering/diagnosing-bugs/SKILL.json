@@ -1,0 +1,352 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.024479",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Diagnosing Bugs",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Phase 1 — Build a feedback loop",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_2",
+      "label": "Ways to construct one — try them in roughly this order",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_3",
+      "label": "Tighten the loop",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "Can I make it faster? (Cache setup, skip unrelated init, narrow the test scope.)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "Can I make the signal sharper? (Assert on the specific symptom, not \"didn't cras",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "Can I make it more deterministic? (Pin time, seed RNG, isolate filesystem, freez",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_7",
+      "label": "Non-deterministic bugs",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_8",
+      "label": "When you genuinely cannot build a loop",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_9",
+      "label": "Completion criterion — a tight loop that goes red",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "[ ] **Red-capable** — it drives the actual bug code path and asserts the **user'",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "[ ] **Deterministic** — same verdict every run (flaky bugs: a pinned, high repro",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "[ ] **Fast** — seconds, not minutes.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "[ ] **Agent-runnable** — you can run it unattended; a human in the loop only via",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_14",
+      "label": "Phase 2 — Reproduce + minimise",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "[ ] The loop produces the failure mode the **user** described — not a different ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "[ ] The failure is reproducible across multiple runs (or, for non-deterministic ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "[ ] You have captured the exact symptom (error message, wrong output, slow timin",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_18",
+      "label": "Minimise",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_19",
+      "label": "Phase 3 — Hypothesise",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_20",
+      "label": "Phase 4 — Instrument",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_21",
+      "label": "Phase 5 — Fix + regression test",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_22",
+      "label": "Phase 6 — Cleanup + post-mortem",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_23",
+      "label": "[ ] Original repro no longer reproduces (re-run the Phase 1 loop)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_24",
+      "label": "[ ] Regression test passes (or absence of seam is documented)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_25",
+      "label": "[ ] All `[DEBUG-...]` instrumentation removed (`grep` the prefix)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_26",
+      "label": "[ ] Throwaway prototypes deleted (or moved to a clearly-marked debug location)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_27",
+      "label": "[ ] The hypothesis that turned out correct is stated in the commit / PR message ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/diagnosing-bugs/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_3",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_3",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_3",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_9",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_14",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_14",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_14",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_14",
+      "to": "md_SKILL_h3_18",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_19",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_20",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_21",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_22",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_22",
+      "to": "md_SKILL_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_22",
+      "to": "md_SKILL_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_22",
+      "to": "md_SKILL_list_25",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_22",
+      "to": "md_SKILL_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_22",
+      "to": "md_SKILL_list_27",
+      "relation": "contains"
+    }
+  ]
+}

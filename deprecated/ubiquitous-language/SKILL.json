@@ -1,0 +1,226 @@
+{
+  "source": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.038870",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Ubiquitous Language",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Process",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "Same word used for different concepts (ambiguity)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "Different words used for the same concept (synonyms)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "Vague or overloaded terms",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_5",
+      "label": "Output Format",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_6",
+      "label": "Code: md",
+      "type": "code_block",
+      "language": "md",
+      "file": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_7",
+      "label": "Rules",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "**Be opinionated.** When multiple words exist for the same concept, pick the bes",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_9",
+      "label": "**Flag conflicts explicitly.** If a term is used ambiguously in the conversation",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "**Only include terms relevant for domain experts.** Skip the names of modules or",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "**Keep definitions tight.** One sentence max. Define what it IS, not what it doe",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "**Show relationships.** Use bold term names and express cardinality where obviou",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "**Only include domain terms.** Skip generic programming concepts (array, functio",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "**Group terms into multiple tables** when natural clusters emerge (e.g. by subdo",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "**Write an example dialogue.** A short conversation (3-5 exchanges) between a de",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_16",
+      "label": "Example dialogue",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_17",
+      "label": "Re-running",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/deprecated/ubiquitous-language/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_5",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_5",
+      "to": "md_SKILL_code_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_16",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_17",
+      "relation": "section"
+    }
+  ]
+}

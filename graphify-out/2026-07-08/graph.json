@@ -1746,7 +1746,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_pack",
-      "community": 83,
+      "community": 11,
       "norm_label": "pack.py"
     },
     {
@@ -1756,7 +1756,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_pack_pack",
-      "community": 83,
+      "community": 11,
       "norm_label": "pack()"
     },
     {
@@ -1766,7 +1766,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_pack_run_validation",
-      "community": 83,
+      "community": 11,
       "norm_label": "_run_validation()"
     },
     {
@@ -1776,7 +1776,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_pack_py_path",
-      "community": 83,
+      "community": 11,
       "norm_label": "path"
     },
     {
@@ -1786,7 +1786,7 @@
       "source_location": "L108",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_pack_condense_xml",
-      "community": 83,
+      "community": 11,
       "norm_label": "_condense_xml()"
     },
     {
@@ -1796,7 +1796,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_pack_rationale_1",
-      "community": 83,
+      "community": 11,
       "norm_label": "pack a directory into a docx, pptx, or xlsx file.  validates with auto-repair, c"
     },
     {
@@ -1976,7 +1976,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_init",
-      "community": 54,
+      "community": 11,
       "norm_label": "__init__.py"
     },
     {
@@ -1986,7 +1986,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_init_rationale_1",
-      "community": 54,
+      "community": 11,
       "norm_label": "validation modules for word document processing."
     },
     {
@@ -1996,7 +1996,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_base",
-      "community": 54,
+      "community": 11,
       "norm_label": "base.py"
     },
     {
@@ -2216,7 +2216,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_base_rationale_1",
-      "community": 54,
+      "community": 11,
       "norm_label": "base validator with common validation logic for document files."
     },
     {
@@ -2226,7 +2226,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx",
-      "community": 54,
+      "community": 11,
       "norm_label": "docx.py"
     },
     {
@@ -2236,7 +2236,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator",
-      "community": 28,
+      "community": 11,
       "norm_label": "docxschemavalidator"
     },
     {
@@ -2246,7 +2246,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_py_baseschemavalidator",
-      "community": 28,
+      "community": 11,
       "norm_label": "baseschemavalidator"
     },
     {
@@ -2256,7 +2256,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_validate",
-      "community": 28,
+      "community": 11,
       "norm_label": ".validate()"
     },
     {
@@ -2266,7 +2266,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_validate_whitespace_preservation",
-      "community": 28,
+      "community": 11,
       "norm_label": ".validate_whitespace_preservation()"
     },
     {
@@ -2276,7 +2276,7 @@
       "source_location": "L112",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_validate_deletions",
-      "community": 28,
+      "community": 11,
       "norm_label": ".validate_deletions()"
     },
     {
@@ -2286,7 +2286,7 @@
       "source_location": "L163",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_count_paragraphs_in_unpacked",
-      "community": 28,
+      "community": 11,
       "norm_label": ".count_paragraphs_in_unpacked()"
     },
     {
@@ -2296,7 +2296,7 @@
       "source_location": "L179",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_count_paragraphs_in_original",
-      "community": 28,
+      "community": 11,
       "norm_label": ".count_paragraphs_in_original()"
     },
     {
@@ -2306,7 +2306,7 @@
       "source_location": "L202",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_validate_insertions",
-      "community": 28,
+      "community": 11,
       "norm_label": ".validate_insertions()"
     },
     {
@@ -2316,7 +2316,7 @@
       "source_location": "L243",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_compare_paragraph_counts",
-      "community": 28,
+      "community": 11,
       "norm_label": ".compare_paragraph_counts()"
     },
     {
@@ -2326,7 +2326,7 @@
       "source_location": "L251",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_parse_id_value",
-      "community": 28,
+      "community": 11,
       "norm_label": "._parse_id_value()"
     },
     {
@@ -2336,7 +2336,7 @@
       "source_location": "L254",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_validate_id_constraints",
-      "community": 28,
+      "community": 11,
       "norm_label": ".validate_id_constraints()"
     },
     {
@@ -2346,7 +2346,7 @@
       "source_location": "L298",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_validate_comment_markers",
-      "community": 28,
+      "community": 11,
       "norm_label": ".validate_comment_markers()"
     },
     {
@@ -2356,7 +2356,7 @@
       "source_location": "L386",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_repair",
-      "community": 28,
+      "community": 11,
       "norm_label": ".repair()"
     },
     {
@@ -2366,7 +2366,7 @@
       "source_location": "L391",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_repair_durableid",
-      "community": 28,
+      "community": 11,
       "norm_label": ".repair_durableid()"
     },
     {
@@ -2376,7 +2376,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_rationale_1",
-      "community": 54,
+      "community": 11,
       "norm_label": "validator for word document xml files against xsd schemas."
     },
     {
@@ -2386,7 +2386,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx",
-      "community": 54,
+      "community": 11,
       "norm_label": "pptx.py"
     },
     {
@@ -2396,7 +2396,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx_pptxschemavalidator",
-      "community": 63,
+      "community": 11,
       "norm_label": "pptxschemavalidator"
     },
     {
@@ -2406,7 +2406,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx_py_baseschemavalidator",
-      "community": 63,
+      "community": 11,
       "norm_label": "baseschemavalidator"
     },
     {
@@ -2416,7 +2416,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx_pptxschemavalidator_validate",
-      "community": 63,
+      "community": 11,
       "norm_label": ".validate()"
     },
     {
@@ -2426,7 +2426,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx_pptxschemavalidator_validate_uuid_ids",
-      "community": 63,
+      "community": 11,
       "norm_label": ".validate_uuid_ids()"
     },
     {
@@ -2436,7 +2436,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx_pptxschemavalidator_looks_like_uuid",
-      "community": 63,
+      "community": 11,
       "norm_label": "._looks_like_uuid()"
     },
     {
@@ -2446,7 +2446,7 @@
       "source_location": "L104",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx_pptxschemavalidator_validate_slide_layout_ids",
-      "community": 63,
+      "community": 11,
       "norm_label": ".validate_slide_layout_ids()"
     },
     {
@@ -2456,7 +2456,7 @@
       "source_location": "L172",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx_pptxschemavalidator_validate_no_duplicate_slide_layouts",
-      "community": 63,
+      "community": 11,
       "norm_label": ".validate_no_duplicate_slide_layouts()"
     },
     {
@@ -2466,7 +2466,7 @@
       "source_location": "L210",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx_pptxschemavalidator_validate_notes_slide_references",
-      "community": 63,
+      "community": 11,
       "norm_label": ".validate_notes_slide_references()"
     },
     {
@@ -2476,7 +2476,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx_rationale_1",
-      "community": 54,
+      "community": 11,
       "norm_label": "validator for powerpoint presentation xml files against xsd schemas."
     },
     {
@@ -2486,7 +2486,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining",
-      "community": 48,
+      "community": 11,
       "norm_label": "redlining.py"
     },
     {
@@ -2496,7 +2496,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining_redliningvalidator",
-      "community": 48,
+      "community": 11,
       "norm_label": "redliningvalidator"
     },
     {
@@ -2506,7 +2506,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining_redliningvalidator_init",
-      "community": 48,
+      "community": 11,
       "norm_label": ".__init__()"
     },
     {
@@ -2516,7 +2516,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining_redliningvalidator_repair",
-      "community": 48,
+      "community": 11,
       "norm_label": ".repair()"
     },
     {
@@ -2526,7 +2526,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining_redliningvalidator_validate",
-      "community": 48,
+      "community": 11,
       "norm_label": ".validate()"
     },
     {
@@ -2536,7 +2536,7 @@
       "source_location": "L104",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining_redliningvalidator_generate_detailed_diff",
-      "community": 48,
+      "community": 11,
       "norm_label": "._generate_detailed_diff()"
     },
     {
@@ -2546,7 +2546,7 @@
       "source_location": "L127",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining_redliningvalidator_get_git_word_diff",
-      "community": 48,
+      "community": 11,
       "norm_label": "._get_git_word_diff()"
     },
     {
@@ -2556,7 +2556,7 @@
       "source_location": "L198",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining_redliningvalidator_remove_author_tracked_changes",
-      "community": 48,
+      "community": 11,
       "norm_label": "._remove_author_tracked_changes()"
     },
     {
@@ -2566,7 +2566,7 @@
       "source_location": "L229",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining_redliningvalidator_extract_text_content",
-      "community": 48,
+      "community": 11,
       "norm_label": "._extract_text_content()"
     },
     {
@@ -2576,7 +2576,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining_rationale_1",
-      "community": 48,
+      "community": 11,
       "norm_label": "validator for tracked changes in word documents."
     },
     {
@@ -3186,7 +3186,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_pack",
-      "community": 0,
+      "community": 83,
       "norm_label": "pack.py"
     },
     {
@@ -3196,7 +3196,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_pack_pack",
-      "community": 0,
+      "community": 83,
       "norm_label": "pack()"
     },
     {
@@ -3206,7 +3206,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_pack_run_validation",
-      "community": 0,
+      "community": 83,
       "norm_label": "_run_validation()"
     },
     {
@@ -3216,7 +3216,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_pack_py_path",
-      "community": 0,
+      "community": 83,
       "norm_label": "path"
     },
     {
@@ -3226,7 +3226,7 @@
       "source_location": "L108",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_pack_condense_xml",
-      "community": 0,
+      "community": 83,
       "norm_label": "_condense_xml()"
     },
     {
@@ -3236,7 +3236,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_pack_rationale_1",
-      "community": 0,
+      "community": 83,
       "norm_label": "pack a directory into a docx, pptx, or xlsx file.  validates with auto-repair, c"
     },
     {
@@ -3386,7 +3386,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validate",
-      "community": 44,
+      "community": 48,
       "norm_label": "validate.py"
     },
     {
@@ -3396,7 +3396,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validate_main",
-      "community": 44,
+      "community": 48,
       "norm_label": "main()"
     },
     {
@@ -3406,7 +3406,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validate_rationale_1",
-      "community": 44,
+      "community": 48,
       "norm_label": "command line tool to validate office document xml files against xsd schemas and"
     },
     {
@@ -3416,7 +3416,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_init",
-      "community": 0,
+      "community": 54,
       "norm_label": "__init__.py"
     },
     {
@@ -3426,7 +3426,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_init_rationale_1",
-      "community": 0,
+      "community": 54,
       "norm_label": "validation modules for word document processing."
     },
     {
@@ -3436,7 +3436,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_base",
-      "community": 0,
+      "community": 54,
       "norm_label": "base.py"
     },
     {
@@ -3656,7 +3656,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_base_rationale_1",
-      "community": 0,
+      "community": 54,
       "norm_label": "base validator with common validation logic for document files."
     },
     {
@@ -3666,7 +3666,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx",
-      "community": 0,
+      "community": 54,
       "norm_label": "docx.py"
     },
     {
@@ -3676,7 +3676,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator",
-      "community": 0,
+      "community": 28,
       "norm_label": "docxschemavalidator"
     },
     {
@@ -3686,7 +3686,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_py_baseschemavalidator",
-      "community": 0,
+      "community": 28,
       "norm_label": "baseschemavalidator"
     },
     {
@@ -3696,7 +3696,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_validate",
-      "community": 0,
+      "community": 28,
       "norm_label": ".validate()"
     },
     {
@@ -3706,7 +3706,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_validate_whitespace_preservation",
-      "community": 0,
+      "community": 28,
       "norm_label": ".validate_whitespace_preservation()"
     },
     {
@@ -3716,7 +3716,7 @@
       "source_location": "L112",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_validate_deletions",
-      "community": 0,
+      "community": 28,
       "norm_label": ".validate_deletions()"
     },
     {
@@ -3726,7 +3726,7 @@
       "source_location": "L163",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_count_paragraphs_in_unpacked",
-      "community": 0,
+      "community": 28,
       "norm_label": ".count_paragraphs_in_unpacked()"
     },
     {
@@ -3736,7 +3736,7 @@
       "source_location": "L179",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_count_paragraphs_in_original",
-      "community": 0,
+      "community": 28,
       "norm_label": ".count_paragraphs_in_original()"
     },
     {
@@ -3746,7 +3746,7 @@
       "source_location": "L202",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_validate_insertions",
-      "community": 0,
+      "community": 28,
       "norm_label": ".validate_insertions()"
     },
     {
@@ -3756,7 +3756,7 @@
       "source_location": "L243",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_compare_paragraph_counts",
-      "community": 0,
+      "community": 28,
       "norm_label": ".compare_paragraph_counts()"
     },
     {
@@ -3766,7 +3766,7 @@
       "source_location": "L251",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_parse_id_value",
-      "community": 0,
+      "community": 28,
       "norm_label": "._parse_id_value()"
     },
     {
@@ -3776,7 +3776,7 @@
       "source_location": "L254",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_validate_id_constraints",
-      "community": 0,
+      "community": 28,
       "norm_label": ".validate_id_constraints()"
     },
     {
@@ -3786,7 +3786,7 @@
       "source_location": "L298",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_validate_comment_markers",
-      "community": 0,
+      "community": 28,
       "norm_label": ".validate_comment_markers()"
     },
     {
@@ -3796,7 +3796,7 @@
       "source_location": "L386",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_repair",
-      "community": 0,
+      "community": 28,
       "norm_label": ".repair()"
     },
     {
@@ -3806,7 +3806,7 @@
       "source_location": "L391",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_repair_durableid",
-      "community": 0,
+      "community": 28,
       "norm_label": ".repair_durableid()"
     },
     {
@@ -3816,7 +3816,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_rationale_1",
-      "community": 0,
+      "community": 54,
       "norm_label": "validator for word document xml files against xsd schemas."
     },
     {
@@ -3826,7 +3826,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx",
-      "community": 0,
+      "community": 54,
       "norm_label": "pptx.py"
     },
     {
@@ -3836,7 +3836,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx_pptxschemavalidator",
-      "community": 0,
+      "community": 63,
       "norm_label": "pptxschemavalidator"
     },
     {
@@ -3846,7 +3846,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx_py_baseschemavalidator",
-      "community": 0,
+      "community": 63,
       "norm_label": "baseschemavalidator"
     },
     {
@@ -3856,7 +3856,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx_pptxschemavalidator_validate",
-      "community": 0,
+      "community": 63,
       "norm_label": ".validate()"
     },
     {
@@ -3866,7 +3866,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx_pptxschemavalidator_validate_uuid_ids",
-      "community": 0,
+      "community": 63,
       "norm_label": ".validate_uuid_ids()"
     },
     {
@@ -3876,7 +3876,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx_pptxschemavalidator_looks_like_uuid",
-      "community": 0,
+      "community": 63,
       "norm_label": "._looks_like_uuid()"
     },
     {
@@ -3886,7 +3886,7 @@
       "source_location": "L104",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx_pptxschemavalidator_validate_slide_layout_ids",
-      "community": 0,
+      "community": 63,
       "norm_label": ".validate_slide_layout_ids()"
     },
     {
@@ -3896,7 +3896,7 @@
       "source_location": "L172",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx_pptxschemavalidator_validate_no_duplicate_slide_layouts",
-      "community": 0,
+      "community": 63,
       "norm_label": ".validate_no_duplicate_slide_layouts()"
     },
     {
@@ -3906,7 +3906,7 @@
       "source_location": "L210",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx_pptxschemavalidator_validate_notes_slide_references",
-      "community": 0,
+      "community": 63,
       "norm_label": ".validate_notes_slide_references()"
     },
     {
@@ -3916,7 +3916,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx_rationale_1",
-      "community": 0,
+      "community": 54,
       "norm_label": "validator for powerpoint presentation xml files against xsd schemas."
     },
     {
@@ -3926,7 +3926,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining",
-      "community": 0,
+      "community": 54,
       "norm_label": "redlining.py"
     },
     {
@@ -3936,7 +3936,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining_redliningvalidator",
-      "community": 0,
+      "community": 48,
       "norm_label": "redliningvalidator"
     },
     {
@@ -3946,7 +3946,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining_redliningvalidator_init",
-      "community": 0,
+      "community": 48,
       "norm_label": ".__init__()"
     },
     {
@@ -3956,7 +3956,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining_redliningvalidator_repair",
-      "community": 0,
+      "community": 48,
       "norm_label": ".repair()"
     },
     {
@@ -3966,7 +3966,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining_redliningvalidator_validate",
-      "community": 0,
+      "community": 48,
       "norm_label": ".validate()"
     },
     {
@@ -3976,7 +3976,7 @@
       "source_location": "L104",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining_redliningvalidator_generate_detailed_diff",
-      "community": 0,
+      "community": 48,
       "norm_label": "._generate_detailed_diff()"
     },
     {
@@ -3986,7 +3986,7 @@
       "source_location": "L127",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining_redliningvalidator_get_git_word_diff",
-      "community": 0,
+      "community": 48,
       "norm_label": "._get_git_word_diff()"
     },
     {
@@ -3996,7 +3996,7 @@
       "source_location": "L198",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining_redliningvalidator_remove_author_tracked_changes",
-      "community": 0,
+      "community": 48,
       "norm_label": "._remove_author_tracked_changes()"
     },
     {
@@ -4006,7 +4006,7 @@
       "source_location": "L229",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining_redliningvalidator_extract_text_content",
-      "community": 0,
+      "community": 48,
       "norm_label": "._extract_text_content()"
     },
     {
@@ -4016,7 +4016,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining_rationale_1",
-      "community": 0,
+      "community": 54,
       "norm_label": "validator for tracked changes in word documents."
     },
     {
@@ -4536,7 +4536,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_planilhas_excel_scripts_office_validate",
-      "community": 56,
+      "community": 44,
       "norm_label": "validate.py"
     },
     {
@@ -4546,7 +4546,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "criar_editar_planilhas_excel_scripts_office_validate_main",
-      "community": 56,
+      "community": 44,
       "norm_label": "main()"
     },
     {
@@ -4556,7 +4556,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_planilhas_excel_scripts_office_validate_rationale_1",
-      "community": 56,
+      "community": 44,
       "norm_label": "command line tool to validate office document xml files against xsd schemas and"
     },
     {
@@ -5076,7 +5076,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_planilhas_excel_scripts_office_validators_redlining",
-      "community": 64,
+      "community": 56,
       "norm_label": "redlining.py"
     },
     {
@@ -5166,7 +5166,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_planilhas_excel_scripts_office_validators_redlining_rationale_1",
-      "community": 64,
+      "community": 56,
       "norm_label": "validator for tracked changes in word documents."
     },
     {
@@ -15410,160 +15410,150 @@
       "norm_label": "graphify skill router"
     },
     {
-      "label": "Fluxo de Routing",
+      "label": "Estrutura de AST",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
       "source_location": "L11",
+      "_origin": "ast",
+      "id": "graphify_skill_router_skill_estrutura_de_ast",
+      "community": 26,
+      "norm_label": "estrutura de ast"
+    },
+    {
+      "label": "Estrutura do AST JSON",
+      "file_type": "document",
+      "source_file": "graphify-skill-router/SKILL.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "graphify_skill_router_skill_estrutura_do_ast_json",
+      "community": 26,
+      "norm_label": "estrutura do ast json"
+    },
+    {
+      "label": "Tipos de Node",
+      "file_type": "document",
+      "source_file": "graphify-skill-router/SKILL.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "graphify_skill_router_skill_tipos_de_node",
+      "community": 26,
+      "norm_label": "tipos de node"
+    },
+    {
+      "label": "Rela\u00e7\u00f5es (Edges)",
+      "file_type": "document",
+      "source_file": "graphify-skill-router/SKILL.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "graphify_skill_router_skill_rela\u00e7\u00f5es_edges",
+      "community": 26,
+      "norm_label": "relacoes (edges)"
+    },
+    {
+      "label": "Fluxo de Routing",
+      "file_type": "document",
+      "source_file": "graphify-skill-router/SKILL.md",
+      "source_location": "L58",
       "_origin": "ast",
       "id": "graphify_skill_router_skill_fluxo_de_routing",
       "community": 26,
       "norm_label": "fluxo de routing"
     },
     {
-      "label": "Passo 1: Consultar o Knowledge Graph",
+      "label": "Passo 1: Atualizar o Knowledge Graph",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L17",
+      "source_location": "L64",
       "_origin": "ast",
-      "id": "graphify_skill_router_skill_passo_1_consultar_o_knowledge_graph",
+      "id": "graphify_skill_router_skill_passo_1_atualizar_o_knowledge_graph",
       "community": 26,
-      "norm_label": "passo 1: consultar o knowledge graph"
+      "norm_label": "passo 1: atualizar o knowledge graph"
     },
     {
-      "label": "Passo 2: Queries Comuns por Tipo de Tarefa",
+      "label": "Passo 2: Consultar o Knowledge Graph",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L38",
+      "source_location": "L76",
       "_origin": "ast",
-      "id": "graphify_skill_router_skill_passo_2_queries_comuns_por_tipo_de_tarefa",
+      "id": "graphify_skill_router_skill_passo_2_consultar_o_knowledge_graph",
       "community": 26,
-      "norm_label": "passo 2: queries comuns por tipo de tarefa"
+      "norm_label": "passo 2: consultar o knowledge graph"
     },
     {
-      "label": "Para tarefas de CRU D",
+      "label": "Passo 3: Consultar AST dos Markdown",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L40",
+      "source_location": "L97",
       "_origin": "ast",
-      "id": "graphify_skill_router_skill_para_tarefas_de_cru_d",
+      "id": "graphify_skill_router_skill_passo_3_consultar_ast_dos_markdown",
       "community": 26,
-      "norm_label": "para tarefas de cru d"
+      "norm_label": "passo 3: consultar ast dos markdown"
     },
     {
-      "label": "Para tarefas de Frontend",
+      "label": "Queries \u00dateis via grep/jq",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L47",
+      "source_location": "L115",
       "_origin": "ast",
-      "id": "graphify_skill_router_skill_para_tarefas_de_frontend",
+      "id": "graphify_skill_router_skill_queries_\u00fateis_via_grep_jq",
       "community": 26,
-      "norm_label": "para tarefas de frontend"
+      "norm_label": "queries uteis via grep/jq"
     },
     {
-      "label": "Para tarefas de API/Backend",
+      "label": "Passo 4: Mapear Resultados para Skills",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L54",
+      "source_location": "L134",
       "_origin": "ast",
-      "id": "graphify_skill_router_skill_para_tarefas_de_api_backend",
+      "id": "graphify_skill_router_skill_passo_4_mapear_resultados_para_skills",
       "community": 26,
-      "norm_label": "para tarefas de api/backend"
+      "norm_label": "passo 4: mapear resultados para skills"
     },
     {
-      "label": "Para tarefas de WordPress",
+      "label": "Gerar/Atualizar AST dos Markdown",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L61",
+      "source_location": "L156",
       "_origin": "ast",
-      "id": "graphify_skill_router_skill_para_tarefas_de_wordpress",
+      "id": "graphify_skill_router_skill_gerar_atualizar_ast_dos_markdown",
       "community": 26,
-      "norm_label": "para tarefas de wordpress"
+      "norm_label": "gerar/atualizar ast dos markdown"
     },
     {
-      "label": "Para tarefas de Refatora\u00e7\u00e3o",
+      "label": "Exemplo de Routing Completo",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L68",
+      "source_location": "L172",
       "_origin": "ast",
-      "id": "graphify_skill_router_skill_para_tarefas_de_refatora\u00e7\u00e3o",
+      "id": "graphify_skill_router_skill_exemplo_de_routing_completo",
       "community": 26,
-      "norm_label": "para tarefas de refatoracao"
-    },
-    {
-      "label": "Para tarefas de Performance",
-      "file_type": "document",
-      "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L75",
-      "_origin": "ast",
-      "id": "graphify_skill_router_skill_para_tarefas_de_performance",
-      "community": 26,
-      "norm_label": "para tarefas de performance"
-    },
-    {
-      "label": "Para tarefas de Seguran\u00e7a",
-      "file_type": "document",
-      "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L82",
-      "_origin": "ast",
-      "id": "graphify_skill_router_skill_para_tarefas_de_seguran\u00e7a",
-      "community": 26,
-      "norm_label": "para tarefas de seguranca"
-    },
-    {
-      "label": "Passo 3: Mapear Resultados para Skills",
-      "file_type": "document",
-      "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L89",
-      "_origin": "ast",
-      "id": "graphify_skill_router_skill_passo_3_mapear_resultados_para_skills",
-      "community": 26,
-      "norm_label": "passo 3: mapear resultados para skills"
-    },
-    {
-      "label": "Passo 4: Executar a Skill",
-      "file_type": "document",
-      "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L110",
-      "_origin": "ast",
-      "id": "graphify_skill_router_skill_passo_4_executar_a_skill",
-      "community": 26,
-      "norm_label": "passo 4: executar a skill"
-    },
-    {
-      "label": "Exemplo de Routing",
-      "file_type": "document",
-      "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L116",
-      "_origin": "ast",
-      "id": "graphify_skill_router_skill_exemplo_de_routing",
-      "community": 26,
-      "norm_label": "exemplo de routing"
-    },
-    {
-      "label": "Comandos de Router",
-      "file_type": "document",
-      "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L147",
-      "_origin": "ast",
-      "id": "graphify_skill_router_skill_comandos_de_router",
-      "community": 26,
-      "norm_label": "comandos de router"
+      "norm_label": "exemplo de routing completo"
     },
     {
       "label": "Skills por Categoria",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L163",
+      "source_location": "L204",
       "_origin": "ast",
       "id": "graphify_skill_router_skill_skills_por_categoria",
       "community": 26,
       "norm_label": "skills por categoria"
     },
     {
+      "label": "\ud83d\udee0\ufe0f Meta \u2014 Gest\u00e3o de Skills",
+      "file_type": "document",
+      "source_file": "graphify-skill-router/SKILL.md",
+      "source_location": "L206",
+      "_origin": "ast",
+      "id": "graphify_skill_router_skill_meta_gest\u00e3o_de_skills",
+      "community": 26,
+      "norm_label": "\ud83d\udee0\ufe0f meta \u2014 gestao de skills"
+    },
+    {
       "label": "\ud83d\udcbb Desenvolvimento & Frontend",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L165",
+      "source_location": "L212",
       "_origin": "ast",
       "id": "graphify_skill_router_skill_desenvolvimento_frontend",
       "community": 26,
@@ -15573,7 +15563,7 @@
       "label": "\ud83d\udcc4 Documentos Office & PDF",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L172",
+      "source_location": "L218",
       "_origin": "ast",
       "id": "graphify_skill_router_skill_documentos_office_pdf",
       "community": 26,
@@ -15583,81 +15573,41 @@
       "label": "\ud83d\uddc2\ufe0f Git, Arquivos & Projetos",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L178",
+      "source_location": "L224",
       "_origin": "ast",
       "id": "graphify_skill_router_skill_git_arquivos_projetos",
       "community": 26,
       "norm_label": "\ud83d\uddc2\ufe0f git, arquivos & projetos"
     },
     {
-      "label": "\ud83d\udd0c Integra\u00e7\u00e3o & Automa\u00e7\u00e3o",
-      "file_type": "document",
-      "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L187",
-      "_origin": "ast",
-      "id": "graphify_skill_router_skill_integra\u00e7\u00e3o_automa\u00e7\u00e3o",
-      "community": 26,
-      "norm_label": "\ud83d\udd0c integracao & automacao"
-    },
-    {
-      "label": "\ud83d\udcdd Comunica\u00e7\u00e3o & Documenta\u00e7\u00e3o",
-      "file_type": "document",
-      "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L195",
-      "_origin": "ast",
-      "id": "graphify_skill_router_skill_comunica\u00e7\u00e3o_documenta\u00e7\u00e3o",
-      "community": 26,
-      "norm_label": "\ud83d\udcdd comunicacao & documentacao"
-    },
-    {
       "label": "\ud83c\udfa8 Design & Visual",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L200",
+      "source_location": "L231",
       "_origin": "ast",
       "id": "graphify_skill_router_skill_design_visual",
       "community": 26,
       "norm_label": "\ud83c\udfa8 design & visual"
     },
     {
-      "label": "\ud83d\udee0\ufe0f Meta \u2014 Gest\u00e3o de Skills",
+      "label": "Comandos de Router",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L204",
+      "source_location": "L236",
       "_origin": "ast",
-      "id": "graphify_skill_router_skill_meta_gest\u00e3o_de_skills",
+      "id": "graphify_skill_router_skill_comandos_de_router",
       "community": 26,
-      "norm_label": "\ud83d\udee0\ufe0f meta \u2014 gestao de skills"
-    },
-    {
-      "label": "\ud83e\udde9 Skills de Projeto Espec\u00edfico",
-      "file_type": "document",
-      "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L208",
-      "_origin": "ast",
-      "id": "graphify_skill_router_skill_skills_de_projeto_espec\u00edfico",
-      "community": 26,
-      "norm_label": "\ud83e\udde9 skills de projeto especifico"
+      "norm_label": "comandos de router"
     },
     {
       "label": "Regras de Fallback",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L212",
+      "source_location": "L255",
       "_origin": "ast",
       "id": "graphify_skill_router_skill_regras_de_fallback",
       "community": 26,
       "norm_label": "regras de fallback"
-    },
-    {
-      "label": "Integra\u00e7\u00e3o com Buildify",
-      "file_type": "document",
-      "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L218",
-      "_origin": "ast",
-      "id": "graphify_skill_router_skill_integra\u00e7\u00e3o_com_buildify",
-      "community": 26,
-      "norm_label": "integracao com buildify"
     },
     {
       "label": "routing-reference.md",
@@ -37646,7 +37596,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L147",
+      "source_location": "L236",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_graphify_skill_router",
       "target": "graphify_skill_router_skill_comandos_de_router",
@@ -37656,17 +37606,27 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L116",
+      "source_location": "L11",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_graphify_skill_router",
-      "target": "graphify_skill_router_skill_exemplo_de_routing",
+      "target": "graphify_skill_router_skill_estrutura_de_ast",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L11",
+      "source_location": "L172",
+      "weight": 1.0,
+      "source": "graphify_skill_router_skill_graphify_skill_router",
+      "target": "graphify_skill_router_skill_exemplo_de_routing_completo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-skill-router/SKILL.md",
+      "source_location": "L58",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_graphify_skill_router",
       "target": "graphify_skill_router_skill_fluxo_de_routing",
@@ -37676,57 +37636,57 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L218",
+      "source_location": "L156",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_graphify_skill_router",
-      "target": "graphify_skill_router_skill_integra\u00e7\u00e3o_com_buildify",
+      "target": "graphify_skill_router_skill_gerar_atualizar_ast_dos_markdown",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L17",
+      "source_location": "L64",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_graphify_skill_router",
-      "target": "graphify_skill_router_skill_passo_1_consultar_o_knowledge_graph",
+      "target": "graphify_skill_router_skill_passo_1_atualizar_o_knowledge_graph",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L38",
+      "source_location": "L76",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_graphify_skill_router",
-      "target": "graphify_skill_router_skill_passo_2_queries_comuns_por_tipo_de_tarefa",
+      "target": "graphify_skill_router_skill_passo_2_consultar_o_knowledge_graph",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L89",
+      "source_location": "L97",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_graphify_skill_router",
-      "target": "graphify_skill_router_skill_passo_3_mapear_resultados_para_skills",
+      "target": "graphify_skill_router_skill_passo_3_consultar_ast_dos_markdown",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L110",
+      "source_location": "L134",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_graphify_skill_router",
-      "target": "graphify_skill_router_skill_passo_4_executar_a_skill",
+      "target": "graphify_skill_router_skill_passo_4_mapear_resultados_para_skills",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L212",
+      "source_location": "L255",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_graphify_skill_router",
       "target": "graphify_skill_router_skill_regras_de_fallback",
@@ -37736,7 +37696,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L163",
+      "source_location": "L204",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_graphify_skill_router",
       "target": "graphify_skill_router_skill_skills_por_categoria",
@@ -37746,87 +37706,47 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L54",
+      "source_location": "L21",
       "weight": 1.0,
-      "source": "graphify_skill_router_skill_passo_2_queries_comuns_por_tipo_de_tarefa",
-      "target": "graphify_skill_router_skill_para_tarefas_de_api_backend",
+      "source": "graphify_skill_router_skill_estrutura_de_ast",
+      "target": "graphify_skill_router_skill_estrutura_do_ast_json",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L40",
+      "source_location": "L51",
       "weight": 1.0,
-      "source": "graphify_skill_router_skill_passo_2_queries_comuns_por_tipo_de_tarefa",
-      "target": "graphify_skill_router_skill_para_tarefas_de_cru_d",
+      "source": "graphify_skill_router_skill_estrutura_de_ast",
+      "target": "graphify_skill_router_skill_rela\u00e7\u00f5es_edges",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L47",
+      "source_location": "L41",
       "weight": 1.0,
-      "source": "graphify_skill_router_skill_passo_2_queries_comuns_por_tipo_de_tarefa",
-      "target": "graphify_skill_router_skill_para_tarefas_de_frontend",
+      "source": "graphify_skill_router_skill_estrutura_de_ast",
+      "target": "graphify_skill_router_skill_tipos_de_node",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L75",
+      "source_location": "L115",
       "weight": 1.0,
-      "source": "graphify_skill_router_skill_passo_2_queries_comuns_por_tipo_de_tarefa",
-      "target": "graphify_skill_router_skill_para_tarefas_de_performance",
+      "source": "graphify_skill_router_skill_passo_3_consultar_ast_dos_markdown",
+      "target": "graphify_skill_router_skill_queries_\u00fateis_via_grep_jq",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L68",
-      "weight": 1.0,
-      "source": "graphify_skill_router_skill_passo_2_queries_comuns_por_tipo_de_tarefa",
-      "target": "graphify_skill_router_skill_para_tarefas_de_refatora\u00e7\u00e3o",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L82",
-      "weight": 1.0,
-      "source": "graphify_skill_router_skill_passo_2_queries_comuns_por_tipo_de_tarefa",
-      "target": "graphify_skill_router_skill_para_tarefas_de_seguran\u00e7a",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L61",
-      "weight": 1.0,
-      "source": "graphify_skill_router_skill_passo_2_queries_comuns_por_tipo_de_tarefa",
-      "target": "graphify_skill_router_skill_para_tarefas_de_wordpress",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L195",
-      "weight": 1.0,
-      "source": "graphify_skill_router_skill_skills_por_categoria",
-      "target": "graphify_skill_router_skill_comunica\u00e7\u00e3o_documenta\u00e7\u00e3o",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L165",
+      "source_location": "L212",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_skills_por_categoria",
       "target": "graphify_skill_router_skill_desenvolvimento_frontend",
@@ -37836,7 +37756,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L200",
+      "source_location": "L231",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_skills_por_categoria",
       "target": "graphify_skill_router_skill_design_visual",
@@ -37846,7 +37766,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L172",
+      "source_location": "L218",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_skills_por_categoria",
       "target": "graphify_skill_router_skill_documentos_office_pdf",
@@ -37856,7 +37776,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L178",
+      "source_location": "L224",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_skills_por_categoria",
       "target": "graphify_skill_router_skill_git_arquivos_projetos",
@@ -37866,30 +37786,10 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L187",
-      "weight": 1.0,
-      "source": "graphify_skill_router_skill_skills_por_categoria",
-      "target": "graphify_skill_router_skill_integra\u00e7\u00e3o_automa\u00e7\u00e3o",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L204",
+      "source_location": "L206",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_skills_por_categoria",
       "target": "graphify_skill_router_skill_meta_gest\u00e3o_de_skills",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L208",
-      "weight": 1.0,
-      "source": "graphify_skill_router_skill_skills_por_categoria",
-      "target": "graphify_skill_router_skill_skills_de_projeto_espec\u00edfico",
       "confidence_score": 1.0
     },
     {

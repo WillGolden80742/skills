@@ -1,0 +1,165 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+  "generated_at": "2026-07-08T22:23:49.019492",
+  "nodes": [
+    {
+      "id": "md_CONTEXT-FORMAT_h1_0",
+      "label": "CONTEXT.md Format",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_CONTEXT-FORMAT_h2_1",
+      "label": "Structure",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_CONTEXT-FORMAT_code_2",
+      "label": "Code: md",
+      "type": "code_block",
+      "language": "md",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_CONTEXT-FORMAT_h2_3",
+      "label": "Rules",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_CONTEXT-FORMAT_list_4",
+      "label": "**Be opinionated.** When multiple words exist for the same concept, pick the bes",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_CONTEXT-FORMAT_list_5",
+      "label": "**Keep definitions tight.** One or two sentences max. Define what it IS, not wha",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_CONTEXT-FORMAT_list_6",
+      "label": "**Only include terms specific to this project's context.** General programming c",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_CONTEXT-FORMAT_list_7",
+      "label": "**Group terms under subheadings** when natural clusters emerge. If all terms bel",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_CONTEXT-FORMAT_h2_8",
+      "label": "Single vs multi-context repos",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_CONTEXT-FORMAT_code_9",
+      "label": "Code: md",
+      "type": "code_block",
+      "language": "md",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_CONTEXT-FORMAT_list_10",
+      "label": "If `CONTEXT-MAP.md` exists, read it to find contexts",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_CONTEXT-FORMAT_list_11",
+      "label": "If only a root `CONTEXT.md` exists, single context",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "community": 999
+    },
+    {
+      "id": "md_CONTEXT-FORMAT_list_12",
+      "label": "If neither exists, create a root `CONTEXT.md` lazily when the first term is reso",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/domain-modeling/CONTEXT-FORMAT.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_CONTEXT-FORMAT_h1_0",
+      "to": "md_CONTEXT-FORMAT_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_CONTEXT-FORMAT_h2_1",
+      "to": "md_CONTEXT-FORMAT_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_CONTEXT-FORMAT_h1_0",
+      "to": "md_CONTEXT-FORMAT_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_CONTEXT-FORMAT_h2_3",
+      "to": "md_CONTEXT-FORMAT_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_CONTEXT-FORMAT_h2_3",
+      "to": "md_CONTEXT-FORMAT_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_CONTEXT-FORMAT_h2_3",
+      "to": "md_CONTEXT-FORMAT_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_CONTEXT-FORMAT_h2_3",
+      "to": "md_CONTEXT-FORMAT_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_CONTEXT-FORMAT_h1_0",
+      "to": "md_CONTEXT-FORMAT_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_CONTEXT-FORMAT_h2_8",
+      "to": "md_CONTEXT-FORMAT_code_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_CONTEXT-FORMAT_h2_8",
+      "to": "md_CONTEXT-FORMAT_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_CONTEXT-FORMAT_h2_8",
+      "to": "md_CONTEXT-FORMAT_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_CONTEXT-FORMAT_h2_8",
+      "to": "md_CONTEXT-FORMAT_list_12",
+      "relation": "contains"
+    }
+  ]
+}

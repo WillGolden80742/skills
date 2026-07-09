@@ -1,0 +1,325 @@
+{
+  "source": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.039178",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Design an Interface",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Workflow",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_2",
+      "label": "1. Gather Requirements",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "[ ] What problem does this module solve?",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "[ ] Who are the callers? (other modules, external users, tests)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "[ ] What are the key operations?",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "[ ] Any constraints? (performance, compatibility, existing patterns)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "[ ] What should be hidden inside vs exposed?",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_8",
+      "label": "2. Generate Designs (Parallel Sub-Agents)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_9",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_10",
+      "label": "3. Present Designs",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_11",
+      "label": "4. Compare Designs",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "**Interface simplicity**: fewer methods, simpler params",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "**General-purpose vs specialized**: flexibility vs focus",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "**Implementation efficiency**: does shape allow efficient internals?",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "**Depth**: small interface hiding significant complexity (good) vs large interfa",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "**Ease of correct use** vs **ease of misuse**",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_17",
+      "label": "5. Synthesize",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_18",
+      "label": "\"Which design best fits your primary use case?\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_19",
+      "label": "\"Any elements from other designs worth incorporating?\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_20",
+      "label": "Evaluation Criteria",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_21",
+      "label": "Anti-Patterns",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_22",
+      "label": "Don't let sub-agents produce similar designs - enforce radical difference",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_23",
+      "label": "Don't skip comparison - the value is in contrast",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_24",
+      "label": "Don't implement - this is purely about interface shape",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_25",
+      "label": "Don't evaluate based on implementation effort",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/design-an-interface/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_2",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_2",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_2",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_2",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_2",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_8",
+      "to": "md_SKILL_code_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_11",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_17",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_17",
+      "to": "md_SKILL_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_17",
+      "to": "md_SKILL_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_20",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_21",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_21",
+      "to": "md_SKILL_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_21",
+      "to": "md_SKILL_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_21",
+      "to": "md_SKILL_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_21",
+      "to": "md_SKILL_list_25",
+      "relation": "contains"
+    }
+  ]
+}

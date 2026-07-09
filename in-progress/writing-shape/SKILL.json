@@ -1,0 +1,270 @@
+{
+  "source": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.014797",
+  "nodes": [
+    {
+      "id": "md_SKILL_h2_0",
+      "label": "The loop",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_1",
+      "label": "Grounding",
+      "type": "link",
+      "url": "#grounding",
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_2",
+      "label": "Grounding",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "**Prerequisite** — grounded before the opening. The reader brings it. Fixed at t",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "**Introduced** — a block establishes it, and from then on it's grounded for the ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_5",
+      "label": "Pulling from the pile",
+      "type": "link",
+      "url": "#pulling-from-the-pile",
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_6",
+      "label": "Conversational feel",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "\"What does this paragraph do for the reader that the previous one didn't?\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "\"If I cut this, what breaks?\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_9",
+      "label": "\"Is this prose, or should it be a list? Why prose?\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "\"This sentence is doing two jobs — split it or pick one.\"",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "\"The opening promised X. We've drifted to Y. Either re-thread it or change the o",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_12",
+      "label": "Pulling from the pile",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_13",
+      "label": "Format arguments to actually have",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "**Prose vs. list.** Prose carries argument; lists carry parallel items. If items",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "**Inline vs. callout.** Tips, warnings, and asides go in callouts (`> [!TIP]`, `",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "**Table vs. repeated structure.** If the same shape repeats 3+ times with the sa",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "**Quote vs. paraphrase.** Quote when the original wording is the point. Paraphra",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_18",
+      "label": "**Code block vs. inline code.** Multi-line, runnable, or illustrative → block. S",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_19",
+      "label": "Writing rhythm",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_20",
+      "label": "Out of scope",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_21",
+      "label": "Mining for new fragments that aren't in the pile (handle gaps as in \"Pulling fro",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_22",
+      "label": "Editing the raw material file.",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_23",
+      "label": "Publishing, formatting for a specific platform, or adding frontmatter the user d",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/in-progress/writing-shape/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_0",
+      "to": "md_SKILL_link_1",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_link_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_20",
+      "to": "md_SKILL_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_20",
+      "to": "md_SKILL_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_20",
+      "to": "md_SKILL_list_23",
+      "relation": "contains"
+    }
+  ]
+}

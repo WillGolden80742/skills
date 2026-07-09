@@ -1,0 +1,252 @@
+{
+  "source": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.035397",
+  "nodes": [
+    {
+      "id": "md_SKILL_link_0",
+      "label": "`GLOSSARY.md`",
+      "type": "link",
+      "url": "GLOSSARY.md",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Invocation",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_2",
+      "label": "A **model-invoked** skill keeps a **description**, so the agent can fire it auto",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "A **user-invoked** skill strips the description from the agent's reach: only you",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_4",
+      "label": "Writing the description",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "**Front-load the skill's leading word** — the description is where it does its i",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "**One trigger per branch.** Synonyms that rename a single branch are **duplicati",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "**Cut identity that's already in the body.** Keep the description to triggers, p",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_8",
+      "label": "Information hierarchy",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_9",
+      "label": "When to split",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "**By invocation** — split off a **model-invoked** skill when you have a distinct",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "**By sequence** — split a run of **steps** when the steps still ahead (a step's ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_12",
+      "label": "Pruning",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_13",
+      "label": "Leading words",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "\"fast, deterministic, low-overhead\" -> _tight_ — one quality restated across a p",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "\"a loop you believe in\" -> _red_ — converts a fuzzy gate into a binary observabl",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_16",
+      "label": "Failure modes",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_17",
+      "label": "**Premature completion** — ending a step before it's genuinely done, attention s",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_18",
+      "label": "**Duplication** — the same meaning in more than one place. Costs maintenance and",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_19",
+      "label": "**Sediment** — stale layers that settle because adding feels safe and removing f",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_20",
+      "label": "**Sprawl** — a skill simply too long, even when every line is live and unique. H",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_21",
+      "label": "**No-op** — a line the model already obeys by default, so you pay load to say no",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_22",
+      "label": "**Negation** — steering by prohibition backfires: _don't think of an elephant_ n",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/productivity/writing-great-skills/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_9",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_16",
+      "to": "md_SKILL_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_16",
+      "to": "md_SKILL_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_16",
+      "to": "md_SKILL_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_16",
+      "to": "md_SKILL_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_16",
+      "to": "md_SKILL_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_16",
+      "to": "md_SKILL_list_22",
+      "relation": "contains"
+    }
+  ]
+}

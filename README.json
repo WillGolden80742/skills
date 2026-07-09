@@ -1,10 +1,10 @@
 {
   "source": "/root/.config/opencode/skills/README.MD",
-  "generated_at": "2026-07-08T22:17:46.126075",
+  "generated_at": "2026-07-08T22:23:48.985148",
   "nodes": [
     {
       "id": "md_README_h1_0",
-      "label": "Skills - OpenCode",
+      "label": "OpenCode Skills",
       "type": "heading",
       "level": 1,
       "file": "/root/.config/opencode/skills/README.MD",
@@ -12,15 +12,15 @@
     },
     {
       "id": "md_README_link_1",
-      "label": "OpenCode",
+      "label": "mattpocock/skills",
       "type": "link",
-      "url": "https://opencode.ai",
+      "url": "https://github.com/mattpocock/skills",
       "file": "/root/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
       "id": "md_README_h2_2",
-      "label": "Instalação",
+      "label": "📁 Estrutura do Projeto",
       "type": "heading",
       "level": 2,
       "file": "/root/.config/opencode/skills/README.MD",
@@ -28,70 +28,22 @@
     },
     {
       "id": "md_README_code_3",
-      "label": "Code: bash",
+      "label": "Code: text",
       "type": "code_block",
-      "language": "bash",
+      "language": "text",
       "file": "/root/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
       "id": "md_README_h2_4",
-      "label": "Como funciona uma skill",
+      "label": "🎯 Skills por Categoria",
       "type": "heading",
       "level": 2,
       "file": "/root/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
-      "id": "md_README_code_5",
-      "label": "Code: text",
-      "type": "code_block",
-      "language": "text",
-      "file": "/root/.config/opencode/skills/README.MD",
-      "community": 999
-    },
-    {
-      "id": "md_README_code_6",
-      "label": "Code: yaml",
-      "type": "code_block",
-      "language": "yaml",
-      "file": "/root/.config/opencode/skills/README.MD",
-      "community": 999
-    },
-    {
-      "id": "md_README_h2_7",
-      "label": "Agente Buildify",
-      "type": "heading",
-      "level": 2,
-      "file": "/root/.config/opencode/skills/README.MD",
-      "community": 999
-    },
-    {
-      "id": "md_README_code_8",
-      "label": "Code: bash",
-      "type": "code_block",
-      "language": "bash",
-      "file": "/root/.config/opencode/skills/README.MD",
-      "community": 999
-    },
-    {
-      "id": "md_README_code_9",
-      "label": "Code: text",
-      "type": "code_block",
-      "language": "text",
-      "file": "/root/.config/opencode/skills/README.MD",
-      "community": 999
-    },
-    {
-      "id": "md_README_h2_10",
-      "label": "Skills disponíveis",
-      "type": "heading",
-      "level": 2,
-      "file": "/root/.config/opencode/skills/README.MD",
-      "community": 999
-    },
-    {
-      "id": "md_README_h3_11",
+      "id": "md_README_h3_5",
       "label": "🛠️ Meta — Gestão de Skills",
       "type": "heading",
       "level": 3,
@@ -99,7 +51,7 @@
       "community": 999
     },
     {
-      "id": "md_README_h3_12",
+      "id": "md_README_h3_6",
       "label": "💻 Desenvolvimento & Frontend",
       "type": "heading",
       "level": 3,
@@ -107,15 +59,7 @@
       "community": 999
     },
     {
-      "id": "md_README_h3_13",
-      "label": "📄 Documentos Office & PDF",
-      "type": "heading",
-      "level": 3,
-      "file": "/root/.config/opencode/skills/README.MD",
-      "community": 999
-    },
-    {
-      "id": "md_README_h3_14",
+      "id": "md_README_h3_7",
       "label": "🎨 Design & Visual",
       "type": "heading",
       "level": 3,
@@ -123,7 +67,15 @@
       "community": 999
     },
     {
-      "id": "md_README_h3_15",
+      "id": "md_README_h3_8",
+      "label": "📄 Documentos Office & PDF",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/README.MD",
+      "community": 999
+    },
+    {
+      "id": "md_README_h3_9",
       "label": "🗂️ Git, Arquivos & Projetos",
       "type": "heading",
       "level": 3,
@@ -131,39 +83,63 @@
       "community": 999
     },
     {
-      "id": "md_README_h3_16",
-      "label": "🔌 Integração & Automação",
+      "id": "md_README_h3_10",
+      "label": "🌐 Web & Extrações",
       "type": "heading",
       "level": 3,
       "file": "/root/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
-      "id": "md_README_h3_17",
-      "label": "📝 Comunicação & Documentação",
+      "id": "md_README_h3_11",
+      "label": "📝 Documentação & Comunicação",
       "type": "heading",
       "level": 3,
       "file": "/root/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
-      "id": "md_README_h3_18",
-      "label": "🛒 E-commerce & Marketplace",
+      "id": "md_README_h3_12",
+      "label": "🧩 CSS & Estilização",
       "type": "heading",
       "level": 3,
       "file": "/root/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
-      "id": "md_README_h2_19",
-      "label": "Grafo Interativo",
+      "id": "md_README_h3_13",
+      "label": "⚙️ Engineering (mattpocock)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/README.MD",
+      "community": 999
+    },
+    {
+      "id": "md_README_h3_14",
+      "label": "🚀 Productivity (mattpocock)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/README.MD",
+      "community": 999
+    },
+    {
+      "id": "md_README_h3_15",
+      "label": "⚰️ Deprecated (mattpocock)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/README.MD",
+      "community": 999
+    },
+    {
+      "id": "md_README_h2_16",
+      "label": "🔄 Fluxo de Routing (graphify-skill-router)",
       "type": "heading",
       "level": 2,
       "file": "/root/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
-      "id": "md_README_code_20",
+      "id": "md_README_code_17",
       "label": "Code: text",
       "type": "code_block",
       "language": "text",
@@ -171,7 +147,15 @@
       "community": 999
     },
     {
-      "id": "md_README_code_21",
+      "id": "md_README_h2_18",
+      "label": "🚀 Uso Rápido",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/README.MD",
+      "community": 999
+    },
+    {
+      "id": "md_README_code_19",
       "label": "Code: bash",
       "type": "code_block",
       "language": "bash",
@@ -179,74 +163,46 @@
       "community": 999
     },
     {
-      "id": "md_README_h2_22",
-      "label": "Criando uma nova skill",
+      "id": "md_README_h2_20",
+      "label": "📊 Estatísticas",
       "type": "heading",
       "level": 2,
       "file": "/root/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
-      "id": "md_README_code_23",
-      "label": "Code: bash",
-      "type": "code_block",
-      "language": "bash",
+      "id": "md_README_list_21",
+      "label": "**Total de skills**: 60+",
+      "type": "list_item",
       "file": "/root/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
-      "id": "md_README_h2_24",
-      "label": "Editando uma skill existente",
-      "type": "heading",
-      "level": 2,
+      "id": "md_README_list_22",
+      "label": "**Categorias**: 10",
+      "type": "list_item",
       "file": "/root/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
-      "id": "md_README_code_25",
-      "label": "Code: bash",
-      "type": "code_block",
-      "language": "bash",
+      "id": "md_README_list_23",
+      "label": "**Origens**: originais + mattpocock/skills",
+      "type": "list_item",
       "file": "/root/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
-      "id": "md_README_h2_26",
-      "label": "Gerando AST dos Markdown",
-      "type": "heading",
-      "level": 2,
+      "id": "md_README_list_24",
+      "label": "**Grafo**: AST-only extraction (zero cost)",
+      "type": "list_item",
       "file": "/root/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
-      "id": "md_README_code_27",
-      "label": "Code: bash",
-      "type": "code_block",
-      "language": "bash",
-      "file": "/root/.config/opencode/skills/README.MD",
-      "community": 999
-    },
-    {
-      "id": "md_README_h2_28",
-      "label": "Comitar alterações",
-      "type": "heading",
-      "level": 2,
-      "file": "/root/.config/opencode/skills/README.MD",
-      "community": 999
-    },
-    {
-      "id": "md_README_code_29",
-      "label": "Code: bash",
-      "type": "code_block",
-      "language": "bash",
-      "file": "/root/.config/opencode/skills/README.MD",
-      "community": 999
-    },
-    {
-      "id": "md_README_h2_30",
-      "label": "Licença",
-      "type": "heading",
-      "level": 2,
+      "id": "md_README_link_25",
+      "label": "mattpocock/skills",
+      "type": "link",
+      "url": "https://github.com/mattpocock/skills",
       "file": "/root/.config/opencode/skills/README.MD",
       "community": 999
     }
@@ -274,133 +230,108 @@
     },
     {
       "from": "md_README_h2_4",
-      "to": "md_README_code_5",
-      "relation": "contains"
+      "to": "md_README_h3_5",
+      "relation": "section"
     },
     {
       "from": "md_README_h2_4",
-      "to": "md_README_code_6",
-      "relation": "contains"
-    },
-    {
-      "from": "md_README_h1_0",
-      "to": "md_README_h2_7",
+      "to": "md_README_h3_6",
       "relation": "section"
     },
     {
-      "from": "md_README_h2_7",
-      "to": "md_README_code_8",
-      "relation": "contains"
-    },
-    {
-      "from": "md_README_h2_7",
-      "to": "md_README_code_9",
-      "relation": "contains"
-    },
-    {
-      "from": "md_README_h1_0",
-      "to": "md_README_h2_10",
+      "from": "md_README_h2_4",
+      "to": "md_README_h3_7",
       "relation": "section"
     },
     {
-      "from": "md_README_h2_10",
+      "from": "md_README_h2_4",
+      "to": "md_README_h3_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_README_h2_4",
+      "to": "md_README_h3_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_README_h2_4",
+      "to": "md_README_h3_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_README_h2_4",
       "to": "md_README_h3_11",
       "relation": "section"
     },
     {
-      "from": "md_README_h2_10",
+      "from": "md_README_h2_4",
       "to": "md_README_h3_12",
       "relation": "section"
     },
     {
-      "from": "md_README_h2_10",
+      "from": "md_README_h2_4",
       "to": "md_README_h3_13",
       "relation": "section"
     },
     {
-      "from": "md_README_h2_10",
+      "from": "md_README_h2_4",
       "to": "md_README_h3_14",
       "relation": "section"
     },
     {
-      "from": "md_README_h2_10",
+      "from": "md_README_h2_4",
       "to": "md_README_h3_15",
       "relation": "section"
     },
     {
-      "from": "md_README_h2_10",
-      "to": "md_README_h3_16",
-      "relation": "section"
-    },
-    {
-      "from": "md_README_h2_10",
-      "to": "md_README_h3_17",
-      "relation": "section"
-    },
-    {
-      "from": "md_README_h2_10",
-      "to": "md_README_h3_18",
-      "relation": "section"
-    },
-    {
       "from": "md_README_h1_0",
-      "to": "md_README_h2_19",
+      "to": "md_README_h2_16",
       "relation": "section"
     },
     {
-      "from": "md_README_h2_19",
-      "to": "md_README_code_20",
-      "relation": "contains"
-    },
-    {
-      "from": "md_README_h2_19",
-      "to": "md_README_code_21",
+      "from": "md_README_h2_16",
+      "to": "md_README_code_17",
       "relation": "contains"
     },
     {
       "from": "md_README_h1_0",
-      "to": "md_README_h2_22",
+      "to": "md_README_h2_18",
       "relation": "section"
     },
     {
-      "from": "md_README_h2_22",
-      "to": "md_README_code_23",
+      "from": "md_README_h2_18",
+      "to": "md_README_code_19",
       "relation": "contains"
     },
     {
       "from": "md_README_h1_0",
-      "to": "md_README_h2_24",
+      "to": "md_README_h2_20",
       "relation": "section"
     },
     {
-      "from": "md_README_h2_24",
-      "to": "md_README_code_25",
+      "from": "md_README_h2_20",
+      "to": "md_README_list_21",
       "relation": "contains"
     },
     {
-      "from": "md_README_h1_0",
-      "to": "md_README_h2_26",
-      "relation": "section"
-    },
-    {
-      "from": "md_README_h2_26",
-      "to": "md_README_code_27",
+      "from": "md_README_h2_20",
+      "to": "md_README_list_22",
       "relation": "contains"
     },
     {
-      "from": "md_README_h1_0",
-      "to": "md_README_h2_28",
-      "relation": "section"
-    },
-    {
-      "from": "md_README_h2_28",
-      "to": "md_README_code_29",
+      "from": "md_README_h2_20",
+      "to": "md_README_list_23",
       "relation": "contains"
     },
     {
-      "from": "md_README_h1_0",
-      "to": "md_README_h2_30",
-      "relation": "section"
+      "from": "md_README_h2_20",
+      "to": "md_README_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_README_h2_20",
+      "to": "md_README_link_25",
+      "relation": "contains"
     }
   ]
 }

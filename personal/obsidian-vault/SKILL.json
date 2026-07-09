@@ -1,0 +1,231 @@
+{
+  "source": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.042358",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Obsidian Vault",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Vault location",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_2",
+      "label": "Naming conventions",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "**Index notes**: aggregate related topics (e.g., `Ralph Wiggum Index.md`, `Skill",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "**Title case** for all note names",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "No folders for organization - use links and index notes instead",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_6",
+      "label": "Linking",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "Use Obsidian `[[wikilinks]]` syntax: `[[Note Title]]`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "Notes link to dependencies/related notes at the bottom",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_9",
+      "label": "Index notes are just lists of `[[wikilinks]]`",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_10",
+      "label": "Workflows",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_11",
+      "label": "Search for notes",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_12",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_13",
+      "label": "Create a new note",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_14",
+      "label": "Find related notes",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_15",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_16",
+      "label": "Find index notes",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_17",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/personal/obsidian-vault/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_h3_11",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_11",
+      "to": "md_SKILL_code_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_h3_13",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_h3_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_14",
+      "to": "md_SKILL_code_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_h3_16",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_16",
+      "to": "md_SKILL_code_17",
+      "relation": "contains"
+    }
+  ]
+}

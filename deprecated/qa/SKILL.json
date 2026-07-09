@@ -1,0 +1,399 @@
+{
+  "source": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.038499",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "QA Session",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "For each issue the user raises",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_2",
+      "label": "1. Listen and lightly clarify",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "What they expected vs what actually happened",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "Steps to reproduce (if not obvious)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "Whether it's consistent or intermittent",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_6",
+      "label": "2. Explore the codebase in the background",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_7",
+      "label": "Learn the domain language used in that area (check UBIQUITOUS_LANGUAGE.md)",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_8",
+      "label": "Understand what the feature is supposed to do",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_9",
+      "label": "Identify the user-facing behavior boundary",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_10",
+      "label": "3. Assess scope: single issue or breakdown?",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "The fix spans multiple independent areas (e.g. \"the form validation is wrong AND",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "There are clearly separable concerns that different people could work on in para",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "The user describes something that has multiple distinct failure modes or symptom",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "It's one behavior that's wrong in one place",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "The symptoms are all caused by the same root behavior",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_16",
+      "label": "4. File the GitHub issue(s)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_17",
+      "label": "For a single issue",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_18",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_19",
+      "label": "For a breakdown (multiple issues)",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_20",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_21",
+      "label": "**Prefer many thin issues over few thick ones** — each should be independently f",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_22",
+      "label": "**Mark blocking relationships honestly** — if issue B genuinely can't be tested ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_23",
+      "label": "**Create issues in dependency order** so you can reference real issue numbers in",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_24",
+      "label": "**Maximize parallelism** — the goal is that multiple people (or agents) can grab",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h4_25",
+      "label": "Rules for all issue bodies",
+      "type": "heading",
+      "level": 4,
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_26",
+      "label": "**No file paths or line numbers** — these go stale",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_27",
+      "label": "**Use the project's domain language** (check UBIQUITOUS_LANGUAGE.md if it exists",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_28",
+      "label": "**Describe behaviors, not code** — \"the sync service fails to apply the patch\" n",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_29",
+      "label": "**Reproduction steps are mandatory** — if you can't determine them, ask the user",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_30",
+      "label": "**Keep it concise** — a developer should be able to read the issue in 30 seconds",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_31",
+      "label": "5. Continue the session",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/deprecated/qa/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_2",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_2",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_2",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_6",
+      "to": "md_SKILL_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_6",
+      "to": "md_SKILL_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_6",
+      "to": "md_SKILL_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_10",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_10",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_10",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_10",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_10",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_16",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_16",
+      "to": "md_SKILL_h4_17",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h4_17",
+      "to": "md_SKILL_code_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_16",
+      "to": "md_SKILL_h4_19",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h4_19",
+      "to": "md_SKILL_code_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_19",
+      "to": "md_SKILL_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_19",
+      "to": "md_SKILL_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_19",
+      "to": "md_SKILL_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_19",
+      "to": "md_SKILL_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_16",
+      "to": "md_SKILL_h4_25",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h4_25",
+      "to": "md_SKILL_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_25",
+      "to": "md_SKILL_list_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_25",
+      "to": "md_SKILL_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_25",
+      "to": "md_SKILL_list_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h4_25",
+      "to": "md_SKILL_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_31",
+      "relation": "section"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "source": "/root/.config/opencode/skills/engineering/prototype/SKILL.md",
+  "generated_at": "2026-07-08T22:23:49.025869",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Prototype",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/engineering/prototype/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Pick a branch",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/prototype/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_2",
+      "label": "LOGIC.md",
+      "type": "link",
+      "url": "LOGIC.md",
+      "file": "/root/.config/opencode/skills/engineering/prototype/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_3",
+      "label": "**\"Does this logic / state model feel right?\"** → [LOGIC.md](LOGIC.md). Build a ",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_link_4",
+      "label": "UI.md",
+      "type": "link",
+      "url": "UI.md",
+      "file": "/root/.config/opencode/skills/engineering/prototype/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "**\"What should this look like?\"** → [UI.md](UI.md). Generate several radically d",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/engineering/prototype/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_6",
+      "label": "Rules that apply to both",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/prototype/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_7",
+      "label": "When done",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/engineering/prototype/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_link_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_link_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_7",
+      "relation": "section"
+    }
+  ]
+}
