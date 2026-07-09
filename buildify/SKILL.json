@@ -1,0 +1,183 @@
+{
+  "source": "/root/.config/opencode/skills/buildify/SKILL.md",
+  "generated_at": "2026-07-08T22:12:56.885106",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Buildify Skill",
+      "type": "heading",
+      "level": 1,
+      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "O que faz",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_2",
+      "label": "Agente Injetado",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_3",
+      "label": "Code: yaml",
+      "type": "code_block",
+      "language": "yaml",
+      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_4",
+      "label": "Workflow do Buildify",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_5",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_6",
+      "label": "Comandos do Graphify",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_7",
+      "label": "Exemplo de Uso",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_8",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_9",
+      "label": "Custo Zero",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_10",
+      "label": "Arquivos da Skill",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "`SKILL.md` - Esta documentação",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "`buildify-agent.md` - Definição do agente injetado",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_13",
+      "label": "Ativação",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_code_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_code_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_h3_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_7",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_7",
+      "to": "md_SKILL_code_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_13",
+      "relation": "section"
+    }
+  ]
+}
