@@ -1,6 +1,6 @@
 {
   "source": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
-  "generated_at": "2026-07-08T21:17:06.100530",
+  "generated_at": "2026-07-08T22:15:39.194117",
   "nodes": [
     {
       "id": "md_SKILL_h1_0",
@@ -228,34 +228,41 @@
     },
     {
       "id": "md_SKILL_list_28",
-      "label": "`criar-novo-skill` - Criar nova skill",
+      "label": "`buildify` - Agente buildify (graphify antes de codar)",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_29",
-      "label": "`editar-skill` - Editar skill existente",
+      "label": "`criar-novo-skill` - Criar nova skill",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_30",
-      "label": "`gerenciar-remover-skills` - Gerenciar skills",
+      "label": "`editar-skill` - Editar skill existente",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_31",
+      "label": "`gerenciar-remover-skills` - Gerenciar skills",
+      "type": "list_item",
+      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_32",
       "label": "`markdown-to-ast` - Gerar AST dos markdown",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_h3_32",
+      "id": "md_SKILL_h3_33",
       "label": "💻 Desenvolvimento & Frontend",
       "type": "heading",
       "level": 3,
@@ -263,35 +270,35 @@
       "community": 999
     },
     {
-      "id": "md_SKILL_list_33",
+      "id": "md_SKILL_list_34",
       "label": "`construir-artefatos-react` - React components",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_list_34",
+      "id": "md_SKILL_list_35",
       "label": "`testar-aplicacoes-web` - Testes Playwright",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_list_35",
+      "id": "md_SKILL_list_36",
       "label": "`refatorar-css-variaveis` - CSS variables",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_list_36",
+      "id": "md_SKILL_list_37",
       "label": "`reverter-css-variaveis` - Reverter CSS",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_h3_37",
+      "id": "md_SKILL_h3_38",
       "label": "📄 Documentos Office & PDF",
       "type": "heading",
       "level": 3,
@@ -299,35 +306,35 @@
       "community": 999
     },
     {
-      "id": "md_SKILL_list_38",
+      "id": "md_SKILL_list_39",
       "label": "`criar-editar-apresentacao` - PowerPoint",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_list_39",
+      "id": "md_SKILL_list_40",
       "label": "`criar-editar-documento-word` - Word",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_list_40",
+      "id": "md_SKILL_list_41",
       "label": "`criar-editar-planilhas-excel` - Excel",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_list_41",
+      "id": "md_SKILL_list_42",
       "label": "`processar-arquivos-pdf` - PDFs",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_h3_42",
+      "id": "md_SKILL_h3_43",
       "label": "🗂️ Git, Arquivos & Projetos",
       "type": "heading",
       "level": 3,
@@ -335,42 +342,42 @@
       "community": 999
     },
     {
-      "id": "md_SKILL_list_43",
+      "id": "md_SKILL_list_44",
       "label": "`comitar-alteracoes` - Commits",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_list_44",
+      "id": "md_SKILL_list_45",
       "label": "`gerar-historico-commits` - Histórico",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_list_45",
+      "id": "md_SKILL_list_46",
       "label": "`gerar-arvore-diretorios` - Árvore dir",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_list_46",
+      "id": "md_SKILL_list_47",
       "label": "`mesclar-arquivos-diretorio` - Mesclar",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_list_47",
+      "id": "md_SKILL_list_48",
       "label": "`renomear-arquivos-referencias` - Renomear",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_h3_48",
+      "id": "md_SKILL_h3_49",
       "label": "🎨 Design & Visual",
       "type": "heading",
       "level": 3,
@@ -378,28 +385,28 @@
       "community": 999
     },
     {
-      "id": "md_SKILL_list_49",
+      "id": "md_SKILL_list_50",
       "label": "`aplicar-temas-cores-fontes` - Temas",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_list_50",
+      "id": "md_SKILL_list_51",
       "label": "`design-interface-usuario` - UI design",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_list_51",
+      "id": "md_SKILL_list_52",
       "label": "`arte-algoritmica-generativa` - Arte p5.js",
       "type": "list_item",
       "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_h2_52",
+      "id": "md_SKILL_h2_53",
       "label": "Comandos de Router",
       "type": "heading",
       "level": 2,
@@ -407,7 +414,7 @@
       "community": 999
     },
     {
-      "id": "md_SKILL_code_53",
+      "id": "md_SKILL_code_54",
       "label": "Code: bash",
       "type": "code_block",
       "language": "bash",
@@ -415,7 +422,63 @@
       "community": 999
     },
     {
-      "id": "md_SKILL_h2_54",
+      "id": "md_SKILL_h2_55",
+      "label": "Agente Buildify (Auto-Instalação)",
+      "type": "heading",
+      "level": 2,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_56",
+      "label": "Verificação Automática",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_57",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_58",
+      "label": "Fluxo de Verificação",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_59",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_60",
+      "label": "Instalação Manual (se necessário)",
+      "type": "heading",
+      "level": 3,
+      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_61",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_62",
       "label": "Regras de Fallback",
       "type": "heading",
       "level": 2,
@@ -580,118 +643,158 @@
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h2_26",
-      "to": "md_SKILL_h3_32",
-      "relation": "section"
-    },
-    {
-      "from": "md_SKILL_h3_32",
-      "to": "md_SKILL_list_33",
+      "from": "md_SKILL_h3_27",
+      "to": "md_SKILL_list_32",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h3_32",
+      "from": "md_SKILL_h2_26",
+      "to": "md_SKILL_h3_33",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_33",
       "to": "md_SKILL_list_34",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h3_32",
+      "from": "md_SKILL_h3_33",
       "to": "md_SKILL_list_35",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h3_32",
+      "from": "md_SKILL_h3_33",
       "to": "md_SKILL_list_36",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h2_26",
-      "to": "md_SKILL_h3_37",
-      "relation": "section"
-    },
-    {
-      "from": "md_SKILL_h3_37",
-      "to": "md_SKILL_list_38",
+      "from": "md_SKILL_h3_33",
+      "to": "md_SKILL_list_37",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h3_37",
+      "from": "md_SKILL_h2_26",
+      "to": "md_SKILL_h3_38",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_38",
       "to": "md_SKILL_list_39",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h3_37",
+      "from": "md_SKILL_h3_38",
       "to": "md_SKILL_list_40",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h3_37",
+      "from": "md_SKILL_h3_38",
       "to": "md_SKILL_list_41",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h2_26",
-      "to": "md_SKILL_h3_42",
-      "relation": "section"
-    },
-    {
-      "from": "md_SKILL_h3_42",
-      "to": "md_SKILL_list_43",
+      "from": "md_SKILL_h3_38",
+      "to": "md_SKILL_list_42",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h3_42",
+      "from": "md_SKILL_h2_26",
+      "to": "md_SKILL_h3_43",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_43",
       "to": "md_SKILL_list_44",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h3_42",
+      "from": "md_SKILL_h3_43",
       "to": "md_SKILL_list_45",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h3_42",
+      "from": "md_SKILL_h3_43",
       "to": "md_SKILL_list_46",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h3_42",
+      "from": "md_SKILL_h3_43",
       "to": "md_SKILL_list_47",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h2_26",
-      "to": "md_SKILL_h3_48",
-      "relation": "section"
-    },
-    {
-      "from": "md_SKILL_h3_48",
-      "to": "md_SKILL_list_49",
+      "from": "md_SKILL_h3_43",
+      "to": "md_SKILL_list_48",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h3_48",
+      "from": "md_SKILL_h2_26",
+      "to": "md_SKILL_h3_49",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_49",
       "to": "md_SKILL_list_50",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h3_48",
+      "from": "md_SKILL_h3_49",
       "to": "md_SKILL_list_51",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h1_0",
-      "to": "md_SKILL_h2_52",
-      "relation": "section"
-    },
-    {
-      "from": "md_SKILL_h2_52",
-      "to": "md_SKILL_code_53",
+      "from": "md_SKILL_h3_49",
+      "to": "md_SKILL_list_52",
       "relation": "contains"
     },
     {
       "from": "md_SKILL_h1_0",
-      "to": "md_SKILL_h2_54",
+      "to": "md_SKILL_h2_53",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_53",
+      "to": "md_SKILL_code_54",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_55",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_55",
+      "to": "md_SKILL_h3_56",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_56",
+      "to": "md_SKILL_code_57",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_55",
+      "to": "md_SKILL_h3_58",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_58",
+      "to": "md_SKILL_code_59",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_55",
+      "to": "md_SKILL_h3_60",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h3_60",
+      "to": "md_SKILL_code_61",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_62",
       "relation": "section"
     }
   ]

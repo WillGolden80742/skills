@@ -135,6 +135,7 @@ cat criar-novo-skill/SKILL.json | jq '.nodes[] | select(.type == "heading")'
 
 | Resultado da Query | Skill Recomendada |
 |-------------------|-------------------|
+| "buildify", "graphify before code", "always graphify" | `buildify` |
 | "React", "Component", "JSX" | `construir-artefatos-react` |
 | "WordPress", "theme", "plugin" | `tema-marketplace-trokapay` |
 | "database", "model", "ORM" | `boas-praticas-de-codigo` |
@@ -204,6 +205,7 @@ python3 criar-novo-skill/skillFactory.py
 ## Skills por Categoria
 
 ### 🛠️ Meta — Gestão de Skills
+- `buildify` - Agente buildify (graphify antes de codar)
 - `criar-novo-skill` - Criar nova skill
 - `editar-skill` - Editar skill existente
 - `gerenciar-remover-skills` - Gerenciar skills
@@ -252,9 +254,41 @@ graphify path "[DOMAIN_A]" "[DOMAIN_B]"
 find . -name "*.json" -path "*/skills/*" | head -20
 ```
 
+## Agente Buildify (Auto-Instalação)
+
+O graphify-skill-router verifica automaticamente se o **agente buildify** está instalado. Se não estiver, instala via skill `buildify`.
+
+### Verificação Automática
+
+```bash
+# Verifica se buildify está instalado
+ls ~/.config/opencode/agents/buildify.md
+
+# Se não existir, o router instala automaticamente
+```
+
+### Fluxo de Verificação
+
+```
+graphify-skill-router ativado
+    ↓
+buildify.md existe em agents/?
+    ├── SIM → Usa buildify normalmente
+    └── NÃO → Carrega skill buildify → buildify-agent.md instalado
+```
+
+### Instalação Manual (se necessário)
+
+```bash
+# Copiar manualmente o agente
+cp ~/.config/opencode/skills/buildify/buildify-agent.md \
+   ~/.config/opencode/agents/buildify.md
+```
+
 ## Regras de Fallback
 
 1. **Se nenhuma skill específica for encontrada** → Use `graphify update` + `graphify query`
 2. **Se o graph não existir** → Execute `graphify update .` primeiro
 3. **Se a tarefa for ambígua** → Consulte múltiplas skills em paralelo
 4. **Se precisar entender estrutura de docs** → Consulte os `.json` AST correspondentes
+5. **Se buildify não estiver instalado** → Use skill `buildify` para instalar
