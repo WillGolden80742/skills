@@ -213,6 +213,45 @@ def update_graphify_base(project_path):
     else:
         print(f"Aviso ao atualizar graphify-out: {result.stderr[:500] if result.stderr else 'erro desconhecido'}")
 
+
+def generate_markdown_ast(project_path):
+    """Gera AST JSON para todos os arquivos .md modificados"""
+    skills_dir = os.path.expanduser("~/.config/opencode/skills")
+    md_to_ast_script = os.path.join(skills_dir, "markdown-to-ast", "md_to_ast.py")
+
+    if not os.path.exists(md_to_ast_script):
+        print("md_to_ast.py não encontrado, pulando geração de AST...")
+        return
+
+    print("Gerando AST para arquivos .md...")
+
+    # Verificar se há arquivos .md modificados
+    stdout, _, _ = run_git_command(["git", "diff", "--cached", "--name-only"], project_path)
+    md_files = [f for f in stdout.split("\n") if f and f.lower().endswith(('.md', '.MD'))]
+
+    if not md_files:
+        print("Nenhum arquivo .md para processar")
+        return
+
+    print(f"Encontrados {len(md_files)} arquivo(s) .md para gerar AST")
+
+    # Executar md_to_ast.py para todo o projeto (gera JSON ao lado de cada .md)
+    result = subprocess.run(
+        ["python3", md_to_ast_script, "--path", project_path],
+        capture_output=True,
+        text=True,
+        encoding="utf-8"
+    )
+
+    if result.returncode == 0:
+        print("AST gerado com sucesso")
+        # Mostrar resumo
+        for line in result.stdout.split("\n"):
+            if "Resumo" in line or "Arquivos" in line or "Headings" in line or "AST" in line:
+                print(f"  {line}")
+    else:
+        print(f"Aviso ao gerar AST: {result.stderr[:300] if result.stderr else 'erro desconhecido'}")
+
 def main():
     parser = argparse.ArgumentParser(description="Git commit com historico")
     parser.add_argument("--message", required=True, help="Mensagem do commit")
@@ -274,12 +313,27 @@ def main():
     print("Criando arquivo de commit em commits/...")
     create_commit_file(project_path, commit_id, args.message, staged, commit_hash, diff_content)
 
+    print("Gerando AST para arquivos .md...")
+    generate_markdown_ast(project_path)
+
     print("Fazendo commit do historico...")
     run_git_command(["git", "add", "commits/"], project_path)
     _, _, commit_hist_code = run_git_command(["git", "commit", "-m", f"chore: historico commit {commit_id}"], project_path)
     if commit_hist_code == 0:
         commit_hash = get_commit_hash(project_path)
         print(f"Commit do historico realizado: {commit_hash[:7]}")
+
+    print("Gerando AST para todos os .md e commitando...")
+    generate_markdown_ast(project_path)
+
+    # Adicionar e commitar os JSONs AST gerados
+    run_git_command(["git", "add", "."], project_path)
+    _, _, ast_commit_code = run_git_command(["git", "commit", "-m", f"chore: atualizar AST {commit_id}"], project_path)
+    if ast_commit_code == 0:
+        commit_hash = get_commit_hash(project_path)
+        print(f"Commit do AST realizado: {commit_hash[:7]}")
+    else:
+        print("Nenhum AST novo para commitar")
 
     print("Atualizando README com estrutura do projeto...")
     update_readme_structure(project_path)
