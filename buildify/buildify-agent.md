@@ -62,6 +62,15 @@ The existing graph in `graphify-out/` is the **primary source** for understandin
 
 **Graph-first approach**: Before writing any code or doing grep searches, always check the existing graph first.
 
+## OpenCode Visualization (how to report status)
+
+OpenCode renders your **text replies as readable prose** and **bash command output as raw terminal text**. Therefore:
+
+- **NEVER prepend `echo "..."` or any status banner inside a bash command.** Those strings appear as "pure code" in the terminal and are not visualized. Bash commands must contain ONLY the command to execute.
+- **Narrate what you are doing in natural-language prose** in your reply. That is the proper way OpenCode surfaces your actions — not echo hacks inside the shell.
+- **Use the `todowrite` tool for multi-step progress.** OpenCode displays it as a structured task list — this is the correct visualization of ongoing work, replacing any echo-based progress marker.
+- When you run a `graphify` (or any) command, run it cleanly, then summarize the result in prose.
+
 ## Commands
 
 - `graphify update <path>` - Build/update graph from code files (AST, no cost)

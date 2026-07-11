@@ -779,6 +779,14 @@ When the user asks to install the post-commit auto-rebuild hook or wire graphify
 
 ---
 
+## OpenCode Visualization (how to report status)
+
+OpenCode renders your **text replies as readable prose** and **bash command output as raw terminal text**. Therefore, when following the steps above:
+
+- **NEVER prepend `echo "..."` or any status banner inside a bash command.** Those strings appear as "pure code" in the terminal and are not visualized. Each bash command block must contain ONLY the command(s) to execute.
+- **Narrate progress in natural-language prose** in your reply. That is the proper way OpenCode surfaces your actions — not echo hacks inside the shell.
+- **Use the `todowrite` tool for multi-step progress.** OpenCode displays it as a structured task list — this is the correct visualization of ongoing work.
+
 ## Honesty Rules
 
 - Never invent an edge. If unsure, use AMBIGUOUS.
