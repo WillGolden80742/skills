@@ -8,11 +8,10 @@ triggers: ["comit", "comitar", "commit", "commitar", "git commit", "fazer commit
 Executa commits Git com as seguintes caracteristicas:
 1. **SEMPRE** mostra o diff e pergunta "Deseja commitar?" antes de prosseguir — **NUNCA** comita sem confirmacao
 2. Executa o commit Git
-3. **Gera AST JSON para todos os .md modificados** via `markdown-to-ast`
-4. Executa `generate_commit_history.py` para gerar arquivo de historico em `commits/yyyy/mm/dd/`
-5. Commita o arquivo de historico
-6. **Atualiza a base de dados graphify-out** com `graphify update`
-7. Faz pull --rebase e push (ou --force-with-lease com flag --force)
+3. Executa `generate_commit_history.py` para gerar arquivo de historico em `commits/yyyy/mm/dd/`
+4. Commita o arquivo de historico
+5. **Atualiza a base de dados graphify-out** com `graphify update`
+6. Faz pull --rebase e push (ou --force-with-lease com flag --force)
 
 ## Parameters
 - `message`: Mensagem do commit

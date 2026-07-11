@@ -25,6 +25,7 @@ python3 ~/.config/opencode/skills/gerar-historico-commits/generate_commit_histor
 ### Parâmetros:
 - `--repo`: Caminho do repositório Git (default: theme WordPress)
 - `--output`: Diretório base para salvar os arquivos (default: `/www/wwwroot/sac.moedadetroka.com.br/commits`)
+- `--ast`: Opcional. Habilita geração de AST JSON (desabilitada por padrão, pois é pesada)
 
 ## O que o script faz:
 1. Lista todos os commits do repositorio Git

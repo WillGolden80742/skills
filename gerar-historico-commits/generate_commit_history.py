@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Script para gerar arquivos de histórico de commits do Git com AST.
+Script para gerar arquivos de histórico de commits do Git (sem AST por padrão).
 Formato: commits/yyyy/mm/dd/commit-[hash]-[timestamp].md
-AST salvo em: commits/yyyy/mm/dd/ast/[hash]-[filename].json
+AST (opcional, via --ast) salvo em: commits/yyyy/mm/dd/ast/[hash]-[filename].json
 
 Uso:
     python3 generate_commit_history.py --repo /caminho/do/repo --output /caminho/output
@@ -241,9 +241,10 @@ def create_commit_file(commit_info, output_base, ast_data=None):
     dir_path = Path(output_base) / f"{dt.year}" / f"{dt.month:02d}" / f"{dt.day:02d}"
     dir_path.mkdir(parents=True, exist_ok=True)
 
-    # Create AST directory: commits/yyyy/mm/dd/ast/
-    ast_dir_path = dir_path / "ast"
-    ast_dir_path.mkdir(parents=True, exist_ok=True)
+    # Create AST directory: commits/yyyy/mm/dd/ast/ (somente se houver AST)
+    if ast_data:
+        ast_dir_path = dir_path / "ast"
+        ast_dir_path.mkdir(parents=True, exist_ok=True)
 
     # Filename: commit-[yyyy-mm-dd-hh-mm-ss]-[hash].md
     filename = f"commit-{dt.strftime('%Y-%m-%d-%H-%M-%S')}-{commit_info['hash'][:12]}.md"
@@ -299,20 +300,20 @@ def create_commit_file(commit_info, output_base, ast_data=None):
     return str(file_path), ast_files_created
 
 def main():
-    parser = argparse.ArgumentParser(description="Gera histórico de commits do Git com AST")
+    parser = argparse.ArgumentParser(description="Gera histórico de commits do Git (sem AST por padrão)")
     parser.add_argument("--repo", default=DEFAULT_REPO_PATH, help="Caminho do repositório Git")
     parser.add_argument("--output", default=DEFAULT_OUTPUT_BASE, help="Diretório base para salvar os arquivos")
-    parser.add_argument("--no-ast", action="store_true", help="Desabilita geração de AST")
+    parser.add_argument("--ast", action="store_true", help="Habilita geração de AST (desabilitada por padrão)")
     args = parser.parse_args()
 
     repo_path = args.repo
     output_base = args.output
-    generate_ast = not args.no_ast
+    generate_ast = args.ast
 
-    print("=== Gerador de Histórico de Commits com AST ===")
+    print("=== Gerador de Histórico de Commits ===")
     print(f"Repo: {repo_path}")
     print(f"Output: {output_base}")
-    print(f"AST: {'Habilitado' if generate_ast else 'Desabilitado'}")
+    print(f"AST: {'Habilitado (via --ast)' if generate_ast else 'Desabilitado'}")
     print()
 
     # Get all commits
