@@ -324,10 +324,20 @@
       "norm_label": "update_graphify_base()"
     },
     {
+      "label": "generate_markdown_ast()",
+      "file_type": "code",
+      "source_file": "comitar-alteracoes/comit.py",
+      "source_location": "L217",
+      "_origin": "ast",
+      "id": "comitar_alteracoes_comit_generate_markdown_ast",
+      "community": 16,
+      "norm_label": "generate_markdown_ast()"
+    },
+    {
       "label": "main()",
       "file_type": "code",
       "source_file": "comitar-alteracoes/comit.py",
-      "source_location": "L216",
+      "source_location": "L255",
       "_origin": "ast",
       "id": "comitar_alteracoes_comit_main",
       "community": 16,
@@ -392,6 +402,16 @@
       "id": "comitar_alteracoes_comit_rationale_182",
       "community": 16,
       "norm_label": "atualiza a base de dados graphify-out apos o commit"
+    },
+    {
+      "label": "Gera AST JSON para todos os arquivos .md modificados",
+      "file_type": "rationale",
+      "source_file": "comitar-alteracoes/comit.py",
+      "source_location": "L218",
+      "_origin": "ast",
+      "id": "comitar_alteracoes_comit_rationale_218",
+      "community": 16,
+      "norm_label": "gera ast json para todos os arquivos .md modificados"
     },
     {
       "label": ".sync_theme.py",
@@ -1746,7 +1766,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_pack",
-      "community": 11,
+      "community": 192,
       "norm_label": "pack.py"
     },
     {
@@ -1756,7 +1776,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_pack_pack",
-      "community": 11,
+      "community": 192,
       "norm_label": "pack()"
     },
     {
@@ -1766,7 +1786,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_pack_run_validation",
-      "community": 11,
+      "community": 192,
       "norm_label": "_run_validation()"
     },
     {
@@ -1776,7 +1796,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_pack_py_path",
-      "community": 11,
+      "community": 192,
       "norm_label": "path"
     },
     {
@@ -1786,7 +1806,7 @@
       "source_location": "L108",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_pack_condense_xml",
-      "community": 11,
+      "community": 192,
       "norm_label": "_condense_xml()"
     },
     {
@@ -1796,7 +1816,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_pack_rationale_1",
-      "community": 11,
+      "community": 192,
       "norm_label": "pack a directory into a docx, pptx, or xlsx file.  validates with auto-repair, c"
     },
     {
@@ -1946,7 +1966,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validate",
-      "community": 44,
+      "community": 48,
       "norm_label": "validate.py"
     },
     {
@@ -1956,7 +1976,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validate_main",
-      "community": 44,
+      "community": 48,
       "norm_label": "main()"
     },
     {
@@ -1966,7 +1986,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validate_rationale_1",
-      "community": 44,
+      "community": 48,
       "norm_label": "command line tool to validate office document xml files against xsd schemas and"
     },
     {
@@ -1976,7 +1996,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_init",
-      "community": 11,
+      "community": 63,
       "norm_label": "__init__.py"
     },
     {
@@ -1986,7 +2006,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_init_rationale_1",
-      "community": 11,
+      "community": 63,
       "norm_label": "validation modules for word document processing."
     },
     {
@@ -1996,7 +2016,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_base",
-      "community": 11,
+      "community": 63,
       "norm_label": "base.py"
     },
     {
@@ -2216,7 +2236,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_base_rationale_1",
-      "community": 11,
+      "community": 63,
       "norm_label": "base validator with common validation logic for document files."
     },
     {
@@ -2226,7 +2246,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx",
-      "community": 11,
+      "community": 63,
       "norm_label": "docx.py"
     },
     {
@@ -2236,7 +2256,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator",
-      "community": 11,
+      "community": 28,
       "norm_label": "docxschemavalidator"
     },
     {
@@ -2246,7 +2266,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_py_baseschemavalidator",
-      "community": 11,
+      "community": 28,
       "norm_label": "baseschemavalidator"
     },
     {
@@ -2256,7 +2276,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_validate",
-      "community": 11,
+      "community": 28,
       "norm_label": ".validate()"
     },
     {
@@ -2266,7 +2286,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_validate_whitespace_preservation",
-      "community": 11,
+      "community": 28,
       "norm_label": ".validate_whitespace_preservation()"
     },
     {
@@ -2276,7 +2296,7 @@
       "source_location": "L112",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_validate_deletions",
-      "community": 11,
+      "community": 28,
       "norm_label": ".validate_deletions()"
     },
     {
@@ -2286,7 +2306,7 @@
       "source_location": "L163",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_count_paragraphs_in_unpacked",
-      "community": 11,
+      "community": 28,
       "norm_label": ".count_paragraphs_in_unpacked()"
     },
     {
@@ -2296,7 +2316,7 @@
       "source_location": "L179",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_count_paragraphs_in_original",
-      "community": 11,
+      "community": 28,
       "norm_label": ".count_paragraphs_in_original()"
     },
     {
@@ -2306,7 +2326,7 @@
       "source_location": "L202",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_validate_insertions",
-      "community": 11,
+      "community": 28,
       "norm_label": ".validate_insertions()"
     },
     {
@@ -2316,7 +2336,7 @@
       "source_location": "L243",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_compare_paragraph_counts",
-      "community": 11,
+      "community": 28,
       "norm_label": ".compare_paragraph_counts()"
     },
     {
@@ -2326,7 +2346,7 @@
       "source_location": "L251",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_parse_id_value",
-      "community": 11,
+      "community": 28,
       "norm_label": "._parse_id_value()"
     },
     {
@@ -2336,7 +2356,7 @@
       "source_location": "L254",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_validate_id_constraints",
-      "community": 11,
+      "community": 28,
       "norm_label": ".validate_id_constraints()"
     },
     {
@@ -2346,7 +2366,7 @@
       "source_location": "L298",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_validate_comment_markers",
-      "community": 11,
+      "community": 28,
       "norm_label": ".validate_comment_markers()"
     },
     {
@@ -2356,7 +2376,7 @@
       "source_location": "L386",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_repair",
-      "community": 11,
+      "community": 28,
       "norm_label": ".repair()"
     },
     {
@@ -2366,7 +2386,7 @@
       "source_location": "L391",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalidator_repair_durableid",
-      "community": 11,
+      "community": 28,
       "norm_label": ".repair_durableid()"
     },
     {
@@ -2376,7 +2396,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_docx_rationale_1",
-      "community": 11,
+      "community": 63,
       "norm_label": "validator for word document xml files against xsd schemas."
     },
     {
@@ -2386,7 +2406,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx",
-      "community": 11,
+      "community": 63,
       "norm_label": "pptx.py"
     },
     {
@@ -2396,7 +2416,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx_pptxschemavalidator",
-      "community": 11,
+      "community": 83,
       "norm_label": "pptxschemavalidator"
     },
     {
@@ -2406,7 +2426,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx_py_baseschemavalidator",
-      "community": 11,
+      "community": 83,
       "norm_label": "baseschemavalidator"
     },
     {
@@ -2416,7 +2436,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx_pptxschemavalidator_validate",
-      "community": 11,
+      "community": 83,
       "norm_label": ".validate()"
     },
     {
@@ -2426,7 +2446,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx_pptxschemavalidator_validate_uuid_ids",
-      "community": 11,
+      "community": 83,
       "norm_label": ".validate_uuid_ids()"
     },
     {
@@ -2436,7 +2456,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx_pptxschemavalidator_looks_like_uuid",
-      "community": 11,
+      "community": 83,
       "norm_label": "._looks_like_uuid()"
     },
     {
@@ -2446,7 +2466,7 @@
       "source_location": "L104",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx_pptxschemavalidator_validate_slide_layout_ids",
-      "community": 11,
+      "community": 83,
       "norm_label": ".validate_slide_layout_ids()"
     },
     {
@@ -2456,7 +2476,7 @@
       "source_location": "L172",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx_pptxschemavalidator_validate_no_duplicate_slide_layouts",
-      "community": 11,
+      "community": 83,
       "norm_label": ".validate_no_duplicate_slide_layouts()"
     },
     {
@@ -2466,7 +2486,7 @@
       "source_location": "L210",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx_pptxschemavalidator_validate_notes_slide_references",
-      "community": 11,
+      "community": 83,
       "norm_label": ".validate_notes_slide_references()"
     },
     {
@@ -2476,7 +2496,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_pptx_rationale_1",
-      "community": 11,
+      "community": 63,
       "norm_label": "validator for powerpoint presentation xml files against xsd schemas."
     },
     {
@@ -2486,7 +2506,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining",
-      "community": 11,
+      "community": 63,
       "norm_label": "redlining.py"
     },
     {
@@ -2496,7 +2516,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining_redliningvalidator",
-      "community": 11,
+      "community": 48,
       "norm_label": "redliningvalidator"
     },
     {
@@ -2506,7 +2526,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining_redliningvalidator_init",
-      "community": 11,
+      "community": 48,
       "norm_label": ".__init__()"
     },
     {
@@ -2516,7 +2536,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining_redliningvalidator_repair",
-      "community": 11,
+      "community": 48,
       "norm_label": ".repair()"
     },
     {
@@ -2526,7 +2546,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining_redliningvalidator_validate",
-      "community": 11,
+      "community": 48,
       "norm_label": ".validate()"
     },
     {
@@ -2536,7 +2556,7 @@
       "source_location": "L104",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining_redliningvalidator_generate_detailed_diff",
-      "community": 11,
+      "community": 48,
       "norm_label": "._generate_detailed_diff()"
     },
     {
@@ -2546,7 +2566,7 @@
       "source_location": "L127",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining_redliningvalidator_get_git_word_diff",
-      "community": 11,
+      "community": 48,
       "norm_label": "._get_git_word_diff()"
     },
     {
@@ -2556,7 +2576,7 @@
       "source_location": "L198",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining_redliningvalidator_remove_author_tracked_changes",
-      "community": 11,
+      "community": 48,
       "norm_label": "._remove_author_tracked_changes()"
     },
     {
@@ -2566,7 +2586,7 @@
       "source_location": "L229",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining_redliningvalidator_extract_text_content",
-      "community": 11,
+      "community": 48,
       "norm_label": "._extract_text_content()"
     },
     {
@@ -2576,7 +2596,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_apresentacao_scripts_office_validators_redlining_rationale_1",
-      "community": 11,
+      "community": 63,
       "norm_label": "validator for tracked changes in word documents."
     },
     {
@@ -3186,7 +3206,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_pack",
-      "community": 83,
+      "community": 0,
       "norm_label": "pack.py"
     },
     {
@@ -3196,7 +3216,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_pack_pack",
-      "community": 83,
+      "community": 0,
       "norm_label": "pack()"
     },
     {
@@ -3206,7 +3226,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_pack_run_validation",
-      "community": 83,
+      "community": 0,
       "norm_label": "_run_validation()"
     },
     {
@@ -3216,7 +3236,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_pack_py_path",
-      "community": 83,
+      "community": 0,
       "norm_label": "path"
     },
     {
@@ -3226,7 +3246,7 @@
       "source_location": "L108",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_pack_condense_xml",
-      "community": 83,
+      "community": 0,
       "norm_label": "_condense_xml()"
     },
     {
@@ -3236,7 +3256,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_pack_rationale_1",
-      "community": 83,
+      "community": 0,
       "norm_label": "pack a directory into a docx, pptx, or xlsx file.  validates with auto-repair, c"
     },
     {
@@ -3386,7 +3406,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validate",
-      "community": 48,
+      "community": 44,
       "norm_label": "validate.py"
     },
     {
@@ -3396,7 +3416,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validate_main",
-      "community": 48,
+      "community": 44,
       "norm_label": "main()"
     },
     {
@@ -3406,7 +3426,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validate_rationale_1",
-      "community": 48,
+      "community": 44,
       "norm_label": "command line tool to validate office document xml files against xsd schemas and"
     },
     {
@@ -3416,7 +3436,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_init",
-      "community": 54,
+      "community": 0,
       "norm_label": "__init__.py"
     },
     {
@@ -3426,7 +3446,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_init_rationale_1",
-      "community": 54,
+      "community": 0,
       "norm_label": "validation modules for word document processing."
     },
     {
@@ -3436,7 +3456,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_base",
-      "community": 54,
+      "community": 0,
       "norm_label": "base.py"
     },
     {
@@ -3656,7 +3676,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_base_rationale_1",
-      "community": 54,
+      "community": 0,
       "norm_label": "base validator with common validation logic for document files."
     },
     {
@@ -3666,7 +3686,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx",
-      "community": 54,
+      "community": 0,
       "norm_label": "docx.py"
     },
     {
@@ -3676,7 +3696,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator",
-      "community": 28,
+      "community": 0,
       "norm_label": "docxschemavalidator"
     },
     {
@@ -3686,7 +3706,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_py_baseschemavalidator",
-      "community": 28,
+      "community": 0,
       "norm_label": "baseschemavalidator"
     },
     {
@@ -3696,7 +3716,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_validate",
-      "community": 28,
+      "community": 0,
       "norm_label": ".validate()"
     },
     {
@@ -3706,7 +3726,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_validate_whitespace_preservation",
-      "community": 28,
+      "community": 0,
       "norm_label": ".validate_whitespace_preservation()"
     },
     {
@@ -3716,7 +3736,7 @@
       "source_location": "L112",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_validate_deletions",
-      "community": 28,
+      "community": 0,
       "norm_label": ".validate_deletions()"
     },
     {
@@ -3726,7 +3746,7 @@
       "source_location": "L163",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_count_paragraphs_in_unpacked",
-      "community": 28,
+      "community": 0,
       "norm_label": ".count_paragraphs_in_unpacked()"
     },
     {
@@ -3736,7 +3756,7 @@
       "source_location": "L179",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_count_paragraphs_in_original",
-      "community": 28,
+      "community": 0,
       "norm_label": ".count_paragraphs_in_original()"
     },
     {
@@ -3746,7 +3766,7 @@
       "source_location": "L202",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_validate_insertions",
-      "community": 28,
+      "community": 0,
       "norm_label": ".validate_insertions()"
     },
     {
@@ -3756,7 +3776,7 @@
       "source_location": "L243",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_compare_paragraph_counts",
-      "community": 28,
+      "community": 0,
       "norm_label": ".compare_paragraph_counts()"
     },
     {
@@ -3766,7 +3786,7 @@
       "source_location": "L251",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_parse_id_value",
-      "community": 28,
+      "community": 0,
       "norm_label": "._parse_id_value()"
     },
     {
@@ -3776,7 +3796,7 @@
       "source_location": "L254",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_validate_id_constraints",
-      "community": 28,
+      "community": 0,
       "norm_label": ".validate_id_constraints()"
     },
     {
@@ -3786,7 +3806,7 @@
       "source_location": "L298",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_validate_comment_markers",
-      "community": 28,
+      "community": 0,
       "norm_label": ".validate_comment_markers()"
     },
     {
@@ -3796,7 +3816,7 @@
       "source_location": "L386",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_repair",
-      "community": 28,
+      "community": 0,
       "norm_label": ".repair()"
     },
     {
@@ -3806,7 +3826,7 @@
       "source_location": "L391",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavalidator_repair_durableid",
-      "community": 28,
+      "community": 0,
       "norm_label": ".repair_durableid()"
     },
     {
@@ -3816,7 +3836,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_docx_rationale_1",
-      "community": 54,
+      "community": 0,
       "norm_label": "validator for word document xml files against xsd schemas."
     },
     {
@@ -3826,7 +3846,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx",
-      "community": 54,
+      "community": 0,
       "norm_label": "pptx.py"
     },
     {
@@ -3836,7 +3856,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx_pptxschemavalidator",
-      "community": 63,
+      "community": 0,
       "norm_label": "pptxschemavalidator"
     },
     {
@@ -3846,7 +3866,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx_py_baseschemavalidator",
-      "community": 63,
+      "community": 0,
       "norm_label": "baseschemavalidator"
     },
     {
@@ -3856,7 +3876,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx_pptxschemavalidator_validate",
-      "community": 63,
+      "community": 0,
       "norm_label": ".validate()"
     },
     {
@@ -3866,7 +3886,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx_pptxschemavalidator_validate_uuid_ids",
-      "community": 63,
+      "community": 0,
       "norm_label": ".validate_uuid_ids()"
     },
     {
@@ -3876,7 +3896,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx_pptxschemavalidator_looks_like_uuid",
-      "community": 63,
+      "community": 0,
       "norm_label": "._looks_like_uuid()"
     },
     {
@@ -3886,7 +3906,7 @@
       "source_location": "L104",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx_pptxschemavalidator_validate_slide_layout_ids",
-      "community": 63,
+      "community": 0,
       "norm_label": ".validate_slide_layout_ids()"
     },
     {
@@ -3896,7 +3916,7 @@
       "source_location": "L172",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx_pptxschemavalidator_validate_no_duplicate_slide_layouts",
-      "community": 63,
+      "community": 0,
       "norm_label": ".validate_no_duplicate_slide_layouts()"
     },
     {
@@ -3906,7 +3926,7 @@
       "source_location": "L210",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx_pptxschemavalidator_validate_notes_slide_references",
-      "community": 63,
+      "community": 0,
       "norm_label": ".validate_notes_slide_references()"
     },
     {
@@ -3916,7 +3936,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_pptx_rationale_1",
-      "community": 54,
+      "community": 0,
       "norm_label": "validator for powerpoint presentation xml files against xsd schemas."
     },
     {
@@ -3926,7 +3946,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining",
-      "community": 54,
+      "community": 0,
       "norm_label": "redlining.py"
     },
     {
@@ -3936,7 +3956,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining_redliningvalidator",
-      "community": 48,
+      "community": 0,
       "norm_label": "redliningvalidator"
     },
     {
@@ -3946,7 +3966,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining_redliningvalidator_init",
-      "community": 48,
+      "community": 0,
       "norm_label": ".__init__()"
     },
     {
@@ -3956,7 +3976,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining_redliningvalidator_repair",
-      "community": 48,
+      "community": 0,
       "norm_label": ".repair()"
     },
     {
@@ -3966,7 +3986,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining_redliningvalidator_validate",
-      "community": 48,
+      "community": 0,
       "norm_label": ".validate()"
     },
     {
@@ -3976,7 +3996,7 @@
       "source_location": "L104",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining_redliningvalidator_generate_detailed_diff",
-      "community": 48,
+      "community": 0,
       "norm_label": "._generate_detailed_diff()"
     },
     {
@@ -3986,7 +4006,7 @@
       "source_location": "L127",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining_redliningvalidator_get_git_word_diff",
-      "community": 48,
+      "community": 0,
       "norm_label": "._get_git_word_diff()"
     },
     {
@@ -3996,7 +4016,7 @@
       "source_location": "L198",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining_redliningvalidator_remove_author_tracked_changes",
-      "community": 48,
+      "community": 0,
       "norm_label": "._remove_author_tracked_changes()"
     },
     {
@@ -4006,7 +4026,7 @@
       "source_location": "L229",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining_redliningvalidator_extract_text_content",
-      "community": 48,
+      "community": 0,
       "norm_label": "._extract_text_content()"
     },
     {
@@ -4016,7 +4036,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "criar_editar_documento_word_scripts_office_validators_redlining_rationale_1",
-      "community": 54,
+      "community": 0,
       "norm_label": "validator for tracked changes in word documents."
     },
     {
@@ -6493,27 +6513,117 @@
       "label": "run_git()",
       "file_type": "code",
       "source_file": "gerar-historico-commits/generate_commit_history.py",
-      "source_location": "L20",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "gerar_historico_commits_generate_commit_history_run_git",
       "community": 74,
       "norm_label": "run_git()"
     },
     {
+      "label": "extract_python_ast()",
+      "file_type": "code",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "gerar_historico_commits_generate_commit_history_extract_python_ast",
+      "community": 74,
+      "norm_label": "extract_python_ast()"
+    },
+    {
+      "label": "extract_node_details()",
+      "file_type": "code",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "gerar_historico_commits_generate_commit_history_extract_node_details",
+      "community": 74,
+      "norm_label": "extract_node_details()"
+    },
+    {
+      "label": "extract_js_ast()",
+      "file_type": "code",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L88",
+      "_origin": "ast",
+      "id": "gerar_historico_commits_generate_commit_history_extract_js_ast",
+      "community": 74,
+      "norm_label": "extract_js_ast()"
+    },
+    {
+      "label": "extract_php_ast()",
+      "file_type": "code",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L107",
+      "_origin": "ast",
+      "id": "gerar_historico_commits_generate_commit_history_extract_php_ast",
+      "community": 74,
+      "norm_label": "extract_php_ast()"
+    },
+    {
+      "label": "extract_html_ast()",
+      "file_type": "code",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L126",
+      "_origin": "ast",
+      "id": "gerar_historico_commits_generate_commit_history_extract_html_ast",
+      "community": 74,
+      "norm_label": "extract_html_ast()"
+    },
+    {
+      "label": "extract_css_ast()",
+      "file_type": "code",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L142",
+      "_origin": "ast",
+      "id": "gerar_historico_commits_generate_commit_history_extract_css_ast",
+      "community": 74,
+      "norm_label": "extract_css_ast()"
+    },
+    {
+      "label": "extract_ast()",
+      "file_type": "code",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L156",
+      "_origin": "ast",
+      "id": "gerar_historico_commits_generate_commit_history_extract_ast",
+      "community": 74,
+      "norm_label": "extract_ast()"
+    },
+    {
+      "label": "get_file_content_at_commit()",
+      "file_type": "code",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L173",
+      "_origin": "ast",
+      "id": "gerar_historico_commits_generate_commit_history_get_file_content_at_commit",
+      "community": 74,
+      "norm_label": "get_file_content_at_commit()"
+    },
+    {
       "label": "get_commit_details()",
       "file_type": "code",
       "source_file": "gerar-historico-commits/generate_commit_history.py",
-      "source_location": "L29",
+      "source_location": "L179",
       "_origin": "ast",
       "id": "gerar_historico_commits_generate_commit_history_get_commit_details",
       "community": 74,
       "norm_label": "get_commit_details()"
     },
     {
+      "label": "extract_file_ast_content()",
+      "file_type": "code",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L217",
+      "_origin": "ast",
+      "id": "gerar_historico_commits_generate_commit_history_extract_file_ast_content",
+      "community": 74,
+      "norm_label": "extract_file_ast_content()"
+    },
+    {
       "label": "create_commit_file()",
       "file_type": "code",
       "source_file": "gerar-historico-commits/generate_commit_history.py",
-      "source_location": "L67",
+      "source_location": "L233",
       "_origin": "ast",
       "id": "gerar_historico_commits_generate_commit_history_create_commit_file",
       "community": 74,
@@ -6523,29 +6633,119 @@
       "label": "main()",
       "file_type": "code",
       "source_file": "gerar-historico-commits/generate_commit_history.py",
-      "source_location": "L106",
+      "source_location": "L301",
       "_origin": "ast",
       "id": "gerar_historico_commits_generate_commit_history_main",
       "community": 74,
       "norm_label": "main()"
     },
     {
+      "label": "Extrai AST de c\u00f3digo Python.",
+      "file_type": "rationale",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "gerar_historico_commits_generate_commit_history_rationale_46",
+      "community": 74,
+      "norm_label": "extrai ast de codigo python."
+    },
+    {
+      "label": "Extrai detalhes de um n\u00f3 AST recursivamente.",
+      "file_type": "rationale",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "gerar_historico_commits_generate_commit_history_rationale_54",
+      "community": 74,
+      "norm_label": "extrai detalhes de um no ast recursivamente."
+    },
+    {
+      "label": "Extrai estrutura b\u00e1sica de JavaScript/TypeScript.",
+      "file_type": "rationale",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L89",
+      "_origin": "ast",
+      "id": "gerar_historico_commits_generate_commit_history_rationale_89",
+      "community": 74,
+      "norm_label": "extrai estrutura basica de javascript/typescript."
+    },
+    {
+      "label": "Extrai estrutura b\u00e1sica de PHP.",
+      "file_type": "rationale",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L108",
+      "_origin": "ast",
+      "id": "gerar_historico_commits_generate_commit_history_rationale_108",
+      "community": 74,
+      "norm_label": "extrai estrutura basica de php."
+    },
+    {
+      "label": "Extrai estrutura b\u00e1sica de HTML.",
+      "file_type": "rationale",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L127",
+      "_origin": "ast",
+      "id": "gerar_historico_commits_generate_commit_history_rationale_127",
+      "community": 74,
+      "norm_label": "extrai estrutura basica de html."
+    },
+    {
+      "label": "Extrai estrutura b\u00e1sica de CSS.",
+      "file_type": "rationale",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L143",
+      "_origin": "ast",
+      "id": "gerar_historico_commits_generate_commit_history_rationale_143",
+      "community": 74,
+      "norm_label": "extrai estrutura basica de css."
+    },
+    {
+      "label": "Extrai AST baseado na extens\u00e3o do arquivo.",
+      "file_type": "rationale",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L157",
+      "_origin": "ast",
+      "id": "gerar_historico_commits_generate_commit_history_rationale_157",
+      "community": 74,
+      "norm_label": "extrai ast baseado na extensao do arquivo."
+    },
+    {
+      "label": "Obt\u00e9m o conte\u00fado de um arquivo em um commit espec\u00edfico.",
+      "file_type": "rationale",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L174",
+      "_origin": "ast",
+      "id": "gerar_historico_commits_generate_commit_history_rationale_174",
+      "community": 74,
+      "norm_label": "obtem o conteudo de um arquivo em um commit especifico."
+    },
+    {
       "label": "Extrai detalhes de um commit espec\u00edfico.",
       "file_type": "rationale",
       "source_file": "gerar-historico-commits/generate_commit_history.py",
-      "source_location": "L30",
+      "source_location": "L180",
       "_origin": "ast",
-      "id": "gerar_historico_commits_generate_commit_history_rationale_30",
+      "id": "gerar_historico_commits_generate_commit_history_rationale_180",
       "community": 74,
       "norm_label": "extrai detalhes de um commit especifico."
+    },
+    {
+      "label": "Extrai AST de todos os arquivos modificados no commit.",
+      "file_type": "rationale",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L218",
+      "_origin": "ast",
+      "id": "gerar_historico_commits_generate_commit_history_rationale_218",
+      "community": 74,
+      "norm_label": "extrai ast de todos os arquivos modificados no commit."
     },
     {
       "label": "Cria arquivo de hist\u00f3rico para um commit.",
       "file_type": "rationale",
       "source_file": "gerar-historico-commits/generate_commit_history.py",
-      "source_location": "L68",
+      "source_location": "L234",
       "_origin": "ast",
-      "id": "gerar_historico_commits_generate_commit_history_rationale_68",
+      "id": "gerar_historico_commits_generate_commit_history_rationale_234",
       "community": 74,
       "norm_label": "cria arquivo de historico para um commit."
     },
@@ -7458,146 +7658,6 @@
       "id": "readme",
       "community": 25,
       "norm_label": "readme.md"
-    },
-    {
-      "label": "skills",
-      "file_type": "document",
-      "source_file": "README.MD",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "readme_skills",
-      "community": 25,
-      "norm_label": "skills"
-    },
-    {
-      "label": "Instala\u00e7\u00e3o",
-      "file_type": "document",
-      "source_file": "README.MD",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "readme_instala\u00e7\u00e3o",
-      "community": 25,
-      "norm_label": "instalacao"
-    },
-    {
-      "label": "Como funciona uma skill",
-      "file_type": "document",
-      "source_file": "README.MD",
-      "source_location": "L21",
-      "_origin": "ast",
-      "id": "readme_como_funciona_uma_skill",
-      "community": 25,
-      "norm_label": "como funciona uma skill"
-    },
-    {
-      "label": "Skills dispon\u00edveis",
-      "file_type": "document",
-      "source_file": "README.MD",
-      "source_location": "L50",
-      "_origin": "ast",
-      "id": "readme_skills_dispon\u00edveis",
-      "community": 25,
-      "norm_label": "skills disponiveis"
-    },
-    {
-      "label": "\ud83d\udcc4 Documentos Office & PDF",
-      "file_type": "document",
-      "source_file": "README.MD",
-      "source_location": "L52",
-      "_origin": "ast",
-      "id": "readme_documentos_office_pdf",
-      "community": 25,
-      "norm_label": "\ud83d\udcc4 documentos office & pdf"
-    },
-    {
-      "label": "\ud83c\udfa8 Design & Visual",
-      "file_type": "document",
-      "source_file": "README.MD",
-      "source_location": "L60",
-      "_origin": "ast",
-      "id": "readme_design_visual",
-      "community": 25,
-      "norm_label": "\ud83c\udfa8 design & visual"
-    },
-    {
-      "label": "\ud83d\udcbb Desenvolvimento & Frontend",
-      "file_type": "document",
-      "source_file": "README.MD",
-      "source_location": "L71",
-      "_origin": "ast",
-      "id": "readme_desenvolvimento_frontend",
-      "community": 25,
-      "norm_label": "\ud83d\udcbb desenvolvimento & frontend"
-    },
-    {
-      "label": "\ud83d\udd0c Integra\u00e7\u00e3o & Automa\u00e7\u00e3o",
-      "file_type": "document",
-      "source_file": "README.MD",
-      "source_location": "L83",
-      "_origin": "ast",
-      "id": "readme_integra\u00e7\u00e3o_automa\u00e7\u00e3o",
-      "community": 25,
-      "norm_label": "\ud83d\udd0c integracao & automacao"
-    },
-    {
-      "label": "\ud83d\udd04 DevOps & Servidores",
-      "file_type": "document",
-      "source_file": "README.MD",
-      "source_location": "L91",
-      "_origin": "ast",
-      "id": "readme_devops_servidores",
-      "community": 25,
-      "norm_label": "\ud83d\udd04 devops & servidores"
-    },
-    {
-      "label": "\ud83d\uddc2\ufe0f Git, Arquivos & Projetos",
-      "file_type": "document",
-      "source_file": "README.MD",
-      "source_location": "L96",
-      "_origin": "ast",
-      "id": "readme_git_arquivos_projetos",
-      "community": 25,
-      "norm_label": "\ud83d\uddc2\ufe0f git, arquivos & projetos"
-    },
-    {
-      "label": "\ud83d\udee0\ufe0f Meta \u2014 Gest\u00e3o de Skills",
-      "file_type": "document",
-      "source_file": "README.MD",
-      "source_location": "L106",
-      "_origin": "ast",
-      "id": "readme_meta_gest\u00e3o_de_skills",
-      "community": 25,
-      "norm_label": "\ud83d\udee0\ufe0f meta \u2014 gestao de skills"
-    },
-    {
-      "label": "\ud83d\udcdd Comunica\u00e7\u00e3o & Documenta\u00e7\u00e3o",
-      "file_type": "document",
-      "source_file": "README.MD",
-      "source_location": "L112",
-      "_origin": "ast",
-      "id": "readme_comunica\u00e7\u00e3o_documenta\u00e7\u00e3o",
-      "community": 25,
-      "norm_label": "\ud83d\udcdd comunicacao & documentacao"
-    },
-    {
-      "label": "Criando uma nova skill",
-      "file_type": "document",
-      "source_file": "README.MD",
-      "source_location": "L118",
-      "_origin": "ast",
-      "id": "readme_criando_uma_nova_skill",
-      "community": 25,
-      "norm_label": "criando uma nova skill"
-    },
-    {
-      "label": "Licen\u00e7a",
-      "file_type": "document",
-      "source_file": "README.MD",
-      "source_location": "L128",
-      "_origin": "ast",
-      "id": "readme_licen\u00e7a",
-      "community": 25,
-      "norm_label": "licenca"
     },
     {
       "label": "SKILL.md",
@@ -8692,6 +8752,176 @@
     {
       "label": "SKILL.md",
       "file_type": "document",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "buildify_skill",
+      "community": 54,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Buildify Skill",
+      "file_type": "document",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "buildify_skill_buildify_skill",
+      "community": 54,
+      "norm_label": "buildify skill"
+    },
+    {
+      "label": "O que faz",
+      "file_type": "document",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "buildify_skill_o_que_faz",
+      "community": 54,
+      "norm_label": "o que faz"
+    },
+    {
+      "label": "Agente Injetado",
+      "file_type": "document",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "buildify_skill_agente_injetado",
+      "community": 54,
+      "norm_label": "agente injetado"
+    },
+    {
+      "label": "Workflow do Buildify",
+      "file_type": "document",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "buildify_skill_workflow_do_buildify",
+      "community": 54,
+      "norm_label": "workflow do buildify"
+    },
+    {
+      "label": "Comandos do Graphify",
+      "file_type": "document",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "buildify_skill_comandos_do_graphify",
+      "community": 54,
+      "norm_label": "comandos do graphify"
+    },
+    {
+      "label": "Exemplo de Uso",
+      "file_type": "document",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "buildify_skill_exemplo_de_uso",
+      "community": 54,
+      "norm_label": "exemplo de uso"
+    },
+    {
+      "label": "Custo Zero",
+      "file_type": "document",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "buildify_skill_custo_zero",
+      "community": 54,
+      "norm_label": "custo zero"
+    },
+    {
+      "label": "Arquivos da Skill",
+      "file_type": "document",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L73",
+      "_origin": "ast",
+      "id": "buildify_skill_arquivos_da_skill",
+      "community": 54,
+      "norm_label": "arquivos da skill"
+    },
+    {
+      "label": "Ativa\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "buildify_skill_ativa\u00e7\u00e3o",
+      "community": 54,
+      "norm_label": "ativacao"
+    },
+    {
+      "label": "buildify-agent.md",
+      "file_type": "document",
+      "source_file": "buildify/buildify-agent.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "buildify_buildify_agent",
+      "community": 191,
+      "norm_label": "buildify-agent.md"
+    },
+    {
+      "label": "Buildify Agent",
+      "file_type": "document",
+      "source_file": "buildify/buildify-agent.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "buildify_buildify_agent_buildify_agent",
+      "community": 191,
+      "norm_label": "buildify agent"
+    },
+    {
+      "label": "Core Rule (MANDATORY)",
+      "file_type": "document",
+      "source_file": "buildify/buildify-agent.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "buildify_buildify_agent_core_rule_mandatory",
+      "community": 191,
+      "norm_label": "core rule (mandatory)"
+    },
+    {
+      "label": "Workflow",
+      "file_type": "document",
+      "source_file": "buildify/buildify-agent.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "buildify_buildify_agent_workflow",
+      "community": 191,
+      "norm_label": "workflow"
+    },
+    {
+      "label": "Cost-Free Knowledge Graph",
+      "file_type": "document",
+      "source_file": "buildify/buildify-agent.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "buildify_buildify_agent_cost_free_knowledge_graph",
+      "community": 191,
+      "norm_label": "cost-free knowledge graph"
+    },
+    {
+      "label": "Commands",
+      "file_type": "document",
+      "source_file": "buildify/buildify-agent.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "buildify_buildify_agent_commands",
+      "community": 191,
+      "norm_label": "commands"
+    },
+    {
+      "label": "Example Workflow",
+      "file_type": "document",
+      "source_file": "buildify/buildify-agent.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "buildify_buildify_agent_example_workflow",
+      "community": 191,
+      "norm_label": "example workflow"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
       "source_file": "capturar-screenshot-paginas/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
@@ -8873,7 +9103,7 @@
       "label": "Parameters",
       "file_type": "document",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L16",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "comitar_alteracoes_skill_parameters",
       "community": 34,
@@ -8883,7 +9113,7 @@
       "label": "Usage",
       "file_type": "document",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L23",
+      "source_location": "L24",
       "_origin": "ast",
       "id": "comitar_alteracoes_skill_usage",
       "community": 34,
@@ -8893,7 +9123,7 @@
       "label": "Commit padrao com confirmacao (RECOMENDADO):",
       "file_type": "document",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L25",
+      "source_location": "L26",
       "_origin": "ast",
       "id": "comitar_alteracoes_skill_commit_padrao_com_confirmacao_recomendado",
       "community": 34,
@@ -8903,7 +9133,7 @@
       "label": "Commit sem confirmacao interativa (SOMENTE se usuario pedir):",
       "file_type": "document",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L30",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "comitar_alteracoes_skill_commit_sem_confirmacao_interativa_somente_se_usuario_pedir",
       "community": 34,
@@ -8913,7 +9143,7 @@
       "label": "Commit com arquivos especificos:",
       "file_type": "document",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L35",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "comitar_alteracoes_skill_commit_com_arquivos_especificos",
       "community": 34,
@@ -8923,7 +9153,7 @@
       "label": "Commit forcado (--force-with-lease):",
       "file_type": "document",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L40",
+      "source_location": "L41",
       "_origin": "ast",
       "id": "comitar_alteracoes_skill_commit_forcado_force_with_lease",
       "community": 34,
@@ -8933,7 +9163,7 @@
       "label": "Commit em projeto especifico:",
       "file_type": "document",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L45",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "comitar_alteracoes_skill_commit_em_projeto_especifico",
       "community": 34,
@@ -8943,7 +9173,7 @@
       "label": "Fluxo de confirmacao",
       "file_type": "document",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L50",
+      "source_location": "L51",
       "_origin": "ast",
       "id": "comitar_alteracoes_skill_fluxo_de_confirmacao",
       "community": 34,
@@ -8953,7 +9183,7 @@
       "label": "Script generate_commit_history.py",
       "file_type": "document",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L58",
+      "source_location": "L59",
       "_origin": "ast",
       "id": "comitar_alteracoes_skill_script_generate_commit_history_py",
       "community": 34,
@@ -8963,7 +9193,7 @@
       "label": "Skills Relacionadas",
       "file_type": "document",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L67",
+      "source_location": "L68",
       "_origin": "ast",
       "id": "comitar_alteracoes_skill_skills_relacionadas",
       "community": 34,
@@ -8973,7 +9203,7 @@
       "label": "Notes",
       "file_type": "document",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L71",
+      "source_location": "L72",
       "_origin": "ast",
       "id": "comitar_alteracoes_skill_notes",
       "community": 34,
@@ -15513,7 +15743,7 @@
       "label": "Gerar/Atualizar AST dos Markdown",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L156",
+      "source_location": "L157",
       "_origin": "ast",
       "id": "graphify_skill_router_skill_gerar_atualizar_ast_dos_markdown",
       "community": 26,
@@ -15523,7 +15753,7 @@
       "label": "Exemplo de Routing Completo",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L172",
+      "source_location": "L173",
       "_origin": "ast",
       "id": "graphify_skill_router_skill_exemplo_de_routing_completo",
       "community": 26,
@@ -15533,7 +15763,7 @@
       "label": "Skills por Categoria",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L204",
+      "source_location": "L205",
       "_origin": "ast",
       "id": "graphify_skill_router_skill_skills_por_categoria",
       "community": 26,
@@ -15543,7 +15773,7 @@
       "label": "\ud83d\udee0\ufe0f Meta \u2014 Gest\u00e3o de Skills",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L206",
+      "source_location": "L207",
       "_origin": "ast",
       "id": "graphify_skill_router_skill_meta_gest\u00e3o_de_skills",
       "community": 26,
@@ -15553,7 +15783,7 @@
       "label": "\ud83d\udcbb Desenvolvimento & Frontend",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L212",
+      "source_location": "L214",
       "_origin": "ast",
       "id": "graphify_skill_router_skill_desenvolvimento_frontend",
       "community": 26,
@@ -15563,7 +15793,7 @@
       "label": "\ud83d\udcc4 Documentos Office & PDF",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L218",
+      "source_location": "L220",
       "_origin": "ast",
       "id": "graphify_skill_router_skill_documentos_office_pdf",
       "community": 26,
@@ -15573,7 +15803,7 @@
       "label": "\ud83d\uddc2\ufe0f Git, Arquivos & Projetos",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L224",
+      "source_location": "L226",
       "_origin": "ast",
       "id": "graphify_skill_router_skill_git_arquivos_projetos",
       "community": 26,
@@ -15583,7 +15813,7 @@
       "label": "\ud83c\udfa8 Design & Visual",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L231",
+      "source_location": "L233",
       "_origin": "ast",
       "id": "graphify_skill_router_skill_design_visual",
       "community": 26,
@@ -15593,17 +15823,57 @@
       "label": "Comandos de Router",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L236",
+      "source_location": "L238",
       "_origin": "ast",
       "id": "graphify_skill_router_skill_comandos_de_router",
       "community": 26,
       "norm_label": "comandos de router"
     },
     {
+      "label": "Agente Buildify (Auto-Instala\u00e7\u00e3o)",
+      "file_type": "document",
+      "source_file": "graphify-skill-router/SKILL.md",
+      "source_location": "L257",
+      "_origin": "ast",
+      "id": "graphify_skill_router_skill_agente_buildify_auto_instala\u00e7\u00e3o",
+      "community": 26,
+      "norm_label": "agente buildify (auto-instalacao)"
+    },
+    {
+      "label": "Verifica\u00e7\u00e3o Autom\u00e1tica",
+      "file_type": "document",
+      "source_file": "graphify-skill-router/SKILL.md",
+      "source_location": "L261",
+      "_origin": "ast",
+      "id": "graphify_skill_router_skill_verifica\u00e7\u00e3o_autom\u00e1tica",
+      "community": 26,
+      "norm_label": "verificacao automatica"
+    },
+    {
+      "label": "Fluxo de Verifica\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "graphify-skill-router/SKILL.md",
+      "source_location": "L270",
+      "_origin": "ast",
+      "id": "graphify_skill_router_skill_fluxo_de_verifica\u00e7\u00e3o",
+      "community": 26,
+      "norm_label": "fluxo de verificacao"
+    },
+    {
+      "label": "Instala\u00e7\u00e3o Manual (se necess\u00e1rio)",
+      "file_type": "document",
+      "source_file": "graphify-skill-router/SKILL.md",
+      "source_location": "L280",
+      "_origin": "ast",
+      "id": "graphify_skill_router_skill_instala\u00e7\u00e3o_manual_se_necess\u00e1rio",
+      "community": 26,
+      "norm_label": "instalacao manual (se necessario)"
+    },
+    {
       "label": "Regras de Fallback",
       "file_type": "document",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L255",
+      "source_location": "L288",
       "_origin": "ast",
       "id": "graphify_skill_router_skill_regras_de_fallback",
       "community": 26,
@@ -18657,6 +18927,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/comit.py",
+      "source_location": "L217",
+      "weight": 1.0,
+      "source": "comitar_alteracoes_comit",
+      "target": "comitar_alteracoes_comit_generate_markdown_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "comitar-alteracoes/comit.py",
       "source_location": "L23",
       "weight": 1.0,
       "source": "comitar_alteracoes_comit",
@@ -18677,7 +18957,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/comit.py",
-      "source_location": "L216",
+      "source_location": "L255",
       "weight": 1.0,
       "source": "comitar_alteracoes_comit",
       "target": "comitar_alteracoes_comit_main",
@@ -18758,6 +19038,17 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/comit.py",
+      "source_location": "L229",
+      "weight": 1.0,
+      "source": "comitar_alteracoes_comit_generate_markdown_ast",
+      "target": "comitar_alteracoes_comit_run_git_command",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "comitar-alteracoes/comit.py",
       "source_location": "L24",
       "weight": 1.0,
       "source": "comitar_alteracoes_comit_get_commit_hash",
@@ -18780,7 +19071,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/comit.py",
-      "source_location": "L232",
+      "source_location": "L271",
       "weight": 1.0,
       "source": "comitar_alteracoes_comit_main",
       "target": "comitar_alteracoes_comit_run_git_command",
@@ -18791,7 +19082,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/comit.py",
-      "source_location": "L236",
+      "source_location": "L275",
       "weight": 1.0,
       "source": "comitar_alteracoes_comit_main",
       "target": "comitar_alteracoes_comit_get_staged_files",
@@ -18802,7 +19093,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/comit.py",
-      "source_location": "L269",
+      "source_location": "L308",
       "weight": 1.0,
       "source": "comitar_alteracoes_comit_main",
       "target": "comitar_alteracoes_comit_get_commit_hash",
@@ -18813,7 +19104,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/comit.py",
-      "source_location": "L275",
+      "source_location": "L314",
       "weight": 1.0,
       "source": "comitar_alteracoes_comit_main",
       "target": "comitar_alteracoes_comit_create_commit_file",
@@ -18908,7 +19199,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/comit.py",
-      "source_location": "L285",
+      "source_location": "L339",
       "weight": 1.0,
       "source": "comitar_alteracoes_comit_main",
       "target": "comitar_alteracoes_comit_update_readme_structure",
@@ -18929,7 +19220,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/comit.py",
-      "source_location": "L288",
+      "source_location": "L342",
       "weight": 1.0,
       "source": "comitar_alteracoes_comit_main",
       "target": "comitar_alteracoes_comit_update_graphify_base",
@@ -18943,6 +19234,27 @@
       "weight": 1.0,
       "source": "comitar_alteracoes_comit_rationale_182",
       "target": "comitar_alteracoes_comit_update_graphify_base",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "comitar-alteracoes/comit.py",
+      "source_location": "L317",
+      "weight": 1.0,
+      "source": "comitar_alteracoes_comit_main",
+      "target": "comitar_alteracoes_comit_generate_markdown_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "comitar-alteracoes/comit.py",
+      "source_location": "L218",
+      "weight": 1.0,
+      "source": "comitar_alteracoes_comit_rationale_218",
+      "target": "comitar_alteracoes_comit_generate_markdown_ast",
       "confidence_score": 1.0
     },
     {
@@ -29271,7 +29583,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "gerar-historico-commits/generate_commit_history.py",
-      "source_location": "L67",
+      "source_location": "L233",
       "weight": 1.0,
       "source": "gerar_historico_commits_generate_commit_history",
       "target": "gerar_historico_commits_generate_commit_history_create_commit_file",
@@ -29281,7 +29593,87 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "gerar-historico-commits/generate_commit_history.py",
-      "source_location": "L29",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history",
+      "target": "gerar_historico_commits_generate_commit_history_extract_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history",
+      "target": "gerar_historico_commits_generate_commit_history_extract_css_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L217",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history",
+      "target": "gerar_historico_commits_generate_commit_history_extract_file_ast_content",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history",
+      "target": "gerar_historico_commits_generate_commit_history_extract_html_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history",
+      "target": "gerar_historico_commits_generate_commit_history_extract_js_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history",
+      "target": "gerar_historico_commits_generate_commit_history_extract_node_details",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history",
+      "target": "gerar_historico_commits_generate_commit_history_extract_php_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history",
+      "target": "gerar_historico_commits_generate_commit_history_extract_python_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L179",
       "weight": 1.0,
       "source": "gerar_historico_commits_generate_commit_history",
       "target": "gerar_historico_commits_generate_commit_history_get_commit_details",
@@ -29291,7 +29683,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "gerar-historico-commits/generate_commit_history.py",
-      "source_location": "L106",
+      "source_location": "L173",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history",
+      "target": "gerar_historico_commits_generate_commit_history_get_file_content_at_commit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L301",
       "weight": 1.0,
       "source": "gerar_historico_commits_generate_commit_history",
       "target": "gerar_historico_commits_generate_commit_history_main",
@@ -29301,7 +29703,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "gerar-historico-commits/generate_commit_history.py",
-      "source_location": "L20",
+      "source_location": "L36",
       "weight": 1.0,
       "source": "gerar_historico_commits_generate_commit_history",
       "target": "gerar_historico_commits_generate_commit_history_run_git",
@@ -29312,7 +29714,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "gerar-historico-commits/generate_commit_history.py",
-      "source_location": "L32",
+      "source_location": "L182",
       "weight": 1.0,
       "source": "gerar_historico_commits_generate_commit_history_get_commit_details",
       "target": "gerar_historico_commits_generate_commit_history_run_git",
@@ -29323,7 +29725,18 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "gerar-historico-commits/generate_commit_history.py",
-      "source_location": "L121",
+      "source_location": "L176",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_get_file_content_at_commit",
+      "target": "gerar_historico_commits_generate_commit_history_run_git",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L319",
       "weight": 1.0,
       "source": "gerar_historico_commits_generate_commit_history_main",
       "target": "gerar_historico_commits_generate_commit_history_run_git",
@@ -29334,7 +29747,175 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "gerar-historico-commits/generate_commit_history.py",
-      "source_location": "L153",
+      "source_location": "L161",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_extract_ast",
+      "target": "gerar_historico_commits_generate_commit_history_extract_python_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_extract_python_ast",
+      "target": "gerar_historico_commits_generate_commit_history_extract_node_details",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_rationale_46",
+      "target": "gerar_historico_commits_generate_commit_history_extract_python_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_rationale_54",
+      "target": "gerar_historico_commits_generate_commit_history_extract_node_details",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L163",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_extract_ast",
+      "target": "gerar_historico_commits_generate_commit_history_extract_js_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_rationale_89",
+      "target": "gerar_historico_commits_generate_commit_history_extract_js_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L165",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_extract_ast",
+      "target": "gerar_historico_commits_generate_commit_history_extract_php_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_rationale_108",
+      "target": "gerar_historico_commits_generate_commit_history_extract_php_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L167",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_extract_ast",
+      "target": "gerar_historico_commits_generate_commit_history_extract_html_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_rationale_127",
+      "target": "gerar_historico_commits_generate_commit_history_extract_html_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L169",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_extract_ast",
+      "target": "gerar_historico_commits_generate_commit_history_extract_css_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_rationale_143",
+      "target": "gerar_historico_commits_generate_commit_history_extract_css_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L225",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_extract_file_ast_content",
+      "target": "gerar_historico_commits_generate_commit_history_extract_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_rationale_157",
+      "target": "gerar_historico_commits_generate_commit_history_extract_ast",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L223",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_extract_file_ast_content",
+      "target": "gerar_historico_commits_generate_commit_history_get_file_content_at_commit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L174",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_rationale_174",
+      "target": "gerar_historico_commits_generate_commit_history_get_file_content_at_commit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L352",
       "weight": 1.0,
       "source": "gerar_historico_commits_generate_commit_history_main",
       "target": "gerar_historico_commits_generate_commit_history_get_commit_details",
@@ -29344,9 +29925,9 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "gerar-historico-commits/generate_commit_history.py",
-      "source_location": "L30",
+      "source_location": "L180",
       "weight": 1.0,
-      "source": "gerar_historico_commits_generate_commit_history_rationale_30",
+      "source": "gerar_historico_commits_generate_commit_history_rationale_180",
       "target": "gerar_historico_commits_generate_commit_history_get_commit_details",
       "confidence_score": 1.0
     },
@@ -29355,7 +29936,28 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "gerar-historico-commits/generate_commit_history.py",
-      "source_location": "L155",
+      "source_location": "L357",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_main",
+      "target": "gerar_historico_commits_generate_commit_history_extract_file_ast_content",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L218",
+      "weight": 1.0,
+      "source": "gerar_historico_commits_generate_commit_history_rationale_218",
+      "target": "gerar_historico_commits_generate_commit_history_extract_file_ast_content",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "gerar-historico-commits/generate_commit_history.py",
+      "source_location": "L359",
       "weight": 1.0,
       "source": "gerar_historico_commits_generate_commit_history_main",
       "target": "gerar_historico_commits_generate_commit_history_create_commit_file",
@@ -29365,9 +29967,9 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "gerar-historico-commits/generate_commit_history.py",
-      "source_location": "L68",
+      "source_location": "L234",
       "weight": 1.0,
-      "source": "gerar_historico_commits_generate_commit_history_rationale_68",
+      "source": "gerar_historico_commits_generate_commit_history_rationale_234",
       "target": "gerar_historico_commits_generate_commit_history_create_commit_file",
       "confidence_score": 1.0
     },
@@ -30505,146 +31107,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "README.MD",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "readme",
-      "target": "readme_skills",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.MD",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "readme_skills",
-      "target": "readme_como_funciona_uma_skill",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.MD",
-      "source_location": "L118",
-      "weight": 1.0,
-      "source": "readme_skills",
-      "target": "readme_criando_uma_nova_skill",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.MD",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "readme_skills",
-      "target": "readme_instala\u00e7\u00e3o",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.MD",
-      "source_location": "L128",
-      "weight": 1.0,
-      "source": "readme_skills",
-      "target": "readme_licen\u00e7a",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.MD",
-      "source_location": "L50",
-      "weight": 1.0,
-      "source": "readme_skills",
-      "target": "readme_skills_dispon\u00edveis",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.MD",
-      "source_location": "L112",
-      "weight": 1.0,
-      "source": "readme_skills_dispon\u00edveis",
-      "target": "readme_comunica\u00e7\u00e3o_documenta\u00e7\u00e3o",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.MD",
-      "source_location": "L71",
-      "weight": 1.0,
-      "source": "readme_skills_dispon\u00edveis",
-      "target": "readme_desenvolvimento_frontend",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.MD",
-      "source_location": "L60",
-      "weight": 1.0,
-      "source": "readme_skills_dispon\u00edveis",
-      "target": "readme_design_visual",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.MD",
-      "source_location": "L91",
-      "weight": 1.0,
-      "source": "readme_skills_dispon\u00edveis",
-      "target": "readme_devops_servidores",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.MD",
-      "source_location": "L52",
-      "weight": 1.0,
-      "source": "readme_skills_dispon\u00edveis",
-      "target": "readme_documentos_office_pdf",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.MD",
-      "source_location": "L96",
-      "weight": 1.0,
-      "source": "readme_skills_dispon\u00edveis",
-      "target": "readme_git_arquivos_projetos",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.MD",
-      "source_location": "L83",
-      "weight": 1.0,
-      "source": "readme_skills_dispon\u00edveis",
-      "target": "readme_integra\u00e7\u00e3o_automa\u00e7\u00e3o",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.MD",
-      "source_location": "L106",
-      "weight": 1.0,
-      "source": "readme_skills_dispon\u00edveis",
-      "target": "readme_meta_gest\u00e3o_de_skills",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "aplicar-temas-cores-fontes/SKILL.md",
       "source_location": "L7",
       "weight": 1.0,
@@ -31595,6 +32057,156 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "buildify_skill",
+      "target": "buildify_skill_buildify_skill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "buildify_skill_buildify_skill",
+      "target": "buildify_skill_agente_injetado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "buildify_skill_buildify_skill",
+      "target": "buildify_skill_arquivos_da_skill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "buildify_skill_buildify_skill",
+      "target": "buildify_skill_ativa\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "buildify_skill_buildify_skill",
+      "target": "buildify_skill_custo_zero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "buildify_skill_buildify_skill",
+      "target": "buildify_skill_exemplo_de_uso",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "buildify_skill_buildify_skill",
+      "target": "buildify_skill_o_que_faz",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "buildify_skill_buildify_skill",
+      "target": "buildify_skill_workflow_do_buildify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "buildify/SKILL.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "buildify_skill_workflow_do_buildify",
+      "target": "buildify_skill_comandos_do_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "buildify/buildify-agent.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "buildify_buildify_agent",
+      "target": "buildify_buildify_agent_buildify_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "buildify/buildify-agent.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "buildify_buildify_agent_buildify_agent",
+      "target": "buildify_buildify_agent_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "buildify/buildify-agent.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "buildify_buildify_agent_buildify_agent",
+      "target": "buildify_buildify_agent_core_rule_mandatory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "buildify/buildify-agent.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "buildify_buildify_agent_buildify_agent",
+      "target": "buildify_buildify_agent_cost_free_knowledge_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "buildify/buildify-agent.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "buildify_buildify_agent_buildify_agent",
+      "target": "buildify_buildify_agent_example_workflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "buildify/buildify-agent.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "buildify_buildify_agent_buildify_agent",
+      "target": "buildify_buildify_agent_workflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "capturar-screenshot-paginas/SKILL.md",
       "source_location": "L7",
       "weight": 1.0,
@@ -31736,7 +32348,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L50",
+      "source_location": "L51",
       "weight": 1.0,
       "source": "comitar_alteracoes_skill",
       "target": "comitar_alteracoes_skill_fluxo_de_confirmacao",
@@ -31746,7 +32358,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L71",
+      "source_location": "L72",
       "weight": 1.0,
       "source": "comitar_alteracoes_skill",
       "target": "comitar_alteracoes_skill_notes",
@@ -31756,7 +32368,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L16",
+      "source_location": "L17",
       "weight": 1.0,
       "source": "comitar_alteracoes_skill",
       "target": "comitar_alteracoes_skill_parameters",
@@ -31766,7 +32378,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L58",
+      "source_location": "L59",
       "weight": 1.0,
       "source": "comitar_alteracoes_skill",
       "target": "comitar_alteracoes_skill_script_generate_commit_history_py",
@@ -31776,7 +32388,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L67",
+      "source_location": "L68",
       "weight": 1.0,
       "source": "comitar_alteracoes_skill",
       "target": "comitar_alteracoes_skill_skills_relacionadas",
@@ -31786,7 +32398,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L23",
+      "source_location": "L24",
       "weight": 1.0,
       "source": "comitar_alteracoes_skill",
       "target": "comitar_alteracoes_skill_usage",
@@ -31806,7 +32418,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L35",
+      "source_location": "L36",
       "weight": 1.0,
       "source": "comitar_alteracoes_skill_usage",
       "target": "comitar_alteracoes_skill_commit_com_arquivos_especificos",
@@ -31816,7 +32428,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L45",
+      "source_location": "L46",
       "weight": 1.0,
       "source": "comitar_alteracoes_skill_usage",
       "target": "comitar_alteracoes_skill_commit_em_projeto_especifico",
@@ -31826,7 +32438,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L40",
+      "source_location": "L41",
       "weight": 1.0,
       "source": "comitar_alteracoes_skill_usage",
       "target": "comitar_alteracoes_skill_commit_forcado_force_with_lease",
@@ -31836,7 +32448,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L25",
+      "source_location": "L26",
       "weight": 1.0,
       "source": "comitar_alteracoes_skill_usage",
       "target": "comitar_alteracoes_skill_commit_padrao_com_confirmacao_recomendado",
@@ -31846,7 +32458,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "comitar-alteracoes/SKILL.md",
-      "source_location": "L30",
+      "source_location": "L31",
       "weight": 1.0,
       "source": "comitar_alteracoes_skill_usage",
       "target": "comitar_alteracoes_skill_commit_sem_confirmacao_interativa_somente_se_usuario_pedir",
@@ -37596,7 +38208,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L236",
+      "source_location": "L257",
+      "weight": 1.0,
+      "source": "graphify_skill_router_skill_graphify_skill_router",
+      "target": "graphify_skill_router_skill_agente_buildify_auto_instala\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-skill-router/SKILL.md",
+      "source_location": "L238",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_graphify_skill_router",
       "target": "graphify_skill_router_skill_comandos_de_router",
@@ -37616,7 +38238,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L172",
+      "source_location": "L173",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_graphify_skill_router",
       "target": "graphify_skill_router_skill_exemplo_de_routing_completo",
@@ -37636,7 +38258,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L156",
+      "source_location": "L157",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_graphify_skill_router",
       "target": "graphify_skill_router_skill_gerar_atualizar_ast_dos_markdown",
@@ -37686,7 +38308,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L255",
+      "source_location": "L288",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_graphify_skill_router",
       "target": "graphify_skill_router_skill_regras_de_fallback",
@@ -37696,7 +38318,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L204",
+      "source_location": "L205",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_graphify_skill_router",
       "target": "graphify_skill_router_skill_skills_por_categoria",
@@ -37746,7 +38368,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L212",
+      "source_location": "L214",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_skills_por_categoria",
       "target": "graphify_skill_router_skill_desenvolvimento_frontend",
@@ -37756,7 +38378,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L231",
+      "source_location": "L233",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_skills_por_categoria",
       "target": "graphify_skill_router_skill_design_visual",
@@ -37766,7 +38388,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L218",
+      "source_location": "L220",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_skills_por_categoria",
       "target": "graphify_skill_router_skill_documentos_office_pdf",
@@ -37776,7 +38398,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L224",
+      "source_location": "L226",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_skills_por_categoria",
       "target": "graphify_skill_router_skill_git_arquivos_projetos",
@@ -37786,10 +38408,40 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "graphify-skill-router/SKILL.md",
-      "source_location": "L206",
+      "source_location": "L207",
       "weight": 1.0,
       "source": "graphify_skill_router_skill_skills_por_categoria",
       "target": "graphify_skill_router_skill_meta_gest\u00e3o_de_skills",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-skill-router/SKILL.md",
+      "source_location": "L270",
+      "weight": 1.0,
+      "source": "graphify_skill_router_skill_agente_buildify_auto_instala\u00e7\u00e3o",
+      "target": "graphify_skill_router_skill_fluxo_de_verifica\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-skill-router/SKILL.md",
+      "source_location": "L280",
+      "weight": 1.0,
+      "source": "graphify_skill_router_skill_agente_buildify_auto_instala\u00e7\u00e3o",
+      "target": "graphify_skill_router_skill_instala\u00e7\u00e3o_manual_se_necess\u00e1rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "graphify-skill-router/SKILL.md",
+      "source_location": "L261",
+      "weight": 1.0,
+      "source": "graphify_skill_router_skill_agente_buildify_auto_instala\u00e7\u00e3o",
+      "target": "graphify_skill_router_skill_verifica\u00e7\u00e3o_autom\u00e1tica",
       "confidence_score": 1.0
     },
     {
@@ -40354,5 +41006,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "2c7a7fc4aa1f67129d3cac0f2047575ca3b9a46b"
+  "built_at_commit": "bb8894648c2b4053718a05cf0a54ae3092eb489a"
 }
