@@ -24,27 +24,27 @@ Executa commits Git com as seguintes caracteristicas:
 
 ### Commit padrao com confirmacao (RECOMENDADO):
 ```
-python3 ~/.config/opencode/skills/comitar-alteracoes/commit.py --message "feat: nova funcionalidade"
+python3 ~/.config/opencode/skills/comitar-alteracoes/comit.py --message "feat: nova funcionalidade"
 ```
 
 ### Commit sem confirmacao interativa (SOMENTE se usuario pedir):
 ```
-python3 ~/.config/opencode/skills/comitar-alteracoes/commit.py --yes --message "fix: corrigido bug"
+python3 ~/.config/opencode/skills/comitar-alteracoes/comit.py --yes --message "fix: corrigido bug"
 ```
 
 ### Commit com arquivos especificos:
 ```
-python3 ~/.config/opencode/skills/comitar-alteracoes/commit.py --message "fix: corrigido bug" --files "src/index.php css/style.css"
+python3 ~/.config/opencode/skills/comitar-alteracoes/comit.py --message "fix: corrigido bug" --files "src/index.php css/style.css"
 ```
 
 ### Commit forcado (--force-with-lease):
 ```
-python3 ~/.config/opencode/skills/comitar-alteracoes/commit.py --message "fix: reescrevendo historico" --force
+python3 ~/.config/opencode/skills/comitar-alteracoes/comit.py --message "fix: reescrevendo historico" --force
 ```
 
 ### Commit em projeto especifico:
 ```
-python3 ~/.config/opencode/skills/comitar-alteracoes/commit.py --message "docs: atualizado documentacao" --project "/caminho/do/projeto"
+python3 ~/.config/opencode/skills/comitar-alteracoes/comit.py --message "docs: atualizado documentacao" --project "/caminho/do/projeto"
 ```
 
 ## Fluxo de confirmacao
