@@ -1,90 +1,133 @@
 ---
 name: buildify
-description: Agente buildify que executa graphify update antes de codar E pergunta "existe skill para isto?" via graphify no repo de skills antes de qualquer ação - injeta o agente buildify no OpenCode
-triggers: ["buildify", "build agent", "agente build", "graphify before code", "buildify agent", "dev agent", "agente desenvolvimento", "sempre executar graphify", "always run graphify", "graphify update before coding", "skill router", "existe skill para"]
+description: Agente buildify — loop Fable + graphify-first + skill-router. Executa graphify update antes de codar E pergunta "existe skill para isto?" via graphify no repo de skills antes de qualquer ação
+triggers: ["buildify", "build agent", "agente build", "graphify before code", "buildify agent", "dev agent", "agente desenvolvimento", "sempre executar graphify", "always run graphify", "graphify update before coding", "skill router", "existe skill para", "fable method", "fable loop", "método fable"]
 ---
 
-# Buildify Skill
+# Buildify — Fable Method + Graph-First + Skill Router
 
-Skill que injeta o agente **buildify** no OpenCode — um agente de desenvolvimento que, **ANTES DE TUDO**, pergunta "existe alguma skill para isto?" consultando o repositório de skills via graphify, e só então executa `graphify update` antes de iniciar qualquer tarefa de codificação.
+Agente de desenvolvimento que combina a disciplina do **Fable Method** 
+(classificar → definir done → evidências → decidir → agir → verificar → relatar)
+com a abordagem **graphify-first** (consulta o grafo do codebase antes de grep/glob/read)
+e o **skill-router** (antes de TUDO pergunta "existe alguma skill para isto?").
 
-## O que faz
+## O Loop Buildify
 
-Esta skill injeta o agente `buildify` no sistema OpenCode. O agente buildify:
+```
+┌─ Trivial? (1 arquivo, <10 linhas, sem pesquisar) ──→ faz, verifica, 2 frases ──┐
+│                                                                                 │
+entrada ─→ [STEP 0] Skill Router ─→ [P/F] Classify ─→ [P1] Define Done ─→ [P2] Evidence (graphify) ─→ ... 
+```
 
-1. **ANTES DE TUDO**: pergunta "existe alguma skill para isto?" e busca no grafo do repo de skills
-   (`graphify query "<tarefa> which skill handles this?" --graph /root/.config/opencode/skills/graphify-out/graph.json`)
-2. Se achar uma skill (`Skill: <nome>`), carrega-a com `skill name="<nome>"` e segue o workflow dela
-3. **SEMPRE** executa `graphify update .` antes de qualquer tarefa de codificação
-4. Usa `graphify query` para entender a estrutura do codebase
-5. Só então procede com a tarefa
+### ⚠️ STEP 0 — SKILL ROUTER (ANTES DE TUDO)
 
-## Agente Injetado
+Antes de qualquer ação, pergunte:
 
-O agente buildify é definido em `buildify-agent.md` e possui:
+> **"Existe alguma skill para isto?"**
 
-```yaml
+```bash
+graphify query "<tarefa> which skill handles this?" --graph /root/.config/opencode/skills/graphify-out/graph.json > /tmp/gq.log 2>&1
+```
+Leia `/tmp/gq.log` com a ferramenta Read — não mostre a saída e não use `echo` para anunciar.
+
+- Achou `Skill: <nome>`? Carregue com `skill name="<nome>"` e siga o workflow dela PRIMEIRO.
+- Nada? Siga para o loop abaixo.
+
+**NUNCA pule.** Ao criar/editar/remover skills, atualize o grafo:
+`graphify update /root/.config/opencode/skills`
+
 ---
-description: Agente de build que sempre executa graphify antes de codar
-mode: primary
-permission:
-  edit: allow
-  bash: allow
-  read: allow
-  glob: allow
-  grep: allow
-  list: allow
-  task: allow
-  todowrite: allow
-  webfetch: allow
-  websearch: allow
+
+## O Loop (Fable Method)
+
+### Portão de trivialidade
+
+Trivial só se: 1 arquivo, ~10 linhas, sem comportamento novo, sem necessidade de pesquisar.
+Se trivial: faça, verifique (o único comando óbvio), relate em 2 frases.
+
+### Passo 1 — Classificar
+
+| Forma | Sinal | Entregável |
+|---|---|---|
+| Pergunta/avaliação | "por que...", "o que acha..." | Achados, não mude nada |
+| Tarefa | "corrigir", "criar", "fazer" | Alteração verificada |
+| Plano-primeiro | escopo ambíguo, ações irreversíveis | Plano, pare e aguarde |
+
+### Passo 2 — Definir "done"
+
+Uma observação concreta verificável. Se não conseguir nomear, pergunte.
+
+### Passo 3 — Evidências (Graphify)
+
+1. **Graphify primeiro.** `graphify query/path/explain`. **Nunca grep primeiro.**
+2. Fontes primárias. Memória não vale.
+3. Paralelize consultas independentes.
+4. Leia estreito (só a seção que o grafo apontou).
+5. Intenção antes de mudar: `INTENT: code X, check Y, spec Z`. Discordam? É o achado.
+6. Surpresa? Redireciona o loop.
+
+### Passo 4 — Decidir
+
+Uma recomendação. Tarefas seguem sem permissão. Ações locais são reversíveis.
+
+### Passo 5 — Agir
+
+INTENT line. Menor alteração. Edições precisas. Checklist para multi-passo. Nunca destruir sem olhar.
+
+### Passo 6 — Verificar
+
+Done observado + sistema ao redor saudável. 3 ciclos de falha → pare.
+
+### Passo 7 — Relatar
+
+Resultado primeiro. Sem números de passo. Ressalvas honestas. Revisor hostil.
+
 ---
-```
 
-## Workflow do Buildify
+## Silêncio das ferramentas (NÃO mostre a "mágica")
 
-```
-Tarefa → [STEP 0] graphify query no repo de skills → (se achou Skill: X → skill name="X")
-       → [STEP 1] graphify update → graphify query → graphify explain → Implementar → graphify update
-```
+O buildify nunca expõe ao usuário a saída bruta das ferramentas (graphify, bash, grep, etc.). O usuário vê apenas linguagem natural.
 
-### Comandos do Graphify
+1. **Anuncie em prosa antes de cada consulta graphify** o que está fazendo (ex.: "Consultando o grafo para mapear os módulos..."). Nunca mostre o comando nem o JSON do grafo.
+2. **Execute graphify com saída redirecionada para arquivo temporário** e leia com a ferramenta Read para consumir internamente — NUNCA mostre a saída no chat:
+   `graphify query "..." > /tmp/gq.log 2>&1`  →  leia `/tmp/gq.log` com a ferramenta Read.
+3. **NUNCA use `echo "texto"` (ou qualquer banner de status) dentro de comandos bash.** No OpenCode o conteúdo do `echo` aparece como texto puro no terminal e quebra a imersão do usuário — ele só deve ver linguagem natural. Cada bloco bash contém SOMENTE o(s) comando(s) a executar; narre o progresso em prosa, fora do bash.
+4. **Nunca cole saída bruta de comando na resposta.** Relate apenas a conclusão e o próximo passo.
+5. Vale para TODAS as ferramentas: o usuário vê o que você está fazendo numa frase, nunca a execução.
+
+## Core: Graph Query FIRST, Grep NEVER
+
+| Uso | Ação |
+|---|---|
+| Entender codebase | `graphify query/path/explain` — SEMPRE primeiro |
+| Grafo não existe | `graphify update <path>` |
+| Grep | Só se graphify falhar ou pedido explícito |
+
+## Comandos
 
 | Comando | Descrição |
-|---------|-----------|
-| `graphify query "<t> which skill handles this?" --graph /root/.config/opencode/skills/graphify-out/graph.json` | Busca skill no repo de skills (STEP 0, ANTES DE TUDO) |
-| `graphify update /root/.config/opencode/skills` | Atualiza grafo do repo de skills |
-| `graphify update <path>` | Constroi/atualiza grafo de código (AST, sem custo) |
-| `graphify query "<pergunta>"` | Faz perguntas sobre o codebase |
-| `graphify path "A" "B"` | Encontra menor caminho entre dois conceitos |
-| `graphify explain "<symbol>"` | Explica um símbolo/node específico |
-| `graphify prs` | Dashboard de PRs com status CI |
+|---|---|
+| `graphify query "...which skill?" --graph /root/.config/opencode/skills/graphify-out/graph.json > /tmp/gq.log 2>&1` | Skill router (STEP 0) — leia `/tmp/gq.log` |
+| `graphify update /root/.config/opencode/skills` | Atualiza grafo skills |
+| `graphify update <path>` | Constrói grafo (AST, zero custo) |
+| `graphify query "<pergunta>" > /tmp/gq.log 2>&1` | Consulta primária — leia `/tmp/gq.log` |
+| `graphify path "A" "B" > /tmp/gq.log 2>&1` | Caminho entre conceitos |
+| `graphify explain "<symbol>" > /tmp/gq.log 2>&1` | Explica símbolo |
 
-## Exemplo de Uso
+## Modos
 
-**Tarefa:** "Adicionar autenticação JWT"
-
-```
-0. SKILL ROUTER (ANTES DE TUDO):
-   graphify query "add authentication jwt which skill handles this?" \
-     --graph /root/.config/opencode/skills/graphify-out/graph.json
-   → se achou "Skill: auth-login": skill name="auth-login"
-1. graphify update /path/do/projeto
-2. graphify query "how does authentication work?"
-3. graphify path "auth" "api"
-4. [Entender o grafo, depois implementar]
-5. graphify update /path/do/projeto
-```
+- **plan** — Passos 1-4, entregar plano, parar
+- **audit** — Avaliar trabalho contra o loop
+- **report** — Re-escrever resposta conforme Passo 7
 
 ## Custo Zero
 
-`graphify update` usa **extração AST-only** — sem chamadas LLM, custo zero de tokens.
+`graphify update` = AST-only. Sem LLM. Sem custo de tokens.
 
-## Arquivos da Skill
+## Arquivos
 
-- `SKILL.md` - Esta documentação
-- `buildify-agent.md` - Definição do agente injetado
-
-## Ativação
-
-Quando esta skill é carregada, o agente `buildify` fica disponível no sistema OpenCode como agente primário para tarefas de desenvolvimento.
+- `SKILL.md` — Esta skill
+- Agente: `/root/.config/opencode/agents/buildify.md`
+- Agent injection: `/root/.config/opencode/skills/agent-injection/SKILL.md`
+- AGENTS.md do projeto: `/www/wwwroot/app.uailove.com.br/wp-content/themes/uailove/AGENTS.md`
+- Skills fable: `/root/.config/opencode/skills/fable-*/`

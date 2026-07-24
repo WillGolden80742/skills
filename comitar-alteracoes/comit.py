@@ -26,7 +26,7 @@ def get_commit_hash(cwd):
 
 def create_commit_file(project_path, commit_id, message, files, commit_hash, diff_content=""):
     commits_dir = os.path.join(project_path, "commits")
-    day_subdir = datetime.now().strftime("%Y-%m/%d")
+    day_subdir = datetime.now().strftime("%Y/%m/%d")  # YYYY/mm/dd (ex.: 2026/07/11)
     day_dir = os.path.join(commits_dir, day_subdir)
     if not os.path.exists(day_dir):
         os.makedirs(day_dir)
@@ -281,6 +281,14 @@ def main():
     if commit_hist_code == 0:
         commit_hash = get_commit_hash(project_path)
         print(f"Commit do historico realizado: {commit_hash[:7]}")
+
+    print("Gerando historico completo de commits...")
+    hist_script = os.path.expanduser("~/.config/opencode/skills/gerar-historico-commits/generate_commit_history.py")
+    if os.path.exists(hist_script):
+        run_git_command(["python3", hist_script, "--repo", project_path, "--output", os.path.join(project_path, "commits")], project_path)
+        # Commitar os arquivos de historico gerados
+        run_git_command(["git", "add", "commits/"], project_path)
+        run_git_command(["git", "commit", "-m", f"chore: historico completo apos commit {commit_id}", "--allow-empty"], project_path)
 
     print("Atualizando README com estrutura do projeto...")
     update_readme_structure(project_path)

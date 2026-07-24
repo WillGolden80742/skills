@@ -28,9 +28,9 @@ Para responder, consulte o **repositório de skills** via graphify (o grafo já 
 `/root/.config/opencode/skills/graphify-out/graph.json`):
 
 ```bash
-graphify query "<palavras-chave da tarefa> which skill handles this?" \
-  --graph /root/.config/opencode/skills/graphify-out/graph.json
+graphify query "<palavras-chave da tarefa> which skill handles this?" --graph /root/.config/opencode/skills/graphify-out/graph.json > /tmp/gq.log 2>&1
 ```
+Read `/tmp/gq.log` with the Read tool — never show the output and never use `echo` to announce.
 
 - Se o resultado contiver um nó `Skill: <nome>`, um item com a forma `` `<nome-da-skill>` `` (nome do diretório da skill entre crases) ou qualquer referência ao diretório de uma skill relevante à tarefa → carregue essa skill com a ferramenta `skill` (`skill name="<nome>"`) e **siga o workflow dela PRIMEIRO**.
 - Se nenhuma skill fizer match → siga para o **STEP 1** (grafo do codebase) abaixo.
@@ -89,22 +89,23 @@ The existing graph in `graphify-out/` is the **primary source** for understandin
 
 OpenCode renders your **text replies as readable prose** and **bash command output as raw terminal text**. Therefore:
 
-- **NEVER prepend `echo "..."` or any status banner inside a bash command.** Those strings appear as "pure code" in the terminal and are not visualized. Bash commands must contain ONLY the command to execute.
+- **NEVER use `echo "..."` or any status banner inside a bash command.** Those strings appear as "pure code" in the terminal and are not visualized — they break the user's immersion. Bash commands must contain ONLY the command to execute.
+- **Silence tool output: redirect to a temp file and Read it.** For graphify queries, run `graphify query "<q>" > /tmp/gq.log 2>&1` and read `/tmp/gq.log` with the Read tool — never paste the raw output into the chat.
 - **Narrate what you are doing in natural-language prose** in your reply. That is the proper way OpenCode surfaces your actions — not echo hacks inside the shell.
 - **Use the `todowrite` tool for multi-step progress.** OpenCode displays it as a structured task list — this is the correct visualization of ongoing work, replacing any echo-based progress marker.
-- When you run a `graphify` (or any) command, run it cleanly, then summarize the result in prose.
+- When you run a `graphify` (or any) command, run it cleanly (redirected to a log), then summarize the result in prose.
 
 ## Commands
 
 ### Skills repository (run ANTES DE TUDO — STEP 0)
-- `graphify query "<task> which skill handles this?" --graph /root/.config/opencode/skills/graphify-out/graph.json` - Search the skills repo graph for a matching skill
+- `graphify query "<task> which skill handles this?" --graph /root/.config/opencode/skills/graphify-out/graph.json > /tmp/gq.log 2>&1` - Search the skills repo graph for a matching skill (read `/tmp/gq.log`)
 - `graphify update /root/.config/opencode/skills` - Refresh the skills repo graph (after creating/editing/removing a skill)
 
 ### Project codebase (STEP 1)
 - `graphify update <path>` - Build/update graph from code files (AST, no cost)
-- `graphify query "<question>"` - Ask questions against the existing graph (PRIMARY METHOD)
-- `graphify path "A" "B"` - Find shortest path between two concepts
-- `graphify explain "<symbol>"` - Explain a specific symbol/node
+- `graphify query "<question>" > /tmp/gq.log 2>&1` - Ask questions against the existing graph (PRIMARY METHOD, read `/tmp/gq.log`)
+- `graphify path "A" "B" > /tmp/gq.log 2>&1` - Find shortest path between two concepts
+- `graphify explain "<symbol>" > /tmp/gq.log 2>&1` - Explain a specific symbol/node
 - `graphify prs` - PR dashboard with CI state and review status
 
 ## Example Workflow
@@ -113,13 +114,12 @@ OpenCode renders your **text replies as readable prose** and **bash command outp
 Task: "Add user authentication to the API"
 
 0. SKILL ROUTER (ANTES DE TUDO):
-   graphify query "add authentication api which skill handles this?" \
-     --graph /root/.config/opencode/skills/graphify-out/graph.json
-   → se achou "Skill: auth-login": skill name="auth-login" e segue o workflow dela.
+   graphify query "add authentication api which skill handles this?" --graph /root/.config/opencode/skills/graphify-out/graph.json > /tmp/gq.log 2>&1
+   → read `/tmp/gq.log`; se achou "Skill: auth-login": skill name="auth-login" e segue o workflow dela.
 1. CODEBASE GRAPH: Does graphify-out/graph.json exist?
-    - YES: graphify query "how does authentication work in this codebase?"
+    - YES: graphify query "how does authentication work in this codebase?" > /tmp/gq.log 2>&1 (read it)
     - NO:  graphify update /www/wwwroot/app.uailove.com.br/wp-content/themes/uailove
-2. graphify path "auth" "api"
+2. graphify path "auth" "api" > /tmp/gq.log 2>&1
 3. [Understand the graph, then implement]
 4. graphify update /www/wwwroot/app.uailove.com.br/wp-content/themes/uailove
 ```

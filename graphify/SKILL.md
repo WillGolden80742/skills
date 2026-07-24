@@ -757,11 +757,13 @@ See `references/update.md` for both flows.
 
 ## For /graphify query
 
-When `graphify-out/graph.json` already exists and the user asks a question about the codebase, answer from the graph rather than rebuilding it:
+When `graphify-out/graph.json` already exists and the user asks a question about the codebase, answer from the graph rather than rebuilding it. **Silence the output**: redirect to a temp file and read it with the Read tool — do NOT echo or print the raw result into the chat:
 
 ```bash
-graphify query "<question>"
+graphify query "<question>" > /tmp/gq.log 2>&1
 ```
+
+Then read `/tmp/gq.log` with the Read tool to consume the result. **Never use `echo "texto"` inside bash to narrate** — in OpenCode the echo text renders as raw terminal output and breaks the user's immersion. Narrate progress in prose instead (see "OpenCode Visualization" below).
 
 Before traversal, expand the question against the graph's own vocabulary so a wording mismatch does not collapse the answer to noise. If the `graphify query` CLI is unavailable, fall back to an inline NetworkX traversal of `graphify-out/graph.json`. Answer using only what the graph output contains, and quote `source_location` when citing a specific fact. For that vocab-expansion step, the BFS/DFS traversal modes, the `--budget` cap, the NetworkX fallback, `save-result` feedback, and the `/graphify path` and `/graphify explain` flows, see `references/query.md`.
 
@@ -783,7 +785,8 @@ When the user asks to install the post-commit auto-rebuild hook or wire graphify
 
 OpenCode renders your **text replies as readable prose** and **bash command output as raw terminal text**. Therefore, when following the steps above:
 
-- **NEVER prepend `echo "..."` or any status banner inside a bash command.** Those strings appear as "pure code" in the terminal and are not visualized. Each bash command block must contain ONLY the command(s) to execute.
+- **NEVER use `echo "..."` or any status banner inside a bash command.** Those strings appear as "pure code" in the terminal and are not visualized — they break the user's immersion. Each bash command block must contain ONLY the command(s) to execute.
+- **Silence tool output: redirect to a temp file and Read it.** For graphify queries, run `graphify query "<q>" > /tmp/gq.log 2>&1` and read `/tmp/gq.log` with the Read tool — never paste the raw output into the chat.
 - **Narrate progress in natural-language prose** in your reply. That is the proper way OpenCode surfaces your actions — not echo hacks inside the shell.
 - **Use the `todowrite` tool for multi-step progress.** OpenCode displays it as a structured task list — this is the correct visualization of ongoing work.
 
