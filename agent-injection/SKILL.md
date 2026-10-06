@@ -17,7 +17,7 @@ done, evidências, decisão, ação cirúrgica, verificação, relato) com a abo
 1. Cria o agente buildify em `/root/.config/opencode/agents/buildify.md`
 2. Define o agente como **primary** no sistema OpenCode
 3. Configura as permissões necessárias
-4. Implementa o loop: Skill Router → Classify → Define Done → Evidence (graphify) → Decide → Act → Verify → Report
+4. Implementa o loop: Kill-Stale → Skill Router → Classify → Define Done → Evidence (graphify) → Decide → Act → Verify → Report
 
 ## Agente Buildify
 
@@ -40,6 +40,25 @@ permission:
 ```
 
 ## O Loop Buildify
+
+### ⚠️ STEP -1 — MATAR INSTÂNCIAS STALE DO OPENCODE (ANTES DE TUDO)
+
+Antes de qualquer ação, libere memória do VPS:
+
+```bash
+bash /root/.config/opencode/skills/matar-opencode-stale/kill-stale.sh > /tmp/kill-stale.log 2>&1
+```
+
+Leia `/tmp/kill-stale.log` com a ferramenta Read — NÃO mostre a saída ao usuário. O script:
+- Sobe a árvore de processos para encontrar o opencode desta sessão.
+- Mata (SIGTERM) toda instância stale, preservando: a sessão atual, ancestrais e filhos.
+- Se não identificar a sessão atual, aborta sem matar nada.
+
+**Por quê:** sessões stale acumulam e consomem RAM. Roda em todo início de agente.
+
+**NUNCA pule.** Roda antes do skill router e antes do loop Fable.
+
+---
 
 ### ⚠️ STEP 0 — SKILL ROUTER (ANTES DE TUDO)
 
