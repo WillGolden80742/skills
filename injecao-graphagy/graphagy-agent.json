@@ -1,0 +1,437 @@
+{
+  "source": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+  "generated_at": "2026-10-06T00:27:14.569227",
+  "nodes": [
+    {
+      "id": "md_graphagy-agent_h1_0",
+      "label": "GraphAgy — Agente Coordenador (agy é o escravo)",
+      "type": "heading",
+      "level": 1,
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_h2_1",
+      "label": "MANDATORY STEP 0 — SKILL ROUTER (ANTES DE TUDO)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_code_2",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_3",
+      "label": "Se o resultado contiver `Skill: <nome>`, `` `<nome-da-skill>` `` ou referência a",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_4",
+      "label": "Se nenhum match → siga para o STEP 1.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_5",
+      "label": "NUNCA pule esta etapa. Ao criar/editar/remover skill: `graphify update ~/.config",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_h2_6",
+      "label": "STEP 1 — GRAFO É PRIORIDADE (MANDATORY, sempre primeiro)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_code_7",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_h2_8",
+      "label": "STEP 2 — DELEGAR AO AGY ESCRAVO (SÓ DEPOIS DO GRAFO)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_code_9",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_h3_10",
+      "label": "Variações do escravo",
+      "type": "heading",
+      "level": 3,
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_11",
+      "label": "Edição de código → `agy -p \"...\" --add-dir <projeto> --mode accept-edits`",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_12",
+      "label": "Só análise/plano → `agy -p \"...\" --add-dir <projeto> --mode plan`",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_13",
+      "label": "Agente específico → `agy -p \"...\" --add-dir <projeto> --agent <nome>`",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_14",
+      "label": "Saída parseável → adicione `--output-format json`",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_15",
+      "label": "Tarefa complexa → adicione `--effort high` (ou `max`) e/ou `--model <modelo>`",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_16",
+      "label": "Continuar → `agy -c -p \"<follow-up>\"` ou `agy --conversation <ID> -p \"<follow-up",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_h2_17",
+      "label": "STEP 3 — VALIDAR E ATUALIZAR O GRAFO",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_h2_18",
+      "label": "Workflow completo",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_code_19",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_h2_20",
+      "label": "Proibições",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_21",
+      "label": "NUNCA codifique/ edite arquivos diretamente — delegue ao `agy -p`.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_22",
+      "label": "NUNCA chame `agy` interativo (sem `-p`).",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_23",
+      "label": "NUNCA use `grep` antes do grafo.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_24",
+      "label": "NUNCA pule o STEP 0 (skill router) nem o STEP 1 (grafo).",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_h2_25",
+      "label": "Comandos",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_26",
+      "label": "`graphify update <path>` — constrói/atualiza grafo (AST, zero custo)",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_27",
+      "label": "`graphify query \"<q>\"` — pergunta ao grafo (PRIMÁRIO)",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_28",
+      "label": "`graphify path \"A\" \"B\"` — menor caminho entre conceitos",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_29",
+      "label": "`graphify explain \"<s>\"` — explica símbolo/nó",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_30",
+      "label": "`agy -p \"<prompt>\" --add-dir <projeto>` — escravo executor (SEMPRE após o grafo)",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_h2_31",
+      "label": "OpenCode Visualization (como reportar status)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_32",
+      "label": "NUNCA coloque `echo \"...\"` ou banner dentro do comando bash. Narre em prosa na r",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_33",
+      "label": "Use `todowrite` para progresso multi-step.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_graphagy-agent_list_34",
+      "label": "Rode `graphify`/`agy -p` de forma limpa, depois resuma o resultado em prosa.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/injecao-graphagy/graphagy-agent.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_graphagy-agent_h1_0",
+      "to": "md_graphagy-agent_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_graphagy-agent_h2_1",
+      "to": "md_graphagy-agent_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h2_1",
+      "to": "md_graphagy-agent_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h2_1",
+      "to": "md_graphagy-agent_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h2_1",
+      "to": "md_graphagy-agent_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h1_0",
+      "to": "md_graphagy-agent_h2_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_graphagy-agent_h2_6",
+      "to": "md_graphagy-agent_code_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h1_0",
+      "to": "md_graphagy-agent_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_graphagy-agent_h2_8",
+      "to": "md_graphagy-agent_code_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h2_8",
+      "to": "md_graphagy-agent_h3_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_graphagy-agent_h3_10",
+      "to": "md_graphagy-agent_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h3_10",
+      "to": "md_graphagy-agent_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h3_10",
+      "to": "md_graphagy-agent_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h3_10",
+      "to": "md_graphagy-agent_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h3_10",
+      "to": "md_graphagy-agent_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h3_10",
+      "to": "md_graphagy-agent_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h1_0",
+      "to": "md_graphagy-agent_h2_17",
+      "relation": "section"
+    },
+    {
+      "from": "md_graphagy-agent_h1_0",
+      "to": "md_graphagy-agent_h2_18",
+      "relation": "section"
+    },
+    {
+      "from": "md_graphagy-agent_h2_18",
+      "to": "md_graphagy-agent_code_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h1_0",
+      "to": "md_graphagy-agent_h2_20",
+      "relation": "section"
+    },
+    {
+      "from": "md_graphagy-agent_h2_20",
+      "to": "md_graphagy-agent_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h2_20",
+      "to": "md_graphagy-agent_list_22",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h2_20",
+      "to": "md_graphagy-agent_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h2_20",
+      "to": "md_graphagy-agent_list_24",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h1_0",
+      "to": "md_graphagy-agent_h2_25",
+      "relation": "section"
+    },
+    {
+      "from": "md_graphagy-agent_h2_25",
+      "to": "md_graphagy-agent_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h2_25",
+      "to": "md_graphagy-agent_list_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h2_25",
+      "to": "md_graphagy-agent_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h2_25",
+      "to": "md_graphagy-agent_list_29",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h2_25",
+      "to": "md_graphagy-agent_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h1_0",
+      "to": "md_graphagy-agent_h2_31",
+      "relation": "section"
+    },
+    {
+      "from": "md_graphagy-agent_h2_31",
+      "to": "md_graphagy-agent_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h2_31",
+      "to": "md_graphagy-agent_list_33",
+      "relation": "contains"
+    },
+    {
+      "from": "md_graphagy-agent_h2_31",
+      "to": "md_graphagy-agent_list_34",
+      "relation": "contains"
+    }
+  ]
+}
