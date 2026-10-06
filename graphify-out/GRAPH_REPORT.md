@@ -1,11 +1,11 @@
 # Graph Report - skills  (2026-10-06)
 
 ## Corpus Check
-- 534 files · ~16,105,203 words
+- 546 files · ~20,999,738 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 26771 nodes · 3221 edges · 24114 communities (424 shown, 23690 thin omitted)
+- 26679 nodes · 3292 edges · 23961 communities (438 shown, 23523 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 48 edges (avg confidence: 0.67)
 - Token cost: 0 input · 0 output
 
@@ -256,6 +256,7 @@
 - Process
 - OpenCode Skills
 - Step 0 — Constrained query expansion (REQUIRED before traversal)
+- DOCXSchemaValidator
 - Conventions
 - When to check `.out-of-scope/`
 - MCP Server Evaluation Guide
@@ -264,6 +265,7 @@
 - Conventions
 - Example Formats
 - Complexity and Depth
+- Injeção de GraphAgy
 - What qualifies
 - User-invoked
 - Diff
@@ -287,6 +289,7 @@
 - Learning Record Format
 - 🚀 Uso Rápido
 - Diff
+- RedliningValidator
 - Tool Testing
 - When to Mock
 - PptxGenJS Tutorial
@@ -334,6 +337,7 @@
 - rename_css_vars_genericas.py
 - Rules
 - Commit a13ac2e - 11/07/2026 21:02:00
+- __init__.py
 - Plugin Complementar — Admin Commission Reports
 - Commit 0bd8346e875a - 19/06/2026 22:42:50
 - Arquivos
@@ -413,6 +417,7 @@
 - Strategic Design
 - Quick Reference
 - Strategic Design
+- PPTXSchemaValidator
 - SKILL.md
 - Commit 2c7a7fc4aa1f - 08/07/2026 20:42:38
 - Commit 3c247271a7cd - 11/06/2026 19:41:33
@@ -796,6 +801,7 @@
 - Commit e26280635cca - 18/06/2026 23:35:35
 - Code: python
 - Code: bash
+- PPTXSchemaValidator
 - Code: yaml
 - Commit 0bd8346e875a - 19/06/2026 22:42:50
 - Code: markdown
@@ -807,6 +813,7 @@
 - Commit 63bf3b5f8757 - 22/06/2026 19:31:57
 - Code: bash
 - Code: bash
+- Commit 1293ed8086cb - 23/07/2026 23:41:18
 - Commit c368e710e400 - 23/06/2026 00:53:03
 - Code: bash
 - Code: bash
@@ -814,6 +821,7 @@
 - Code: bash
 - Code: bash
 - Code: bash
+- Commit e1f993f23df2 - 06/10/2026 00:26:40
 - Commit eb6b5f096b3b - 23/06/2026 21:41:54
 - Code: bash
 - Code: ruby
@@ -1085,6 +1093,7 @@
 - Commit 70f2f82e7982 - 23/07/2026 23:41:09
 - README.md
 - **Protocolo MCP**: Comece com sitemap em `https://modelcontextprotocol.io/sitema
+- Commit 2c18d82766dc - 06/10/2026 00:26:42
 - Após autenticar, o gh CLI armazena o token em `~/.config/gh/hosts.yml`
 - [📋 Melhores Práticas MCP](./reference/mcp_best_practices.md) - Diretrizes univer
 - Convenções de nomeação de servidor e ferramentas
@@ -1092,8 +1101,10 @@
 - Melhores práticas de paginação
 - Seleção de transporte (streamable HTTP vs stdio)
 - Padrões de segurança e tratamento de erros
+- Commit 91604cc60e2c - 06/10/2026 00:26:44
 - **Python SDK**: Busque de `https://raw.githubusercontent.com/modelcontextprotoco
 - **TypeScript SDK**: Busque de `https://raw.githubusercontent.com/modelcontextpro
+- Commit 8fd074aa93e3 - 06/10/2026 00:31:43
 - Definições de ferramentas, recursos e prompts
 - Question Guidelines
 - [🐍 Guia de Implementação Python](./reference/python_mcp_server.md) - Guia comple
@@ -1210,12 +1221,16 @@
 - comit/SKILL.md
 - md_ast_md_commit-029721d8871b-2026-06-11-23-38-42_list_50
 - SKILL.md
+- Commit fc8726afe5f4 - 06/10/2026 00:31:43
 - md_ast_md_commit-029721d8871b-2026-06-11-23-38-42_list_53
+- Commit e1f993f - 06/10/2026 00:26:41
+- Commit 8fd074a - 06/10/2026 00:31:43
 - md_ast_md_commit-029721d8871b-2026-06-11-23-38-42_list_57
 - print("Fazendo commit do historico...")
 - run_git_command(["git", "add", "commits/"], project_path)
 - comit/comit.py
 - _, _, commit_hist_code = run_git_command(["git", "commit", "-m", f"chore: histor
+- _run_validation
 - print(f"Commit do historico realizado: {commit_hash[:7]}")
 - md_ast_md_commit-029721d8871b-2026-06-11-23-38-42_list_64
 - md_ast_md_commit-029721d8871b-2026-06-11-23-38-42_list_67
@@ -1244,6 +1259,7 @@
 - if code != 0:
 - if "nothing to commit" in stderr.lower():
 - print("Nenhum arquivo para comitar")
+- _run_validation
 - stdout, _, _ = run_git_command(["git", "diff", "--cached", "--name-only"], cwd)
 - print(f"Erro ao fazer commit: {stderr}")
 - md_ast_md_commit-172f025f9ea0-2026-06-13-02-26-15_list_112
@@ -2171,7 +2187,6 @@
 - canvas-design/canvas-fonts/Silkscreen-Regular.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/get-pro
 - extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/get-pro
-- extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/get-pro
 - canvas-design/canvas-fonts/SmoochSans-Medium.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd/.eslint
 - extrair-conteudo-paginas/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd/.github
@@ -2191,10 +2206,8 @@
 - canvas-design/canvas-fonts/Tektur-Medium.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-s
 - extrair-conteudo-paginas/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-s
-- extrair-conteudo-paginas/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-s
 - extrair-conteudo-paginas/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/h
 - canvas-design/canvas-fonts/Tektur-OFL.txt
-- extrair-conteudo-paginas/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/h
 - extrair-conteudo-paginas/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/h
 - extrair-conteudo-paginas/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/h
 - extrair-conteudo-paginas/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/h
@@ -2216,7 +2229,6 @@
 - canvas-design/canvas-fonts/WorkSans-BoldItalic.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/http-proxy-agent@7.0.2/node_modules/
 - canvas-design/canvas-fonts/WorkSans-Italic.ttf
-- extrair-conteudo-paginas/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules
 - canvas-design/canvas-fonts/WorkSans-OFL.txt
 - extrair-conteudo-paginas/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
@@ -2240,7 +2252,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - canvas-design/canvas-fonts/YoungSerif-Regular.ttf
-- extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
@@ -2431,7 +2442,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - comunicados-internos-empresa/examples/faq-answers.md
-- extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
@@ -2799,9 +2809,7 @@
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreads
 - extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca
 - extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca
-- extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordpro
-- extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
@@ -2851,7 +2859,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
-- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/shared-docu
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
@@ -2879,7 +2886,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f
 - aplicar-temas-cores-fontes/themes/botanical-garden.md
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/shared-rela
-- extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f
 - extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f
 - extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f
 - extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f
@@ -2998,7 +3004,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
-- extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - criar-editar-apresentacao/scripts/office/schemas/ecma/fouth-edition/opc-relation
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
@@ -3060,7 +3065,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
-- extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
 - aplicar-temas-cores-fontes/themes/forest-canopy.md
 - criar-editar-apresentacao/scripts/office/schemas/microsoft/wml-symex-2015.xsd
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
@@ -3083,7 +3087,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
 - criar-editar-apresentacao/scripts/office/validate.py
-- extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
@@ -3141,7 +3144,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
-- extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - criar-editar-documento-word/scripts/accept_changes.py
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
@@ -3169,7 +3171,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatw
 - extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatw
 - extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatw
-- extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatw
 - criar-editar-documento-word/scripts/office/pack.py
 - extrair-conteudo-paginas/node_modules/.pnpm/ws@8.21.0/node_modules/ws/LICENSE
 - extrair-conteudo-paginas/node_modules/.pnpm/ws@8.21.0/node_modules/ws/README.md
@@ -3192,7 +3193,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/xml-name-validator@5.0.0/node_module
 - aplicar-temas-cores-fontes/themes/midnight-galaxy.md
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart
-- extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
 - extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
 - extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagr
@@ -3287,7 +3287,6 @@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
-- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/shared-cu
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/l
@@ -3297,7 +3296,6 @@
 - leitor-pagina-node/node_modules/.pnpm/@csstools+css-color-parser@_ac3eaa9e6357e2
 - leitor-pagina-node/node_modules/.pnpm/@csstools+css-parser-algori_f97be086dec111
 - leitor-pagina-node/node_modules/.pnpm/@csstools+css-tokenizer@3.0.4/node_modules
-- leitor-pagina-node/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modules/@m
 - leitor-pagina-node/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modules/@m
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/shared-ma
 - leitor-pagina-node/node_modules/.pnpm/agent-base@7.1.4/node_modules/agent-base/L
@@ -3323,7 +3321,6 @@
 - leitor-pagina-node/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit/strea
 - aplicar-temas-cores-fontes/themes/ocean-depths.md
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/vml-offic
-- leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
@@ -3405,7 +3402,6 @@
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
-- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - aplicar-temas-cores-fontes/themes/sunset-boulevard.md
 - criar-editar-documento-word/scripts/office/schemas/mce/mc.xsd
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
@@ -3447,7 +3443,6 @@
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
 - criar-editar-documento-word/scripts/office/schemas/microsoft/wml-sdtdatahash-202
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
-- leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/es-errors
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/gopd
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/LICEN
@@ -3463,7 +3458,6 @@
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - criar-editar-documento-word/scripts/office/soffice.py
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
@@ -3546,7 +3540,6 @@
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-erro
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - criar-editar-documento-word/scripts/templates/commentsIds.xml
-- leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - arte-algoritmica-generativa/LICENSE.txt
@@ -3632,14 +3625,12 @@
 - leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - criar-editar-planilhas-excel/scripts/office/schemas/ISO-IEC29500-4_2016/dml-pict
 - leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
-- leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-sym
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - criar-editar-planilhas-excel/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spre
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - criar-editar-planilhas-excel/scripts/office/schemas/ISO-IEC29500-4_2016/dml-word
-- leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - leitor-pagina-node/node_modules/.pnpm/hasown@2.0.4/node_modules/function-bind
 - leitor-pagina-node/node_modules/.pnpm/hasown@2.0.4/node_modules/hasown/.github/F
@@ -3673,7 +3664,6 @@
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - arte-algoritmica-generativa/templates/generator_template.js
 - criar-editar-planilhas-excel/scripts/office/schemas/ISO-IEC29500-4_2016/shared-c
-- leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/l
@@ -3942,7 +3932,6 @@
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - criar-editar-planilhas-excel/scripts/office/soffice.py
-- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
@@ -4232,12 +4221,10 @@
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
 - delegar-tarefas/agy-tasks/templates/task-template.md
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
-- leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/pa
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - delegar-tarefas/agy.py
-- leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
@@ -4285,7 +4272,6 @@
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
-- leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - canvas-design/SKILL.md
 - design-visual-artistico/canvas-fonts/ArsenalSC-Regular.ttf
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
@@ -4323,7 +4309,6 @@
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/R
 - design-visual-artistico/canvas-fonts/Boldonse-OFL.txt
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/p
-- leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/s
 - design-visual-artistico/canvas-fonts/Boldonse-Regular.ttf
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/s
 - leitor-pagina-node/node_modules/.pnpm/node_modules/@asamuzakjp/css-color
@@ -4417,7 +4402,6 @@
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
-- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - design-visual-artistico/canvas-fonts/DMMono-Regular.ttf
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
@@ -4486,10 +4470,8 @@
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - design-visual-artistico/canvas-fonts/IBMPlexSerif-Bold.ttf
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
@@ -4575,7 +4557,6 @@
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
-- leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - design-visual-artistico/canvas-fonts/JetBrainsMono-Bold.ttf
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
@@ -4599,7 +4580,6 @@
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - design-visual-artistico/canvas-fonts/Jura-Medium.ttf
-- leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/ws@8.21.0/node_modules/ws/LICENSE
@@ -5053,7 +5033,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
-- extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - canvas-design/canvas-fonts/GeistMono-OFL.txt
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
@@ -5078,13 +5057,11 @@
 - agy/agy-tasks/current/6f6f1dbc.md
 - canvas-design/canvas-fonts/IBMPlexMono-OFL.txt
 - extrair-conteudo-paginas/node_modules/.pnpm/@csstools+css-tokenizer@3.0.4/node_m
-- extrair-conteudo-paginas/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modu
 - canvas-design/canvas-fonts/IBMPlexMono-Regular.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modu
 - canvas-design/canvas-fonts/IBMPlexSerif-Bold.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/agent-base@7.1.4/node_modules/agent-
 - canvas-design/canvas-fonts/IBMPlexSerif-BoldItalic.ttf
-- extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
 - extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
 - extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
 - extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
@@ -5101,7 +5078,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
 - extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
 - canvas-design/canvas-fonts/InstrumentSans-Bold.ttf
-- extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
 - extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
 - extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
 - extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
@@ -5140,7 +5116,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - canvas-design/canvas-fonts/InstrumentSerif-Italic.ttf
-- extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
@@ -5221,7 +5196,6 @@
 - canvas-design/canvas-fonts/LibreBaskerville-OFL.txt
 - extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dund
 - extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dund
-- extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dund
 - extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/es-e
 - extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/gopd
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
@@ -5293,7 +5267,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
-- extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - canvas-design/canvas-fonts/NationalPark-OFL.txt
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
@@ -5318,7 +5291,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
 - extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
 - extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
-- extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
 - canvas-design/canvas-fonts/Outfit-Bold.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
 - extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
@@ -5331,10 +5303,8 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/e
 - canvas-design/canvas-fonts/Outfit-Regular.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/e
-- extrair-conteudo-paginas/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/e
 - extrair-conteudo-paginas/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_module
 - canvas-design/canvas-fonts/PixelifySans-Medium.ttf
-- extrair-conteudo-paginas/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_module
 - extrair-conteudo-paginas/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_module
 - canvas-design/canvas-fonts/PixelifySans-OFL.txt
 - extrair-conteudo-paginas/node_modules/.pnpm/fetch-blob@3.2.0/node_modules/fetch-
@@ -5392,7 +5362,6 @@
 - elif "**Atualizado em:**" in line:
 - skill-refactory/SKILL.md
 - new_lines.append(f"**Atualizado em:** {now}")
-- else:
 - md_ast_md_commit-ae52af39c9aa-2026-06-11-20-55-53_list_123
 - content = "\n".join(new_lines)
 - md_ast_md_commit-ae52af39c9aa-2026-06-11-20-55-53_list_125
@@ -5731,7 +5700,6 @@
 - {
 - "label": "Tools to use",
 - "file_type": "document",
-- "source_location": "L9",
 - "_origin": "ast",
 - "id": "comunicados_internos_empresa_examples_company_newsletter_tools_to_use",
 - "norm_label": "tools to use"
@@ -5891,7 +5859,6 @@
 - "source_file": "arte-algoritmica-generativa/templates/generator_template.js",
 - {
 - "label": "Guia de Desenvolvimento de Servidores MCP",
-- "file_type": "document",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_guia_de_desenvolvimento_de_servidores_mcp",
 - "community": 80,
@@ -5921,7 +5888,6 @@
 - "id": "construir_servidor_mcp_skill_fluxo_de_trabalho_de_alto_n\u00edvel",
 - "norm_label": "\ud83d\ude80 fluxo de trabalho de alto nivel"
 - },
-- "community": 13,
 - {
 - "label": "Fase 1: Pesquisa Profunda e Planejamento",
 - "file_type": "document",
@@ -5934,7 +5900,6 @@
 - {
 - "label": "1.1 Compreender o Design Moderno do MCP",
 - "file_type": "document",
-- "source_file": "construir-servidor-mcp/SKILL.md",
 - "source_location": "L24",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_1_1_compreender_o_design_moderno_do_mcp",
@@ -5990,7 +5955,6 @@
 - "file_type": "document",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_2_2_implemente_infraestrutura_compartilhada"
-- "community": 27,
 - "norm_label": "2.2 implemente infraestrutura compartilhada"
 - },
 - "_origin": "ast",
@@ -6244,7 +6208,6 @@
 - {
 - "label": "Tool Testing",
 - "file_type": "document",
-- "source_file": "construir-servidor-mcp/reference/evaluation.md",
 - "source_location": "L78",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_evaluation_tool_testing",
@@ -6260,7 +6223,6 @@
 - "id": "construir_servidor_mcp_reference_evaluation_stability",
 - "community": 3,
 - },
-- "source_file": "arte-algoritmica-generativa/templates/generator_template.js",
 - {
 - "file_type": "document",
 - "source_file": "construir-servidor-mcp/reference/evaluation.md",
@@ -6540,7 +6502,6 @@
 - "source_location": "L530",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_evaluation_complete_example_workflow",
-- "community": 3,
 - "norm_label": "complete example workflow"
 - },
 - "label": "getNoiseValue()",
@@ -6671,7 +6632,6 @@
 - {
 - "label": "Tool Naming",
 - "file_type": "document",
-- "source_file": "construir-servidor-mcp/reference/mcp_best_practices.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_mcp_best_practices_tool_naming_47",
 - },
@@ -6823,7 +6783,6 @@
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_mcp_best_practices_testing_requirements"
 - "norm
-- "source_file": "comitar-alteracoes/comit.py",
 - "source_location": "L1",
 - "_origin": "ast",
 - graphify-out/cache/ast/v0.9.10/9ecc6176cb8b80721b38ceb8c37391c3bfcbab7598fb4c926
@@ -6952,7 +6911,6 @@
 - "_origin": "ast",
 - graphify-out/cache/ast/v0.9.10/ae4e5c532124916fefa21a4583ef7f34cc5449d3691d2c6f7
 - "id": "comitar_alteracoes_comit_rationale_72",
-- "community": 16,
 - "norm_label": "gera a arvore de diretorios do projeto a partir de app/"
 - },
 - {
@@ -7156,12 +7114,10 @@
 - graphify-out/cache/ast/v0.9.10/d7d6d02ca50fc31567075d01cd37b7dbc058318f537af41f5
 - {
 - "file_type": "code",
-- "source_file": "construir-servidor-mcp/scripts/connections.py",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_connections_mcpconnectionstdio_create_cont
 - "community": 1,
 - "norm_label": "._create_context()"
-- },
 - graphify-out/2026-07-08/GRAPH_REPORT.md
 - graphify-out/cache/ast/v0.9.10/d838d0aa59bfce3c25a089ba6c530410ba7db2c709f8ec849
 - {
@@ -7347,7 +7303,6 @@
 - "source_location": "L56",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_evaluation_parse_evaluation_file",
-- "community": 1,
 - "norm_label": "parse_evaluation_file()"
 - },
 - graphify-out/2026-07-08/manifest.json
@@ -7487,7 +7442,6 @@
 - {
 - "label": "Evaluate a single QA pair with the given tools.",
 - "file_type": "rationale",
-- "source_file": "construir-servidor-mcp/scripts/evaluation.py",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_evaluation_rationale_162",
 - "community": 1,
@@ -7552,7 +7506,6 @@
 - {
 - "label": "Path",
 - "file_type": "code",
-- "source_file": "",
 - "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_add_slide_py_path",
@@ -7747,7 +7700,6 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_merge_runs_find_elements
-- "community": 20,
 - },
 - return [f for f in stdout.split("\n") if f] if stdout else []
 - {
@@ -7774,7 +7726,6 @@
 - {
 - "label": "_remove_elements()",
 - "file_type": "code",
-- "source_file": "criar-editar-apresentacao/scripts/office/helpers/merge_runs.py",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_merge_runs_remove_elemen
 - "norm_label": "_remove_elements()"
@@ -7893,7 +7844,6 @@
 - {
 - "file_type": "code",
 - "_origin": "ast",
-- "community": 36,
 - },
 - entries = sorted([e for e in os.listdir(path) if e not in IGNORE_DIRS and not e.
 - {
@@ -8062,7 +8012,6 @@
 - "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_soffice_py_path",
-- "norm_label": "path"
 - },
 - files = sorted([f for f in os.listdir(d) if f.endswith('.php') and f not in IGNO
 - {
@@ -8196,7 +8145,6 @@
 - "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_validators_base_baseschemavalida
-- "community": 11,
 - },
 - result.append((name, description))
 - {
@@ -8221,12 +8169,10 @@
 - "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
 - "source_location": "L199",
 - "_origin": "ast",
-- "id": "criar_editar_apresentacao_scripts_office_validators_base_baseschemavalida
 - },
 - lines = []
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_validators_base_baseschemavalida
 - },
@@ -8359,7 +8305,6 @@
 - "file_type": "code",
 - "source_file": "criar-editar-apresentacao/scripts/office/validators/docx.py",
 - "_origin": "ast",
-- "community": 28,
 - "norm_label": ".validate_whitespace_preservation()"
 - },
 - tree = generate_dir_tree(project_path)
@@ -8420,12 +8365,10 @@
 - "file_type": "code",
 - "source_location": "L386",
 - "_origin": "ast",
-- "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalida
 - },
 - changed = True
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-apresentacao/scripts/office/validators/docx.py",
 - "source_location": "L391",
 - "_origin": "ast",
 - "norm_label": ".repair_durableid()"
@@ -8619,7 +8562,6 @@
 - "source_location": "L149",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_thumbnail_create_hidden_placeholder",
-- "community": 17,
 - "norm_label": "create_hidden_placeholder()"
 - },
 - {
@@ -8805,7 +8747,6 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_comment_rationale_1",
-- "community": 37,
 - "norm_label": "add comments to docx documents.  usage:     python comment.py unp
 - },
 - {
@@ -8899,7 +8840,6 @@
 - {
 - "label": "_is_run()",
 - "file_type": "code",
-- "source_file": "criar-editar-documento-word/scripts/office/helpers/merge_runs.py
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_merge_runs_is_run",
 - "norm_label": "_is_run()"
@@ -8910,7 +8850,6 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_merge_runs_can_merge",
-- "community": 21,
 - "norm_label": "_can_merge()"
 - },
 - graphify-out/cache/ast/v0.9.10/1cd108a1d2ea8230ba095b0265e22c9a7c63ed3bf2402e63a
@@ -8985,7 +8924,6 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_simplify_redlines_find
-- "community": 38,
 - },
 - if not staged:
 - {
@@ -9083,7 +9021,6 @@
 - {
 - "file_type": "code",
 - "source_file": "criar-editar-documento-word/scripts/office/soffice.py",
-- "source_location": "L24",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_soffice_get_soffice_env",
 - },
@@ -9155,7 +9092,6 @@
 - },
 - if "nothing to commit" in stderr.lower():
 - {
-- "label": "Path",
 - "file_type": "code",
 - "source_file": "",
 - "source_location": "",
@@ -9185,7 +9121,6 @@
 - },
 - {
 - "file_type": "code",
-- "source_location": "L25",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_validate_main",
 - },
@@ -9223,7 +9158,6 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_validators_base",
-- "community": 0,
 - "norm_label": "base.py"
 - },
 - create_commit_file(project_path, commit_id, args.message, staged, commit_hash, d
@@ -9285,7 +9219,6 @@
 - "label": ".validate_file_references()",
 - "file_type": "code",
 - "_origin": "ast",
-- "id": "criar_editar_documento_word_scripts_office_validators_base_baseschemavali
 - "community": 0,
 - "norm_label": ".validate_file_references()"
 - },
@@ -9316,7 +9249,6 @@
 - _, pull_stderr, pull_code = run_git_command(["git", "pull", "--rebase"], project
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-documento-word/scripts/office/validators/base.py",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_validators_base_baseschemavali
 - "community": 0,
@@ -9442,7 +9374,6 @@
 - "label": ".count_paragraphs_in_unpacked()",
 - "file_type": "code",
 - "_origin": "ast",
-- "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavali
 - "community": 0,
 - },
 - `force`: Usa --force-with-lease no push (default: false)
@@ -9462,7 +9393,6 @@
 - },
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-documento-word/scripts/office/validators/docx.py",
 - "source_location": "L243",
 - "_origin": "ast",
 - "norm_label": ".compare_paragraph_counts()"
@@ -9635,7 +9565,6 @@
 - },
 - print(f"Aviso ao atualizar graphify-out: {result.stderr[:500] if result.stderr e
 - {
-- "file_type": "rationale",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_validators_redlining_rationale
@@ -9699,7 +9628,6 @@
 - "source_location": "L93",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_merge_runs_remove_ele
-- "community": 22,
 - },
 - text=True
 - {
@@ -9711,7 +9639,6 @@
 - {
 - "label": "_merge_runs_in()",
 - "file_type": "code",
-- "source_file": "criar-editar-planilhas-excel/scripts/office/helpers/merge_runs.p
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_merge_runs_merge_runs
 - "community": 22,
@@ -9833,7 +9760,6 @@
 - "source_file": "criar-editar-planilhas-excel/scripts/office/helpers/simplify_red
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_simplify_redlines_get
-- "community": 39,
 - },
 - {
 - "file_type": "code",
@@ -9919,7 +9845,6 @@
 - "label": "get_soffice_env()",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_soffice_get_soffice_env",
-- "community": 29,
 - },
 - {
 - "file_type": "code",
@@ -10080,7 +10005,6 @@
 - "source_file": "criar-editar-planilhas-excel/scripts/office/validators/base.py",
 - "source_location": "L109",
 - "_origin": "ast",
-- "id": "criar_editar_planilhas_excel_scripts_office_validators_base_baseschemaval
 - },
 - graphify-out/cache/ast/v0.9.10/41aed6b94daa5709d38953a245d57c066e312b265c6b09d58
 - parser.add_argument("--output", default=DEFAULT_OUTPUT_BASE, help="Diretório bas
@@ -10098,7 +10022,6 @@
 - "source_location": "L115",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_validators_base_baseschemaval
-- "community": 12,
 - "norm_label": ".repair_whitespace_preservation()"
 - },
 - repo_path = args.repo
@@ -10214,7 +10137,6 @@
 - # Check if file already exists
 - {
 - "file_type": "rationale",
-- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/base.py",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_validators_base_rationale_1",
@@ -10254,8 +10176,6 @@
 - "_origin": "ast",
 - },
 - {
-- "file_type": "code",
-- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/docx.py",
 - "_origin": "ast",
 - "community": 30,
 - },
@@ -10263,7 +10183,6 @@
 - {
 - "file_type": "code",
 - "_origin": "ast",
-- "community": 30,
 - "norm_label": ".count_paragraphs_in_unpacked()"
 - filename = f"commit-{commit_hash[:12]}-{dt.strftime('%Y-%m-%d-%H-%M-%S')}.md"
 - {
@@ -10279,7 +10198,6 @@
 - {
 - "file_type": "code",
 - "_origin": "ast",
-- "id": "criar_editar_planilhas_excel_scripts_office_validators_docx_docxschemaval
 - },
 - if file_path.exists():
 - {
@@ -10516,7 +10434,6 @@
 - "label": "ease_in_quad()",
 - "file_type": "code",
 - "source_file": "criar-gifs-animados-slack/core/easing.py",
-- "source_location": "L17",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_ease_in_quad",
 - "community": 5,
@@ -10644,7 +10561,6 @@
 - {
 - "label": "ease_back_in()",
 - "file_type": "code",
-- "source_file": "criar-gifs-animados-slack/core/easing.py",
 - "source_location": "L140",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_ease_back_in",
@@ -10723,7 +10639,6 @@
 - "file_type": "rationale",
 - "source_file": "criar-gifs-animados-slack/core/easing.py",
 - "source_location": "L28",
-- "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_rationale_28",
 - "norm_label": "quadratic ease-in-out (slow start and end)."
 - },
@@ -10780,7 +10695,6 @@
 - "source_file": "criar-gifs-animados-slack/core/easing.py",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_rationale_86",
-- "community": 5,
 - "norm_label": "elastic ease-out (spring effect)."
 - },
 - "45": "frame_composer.py",
@@ -10983,12 +10897,10 @@
 - "source_file": "",
 - "_origin": "ast",
 - "id": "ndarray",
-- "community": 14,
 - "norm_label": "ndarray"
 - },
 - {
 - "source_file": "",
-- "source_location": "",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_gif_builder_py_image",
 - "community": 14,
@@ -11083,7 +10995,6 @@
 - {
 - "label": "Reduce colors in all frames using quantization.          Args:
 - "file_type": "rationale",
-- "source_file": "criar-gifs-animados-slack/core/gif_builder.py",
 - "source_location": "L62",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_gif_builder_rationale_62",
@@ -11497,7 +11408,6 @@
 - },
 - "131": "Audit Trail",
 - {
-- "label": "main()",
 - "file_type": "code",
 - "source_file": "gerar-historico-commits/generate_commit_history.py",
 - "_origin": "ast",
@@ -11557,7 +11467,6 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "gerenciar_remover_skills_skillrefactory_main",
-- "norm_label": "main()"
 - },
 - "139": "Backup Strategy for Financial Data",
 - {
@@ -11653,7 +11562,6 @@
 - {
 - "label": "Strip provider prefix, lowercase, dots \u2192 hyphens.",
 - "file_type": "rationale",
-- "source_file": "graphify/references/model_prices.py",
 - "source_location": "L77",
 - "_origin": "ast",
 - "id": "graphify_references_model_prices_rationale_77",
@@ -11674,7 +11582,6 @@
 - "source_location": "L177",
 - "_origin": "ast",
 - "id": "graphify_references_model_prices_rationale_177",
-- "community": 32,
 - "norm_label": "exibe modelos em formato de arvore por familia."
 - },
 - graphify-out/cache/ast/v0.9.10/641be62de793ad24929150263aaf657c4178a9e1ed1cda574
@@ -12012,7 +11919,6 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "processar_arquivos_pdf_scripts_fill_pdf_form_with_annotations_fill_pdf_fo
-- "community": 33,
 - "norm_label": "fill_pdf_form()"
 - },
 - graphify-out/cache/ast/v0.9.10/6a42462f032c1c74bc61770bf1d4f262ba382596f34d5723b
@@ -12198,7 +12104,6 @@
 - {
 - "label": "README.MD",
 - "file_type": "document",
-- "source_file": "README.MD",
 - "id": "readme",
 - "norm_label": "readme.md"
 - },
@@ -12282,7 +12187,6 @@
 - "source_location": "L88",
 - "_origin": "ast",
 - "id": "readme_git_arquivos_projetos",
-- "community": 25,
 - "norm_label": "\ud83d\uddc2\ufe0f git, arquivos & projetos"
 - },
 - {
@@ -12406,7 +12310,6 @@
 - },
 - {
 - "file_type": "document",
-- "source_location": "L12",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_arctic_frost_typography",
 - "community": 94,
@@ -12907,7 +12810,6 @@
 - {
 - "label": "Abordagem",
 - "file_type": "document",
-- "source_file": "boas-praticas-de-codigo/SKILL.md",
 - "source_location": "L9",
 - "_origin": "ast",
 - "id": "boas_praticas_de_codigo_skill_abordagem",
@@ -13083,7 +12985,6 @@
 - "source_file": "boas-praticas-de-codigo/SKILL.md",
 - "_origin": "ast",
 - "id": "boas_praticas_de_codigo_skill_3_mvc_model_view_controller_al\u00e9m_do_ra
-- "community": 7,
 - "norm_label": "3. mvc \u2014 model-view-controller (alem do rails)"
 - },
 - {
@@ -13329,7 +13230,6 @@
 - "source_location": "L83",
 - "_origin": "ast",
 - "id": "buscar_grupos_whatsapp_skill_n\u00edveis_de_log",
-- "community": 23,
 - "norm_label": "niveis de log"
 - },
 - "source_location": "L1",
@@ -13354,7 +13254,6 @@
 - {
 - "label": "Webhook REST API",
 - "file_type": "document",
-- "source_file": "buscar-grupos-whatsapp/SKILL.md",
 - "source_location": "L142",
 - "_origin": "ast",
 - "id": "buscar_grupos_whatsapp_skill_webhook_rest_api",
@@ -13536,7 +13435,6 @@
 - "norm_label": "initializeseed()"
 - {
 - "label": "Commit sem confirmacao interativa (SOMENTE se usuario pedir):",
-- "source_file": "comitar-alteracoes/SKILL.md",
 - "_origin": "ast",
 - "id": "comitar_alteracoes_skill_commit_sem_confirmacao_interativa_somente_se_usu
 - "community": 34,
@@ -13556,7 +13454,6 @@
 - "file_type": "document",
 - "_origin": "ast",
 - "id": "comitar_alteracoes_skill_commit_forcado_force_with_lease",
-- "community": 34,
 - "norm_label": "commit forcado (--force-with-lease):"
 - },
 - "label": "setup()",
@@ -13684,7 +13581,6 @@
 - {
 - "label": "commit-4e04532-18-06-2026-22-26-40.md",
 - "file_type": "document",
-- "source_location": "L1",
 - "_origin": "ast",
 - "id": "commits_commit_4e04532_18_06_2026_22_26_40",
 - "norm_label": "commit-4e04532-18-06-2026-22-26-40.md"
@@ -13793,7 +13689,6 @@
 - "community": 107,
 - },
 - "label": ".constructor()",
-- {
 - "label": "Hash",
 - "file_type": "document",
 - "_origin": "ast",
@@ -15223,7 +15118,6 @@
 - raise ValueError(
 - f"Multiple authors added new changes: {new_changes}. "
 - "Cannot infer which author to validate."
-- )
 - python pack.py <input_directory> <output_file> [--original <file>] [--validate t
 - python pack.py unpacked/ output.docx --original input.docx
 - python pack.py unpacked/ output.pptx --validate false
@@ -15371,7 +15265,6 @@
 - <xsd:attribute name="formatCode" type="s:ST_Xstring" use="optional"/>
 - </xsd:complexType>
 - <xsd:complexType name="CT_NumData">
-- <xsd:sequence>
 - pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd
 - <xsd:element name="formatCode" type="s:ST_Xstring" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="pt" type="CT_NumVal" minOccurs="0" maxOccurs="unbounded"/>
@@ -15386,7 +15279,6 @@
 - </xsd:complexType>
 - <xsd:complexType name="CT_NumDataSource">
 - <xsd:sequence>
-- </xsd:choice>
 - </xsd:sequence>
 - pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd
 - </xsd:complexType>
@@ -15436,7 +15328,6 @@
 - <xsd:sequence>
 - <xsd:element name="f" type="xsd:string" minOccurs="1" maxOccurs="1"/>
 - <xsd:element name="multiLvlStrCache" type="CT_MultiLvlStrData" minOccurs="0" max
-- <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
 - pptx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd
 - </xsd:complexType>
@@ -15663,7 +15554,6 @@
 - </xsd:complexType>
 - slack-gif-creator/core/gif_builder.py
 - <xsd:simpleType name="ST_FirstSliceAng">
-- <xsd:minInclusive value="0"/>
 - </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:complexType name="CT_FirstSliceAng">
@@ -15998,7 +15888,6 @@
 - <xsd:complexType name="CT_BubbleSer">
 - <xsd:sequence>
 - xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd
-- <xsd:element name="dLbls" type="CT_DLbls" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="xVal" type="CT_AxDataSource" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="bubbleSize" type="CT_NumDataSource" minOccurs="0" maxOccurs="
 - <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
@@ -16057,7 +15946,6 @@
 - </xsd:complexType>
 - <xsd:simpleType name="ST_ScatterStyle">
 - <xsd:restriction base="xsd:string">
-- <xsd:enumeration value="none"/>
 - <xsd:enumeration value="lineMarker"/>
 - <xsd:enumeration value="marker"/>
 - <xsd:enumeration value="smooth"/>
@@ -16112,7 +16000,6 @@
 - <xsd:attribute name="val" type="ST_BarDir" default="col"/>
 - </xsd:complexType>
 - <xsd:simpleType name="ST_Shape">
-- <xsd:restriction base="xsd:string">
 - <xsd:enumeration value="cone"/>
 - <xsd:enumeration value="coneToMax"/>
 - algorithmic-art/LICENSE.txt
@@ -16381,7 +16268,6 @@
 - </xsd:complexType>
 - <xsd:complexType name="CT_DispUnits">
 - <xsd:sequence>
-- <xsd:choice>
 - <xsd:element name="custUnit" type="CT_Double" minOccurs="1" maxOccurs="1"/>
 - <xsd:element name="builtInUnit" type="CT_BuiltInUnit" minOccurs="1" maxOccurs="1
 - <xsd:element name="dispUnitsLbl" type="CT_DispUnitsLbl" minOccurs="0" maxOccurs=
@@ -16393,7 +16279,6 @@
 - canvas-design/canvas-fonts/Gloock-Regular.ttf
 - Apache License
 - </xsd:restriction>
-- </xsd:simpleType>
 - <xsd:complexType name="CT_Orientation">
 - <xsd:attribute name="val" type="ST_Orientation" default="minMax"/>
 - </xsd:complexType>
@@ -16880,7 +16765,6 @@
 - <xsd:complexType name="CT_Pt">
 - <xsd:sequence>
 - <xsd:element name="prSet" type="CT_ElemPropSet" minOccurs="0" maxOccurs="1"/>
-- <xsd:element name="spPr" type="a:CT_ShapeProperties" minOccurs="0" maxOccurs="1"
 - <xsd:element name="t" type="a:CT_TextBody" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
 - <xsd:attribute name="modelId" type="ST_ModelId" use="required"/>
@@ -17038,7 +16922,6 @@
 - <xsd:element name="ruleLst" type="CT_Rules" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="forEach" type="CT_ForEach"/>
 - <xsd:element name="choose" type="CT_Choose"/>
-- <xsd:element name="extLst" type="a:CT_OfficeArtExtensionList" minOccurs="0" maxO
 - </xsd:choice>
 - <xsd:attribute name="func" type="ST_FunctionType" use="required"/>
 - <xsd:attribute name="arg" type="ST_FunctionArgument" use="optional" default="non
@@ -17515,7 +17398,6 @@
 - <xsd:restriction base="xsd:token">
 - <xsd:enumeration value="t"/>
 - canvas-design/canvas-fonts/InstrumentSerif-Italic.ttf
-- </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_SecondaryChildAlignment" final="restriction">
 - <xsd:restriction base="xsd:token">
@@ -17595,7 +17477,6 @@
 - </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_FallbackDimension" final="restriction">
-- <xsd:restriction base="xsd:token">
 - <xsd:enumeration value="1D"/>
 - <xsd:enumeration value="2D"/>
 - and charge a fee for, acceptance of support, warranty, indemnity,
@@ -17752,7 +17633,6 @@
 - </xsd:complexType>
 - <xsd:complexType name="CT_QuickTimeFile">
 - <xsd:sequence>
-- <xsd:element name="extLst" type="CT_OfficeArtExtensionList" minOccurs="0" maxOcc
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:complexType name="CT_AudioCDTime">
@@ -17857,7 +17737,6 @@
 - <xsd:complexType name="CT_FillStyleList">
 - <xsd:sequence>
 - </xsd:sequence>
-- </xsd:complexType>
 - <xsd:complexType name="CT_LineStyleList">
 - <xsd:sequence>
 - algorithmic-art/templates/generator_template.js
@@ -18095,7 +17974,6 @@
 - </xsd:simpleType>
 - <xsd:complexType name="CT_SystemColor">
 - <xsd:sequence>
-- </xsd:sequence>
 - <xsd:attribute name="val" type="ST_SystemColorVal" use="required"/>
 - <xsd:attribute name="lastClr" type="s:ST_HexColorRGB" use="optional"/>
 - // - Probabilities: likelihood of events
@@ -18393,7 +18271,6 @@
 - <xsd:restriction base="xsd:token">
 - <xsd:enumeration value="tl"/>
 - // - Use noLoop() by default
-- <xsd:enumeration value="l"/>
 - <xsd:enumeration value="bl"/>
 - <xsd:enumeration value="br"/>
 - </xsd:restriction>
@@ -18826,7 +18703,6 @@
 - <xsd:simpleType name="ST_LightRigDirection">
 - <xsd:restriction base="xsd:token">
 - ✓ Seed navigation section (always include this)
-- <xsd:enumeration value="r"/>
 - </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_LightRigType">
@@ -19116,7 +18992,6 @@
 - <xsd:element name="lin" type="CT_LinearShadeProperties" minOccurs="1" maxOccurs=
 - <xsd:element name="path" type="CT_PathShadeProperties" minOccurs="1" maxOccurs="
 - </xsd:choice>
-- </xsd:group>
 - }
 - <xsd:simpleType name="ST_TileFlipMode">
 - <xsd:restriction base="xsd:token">
@@ -20031,7 +19906,6 @@
 - background: #c86641;
 - transform: translateY(-1px);
 - canvas-design/canvas-fonts/SmoochSans-OFL.txt
-- }
 - .button:active {
 - transform: translateY(0);
 - }
@@ -20119,7 +19993,6 @@
 - <span class="value-display" id="flowSpeed-value">0.5</span>
 - </div>
 - canvas-design/canvas-fonts/YoungSerif-Regular.ttf
-- </div>
 - <!-- Noise Scale -->
 - <label>Noise Scale</label>
 - <div class="slider-container">
@@ -20721,7 +20594,6 @@
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
-- leitor-pagina-node/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modules/@m
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
@@ -20753,13 +20625,11 @@
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/RE
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
-- leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/pa
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
-- leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
@@ -20827,7 +20697,6 @@
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
-- leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/data-uri-to-
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/fetch-blob
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/formdata-pol
@@ -20835,7 +20704,6 @@
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/L
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/R
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/p
-- leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/s
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/s
 - leitor-pagina-node/node_modules/.pnpm/node_modules/@asamuzakjp/css-color
 - leitor-pagina-node/node_modules/.pnpm/node_modules/@csstools/color-helpers
@@ -20920,7 +20788,6 @@
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/README.md
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
-- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit/lib/a
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
@@ -20978,7 +20845,6 @@
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit/lib/t
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
@@ -21007,7 +20873,6 @@
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit/seria
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
@@ -21061,7 +20926,6 @@
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
-- leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
@@ -21069,7 +20933,6 @@
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
-- leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
@@ -21091,7 +20954,6 @@
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/tr46
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/webidl-conv
-- leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
@@ -21311,7 +21173,6 @@
 - "querystringify": "private"
 - "requires-port@1.0.0": {
 - "requires-port": "private"
-- },
 - "@csstools/color-helpers@5.1.0": {
 - "@csstools/color-helpers": "private"
 - },
@@ -21484,7 +21345,6 @@
 - * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - */function Du(t){const e=180*Math.atan2(t[2],t[1])/Math.PI;return[t[0],Math.sqrt
 - * Convert Lab to D50-adapted XYZ
-- * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - */function ci(t){const e=903.2962962962963,n=216/24389,r=(t[0]+16)/116,s=t[1]/50
 - * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - * @copyright This software or document includes material copied from or derived
@@ -21521,7 +21381,6 @@
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - * Convert XYZ to linear-light a98-rgb
 - *
-- * @copyright This software or document includes material copied from or derived
 - */const ju=[12831/3959,-329/214,-1974/3959,-851781/878810,1648619/878810,36519/8
 - * @copyright This software or document includes material copied from or derived
 - */function Ir(t){return At(ju,t)}/**
@@ -21586,7 +21445,6 @@
 - */function Yu(t){return Ps(t)}const Zu=[608311/1250200,189793/714400,198249/1000
 - * Convert an array of linear-light display-p3 values to CIE XYZ
 - * using D65 (no chromatic adaptation)
-- *
 - * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - */function Ju(t){return At(Zu,t)}/**
 - * Convert an array of prophoto-rgb values where in-gamut Colors are in the
@@ -21664,7 +21522,6 @@
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
-- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
@@ -21710,7 +21567,6 @@
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
-- leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/es-errors
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/gopd
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/LICEN
@@ -21774,8 +21630,6 @@
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/escap
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/packa
@@ -21807,7 +21661,6 @@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-errors/uri
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-erro
-- leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
@@ -21889,12 +21742,10 @@
 - leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
-- leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-sym
-- leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
@@ -21933,7 +21784,6 @@
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
-- leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/l
@@ -22168,7 +22018,6 @@
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
-- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
@@ -22614,7 +22463,6 @@
 - return $this->provider->send($email);
 - }
 - $this->provider = new Twilio(MT_TWILIO_SID, MT_TWILIO_TOKEN);
-- }
 - public function send($to, $message) {
 - // Fallback: se WhatsApp falhar, tenta SMS
 - try {
@@ -23504,7 +23352,6 @@
 - **Body Text**: DejaVu Sans
 - Code: typescript
 - Code: typescript
-- Code: typescript
 - Code: bash
 - Node/TypeScript MCP Server Implementation Guide
 - Overview
@@ -23985,25 +23832,21 @@
 10. `PptxGenJS Tutorial` - 14 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `_run_validation()` --calls--> `DOCXSchemaValidator`  [INFERRED]
+  criar-editar-apresentacao/scripts/office/pack.py → criar-editar-apresentacao/scripts/office/validators/docx.py
+- `_run_validation()` --calls--> `PPTXSchemaValidator`  [INFERRED]
+  criar-editar-apresentacao/scripts/office/pack.py → criar-editar-apresentacao/scripts/office/validators/pptx.py
+- `_run_validation()` --calls--> `RedliningValidator`  [INFERRED]
+  criar-editar-apresentacao/scripts/office/pack.py → criar-editar-apresentacao/scripts/office/validators/redlining.py
 - `main()` --calls--> `DOCXSchemaValidator`  [INFERRED]
   criar-editar-apresentacao/scripts/office/validate.py → criar-editar-apresentacao/scripts/office/validators/docx.py
 - `main()` --calls--> `PPTXSchemaValidator`  [INFERRED]
   criar-editar-apresentacao/scripts/office/validate.py → criar-editar-apresentacao/scripts/office/validators/pptx.py
-- `main()` --calls--> `RedliningValidator`  [INFERRED]
-  criar-editar-apresentacao/scripts/office/validate.py → criar-editar-apresentacao/scripts/office/validators/redlining.py
-- `main()` --calls--> `DOCXSchemaValidator`  [INFERRED]
-  criar-editar-documento-word/scripts/office/validate.py → criar-editar-documento-word/scripts/office/validators/docx.py
-- `main()` --calls--> `PPTXSchemaValidator`  [INFERRED]
-  criar-editar-documento-word/scripts/office/validate.py → criar-editar-documento-word/scripts/office/validators/pptx.py
 
 ## Import Cycles
 - None detected.
 
-## Communities (24114 total, 23690 thin omitted)
-
-### Community 0 - "BaseSchemaValidator"
-Cohesion: 0.05
-Nodes (16): _condense_xml(), pack(), Path, Pack a directory into a DOCX, PPTX, or XLSX file.  Validates with auto-repair, c, _run_validation(), BaseSchemaValidator, Base validator with common validation logic for document files., DOCXSchemaValidator (+8 more)
+## Communities (23961 total, 23523 thin omitted)
 
 ### Community 1 - "MCPConnection"
 Cohesion: 0.06
@@ -24113,6 +23956,10 @@ Nodes (11): Compressed examples, Modes, Step 0 - Classify the ask, Step 1 - Defi
 Cohesion: 0.22
 Nodes (12): _ensure_shim(), get_soffice_env(), _needs_shim(), CompletedProcess, Path, Helper for running LibreOffice (soffice) in environments where AF_UNIX sockets m, run_soffice(), has_gtimeout() (+4 more)
 
+### Community 30 - "DOCXSchemaValidator"
+Cohesion: 0.25
+Nodes (3): main(), Command line tool to validate Office document XML files against XSD schemas and, RedliningValidator
+
 ### Community 31 - "Skill Slack GIF Creator"
 Cohesion: 0.14
 Nodes (13): Conceitos de Animação, Desenhando do Zero, Desenhando Gráficos, Fazendo Gráficos Ficarem Bons, Funções de Ease, GIFBuilder, Imagens Enviadas pelo Usuário, Otimização (+5 more)
@@ -24166,8 +24013,8 @@ Cohesion: 0.24
 Nodes (10): accept_changes(), Accept all tracked changes in a DOCX file using LibreOffice.  Requires LibreOffi, _setup_libreoffice_macro(), _ensure_shim(), get_soffice_env(), _needs_shim(), CompletedProcess, Path (+2 more)
 
 ### Community 44 - "validators.py"
-Cohesion: 0.15
-Nodes (11): main(), Command line tool to validate Office document XML files against XSD schemas and, main(), Command line tool to validate Office document XML files against XSD schemas and, main(), Command line tool to validate Office document XML files against XSD schemas and, is_slack_ready(), Path (+3 more)
+Cohesion: 0.28
+Nodes (7): main(), Command line tool to validate Office document XML files against XSD schemas and, is_slack_ready(), Path, Quick check if GIF is ready for Slack.      Args:         gif_path: Path to GIF, Validate GIF for Slack (dimensions, size, frame count).      Args:         gif_p, validate_gif()
 
 ### Community 45 - "frame_composer.py"
 Cohesion: 0.23
@@ -24180,10 +24027,6 @@ Nodes (11): dependencies, jsdom, @mozilla/readability, node-fetch, description, 
 ### Community 47 - "Skill PDF - Processamento de PDFs"
 Cohesion: 0.17
 Nodes (11): Bibliotecas Python, Dividir PDF, Extrair Texto de PDFs Escaneados, Ferramentas de Linha de Comando, Mesclar PDFs, pdfplumber - Extrair Texto e Tabelas, pypdf - Operações Básicas, Referência Rápida (+3 more)
-
-### Community 48 - "RedliningValidator"
-Cohesion: 0.05
-Nodes (16): _condense_xml(), pack(), Path, Pack a directory into a DOCX, PPTX, or XLSX file.  Validates with auto-repair, c, _run_validation(), BaseSchemaValidator, Base validator with common validation logic for document files., DOCXSchemaValidator (+8 more)
 
 ### Community 49 - "Skill PPTX - Apresentações PowerPoint"
 Cohesion: 0.18
@@ -24214,8 +24057,8 @@ Cohesion: 0.20
 Nodes (9): Abordagens, Converter .doc para .docx, Criação de Documentos, Edição de Documentos Existentes, Extração de Texto, Regras Importantes, Skill DOCX - Documentos Word, Validação (+1 more)
 
 ### Community 56 - "RedliningValidator"
-Cohesion: 0.32
-Nodes (4): Base validator with common validation logic for document files., Validator for Word document XML files against XSD schemas., Validation modules for Word document processing., Validator for PowerPoint presentation XML files against XSD schemas.
+Cohesion: 0.24
+Nodes (5): Base validator with common validation logic for document files., Validator for Word document XML files against XSD schemas., Validation modules for Word document processing., Validator for PowerPoint presentation XML files against XSD schemas., Validator for tracked changes in Word documents.
 
 ### Community 57 - "Skill Algorithmic Art"
 Cohesion: 0.22
@@ -24630,8 +24473,8 @@ Cohesion: 0.33
 Nodes (5): Exemplo de output, Integracao, Output, Uso, What I do
 
 ### Community 191 - "Buildify Agent"
-Cohesion: 0.17
-Nodes (11): Buildify Agent, Commands, Cost-Free Knowledge Graph, Example Workflow, MANDATORY STEP 0 — SKILL ROUTER (ANTES DE TUDO), OpenCode Visualization (how to report status), Priority: Graph Query FIRST, Grep NEVER, Project codebase (STEP 1) (+3 more)
+Cohesion: 0.15
+Nodes (12): Buildify Agent, Commands, Cost-Free Knowledge Graph, Example Workflow, MANDATORY STEP 0 — SKILL ROUTER (ANTES DE TUDO), ⚠️ MANDATORY STEP -1 — KILL STALE OPENCODE INSTANCES (FIRST THING), OpenCode Visualization (how to report status), Priority: Graph Query FIRST, Grep NEVER (+4 more)
 
 ### Community 193 - "md_to_ast.py"
 Cohesion: 0.29
@@ -24757,6 +24600,10 @@ Nodes (7): Learning Record Format, Numbering, Optional sections, Supersession, T
 Cohesion: 0.25
 Nodes (7): Authority order, Domain adapter: data analysis, Done, by example, Evidence and primary sources, Fraud table (for fable-judge), Minimum evidence set (binding, before any aggregate), Verification by observation
 
+### Community 271 - "Injeção de GraphAgy"
+Cohesion: 0.14
+Nodes (13): Agente Injetado, Arquivos da skill, Ativação, Comandos do Agy como escravo (modo print, sem TTY), Comandos do Graphify (PRIORIDADE), Custo zero, Exemplo de uso, Injeção de GraphAgy (+5 more)
+
 ### Community 277 - "Domain adapter: design and UX"
 Cohesion: 0.25
 Nodes (7): Authority order, Domain adapter: design and UX, Done, by example, Evidence and primary sources, Fraud table (for fable-judge), Minimum evidence set (binding, before any pixel), Verification by observation
@@ -24769,6 +24616,10 @@ Nodes (7): Authority order, Domain adapter: finance, Done, by example, Evidence 
 Cohesion: 0.25
 Nodes (7): Authority order, Domain adapter: legal and compliance, Done, by example, Evidence and primary sources, Fraud table (for fable-judge), Minimum evidence set (binding, before any conclusion), Verification by observation
 
+### Community 295 - "RedliningValidator"
+Cohesion: 0.25
+Nodes (3): main(), Command line tool to validate Office document XML files against XSD schemas and, RedliningValidator
+
 ### Community 298 - "PptxGenJS Tutorial"
 Cohesion: 0.25
 Nodes (7): Authority order, Domain adapter: marketing and content, Done, by example, Evidence and primary sources, Fraud table (for fable-judge), Minimum evidence set (binding, before any writing), Verification by observation
@@ -24778,8 +24629,8 @@ Cohesion: 0.25
 Nodes (7): Authority order, Domain adapter: research and reporting, Done, by example, Evidence and primary sources, Fraud table (for fable-judge), Minimum evidence set (binding, before any conclusion), Verification by observation
 
 ### Community 300 - "Agent Injection"
-Cohesion: 0.11
-Nodes (18): Agent Injection — Buildify (Fable + Graph-First), Agente Buildify, Comandos, Core Rule: Graph Query FIRST, Grep NEVER, Localização dos Arquivos, Modos, O Loop Buildify, O que faz (+10 more)
+Cohesion: 0.10
+Nodes (19): Agent Injection — Buildify (Fable + Graph-First), Agente Buildify, Comandos, Core Rule: Graph Query FIRST, Grep NEVER, Localização dos Arquivos, Modos, O Loop Buildify, O que faz (+11 more)
 
 ### Community 301 - "Process"
 Cohesion: 0.25
@@ -24788,6 +24639,10 @@ Nodes (8): Branch, Completion Criterion, Leading Word, Legwork, Negation, Post-C
 ### Community 302 - "Examples"
 Cohesion: 0.33
 Nodes (6): Arquivos de Referência, 📚 Biblioteca de Documentação, Documentação Principal MCP (Carregue Primeiro), Documentação SDK (Carregue Durante Fase 1/2), Guia de Avaliação (Carregue Durante Fase 4), Guias de Implementação Específicos por Linguagem (Carregue Durante Fase 2)
+
+### Community 303 - "Images"
+Cohesion: 0.18
+Nodes (10): Comandos, GraphAgy — Agente Coordenador (agy é o escravo), MANDATORY STEP 0 — SKILL ROUTER (ANTES DE TUDO), OpenCode Visualization (como reportar status), Proibições, STEP 1 — GRAFO É PRIORIDADE (MANDATORY, sempre primeiro), STEP 2 — DELEGAR AO AGY ESCRAVO (SÓ DEPOIS DO GRAFO), STEP 3 — VALIDAR E ATUALIZAR O GRAFO (+2 more)
 
 ### Community 304 - "Advanced FastMCP Features"
 Cohesion: 0.40
@@ -24812,6 +24667,10 @@ Nodes (9): classify(), classify_utility(), color_class(), extract_hex_colors(), 
 ### Community 342 - "Commit a13ac2e - 11/07/2026 21:02:00"
 Cohesion: 0.33
 Nodes (5): Arquivos, Commit a13ac2e - 11/07/2026 21:02:00, Diff, Hash, Mensagem
+
+### Community 343 - "__init__.py"
+Cohesion: 0.24
+Nodes (5): Base validator with common validation logic for document files., Validator for Word document XML files against XSD schemas., Validation modules for Word document processing., Validator for PowerPoint presentation XML files against XSD schemas., Validator for tracked changes in Word documents.
 
 ### Community 344 - "Plugin Complementar — Admin Commission Reports"
 Cohesion: 0.29
@@ -24913,6 +24772,10 @@ Nodes (6): Arquivos, AST Resumo, Commit c857027bebd2 - 18/06/2026 23:31:06, Diff
 Cohesion: 0.29
 Nodes (6): Arquivos, AST Resumo, Commit 2f2c5af0c7a0 - 18/06/2026 23:31:20, Diff, Hash, Mensagem
 
+### Community 795 - "Code: text"
+Cohesion: 0.32
+Nodes (4): Base validator with common validation logic for document files., Validator for Word document XML files against XSD schemas., Validation modules for Word document processing., Validator for PowerPoint presentation XML files against XSD schemas.
+
 ### Community 799 - "Commit 982f3f1c7f70 - 18/06/2026 23:32:37"
 Cohesion: 0.29
 Nodes (6): Arquivos, AST Resumo, Commit 982f3f1c7f70 - 18/06/2026 23:32:37, Diff, Hash, Mensagem
@@ -24949,6 +24812,10 @@ Nodes (6): Arquivos, AST Resumo, Commit 63bf3b5f8757 - 22/06/2026 19:31:57, Diff
 Cohesion: 0.33
 Nodes (6): Pagination, Quick Reference, Response Formats, Server Naming, Tool Naming, Transport
 
+### Community 819 - "Commit 1293ed8086cb - 23/07/2026 23:41:18"
+Cohesion: 0.29
+Nodes (6): Arquivos, AST Resumo, Commit 1293ed8086cb - 23/07/2026 23:41:18, Diff, Hash, Mensagem
+
 ### Community 820 - "Commit c368e710e400 - 23/06/2026 00:53:03"
 Cohesion: 0.29
 Nodes (6): Arquivos, AST Resumo, Commit c368e710e400 - 23/06/2026 00:53:03, Diff, Hash, Mensagem
@@ -24956,6 +24823,10 @@ Nodes (6): Arquivos, AST Resumo, Commit c368e710e400 - 23/06/2026 00:53:03, Diff
 ### Community 826 - "Code: bash"
 Cohesion: 0.29
 Nodes (6): Arquivos, AST Resumo, Commit eadadb7bfe2c - 23/06/2026 00:53:03, Diff, Hash, Mensagem
+
+### Community 827 - "Commit e1f993f23df2 - 06/10/2026 00:26:40"
+Cohesion: 0.29
+Nodes (6): Arquivos, AST Resumo, Commit e1f993f23df2 - 06/10/2026 00:26:40, Diff, Hash, Mensagem
 
 ### Community 828 - "Commit eb6b5f096b3b - 23/06/2026 21:41:54"
 Cohesion: 0.29
@@ -25065,6 +24936,18 @@ Nodes (6): Arquivos, AST Resumo, Commit 70f2f82e7982 - 23/07/2026 23:41:09, Diff
 Cohesion: 0.29
 Nodes (3): Model-invoked, Productivity, User-invoked
 
+### Community 1099 - "Commit 2c18d82766dc - 06/10/2026 00:26:42"
+Cohesion: 0.29
+Nodes (6): Arquivos, AST Resumo, Commit 2c18d82766dc - 06/10/2026 00:26:42, Diff, Hash, Mensagem
+
+### Community 1107 - "Commit 91604cc60e2c - 06/10/2026 00:26:44"
+Cohesion: 0.29
+Nodes (6): Arquivos, AST Resumo, Commit 91604cc60e2c - 06/10/2026 00:26:44, Diff, Hash, Mensagem
+
+### Community 1110 - "Commit 8fd074aa93e3 - 06/10/2026 00:31:43"
+Cohesion: 0.29
+Nodes (6): Arquivos, AST Resumo, Commit 8fd074aa93e3 - 06/10/2026 00:31:43, Diff, Hash, Mensagem
+
 ### Community 1112 - "Question Guidelines"
 Cohesion: 0.40
 Nodes (5): Authentication and Authorization, DNS Rebinding Protection, Error Handling, Input Validation, Security Best Practices
@@ -25085,10 +24968,30 @@ Nodes (4): stdio, Streamable HTTP, Transport Options, Transport Selection
 Cohesion: 0.14
 Nodes (13): 1. Backup ANTES de tocar em qualquer dado, 2. Identificar o vendedor (Dokan usa post_author), 3. Ler o CSV com header normalizado, 4. Criar categorias que faltam, 5. Deduplicar com filtro de autor CORRETO, 6. Importar produtos, 7. Foto do vendedor em produtos sem foto, 8. Regenerar miniaturas (todas resolucoes) (+5 more)
 
+### Community 1227 - "Commit fc8726afe5f4 - 06/10/2026 00:31:43"
+Cohesion: 0.29
+Nodes (6): Arquivos, AST Resumo, Commit fc8726afe5f4 - 06/10/2026 00:31:43, Diff, Hash, Mensagem
+
+### Community 1229 - "Commit e1f993f - 06/10/2026 00:26:41"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit e1f993f - 06/10/2026 00:26:41, Diff, Hash, Mensagem
+
+### Community 1230 - "Commit 8fd074a - 06/10/2026 00:31:43"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit 8fd074a - 06/10/2026 00:31:43, Diff, Hash, Mensagem
+
+### Community 1236 - "_run_validation"
+Cohesion: 0.60
+Nodes (5): _condense_xml(), pack(), Path, Pack a directory into a DOCX, PPTX, or XLSX file.  Validates with auto-repair, c, _run_validation()
+
+### Community 1265 - "_run_validation"
+Cohesion: 0.60
+Nodes (5): _condense_xml(), pack(), Path, Pack a directory into a DOCX, PPTX, or XLSX file.  Validates with auto-repair, c, _run_validation()
+
 ## Knowledge Gaps
-- **25241 isolated node(s):** `params`, `bundle-artifact.sh script`, `init-artifact.sh script`, `name`, `version` (+25236 more)
+- **25126 isolated node(s):** `params`, `bundle-artifact.sh script`, `init-artifact.sh script`, `name`, `version` (+25121 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **23690 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **23523 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -25100,10 +25003,10 @@ _Questions this graph is uniquely positioned to answer:_
 - **Are the 2 inferred relationships involving `BaseSchemaValidator` (e.g. with `DOCXSchemaValidator` and `PPTXSchemaValidator`) actually correct?**
   _`BaseSchemaValidator` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `params`, `Gera a árvore de diretórios em formato ASCII`, `Gera a árvore de diretórios do projeto a partir de app/` to the rest of the system?**
-  _25365 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `BaseSchemaValidator` be split into smaller, more focused modules?**
-  _Cohesion score 0.051560379918588875 - nodes in this community are weakly interconnected._
+  _25250 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `MCPConnection` be split into smaller, more focused modules?**
   _Cohesion score 0.0611764705882353 - nodes in this community are weakly interconnected._
 - **Should `PDF Processing Advanced Reference` be split into smaller, more focused modules?**
   _Cohesion score 0.0425531914893617 - nodes in this community are weakly interconnected._
+- **Should `MCP Server Evaluation Guide` be split into smaller, more focused modules?**
+  _Cohesion score 0.044444444444444446 - nodes in this community are weakly interconnected._
