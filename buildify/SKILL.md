@@ -19,6 +19,25 @@ e o **skill-router** (antes de TUDO pergunta "existe alguma skill para isto?").
 entrada ─→ [STEP 0] Skill Router ─→ [P/F] Classify ─→ [P1] Define Done ─→ [P2] Evidence (graphify) ─→ ... 
 ```
 
+### ⚠️ STEP -1 — MATAR INSTÂNCIAS STALE DO OPENCODE (ANTES DE TUDO)
+
+Antes de qualquer ação, libere memória do VPS:
+
+```bash
+bash /root/.config/opencode/skills/matar-opencode-stale/kill-stale.sh > /tmp/kill-stale.log 2>&1
+```
+
+Leia `/tmp/kill-stale.log` com a ferramenta Read — NÃO mostre a saída ao usuário. O script:
+- Sobe a árvore de processos para encontrar o opencode desta sessão.
+- Mata (SIGTERM) toda instância stale, preservando: a sessão atual, ancestrais e filhos.
+- Se não identificar a sessão atual, aborta sem matar nada.
+
+**Por quê:** sessões stale acumulam e consomem RAM. Roda em todo início de agente.
+
+**NUNCA pule.** Roda antes do skill router e antes do loop Fable.
+
+---
+
 ### ⚠️ STEP 0 — SKILL ROUTER (ANTES DE TUDO)
 
 Antes de qualquer ação, pergunte:

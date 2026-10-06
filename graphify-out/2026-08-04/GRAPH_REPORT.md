@@ -1,13 +1,18 @@
-# Graph Report - skills  (2026-10-06)
+# Graph Report - skills  (2026-07-23)
 
 ## Corpus Check
-- 534 files · ~16,105,203 words
+- 472 files · ~10,999,144 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 26771 nodes · 3221 edges · 24114 communities (424 shown, 23690 thin omitted)
-- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 48 edges (avg confidence: 0.67)
+- 27305 nodes · 2850 edges · 25014 communities (359 shown, 24655 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 48 edges (avg confidence: 0.67)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `768aebed`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - BaseSchemaValidator
@@ -256,6 +261,7 @@
 - Process
 - OpenCode Skills
 - Step 0 — Constrained query expansion (REQUIRED before traversal)
+- Skill: autenticar-github-device-flow
 - Conventions
 - When to check `.out-of-scope/`
 - MCP Server Evaluation Guide
@@ -264,6 +270,7 @@
 - Conventions
 - Example Formats
 - Complexity and Depth
+- Python MCP Server Implementation Guide
 - What qualifies
 - User-invoked
 - Diff
@@ -287,6 +294,7 @@
 - Learning Record Format
 - 🚀 Uso Rápido
 - Diff
+- Poor Questions
 - Tool Testing
 - When to Mock
 - PptxGenJS Tutorial
@@ -327,13 +335,13 @@
 - Implementation Quality
 - Color Palette
 - Icon Libraries
-- SKILL.md
 - Implementation Quality
 - Color Palette
 - Color Palette
 - rename_css_vars_genericas.py
 - Rules
 - Commit a13ac2e - 11/07/2026 21:02:00
+- Verificação Automática
 - Plugin Complementar — Admin Commission Reports
 - Commit 0bd8346e875a - 19/06/2026 22:42:50
 - Arquivos
@@ -341,15 +349,9 @@
 - Prioritization
 - Domain Docs
 - stdio
-- Commit 3c247271a7cd - 11/06/2026 19:41:33
-- Commit b4eda5ffc166 - 11/06/2026 19:58:47
 - License Information
 - Graphify Skill Router - Reference
 - Step 2.5 - Transcribe video / audio files (only if video files detected)
-- Commit ae52af39c9aa - 11/06/2026 20:55:53
-- Commit f235cdf67c9d - 11/06/2026 23:22:41
-- Commit 029721d8871b - 11/06/2026 23:38:42
-- Commit 9b373ac20f0c - 11/06/2026 23:39:42
 - Tools Available
 - Task Template
 - Task Template
@@ -370,9 +372,6 @@
 - Code Quality
 - qpdf Advanced Features
 - Task Template
-- Commit e3b8ac8f2122 - 12/06/2026 00:18:44
-- Commit 172f025f9ea0 - 13/06/2026 02:26:15
-- Commit bcb83e30eef7 - 14/06/2026 00:07:59
 - SKILL.md
 - Commit bcb83e30eef7 - 14/06/2026 00:07:59
 - Commit f76e4ca51ff8 - 02/07/2026 22:58:56
@@ -386,7 +385,6 @@
 - Quick Reference
 - Server Naming Convention
 - Fase 1: Pesquisa Profunda e Planejamento
-- Commit 35a0fd7ff866 - 18/06/2026 21:50:13
 - Project Type Detection
 - README.md
 - Evaluation Process
@@ -413,6 +411,7 @@
 - Strategic Design
 - Quick Reference
 - Strategic Design
+- Troubleshooting Common Issues
 - SKILL.md
 - Commit 2c7a7fc4aa1f - 08/07/2026 20:42:38
 - Commit 3c247271a7cd - 11/06/2026 19:41:33
@@ -433,20 +432,12 @@
 - Commit e3b8ac8f2122 - 12/06/2026 00:18:44
 - Instructions
 - Formatting
-- Commit ce527ce5c6be - 18/06/2026 22:16:35
 - Code: text
 - Code: text
 - Instructions
 - Formatting
 - Workflow
-- Commit 72196b9e360a - 18/06/2026 22:16:36
-- Commit 5b4f870d5bc4 - 18/06/2026 22:18:39
-- Commit 4dc78735b7db - 18/06/2026 22:18:40
-- Commit 4e045320b529 - 18/06/2026 22:26:40
-- Commit f22566cada90 - 18/06/2026 22:26:41
-- Commit 66f3760aa78f - 18/06/2026 22:55:36
 - `NOTES.md`
-- Commit d18112a32806 - 18/06/2026 23:11:40
 - **Standards** — does the code conform to this repo's documented coding standards
 - Sections
 - Guidance
@@ -698,9 +689,7 @@
 - The new issue that triggered the reconsideration proceeds through normal triage
 - Project scope or philosophy ("This project focuses on X; theming is a downstream
 - Technical constraints ("Supporting this would require Y, which conflicts with ou
-- Commit c857027bebd2 - 18/06/2026 23:31:06
 - Code: text
-- Commit 2f2c5af0c7a0 - 18/06/2026 23:31:20
 - OpenCode Skills
 - Model-invoked
 - Common commands
@@ -788,36 +777,29 @@
 - Code: bash
 - Code: bash
 - Code: bash
-- Commit 982f3f1c7f70 - 18/06/2026 23:32:37
 - Code: bash
-- Commit ac4e1f682d99 - 18/06/2026 23:33:55
 - Code: bash
-- Commit d6e5c5b40965 - 18/06/2026 23:34:49
-- Commit e26280635cca - 18/06/2026 23:35:35
 - Code: python
 - Code: bash
+- Code: text
 - Code: yaml
-- Commit 0bd8346e875a - 19/06/2026 22:42:50
 - Code: markdown
-- Commit d435d1f1508e - 20/06/2026 22:52:19
 - Code: bash
 - Code: bash
 - Code: bash
 - Code: text
-- Commit 63bf3b5f8757 - 22/06/2026 19:31:57
-- Code: bash
-- Code: bash
-- Commit c368e710e400 - 23/06/2026 00:53:03
 - Code: bash
 - Code: bash
 - Code: bash
 - Code: bash
 - Code: bash
 - Code: bash
-- Commit eb6b5f096b3b - 23/06/2026 21:41:54
+- Code: bash
+- Code: bash
+- Code: bash
+- Code: text
 - Code: bash
 - Code: ruby
-- Commit f4fd71c91805 - 23/06/2026 21:41:54
 - Code: bash
 - Skill: autenticar-github-device-flow
 - Tickets: <short name of the work>
@@ -827,7 +809,6 @@
 - Exemplo de saída
 - Design
 - Passo 1: Atualizar o Knowledge Graph
-- Commit f76e4ca51ff8 - 02/07/2026 22:58:56
 - Observações
 - Passo 2: Consultar o Knowledge Graph
 - Escrita em Design
@@ -854,21 +835,17 @@
 - Estrutura
 - Resuming a previous session
 - Comandos
-- Commit 1fbb116f36d6 - 02/07/2026 23:06:29
 - Status Values
 - Workflow do Buildify
-- Commit ae8d370f1e28 - 08/07/2026 12:39:46
 - Uso pelo OpenCode
 - Acoes disponiveis
 - Comandos de Router
 - Agente Buildify (Auto-Instalação)
-- Commit b423c66b5a34 - 08/07/2026 12:58:39
 - Usage
 - Regras de Fallback
 - Interpreter guard for subcommands
 - Aplicação
 - For --update (recommended), --commit and --cluster-only
-- Commit ae7ec2ceff5e - 08/07/2026 20:42:37
 - 📚 Biblioteca de Documentação
 - For /graphify add and --watch
 - For the commit hook and native CLAUDE.md integration
@@ -994,8 +971,6 @@
 - Registro de ferramentas com `server.registerTool`
 - Exemplos funcionais completos
 - Checklist de qualidade
-- Commit 2c7a7fc4aa1f - 08/07/2026 20:42:38
-- Commit dad91a5c8957 - 08/07/2026 21:18:06
 - [✅ Guia de Avaliação](./reference/evaluation.md) - Guia completo de criação de a
 - Diretrizes de criação de perguntas
 - Estratégias de verificação de respostas
@@ -1003,16 +978,7 @@
 - `SKILL.md` - Esta documentação
 - Exemplos de perguntas e respostas
 - Executando uma avaliação com os scripts fornecidos
-- Commit 0283d214a678 - 08/07/2026 21:20:01
-- Commit c077b4997ca9 - 08/07/2026 22:13:04
-- Commit c85e3fae2354 - 08/07/2026 22:15:46
-- Commit bb8894648c2b - 08/07/2026 22:17:53
-- Commit 6bd750ffcbf1 - 08/07/2026 22:25:18
-- Commit a7cdafcd4380 - 08/07/2026 22:43:39
-- Commit 23faddb5fbec - 08/07/2026 22:50:42
 - `buildify-agent.md` - Definição do agente injetado
-- Commit bed8e1eaf121 - 08/07/2026 23:34:51
-- Commit ba106027c85d - 11/07/2026 00:31:50
 - **MINIMALISMO**: Texto é esparso, essencial, integrado como elemento visual
 - O `GITHUB_TOKEN=""` é necessário para forçar o fluxo interativo mesmo em ambient
 - Usar `--web` faz o `gh` gerar um device code e exibir no terminal (em vez de ten
@@ -1067,11 +1033,6 @@
 - **Remover skill**: Remove completamente o diretorio do skill
 - Verifique sintaxe: `python -m py_compile seu_servidor.py`
 - Teste com MCP Inspector
-- Commit aca81dddef6f - 11/07/2026 14:07:44
-- Commit 8332fc7ad59e - 11/07/2026 18:57:43
-- Commit c3efb814163e - 11/07/2026 19:23:15
-- Commit 44e9aef88ae2 - 11/07/2026 19:23:16
-- Commit a13ac2ed951d - 11/07/2026 21:01:58
 - **Independente**: Não depende de outras perguntas
 - **Apenas leitura**: Apenas operações não-destrutivas necessárias
 - **Complexa**: Requer múltiplas chamadas de ferramentas e exploração profunda
@@ -1080,10 +1041,6 @@
 - **Verificável**: Resposta única e clara que pode ser verificada por comparação d
 - **Estável**: Resposta não mudará com o tempo
 - `graphify update <path>` - **recommended default**: re-extract code files and re
-- Commit 9b35880cb11d - 11/07/2026 21:02:01
-- Commit 463de965a276 - 23/07/2026 23:41:07
-- Commit 70f2f82e7982 - 23/07/2026 23:41:09
-- README.md
 - **Protocolo MCP**: Comece com sitemap em `https://modelcontextprotocol.io/sitema
 - Após autenticar, o gh CLI armazena o token em `~/.config/gh/hosts.yml`
 - [📋 Melhores Práticas MCP](./reference/mcp_best_practices.md) - Diretrizes univer
@@ -1095,12 +1052,10 @@
 - **Python SDK**: Busque de `https://raw.githubusercontent.com/modelcontextprotoco
 - **TypeScript SDK**: Busque de `https://raw.githubusercontent.com/modelcontextpro
 - Definições de ferramentas, recursos e prompts
-- Question Guidelines
 - [🐍 Guia de Implementação Python](./reference/python_mcp_server.md) - Guia comple
 - Padrões de inicialização de servidor
 - Exemplos de modelos Pydantic
 - Registro de ferramentas com `@mcp.tool`
-- MISSION.md Format
 - [⚡ Guia de Implementação TypeScript](./reference/node_mcp_server.md) - Guia Type
 - Estrutura do projeto
 - UI Prototype
@@ -1197,19 +1152,15 @@
 - md_ast_md_commit-029721d8871b-2026-06-11-23-38-42_list_34
 - print("Fazendo commit do README...")
 - run_git_command(["git", "add", "README.MD"], project_path)
-- RESOURCES.md Format
 - comit-force/comit-force.py
 - print(f"Commit do README realizado: {commit_hash[:7]}")
 - md_ast_md_commit-029721d8871b-2026-06-11-23-38-42_list_41
 - readme_path = os.path.join(project_path, "README.md")
 - readme_path = os.path.join(project_path, "README.MD")
-- kill-stale.sh
 - md_ast_md_commit-029721d8871b-2026-06-11-23-38-42_list_47
 - print("Criando arquivo de commit em commits/...")
-- Transport Options
 - comit/SKILL.md
 - md_ast_md_commit-029721d8871b-2026-06-11-23-38-42_list_50
-- SKILL.md
 - md_ast_md_commit-029721d8871b-2026-06-11-23-38-42_list_53
 - md_ast_md_commit-029721d8871b-2026-06-11-23-38-42_list_57
 - print("Fazendo commit do historico...")
@@ -1628,6 +1579,7 @@
 - parts = line.split("\t")
 - if len(parts) >= 3:
 - relpath = parts[0].replace("\\", "/")
+- try:
 - size = int(parts[1])
 - mtime = float(parts[2])
 - except ValueError:
@@ -1686,9 +1638,13 @@
 - - `project_path`: Caminho base do projeto (default: workspace root)
 - - `force`: Usa --force-with-lease no push (default: false)
 - ## Usage
+- ```
+- ```
 - ### Commit com arquivos especificos:
 - ### Commit forcado (--force-with-lease):
 - ### Commit em projeto especifico:
+- ```
+- ```
 - ```
 - ## Notes
 - from datetime import datetime
@@ -2155,11 +2111,17 @@
 - algorithmic-art/LICENSE.txt
 - canvas-design/canvas-fonts/RedHatMono-Bold.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/function-bind@1.1.2/node_modules/fun
+- extrair-conteudo-paginas/node_modules/.pnpm/function-bind@1.1.2/node_modules/fun
+- extrair-conteudo-paginas/node_modules/.pnpm/function-bind@1.1.2/node_modules/fun
+- extrair-conteudo-paginas/node_modules/.pnpm/function-bind@1.1.2/node_modules/fun
 - canvas-design/canvas-fonts/RedHatMono-OFL.txt
+- extrair-conteudo-paginas/node_modules/.pnpm/function-bind@1.1.2/node_modules/fun
 - extrair-conteudo-paginas/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/cal
 - extrair-conteudo-paginas/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/es-
 - extrair-conteudo-paginas/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/fun
 - canvas-design/canvas-fonts/RedHatMono-Regular.ttf
+- extrair-conteudo-paginas/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/get
+- extrair-conteudo-paginas/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/get
 - extrair-conteudo-paginas/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/get
 - canvas-design/canvas-fonts/Silkscreen-OFL.txt
 - extrair-conteudo-paginas/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/gop
@@ -2168,11 +2130,15 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/dunder-
 - extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/es-obje
 - extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/get-pro
+- extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/get-pro
+- extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/get-pro
 - canvas-design/canvas-fonts/Silkscreen-Regular.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/get-pro
 - extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/get-pro
 - extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/get-pro
+- extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/get-pro
 - canvas-design/canvas-fonts/SmoochSans-Medium.ttf
+- extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/get-pro
 - extrair-conteudo-paginas/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd/.eslint
 - extrair-conteudo-paginas/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd/.github
 - extrair-conteudo-paginas/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd/CHANGEL
@@ -2188,7 +2154,11 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd/tsconfi
 - extrair-conteudo-paginas/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-s
 - extrair-conteudo-paginas/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-s
+- extrair-conteudo-paginas/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-s
+- extrair-conteudo-paginas/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-s
 - canvas-design/canvas-fonts/Tektur-Medium.ttf
+- extrair-conteudo-paginas/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-s
+- extrair-conteudo-paginas/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-s
 - extrair-conteudo-paginas/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-s
 - extrair-conteudo-paginas/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-s
 - extrair-conteudo-paginas/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-s
@@ -2199,7 +2169,11 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/h
 - extrair-conteudo-paginas/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/h
 - extrair-conteudo-paginas/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/h
+- extrair-conteudo-paginas/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/h
+- extrair-conteudo-paginas/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/h
 - canvas-design/canvas-fonts/Tektur-Regular.ttf
+- extrair-conteudo-paginas/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/h
+- extrair-conteudo-paginas/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/h
 - extrair-conteudo-paginas/node_modules/.pnpm/hasown@2.0.4/node_modules/function-b
 - extrair-conteudo-paginas/node_modules/.pnpm/hasown@2.0.4/node_modules/hasown/.gi
 - extrair-conteudo-paginas/node_modules/.pnpm/hasown@2.0.4/node_modules/hasown/.ny
@@ -2215,9 +2189,14 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/html-encoding-sniffer@4.0.0/node_mod
 - canvas-design/canvas-fonts/WorkSans-BoldItalic.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/http-proxy-agent@7.0.2/node_modules/
+- extrair-conteudo-paginas/node_modules/.pnpm/http-proxy-agent@7.0.2/node_modules/
 - canvas-design/canvas-fonts/WorkSans-Italic.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules
+- extrair-conteudo-paginas/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules
+- extrair-conteudo-paginas/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules
+- extrair-conteudo-paginas/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules
 - canvas-design/canvas-fonts/WorkSans-OFL.txt
+- extrair-conteudo-paginas/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
@@ -2225,6 +2204,8 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - canvas-design/canvas-fonts/WorkSans-Regular.ttf
+- extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
+- extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
@@ -2239,7 +2220,9 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
+- extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - canvas-design/canvas-fonts/YoungSerif-Regular.ttf
+- extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
@@ -2267,6 +2250,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - comit/SKILL.md
+- extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
@@ -2399,6 +2383,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - comunicados-internos-empresa/SKILL.md
+- extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
@@ -2678,7 +2663,9 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
+- extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - criar-editar-apresentacao/scripts/clean.py
+- extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
@@ -2796,11 +2783,16 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca
 - extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca
 - extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca
+- extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreads
 - extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca
 - extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca
 - extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca
+- extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca
+- extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca
+- extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordpro
+- extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
@@ -2817,6 +2809,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
+- extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/shared-addi
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
@@ -2825,7 +2818,9 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
+- extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibl
+- extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
@@ -2843,7 +2838,9 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
+- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/shared-cust
+- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
@@ -2872,13 +2869,19 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
+- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
+- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/data-u
 - extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/fetch-
 - extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/formda
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math
 - extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f
+- extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f
+- extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f
+- extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f
 - aplicar-temas-cores-fontes/themes/botanical-garden.md
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/shared-rela
+- extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f
 - extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f
 - extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f
 - extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f
@@ -2970,7 +2973,10 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
+- extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
+- extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - criar-editar-apresentacao/scripts/office/schemas/ecma/fouth-edition/opc-contentT
+- extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
@@ -3000,6 +3006,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - criar-editar-apresentacao/scripts/office/schemas/ecma/fouth-edition/opc-relation
+- extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
@@ -3054,7 +3061,10 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
+- extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
+- extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
 - criar-editar-apresentacao/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.
+- extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
@@ -3065,6 +3075,9 @@
 - criar-editar-apresentacao/scripts/office/schemas/microsoft/wml-symex-2015.xsd
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
+- extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
+- extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
+- extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
 - criar-editar-apresentacao/scripts/office/soffice.py
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
@@ -3082,7 +3095,9 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
+- extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
 - criar-editar-apresentacao/scripts/office/validate.py
+- extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
@@ -3098,6 +3113,10 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/psl
 - extrair-conteudo-paginas/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/puny
 - criar-editar-apresentacao/scripts/office/validators/docx.py
+- extrair-conteudo-paginas/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/toug
+- extrair-conteudo-paginas/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/toug
+- extrair-conteudo-paginas/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/toug
+- extrair-conteudo-paginas/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/toug
 - extrair-conteudo-paginas/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/toug
 - extrair-conteudo-paginas/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/univ
 - criar-editar-apresentacao/scripts/office/validators/pptx.py
@@ -3134,7 +3153,11 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
+- extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
+- extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
+- extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - criar-editar-documento-word/scripts/__init__.py
+- extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
@@ -3164,7 +3187,11 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/tr46
 - extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/webid
 - extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatw
+- extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatw
 - criar-editar-documento-word/scripts/office/helpers/simplify_redlines.py
+- extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatw
+- extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatw
+- extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatw
 - extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatw
 - extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatw
 - extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatw
@@ -3195,7 +3222,11 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
 - extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
 - extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
+- extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
+- extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagr
+- extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
+- extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
 - extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
 - extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
 - extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
@@ -3271,7 +3302,9 @@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bi
+- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
@@ -3288,18 +3321,28 @@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/shared-cu
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/l
 - leitor-pagina-node/node_modules/.pnpm/@csstools+color-helpers@5.1.0/node_modules
 - leitor-pagina-node/node_modules/.pnpm/@csstools+css-calc@2.1.4_@c_e8d5cb57048a11
+- leitor-pagina-node/node_modules/.pnpm/@csstools+css-calc@2.1.4_@c_e8d5cb57048a11
+- leitor-pagina-node/node_modules/.pnpm/@csstools+css-color-parser@_ac3eaa9e6357e2
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/shared-do
+- leitor-pagina-node/node_modules/.pnpm/@csstools+css-color-parser@_ac3eaa9e6357e2
+- leitor-pagina-node/node_modules/.pnpm/@csstools+css-color-parser@_ac3eaa9e6357e2
 - leitor-pagina-node/node_modules/.pnpm/@csstools+css-color-parser@_ac3eaa9e6357e2
 - leitor-pagina-node/node_modules/.pnpm/@csstools+css-parser-algori_f97be086dec111
 - leitor-pagina-node/node_modules/.pnpm/@csstools+css-tokenizer@3.0.4/node_modules
 - leitor-pagina-node/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modules/@m
 - leitor-pagina-node/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modules/@m
+- leitor-pagina-node/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modules/@m
+- leitor-pagina-node/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modules/@m
+- leitor-pagina-node/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modules/@m
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/shared-ma
+- leitor-pagina-node/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modules/@m
 - leitor-pagina-node/node_modules/.pnpm/agent-base@7.1.4/node_modules/agent-base/L
 - leitor-pagina-node/node_modules/.pnpm/agent-base@7.1.4/node_modules/agent-base/R
 - leitor-pagina-node/node_modules/.pnpm/agent-base@7.1.4/node_modules/agent-base/d
@@ -3330,7 +3373,11 @@
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
+- leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/vml-prese
+- leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
+- leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
+- leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
@@ -3359,7 +3406,9 @@
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
+- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd
+- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
@@ -3406,8 +3455,10 @@
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
+- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - aplicar-temas-cores-fontes/themes/sunset-boulevard.md
 - criar-editar-documento-word/scripts/office/schemas/mce/mc.xsd
+- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
@@ -3445,6 +3496,10 @@
 - criar-editar-documento-word/scripts/office/schemas/microsoft/wml-cid-2016.xsd
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
+- leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
+- leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
+- leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
+- leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
 - criar-editar-documento-word/scripts/office/schemas/microsoft/wml-sdtdatahash-202
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
@@ -3463,6 +3518,8 @@
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - criar-editar-documento-word/scripts/office/soffice.py
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
@@ -3498,6 +3555,8 @@
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - criar-editar-documento-word/scripts/office/validators/base.py
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
@@ -3525,6 +3584,9 @@
 - criar-editar-documento-word/scripts/office/validators/redlining.py
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/src/i
 - leitor-pagina-node/node_modules/.pnpm/es-define-property@1.0.1/node_modules/es-d
+- leitor-pagina-node/node_modules/.pnpm/es-define-property@1.0.1/node_modules/es-d
+- leitor-pagina-node/node_modules/.pnpm/es-define-property@1.0.1/node_modules/es-d
+- leitor-pagina-node/node_modules/.pnpm/es-define-property@1.0.1/node_modules/es-d
 - criar-editar-documento-word/scripts/templates/comments.xml
 - leitor-pagina-node/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-errors/.es
 - leitor-pagina-node/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-errors/.gi
@@ -3545,7 +3607,11 @@
 - leitor-pagina-node/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-errors/uri
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-erro
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
+- leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
+- leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - criar-editar-documento-word/scripts/templates/commentsIds.xml
+- leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
+- leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
@@ -3553,6 +3619,8 @@
 - criar-editar-documento-word/scripts/templates/people.xml
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - leitor-pagina-node/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_modules/es-e
+- leitor-pagina-node/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_modules/es-s
+- leitor-pagina-node/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_modules/es-s
 - leitor-pagina-node/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_modules/es-s
 - criar-editar-planilhas-excel/LICENSE.txt
 - leitor-pagina-node/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_modules/get-
@@ -3584,12 +3652,17 @@
 - leitor-pagina-node/node_modules/.pnpm/formdata-polyfill@4.0.10/node_modules/form
 - criar-editar-planilhas-excel/scripts/office/helpers/simplify_redlines.py
 - leitor-pagina-node/node_modules/.pnpm/function-bind@1.1.2/node_modules/function-
+- leitor-pagina-node/node_modules/.pnpm/function-bind@1.1.2/node_modules/function-
+- leitor-pagina-node/node_modules/.pnpm/function-bind@1.1.2/node_modules/function-
+- leitor-pagina-node/node_modules/.pnpm/function-bind@1.1.2/node_modules/function-
+- leitor-pagina-node/node_modules/.pnpm/function-bind@1.1.2/node_modules/function-
 - criar-editar-planilhas-excel/scripts/office/pack.py
 - leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/call-bind
 - leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/es-define
 - leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/es-errors
 - leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/es-object
 - leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/function-
+- leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/get-intri
 - leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/get-intri
 - leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/get-proto
 - leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/gopd
@@ -3630,15 +3703,23 @@
 - leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
+- leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
+- leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - criar-editar-planilhas-excel/scripts/office/schemas/ISO-IEC29500-4_2016/dml-pict
+- leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
+- leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-sym
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
+- leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - criar-editar-planilhas-excel/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spre
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
+- leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
+- leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - criar-editar-planilhas-excel/scripts/office/schemas/ISO-IEC29500-4_2016/dml-word
+- leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - leitor-pagina-node/node_modules/.pnpm/hasown@2.0.4/node_modules/function-bind
@@ -3663,6 +3744,9 @@
 - leitor-pagina-node/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules/debug
 - criar-editar-planilhas-excel/scripts/office/schemas/ISO-IEC29500-4_2016/shared-b
 - leitor-pagina-node/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules/https
+- leitor-pagina-node/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules/https
+- leitor-pagina-node/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules/https
+- leitor-pagina-node/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules/https
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/.
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/C
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/L
@@ -3671,8 +3755,12 @@
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
+- leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
+- leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
+- leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - arte-algoritmica-generativa/templates/generator_template.js
 - criar-editar-planilhas-excel/scripts/office/schemas/ISO-IEC29500-4_2016/shared-c
+- leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
@@ -3770,6 +3858,7 @@
 - agy/SKILL.md
 - arte-algoritmica-generativa/templates/viewer.html
 - criar-editar-planilhas-excel/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spre
+- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
@@ -3888,7 +3977,9 @@
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
+- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - criar-editar-planilhas-excel/scripts/office/schemas/microsoft/wml-2018.xsd
+- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
@@ -4180,6 +4271,7 @@
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
+- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - delegar-tarefas/SKILL.md
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
@@ -4230,13 +4322,18 @@
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/LI
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/RE
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
+- leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
+- leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
 - delegar-tarefas/agy-tasks/templates/task-template.md
+- leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
+- leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/pa
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - delegar-tarefas/agy.py
+- leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
@@ -4252,7 +4349,10 @@
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
+- leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
+- leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - design-interface-usuario/SKILL.md
+- leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
@@ -4286,6 +4386,7 @@
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
+- leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - canvas-design/SKILL.md
 - design-visual-artistico/canvas-fonts/ArsenalSC-Regular.ttf
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
@@ -4303,7 +4404,10 @@
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
+- leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
+- leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - design-visual-artistico/canvas-fonts/BigShoulders-OFL.txt
+- leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
@@ -4324,7 +4428,11 @@
 - design-visual-artistico/canvas-fonts/Boldonse-OFL.txt
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/p
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/s
+- leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/s
+- leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/s
+- leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/s
 - design-visual-artistico/canvas-fonts/Boldonse-Regular.ttf
+- leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/s
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/s
 - leitor-pagina-node/node_modules/.pnpm/node_modules/@asamuzakjp/css-color
 - leitor-pagina-node/node_modules/.pnpm/node_modules/@csstools/color-helpers
@@ -4418,7 +4526,9 @@
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
+- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - design-visual-artistico/canvas-fonts/DMMono-Regular.ttf
+- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
@@ -4432,9 +4542,15 @@
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
+- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
+- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - design-visual-artistico/canvas-fonts/EricaOne-Regular.ttf
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/comm
+- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/comm
+- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/comm
+- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/comm
 - design-visual-artistico/canvas-fonts/GeistMono-Bold.ttf
+- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/comm
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/inde
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/pars
 - design-visual-artistico/canvas-fonts/GeistMono-OFL.txt
@@ -4473,7 +4589,9 @@
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
+- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - design-visual-artistico/canvas-fonts/IBMPlexMono-OFL.txt
+- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
@@ -4487,8 +4605,11 @@
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
+- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - design-visual-artistico/canvas-fonts/IBMPlexSerif-Bold.ttf
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
+- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
+- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
@@ -4503,13 +4624,16 @@
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
+- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - design-visual-artistico/canvas-fonts/IBMPlexSerif-Italic.ttf
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
+- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - design-visual-artistico/canvas-fonts/IBMPlexSerif-Regular.ttf
+- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/safer-buffer@2.1.2/node_modules/safer-buff
 - leitor-pagina-node/node_modules/.pnpm/saxes@6.0.0/node_modules/saxes/README.md
@@ -4525,7 +4649,11 @@
 - leitor-pagina-node/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/psl
 - leitor-pagina-node/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/punycode
 - leitor-pagina-node/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/tough-cook
+- leitor-pagina-node/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/tough-cook
+- leitor-pagina-node/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/tough-cook
 - design-visual-artistico/canvas-fonts/InstrumentSans-Italic.ttf
+- leitor-pagina-node/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/tough-cook
+- leitor-pagina-node/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/tough-cook
 - leitor-pagina-node/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/universali
 - leitor-pagina-node/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/url-parse
 - leitor-pagina-node/node_modules/.pnpm/tr46@5.1.1/node_modules/punycode
@@ -4576,6 +4704,10 @@
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
+- leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
+- leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
+- leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
+- leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - design-visual-artistico/canvas-fonts/JetBrainsMono-Bold.ttf
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
@@ -4598,7 +4730,11 @@
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
+- leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
+- leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
+- leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - design-visual-artistico/canvas-fonts/Jura-Medium.ttf
+- leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
@@ -4628,6 +4764,7 @@
 - leitor-pagina-node/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars/LICEN
 - leitor-pagina-node/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars/READM
 - leitor-pagina-node/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars/packa
+- leitor-pagina-node/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars/xml/1
 - leitor-pagina-node/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars/xml/1
 - design-visual-artistico/canvas-fonts/Lora-Bold.ttf
 - leitor-pagina-node/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars/xmlch
@@ -5027,6 +5164,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
+- extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - canvas-design/canvas-fonts/EricaOne-OFL.txt
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
@@ -5036,7 +5174,9 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
+- extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - canvas-design/canvas-fonts/EricaOne-Regular.ttf
+- extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
@@ -5062,6 +5202,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
+- extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - canvas-design/canvas-fonts/GeistMono-Regular.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
@@ -5071,7 +5212,11 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/@csstools+color-helpers@5.1.0/node_m
 - canvas-design/canvas-fonts/Gloock-OFL.txt
 - extrair-conteudo-paginas/node_modules/.pnpm/@csstools+css-calc@2.1.4_@c_e8d5cb57
+- extrair-conteudo-paginas/node_modules/.pnpm/@csstools+css-calc@2.1.4_@c_e8d5cb57
 - canvas-design/canvas-fonts/Gloock-Regular.ttf
+- extrair-conteudo-paginas/node_modules/.pnpm/@csstools+css-color-parser@_ac3eaa9e
+- extrair-conteudo-paginas/node_modules/.pnpm/@csstools+css-color-parser@_ac3eaa9e
+- extrair-conteudo-paginas/node_modules/.pnpm/@csstools+css-color-parser@_ac3eaa9e
 - canvas-design/canvas-fonts/IBMPlexMono-Bold.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/@csstools+css-color-parser@_ac3eaa9e
 - extrair-conteudo-paginas/node_modules/.pnpm/@csstools+css-parser-algori_f97be086
@@ -5079,11 +5224,19 @@
 - canvas-design/canvas-fonts/IBMPlexMono-OFL.txt
 - extrair-conteudo-paginas/node_modules/.pnpm/@csstools+css-tokenizer@3.0.4/node_m
 - extrair-conteudo-paginas/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modu
+- extrair-conteudo-paginas/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modu
 - canvas-design/canvas-fonts/IBMPlexMono-Regular.ttf
+- extrair-conteudo-paginas/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modu
+- extrair-conteudo-paginas/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modu
+- extrair-conteudo-paginas/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modu
 - canvas-design/canvas-fonts/IBMPlexSerif-Bold.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/agent-base@7.1.4/node_modules/agent-
+- extrair-conteudo-paginas/node_modules/.pnpm/agent-base@7.1.4/node_modules/agent-
+- extrair-conteudo-paginas/node_modules/.pnpm/agent-base@7.1.4/node_modules/agent-
 - canvas-design/canvas-fonts/IBMPlexSerif-BoldItalic.ttf
+- extrair-conteudo-paginas/node_modules/.pnpm/agent-base@7.1.4/node_modules/agent-
+- extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
 - extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
 - extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
 - extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
@@ -5093,6 +5246,9 @@
 - canvas-design/canvas-fonts/IBMPlexSerif-Italic.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
 - extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
+- extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
+- extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
+- extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
 - canvas-design/canvas-fonts/IBMPlexSerif-Regular.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
 - extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
@@ -5100,7 +5256,11 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
 - extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
 - extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
+- extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
 - canvas-design/canvas-fonts/InstrumentSans-Bold.ttf
+- extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
+- extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
+- extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
 - extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
 - extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
 - extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
@@ -5131,8 +5291,11 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
+- extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - agy/agy-tasks/status.md
 - canvas-design/canvas-fonts/InstrumentSans-Regular.ttf
+- extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
+- extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
@@ -5160,6 +5323,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - canvas-design/canvas-fonts/Italiana-OFL.txt
+- extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
@@ -5218,7 +5382,11 @@
 - canvas-design/canvas-fonts/Jura-OFL.txt
 - extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/call
 - extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dund
+- extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dund
+- extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dund
 - canvas-design/canvas-fonts/LibreBaskerville-OFL.txt
+- extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dund
+- extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dund
 - extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dund
 - extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dund
 - extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dund
@@ -5237,6 +5405,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - canvas-design/canvas-fonts/Lora-Bold.ttf
+- extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
@@ -5294,7 +5463,10 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
+- extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
+- extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - canvas-design/canvas-fonts/NationalPark-OFL.txt
+- extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
@@ -5311,6 +5483,10 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/es-define-property@1.0.1/node_module
 - canvas-design/canvas-fonts/NothingYouCouldDo-OFL.txt
+- extrair-conteudo-paginas/node_modules/.pnpm/es-define-property@1.0.1/node_module
+- extrair-conteudo-paginas/node_modules/.pnpm/es-define-property@1.0.1/node_module
+- extrair-conteudo-paginas/node_modules/.pnpm/es-define-property@1.0.1/node_module
+- extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
 - extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
 - extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
 - canvas-design/canvas-fonts/NothingYouCouldDo-Regular.ttf
@@ -5324,19 +5500,32 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
 - extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
 - extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
+- extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
+- extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
+- extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
 - extrair-conteudo-paginas/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/e
 - extrair-conteudo-paginas/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/e
 - canvas-design/canvas-fonts/Outfit-OFL.txt
 - extrair-conteudo-paginas/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/e
 - extrair-conteudo-paginas/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/e
+- extrair-conteudo-paginas/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/e
+- extrair-conteudo-paginas/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/e
+- extrair-conteudo-paginas/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/e
 - canvas-design/canvas-fonts/Outfit-Regular.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/e
 - extrair-conteudo-paginas/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/e
+- extrair-conteudo-paginas/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/e
+- extrair-conteudo-paginas/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_module
 - extrair-conteudo-paginas/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_module
 - canvas-design/canvas-fonts/PixelifySans-Medium.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_module
 - extrair-conteudo-paginas/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_module
+- extrair-conteudo-paginas/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_module
+- extrair-conteudo-paginas/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_module
+- extrair-conteudo-paginas/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_module
 - canvas-design/canvas-fonts/PixelifySans-OFL.txt
+- extrair-conteudo-paginas/node_modules/.pnpm/fetch-blob@3.2.0/node_modules/fetch-
+- extrair-conteudo-paginas/node_modules/.pnpm/fetch-blob@3.2.0/node_modules/fetch-
 - extrair-conteudo-paginas/node_modules/.pnpm/fetch-blob@3.2.0/node_modules/fetch-
 - extrair-conteudo-paginas/node_modules/.pnpm/fetch-blob@3.2.0/node_modules/node-d
 - canvas-design/canvas-fonts/PoiretOne-OFL.txt
@@ -5348,6 +5537,7 @@
 - canvas-design/canvas-fonts/PoiretOne-Regular.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/form-data@4.0.5/node_modules/hasown
 - extrair-conteudo-paginas/node_modules/.pnpm/form-data@4.0.5/node_modules/mime-ty
+- extrair-conteudo-paginas/node_modules/.pnpm/formdata-polyfill@4.0.10/node_module
 - extrair-conteudo-paginas/node_modules/.pnpm/formdata-polyfill@4.0.10/node_module
 - Mensagem
 - Arquivos
@@ -5451,6 +5641,7 @@
 - print(f.read())
 - elif command == "show":
 - print("Uso: agy.py show <id>")
+- else:
 - show_task(sys.argv[2])
 - elif command == "set":
 - if len(sys.argv) < 4:
@@ -5545,6 +5736,7 @@
 - print(f"Caminho inválido: {base_dir}")
 - agy/SKILL.md
 - content = content.replace("{{UPDATED}}", now)
+- else:
 - merge_files_in_directory(base_dir, script_dir)
 - - "pdf"
 - - "convert * to pdf"
@@ -5591,6 +5783,7 @@
 - filename = f"{task_id}.md"
 - print(f"Abrindo {skill_path} para edicao...")
 - os.startfile(skill_path)
+- else:
 - print(f"Skill '{skill_name}' nao encontrada.")
 - print("=== Skill Refactory - Gerenciar Skills ===\n")
 - print("Comandos:")
@@ -5609,6 +5802,7 @@
 - update_skill(skills[idx])
 - except ValueError:
 - print("Entrada invalida.")
+- else:
 - try:
 - idx = int(choice) - 1
 - with open(filepath, "w", encoding="utf-8") as f:
@@ -5672,6 +5866,7 @@
 - "id": "comunicados_internos_empresa_skill_keywords",
 - "norm_label": "keywords"
 - },
+- "community": 13,
 - {
 - "label": "3p-updates.md",
 - "file_type": "document",
@@ -5721,6 +5916,7 @@
 - "id": "comunicados_internos_empresa_examples_company_newsletter",
 - "norm_label": "company-newsletter.md"
 - },
+- "source_file": "arte-algoritmica-generativa/templates/generator_template.js",
 - {
 - "source_location": "L1",
 - "_origin": "ast",
@@ -5753,6 +5949,7 @@
 - "id": "comunicados_internos_empresa_examples_company_newsletter_prioritization",
 - "norm_label": "prioritization"
 - },
+- "community": 13,
 - {
 - "label": "Example Formats",
 - "file_type": "document",
@@ -5826,6 +6023,7 @@
 - },
 - "_origin": "ast",
 - {
+- "label": "SKILL.md",
 - "file_type": "document",
 - "source_location": "L1",
 - "_origin": "ast",
@@ -5837,6 +6035,7 @@
 - {
 - "label": "Skill Web Artifacts Builder",
 - "file_type": "document",
+- "source_location": "L7",
 - "_origin": "ast",
 - "id": "construir_artefatos_react_skill_skill_web_artifacts_builder",
 - "norm_label": "skill web artifacts builder"
@@ -5851,6 +6050,7 @@
 - },
 - "norm_label": "hextorgb()"
 - {
+- "file_type": "document",
 - "source_location": "L13",
 - "_origin": "ast",
 - "id": "construir_artefatos_react_skill_passos",
@@ -5898,6 +6098,7 @@
 - "norm_label": "guia de desenvolvimento de servidores mcp"
 - },
 - {
+- "file_type": "document",
 - "source_file": "construir-servidor-mcp/SKILL.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_vis\u00e3o_geral",
@@ -5907,6 +6108,7 @@
 - {
 - "label": "Processo",
 - "file_type": "document",
+- "source_location": "L16",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_processo",
 - "norm_label": "processo"
@@ -5919,6 +6121,7 @@
 - "source_file": "construir-servidor-mcp/SKILL.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_fluxo_de_trabalho_de_alto_n\u00edvel",
+- "community": 27,
 - "norm_label": "\ud83d\ude80 fluxo de trabalho de alto nivel"
 - },
 - "community": 13,
@@ -5944,6 +6147,7 @@
 - {
 - "label": "1.2 Estudar Documenta\u00e7\u00e3o do Protocolo MCP",
 - "file_type": "document",
+- "source_file": "construir-servidor-mcp/SKILL.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_1_2_estudar_documenta\u00e7\u00e3o_do_protoc
 - "norm_label": "1.2 estudar documentacao do protocolo mcp"
@@ -5961,6 +6165,7 @@
 - {
 - "label": "1.4 Planeje Sua Implementa\u00e7\u00e3o",
 - "file_type": "document",
+- "source_file": "construir-servidor-mcp/SKILL.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_1_4_planeje_sua_implementa\u00e7\u00e3o",
 - "norm_label": "1.4 planeje sua implementacao"
@@ -5972,6 +6177,7 @@
 - "source_location": "L79",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_fase_2_implementa\u00e7\u00e3o",
+- "community": 27,
 - "norm_label": "fase 2: implementacao"
 - },
 - {
@@ -6011,14 +6217,17 @@
 - "file_type": "document",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_fase_3_revis\u00e3o_e_teste",
+- "community": 27,
 - "norm_label": "fase 3: revisao e teste"
 - },
+- "community": 13,
 - {
 - "label": "3.1 Qualidade do C\u00f3digo",
 - "file_type": "document",
 - "source_location": "L130",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_3_1_qualidade_do_c\u00f3digo",
+- "community": 27,
 - "norm_label": "3.1 qualidade do codigo"
 - },
 - "norm_label": "maprange()"
@@ -6035,6 +6244,7 @@
 - {
 - "label": "Fase 4: Crie Avalia\u00e7\u00f5es",
 - "file_type": "document",
+- "source_file": "construir-servidor-mcp/SKILL.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_fase_4_crie_avalia\u00e7\u00f5es",
 - "norm_label": "fase 4: crie avaliacoes"
@@ -6110,6 +6320,7 @@
 - {
 - "label": "Documenta\u00e7\u00e3o SDK (Carregue Durante Fase 1/2)",
 - "file_type": "document",
+- "source_file": "construir-servidor-mcp/SKILL.md",
 - "source_location": "L212",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_documenta\u00e7\u00e3o_sdk_carregue_durante_
@@ -6166,6 +6377,7 @@
 - "community": 3,
 - "norm_label": "overview"
 - },
+- "source_file": "arte-algoritmica-generativa/templates/generator_template.js",
 - {
 - "label": "Quick Reference",
 - "file_type": "document",
@@ -6188,6 +6400,7 @@
 - "_origin": "ast",
 - {
 - "file_type": "document",
+- "source_file": "construir-servidor-mcp/reference/evaluation.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_evaluation_output_format",
 - "community": 3,
@@ -6198,6 +6411,7 @@
 - {
 - "label": "Purpose of Evaluations",
 - "file_type": "document",
+- "source_file": "construir-servidor-mcp/reference/evaluation.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_evaluation_purpose_of_evaluations",
 - "community": 3,
@@ -6209,6 +6423,7 @@
 - "source_location": "L34",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_evaluation_evaluation_overview",
+- "community": 3,
 - "norm_label": "evaluation overview"
 - },
 - "norm_label": "wraparound()"
@@ -6267,6 +6482,7 @@
 - "source_location": "L116",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_evaluation_answer_guidelines",
+- "community": 3,
 - },
 - {
 - "label": "Verification",
@@ -6335,6 +6551,7 @@
 - {
 - "label": "Step 2: Tool Inspection",
 - "file_type": "document",
+- "source_file": "construir-servidor-mcp/reference/evaluation.md",
 - "source_location": "L184",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_evaluation_step_2_tool_inspection",
@@ -6349,6 +6566,7 @@
 - "source_location": "L191",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_evaluation_step_3_developing_understandi
+- "community": 3,
 - "norm_label": "step 3: developing understanding"
 - "file_type": "code",
 - {
@@ -6382,6 +6600,7 @@
 - {
 - "label": "Evaluation Examples",
 - "file_type": "document",
+- "source_file": "construir-servidor-mcp/reference/evaluation.md",
 - "source_location": "L245",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_evaluation_evaluation_examples",
@@ -6461,6 +6680,7 @@
 - "community": 3,
 - "norm_label": "evaluation file format"
 - },
+- "source_file": "arte-algoritmica-generativa/templates/generator_template.js",
 - {
 - "file_type": "document",
 - "source_file": "construir-servidor-mcp/reference/evaluation.md",
@@ -6582,6 +6802,7 @@
 - "source_location": "L596",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_evaluation_timeout_issues",
+- "community": 3,
 - "norm_label": "timeout issues"
 - },
 - "_origin": "ast",
@@ -6605,6 +6826,7 @@
 - "norm_label": "mcp server best practices"
 - },
 - {
+- "source_file": "construir-servidor-mcp/reference/mcp_best_practices.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_mcp_best_practices_quick_reference",
 - },
@@ -6643,8 +6865,10 @@
 - "norm_label": "pagination"
 - },
 - "file_type": "code",
+- {
 - "label": "Transport",
 - "file_type": "document",
+- "source_location": "L24",
 - "id": "construir_servidor_mcp_reference_mcp_best_practices_transport",
 - "norm_label": "transport"
 - },
@@ -6665,6 +6889,7 @@
 - "source_file": "construir-servidor-mcp/reference/mcp_best_practices.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_mcp_best_practices_tool_naming_and_desig
+- "community": 35,
 - "norm_label": "tool naming and design"
 - },
 - "_origin": "ast",
@@ -6683,12 +6908,14 @@
 - "source_file": "construir-servidor-mcp/reference/mcp_best_practices.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_mcp_best_practices_tool_design",
+- "community": 35,
 - "norm_label": "tool design"
 - },
 - "community": 13,
 - {
 - "label": "Response Formats",
 - "file_type": "document",
+- "source_file": "construir-servidor-mcp/reference/mcp_best_practices.md",
 - "source_location": "L65",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_mcp_best_practices_response_formats_65",
@@ -6702,6 +6929,7 @@
 - "source_file": "construir-servidor-mcp/reference/mcp_best_practices.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_mcp_best_practices_json_format_response_
+- "community": 35,
 - "norm_label": "json format (`response_format=\"json\"`)"
 - },
 - },
@@ -6711,6 +6939,7 @@
 - "source_file": "construir-servidor-mcp/reference/mcp_best_practices.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_mcp_best_practices_markdown_format_respo
+- "community": 35,
 - "norm_label": "markdown format (`response_format=\"markdown\"`, typically defaul
 - },
 - {
@@ -6726,6 +6955,8 @@
 - {
 - "label": "Transport Options",
 - "file_type": "document",
+- "source_file": "construir-servidor-mcp/reference/mcp_best_practices.md",
+- "source_location": "L108",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_mcp_best_practices_transport_options",
 - "norm_label": "transport options"
@@ -6738,6 +6969,7 @@
 - "community": 121,
 - "norm_label": "streamable http"
 - },
+- "source_file": "arte-algoritmica-generativa/templates/generator_template.js",
 - {
 - "label": "stdio",
 - "file_type": "document",
@@ -6772,9 +7004,11 @@
 - "id": "construir_servidor_mcp_reference_mcp_best_practices_authentication_and_au
 - "norm_label": "authentication and authorization"
 - },
+- "community": 13,
 - {
 - "label": "Input Validation",
 - "file_type": "document",
+- "source_file": "construir-servidor-mcp/reference/mcp_best_practices.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_mcp_best_practices_input_validation",
 - "norm_label": "input validation"
@@ -6833,6 +7067,7 @@
 - },
 - {
 - "file_type": "code",
+- "source_file": "comitar-alteracoes/comit.py",
 - "source_location": "L12",
 - "_origin": "ast",
 - graphify-out/cache/ast/v0.9.10/9fa87ff84d7339cfc1c571084fd7969f54fbe3456535c38f5
@@ -6855,6 +7090,7 @@
 - "_origin": "ast",
 - graphify-out/cache/ast/v0.9.10/a37c81d0d5b11a11b592e152e24fb62f3d4a004b7a89c3c90
 - "id": "comitar_alteracoes_comit_get_commit_hash",
+- "community": 16,
 - "norm_label": "get_commit_hash()"
 - },
 - {
@@ -6881,6 +7117,7 @@
 - "_origin": "ast",
 - graphify-out/cache/ast/v0.9.10/a5453dd8aab8f99a6dd10b32a67b9d653317f347ec558af8e
 - "id": "comitar_alteracoes_comit_generate_dir_tree",
+- "community": 16,
 - "norm_label": "generate_dir_tree()"
 - },
 - {
@@ -6900,11 +7137,13 @@
 - "_origin": "ast",
 - graphify-out/cache/ast/v0.9.10/a912e1ff17859bfc184f44d5fd9f487a464113ad65c155862
 - "id": "comitar_alteracoes_comit_make_table",
+- "community": 16,
 - "norm_label": "make_table()"
 - },
 - {
 - "label": "replace_section()",
 - "file_type": "code",
+- "source_file": "comitar-alteracoes/comit.py",
 - "_origin": "ast",
 - graphify-out/cache/ast/v0.9.10/a9c86cdcc0c32e82b52a9e12443890e80113e17b36ab54726
 - "id": "comitar_alteracoes_comit_replace_section",
@@ -6917,6 +7156,7 @@
 - "_origin": "ast",
 - graphify-out/cache/ast/v0.9.10/abb815ae6ebd23ea10e4998920ed0322ecdb7afe6fa21a737
 - "id": "comitar_alteracoes_comit_update_readme_structure",
+- "community": 16,
 - "norm_label": "update_readme_structure()"
 - },
 - {
@@ -6930,6 +7170,7 @@
 - "norm_label": "update_graphify_base()"
 - },
 - {
+- "label": "main()",
 - "file_type": "code",
 - "source_file": "comitar-alteracoes/comit.py",
 - "_origin": "ast",
@@ -6940,6 +7181,7 @@
 - {
 - "label": "Gera a \u00e1rvore de diret\u00f3rios em formato ASCII",
 - "file_type": "rationale",
+- "source_file": "comitar-alteracoes/comit.py",
 - "_origin": "ast",
 - graphify-out/cache/ast/v0.9.10/ae4c1c51c49c0fe0895665ddd0177f18598f71bd6b927280a
 - "id": "comitar_alteracoes_comit_rationale_58",
@@ -6948,6 +7190,7 @@
 - {
 - "label": "Gera a \u00e1rvore de diret\u00f3rios do projeto a partir de app/",
 - "file_type": "rationale",
+- "source_file": "comitar-alteracoes/comit.py",
 - "source_location": "L72",
 - "_origin": "ast",
 - graphify-out/cache/ast/v0.9.10/ae4e5c532124916fefa21a4583ef7f34cc5449d3691d2c6f7
@@ -6967,6 +7210,7 @@
 - },
 - {
 - "label": "Substitui conte\u00fado entre marcadores (incluindo os marcadores)",
+- "file_type": "rationale",
 - "source_file": "comitar-alteracoes/comit.py",
 - "_origin": "ast",
 - graphify-out/cache/ast/v0.9.10/b6ed1cf50e14dd87bf1b5654fcca77804755b297844502e0b
@@ -7046,6 +7290,7 @@
 - "label": "connections.py",
 - "file_type": "code",
 - "source_file": "construir-servidor-mcp/scripts/connections.py",
+- "source_location": "L1",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_connections",
 - "norm_label": "connections.py"
@@ -7054,6 +7299,7 @@
 - {
 - "label": "MCPConnection",
 - "file_type": "code",
+- "source_file": "construir-servidor-mcp/scripts/connections.py",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_connections_mcpconnection",
 - "community": 1,
@@ -7105,6 +7351,7 @@
 - "source_location": "L48",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_connections_mcpconnection_aexit",
+- "community": 1,
 - "norm_label": ".__aexit__()"
 - },
 - graphify-out/cache/ast/v0.9.10/d3d8541fcdce35862aa667ab5fc74bba0254b55df976838fb
@@ -7140,6 +7387,7 @@
 - {
 - "label": "MCPConnectionStdio",
 - "file_type": "code",
+- "source_file": "construir-servidor-mcp/scripts/connections.py",
 - "source_location": "L73",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_connections_mcpconnectionstdio",
@@ -7148,10 +7396,13 @@
 - },
 - graphify-out/cache/ast/v0.9.10/d75cdb227ba01c470e6c026f5b1ff123bb60c20da7b151ce8
 - {
+- "label": ".__init__()",
 - "file_type": "code",
+- "source_file": "construir-servidor-mcp/scripts/connections.py",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_connections_mcpconnectionstdio_init",
 - "community": 1,
+- "norm_label": ".__init__()"
 - },
 - graphify-out/cache/ast/v0.9.10/d7d6d02ca50fc31567075d01cd37b7dbc058318f537af41f5
 - {
@@ -7241,11 +7492,13 @@
 - "source_file": "construir-servidor-mcp/scripts/connections.py",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_connections_rationale_14",
+- "community": 1,
 - "norm_label": "base class for mcp server connections."
 - },
 - graphify-out/cache/ast/v0.9.10/dffc9e595671d16bc92250696fcf469c9102da241b05736ee
 - {
 - "label": "Create the connection context based on connection type.",
+- "source_file": "construir-servidor-mcp/scripts/connections.py",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_connections_rationale_22",
 - "norm_label": "create the connection context based on connection type."
@@ -7307,6 +7560,7 @@
 - "source_file": "construir-servidor-mcp/scripts/connections.py",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_connections_rationale_89",
+- "community": 1,
 - "norm_label": "mcp connection using server-sent events."
 - },
 - graphify-out/cache/ast/v0.9.10/e8ca7a958c8d78efcbe8c6e3341034c9b94aefaf99bf326d7
@@ -7353,7 +7607,9 @@
 - graphify-out/2026-07-08/manifest.json
 - graphify-out/cache/ast/v0.9.10/eee6632d94ea26fae67357fd2e982d06d5431efde5697b37e
 - {
+- "label": "Path",
 - "file_type": "code",
+- "source_file": "",
 - "source_location": "",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_evaluation_py_path",
@@ -7367,12 +7623,14 @@
 - "source_location": "",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_evaluation_py_any",
+- "community": 1,
 - "norm_label": "any"
 - },
 - graphify-out/cache/ast/v0.9.10/f37c9a42be31ab84a775cd5da8fad428ee3416532f5f2cddd
 - {
 - "label": "extract_xml_content()",
 - "file_type": "code",
+- "source_file": "construir-servidor-mcp/scripts/evaluation.py",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_evaluation_extract_xml_content",
 - "norm_label": "extract_xml_content()"
@@ -7443,6 +7701,7 @@
 - "source_location": "L305",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_evaluation_main",
+- "norm_label": "main()"
 - },
 - graphify-out/GRAPH_REPORT.md
 - graphify-out/cache/ast/v0.9.10/fb8846260e62826974734ef6f7959b68c4cbf9f2327d60d55
@@ -7469,6 +7728,7 @@
 - {
 - "label": "Extract content from XML tags.",
 - "file_type": "rationale",
+- "source_file": "construir-servidor-mcp/scripts/evaluation.py",
 - "source_location": "L80",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_evaluation_rationale_80",
@@ -7478,6 +7738,7 @@
 - graphify-out/cache/ast/v0.9.10/fd5c41d11ace777ca019986d35553cedd258343afea32b8be
 - {
 - "label": "Run the agent loop with MCP tools.",
+- "source_file": "construir-servidor-mcp/scripts/evaluation.py",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_evaluation_rationale_93",
 - "community": 1,
@@ -7497,6 +7758,7 @@
 - {
 - "label": "Run evaluation with MCP server tools.",
 - "file_type": "rationale",
+- "source_file": "construir-servidor-mcp/scripts/evaluation.py",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_evaluation_rationale_225",
 - "community": 1,
@@ -7505,6 +7767,7 @@
 - graphify-out/graph.html
 - {
 - "label": "Parse header strings in format 'Key: Value' into a dictionary.",
+- "file_type": "rationale",
 - "source_location": "L276",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_evaluation_rationale_276",
@@ -7544,6 +7807,7 @@
 - {
 - "label": "get_next_slide_number()",
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/add_slide.py",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_add_slide_get_next_slide_number",
 - "norm_label": "get_next_slide_number()"
@@ -7556,6 +7820,7 @@
 - "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_add_slide_py_path",
+- "norm_label": "path"
 - },
 - graphify/SKILL.md
 - {
@@ -7573,6 +7838,7 @@
 - "source_location": "L90",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_add_slide_duplicate_slide",
+- "community": 53,
 - "norm_label": "duplicate_slide()"
 - },
 - graphify/references/__pycache__/model_prices.cpython-310.pyc
@@ -7616,6 +7882,7 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_add_slide_rationale_1",
+- "community": 53,
 - "norm_label": "add a new slide to an unpacked pptx directory.  usage: python add
 - },
 - mesclar-arquivos-diretorio/merged_output.txt
@@ -7624,6 +7891,7 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_clean",
+- "community": 42,
 - "norm_label": "clean.py"
 - },
 - graphify-out/cache/ast/v0.9.10/051dc7ccfd858e45a4864b93c0cbddd6b86fc8b1fb5f72c94
@@ -7631,17 +7899,21 @@
 - {
 - "label": "get_slides_in_sldidlst()",
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/clean.py",
 - "source_location": "L27",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_clean_get_slides_in_sldidlst",
+- "community": 42,
 - "norm_label": "get_slides_in_sldidlst()"
 - },
 - tema-moeda-de-troka/SKILL.md
 - {
 - "label": "Path",
 - "file_type": "code",
+- "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_clean_py_path",
+- "norm_label": "path"
 - },
 - {
 - "label": "remove_orphaned_slides()",
@@ -7697,15 +7969,18 @@
 - "source_location": "L221",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_clean_update_content_types",
+- "community": 42,
 - "norm_label": "update_content_types()"
 - },
 - if isinstance(args, list):
 - {
 - "label": "clean_unused_files()",
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/clean.py",
 - "source_location": "L241",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_clean_clean_unused_files",
+- "community": 42,
 - "norm_label": "clean_unused_files()"
 - },
 - graphify-out/cache/ast/v0.9.10/066db3bdd1ebdf8674c748ea17e19df3261b80a1a03c0c26a
@@ -7713,6 +7988,7 @@
 - {
 - "label": "Remove unreferenced files from an unpacked PPTX directory.  Usage: pyt
 - "file_type": "rationale",
+- "source_file": "criar-editar-apresentacao/scripts/clean.py",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_clean_rationale_1",
@@ -7730,6 +8006,7 @@
 - {
 - "label": "merge_runs.py",
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/office/helpers/merge_runs.py",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_merge_runs",
@@ -7753,6 +8030,7 @@
 - {
 - "label": "_get_child()",
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/office/helpers/merge_runs.py",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_merge_runs_get_child",
 - "community": 20,
@@ -7783,6 +8061,7 @@
 - {
 - "label": "_strip_run_rsid_attrs()",
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/office/helpers/merge_runs.py",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_merge_runs_strip_run_rsi
 - "community": 20,
@@ -7794,6 +8073,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_merge_runs_merge_runs_in
+- "community": 20,
 - "norm_label": "_merge_runs_in()"
 - },
 - if not os.path.exists(day_dir):
@@ -7813,9 +8093,12 @@
 - "id": "criar_editar_apresentacao_scripts_office_helpers_merge_runs_next_element_
 - },
 - timestamp = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
+- {
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/office/helpers/merge_runs.py",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_merge_runs_next_sibling_
+- "community": 20,
 - "norm_label": "_next_sibling_run()"
 - },
 - filename = f"commit-{timestamp}-{commit_id}.md"
@@ -7832,6 +8115,7 @@
 - "source_location": "L159",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_merge_runs_can_merge",
+- "community": 20,
 - },
 - files_list = "\n".join([f"- {f}" for f in files if f]) if files else "- (todos o
 - {
@@ -7848,6 +8132,7 @@
 - "source_file": "criar-editar-apresentacao/scripts/office/helpers/merge_runs.py",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_merge_runs_consolidate_t
+- "community": 20,
 - },
 - with open(filepath, "w", encoding="utf-8") as f:
 - {
@@ -7872,8 +8157,10 @@
 - {
 - "label": "simplify_redlines()",
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/office/helpers/simplify_redlin
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_simplify_redlines_simpli
+- "community": 36,
 - "norm_label": "simplify_redlines()"
 - },
 - return filepath
@@ -7886,6 +8173,7 @@
 - """Gera a árvore de diretórios em formato ASCII"""
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/office/helpers/simplify_redlin
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_simplify_redlines_is_ele
 - "norm_label": "_is_element()"
@@ -7906,6 +8194,7 @@
 - {
 - "file_type": "code",
 - "source_file": "criar-editar-apresentacao/scripts/office/helpers/simplify_redlin
+- "source_location": "L104",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_simplify_redlines_merge_
 - },
@@ -7922,6 +8211,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_simplify_redlines_get_tr
+- "community": 36,
 - },
 - connector = "└── " if is_last else "├── "
 - {
@@ -7930,11 +8220,13 @@
 - "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_simplify_redlines_py_pat
+- "community": 36,
 - "norm_label": "path"
 - },
 - lines.append(f"{prefix}{connector}{entry}")
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/office/helpers/simplify_redlin
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_simplify_redlines_get_au
 - "community": 36,
@@ -7947,10 +8239,12 @@
 - "source_location": "L172",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_simplify_redlines_infer_
+- "community": 36,
 - },
 - extension = "    " if is_last else "│   "
 - {
 - "file_type": "rationale",
+- "source_file": "criar-editar-apresentacao/scripts/office/helpers/simplify_redlin
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_simplify_redlines_ration
@@ -8018,6 +8312,7 @@
 - "source_file": "criar-editar-apresentacao/scripts/office/soffice.py",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_soffice_get_soffice_env",
+- "community": 17,
 - "norm_label": "get_soffice_env()"
 - },
 - graphify-out/cache/ast/v0.9.10/0a3b931ecb74602a0bdaeed142e0eab32568305a88331d36e
@@ -8027,6 +8322,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_soffice_run_soffice",
+- "community": 17,
 - "norm_label": "run_soffice()"
 - },
 - """Escaneia um diretório app/{subdir} e retorna lista de arquivos .php"""
@@ -8045,6 +8341,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_soffice_needs_shim",
+- "community": 17,
 - },
 - if not os.path.isdir(d):
 - {
@@ -8052,6 +8349,7 @@
 - "source_location": "L53",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_soffice_ensure_shim",
+- "community": 17,
 - "norm_label": "_ensure_shim()"
 - },
 - return []
@@ -8075,6 +8373,7 @@
 - {
 - "file_type": "code",
 - "source_location": "L1",
+- "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_unpack",
 - "norm_label": "unpack.py"
 - },
@@ -8135,6 +8434,7 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_validate_rationale_1",
+- "community": 48,
 - "norm_label": "command line tool to validate office document xml files against x
 - },
 - desc_match = re.search(r'/\*\*\s*\*\s*(.*?)\s*\*/', content, re.DOTALL)
@@ -8151,6 +8451,7 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_validators_init_rationale_1",
+- "community": 54,
 - "norm_label": "validation modules for word document processing."
 - },
 - desc_line = desc_match.group(1).split('\n')[0].strip('* ')
@@ -8164,11 +8465,14 @@
 - {
 - "file_type": "code",
 - "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
+- "source_location": "L12",
 - "_origin": "ast",
+- "id": "criar_editar_apresentacao_scripts_office_validators_base_baseschemavalida
 - "community": 11,
 - },
 - else:
 - {
+- "label": ".__init__()",
 - "file_type": "code",
 - "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
 - "_origin": "ast",
@@ -8183,6 +8487,8 @@
 - "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_validators_base_baseschemavalida
+- "community": 11,
+- "norm_label": ".validate()"
 - },
 - if single:
 - {
@@ -8211,8 +8517,10 @@
 - return result
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_validators_base_baseschemavalida
+- "community": 11,
 - "norm_label": ".validate_namespaces()"
 - },
 - """Gera tabela markdown"""
@@ -8222,6 +8530,7 @@
 - "source_location": "L199",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_validators_base_baseschemavalida
+- "community": 11,
 - },
 - lines = []
 - {
@@ -8229,6 +8538,7 @@
 - "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_validators_base_baseschemavalida
+- "community": 11,
 - },
 - sep = "| " + " | ".join(["---"] * len(headers)) + " |"
 - {
@@ -8241,12 +8551,16 @@
 - lines.append("| " + " | ".join(headers) + " |")
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
 - "_origin": "ast",
+- "id": "criar_editar_apresentacao_scripts_office_validators_base_baseschemavalida
 - },
 - lines.append(sep)
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
 - "_origin": "ast",
+- "id": "criar_editar_apresentacao_scripts_office_validators_base_baseschemavalida
 - },
 - graphify-out/cache/ast/v0.9.10/0d224ef13a2a8c656cca21952089bcbcc625154a25554a8b6
 - for row in rows:
@@ -8291,6 +8605,7 @@
 - },
 - replacement = marker_start + "\n" + new_text + "\n" + marker_end
 - {
+- "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
 - "_origin": "ast",
 - },
 - return re.sub(pattern, replacement, content, flags=re.DOTALL)
@@ -8310,6 +8625,7 @@
 - "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
 - "source_location": "L787",
 - "_origin": "ast",
+- "id": "criar_editar_apresentacao_scripts_office_validators_base_baseschemavalida
 - },
 - readme_path = os.path.join(project_path, "README.MD")
 - {
@@ -8345,13 +8661,17 @@
 - "label": "BaseSchemaValidator",
 - "file_type": "code",
 - "source_file": "",
+- "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_validators_docx_py_baseschemaval
 - },
 - changed = False
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/office/validators/docx.py",
 - "_origin": "ast",
+- "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalida
+- "norm_label": ".validate()"
 - },
 - # 1. Atualizar árvore de diretórios
 - {
@@ -8372,6 +8692,7 @@
 - if tree:
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/office/validators/docx.py",
 - "_origin": "ast",
 - },
 - tree_text = "\n".join(tree)
@@ -8379,12 +8700,15 @@
 - "label": ".count_paragraphs_in_original()",
 - "file_type": "code",
 - "_origin": "ast",
+- "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalida
 - },
 - tree_marker_start = "## Estrutura de Diretórios"
 - {
 - "label": ".validate_insertions()",
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/office/validators/docx.py",
 - "_origin": "ast",
+- "community": 28,
 - "norm_label": ".validate_insertions()"
 - },
 - tree_marker_end = "## Entrypoints WordPress"
@@ -8402,6 +8726,7 @@
 - "file_type": "code",
 - "source_location": "L251",
 - "_origin": "ast",
+- "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalida
 - },
 - old_tree_section = content[content.index(tree_marker_start):content.index(tree_m
 - {
@@ -8413,14 +8738,17 @@
 - "file_type": "code",
 - "source_file": "criar-editar-apresentacao/scripts/office/validators/docx.py",
 - "_origin": "ast",
+- "community": 28,
 - "norm_label": ".validate_comment_markers()"
 - },
 - content = content.replace(old_tree_section, new_tree_section)
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/office/validators/docx.py",
 - "source_location": "L386",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalida
+- "community": 28,
 - },
 - changed = True
 - {
@@ -8428,6 +8756,8 @@
 - "source_file": "criar-editar-apresentacao/scripts/office/validators/docx.py",
 - "source_location": "L391",
 - "_origin": "ast",
+- "id": "criar_editar_apresentacao_scripts_office_validators_docx_docxschemavalida
+- "community": 28,
 - "norm_label": ".repair_durableid()"
 - },
 - # 2. Atualizar tabelas de Controllers, Models, Services
@@ -8455,6 +8785,7 @@
 - {
 - "file_type": "code",
 - "source_file": "",
+- "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_validators_pptx_py_baseschemaval
 - "norm_label": "baseschemavalidator"
@@ -8462,6 +8793,7 @@
 - 'Services': scan_php_classes(project_path, 'services'),
 - {
 - "file_type": "code",
+- "source_location": "L25",
 - "_origin": "ast",
 - },
 - graphify-out/cache/ast/v0.9.10/13a45fdd0322bd155bb434f37b293a6b3e6f29d85cf08a397
@@ -8492,6 +8824,7 @@
 - ('Models', '### Models', '### Services',
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/office/validators/pptx.py",
 - "_origin": "ast",
 - },
 - ["Model", "Responsabilidade"]),
@@ -8509,11 +8842,13 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_validators_redlining",
+- "community": 54,
 - "norm_label": "redlining.py"
 - },
 - ["Service", "Responsabilidade"]),
 - {
 - "file_type": "code",
+- "source_location": "L11",
 - "_origin": "ast",
 - },
 - ]
@@ -8525,7 +8860,9 @@
 - for section_name, section_header, next_header, headers in table_configs:
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/office/validators/redlining.py
 - "_origin": "ast",
+- "community": 48,
 - },
 - graphify-out/cache/ast/v0.9.10/1620b17573ab110b6a5ef37cd1badeac37ad13cf111d312c6
 - if section_header not in content or next_header not in content:
@@ -8536,7 +8873,9 @@
 - continue
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/office/validators/redlining.py
 - "_origin": "ast",
+- "community": 48,
 - },
 - rows = [(name, desc[:60]) for name, desc in sections[section_name]]
 - {
@@ -8563,6 +8902,7 @@
 - },
 - search_area = content[section_start:content.index(next_header)]
 - {
+- "file_type": "rationale",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_validators_redlining_rationale_1
@@ -8616,6 +8956,7 @@
 - {
 - "label": "create_hidden_placeholder()",
 - "file_type": "code",
+- "source_file": "criar-editar-apresentacao/scripts/thumbnail.py",
 - "source_location": "L149",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_thumbnail_create_hidden_placeholder",
@@ -8624,6 +8965,7 @@
 - },
 - {
 - "file_type": "code",
+- "source_file": "",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_thumbnail_py_image",
 - "norm_label": "image"
@@ -8726,20 +9068,25 @@
 - {
 - "label": "_encode_smart_quotes()",
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/comment.py",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_comment_encode_smart_quotes",
+- "community": 37,
 - "norm_label": "_encode_smart_quotes()"
 - },
 - env_vars = {}
 - {
 - "label": "_append_xml()",
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/comment.py",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_comment_append_xml",
+- "community": 37,
 - "norm_label": "_append_xml()"
 - },
 - {
 - "file_type": "code",
+- "source_file": "",
 - "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_comment_py_path",
@@ -8750,6 +9097,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_comment_find_para_id",
+- "community": 37,
 - "norm_label": "_find_para_id()"
 - },
 - {
@@ -8764,6 +9112,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_comment_has_relationship",
+- "community": 37,
 - "norm_label": "_has_relationship()"
 - },
 - graphify-out/cache/ast/v0.9.10/18eb4c8f3b3917707239a838e4414516b4ca82de4b8c4fc1c
@@ -8794,6 +9143,7 @@
 - {
 - "label": "add_comment()",
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/comment.py",
 - "source_location": "L218",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_comment_add_comment",
@@ -8802,6 +9152,7 @@
 - {
 - "label": "Add comments to DOCX documents.  Usage:     python comment.py unpacked
 - "file_type": "rationale",
+- "source_file": "criar-editar-documento-word/scripts/comment.py",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_comment_rationale_1",
@@ -8831,6 +9182,7 @@
 - },
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/helpers/merge_runs.py
 - "source_location": "L44",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_merge_runs_find_elemen
@@ -8880,11 +9232,13 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_merge_runs_first_child
+- "community": 21,
 - "norm_label": "_first_child_run()"
 - },
 - parser.add_argument("--message", required=True, help="Mensagem do commit")
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/helpers/merge_runs.py
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_merge_runs_next_elemen
 - "norm_label": "_next_element_sibling()"
@@ -8892,8 +9246,10 @@
 - parser.add_argument("--files", help="Arquivos a comitar (separados por espaco)")
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/helpers/merge_runs.py
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_merge_runs_next_siblin
+- "community": 21,
 - },
 - parser.add_argument("--project", help="Caminho base do projeto")
 - {
@@ -8902,6 +9258,7 @@
 - "source_file": "criar-editar-documento-word/scripts/office/helpers/merge_runs.py
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_merge_runs_is_run",
+- "community": 21,
 - "norm_label": "_is_run()"
 - },
 - parser.add_argument("--yes", "-y", action="store_true", help="Pular confirmacao
@@ -8917,8 +9274,10 @@
 - parser.add_argument("--force", action="store_true", help="Usa --force-with-lease
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/helpers/merge_runs.py
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_merge_runs_merge_run_c
+- "community": 21,
 - },
 - {
 - "label": "_consolidate_text()",
@@ -8938,6 +9297,7 @@
 - os.chdir(project_path)
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/helpers/simplify_redl
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_simplify_redlines",
@@ -8945,6 +9305,7 @@
 - if args.files:
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/helpers/simplify_redl
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_simplify_redlines_simp
 - },
@@ -8954,11 +9315,14 @@
 - "community": 38,
 - },
 - for f in files_list:
+- {
 - "label": "_is_element()",
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/helpers/simplify_redl
 - "source_location": "L75",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_simplify_redlines_is_e
+- "community": 38,
 - },
 - run_git_command(["git", "add", f], project_path)
 - {
@@ -8972,10 +9336,12 @@
 - "source_location": "L89",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_simplify_redlines_can_
+- "community": 38,
 - },
 - run_git_command(["git", "add", "-A"], project_path)
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/helpers/simplify_redl
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_simplify_redlines_merg
 - },
@@ -8999,6 +9365,7 @@
 - "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_simplify_redlines_py_p
+- "community": 38,
 - "norm_label": "path"
 - },
 - return
@@ -9013,6 +9380,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_simplify_redlines_infe
+- "community": 38,
 - },
 - diff_stdout, _, _ = run_git_command(["git", "diff", "--cached", "--stat"], proje
 - {
@@ -9049,6 +9417,7 @@
 - },
 - diff_content, _, _ = run_git_command(["git", "diff", "--cached"], project_path)
 - {
+- "label": "Path",
 - "source_file": "",
 - "source_location": "",
 - "_origin": "ast",
@@ -9078,6 +9447,7 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_soffice",
+- "community": 43,
 - },
 - print("... (diff truncado, mostrando primeiras 3000 linhas)")
 - {
@@ -9093,6 +9463,7 @@
 - "source_location": "L35",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_soffice_run_soffice",
+- "community": 43,
 - },
 - if not args.yes:
 - {
@@ -9106,6 +9477,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_soffice_needs_shim",
+- "community": 43,
 - "norm_label": "_needs_shim()"
 - },
 - if confirm != "s":
@@ -9128,6 +9500,7 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_soffice_rationale_1",
+- "community": 43,
 - },
 - autenticar-github-device-flow/SKILL.md
 - graphify-out/cache/ast/v0.9.10/2307e8a6d2de75b64cf768fb11b677f6ea9b46a0d1578f31d
@@ -9161,6 +9534,7 @@
 - "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_unpack_py_path",
+- "norm_label": "path"
 - print("Nenhum arquivo para comitar")
 - {
 - "file_type": "code",
@@ -9182,12 +9556,14 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_validate",
+- "community": 44,
 - },
 - {
 - "file_type": "code",
 - "source_location": "L25",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_validate_main",
+- "community": 44,
 - },
 - commit_hash = get_commit_hash(project_path)
 - {
@@ -9215,6 +9591,7 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_validators_init_rationale_1",
+- "community": 0,
 - },
 - print("Criando arquivo de commit em commits/...")
 - {
@@ -9229,11 +9606,15 @@
 - create_commit_file(project_path, commit_id, args.message, staged, commit_hash, d
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/validators/base.py",
 - "source_location": "L12",
 - "_origin": "ast",
+- "community": 0,
 - },
 - print("Fazendo commit do historico...")
 - {
+- "label": ".__init__()",
+- "file_type": "code",
 - "source_file": "criar-editar-documento-word/scripts/office/validators/base.py",
 - "source_location": "L94",
 - "_origin": "ast",
@@ -9242,8 +9623,11 @@
 - },
 - run_git_command(["git", "add", "commits/"], project_path)
 - {
+- "label": ".validate()",
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/validators/base.py",
 - "_origin": "ast",
+- "id": "criar_editar_documento_word_scripts_office_validators_base_baseschemavali
 - "community": 0,
 - "norm_label": ".validate()"
 - },
@@ -9257,6 +9641,7 @@
 - if commit_hist_code == 0:
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/validators/base.py",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_validators_base_baseschemavali
 - "community": 0,
@@ -9271,6 +9656,7 @@
 - {
 - "file_type": "code",
 - "_origin": "ast",
+- "id": "criar_editar_documento_word_scripts_office_validators_base_baseschemavali
 - },
 - print("Atualizando README com estrutura do projeto...")
 - {
@@ -9335,6 +9721,7 @@
 - "source_file": "criar-editar-documento-word/scripts/office/validators/base.py",
 - "source_location": "L685",
 - "_origin": "ast",
+- "id": "criar_editar_documento_word_scripts_office_validators_base_baseschemavali
 - "community": 0,
 - "norm_label": "._get_schema_path()"
 - },
@@ -9344,11 +9731,13 @@
 - "source_file": "criar-editar-documento-word/scripts/office/validators/base.py",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_validators_base_baseschemavali
+- "community": 0,
 - "norm_label": "._clean_ignorable_namespaces()"
 - },
 - if args.force:
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/validators/base.py",
 - "_origin": "ast",
 - "community": 0,
 - },
@@ -9367,6 +9756,7 @@
 - "file_type": "code",
 - "source_file": "criar-editar-documento-word/scripts/office/validators/base.py",
 - "_origin": "ast",
+- "id": "criar_editar_documento_word_scripts_office_validators_base_baseschemavali
 - "community": 0,
 - },
 - print("Fazendo push...")
@@ -9394,6 +9784,7 @@
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_validators_base_rationale_1",
 - "community": 0,
+- },
 - print(f"Erro no push: {push_stderr}")
 - {
 - "file_type": "code",
@@ -9421,13 +9812,16 @@
 - },
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/validators/docx.py",
 - "_origin": "ast",
 - },
 - `message`: Mensagem do commit
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/validators/docx.py",
 - "source_location": "L66",
 - "_origin": "ast",
+- "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavali
 - "community": 0,
 - },
 - `files`: Arquivos a serem comitados (separados por espaco, default: todos)
@@ -9470,6 +9864,7 @@
 - if not os.path.exists(graphify_out):
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/validators/docx.py",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavali
 - "community": 0,
@@ -9484,19 +9879,24 @@
 - },
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/validators/docx.py",
 - "source_location": "L298",
 - "_origin": "ast",
+- "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavali
 - "community": 0,
 - },
 - {
 - "file_type": "code",
 - "_origin": "ast",
+- "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavali
 - "community": 0,
+- "norm_label": ".repair()"
 - },
 - {
 - "label": ".repair_durableId()",
 - "file_type": "code",
 - "_origin": "ast",
+- "id": "criar_editar_documento_word_scripts_office_validators_docx_docxschemavali
 - "community": 0,
 - },
 - config_path = os.path.join(graphify_out, ".graphify_config")
@@ -9530,17 +9930,21 @@
 - "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_validators_pptx_py_baseschemav
+- "community": 0,
 - },
 - for line in f:
 - {
 - "file_type": "code",
+- "source_location": "L25",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_validators_pptx_pptxschemavali
 - "community": 0,
+- "norm_label": ".validate()"
 - },
 - {
 - "label": ".validate_uuid_ids()",
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/validators/pptx.py",
 - "_origin": "ast",
 - "community": 0,
 - },
@@ -9597,21 +10001,28 @@
 - for key, value in env_vars.items():
 - {
 - "file_type": "code",
+- "source_location": "L13",
 - "_origin": "ast",
 - "community": 0,
+- "norm_label": ".__init__()"
 - },
 - if key.endswith("_KEY") or key.endswith("_URL"):
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/validators/redlining.
+- "source_location": "L22",
 - "_origin": "ast",
 - "community": 0,
 - },
+- {
+- "label": ".validate()",
 - "file_type": "code",
 - "_origin": "ast",
 - "community": 0,
 - },
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-documento-word/scripts/office/validators/redlining.
 - "source_location": "L104",
 - "_origin": "ast",
 - "community": 0,
@@ -9653,6 +10064,7 @@
 - },
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/helpers/merge_runs.p
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_merge_runs",
@@ -9660,6 +10072,7 @@
 - python3 generate_commit_history.py --repo /caminho/do/repo --output /caminho/out
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/helpers/merge_runs.p
 - "_origin": "ast",
 - "norm_label": "merge_runs()"
 - },
@@ -9674,6 +10087,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_merge_runs_get_child"
+- "community": 22,
 - "norm_label": "_get_child()"
 - },
 - ["git"] + args,
@@ -9689,6 +10103,7 @@
 - {
 - "label": "_is_adjacent()",
 - "file_type": "code",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/helpers/merge_runs.p
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_merge_runs_is_adjacen
 - "norm_label": "_is_adjacent()"
@@ -9706,6 +10121,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_merge_runs_strip_run_
+- "community": 22,
 - },
 - )
 - {
@@ -9724,6 +10140,7 @@
 - "source_location": "L128",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_merge_runs_first_chil
+- "community": 22,
 - },
 - """Extrai detalhes de um commit específico."""
 - {
@@ -9736,8 +10153,10 @@
 - {
 - "label": "_next_sibling_run()",
 - "file_type": "code",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/helpers/merge_runs.p
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_merge_runs_next_sibli
+- "community": 22,
 - },
 - {
 - "file_type": "code",
@@ -9787,6 +10206,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_simplify_redlines_sim
+- "community": 39,
 - },
 - graphify-out/cache/ast/v0.9.10/3d81e928b6df88556d960938ad51a1fea01ffeb01ecb9aafc
 - if len(parts) < 3:
@@ -9798,8 +10218,10 @@
 - },
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/helpers/simplify_red
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_simplify_redlines_is_
+- "community": 39,
 - },
 - hash_val, message, date_str = parts
 - {
@@ -9818,7 +10240,9 @@
 - {
 - "label": "_merge_tracked_content()",
 - "file_type": "code",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/helpers/simplify_red
 - "_origin": "ast",
+- "community": 39,
 - "norm_label": "_merge_tracked_content()"
 - },
 - dt = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
@@ -9827,6 +10251,7 @@
 - "source_location": "L111",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_simplify_redlines_fin
+- "community": 39,
 - },
 - {
 - "file_type": "code",
@@ -9851,6 +10276,7 @@
 - files_out, _ = run_git(["diff-tree", "--no-commit-id", "--name-only", "-r", comm
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/helpers/simplify_red
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_simplify_redlines_inf
 - "norm_label": "infer_author()"
@@ -9860,6 +10286,7 @@
 - files = [f for f in files_out.split("\n") if f.strip()]
 - {
 - "file_type": "rationale",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/helpers/simplify_red
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_simplify_redlines_rat
@@ -9874,6 +10301,7 @@
 - diff_out, _ = run_git(["diff", f"{commit_hash}~1..{commit_hash}"], cwd=repo_path
 - {
 - "file_type": "code",
+- "source_location": "L24",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_pack_pack",
 - },
@@ -9917,6 +10345,8 @@
 - "diff": diff_out[:500000] if diff_out else ""
 - {
 - "label": "get_soffice_env()",
+- "file_type": "code",
+- "source_location": "L24",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_soffice_get_soffice_env",
 - "community": 29,
@@ -9939,6 +10369,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_soffice_needs_shim",
+- "community": 29,
 - },
 - return False
 - {
@@ -9951,9 +10382,11 @@
 - {
 - "label": "Path",
 - "file_type": "code",
+- "source_file": "",
 - "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_soffice_py_path",
+- "norm_label": "path"
 - },
 - # Create directory: commits/yyyy/mm/dd/
 - {
@@ -9978,6 +10411,7 @@
 - "source_file": "criar-editar-planilhas-excel/scripts/office/unpack.py",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_unpack_unpack",
+- },
 - # Filename: commit-[hash]-[yyyy-mm-dd-hh-mm-ss].md
 - {
 - "label": "_pretty_print_xml()",
@@ -9987,6 +10421,7 @@
 - },
 - filename = f"commit-{commit_info['hash'][:12]}-{dt.strftime('%Y-%m-%d-%H-%M-%S')
 - {
+- "label": "Path",
 - "file_type": "code",
 - "source_file": "",
 - "source_location": "",
@@ -10027,8 +10462,10 @@
 - {
 - "label": "main()",
 - "file_type": "code",
+- "source_location": "L25",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_validate_main",
+- "norm_label": "main()"
 - },
 - with open(file_path, "w", encoding="utf-8") as f:
 - {
@@ -10036,10 +10473,12 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_validate_rationale_1",
+- "community": 44,
 - },
 - f.write(content)
 - {
 - "file_type": "code",
+- "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_validators_init",
 - "community": 64,
@@ -10076,6 +10515,7 @@
 - },
 - parser.add_argument("--repo", default=DEFAULT_REPO_PATH, help="Caminho do reposi
 - {
+- "label": ".validate()",
 - "file_type": "code",
 - "source_file": "criar-editar-planilhas-excel/scripts/office/validators/base.py",
 - "source_location": "L109",
@@ -10085,7 +10525,9 @@
 - graphify-out/cache/ast/v0.9.10/41aed6b94daa5709d38953a245d57c066e312b265c6b09d58
 - parser.add_argument("--output", default=DEFAULT_OUTPUT_BASE, help="Diretório bas
 - {
+- "label": ".repair()",
 - "file_type": "code",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/base.py",
 - "source_location": "L112",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_validators_base_baseschemaval
@@ -10105,6 +10547,7 @@
 - {
 - "file_type": "code",
 - "_origin": "ast",
+- "id": "criar_editar_planilhas_excel_scripts_office_validators_base_baseschemaval
 - },
 - output_base = args.output
 - {
@@ -10133,7 +10576,9 @@
 - print(f"Output: {output_base}")
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/base.py",
 - "_origin": "ast",
+- "id": "criar_editar_planilhas_excel_scripts_office_validators_base_baseschemaval
 - "community": 12,
 - "norm_label": ".validate_all_relationship_ids()"
 - },
@@ -10141,12 +10586,15 @@
 - "file_type": "code",
 - "source_file": "criar-editar-planilhas-excel/scripts/office/validators/base.py",
 - "_origin": "ast",
+- "id": "criar_editar_planilhas_excel_scripts_office_validators_base_baseschemaval
+- "community": 12,
 - },
 - # Get all commits
 - {
 - "label": ".validate_content_types()",
 - "file_type": "code",
 - "_origin": "ast",
+- "community": 12,
 - },
 - commits_out, _ = run_git(["rev-list", "--all"], cwd=repo_path)
 - {
@@ -10169,9 +10617,11 @@
 - {
 - "file_type": "code",
 - "_origin": "ast",
+- "community": 12,
 - },
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/base.py",
 - "source_location": "L703",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_validators_base_baseschemaval
@@ -10194,7 +10644,10 @@
 - for i, commit_hash in enumerate(all_commits):
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/base.py",
 - "_origin": "ast",
+- "id": "criar_editar_planilhas_excel_scripts_office_validators_base_baseschemaval
+- "community": 12,
 - },
 - if (i + 1) % 50 == 0:
 - {
@@ -10222,6 +10675,8 @@
 - info, _ = run_git([
 - {
 - "label": "docx.py",
+- "file_type": "code",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/docx.py",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_validators_docx",
@@ -10232,7 +10687,9 @@
 - {
 - "file_type": "code",
 - "source_file": "criar-editar-planilhas-excel/scripts/office/validators/docx.py",
+- "source_location": "L16",
 - "_origin": "ast",
+- "community": 30,
 - },
 - "--date=format:%Y-%m-%d %H:%M:%S", "-1", commit_hash
 - {
@@ -10240,6 +10697,7 @@
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_validators_docx_py_baseschema
 - "community": 30,
+- "norm_label": "baseschemavalidator"
 - },
 - ], cwd=repo_path)
 - {
@@ -10257,18 +10715,23 @@
 - "file_type": "code",
 - "source_file": "criar-editar-planilhas-excel/scripts/office/validators/docx.py",
 - "_origin": "ast",
+- "id": "criar_editar_planilhas_excel_scripts_office_validators_docx_docxschemaval
 - "community": 30,
 - },
 - dt = datetime.strptime(info, "%Y-%m-%d %H:%M:%S")
 - {
 - "file_type": "code",
 - "_origin": "ast",
+- "id": "criar_editar_planilhas_excel_scripts_office_validators_docx_docxschemaval
 - "community": 30,
 - "norm_label": ".count_paragraphs_in_unpacked()"
+- },
 - filename = f"commit-{commit_hash[:12]}-{dt.strftime('%Y-%m-%d-%H-%M-%S')}.md"
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/docx.py",
 - "_origin": "ast",
+- "community": 30,
 - },
 - dir_path = Path(output_base) / f"{dt.year}" / f"{dt.month:02d}" / f"{dt.day:02d}
 - {
@@ -10280,6 +10743,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_validators_docx_docxschemaval
+- "community": 30,
 - },
 - if file_path.exists():
 - {
@@ -10287,6 +10751,7 @@
 - "file_type": "code",
 - "source_file": "criar-editar-planilhas-excel/scripts/office/validators/docx.py",
 - "_origin": "ast",
+- "id": "criar_editar_planilhas_excel_scripts_office_validators_docx_docxschemaval
 - },
 - graphify-out/cache/ast/v0.9.10/4395214e9774ddb593e23ed3f69958797cdf7f4e3bd39d913
 - skipped += 1
@@ -10294,10 +10759,12 @@
 - "file_type": "code",
 - "source_location": "L254",
 - "_origin": "ast",
+- "community": 30,
 - },
 - {
 - "label": ".validate_comment_markers()",
 - "file_type": "code",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/docx.py",
 - "_origin": "ast",
 - },
 - except:
@@ -10308,7 +10775,9 @@
 - pass
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/docx.py",
 - "_origin": "ast",
+- "id": "criar_editar_planilhas_excel_scripts_office_validators_docx_docxschemaval
 - },
 - details = get_commit_details(commit_hash, repo_path)
 - {
@@ -10335,6 +10804,7 @@
 - },
 - if result:
 - {
+- "label": "BaseSchemaValidator",
 - "file_type": "code",
 - "source_file": "",
 - "source_location": "",
@@ -10343,7 +10813,9 @@
 - },
 - created += 1
 - {
+- "label": ".validate()",
 - "file_type": "code",
+- "source_location": "L25",
 - "_origin": "ast",
 - "community": 65,
 - },
@@ -10360,6 +10832,7 @@
 - },
 - {
 - "file_type": "code",
+- "source_location": "L104",
 - "_origin": "ast",
 - "norm_label": ".validate_slide_layout_ids()"
 - },
@@ -10371,6 +10844,7 @@
 - print(f"Arquivos criados: {created}")
 - {
 - "file_type": "code",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/pptx.py",
 - "_origin": "ast",
 - "norm_label": ".validate_notes_slide_references()"
 - },
@@ -10391,6 +10865,7 @@
 - {
 - "label": "RedliningValidator",
 - "file_type": "code",
+- "source_location": "L11",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_validators_redlining_redlinin
 - "norm_label": "redliningvalidator"
@@ -10399,22 +10874,28 @@
 - "file_type": "code",
 - "source_file": "criar-editar-planilhas-excel/scripts/office/validators/redlining
 - "_origin": "ast",
+- "norm_label": ".__init__()"
 - },
 - {
 - "label": ".repair()",
 - "file_type": "code",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/redlining
+- "source_location": "L22",
 - "_origin": "ast",
 - },
 - "2": "PDF Processing Advanced Reference",
 - {
 - "file_type": "code",
 - "_origin": "ast",
+- "community": 56,
+- "norm_label": ".validate()"
 - },
 - graphify-out/cache/ast/v0.9.10/494f3914834089ab3dafc84a75164dee6587a8a571b8b9891
 - "3": "MCP Server Evaluation Guide",
 - {
 - "label": "._generate_detailed_diff()",
 - "file_type": "code",
+- "source_location": "L104",
 - "_origin": "ast",
 - },
 - "4": "Node/TypeScript MCP Server Implementation Guide",
@@ -10425,11 +10906,13 @@
 - {
 - "file_type": "code",
 - "_origin": "ast",
+- "community": 56,
 - "norm_label": "._remove_author_tracked_changes()"
 - },
 - {
 - "label": "._extract_text_content()",
 - "file_type": "code",
+- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/redlining
 - "source_location": "L229",
 - "_origin": "ast",
 - },
@@ -10473,14 +10956,18 @@
 - "source_location": "L70",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_recalc_recalc",
+- "community": 29,
 - "norm_label": "recalc()"
 - },
 - "12": "BaseSchemaValidator",
 - {
+- "label": "main()",
 - "file_type": "code",
 - "source_location": "L164",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_recalc_main",
+- "community": 29,
+- "norm_label": "main()"
 - },
 - graphify-out/cache/ast/v0.9.10/499af1c201e1be6205bdee228de370ec9a24ccc04a5c1c4c6
 - {
@@ -10489,6 +10976,7 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_recalc_rationale_1",
+- "community": 29,
 - "norm_label": "excel formula recalculation script recalculates all formulas in a
 - },
 - {
@@ -10505,6 +10993,7 @@
 - {
 - "label": "linear()",
 - "file_type": "code",
+- "source_file": "criar-gifs-animados-slack/core/easing.py",
 - "source_location": "L12",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_linear",
@@ -10526,6 +11015,7 @@
 - {
 - "label": "ease_out_quad()",
 - "file_type": "code",
+- "source_file": "criar-gifs-animados-slack/core/easing.py",
 - "source_location": "L22",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_ease_out_quad",
@@ -10547,6 +11037,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_ease_in_cubic",
+- "community": 5,
 - "norm_label": "ease_in_cubic()"
 - },
 - "20": "merge_runs.py",
@@ -10624,6 +11115,7 @@
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_ease_in_out_elastic",
 - "norm_label": "ease_in_out_elastic()"
+- },
 - {
 - "label": "get_easing()",
 - "file_type": "code",
@@ -10631,11 +11123,13 @@
 - "source_location": "L117",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_get_easing",
+- "community": 5,
 - "norm_label": "get_easing()"
 - },
 - {
 - "label": "interpolate()",
 - "file_type": "code",
+- "source_file": "criar-gifs-animados-slack/core/easing.py",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_interpolate",
 - "community": 5,
@@ -10725,6 +11219,7 @@
 - "source_location": "L28",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_rationale_28",
+- "community": 5,
 - "norm_label": "quadratic ease-in-out (slow start and end)."
 - },
 - {
@@ -10740,6 +11235,7 @@
 - {
 - "label": "Cubic ease-out (fast start).",
 - "file_type": "rationale",
+- "source_file": "criar-gifs-animados-slack/core/easing.py",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_rationale_40",
 - "community": 5,
@@ -10847,6 +11343,7 @@
 - "source_file": "criar-gifs-animados-slack/core/easing.py",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_rationale_198",
+- "community": 5,
 - "norm_label": "calculate position along a parabolic arc (natural motion path).
 - },
 - "52": "Estruturas de Skeleton Identificadas no Tema",
@@ -10856,6 +11353,7 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_frame_composer",
+- "community": 45,
 - "norm_label": "frame_composer.py"
 - },
 - graphify-out/cache/ast/v0.9.10/4f105767138bf99dd200aaaec896aea490a4e9e873c078e1d
@@ -10877,6 +11375,7 @@
 - {
 - "label": "draw_circle()",
 - "file_type": "code",
+- "source_file": "criar-gifs-animados-slack/core/frame_composer.py",
 - "source_location": "L32",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_frame_composer_draw_circle",
@@ -10893,6 +11392,7 @@
 - {
 - "label": "create_gradient_background()",
 - "file_type": "code",
+- "source_file": "criar-gifs-animados-slack/core/frame_composer.py",
 - "source_location": "L99",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_frame_composer_create_gradient_background"
@@ -10904,11 +11404,13 @@
 - "source_file": "criar-gifs-animados-slack/core/frame_composer.py",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_frame_composer_draw_star",
+- "community": 45,
 - "norm_label": "draw_star()"
 - },
 - "59": "merge.py",
 - {
 - "label": "Create a blank frame with solid color background.      Args:         w
+- "file_type": "rationale",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_frame_composer_rationale_18",
 - "community": 45,
@@ -10919,11 +11421,13 @@
 - "file_type": "rationale",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_frame_composer_rationale_40",
+- "community": 45,
 - "norm_label": "draw a circle on a frame.      args:         frame: pil image to
 - },
 - {
 - "label": "Draw text on a frame.      Args:         frame: PIL Image to draw on
 - "file_type": "rationale",
+- "source_file": "criar-gifs-animados-slack/core/frame_composer.py",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_frame_composer_rationale_68",
 - "norm_label": "draw text on a frame.      args:         frame: pil image to draw
@@ -10935,6 +11439,7 @@
 - "source_location": "L105",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_frame_composer_rationale_105",
+- "community": 45,
 - "norm_label": "create a vertical gradient background.      args:         width:
 - },
 - graphify-out/cache/ast/v0.9.10/536681712cc2b7deafae799af722cf6d3ae694748cf1d1724
@@ -10952,6 +11457,7 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_gif_builder",
+- "community": 14,
 - "norm_label": "gif_builder.py"
 - },
 - "65": "PPTXSchemaValidator",
@@ -10967,6 +11473,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_gif_builder_gifbuilder_init",
+- "community": 14,
 - "norm_label": ".__init__()"
 - },
 - {
@@ -10981,12 +11488,14 @@
 - "label": "ndarray",
 - "file_type": "code",
 - "source_file": "",
+- "source_location": "",
 - "_origin": "ast",
 - "id": "ndarray",
 - "community": 14,
 - "norm_label": "ndarray"
 - },
 - {
+- "file_type": "code",
 - "source_file": "",
 - "source_location": "",
 - "_origin": "ast",
@@ -11013,6 +11522,7 @@
 - {
 - "label": ".deduplicate_frames()",
 - "file_type": "code",
+- "source_file": "criar-gifs-animados-slack/core/gif_builder.py",
 - "source_location": "L124",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_gif_builder_gifbuilder_deduplicate_frames"
@@ -11030,6 +11540,7 @@
 - "norm_label": ".save()"
 - },
 - {
+- "label": "Path",
 - "file_type": "code",
 - "source_file": "",
 - "source_location": "",
@@ -11059,6 +11570,7 @@
 - {
 - "label": "Initialize GIF builder.          Args:             width: Frame width
 - "file_type": "rationale",
+- "source_file": "criar-gifs-animados-slack/core/gif_builder.py",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_gif_builder_rationale_21",
 - "community": 14,
@@ -11067,8 +11579,10 @@
 - {
 - "label": "Add a frame to the GIF.          Args:             frame: Frame as num
 - "file_type": "rationale",
+- "source_file": "criar-gifs-animados-slack/core/gif_builder.py",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_gif_builder_rationale_35",
+- "community": 14,
 - "norm_label": "add a frame to the gif.          args:             frame: frame a
 - },
 - "79": "faq-answers.md",
@@ -11078,6 +11592,7 @@
 - "source_file": "criar-gifs-animados-slack/core/gif_builder.py",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_gif_builder_rationale_55",
+- "community": 14,
 - "norm_label": "add multiple frames at once."
 - },
 - {
@@ -11112,6 +11627,7 @@
 - {
 - "label": "Clear all frames (useful for creating multiple GIFs).",
 - "file_type": "rationale",
+- "source_file": "criar-gifs-animados-slack/core/gif_builder.py",
 - "source_location": "L268",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_gif_builder_rationale_268",
@@ -11148,6 +11664,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_validators_is_slack_ready",
+- "community": 44,
 - "norm_label": "is_slack_ready()"
 - },
 - {
@@ -11198,6 +11715,8 @@
 - {
 - "label": "ensure_dirs()",
 - "file_type": "code",
+- "source_file": "delegar-tarefas/agy.py",
+- "source_location": "L13",
 - "_origin": "ast",
 - "id": "delegar_tarefas_agy_ensure_dirs",
 - "community": 50,
@@ -11214,8 +11733,11 @@
 - {
 - "label": "create_task()",
 - "file_type": "code",
+- "source_file": "delegar-tarefas/agy.py",
+- "source_location": "L22",
 - "_origin": "ast",
 - "id": "delegar_tarefas_agy_create_task",
+- "community": 50,
 - "norm_label": "create_task()"
 - },
 - "96": "Desert Rose",
@@ -11230,9 +11752,11 @@
 - {
 - "label": "list_tasks()",
 - "file_type": "code",
+- "source_file": "delegar-tarefas/agy.py",
 - "source_location": "L113",
 - "_origin": "ast",
 - "id": "delegar_tarefas_agy_list_tasks",
+- "community": 50,
 - "norm_label": "list_tasks()"
 - },
 - "98": "Golden Hour",
@@ -11266,6 +11790,7 @@
 - "source_location": "L206",
 - "_origin": "ast",
 - "id": "delegar_tarefas_agy_cmd_init",
+- "community": 50,
 - "norm_label": "cmd_init()"
 - },
 - "102": "Sunset Boulevard",
@@ -11280,9 +11805,11 @@
 - {
 - "label": "package.json",
 - "file_type": "code",
+- "source_file": "extrair-conteudo-paginas/package.json",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "extrair_conteudo_paginas_package",
+- "community": 46,
 - "norm_label": "package.json"
 - },
 - {
@@ -11300,6 +11827,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "extrair_conteudo_paginas_package_version",
+- "community": 46,
 - "norm_label": "version"
 - },
 - {
@@ -11318,13 +11846,17 @@
 - },
 - "label": "main",
 - "file_type": "code",
+- "source_location": "L6",
 - "_origin": "ast",
 - "id": "extrair_conteudo_paginas_package_main",
+- "community": 46,
 - "norm_label": "main"
 - },
 - {
 - "label": "scripts",
 - "file_type": "code",
+- "source_file": "extrair-conteudo-paginas/package.json",
+- "source_location": "L7",
 - "_origin": "ast",
 - "id": "extrair_conteudo_paginas_package_scripts",
 - "norm_label": "scripts"
@@ -11339,6 +11871,7 @@
 - {
 - "label": "dependencies",
 - "file_type": "code",
+- "source_file": "extrair-conteudo-paginas/package.json",
 - "_origin": "ast",
 - "id": "extrair_conteudo_paginas_package_dependencies",
 - "norm_label": "dependencies"
@@ -11355,8 +11888,10 @@
 - {
 - "label": "jsdom",
 - "file_type": "code",
+- "source_file": "extrair-conteudo-paginas/package.json",
 - "_origin": "ast",
 - "id": "extrair_conteudo_paginas_package_dependencies_jsdom",
+- "community": 46,
 - "norm_label": "jsdom"
 - },
 - {
@@ -11369,6 +11904,7 @@
 - {
 - "label": "index.js",
 - "file_type": "code",
+- "source_location": "L1",
 - "_origin": "ast",
 - "id": "extrair_conteudo_paginas_script_index",
 - "norm_label": "index.js"
@@ -11417,8 +11953,10 @@
 - "norm_label": "lerpagina()"
 - },
 - {
+- "label": "main()",
 - "file_type": "code",
 - "source_location": "L61",
+- "_origin": "ast",
 - "id": "extrair_conteudo_paginas_script_index_main",
 - "norm_label": "main()"
 - },
@@ -11540,6 +12078,7 @@
 - "label": "remove_skill()",
 - "file_type": "code",
 - "source_file": "gerenciar-remover-skills/skillRefactory.py",
+- "source_location": "L30",
 - "_origin": "ast",
 - "id": "gerenciar_remover_skills_skillrefactory_remove_skill",
 - "norm_label": "remove_skill()"
@@ -11574,6 +12113,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "graphify_references_model_prices_load_env",
+- "community": 32,
 - "norm_label": "_load_env()"
 - },
 - "146": "bundle-artifact.sh",
@@ -11583,11 +12123,13 @@
 - "source_file": "graphify/references/model_prices.py",
 - "_origin": "ast",
 - "id": "graphify_references_model_prices_fetch_json",
+- "community": 32,
 - "norm_label": "_fetch_json()"
 - },
 - {
 - "label": "_normalise_model_id()",
 - "file_type": "code",
+- "source_file": "graphify/references/model_prices.py",
 - "_origin": "ast",
 - "id": "graphify_references_model_prices_normalise_model_id",
 - "norm_label": "_normalise_model_id()"
@@ -11597,6 +12139,7 @@
 - {
 - "label": "_read_cache()",
 - "file_type": "code",
+- "source_file": "graphify/references/model_prices.py",
 - "_origin": "ast",
 - "id": "graphify_references_model_prices_read_cache",
 - "norm_label": "_read_cache()"
@@ -11620,6 +12163,7 @@
 - {
 - "label": "_print_tree()",
 - "file_type": "code",
+- "source_file": "graphify/references/model_prices.py",
 - "_origin": "ast",
 - "id": "graphify_references_model_prices_print_tree",
 - "norm_label": "_print_tree()"
@@ -11631,6 +12175,7 @@
 - "source_location": "L225",
 - "_origin": "ast",
 - "id": "graphify_references_model_prices_print_flat",
+- "community": 32,
 - "norm_label": "_print_flat()"
 - },
 - {
@@ -11644,6 +12189,7 @@
 - {
 - "label": "Fetch URL, return parsed JSON, or None on failure.",
 - "file_type": "rationale",
+- "source_file": "graphify/references/model_prices.py",
 - "source_location": "L59",
 - "_origin": "ast",
 - "id": "graphify_references_model_prices_rationale_59",
@@ -11657,6 +12203,7 @@
 - "source_location": "L77",
 - "_origin": "ast",
 - "id": "graphify_references_model_prices_rationale_77",
+- "community": 32,
 - "norm_label": "strip provider prefix, lowercase, dots \u2192 hyphens."
 - },
 - "156": "cssRootReverse.py",
@@ -11689,6 +12236,7 @@
 - {
 - "label": "remove_path()",
 - "file_type": "code",
+- "source_location": "L9",
 - "_origin": "ast",
 - "id": "limpar_arquivos_dependencias_clean_remove_path",
 - "norm_label": "remove_path()"
@@ -11709,10 +12257,12 @@
 - "norm_label": "update_package_json()"
 - },
 - {
+- "label": "main()",
 - "file_type": "code",
 - "source_file": "limpar-arquivos-dependencias/clean.py",
 - "_origin": "ast",
 - "id": "limpar_arquivos_dependencias_clean_main",
+- "norm_label": "main()"
 - },
 - "164": "__init__.py",
 - {
@@ -11774,6 +12324,7 @@
 - {
 - "label": "should_ignore()",
 - "file_type": "code",
+- "source_file": "mesclar-arquivos-diretorio/merge.py",
 - "_origin": "ast",
 - "id": "mesclar_arquivos_diretorio_merge_should_ignore",
 - "norm_label": "should_ignore()"
@@ -11784,6 +12335,7 @@
 - "source_location": "L156",
 - "_origin": "ast",
 - "id": "mesclar_arquivos_diretorio_merge_merge_files_in_directory",
+- "community": 59,
 - "norm_label": "merge_files_in_directory()"
 - },
 - "5": "easing.py",
@@ -11857,6 +12409,7 @@
 - {
 - "label": "create_validation_image()",
 - "file_type": "code",
+- "source_location": "L9",
 - "_origin": "ast",
 - "id": "processar_arquivos_pdf_scripts_create_validation_image_create_validation_
 - "norm_label": "create_validation_image()"
@@ -11903,6 +12456,7 @@
 - "source_location": "",
 - "_origin": "ast",
 - "id": "pdfreader",
+- "community": 33,
 - "norm_label": "pdfreader"
 - },
 - "18": "Non-fillable fields",
@@ -11971,6 +12525,7 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "processar_arquivos_pdf_scripts_fill_fillable_fields_validation_error_for_
+- "community": 33,
 - "norm_label": "validation_error_for_field_value()"
 - },
 - {
@@ -11979,6 +12534,7 @@
 - "source_location": "L74",
 - "_origin": "ast",
 - "id": "processar_arquivos_pdf_scripts_fill_fillable_fields_monkeypatch_pydpf_met
+- "community": 33,
 - "norm_label": "monkeypatch_pydpf_method()"
 - },
 - {
@@ -11997,6 +12553,7 @@
 - "source_file": "processar-arquivos-pdf/scripts/fill_pdf_form_with_annotations.py
 - "_origin": "ast",
 - "id": "processar_arquivos_pdf_scripts_fill_pdf_form_with_annotations_transform_f
+- "community": 33,
 - "norm_label": "transform_from_image_coords()"
 - },
 - "29": "get_soffice_env",
@@ -12192,6 +12749,7 @@
 - {
 - "label": "Wait for server to be ready by polling the port.",
 - "file_type": "rationale",
+- "_origin": "ast",
 - "id": "testar_aplicacoes_web_scripts_with_server_rationale_24",
 - "norm_label": "wait for server to be ready by polling the port."
 - },
@@ -12199,13 +12757,17 @@
 - "label": "README.MD",
 - "file_type": "document",
 - "source_file": "README.MD",
+- "source_location": "L1",
+- "_origin": "ast",
 - "id": "readme",
+- "community": 25,
 - "norm_label": "readme.md"
 - },
 - "53": "add_slide.py",
 - {
 - "label": "skills",
 - "file_type": "document",
+- "source_file": "README.MD",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "readme_skills",
@@ -12216,6 +12778,7 @@
 - "label": "Instala\u00e7\u00e3o",
 - "file_type": "document",
 - "source_file": "README.MD",
+- "source_location": "L7",
 - "_origin": "ast",
 - "id": "readme_instala\u00e7\u00e3o",
 - "community": 25,
@@ -12235,6 +12798,7 @@
 - {
 - "label": "Skills dispon\u00edveis",
 - "file_type": "document",
+- "source_file": "README.MD",
 - "_origin": "ast",
 - "id": "readme_skills_dispon\u00edveis",
 - "norm_label": "skills disponiveis"
@@ -12256,11 +12820,13 @@
 - "source_location": "L60",
 - "_origin": "ast",
 - "id": "readme_design_visual",
+- "community": 25,
 - "norm_label": "\ud83c\udfa8 design & visual"
 - },
 - {
 - "label": "\ud83d\udcbb Desenvolvimento & Frontend",
 - "file_type": "document",
+- "source_file": "README.MD",
 - "_origin": "ast",
 - "id": "readme_desenvolvimento_frontend",
 - "norm_label": "\ud83d\udcbb desenvolvimento & frontend"
@@ -12279,6 +12845,7 @@
 - {
 - "label": "\ud83d\uddc2\ufe0f Git, Arquivos & Projetos",
 - "file_type": "document",
+- "source_file": "README.MD",
 - "source_location": "L88",
 - "_origin": "ast",
 - "id": "readme_git_arquivos_projetos",
@@ -12298,6 +12865,7 @@
 - "file_type": "document",
 - "_origin": "ast",
 - "id": "readme_comunica\u00e7\u00e3o_documenta\u00e7\u00e3o",
+- "community": 25,
 - "norm_label": "\ud83d\udcdd comunicacao & documentacao"
 - },
 - "64": "__init__.py",
@@ -12306,6 +12874,7 @@
 - "file_type": "document",
 - "_origin": "ast",
 - "id": "readme_skills_de_projeto_espec\u00edfico",
+- "community": 25,
 - "norm_label": "\ud83e\udde9 skills de projeto especifico"
 - },
 - {
@@ -12328,6 +12897,7 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_skill",
+- "norm_label": "skill.md"
 - },
 - "68": "Skill Webapp Testing",
 - {
@@ -12342,6 +12912,7 @@
 - "label": "Prop\u00f3sito",
 - "file_type": "document",
 - "source_file": "aplicar-temas-cores-fontes/SKILL.md",
+- "source_location": "L9",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_skill_prop\u00f3sito",
 - "community": 69,
@@ -12351,6 +12922,7 @@
 - {
 - "label": "Temas Dispon\u00edveis",
 - "file_type": "document",
+- "source_location": "L17",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_skill_temas_dispon\u00edveis",
 - "norm_label": "temas disponiveis"
@@ -12416,6 +12988,7 @@
 - "file_type": "document",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_arctic_frost_best_used_for",
+- "norm_label": "best used for"
 - },
 - {
 - "label": "botanical-garden.md",
@@ -12439,11 +13012,13 @@
 - graphify-out/cache/ast/v0.9.10/7122a3fcf8059dd01603463227c0f0633bdb21a794e873edb
 - {
 - "file_type": "document",
+- "source_location": "L5",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_botanical_garden_color_palette",
 - },
 - {
 - "file_type": "document",
+- "source_location": "L12",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_botanical_garden_typography",
 - },
@@ -12547,6 +13122,7 @@
 - },
 - {
 - "file_type": "document",
+- "source_location": "L5",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_golden_hour_color_palette",
 - },
@@ -12557,6 +13133,7 @@
 - "community": 98,
 - },
 - {
+- "label": "Best Used For",
 - "file_type": "document",
 - "source_location": "L17",
 - "_origin": "ast",
@@ -12582,6 +13159,7 @@
 - graphify-out/cache/ast/v0.9.10/74cde8fc71e88bd9d5b01d2618067b92d6498d09cd7c4bcec
 - "101": "Ocean Depths",
 - {
+- "label": "Color Palette",
 - "file_type": "document",
 - "source_file": "aplicar-temas-cores-fontes/themes/midnight-galaxy.md",
 - "_origin": "ast",
@@ -12624,6 +13202,7 @@
 - "source_file": "aplicar-temas-cores-fontes/themes/modern-minimalist.md",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_modern_minimalist_color_palette",
+- "norm_label": "color palette"
 - },
 - "107": "Commit ac4e1f6 - 18/06/2026 23:34:35",
 - {
@@ -12631,10 +13210,12 @@
 - "source_location": "L12",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_modern_minimalist_typography",
+- "norm_label": "typography"
 - },
 - "108": "Commit c857027 - 18/06/2026 23:31:20",
 - {
 - "file_type": "document",
+- "source_location": "L17",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_modern_minimalist_best_used_for",
 - "community": 100,
@@ -12661,12 +13242,15 @@
 - graphify-out/cache/ast/v0.9.10/75226bd798b5dbaa204e1b7f3124ce3afea022c118c8a2c57
 - "111": "Skill Internal Comms",
 - {
+- "label": "Color Palette",
 - "file_type": "document",
+- "source_location": "L5",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_ocean_depths_color_palette",
 - },
 - "112": "Security Best Practices",
 - {
+- "label": "Typography",
 - "file_type": "document",
 - "source_location": "L12",
 - "_origin": "ast",
@@ -12678,6 +13262,7 @@
 - "source_location": "L17",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_ocean_depths_best_used_for",
+- "norm_label": "best used for"
 - },
 - "114": "SKILL.md",
 - "label": "sunset-boulevard.md",
@@ -12706,7 +13291,9 @@
 - },
 - "117": "SKILL.md",
 - {
+- "label": "Typography",
 - "file_type": "document",
+- "source_location": "L12",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_sunset_boulevard_typography",
 - },
@@ -12738,19 +13325,25 @@
 - "121": "Transport Options",
 - {
 - "file_type": "document",
+- "source_location": "L5",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_tech_innovation_color_palette",
+- "norm_label": "color palette"
 - },
 - "122": "graphify reference: add a URL and watch a folder",
 - {
 - "label": "Typography",
+- "file_type": "document",
 - "source_location": "L12",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_tech_innovation_typography",
+- "norm_label": "typography"
 - },
 - "123": "graphify reference: commit hook and native CLAUDE.md integration",
 - {
+- "label": "Best Used For",
 - "file_type": "document",
+- "source_location": "L17",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_tech_innovation_best_used_for",
 - },
@@ -12759,6 +13352,7 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "arte_algoritmica_generativa_skill",
+- "norm_label": "skill.md"
 - },
 - {
 - "label": "Skill Algorithmic Art",
@@ -12771,6 +13365,7 @@
 - {
 - "label": "Filosofia Algor\u00edtmica",
 - "file_type": "document",
+- "source_location": "L9",
 - "_origin": "ast",
 - "id": "arte_algoritmica_generativa_skill_filosofia_algor\u00edtmica",
 - "community": 57,
@@ -12778,6 +13373,7 @@
 - },
 - {
 - "file_type": "document",
+- "source_location": "L17",
 - "_origin": "ast",
 - "id": "arte_algoritmica_generativa_skill_processo",
 - },
@@ -12785,6 +13381,7 @@
 - {
 - "label": "Requisitos T\u00e9cnicos",
 - "file_type": "document",
+- "source_location": "L22",
 - "_origin": "ast",
 - "id": "arte_algoritmica_generativa_skill_requisitos_t\u00e9cnicos",
 - "norm_label": "requisitos tecnicos"
@@ -12793,6 +13390,8 @@
 - {
 - "label": "Aleatoriedade com Seed",
 - "file_type": "document",
+- "source_file": "arte-algoritmica-generativa/SKILL.md",
+- "source_location": "L24",
 - "_origin": "ast",
 - "id": "arte_algoritmica_generativa_skill_aleatoriedade_com_seed",
 - "norm_label": "aleatoriedade com seed"
@@ -12821,14 +13420,17 @@
 - "source_location": "L58",
 - "_origin": "ast",
 - "id": "arte_algoritmica_generativa_skill_filosofias_de_exemplo",
+- "community": 57,
 - "norm_label": "filosofias de exemplo"
 - },
 - "133": "Tax Compliance (NF-e / DAS)",
 - {
+- "label": "SKILL.md",
 - "file_type": "document",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "autenticar_github_device_flow_skill",
+- "norm_label": "skill.md"
 - },
 - {
 - "label": "Skill: autenticar-github-device-flow",
@@ -12848,6 +13450,7 @@
 - {
 - "label": "Fluxo",
 - "file_type": "document",
+- "source_location": "L12",
 - "_origin": "ast",
 - "id": "autenticar_github_device_flow_skill_fluxo",
 - "norm_label": "fluxo"
@@ -12892,6 +13495,7 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "boas_praticas_de_codigo_skill",
+- "community": 7,
 - },
 - "142": "Financial Reporting",
 - {
@@ -12911,6 +13515,7 @@
 - "source_location": "L9",
 - "_origin": "ast",
 - "id": "boas_praticas_de_codigo_skill_abordagem",
+- "community": 7,
 - "norm_label": "abordagem"
 - },
 - "144": "Search Optimization (Elasticsearch)",
@@ -12937,8 +13542,10 @@
 - {
 - "label": "DRY \u2014 Don't Repeat Yourself",
 - "file_type": "document",
+- "source_file": "boas-praticas-de-codigo/SKILL.md",
 - "_origin": "ast",
 - "id": "boas_praticas_de_codigo_skill_dry_don_t_repeat_yourself",
+- "community": 7,
 - "norm_label": "dry \u2014 don't repeat yourself"
 - },
 - "147": "init-artifact.sh",
@@ -12984,8 +13591,10 @@
 - {
 - "label": "2. Object Calisthenics (9 Regras)",
 - "file_type": "document",
+- "source_file": "boas-praticas-de-codigo/SKILL.md",
 - "_origin": "ast",
 - "id": "boas_praticas_de_codigo_skill_2_object_calisthenics_9_regras",
+- "community": 7,
 - "norm_label": "2. object calisthenics (9 regras)"
 - },
 - "152": "convert_pdf_to_images.py",
@@ -13002,6 +13611,7 @@
 - {
 - "label": "Regra 2 \u2014 N\u00e3o Use `else`",
 - "file_type": "document",
+- "source_file": "boas-praticas-de-codigo/SKILL.md",
 - "_origin": "ast",
 - "id": "boas_praticas_de_codigo_skill_regra_2_n\u00e3o_use_else",
 - "norm_label": "regra 2 \u2014 nao use `else`"
@@ -13206,6 +13816,7 @@
 - {
 - "label": "Como Usar Este Skill no Contexto do Projeto",
 - "file_type": "document",
+- "source_file": "boas-praticas-de-codigo/SKILL.md",
 - "source_location": "L290",
 - "_origin": "ast",
 - "id": "boas_praticas_de_codigo_skill_como_usar_este_skill_no_contexto_do_projeto
@@ -13224,16 +13835,22 @@
 - },
 - _High betweenness centrality (0.007) - this node is a cross-community bridge._
 - {
+- "label": "SKILL.md",
 - "file_type": "document",
+- "source_file": "buscar-grupos-whatsapp/SKILL.md",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "buscar_grupos_whatsapp_skill",
+- "community": 23,
 - "norm_label": "skill.md"
 - },
 - "label": "Vis\u00e3o Geral",
 - "file_type": "document",
+- "source_file": "buscar-grupos-whatsapp/SKILL.md",
+- "source_location": "L7",
 - "_origin": "ast",
 - "id": "buscar_grupos_whatsapp_skill_vis\u00e3o_geral",
+- "community": 23,
 - },
 - {
 - "label": "Como Usar",
@@ -13291,6 +13908,7 @@
 - {
 - "label": "3. Webhook Uazapi",
 - "file_type": "document",
+- "source_file": "buscar-grupos-whatsapp/SKILL.md",
 - "_origin": "ast",
 - "id": "buscar_grupos_whatsapp_skill_3_webhook_uazapi",
 - "community": 23,
@@ -13300,6 +13918,7 @@
 - {
 - "label": "4. Grupo WhatsApp",
 - "file_type": "document",
+- "source_file": "buscar-grupos-whatsapp/SKILL.md",
 - "_origin": "ast",
 - "id": "buscar_grupos_whatsapp_skill_4_grupo_whatsapp",
 - "community": 23,
@@ -13319,6 +13938,7 @@
 - "file_type": "document",
 - "_origin": "ast",
 - "id": "buscar_grupos_whatsapp_skill_logs",
+- "community": 23,
 - "norm_label": "logs"
 - },
 - "source_file": "arte-algoritmica-generativa/templates/generator_template.js",
@@ -13338,6 +13958,7 @@
 - "file_type": "document",
 - "_origin": "ast",
 - "id": "buscar_grupos_whatsapp_skill_prote\u00e7\u00e3o_regex",
+- "community": 23,
 - "norm_label": "protecao (regex)"
 - },
 - "_origin": "ast",
@@ -13495,6 +14116,7 @@
 - "source_file": "arte-algoritmica-generativa/templates/generator_template.js",
 - {
 - "file_type": "document",
+- "source_file": "comitar-alteracoes/SKILL.md",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "comitar_alteracoes_skill",
@@ -13523,6 +14145,7 @@
 - "file_type": "document",
 - "_origin": "ast",
 - "id": "comitar_alteracoes_skill_usage",
+- "community": 34,
 - "norm_label": "usage"
 - },
 - "community": 13,
@@ -13548,12 +14171,14 @@
 - "file_type": "document",
 - "_origin": "ast",
 - "id": "comitar_alteracoes_skill_commit_com_arquivos_especificos",
+- "community": 34,
 - "norm_label": "commit com arquivos especificos:"
 - },
 - {
 - {
 - "label": "Commit forcado (--force-with-lease):",
 - "file_type": "document",
+- "source_file": "comitar-alteracoes/SKILL.md",
 - "_origin": "ast",
 - "id": "comitar_alteracoes_skill_commit_forcado_force_with_lease",
 - "community": 34,
@@ -13563,8 +14188,10 @@
 - {
 - "label": "Commit em projeto especifico:",
 - "file_type": "document",
+- "source_file": "comitar-alteracoes/SKILL.md",
 - "_origin": "ast",
 - "id": "comitar_alteracoes_skill_commit_em_projeto_especifico",
+- "community": 34,
 - "norm_label": "commit em projeto especifico:"
 - },
 - "file_type": "code",
@@ -13588,11 +14215,14 @@
 - "file_type": "document",
 - "_origin": "ast",
 - "id": "comitar_alteracoes_skill_skills_relacionadas",
+- "community": 34,
 - "norm_label": "skills relacionadas"
 - },
 - "_origin": "ast",
 - {
 - "label": "Notes",
+- "file_type": "document",
+- "source_file": "comitar-alteracoes/SKILL.md",
 - "source_location": "L71",
 - "_origin": "ast",
 - "id": "comitar_alteracoes_skill_notes",
@@ -13626,6 +14256,7 @@
 - },
 - {
 - "file_type": "document",
+- "source_location": "L6",
 - "_origin": "ast",
 - "id": "commits_2026_06_23_commit_2026_06_23_21_41_54_f4fd71c_arquivos",
 - },
@@ -13669,6 +14300,7 @@
 - "_origin": "ast",
 - {
 - "file_type": "document",
+- "source_location": "L6",
 - "_origin": "ast",
 - "id": "commits_commit_2026_06_23_00_53_03_c368e71_arquivos",
 - },
@@ -13701,6 +14333,7 @@
 - },
 - {
 - "file_type": "document",
+- "source_location": "L3",
 - "_origin": "ast",
 - "id": "commits_commit_4e04532_18_06_2026_22_26_40_mensagem",
 - },
@@ -13788,6 +14421,7 @@
 - {
 - {
 - "file_type": "document",
+- "source_location": "L6",
 - "_origin": "ast",
 - "id": "commits_commit_ac4e1f6_18_06_2026_23_34_35_arquivos",
 - "community": 107,
@@ -13819,6 +14453,7 @@
 - {
 - "file_type": "document",
 - "source_file": "commits/commit-c857027-18-06-2026-23-31-20.md",
+- "source_location": "L3",
 - "_origin": "ast",
 - "id": "commits_commit_c857027_18_06_2026_23_31_20_mensagem",
 - "community": 108,
@@ -14546,11 +15181,13 @@
 - }
 - }
 - // UI CONTROL HANDLERS - CUSTOMIZE FOR YOUR PARAMETERS
+- // ═══════════════════════════════════════════════════════════════════════
 - function updateParam(paramName, value) {
 - docx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd
 - }
 - function updateColor(colorId, value) {
 - }
+- // ═══════════════════════════════════════════════════════════════════════
 - // SEED CONTROL FUNCTIONS - ALWAYS KEEP THESE
 - function updateSeedDisplay() {
 - document.getElementById('seed-input').value = params.seed;
@@ -14568,6 +15205,7 @@
 - function previousSeed() {
 - params.seed = Math.max(1, params.seed - 1);
 - initializeSystem();
+- }
 - function nextSeed() {
 - params.seed = params.seed + 1;
 - updateSeedDisplay();
@@ -14794,6 +15432,7 @@
 - "vnd.sun.star.script:Standard.Module1.AcceptAllTrackedChanges?language=Basic&loc
 - str(output_path.absolute()),
 - docx/scripts/templates/comments.xml
+- try:
 - result = subprocess.run(
 - cmd,
 - text=True,
@@ -14825,6 +15464,7 @@
 - timeout=10,
 - env=get_soffice_env(),
 - macro_dir.mkdir(parents=True, exist_ok=True)
+- try:
 - macro_file.write_text(ACCEPT_CHANGES_MACRO)
 - docx/scripts/templates/people.xml
 - return True
@@ -14834,6 +15474,7 @@
 - parser.add_argument("input_file", help="Input DOCX file with tracked changes")
 - "output_file", help="Output DOCX file (clean, no tracked changes)"
 - frontend-design/LICENSE.txt
+- )
 - _, message = accept_changes(args.input_file, args.output_file)
 - print(message)
 - raise SystemExit(1)
@@ -14905,6 +15546,7 @@
 - dom = defusedxml.minidom.parseString(rels_path.read_text(encoding="utf-8"))
 - for rel in dom.getElementsByTagName("Relationship"):
 - if rel.getAttribute("Target") == target:
+- return False
 - mcp-builder/LICENSE.txt
 - for override in dom.getElementsByTagName("Override"):
 - if override.getAttribute("PartName") == part_name:
@@ -14951,6 +15593,7 @@
 - "/word/commentsExtensible.xml",
 - mcp-builder/scripts/connections.py
 - "application/vnd.openxmlformats-officedocument.wordprocessingml.commentsExtensib
+- ),
 - for part_name, content_type in overrides:
 - override = dom.createElement("Override")
 - override.setAttribute("PartName", part_name)
@@ -15167,6 +15810,7 @@
 - return attr.value
 - return author
 - if _get_author(elem1) != _get_author(elem2):
+- return False
 - pptx/scripts/office/pack.py
 - node = elem1.nextSibling
 - while node and node != elem2:
@@ -15244,6 +15888,7 @@
 - if original_path.exists():
 - success, output = _run_validation(
 - input_dir, original_path, suffix, infer_author_func
+- )
 - if output:
 - print(output)
 - if not success:
@@ -15321,11 +15966,13 @@
 - pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariant
 - metavar="true|false",
 - help="Run validation with auto-repair (default: true)",
+- )
 - _, message = pack(
 - args.input_directory,
 - args.output_file,
 - original_file=args.original,
 - validate=args.validate,
+- )
 - pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd
 - if "Error" in message:
 - sys.exit(1)
@@ -15447,6 +16094,7 @@
 - <xsd:element name="numRef" type="CT_NumRef" minOccurs="1" maxOccurs="1"/>
 - <xsd:element name="numLit" type="CT_NumData" minOccurs="1" maxOccurs="1"/>
 - <xsd:element name="strLit" type="CT_StrData" minOccurs="1" maxOccurs="1"/>
+- </xsd:choice>
 - pptx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd
 - </xsd:sequence>
 - </xsd:complexType>
@@ -15457,6 +16105,7 @@
 - </xsd:complexType>
 - pptx/scripts/office/schemas/mce/mc.xsd
 - <xsd:simpleType name="ST_LayoutTarget">
+- <xsd:restriction base="xsd:string">
 - <xsd:enumeration value="inner"/>
 - <xsd:enumeration value="outer"/>
 - </xsd:restriction>
@@ -15530,6 +16179,7 @@
 - </xsd:complexType>
 - <xsd:simpleType name="ST_RotY">
 - <xsd:maxInclusive value="360"/>
+- </xsd:restriction>
 - </xsd:simpleType>
 - pptx/scripts/office/soffice.py
 - <xsd:complexType name="CT_RotY">
@@ -15559,6 +16209,7 @@
 - </xsd:simpleType>
 - <xsd:complexType name="CT_Perspective">
 - <xsd:attribute name="val" type="ST_Perspective" default="30"/>
+- </xsd:complexType>
 - <xsd:complexType name="CT_View3D">
 - pptx/scripts/office/validators/__init__.py
 - <xsd:sequence>
@@ -15599,6 +16250,7 @@
 - <xsd:element name="showVertBorder" type="CT_Boolean" minOccurs="0" maxOccurs="1"
 - <xsd:element name="showOutline" type="CT_Boolean" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="showKeys" type="CT_Boolean" minOccurs="0" maxOccurs="1"/>
+- <xsd:element name="spPr" type="a:CT_ShapeProperties" minOccurs="0" maxOccurs="1"
 - <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
 - </xsd:complexType>
@@ -15607,6 +16259,7 @@
 - <xsd:union memberTypes="ST_GapAmountPercent ST_GapAmountUShort"/>
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_GapAmountPercent">
+- <xsd:restriction base="xsd:string">
 - <xsd:pattern value="0*(([0-9])|([1-9][0-9])|([1-4][0-9][0-9])|500)%"/>
 - </xsd:restriction>
 - </xsd:simpleType>
@@ -15675,6 +16328,7 @@
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_HoleSizePercent">
 - <xsd:pattern value="0*([1-9]|([1-8][0-9])|90)%"/>
+- </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_HoleSizeUByte">
 - slack-gif-creator/requirements.txt
@@ -15725,6 +16379,8 @@
 - </xsd:complexType>
 - <xsd:simpleType name="ST_LblAlgn">
 - <xsd:restriction base="xsd:string">
+- <xsd:enumeration value="l"/>
+- <xsd:enumeration value="r"/>
 - </xsd:restriction>
 - theme-factory/themes/botanical-garden.md
 - </xsd:simpleType>
@@ -15734,9 +16390,12 @@
 - <xsd:simpleType name="ST_DLblPos">
 - <xsd:restriction base="xsd:string">
 - <xsd:enumeration value="bestFit"/>
+- <xsd:enumeration value="b"/>
+- <xsd:enumeration value="ctr"/>
 - <xsd:enumeration value="inBase"/>
 - theme-factory/themes/desert-rose.md
 - <xsd:enumeration value="inEnd"/>
+- <xsd:enumeration value="l"/>
 - <xsd:enumeration value="outEnd"/>
 - </xsd:simpleType>
 - <xsd:complexType name="CT_DLblPos">
@@ -15745,6 +16404,7 @@
 - theme-factory/themes/forest-canopy.md
 - <xsd:group name="EG_DLblShared">
 - <xsd:sequence>
+- <xsd:element name="txPr" type="a:CT_TextBody" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="dLblPos" type="CT_DLblPos" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="showLegendKey" type="CT_Boolean" minOccurs="0" maxOccurs="1"/
 - <xsd:element name="showVal" type="CT_Boolean" minOccurs="0" maxOccurs="1"/>
@@ -15764,6 +16424,7 @@
 - </xsd:group>
 - <xsd:complexType name="CT_DLbl">
 - <xsd:sequence>
+- <xsd:choice>
 - <xsd:group ref="Group_DLbl" minOccurs="1" maxOccurs="1"/>
 - </xsd:choice>
 - <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
@@ -15817,6 +16478,8 @@
 - <xsd:element name="symbol" type="CT_MarkerStyle" minOccurs="0" maxOccurs="1"/>
 - web-artifacts-builder/SKILL.md
 - <xsd:element name="size" type="CT_MarkerSize" minOccurs="0" maxOccurs="1"/>
+- <xsd:element name="spPr" type="a:CT_ShapeProperties" minOccurs="0" maxOccurs="1"
+- <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:complexType name="CT_DPt">
@@ -15922,6 +16585,7 @@
 - <xsd:element name="plus" type="CT_NumDataSource" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="minus" type="CT_NumDataSource" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="val" type="CT_Double" minOccurs="0" maxOccurs="1"/>
+- <xsd:element name="spPr" type="a:CT_ShapeProperties" minOccurs="0" maxOccurs="1"
 - <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
 - </xsd:complexType>
@@ -15969,6 +16633,7 @@
 - xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd
 - <xsd:element name="dLbls" type="CT_DLbls" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="val" type="CT_NumDataSource" minOccurs="0" maxOccurs="1"/>
+- <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:complexType name="CT_BarSer">
@@ -16021,12 +16686,14 @@
 - <xsd:complexType name="CT_ChartLines">
 - xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics
 - <xsd:sequence>
+- <xsd:element name="spPr" type="a:CT_ShapeProperties" minOccurs="0" maxOccurs="1"
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:group name="EG_LineChartShared">
 - <xsd:sequence>
 - <xsd:element name="grouping" type="CT_Grouping" minOccurs="1" maxOccurs="1"/>
 - <xsd:element name="ser" type="CT_LineSer" minOccurs="0" maxOccurs="unbounded"/>
+- <xsd:element name="dLbls" type="CT_DLbls" minOccurs="0" maxOccurs="1"/>
 - canvas-design/canvas-fonts/GeistMono-Bold.ttf
 - xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd
 - </xsd:sequence>
@@ -16049,6 +16716,7 @@
 - <xsd:complexType name="CT_StockChart">
 - <xsd:sequence>
 - <xsd:element name="ser" type="CT_LineSer" minOccurs="3" maxOccurs="4"/>
+- <xsd:element name="dLbls" type="CT_DLbls" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="dropLines" type="CT_ChartLines" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="hiLowLines" type="CT_ChartLines" minOccurs="0" maxOccurs="1"/
 - <xsd:element name="upDownBars" type="CT_UpDownBars" minOccurs="0" maxOccurs="1"/
@@ -16069,6 +16737,7 @@
 - <xsd:attribute name="val" type="ST_ScatterStyle" default="marker"/>
 - </xsd:complexType>
 - <xsd:complexType name="CT_ScatterChart">
+- <xsd:sequence>
 - <xsd:element name="scatterStyle" type="CT_ScatterStyle" minOccurs="1" maxOccurs=
 - xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtende
 - <xsd:element name="ser" type="CT_ScatterSer" minOccurs="0" maxOccurs="unbounded"
@@ -16154,6 +16823,7 @@
 - xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd
 - <xsd:element name="grouping" type="CT_Grouping" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="ser" type="CT_AreaSer" minOccurs="0" maxOccurs="unbounded"/>
+- <xsd:element name="dLbls" type="CT_DLbls" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
 - <xsd:complexType name="CT_AreaChart">
 - <xsd:sequence>
@@ -16170,7 +16840,9 @@
 - <xsd:group name="EG_PieChartShared">
 - <xsd:sequence>
 - <xsd:element name="ser" type="CT_PieSer" minOccurs="0" maxOccurs="unbounded"/>
+- <xsd:element name="dLbls" type="CT_DLbls" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
+- </xsd:group>
 - <xsd:complexType name="CT_PieChart">
 - xlsx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd
 - <xsd:sequence>
@@ -16243,6 +16915,7 @@
 - xlsx/scripts/office/schemas/microsoft/wml-2018.xsd
 - <xsd:element name="bandFmts" type="CT_BandFmts" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
+- </xsd:group>
 - <xsd:complexType name="CT_SurfaceChart">
 - <xsd:sequence>
 - <xsd:group ref="EG_SurfaceChartShared" minOccurs="1" maxOccurs="1"/>
@@ -16253,22 +16926,27 @@
 - xlsx/scripts/office/schemas/microsoft/wml-cex-2018.xsd
 - <xsd:complexType name="CT_Surface3DChart">
 - <xsd:sequence>
+- <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:simpleType name="ST_AxPos">
 - <xsd:restriction base="xsd:string">
 - xlsx/scripts/office/schemas/microsoft/wml-cid-2016.xsd
+- <xsd:enumeration value="l"/>
+- <xsd:enumeration value="r"/>
 - </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:complexType name="CT_AxPos">
 - <xsd:attribute name="val" type="ST_AxPos" use="required"/>
 - </xsd:complexType>
 - <xsd:simpleType name="ST_Crosses">
+- <xsd:restriction base="xsd:string">
 - xlsx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd
 - <xsd:enumeration value="autoZero"/>
 - <xsd:enumeration value="max"/>
 - <xsd:enumeration value="min"/>
 - </xsd:restriction>
+- </xsd:simpleType>
 - <xsd:complexType name="CT_Crosses">
 - <xsd:attribute name="val" type="ST_Crosses" use="required"/>
 - </xsd:complexType>
@@ -16330,6 +17008,7 @@
 - <xsd:attribute name="val" type="ST_AxisUnit" use="required"/>
 - </xsd:complexType>
 - <xsd:simpleType name="ST_BuiltInUnit">
+- <xsd:restriction base="xsd:string">
 - <xsd:enumeration value="hundreds"/>
 - <xsd:enumeration value="thousands"/>
 - <xsd:enumeration value="tenThousands"/>
@@ -16384,6 +17063,7 @@
 - <xsd:choice>
 - <xsd:element name="custUnit" type="CT_Double" minOccurs="1" maxOccurs="1"/>
 - <xsd:element name="builtInUnit" type="CT_BuiltInUnit" minOccurs="1" maxOccurs="1
+- </xsd:choice>
 - <xsd:element name="dispUnitsLbl" type="CT_DispUnitsLbl" minOccurs="0" maxOccurs=
 - <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
 - </xsd:complexType>
@@ -16411,6 +17091,7 @@
 - <xsd:element name="max" type="CT_Double" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="min" type="CT_Double" minOccurs="0" maxOccurs="1"/>
 - http://www.apache.org/licenses/
+- <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:simpleType name="ST_LblOffset">
@@ -16422,6 +17103,7 @@
 - </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_LblOffsetUShort">
+- <xsd:minInclusive value="0"/>
 - <xsd:maxInclusive value="1000"/>
 - </xsd:restriction>
 - </xsd:simpleType>
@@ -16532,6 +17214,7 @@
 - </xsd:complexType>
 - <xsd:simpleType name="ST_LegendPos">
 - <xsd:restriction base="xsd:string">
+- <xsd:enumeration value="b"/>
 - <xsd:enumeration value="tr"/>
 - </xsd:restriction>
 - </xsd:simpleType>
@@ -16540,10 +17223,12 @@
 - </xsd:complexType>
 - <xsd:group name="EG_LegendEntryData">
 - <xsd:sequence>
+- <xsd:element name="txPr" type="a:CT_TextBody" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
 - </xsd:group>
 - <xsd:complexType name="CT_LegendEntry">
 - <xsd:sequence>
+- <xsd:choice>
 - <xsd:group ref="EG_LegendEntryData" minOccurs="1" maxOccurs="1"/>
 - <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
@@ -16681,6 +17366,7 @@
 - <xsd:element name="printSettings" type="CT_PrintSettings" minOccurs="0" maxOccur
 - <xsd:element name="userShapes" type="CT_RelId" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
+- </xsd:sequence>
 - </xsd:complexType>
 - <xsd:element name="chartSpace" type="CT_ChartSpace"/>
 - <xsd:element name="userShapes" type="cdr:CT_Drawing"/>
@@ -16721,6 +17407,7 @@
 - <xsd:complexType name="CT_PictureNonVisual">
 - <xsd:sequence>
 - <xsd:element name="cNvPicPr" type="a:CT_NonVisualPictureProperties" minOccurs="1
+- </xsd:sequence>
 - </xsd:complexType>
 - <xsd:complexType name="CT_Picture">
 - <xsd:sequence>
@@ -16786,6 +17473,7 @@
 - <xsd:sequence>
 - <xsd:element name="from" type="CT_Marker"/>
 - <xsd:element name="ext" type="a:CT_PositiveSize2D"/>
+- </xsd:sequence>
 - </xsd:complexType>
 - <xsd:group name="EG_Anchor">
 - <xsd:element name="relSizeAnchor" type="CT_RelSizeAnchor"/>
@@ -16868,6 +17556,7 @@
 - <xsd:complexType name="CT_ColorTransformHeaderLst">
 - <xsd:sequence>
 - <xsd:element name="colorsDefHdr" type="CT_ColorTransformHeader" minOccurs="0"
+- </xsd:sequence>
 - </xsd:complexType>
 - <xsd:element name="colorsDefHdrLst" type="CT_ColorTransformHeaderLst"/>
 - <xsd:simpleType name="ST_PtType">
@@ -16902,6 +17591,7 @@
 - </xsd:simpleType>
 - <xsd:complexType name="CT_Cxn">
 - <xsd:sequence>
+- <xsd:element name="extLst" type="a:CT_OfficeArtExtensionList" minOccurs="0" maxO
 - </xsd:sequence>
 - <xsd:attribute name="type" type="ST_CxnType" use="optional" default="parOf"/>
 - <xsd:attribute name="srcId" type="ST_ModelId" use="required"/>
@@ -16979,6 +17669,7 @@
 - </xsd:complexType>
 - <xsd:complexType name="CT_PresentationOf">
 - <xsd:sequence>
+- <xsd:element name="extLst" type="a:CT_OfficeArtExtensionList" minOccurs="0" maxO
 - </xsd:sequence>
 - <xsd:attributeGroup ref="AG_IteratorAttributes"/>
 - </xsd:complexType>
@@ -17023,6 +17714,7 @@
 - <xsd:attribute name="rev" type="xsd:unsignedInt" use="optional" default="0"/>
 - </xsd:complexType>
 - <xsd:complexType name="CT_LayoutNode">
+- <xsd:choice minOccurs="0" maxOccurs="unbounded">
 - <xsd:element name="constrLst" type="CT_Constraints" minOccurs="0" maxOccurs="1"/
 - <xsd:element name="varLst" type="CT_LayoutVariablePropertySet" minOccurs="0" max
 - <xsd:element name="extLst" type="a:CT_OfficeArtExtensionList" minOccurs="0" maxO
@@ -17181,6 +17873,7 @@
 - <xsd:restriction base="xsd:token">
 - <xsd:enumeration value="none"/>
 - <xsd:enumeration value="lvl"/>
+- <xsd:enumeration value="ctr"/>
 - </xsd:restriction>
 - <xsd:complexType name="CT_OrgChart">
 - </xsd:complexType>
@@ -17196,6 +17889,7 @@
 - </xsd:complexType>
 - <xsd:complexType name="CT_BulletEnabled">
 - <xsd:attribute name="val" type="xsd:boolean" default="false" use="optional"/>
+- </xsd:complexType>
 - <xsd:complexType name="CT_Direction">
 - <xsd:attribute name="val" type="ST_Direction" default="norm" use="optional"/>
 - </xsd:complexType>
@@ -17213,6 +17907,7 @@
 - of the NOTICE file are for informational purposes only and
 - <xsd:enumeration value="exact"/>
 - <xsd:enumeration value="rel"/>
+- </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:complexType name="CT_ResizeHandles">
 - <xsd:attribute name="val" type="ST_ResizeHandlesStr" default="rel" use="optional
@@ -17256,6 +17951,7 @@
 - <xsd:element name="scene3d" type="a:CT_Scene3D" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="sp3d" type="a:CT_Shape3D" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="txPr" type="CT_TextProps" minOccurs="0" maxOccurs="1"/>
+- <xsd:element name="extLst" type="a:CT_OfficeArtExtensionList" minOccurs="0" maxO
 - </xsd:sequence>
 - <xsd:attribute name="name" type="xsd:string" use="required"/>
 - </xsd:complexType>
@@ -17274,6 +17970,7 @@
 - <xsd:element name="title" type="CT_SDName" minOccurs="1" maxOccurs="unbounded"/>
 - <xsd:element name="desc" type="CT_SDDescription" minOccurs="1" maxOccurs="unboun
 - <xsd:element name="catLst" type="CT_SDCategories" minOccurs="0"/>
+- <xsd:element name="extLst" type="a:CT_OfficeArtExtensionList" minOccurs="0" maxO
 - </xsd:sequence>
 - <xsd:attribute name="resId" type="xsd:int" use="optional" default="0"/>
 - </xsd:complexType>
@@ -17324,10 +18021,12 @@
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_ChildOrderType" final="restriction">
 - <xsd:restriction base="xsd:token">
+- <xsd:enumeration value="t"/>
 - </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_ConstraintType" final="restriction">
 - <xsd:restriction base="xsd:token">
+- <xsd:enumeration value="none"/>
 - <xsd:enumeration value="alignOff"/>
 - <xsd:enumeration value="begMarg"/>
 - <xsd:enumeration value="bendDist"/>
@@ -17397,6 +18096,7 @@
 - </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_ElementType" final="restriction">
+- <xsd:restriction base="xsd:token">
 - <xsd:enumeration value="all"/>
 - <xsd:enumeration value="nonNorm"/>
 - <xsd:enumeration value="asst"/>
@@ -17499,11 +18199,13 @@
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_DiagramHorizontalAlignment" final="restriction">
 - <xsd:restriction base="xsd:token">
+- <xsd:enumeration value="r"/>
 - 8. Limitation of Liability. In no event and under no legal theory,
 - </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_VerticalAlignment" final="restriction">
 - <xsd:restriction base="xsd:token">
+- <xsd:enumeration value="t"/>
 - <xsd:enumeration value="b"/>
 - </xsd:restriction>
 - </xsd:simpleType>
@@ -17519,6 +18221,9 @@
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_SecondaryChildAlignment" final="restriction">
 - <xsd:restriction base="xsd:token">
+- <xsd:enumeration value="t"/>
+- <xsd:enumeration value="b"/>
+- <xsd:enumeration value="l"/>
 - negligent acts) or agreed to in writing, shall any Contributor be
 - </xsd:restriction>
 - </xsd:simpleType>
@@ -17537,6 +18242,7 @@
 - <xsd:restriction base="xsd:token">
 - <xsd:enumeration value="trans"/>
 - </xsd:restriction>
+- </xsd:simpleType>
 - <xsd:simpleType name="ST_RotationPath" final="restriction">
 - <xsd:restriction base="xsd:token">
 - <xsd:enumeration value="alongPath"/>
@@ -17591,6 +18297,7 @@
 - canvas-design/canvas-fonts/InstrumentSerif-Regular.ttf
 - the Work or Derivative Works thereof, You may choose to offer,
 - <xsd:restriction base="xsd:token">
+- <xsd:enumeration value="t"/>
 - <xsd:enumeration value="mid"/>
 - </xsd:restriction>
 - </xsd:simpleType>
@@ -17699,6 +18406,7 @@
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_VariableType" final="restriction">
 - <xsd:restriction base="xsd:token">
+- <xsd:enumeration value="none"/>
 - <xsd:enumeration value="orgChart"/>
 - <xsd:enumeration value="chMax"/>
 - <xsd:enumeration value="chPref"/>
@@ -17784,6 +18492,7 @@
 - <xsd:restriction base="xsd:token">
 - <xsd:enumeration value="major"/>
 - <xsd:enumeration value="minor"/>
+- <xsd:enumeration value="none"/>
 - </xsd:restriction>
 - </xsd:simpleType>
 - You may obtain a copy of the License at
@@ -17920,6 +18629,7 @@
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_PositiveCoordinate32">
 - createCanvas(1200, 1200);
+- <xsd:minInclusive value="0"/>
 - </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_Angle">
@@ -17935,6 +18645,7 @@
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_PositiveFixedAngle">
 - <xsd:restriction base="ST_Angle">
+- <xsd:minInclusive value="0"/>
 - <xsd:maxExclusive value="21600000"/>
 - </xsd:restriction>
 - </xsd:simpleType>
@@ -17968,6 +18679,7 @@
 - <xsd:restriction base="ST_PercentageDecimal">
 - *
 - <xsd:minInclusive value="-100000"/>
+- </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:complexType name="CT_FixedPercentage">
 - <xsd:attribute name="val" type="ST_FixedPercentage" use="required"/>
@@ -17977,6 +18689,7 @@
 - </xsd:simpleType>
 - * This file shows STRUCTURE and PRINCIPLES for p5.js generative art.
 - <xsd:simpleType name="ST_PositiveFixedPercentageDecimal">
+- <xsd:minInclusive value="0"/>
 - <xsd:maxInclusive value="100000"/>
 - </xsd:restriction>
 - </xsd:simpleType>
@@ -18099,6 +18812,7 @@
 - <xsd:attribute name="val" type="ST_SystemColorVal" use="required"/>
 - <xsd:attribute name="lastClr" type="s:ST_HexColorRGB" use="optional"/>
 - // - Probabilities: likelihood of events
+- </xsd:complexType>
 - <xsd:simpleType name="ST_SchemeColorVal">
 - <xsd:enumeration value="bg1"/>
 - <xsd:enumeration value="tx1"/>
@@ -18394,7 +19108,9 @@
 - <xsd:enumeration value="tl"/>
 - // - Use noLoop() by default
 - <xsd:enumeration value="l"/>
+- <xsd:enumeration value="r"/>
 - <xsd:enumeration value="bl"/>
+- <xsd:enumeration value="b"/>
 - <xsd:enumeration value="br"/>
 - </xsd:restriction>
 - </xsd:simpleType>
@@ -18484,6 +19200,7 @@
 - <xsd:element name="extLst" type="CT_OfficeArtExtensionList" minOccurs="0" maxOcc
 - </xsd:sequence>
 - <xsd:attribute name="noCrop" type="xsd:boolean" use="optional" default="false"/>
+- </xsd:complexType>
 - // - Behavioral rules
 - <xsd:complexType name="CT_GroupLocking">
 - <xsd:sequence>
@@ -18532,7 +19249,9 @@
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:complexType name="CT_NonVisualPictureProperties">
+- <xsd:sequence>
 - <xsd:element name="picLocks" type="CT_PictureLocking" minOccurs="0" maxOccurs="1
+- <xsd:element name="extLst" type="CT_OfficeArtExtensionList" minOccurs="0" maxOcc
 - }
 - </xsd:sequence>
 - <xsd:attribute name="preferRelativeResize" type="xsd:boolean" use="optional" def
@@ -18554,6 +19273,7 @@
 - <xsd:complexType name="CT_NonVisualContentPartProperties">
 - <xsd:sequence>
 - <xsd:element name="cpLocks" type="CT_ContentPartLocking" minOccurs="0" maxOccurs
+- <xsd:element name="extLst" type="CT_OfficeArtExtensionList" minOccurs="0" maxOcc
 - return result ? {
 - </xsd:sequence>
 - <xsd:attribute name="isComment" type="xsd:boolean" use="optional" default="true"
@@ -18581,9 +19301,11 @@
 - </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_DgmBuildStep">
+- <xsd:restriction base="xsd:token">
 - <xsd:enumeration value="bg"/>
 - </xsd:restriction>
 - b: parseInt(result[3], 16)
+- </xsd:simpleType>
 - <xsd:complexType name="CT_AnimationDgmElement">
 - <xsd:attribute name="id" type="s:ST_Guid" use="optional"
 - default="{00000000-0000-0000-0000-000000000000}"/>
@@ -18601,6 +19323,7 @@
 - </xsd:choice>
 - </xsd:complexType>
 - <xsd:simpleType name="ST_AnimationBuildType">
+- <xsd:restriction base="xsd:token">
 - <xsd:enumeration value="allAtOnce"/>
 - return params.colorPalette[index % params.colorPalette.length];
 - </xsd:restriction>
@@ -18619,6 +19342,7 @@
 - <xsd:attribute name="rev" type="xsd:boolean" use="optional" default="false"/>
 - </xsd:complexType>
 - <xsd:simpleType name="ST_AnimationChartOnlyBuildType">
+- <xsd:restriction base="xsd:token">
 - <xsd:enumeration value="series"/>
 - return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
 - <xsd:enumeration value="seriesEl"/>
@@ -18663,6 +19387,7 @@
 - </xsd:complexType>
 - params[paramName] = value;
 - <xsd:complexType name="CT_GvmlShapeNonVisual">
+- <xsd:sequence>
 - <xsd:element name="cNvSpPr" type="CT_NonVisualDrawingShapeProps" minOccurs="1" m
 - </xsd:sequence>
 - </xsd:complexType>
@@ -18677,6 +19402,7 @@
 - <xsd:complexType name="CT_GvmlConnectorNonVisual">
 - <xsd:sequence>
 - <xsd:element name="cNvCxnSpPr" type="CT_NonVisualConnectorProperties" minOccurs=
+- maxOccurs="1"/>
 - // Some params can update in real-time, others need full regeneration
 - </xsd:sequence>
 - </xsd:complexType>
@@ -18704,11 +19430,13 @@
 - <xsd:complexType name="CT_GvmlGraphicFrameNonVisual">
 - <xsd:sequence>
 - <xsd:element name="cNvGraphicFramePr" type="CT_NonVisualGraphicFrameProperties"
+- maxOccurs="1"/>
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:complexType name="CT_GvmlGraphicalObjectFrame">
 - <xsd:sequence>
 - <xsd:element name="nvGraphicFramePr" type="CT_GvmlGraphicFrameNonVisual" minOccu
+- maxOccurs="1"/>
 - <xsd:element ref="graphic" minOccurs="1" maxOccurs="1"/>
 - <xsd:element name="extLst" type="CT_OfficeArtExtensionList" minOccurs="0" maxOcc
 - // Then regenerate your system
@@ -18935,6 +19663,7 @@
 - <xsd:element name="bevelB" type="CT_Bevel" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="extrusionClr" type="CT_Color" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="contourClr" type="CT_Color" minOccurs="0" maxOccurs="1"/>
+- <xsd:element name="extLst" type="CT_OfficeArtExtensionList" minOccurs="0" maxOcc
 - </xsd:sequence>
 - <xsd:attribute name="z" type="ST_Coordinate" use="optional" default="0"/>
 - <xsd:attribute name="extrusionH" type="ST_PositiveCoordinate" use="optional" def
@@ -19172,13 +19901,16 @@
 - <xsd:enumeration value="screen"/>
 - <xsd:enumeration value="print"/>
 - <xsd:enumeration value="hqprint"/>
+- <xsd:enumeration value="none"/>
 - </xsd:restriction>
+- </xsd:simpleType>
 - <xsd:complexType name="CT_Blip">
 - <xsd:sequence>
 - <xsd:element name="alphaBiLevel" type="CT_AlphaBiLevelEffect" minOccurs="1" maxO
 - }
 - <xsd:element name="alphaCeiling" type="CT_AlphaCeilingEffect" minOccurs="1" maxO
 - <xsd:element name="alphaModFix" type="CT_AlphaModulateFixedEffect" minOccurs="1"
+- maxOccurs="1"/>
 - <xsd:element name="blur" type="CT_BlurEffect" minOccurs="1" maxOccurs="1"/>
 - .container {
 - <xsd:element name="clrRepl" type="CT_ColorReplaceEffect" minOccurs="1" maxOccurs
@@ -19328,6 +20060,7 @@
 - <xsd:element name="softEdge" type="CT_SoftEdgesEffect" minOccurs="1" maxOccurs="
 - <xsd:element name="tint" type="CT_TintEffect" minOccurs="1" maxOccurs="1"/>
 - <xsd:element name="xfrm" type="CT_TransformEffect" minOccurs="1" maxOccurs="1"/>
+- </xsd:choice>
 - </xsd:group>
 - overflow-x: hidden;
 - <xsd:simpleType name="ST_EffectContainerType">
@@ -19710,6 +20443,7 @@
 - background: var(--anthropic-light);
 - </xsd:complexType>
 - <xsd:complexType name="CT_Path2DLineTo">
+- <xsd:sequence>
 - <xsd:element name="pt" type="CT_AdjPoint2D" minOccurs="1" maxOccurs="1"/>
 - </xsd:sequence>
 - </xsd:complexType>
@@ -19743,12 +20477,14 @@
 - </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:complexType name="CT_Path2D">
+- <xsd:choice minOccurs="0" maxOccurs="unbounded">
 - <xsd:element name="close" type="CT_Path2DClose" minOccurs="1" maxOccurs="1"/>
 - <xsd:element name="moveTo" type="CT_Path2DMoveTo" minOccurs="1" maxOccurs="1"/>
 - <xsd:element name="lnTo" type="CT_Path2DLineTo" minOccurs="1" maxOccurs="1"/>
 - <xsd:element name="arcTo" type="CT_Path2DArcTo" minOccurs="1" maxOccurs="1"/>
 - <xsd:element name="quadBezTo" type="CT_Path2DQuadBezierTo" minOccurs="1" maxOccu
 - <xsd:element name="cubicBezTo" type="CT_Path2DCubicBezierTo" minOccurs="1" maxOc
+- </xsd:choice>
 - <xsd:attribute name="w" type="ST_PositiveCoordinate" use="optional" default="0"/
 - <xsd:attribute name="h" type="ST_PositiveCoordinate" use="optional" default="0"/
 - <xsd:attribute name="fill" type="ST_PathFillMode" use="optional" default="norm"/
@@ -19787,11 +20523,13 @@
 - <xsd:element name="prstGeom" type="CT_PresetGeometry2D" minOccurs="1" maxOccurs=
 - </xsd:choice>
 - }
+- </xsd:group>
 - <xsd:group name="EG_TextGeometry">
 - <xsd:choice>
 - <xsd:element name="custGeom" type="CT_CustomGeometry2D" minOccurs="1" maxOccurs=
 - <xsd:element name="prstTxWarp" type="CT_PresetTextShape" minOccurs="1" maxOccurs
 - </xsd:choice>
+- </xsd:group>
 - <xsd:simpleType name="ST_LineEndType">
 - <xsd:restriction base="xsd:token">
 - <xsd:enumeration value="none"/>
@@ -19819,6 +20557,7 @@
 - <xsd:attribute name="len" type="ST_LineEndLength" use="optional"/>
 - </xsd:complexType>
 - <xsd:group name="EG_LineFillProperties">
+- <xsd:choice>
 - <xsd:element name="noFill" type="CT_NoFillProperties" minOccurs="1" maxOccurs="1
 - brand-guidelines/LICENSE.txt
 - canvas-design/canvas-fonts/Outfit-Regular.ttf
@@ -19865,6 +20604,7 @@
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:group name="EG_LineDashProperties">
+- <xsd:choice>
 - <xsd:element name="prstDash" type="CT_PresetLineDashProperties" minOccurs="1" ma
 - <xsd:element name="custDash" type="CT_DashStopList" minOccurs="1" maxOccurs="1"/
 - </xsd:choice>
@@ -19883,6 +20623,7 @@
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_PenAlignment">
 - <xsd:restriction base="xsd:token">
+- <xsd:enumeration value="ctr"/>
 - <xsd:enumeration value="in"/>
 - </xsd:restriction>
 - </xsd:simpleType>
@@ -19918,6 +20659,7 @@
 - canvas-design/canvas-fonts/PixelifySans-Medium.ttf
 - margin-bottom: 0;
 - <xsd:element name="scene3d" type="CT_Scene3D" minOccurs="0" maxOccurs="1"/>
+- <xsd:element name="extLst" type="CT_OfficeArtExtensionList" minOccurs="0" maxOcc
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:complexType name="CT_GroupShapeProperties">
@@ -19979,6 +20721,7 @@
 - width: 16px;
 - canvas-design/canvas-fonts/PoiretOne-Regular.ttf
 - background: var(--anthropic-orange);
+- }
 - .slider-container input[type="range"]::-webkit-slider-thumb:hover {
 - transform: scale(1.1);
 - }
@@ -20047,10 +20790,12 @@
 - }
 - .button.tertiary:hover {
 - background: #6b7b52;
+- }
 - .button-row {
 - gap: 8px;
 - canvas-design/canvas-fonts/Tektur-OFL.txt
 - .button-row .button {
+- }
 - /* Canvas Area */
 - .canvas-area {
 - flex: 1;
@@ -20113,6 +20858,7 @@
 - canvas-design/canvas-fonts/YoungSerif-OFL.txt
 - <span class="value-display" id="particleCount-value">5000</span>
 - </div>
+- </div>
 - <!-- Flow Speed -->
 - <label>Flow Speed</label>
 - <input type="range" id="flowSpeed" min="0.1" max="2.0" step="0.1" value="0.5" on
@@ -20131,6 +20877,7 @@
 - <label>Trail Length</label>
 - <input type="range" id="trailLength" min="2" max="20" step="1" value="8" oninput
 - <span class="value-display" id="trailLength-value">8</span>
+- </div>
 - <!-- Colors Section (OPTIONAL - CUSTOMIZE OR REMOVE) -->
 - docx/LICENSE.txt
 - <h3>Colors</h3>
@@ -20145,6 +20892,8 @@
 - <div class="color-picker-container">
 - <input type="color" id="color2" value="#6a9bcc" onchange="updateColor('color2',
 - <span class="color-value" id="color2-value">#6a9bcc</span>
+- </div>
+- </div>
 - <!-- Color 3 -->
 - <div class="color-group">
 - docx/scripts/__init__.py
@@ -20732,6 +21481,8 @@
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
+- leitor-pagina-node/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modules/@m
+- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/package.js
@@ -20754,11 +21505,18 @@
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
+- leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
+- leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
+- leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
+- leitor-pagina-node/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modules/@m
+- leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/pa
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
+- leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- leitor-pagina-node/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modules/@m
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
@@ -20781,6 +21539,10 @@
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
+- leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
+- leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
+- leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
+- leitor-pagina-node/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modules/@m
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/mime-db@1.52.0/node_modules/mime-db/HISTOR
@@ -20828,6 +21590,10 @@
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
+- leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
+- leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
+- leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
+- leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/data-uri-to-
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/fetch-blob
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/formdata-pol
@@ -20835,6 +21601,10 @@
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/L
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/R
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/p
+- leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/s
+- leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/s
+- leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/s
+- leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/s
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/s
 - leitor-pagina-node/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/s
 - leitor-pagina-node/node_modules/.pnpm/node_modules/@asamuzakjp/css-color
@@ -20928,7 +21698,10 @@
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
+- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
+- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
@@ -20941,8 +21714,13 @@
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
+- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
+- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/comm
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/comm
 - leitor-pagina-node/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit/lib/i
+- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/comm
+- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/comm
+- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/comm
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/inde
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/pars
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/seri
@@ -20986,13 +21764,21 @@
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
+- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
+- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
+- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit/packa
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
+- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
+- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit/paral
+- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
+- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
+- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
@@ -21013,6 +21799,7 @@
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
+- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit/strea
 - leitor-pagina-node/node_modules/.pnpm/safer-buffer@2.1.2/node_modules/safer-buff
 - leitor-pagina-node/node_modules/.pnpm/saxes@6.0.0/node_modules/saxes/README.md
@@ -21025,6 +21812,11 @@
 - leitor-pagina-node/node_modules/.pnpm/symbol-tree@3.2.4/node_modules/symbol-tree
 - leitor-pagina-node/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/psl
 - leitor-pagina-node/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/punycode
+- leitor-pagina-node/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/tough-cook
+- leitor-pagina-node/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/tough-cook
+- leitor-pagina-node/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/tough-cook
+- leitor-pagina-node/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/tough-cook
+- leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/tough-cook
 - leitor-pagina-node/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/universali
 - leitor-pagina-node/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/url-parse
@@ -21047,6 +21839,7 @@
 - leitor-pagina-node/node_modules/.pnpm/url-parse@1.5.10/node_modules/url-parse/pa
 - leitor-pagina-node/node_modules/.pnpm/w3c-xmlserializer@5.0.0/node_modules/w3c-x
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/w3c-xmlserializer@5.0.0/node_modules/xml-n
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
@@ -21054,6 +21847,9 @@
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
+- leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
+- leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
+- leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
@@ -21070,6 +21866,8 @@
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
+- leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
+- leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
@@ -21093,6 +21891,11 @@
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/webidl-conv
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
+- leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
+- leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
+- leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
+- leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
+- leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
@@ -21114,6 +21917,7 @@
 - leitor-pagina-node/node_modules/.pnpm/ws@8.21.0/node_modules/ws/lib/subprotocol.
 - leitor-pagina-node/node_modules/.pnpm/ws@8.21.0/node_modules/ws/lib/validation.j
 - leitor-pagina-node/node_modules/.pnpm/ws@8.21.0/node_modules/ws/lib/websocket-se
+- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/ws@8.21.0/node_modules/ws/lib/websocket.js
 - leitor-pagina-node/node_modules/.pnpm/ws@8.21.0/node_modules/ws/package.json
@@ -21122,6 +21926,7 @@
 - leitor-pagina-node/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars/LICEN
 - leitor-pagina-node/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars/READM
 - leitor-pagina-node/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars/packa
+- leitor-pagina-node/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars/xml/1
 - leitor-pagina-node/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars/xml/1
 - leitor-pagina-node/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars/xmlch
 - leitor-pagina-node/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars/xmlns
@@ -21155,6 +21960,7 @@
 - },
 - "data-urls@5.0.0": {
 - "data-urls": "private"
+- },
 - "form-data@4.0.5": {
 - "form-data": "private"
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
@@ -21188,6 +21994,7 @@
 - },
 - "w3c-xmlserializer@5.0.0": {
 - "w3c-xmlserializer": "private"
+- },
 - "webidl-conversions@7.0.0": {
 - "webidl-conversions": "private"
 - },
@@ -21309,6 +22116,7 @@
 - },
 - "querystringify@2.2.0": {
 - "querystringify": "private"
+- },
 - "requires-port@1.0.0": {
 - "requires-port": "private"
 - },
@@ -21389,6 +22197,7 @@
 - "preferWorkspacePackages": false,
 - "production": true,
 - "publicHoistPattern": []
+- },
 - "filteredInstall": false
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - 'color-mix(in oklab, lch(67.5345 42.5 258.2), color(srgb 0 0.5 0))'
@@ -21398,11 +22207,13 @@
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - - if omitted, it will be treated as a missing color,
 - i.e. `rgb(none none none / none)`
+- - `opt.customProperty` **[object][135]?**
 - - custom properties
 - - pair of `--` prefixed property name as a key and it's value,
 - e.g.
 - ```javascript
 - '--some-color': '#008000',
+- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - '--some-length': '16px'
 - ```
 - - and/or `callback` function to get the value of the custom property,
@@ -21411,6 +22222,7 @@
 - customProperty: {
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - callback: node.style.getPropertyValue
+- - `opt.dimension` **[object][135]?**
 - - dimension, e.g. for converting relative length to pixels
 - - pair of unit as a key and number in pixels as it's value,
 - e.g. suppose `1em === 12px`, `1rem === 16px` and `100vw === 1024px`, then
@@ -21444,8 +22256,16 @@
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - - `opt.dimension` **[object][135]?**
 - - `opt.customProperty` **[object][135]?**
-- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
+- - `opt.dimension` **[object][135]?**
 - - dimension, see `resolve()` function above
+- - `opt.dimension` **[object][135]?**
+- - dimension, see `resolve()` function above
+- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
+- - `opt.customProperty` **[object][135]?**
+- - custom properties, see `resolve()` function above
+- - dimension, see `resolve()` function above
+- - custom properties, see `resolve()` function above
+- - `opt.customProperty` **[object][135]?**
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - - `opt.d50` **[boolean][136]?** xyz in d50 white point
@@ -21485,6 +22305,7 @@
 - */function Du(t){const e=180*Math.atan2(t[2],t[1])/Math.PI;return[t[0],Math.sqrt
 - * Convert Lab to D50-adapted XYZ
 - * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
+- * @copyright This software or document includes material copied from or derived
 - */function ci(t){const e=903.2962962962963,n=216/24389,r=(t[0]+16)/116,s=t[1]/50
 - * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - * @copyright This software or document includes material copied from or derived
@@ -21495,12 +22316,14 @@
 - * @see https://github.com/w3c/csswg-drafts/blob/main/css-color-4/conversions.js
 - */function hi(t){const e=180*Math.atan2(t[2],t[1])/Math.PI;return[t[0],Math.sqrt
 - * Given OKLab, convert to XYZ relative to D65
+- *
 - * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - * @copyright This software or document includes material copied from or derived
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - */function Ba(t){const e=At(Ru,t);return At(Bu,[e[0]**3,e[1]**3,e[2]**3])}/**
 - * Assuming XYZ is relative to D50, convert to CIE Lab
 - * from CIE standard, which now defines these as a rational fraction
+- *
 - */function fi(t){const e=Ra(t[0]/Qn[0]),n=Ra(t[1]/Qn[1]);return[116*n-16,500*(e-
 - * @copyright This software or document includes material copied from or derived
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
@@ -21509,6 +22332,7 @@
 - * @see https://github.com/w3c/csswg-drafts/issues/6642#issuecomment-943521484
 - */function Oa(t){const e=At(Tu,t);return At(Iu,[Math.cbrt(e[0]),Math.cbrt(e[1]),
 - * Convert XYZ to linear-light rec2020
+- * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - */const _u=[446124/178915,-333277/357830,-72051/178915,-14852/17905,63121/35810,
 - * Convert XYZ to linear-light P3
 - * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
@@ -21517,12 +22341,15 @@
 - * Convert D50 XYZ to linear-light prophoto-rgb
 - *
 - * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
+- * @copyright This software or document includes material copied from or derived
 - */const zu=[1829569/896150,-506331/896150,-308931/896150,-851781/878810,1648619/
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - * Convert XYZ to linear-light a98-rgb
 - *
+- * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - * @copyright This software or document includes material copied from or derived
 - */const ju=[12831/3959,-329/214,-1974/3959,-851781/878810,1648619/878810,36519/8
+- * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - * @copyright This software or document includes material copied from or derived
 - */function Ir(t){return At(ju,t)}/**
 - * Convert an array of linear-light rec2020 RGB  in the range 0.0-1.0
@@ -21537,8 +22364,10 @@
 - * Extended transfer function:
 - *  For negative values, linear portion extends on reflection
 - *  of axis, then uses reflected pow below that
+- *
 - * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
+- * @copyright This software or document includes material copied from or derived
 - * @see https://en.wikipedia.org/wiki/SRGB
 - */function Lr(t){return[Ta(t[0]),Ta(t[1]),Ta(t[2])]}function Ta(t){const e=t<0?-
 - * Convert an array of linear-light display-p3 RGB in the range 0.0-1.0
@@ -21548,9 +22377,11 @@
 - * @copyright This software or document includes material copied from or derived
 - */function qu(t){return Lr(t)}/**
 - * Convert an array of linear-light prophoto-rgb in the range 0.0-1.0
+- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - * to gamma corrected form.
 - * Transfer curve is gamma 1.8 with a small linear portion.
 - *
+- * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - * @copyright This software or document includes material copied from or derived
 - */const Vu=1/512;function Ia(t){const e=t<0?-1:1,n=Math.abs(t);return n>=Vu?e*Ma
 - * Convert an array of linear-light a98-rgb in the range 0.0-1.0
@@ -21620,9 +22451,11 @@
 - */const nh=[506752/1228815,87881/245763,12673/70218,87098/409605,175762/245763,1
 - * Convert an array of linear-light sRGB values to CIE XYZ
 - * using sRGB's own white, D65 (no chromatic adaptation)
+- *
 - * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
+- * @copyright This software or document includes material copied from or derived
 - */function _r(t){return At(nh,t)}/**
 - * Convert an array of gamma-corrected sRGB values in the 0.0 to 1.0 range to HSL
 - *
@@ -21680,6 +22513,8 @@
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
+- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
+- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/u
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/packa
@@ -21705,7 +22540,11 @@
 - leitor-pagina-node/SKILL.md
 - leitor-pagina-node/node_modules/.pnpm/delayed-stream@1.0.0/node_modules/delayed-
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/call-bind-
+- leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
+- leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
+- leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
@@ -21727,6 +22566,26 @@
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
@@ -21740,22 +22599,6 @@
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
@@ -21788,6 +22631,9 @@
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/src/i
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/es-define-property@1.0.1/node_modules/es-d
+- leitor-pagina-node/node_modules/.pnpm/es-define-property@1.0.1/node_modules/es-d
+- leitor-pagina-node/node_modules/.pnpm/es-define-property@1.0.1/node_modules/es-d
+- leitor-pagina-node/node_modules/.pnpm/es-define-property@1.0.1/node_modules/es-d
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-errors/.es
 - leitor-pagina-node/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-errors/.gi
@@ -21810,10 +22656,16 @@
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
+- leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
+- leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
+- leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
+- leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - leitor-pagina-node/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_modules/es-e
+- leitor-pagina-node/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_modules/es-s
+- leitor-pagina-node/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_modules/es-s
 - leitor-pagina-node/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_modules/es-s
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_modules/get-
@@ -21844,15 +22696,21 @@
 - leitor-pagina-node/node_modules/.pnpm-workspace-state-v1.json
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/formdata-polyfill@4.0.10/node_modules/form
+- leitor-pagina-node/node_modules/.pnpm/function-bind@1.1.2/node_modules/function-
+- leitor-pagina-node/node_modules/.pnpm/function-bind@1.1.2/node_modules/function-
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/function-bind@1.1.2/node_modules/function-
+- leitor-pagina-node/node_modules/.pnpm/function-bind@1.1.2/node_modules/function-
+- leitor-pagina-node/node_modules/.pnpm/function-bind@1.1.2/node_modules/function-
 - leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/call-bind
+- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/es-define
 - leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/es-errors
 - leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/es-object
 - leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/function-
 - leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/get-intri
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/get-intri
 - leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/get-proto
 - leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/gopd
 - leitor-pagina-node/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/has-symbo
@@ -21887,13 +22745,21 @@
 - leitor-pagina-node/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd/test/index.js
 - leitor-pagina-node/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd/tsconfig.json
 - leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
+- leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
+- leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
+- leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-sym
+- leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
+- leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
+- leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
+- leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
@@ -21922,6 +22788,10 @@
 - leitor-pagina-node/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules/agent
 - leitor-pagina-node/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules/debug
 - leitor-pagina-node/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules/https
+- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- leitor-pagina-node/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules/https
+- leitor-pagina-node/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules/https
+- leitor-pagina-node/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules/https
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/.
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/C
@@ -21932,7 +22802,11 @@
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
+- leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
+- leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
+- leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
@@ -22058,6 +22932,7 @@
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
+- leitor-pagina-node/node_modules/.pnpm/@csstools+css-calc@2.1.4_@c_e8d5cb57048a11
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
@@ -22167,6 +23042,7 @@
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
+- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
@@ -22188,6 +23064,18 @@
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
+- leitor-pagina-node/node_modules/.pnpm/@csstools+css-color-parser@_ac3eaa9e6357e2
+- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
+- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
+- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
+- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
+- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
+- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
+- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
+- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
+- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
+- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
+- leitor-pagina-node/node_modules/.pnpm/@csstools+css-color-parser@_ac3eaa9e6357e2
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
@@ -22208,14 +23096,7 @@
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
-- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
-- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
-- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
-- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
-- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
-- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
-- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
-- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
+- leitor-pagina-node/node_modules/.pnpm/@csstools+css-color-parser@_ac3eaa9e6357e2
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
@@ -22520,6 +23401,7 @@
 - 'event_data' => json_encode($data),
 - 'created_at' => current_time('mysql'),
 - ]);
+- }
 - id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 - filepath = os.path.join(day_dir, filename)
 - event_type VARCHAR(50) NOT NULL,
@@ -22566,6 +23448,7 @@
 - // Incrementa versão da tag → todos os caches com essa tag expiram
 - if f.startswith("commit-") and f.endswith(".md"):
 - update_option("mt_cache_tag_{$tag}", $version + 1);
+- }
 - public function get($key, $tag) {
 - $version = get_option("mt_cache_tag_{$tag}") ?: 1;
 - return get_transient("{$key}_v{$version}");
@@ -22605,6 +23488,7 @@
 - private $provider;
 - for f in filenames:
 - $this->provider = new SendGrid(MT_SENDGRID_KEY);
+- }
 - public function sendTemplate($to, $template, $data) {
 - $email = new \SendGrid\Mail\Mail();
 - $email->setFrom("naoresponda@moedadetroka.com.br", "MoedaDeTroka");
@@ -22687,6 +23571,7 @@
 - 'plix' => new PixGateway(),
 - default => throw new \Exception("Gateway $type not found"),
 - };
+- }
 - $risk->blockOrder($order_id, 'high_risk_score');
 - $risk->notifyAdmin($order_id, $score);
 - $risk->holdOrder($order_id, 'medium_risk_score');
@@ -22829,6 +23714,7 @@
 - try:
 - if confirm == "n":
 - print(RED + "Operacao cancelada." + RESET)
+- return
 - os.makedirs(local_path, exist_ok=True)
 - # Gera .sync_theme.py
 - script_path = os.path.join(local_path, ".sync_theme.py")
@@ -22878,6 +23764,7 @@
 - for p in parts:
 - if not p:
 - current += "/" + p
+- try:
 - sftp.stat(current)
 - except FileNotFoundError:
 - configurar-espelhamento-server/configurar_espelho.py
@@ -23012,6 +23899,7 @@
 - Stat/number callouts
 - Icon grids or icon + text rows
 - Delete unwanted slides (remove from `<p:sldIdLst>`)
+- Code: xml
 - Code: xml
 - Code: text
 - Code: bash
@@ -23221,6 +24109,7 @@
 - And can be realistically reproduced
 - Code: bash
 - Code: json
+- Code: bash
 - graphify reference: extra exports and benchmark
 - Step 6b - Wiki (only if --wiki flag)
 - Step 7c - GraphML export (only if --graphml flag)
@@ -23505,6 +24394,10 @@
 - Code: typescript
 - Code: typescript
 - Code: typescript
+- Code: typescript
+- Code: typescript
+- Code: typescript
+- Code: typescript
 - Code: bash
 - Node/TypeScript MCP Server Implementation Guide
 - Overview
@@ -23632,6 +24525,10 @@
 - Code: javascript
 - Code: javascript
 - Code: javascript
+- Code: javascript
+- Code: javascript
+- Code: javascript
+- Code: javascript
 - PptxGenJS Tutorial
 - Setup & Basic Structure
 - Lists & Bullets
@@ -23673,6 +24570,9 @@
 - **Chart data labels**: "outEnd", "inEnd", "center"
 - `LAYOUT_4x3`: 10" × 7.5"
 - `LAYOUT_WIDE`: 13.3" × 7.5"
+- Code: python
+- Code: python
+- Code: python
 - Code: python
 - Code: python
 - Code: python
@@ -23786,6 +24686,9 @@
 - [ ] FOCUSED IMPLEMENTATION: Most important and valuable tools implemented
 - [ ] All tools have descriptive names and documentation
 - Code: bash
+- Code: bash
+- Code: bash
+- Code: bash
 - Code: text
 - graphify reference: query, path, explain
 - For /graphify path
@@ -23801,6 +24704,8 @@
 - Translate cross-language: Russian "аутентификация" → look for `auth`, `credentia
 - Morphology: "handlers" maps to `handler` IFF present; "todos" maps to `todo` IFF
 - Code: javascript
+- Code: python
+- Code: python
 - Code: python
 - PDF Processing Advanced Reference
 - pypdfium2 Library (Apache/BSD License)
@@ -23991,19 +24896,15 @@
   criar-editar-apresentacao/scripts/office/validate.py → criar-editar-apresentacao/scripts/office/validators/pptx.py
 - `main()` --calls--> `RedliningValidator`  [INFERRED]
   criar-editar-apresentacao/scripts/office/validate.py → criar-editar-apresentacao/scripts/office/validators/redlining.py
-- `main()` --calls--> `DOCXSchemaValidator`  [INFERRED]
-  criar-editar-documento-word/scripts/office/validate.py → criar-editar-documento-word/scripts/office/validators/docx.py
-- `main()` --calls--> `PPTXSchemaValidator`  [INFERRED]
-  criar-editar-documento-word/scripts/office/validate.py → criar-editar-documento-word/scripts/office/validators/pptx.py
+- `_run_validation()` --calls--> `DOCXSchemaValidator`  [INFERRED]
+  criar-editar-documento-word/scripts/office/pack.py → criar-editar-documento-word/scripts/office/validators/docx.py
+- `_run_validation()` --calls--> `PPTXSchemaValidator`  [INFERRED]
+  criar-editar-documento-word/scripts/office/pack.py → criar-editar-documento-word/scripts/office/validators/pptx.py
 
 ## Import Cycles
 - None detected.
 
-## Communities (24114 total, 23690 thin omitted)
-
-### Community 0 - "BaseSchemaValidator"
-Cohesion: 0.05
-Nodes (16): _condense_xml(), pack(), Path, Pack a directory into a DOCX, PPTX, or XLSX file.  Validates with auto-repair, c, _run_validation(), BaseSchemaValidator, Base validator with common validation logic for document files., DOCXSchemaValidator (+8 more)
+## Communities (25014 total, 24655 thin omitted)
 
 ### Community 1 - "MCPConnection"
 Cohesion: 0.06
@@ -24026,8 +24927,8 @@ Cohesion: 0.06
 Nodes (35): apply_squash_stretch(), calculate_arc_motion(), ease_back_in(), ease_back_in_out(), ease_back_out(), ease_in_bounce(), ease_in_cubic(), ease_in_elastic() (+27 more)
 
 ### Community 6 - "Python MCP Server Implementation Guide"
-Cohesion: 0.06
-Nodes (36): Advanced FastMCP Features, Advanced Features (where applicable), Async/Await Best Practices, Code Best Practices, Code Composability and Reusability, Code Quality, Complete Example, Context Parameter Injection (+28 more)
+Cohesion: 0.15
+Nodes (13): Async/Await Best Practices, Complete Example, Error Handling, MCP Python SDK and FastMCP, Overview, Pagination Implementation, Pydantic v2 Key Features, Python MCP Server Implementation Guide (+5 more)
 
 ### Community 7 - "2. Object Calisthenics (9 Regras)"
 Cohesion: 0.06
@@ -24044,6 +24945,10 @@ Nodes (23): Add Icon to Slide, Better-Looking Charts, Calculate Dimensions (pres
 ### Community 11 - "BaseSchemaValidator"
 Cohesion: 0.17
 Nodes (11): AGENTS.md - The Fable Method, Compressed examples, Modes, Step 0 - Classify the ask, Step 1 - Define done, Step 2 - Gather evidence, Step 3 - Decide and commit, Step 4 - Act surgically (+3 more)
+
+### Community 12 - "BaseSchemaValidator"
+Cohesion: 0.05
+Nodes (16): _condense_xml(), pack(), Path, Pack a directory into a DOCX, PPTX, or XLSX file.  Validates with auto-repair, c, _run_validation(), BaseSchemaValidator, Base validator with common validation logic for document files., DOCXSchemaValidator (+8 more)
 
 ### Community 13 - "generator_template.js"
 Cohesion: 0.11
@@ -24102,8 +25007,8 @@ Cohesion: 0.08
 Nodes (25): Agente Buildify (Auto-Instalação), Comandos de Router, 💻 Desenvolvimento & Frontend, 🎨 Design & Visual, 📄 Documentos Office & PDF, Estrutura de AST, Estrutura do AST JSON, Exemplo de Routing Completo (+17 more)
 
 ### Community 27 - "Fase 1: Pesquisa Profunda e Planejamento"
-Cohesion: 0.14
-Nodes (14): 1.1 Compreender o Design Moderno do MCP, 1.2 Estudar Documentação do Protocolo MCP, 1.3 Estudar Documentação do Framework, 1.4 Planeje Sua Implementação, 2.1 Configure Estrutura do Projeto, 2.2 Implemente Infraestrutura Compartilhada, 2.3 Implemente Ferramentas, 3.1 Qualidade do Código (+6 more)
+Cohesion: 0.22
+Nodes (9): 2.1 Configure Estrutura do Projeto, 2.2 Implemente Infraestrutura Compartilhada, 2.3 Implemente Ferramentas, 3.1 Qualidade do Código, 3.2 Compile e Teste, Fase 2: Implementação, Fase 3: Revisão e Teste, 🚀 Fluxo de Trabalho de Alto Nível (+1 more)
 
 ### Community 28 - "DOCXSchemaValidator"
 Cohesion: 0.17
@@ -24130,8 +25035,8 @@ Cohesion: 0.15
 Nodes (12): Commit com arquivos especificos:, Commit em projeto especifico:, Commit forcado (--force-with-lease):, Commit padrao com confirmacao (RECOMENDADO):, Commit sem confirmacao interativa (SOMENTE se usuario pedir):, Fluxo de confirmacao, Notes, Parameters (+4 more)
 
 ### Community 35 - "MCP Server Best Practices"
-Cohesion: 0.15
-Nodes (13): Documentation Requirements, Error Handling, JSON Format (`response_format="json"`), Markdown Format (`response_format="markdown"`, typically default), MCP Server Best Practices, Pagination, Response Formats, Server Naming Conventions (+5 more)
+Cohesion: 0.07
+Nodes (28): Authentication and Authorization, DNS Rebinding Protection, Documentation Requirements, Error Handling, Error Handling, Input Validation, JSON Format (`response_format="json"`), Markdown Format (`response_format="markdown"`, typically default) (+20 more)
 
 ### Community 36 - "simplify_redlines.py"
 Cohesion: 0.29
@@ -24206,8 +25111,8 @@ Cohesion: 0.49
 Nodes (8): _add_to_content_types(), _add_to_presentation_rels(), create_slide_from_layout(), duplicate_slide(), _get_next_slide_id(), get_next_slide_number(), Path, Add a new slide to an unpacked PPTX directory.  Usage: python add_slide.py <unpa
 
 ### Community 54 - "__init__.py"
-Cohesion: 0.10
-Nodes (19): Arquivos, Buildify — Fable Method + Graph-First + Skill Router, Comandos, Core: Graph Query FIRST, Grep NEVER, Custo Zero, Modos, O Loop Buildify, O Loop (Fable Method) (+11 more)
+Cohesion: 0.11
+Nodes (18): Arquivos, Buildify — Fable Method + Graph-First + Skill Router, Comandos, Core: Graph Query FIRST, Grep NEVER, Custo Zero, Modos, O Loop Buildify, O Loop (Fable Method) (+10 more)
 
 ### Community 55 - "Skill DOCX - Documentos Word"
 Cohesion: 0.20
@@ -24298,8 +25203,8 @@ Cohesion: 0.33
 Nodes (5): Answer Guidelines, Formatting, Guidance, Instructions, Tools Available
 
 ### Community 81 - "Quick Reference"
-Cohesion: 0.15
-Nodes (12): Acquiring Wisdom, Assets, Fluency vs Storage Strength, Knowledge, Lessons, `NOTES.md`, Philosophy, Reference Documents (+4 more)
+Cohesion: 0.05
+Nodes (35): Model-invoked, Productivity, User-invoked, Learning Record Format, Numbering, Optional sections, Supersession, Template (+27 more)
 
 ### Community 84 - "unpack.py"
 Cohesion: 0.60
@@ -24638,8 +25543,8 @@ Cohesion: 0.29
 Nodes (9): extract_markdown_structure(), find_markdown_files(), main(), md_to_json_path(), Encontra todos os arquivos .md em um diretório ou arquivo único., Converte caminho .md para .json (mesmo diretório, mesmo nome)., Salva AST de um único arquivo .md como .json no mesmo diretório., Extrai estrutura AST de um arquivo markdown. (+1 more)
 
 ### Community 194 - "Invocation"
-Cohesion: 0.22
-Nodes (8): Duplication, Glossary — Building Great Skills, No-Op, Predictability, Pruning, Relevance, Sediment, Single Source of Truth
+Cohesion: 0.06
+Nodes (33): Branch, Co-location, Cognitive Load, Completion Criterion, Context Load, Context Pointer, Description, Duplication (+25 more)
 
 ### Community 195 - "SKILL.md"
 Cohesion: 0.06
@@ -24714,8 +25619,8 @@ Cohesion: 0.25
 Nodes (7): 1. Pin the fixed point, 2. Identify the spec source, 3. Identify the standards sources, 4. Spawn both sub-agents in parallel, 5. Aggregate, Process, Why two axes
 
 ### Community 215 - "Quality Checklist"
-Cohesion: 0.22
-Nodes (8): Como funciona, Dry-run (só listar o que seria morto, sem matar):, Executar (matar de verdade):, Integração com o agente buildify, Matar OpenCode Stale, Quando usar, Segurança, Uso
+Cohesion: 0.29
+Nodes (7): Advanced Features (where applicable), Code Quality, Implementation Quality, Quality Checklist, Strategic Design, Testing, Tool Configuration
 
 ### Community 217 - "Advanced FastMCP Features"
 Cohesion: 0.29
@@ -24730,8 +25635,8 @@ Cohesion: 0.29
 Nodes (7): Acceptance criteria, Blocked by, Parent, <Ticket title>, <Ticket title>, Tickets: <short name of the work>, What to build
 
 ### Community 222 - "Process"
-Cohesion: 0.22
-Nodes (9): Cognitive Load, Context Load, Context Pointer, Description, Granularity, Invocation, Model-Invoked, Router Skill (+1 more)
+Cohesion: 0.33
+Nodes (6): Advanced FastMCP Features, Context Parameter Injection, Lifespan Management, Resource Registration, Structured Output Types, Transport Options
 
 ### Community 225 - "hitl-loop.template.sh"
 Cohesion: 0.83
@@ -24748,10 +25653,6 @@ Nodes (5): _condense_xml(), pack(), Path, Pack a directory into a DOCX, PPTX, or
 ### Community 261 - "Step 0 — Constrained query expansion (REQUIRED before traversal)"
 Cohesion: 0.33
 Nodes (6): Completion criterion — a tight loop that goes red, Non-deterministic bugs, Phase 1 — Build a feedback loop, Tighten the loop, Ways to construct one — try them in roughly this order, When you genuinely cannot build a loop
-
-### Community 265 - "MCP Server Evaluation Guide"
-Cohesion: 0.25
-Nodes (7): Learning Record Format, Numbering, Optional sections, Supersession, Template, What does _not_ qualify, When to write a learning record
 
 ### Community 266 - "Domain adapter: data analysis"
 Cohesion: 0.25
@@ -24782,8 +25683,8 @@ Cohesion: 0.11
 Nodes (18): Agent Injection — Buildify (Fable + Graph-First), Agente Buildify, Comandos, Core Rule: Graph Query FIRST, Grep NEVER, Localização dos Arquivos, Modos, O Loop Buildify, O que faz (+10 more)
 
 ### Community 301 - "Process"
-Cohesion: 0.25
-Nodes (8): Branch, Completion Criterion, Leading Word, Legwork, Negation, Post-Completion Steps, Premature Completion, Steering
+Cohesion: 0.50
+Nodes (4): Key Imports, Quick Reference, Server Initialization, Tool Registration Pattern
 
 ### Community 302 - "Examples"
 Cohesion: 0.33
@@ -24798,12 +25699,8 @@ Cohesion: 0.33
 Nodes (5): Arquivos, Commit c3efb81 - 11/07/2026 19:23:16, Diff, Hash, Mensagem
 
 ### Community 335 - "Icon Libraries"
-Cohesion: 0.25
-Nodes (8): Co-location, External Reference, Information Hierarchy, Information Hierarchy, Progressive Disclosure, Reference, Sprawl, Steps
-
-### Community 336 - "SKILL.md"
-Cohesion: 0.25
-Nodes (7): Failure modes, Information hierarchy, Invocation, Leading words, Pruning, When to split, Writing the description
+Cohesion: 0.67
+Nodes (3): Code Best Practices, Code Composability and Reusability, Python-Specific Best Practices
 
 ### Community 340 - "rename_css_vars_genericas.py"
 Cohesion: 0.36
@@ -24814,285 +25711,35 @@ Cohesion: 0.33
 Nodes (5): Arquivos, Commit a13ac2e - 11/07/2026 21:02:00, Diff, Hash, Mensagem
 
 ### Community 344 - "Plugin Complementar — Admin Commission Reports"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 4140690bc87f - 11/06/2026 19:41:29, Diff, Hash, Mensagem
-
-### Community 351 - "Commit 3c247271a7cd - 11/06/2026 19:41:33"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 3c247271a7cd - 11/06/2026 19:41:33, Diff, Hash, Mensagem
-
-### Community 352 - "Commit b4eda5ffc166 - 11/06/2026 19:58:47"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit b4eda5ffc166 - 11/06/2026 19:58:47, Diff, Hash, Mensagem
-
-### Community 356 - "Commit ae52af39c9aa - 11/06/2026 20:55:53"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit ae52af39c9aa - 11/06/2026 20:55:53, Diff, Hash, Mensagem
-
-### Community 357 - "Commit f235cdf67c9d - 11/06/2026 23:22:41"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit f235cdf67c9d - 11/06/2026 23:22:41, Diff, Hash, Mensagem
-
-### Community 358 - "Commit 029721d8871b - 11/06/2026 23:38:42"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 029721d8871b - 11/06/2026 23:38:42, Diff, Hash, Mensagem
-
-### Community 359 - "Commit 9b373ac20f0c - 11/06/2026 23:39:42"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 9b373ac20f0c - 11/06/2026 23:39:42, Diff, Hash, Mensagem
+Cohesion: 0.67
+Nodes (3): Tool Implementation, Tool Naming, Tool Structure with FastMCP
 
 ### Community 378 - "qpdf Advanced Features"
 Cohesion: 0.33
 Nodes (5): 1. Trivial (gate, no loop), 2. Question / assessment, 3. Task, 4. Plan-first, Worked examples: one per ask shape
 
-### Community 380 - "Commit e3b8ac8f2122 - 12/06/2026 00:18:44"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit e3b8ac8f2122 - 12/06/2026 00:18:44, Diff, Hash, Mensagem
-
-### Community 381 - "Commit 172f025f9ea0 - 13/06/2026 02:26:15"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 172f025f9ea0 - 13/06/2026 02:26:15, Diff, Hash, Mensagem
-
-### Community 382 - "Commit bcb83e30eef7 - 14/06/2026 00:07:59"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit bcb83e30eef7 - 14/06/2026 00:07:59, Diff, Hash, Mensagem
-
 ### Community 395 - "Fase 1: Pesquisa Profunda e Planejamento"
-Cohesion: 0.33
-Nodes (5): Arquivos, Commit 463de96 - 23/07/2026 23:41:08, Diff, Hash, Mensagem
-
-### Community 396 - "Commit 35a0fd7ff866 - 18/06/2026 21:50:13"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 35a0fd7ff866 - 18/06/2026 21:50:13, Diff, Hash, Mensagem
+Cohesion: 0.40
+Nodes (5): 1.1 Compreender o Design Moderno do MCP, 1.2 Estudar Documentação do Protocolo MCP, 1.3 Estudar Documentação do Framework, 1.4 Planeje Sua Implementação, Fase 1: Pesquisa Profunda e Planejamento
 
 ### Community 424 - "SKILL.md"
 Cohesion: 0.33
 Nodes (5): Caveats / licoes aprendidas, Comando, Input, Usage, What I do
 
-### Community 444 - "Commit ce527ce5c6be - 18/06/2026 22:16:35"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit ce527ce5c6be - 18/06/2026 22:16:35, Diff, Hash, Mensagem
-
-### Community 450 - "Commit 72196b9e360a - 18/06/2026 22:16:36"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 72196b9e360a - 18/06/2026 22:16:36, Diff, Hash, Mensagem
-
-### Community 451 - "Commit 5b4f870d5bc4 - 18/06/2026 22:18:39"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 5b4f870d5bc4 - 18/06/2026 22:18:39, Diff, Hash, Mensagem
-
-### Community 452 - "Commit 4dc78735b7db - 18/06/2026 22:18:40"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 4dc78735b7db - 18/06/2026 22:18:40, Diff, Hash, Mensagem
-
-### Community 453 - "Commit 4e045320b529 - 18/06/2026 22:26:40"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 4e045320b529 - 18/06/2026 22:26:40, Diff, Hash, Mensagem
-
-### Community 454 - "Commit f22566cada90 - 18/06/2026 22:26:41"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit f22566cada90 - 18/06/2026 22:26:41, Diff, Hash, Mensagem
-
-### Community 455 - "Commit 66f3760aa78f - 18/06/2026 22:55:36"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 66f3760aa78f - 18/06/2026 22:55:36, Diff, Hash, Mensagem
-
-### Community 457 - "Commit d18112a32806 - 18/06/2026 23:11:40"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit d18112a32806 - 18/06/2026 23:11:40, Diff, Hash, Mensagem
-
 ### Community 498 - "fable-judge"
 Cohesion: 0.50
 Nodes (3): Default mode: judge the work, fable-judge, suite mode: judge a skill or a model
 
-### Community 709 - "Commit c857027bebd2 - 18/06/2026 23:31:06"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit c857027bebd2 - 18/06/2026 23:31:06, Diff, Hash, Mensagem
-
-### Community 711 - "Commit 2f2c5af0c7a0 - 18/06/2026 23:31:20"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 2f2c5af0c7a0 - 18/06/2026 23:31:20, Diff, Hash, Mensagem
-
-### Community 799 - "Commit 982f3f1c7f70 - 18/06/2026 23:32:37"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 982f3f1c7f70 - 18/06/2026 23:32:37, Diff, Hash, Mensagem
-
-### Community 801 - "Commit ac4e1f682d99 - 18/06/2026 23:33:55"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit ac4e1f682d99 - 18/06/2026 23:33:55, Diff, Hash, Mensagem
-
-### Community 803 - "Commit d6e5c5b40965 - 18/06/2026 23:34:49"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit d6e5c5b40965 - 18/06/2026 23:34:49, Diff, Hash, Mensagem
-
-### Community 804 - "Commit e26280635cca - 18/06/2026 23:35:35"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit e26280635cca - 18/06/2026 23:35:35, Diff, Hash, Mensagem
-
-### Community 809 - "Commit 0bd8346e875a - 19/06/2026 22:42:50"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 0bd8346e875a - 19/06/2026 22:42:50, Diff, Hash, Mensagem
-
-### Community 811 - "Commit d435d1f1508e - 20/06/2026 22:52:19"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit d435d1f1508e - 20/06/2026 22:52:19, Diff, Hash, Mensagem
-
-### Community 815 - "Code: text"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit e070ea778a7e - 22/06/2026 19:21:21, Diff, Hash, Mensagem
-
-### Community 816 - "Commit 63bf3b5f8757 - 22/06/2026 19:31:57"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 63bf3b5f8757 - 22/06/2026 19:31:57, Diff, Hash, Mensagem
-
-### Community 817 - "Code: bash"
-Cohesion: 0.33
-Nodes (6): Pagination, Quick Reference, Response Formats, Server Naming, Tool Naming, Transport
-
-### Community 820 - "Commit c368e710e400 - 23/06/2026 00:53:03"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit c368e710e400 - 23/06/2026 00:53:03, Diff, Hash, Mensagem
-
-### Community 826 - "Code: bash"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit eadadb7bfe2c - 23/06/2026 00:53:03, Diff, Hash, Mensagem
-
-### Community 828 - "Commit eb6b5f096b3b - 23/06/2026 21:41:54"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit eb6b5f096b3b - 23/06/2026 21:41:54, Diff, Hash, Mensagem
-
-### Community 831 - "Commit f4fd71c91805 - 23/06/2026 21:41:54"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit f4fd71c91805 - 23/06/2026 21:41:54, Diff, Hash, Mensagem
-
-### Community 841 - "Commit f76e4ca51ff8 - 02/07/2026 22:58:56"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit f76e4ca51ff8 - 02/07/2026 22:58:56, Diff, Hash, Mensagem
-
-### Community 868 - "Commit 1fbb116f36d6 - 02/07/2026 23:06:29"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 1fbb116f36d6 - 02/07/2026 23:06:29, Diff, Hash, Mensagem
-
-### Community 871 - "Commit ae8d370f1e28 - 08/07/2026 12:39:46"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit ae8d370f1e28 - 08/07/2026 12:39:46, Diff, Hash, Mensagem
-
-### Community 876 - "Commit b423c66b5a34 - 08/07/2026 12:58:39"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit b423c66b5a34 - 08/07/2026 12:58:39, Diff, Hash, Mensagem
-
-### Community 882 - "Commit ae7ec2ceff5e - 08/07/2026 20:42:37"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit ae7ec2ceff5e - 08/07/2026 20:42:37, Diff, Hash, Mensagem
-
-### Community 1008 - "Commit 2c7a7fc4aa1f - 08/07/2026 20:42:38"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 2c7a7fc4aa1f - 08/07/2026 20:42:38, Diff, Hash, Mensagem
-
-### Community 1009 - "Commit dad91a5c8957 - 08/07/2026 21:18:06"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit dad91a5c8957 - 08/07/2026 21:18:06, Diff, Hash, Mensagem
-
-### Community 1017 - "Commit 0283d214a678 - 08/07/2026 21:20:01"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 0283d214a678 - 08/07/2026 21:20:01, Diff, Hash, Mensagem
-
-### Community 1018 - "Commit c077b4997ca9 - 08/07/2026 22:13:04"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit c077b4997ca9 - 08/07/2026 22:13:04, Diff, Hash, Mensagem
-
-### Community 1019 - "Commit c85e3fae2354 - 08/07/2026 22:15:46"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit c85e3fae2354 - 08/07/2026 22:15:46, Diff, Hash, Mensagem
-
-### Community 1020 - "Commit bb8894648c2b - 08/07/2026 22:17:53"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit bb8894648c2b - 08/07/2026 22:17:53, Diff, Hash, Mensagem
-
-### Community 1021 - "Commit 6bd750ffcbf1 - 08/07/2026 22:25:18"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 6bd750ffcbf1 - 08/07/2026 22:25:18, Diff, Hash, Mensagem
-
-### Community 1022 - "Commit a7cdafcd4380 - 08/07/2026 22:43:39"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit a7cdafcd4380 - 08/07/2026 22:43:39, Diff, Hash, Mensagem
-
-### Community 1023 - "Commit 23faddb5fbec - 08/07/2026 22:50:42"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 23faddb5fbec - 08/07/2026 22:50:42, Diff, Hash, Mensagem
-
-### Community 1025 - "Commit bed8e1eaf121 - 08/07/2026 23:34:51"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit bed8e1eaf121 - 08/07/2026 23:34:51, Diff, Hash, Mensagem
-
-### Community 1026 - "Commit ba106027c85d - 11/07/2026 00:31:50"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit ba106027c85d - 11/07/2026 00:31:50, Diff, Hash, Mensagem
-
-### Community 1081 - "Commit aca81dddef6f - 11/07/2026 14:07:44"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit aca81dddef6f - 11/07/2026 14:07:44, Diff, Hash, Mensagem
-
-### Community 1082 - "Commit 8332fc7ad59e - 11/07/2026 18:57:43"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 8332fc7ad59e - 11/07/2026 18:57:43, Diff, Hash, Mensagem
-
-### Community 1083 - "Commit c3efb814163e - 11/07/2026 19:23:15"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit c3efb814163e - 11/07/2026 19:23:15, Diff, Hash, Mensagem
-
-### Community 1084 - "Commit 44e9aef88ae2 - 11/07/2026 19:23:16"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 44e9aef88ae2 - 11/07/2026 19:23:16, Diff, Hash, Mensagem
-
-### Community 1085 - "Commit a13ac2ed951d - 11/07/2026 21:01:58"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit a13ac2ed951d - 11/07/2026 21:01:58, Diff, Hash, Mensagem
-
-### Community 1094 - "Commit 9b35880cb11d - 11/07/2026 21:02:01"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 9b35880cb11d - 11/07/2026 21:02:01, Diff, Hash, Mensagem
-
-### Community 1095 - "Commit 463de965a276 - 23/07/2026 23:41:07"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 463de965a276 - 23/07/2026 23:41:07, Diff, Hash, Mensagem
-
-### Community 1096 - "Commit 70f2f82e7982 - 23/07/2026 23:41:09"
-Cohesion: 0.29
-Nodes (6): Arquivos, AST Resumo, Commit 70f2f82e7982 - 23/07/2026 23:41:09, Diff, Hash, Mensagem
-
-### Community 1097 - "README.md"
-Cohesion: 0.29
-Nodes (3): Model-invoked, Productivity, User-invoked
-
-### Community 1112 - "Question Guidelines"
-Cohesion: 0.40
-Nodes (5): Authentication and Authorization, DNS Rebinding Protection, Error Handling, Input Validation, Security Best Practices
-
-### Community 1117 - "MISSION.md Format"
-Cohesion: 0.50
-Nodes (3): MISSION.md Format, Rules, Template
-
-### Community 1214 - "RESOURCES.md Format"
-Cohesion: 0.50
-Nodes (3): RESOURCES.md Format, Rules, Structure
-
-### Community 1223 - "Transport Options"
-Cohesion: 0.50
-Nodes (4): stdio, Streamable HTTP, Transport Options, Transport Selection
-
-### Community 1226 - "SKILL.md"
-Cohesion: 0.14
-Nodes (13): 1. Backup ANTES de tocar em qualquer dado, 2. Identificar o vendedor (Dokan usa post_author), 3. Ler o CSV com header normalizado, 4. Criar categorias que faltam, 5. Deduplicar com filtro de autor CORRETO, 6. Importar produtos, 7. Foto do vendedor em produtos sem foto, 8. Regenerar miniaturas (todas resolucoes) (+5 more)
-
 ## Knowledge Gaps
-- **25241 isolated node(s):** `params`, `bundle-artifact.sh script`, `init-artifact.sh script`, `name`, `version` (+25236 more)
+- **25899 isolated node(s):** `params`, `bundle-artifact.sh script`, `init-artifact.sh script`, `name`, `version` (+25894 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **23690 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **24655 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `Node/TypeScript MCP Server Implementation Guide` connect `Node/TypeScript MCP Server Implementation Guide` to `SKILL.md`?**
+  _High betweenness centrality (0.000) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `BaseSchemaValidator` (e.g. with `DOCXSchemaValidator` and `PPTXSchemaValidator`) actually correct?**
   _`BaseSchemaValidator` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 2 inferred relationships involving `BaseSchemaValidator` (e.g. with `DOCXSchemaValidator` and `PPTXSchemaValidator`) actually correct?**
@@ -25100,9 +25747,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Are the 2 inferred relationships involving `BaseSchemaValidator` (e.g. with `DOCXSchemaValidator` and `PPTXSchemaValidator`) actually correct?**
   _`BaseSchemaValidator` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `params`, `Gera a árvore de diretórios em formato ASCII`, `Gera a árvore de diretórios do projeto a partir de app/` to the rest of the system?**
-  _25365 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `BaseSchemaValidator` be split into smaller, more focused modules?**
-  _Cohesion score 0.051560379918588875 - nodes in this community are weakly interconnected._
+  _26023 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `MCPConnection` be split into smaller, more focused modules?**
   _Cohesion score 0.0611764705882353 - nodes in this community are weakly interconnected._
 - **Should `PDF Processing Advanced Reference` be split into smaller, more focused modules?**
