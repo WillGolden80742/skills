@@ -1,0 +1,91 @@
+{
+  "source": "/home/user/.config/opencode/skills/adianti-collectionloadproperty/SKILL.md",
+  "generated_at": "2026-10-14T09:33:57.305048",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Skill Adianti — CollectionLoadProperty — código executável dbsamples (Persistenc",
+      "type": "heading",
+      "level": 1,
+      "file": "/home/user/.config/opencode/skills/adianti-collectionloadproperty/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Código",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-collectionloadproperty/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_2",
+      "label": "Code: php",
+      "type": "code_block",
+      "language": "php",
+      "file": "/home/user/.config/opencode/skills/adianti-collectionloadproperty/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_3",
+      "label": "Uso no seu projeto",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-collectionloadproperty/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_4",
+      "label": "Copie e adapte o bloco acima para o seu projeto, na pasta `app/` — seu sistema d",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/adianti-collectionloadproperty/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_5",
+      "label": "Troque banco (`'samples'`), modelos, labels e validações pelos do seu domínio.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/adianti-collectionloadproperty/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_6",
+      "label": "Teste no seu ambiente com seus dados antes de levar para produção.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/adianti-collectionloadproperty/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_3",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    }
+  ]
+}
