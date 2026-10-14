@@ -1,0 +1,194 @@
+{
+  "source": "/home/user/.config/opencode/skills/adianti-apresentacao-datagrids/SKILL.md",
+  "generated_at": "2026-10-14T09:19:50.242597",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Skill Adianti — Apresentação: Datagrids",
+      "type": "heading",
+      "level": 1,
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-datagrids/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Páginas cobertas",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-datagrids/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_2",
+      "label": "Padrão base (DatagridBootstrapView real)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-datagrids/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_3",
+      "label": "Code: php",
+      "type": "code_block",
+      "language": "php",
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-datagrids/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_4",
+      "label": "onReload + paginação + busca",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-datagrids/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_5",
+      "label": "Code: php",
+      "type": "code_block",
+      "language": "php",
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-datagrids/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_6",
+      "label": "Transformadores / links / imagens / progresso",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-datagrids/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_7",
+      "label": "Code: php",
+      "type": "code_block",
+      "language": "php",
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-datagrids/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_8",
+      "label": "Export / input / busca fuse",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-datagrids/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_9",
+      "label": "Code: php",
+      "type": "code_block",
+      "language": "php",
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-datagrids/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_10",
+      "label": "Regras",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-datagrids/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "Sempre `createModel()` após colunas + ações.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-datagrids/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "`addItem($modelOuStdClass)` — propriedades devem bater com nomes das colunas.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-datagrids/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "Ordenação por cabeçalho: `setAction(new TAction([$this,'onReload']), ['order'=>'",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-datagrids/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "Para SQL manual: `DatagridQueryView` usa `TTransaction::get()->query()`.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-datagrids/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_code_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_code_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_code_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_8",
+      "to": "md_SKILL_code_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    }
+  ]
+}

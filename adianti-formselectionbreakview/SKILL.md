@@ -1,0 +1,139 @@
+---
+name: adianti-formselectionbreakview
+description: Selection breaks — Tutor Presentation > Extras > Selection breaks
+triggers: ["FormSelectionBreakView", "Selection", "breaks", "Tutor", "Presentation", "Extras", "Selection breaks"]
+---
+
+# Skill Adianti — Selection breaks — Tutor Presentation > Extras > Selection breaks
+
+Classe Tutor: `FormSelectionBreakView`.
+Ver no Tutor: `index.php?class=FormSelectionBreakView` + botão view-source (`DocumentationView::onHelp`).
+Fonte lida automaticamente: `app/control/Presentation/Extras/FormSelectionBreakView.class.php`.
+
+
+## Código
+
+```php
+<?php
+/**
+ * FormSelectionBreakView
+ *
+ * @version    1.0
+ * @package    samples
+ * @subpackage tutor
+ * @author     Pablo Dall'Oglio
+ * @copyright  Copyright (c) 2006 Adianti Solutions Ltd. (http://www.adianti.com.br)
+ * @license    https://adiantiframework.com.br/license-tutor
+ */
+class FormSelectionBreakView extends TPage
+{
+    private $form;
+    
+    /**
+     * Class constructor
+     * Creates the page
+     */
+    function __construct()
+    {
+        parent::__construct();
+        
+        // create the form
+        $this->form = new BootstrapFormBuilder;
+        $this->form->setFormTitle(_t('Selection breaks'));
+        
+        // create the form fields
+        $radio    = new TRadioGroup('radio');
+        $radio2   = new TRadioGroup('radio2');
+        $check    = new TCheckGroup('check');
+        $check2   = new TCheckGroup('check2');
+        
+        $radio->setLayout('horizontal');
+        $radio2->setLayout('horizontal');
+        $check->setLayout('horizontal');
+        $check2->setLayout('horizontal');
+        
+        $radio2->setUseButton();
+        $check2->setUseButton();
+        
+        $radio->setBreakItems(5);
+        $radio2->setBreakItems(5);
+        $check->setBreakItems(5);
+        $check2->setBreakItems(5);
+        
+        $items = array();
+        for ($n=1; $n<=20; $n++)
+        {
+            $items[$n] = $n;
+        }
+        
+        $radio->addItems($items);
+        $check->addItems($items);
+        $radio2->addItems($items);
+        $check2->addItems($items);
+        
+        foreach ($radio->getLabels() as $key => $label)
+        {
+            $label->setTip("Radio $key");
+            $label->setSize(50);
+        }
+        foreach ($radio2->getLabels() as $key => $label)
+        {
+            $label->setTip("Radio $key");
+            $label->setSize(50);
+        }
+        foreach ($check->getLabels() as $key => $label)
+        {
+            $label->setTip("Check $key");
+            $label->setSize(50);
+        }
+        foreach ($check2->getLabels() as $key => $label)
+        {
+            $label->setTip("Check $key");
+            $label->setSize(50);
+        }
+        
+        // add the fields to the table
+        $this->form->addFields( [new TLabel('TRadioGroup:')], [$radio] );
+        $this->form->addFields( [new TLabel('TCheckGroup:')], [$check] );
+        $this->form->addFields( [new TLabel('TRadioGroup (use button):')], [$radio2] );
+        $this->form->addFields( [new TLabel('TCheckGroup (use button):')], [$check2] );
+        
+        $this->form->addAction( 'Save', new TAction(array($this, 'onSave')), 'fa:save green');
+        
+        // wrap the page content using vertical box
+        $vbox = new TVBox;
+        $vbox->style = 'width: 100%';
+        $vbox->add(new TXMLBreadCrumb('menu.xml', __CLASS__));
+        $vbox->add($this->form);
+
+        parent::add($vbox);
+    }
+    
+    /**
+     * Simulates an save button
+     * Show the form content
+     */
+    public function onSave($param)
+    {
+        $data = $this->form->getData(); // optional parameter: active record class
+        
+        // put the data back to the form
+        $this->form->setData($data);
+        
+        // creates a string with the form element's values
+        $message = 'Radio : ' . $data->radio . '<br>';
+        $message.= 'Check : ' . print_r($data->check, TRUE) . '<br>';
+        $message.= 'Radio (button) : ' . $data->radio2 . '<br>';
+        $message.= 'Check (button) : ' . print_r($data->check2, TRUE) . '<br>';
+        
+        // show the message
+        new TMessage('info', $message);
+    }
+}
+```
+
+## Uso no seu projeto
+
+- Copie e adapte o bloco acima para o seu projeto, na pasta `app/` — seu sistema decide o lugar certo (control, model e afins, conforme o tipo do código). O código do Tutor é ponto de partida, não versão final.
+- Troque banco (`'samples'`), modelos, labels e validações pelos do seu domínio.
+- Teste no seu ambiente com seus dados antes de levar para produção.

@@ -1,0 +1,220 @@
+{
+  "source": "/home/user/.config/opencode/skills/adianti-apresentacao-formularios/SKILL.md",
+  "generated_at": "2026-10-14T09:19:50.347815",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Skill Adianti — Apresentação: Formulários",
+      "type": "heading",
+      "level": 1,
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-formularios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Páginas cobertas (resumo)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-formularios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_2",
+      "label": "Padrão base (FormBuilderView real)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-formularios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_3",
+      "label": "Code: php",
+      "type": "code_block",
+      "language": "php",
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-formularios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_4",
+      "label": "Validação / máscara / seek / DB selects",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-formularios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_5",
+      "label": "Code: php",
+      "type": "code_block",
+      "language": "php",
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-formularios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_6",
+      "label": "FieldList / CheckList / SortList",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-formularios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_7",
+      "label": "Code: php",
+      "type": "code_block",
+      "language": "php",
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-formularios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_8",
+      "label": "Upload / assinatura / QR/barcode reader",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-formularios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_9",
+      "label": "Code: php",
+      "type": "code_block",
+      "language": "php",
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-formularios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_10",
+      "label": "Interações dinâmicas",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-formularios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_11",
+      "label": "Code: php",
+      "type": "code_block",
+      "language": "php",
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-formularios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_12",
+      "label": "Regras",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-formularios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "Sempre `setSize('100%')` em formulários bootstrap para responsivo.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-formularios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "`addValidation` roda no `onSave` via `$this->form->validate()`.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-formularios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_15",
+      "label": "`getData()` retorna stdClass; `setData($obj)` preenche.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-formularios/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_16",
+      "label": "Reutilizável MVC: ver `FormReusableControl` (form como componente).",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/adianti-apresentacao-formularios/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_code_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_code_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_code_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_8",
+      "to": "md_SKILL_code_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_code_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_12",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_12",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_12",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_12",
+      "to": "md_SKILL_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_12",
+      "to": "md_SKILL_list_16",
+      "relation": "contains"
+    }
+  ]
+}

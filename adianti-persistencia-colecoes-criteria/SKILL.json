@@ -1,0 +1,194 @@
+{
+  "source": "/home/user/.config/opencode/skills/adianti-persistencia-colecoes-criteria/SKILL.md",
+  "generated_at": "2026-10-14T09:20:00.735844",
+  "nodes": [
+    {
+      "id": "md_SKILL_h1_0",
+      "label": "Skill Adianti — Persistência: Coleções e Criteria",
+      "type": "heading",
+      "level": 1,
+      "file": "/home/user/.config/opencode/skills/adianti-persistencia-colecoes-criteria/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_1",
+      "label": "Páginas cobertas",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-persistencia-colecoes-criteria/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_2",
+      "label": "Padrão Criteria (Criteria.php real do Tutor)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-persistencia-colecoes-criteria/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_3",
+      "label": "Code: php",
+      "type": "code_block",
+      "language": "php",
+      "file": "/home/user/.config/opencode/skills/adianti-persistencia-colecoes-criteria/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_4",
+      "label": "Repository + coleções",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-persistencia-colecoes-criteria/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_5",
+      "label": "Code: php",
+      "type": "code_block",
+      "language": "php",
+      "file": "/home/user/.config/opencode/skills/adianti-persistencia-colecoes-criteria/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_6",
+      "label": "Batch update / delete / agregação",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-persistencia-colecoes-criteria/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_7",
+      "label": "Code: php",
+      "type": "code_block",
+      "language": "php",
+      "file": "/home/user/.config/opencode/skills/adianti-persistencia-colecoes-criteria/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_8",
+      "label": "Join com TSqlSelect",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-persistencia-colecoes-criteria/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_9",
+      "label": "Code: php",
+      "type": "code_block",
+      "language": "php",
+      "file": "/home/user/.config/opencode/skills/adianti-persistencia-colecoes-criteria/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_10",
+      "label": "Regras",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/adianti-persistencia-colecoes-criteria/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_11",
+      "label": "`setProperty('order|limit|offset|direction')` controla paginação/ordenação.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/adianti-persistencia-colecoes-criteria/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_12",
+      "label": "`dump()` mostra SQL gerado — ótimo para debug.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/adianti-persistencia-colecoes-criteria/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_13",
+      "label": "`NOESC:` desliga escape para funções SQL.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/adianti-persistencia-colecoes-criteria/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_14",
+      "label": "Filtros de sessão dinâmica: ver skill `adianti-organizacao-operacoes-checkout-in",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/adianti-persistencia-colecoes-criteria/SKILL.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_2",
+      "to": "md_SKILL_code_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_4",
+      "to": "md_SKILL_code_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_6",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_6",
+      "to": "md_SKILL_code_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_8",
+      "to": "md_SKILL_code_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_10",
+      "to": "md_SKILL_list_14",
+      "relation": "contains"
+    }
+  ]
+}
