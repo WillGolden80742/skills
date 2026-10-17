@@ -1,30 +1,47 @@
 ---
 name: matar-opencode-stale
-description: Mata todas as instâncias do opencode exceto a sessão atual, liberando memória no VPS. Sobe a árvore de processos para identificar a sessão atual e preserva ancestrais e filhos.
-triggers: ["matar opencode", "kill opencode", "limpar opencode", "limpar processos", "matar processos stale", "liberar memoria", "free memory", "kill stale", "opencode processes", "processos opencode", "matar instancias", "kill instances", "cleanup opencode", "opencode cleanup", "reduzir uso memoria", "reduzir ram", "matar sessoes antigas"]
+description: Apaga abas (sessões) stale do opencode via session delete, preservando a aba atual. Nunca mata processos — o daemon serve é compartilhado por todas as abas.
+triggers: ["matar opencode", "kill opencode", "limpar opencode", "limpar processos", "matar processos stale", "liberar memoria", "free memory", "kill stale", "opencode processes", "processos opencode", "matar instancias", "kill instances", "cleanup opencode", "opencode cleanup", "reduzir uso memoria", "reduzir ram", "matar sessoes antigas", "limpar abas", "abas inativas", "fechar abas", "stale tabs"]
 ---
 
-# Matar OpenCode Stale
+# Matar OpenCode Stale (v2 — abas, não processos)
 
-Mata todas as instâncias do opencode exceto a sessão atual, liberando recursos no VPS.
+Apaga as abas (sessões) inativas via `opencode session delete`, preservando a aba atual.
+
+## Por que v2
+
+No modelo atual, um único daemon (`opencode serve --service`) hospeda todas as
+abas. A v1 usava `pgrep -f opencode` + SIGTERM, o que tinha dois defeitos após
+a atualização:
+
+1. O caminho do próprio script contém "opencode", então o `pgrep`/match se
+   auto-identificava como "sessão atual" e liberava o resto para morrer —
+   incluindo a janela atual.
+2. Matar o processo derruba o daemon compartilhado, fechando todas as abas.
+
+A v2 não mata nenhum processo.
 
 ## Como funciona
 
-1. Sobe a árvore de processos a partir do PID atual até encontrar o processo `opencode` desta sessão.
-2. Lista todos os processos com `opencode` no cmdline (`pgrep -f`).
-3. Preserva: a sessão atual, seus ancestrais (pai/avô) e seus filhos (subagentes, shells).
-4. Mata (SIGTERM) todos os demais.
+1. Lê a aba atual de `$OPENCODE_SESSION_ID` (sem ela, aborta sem apagar nada).
+2. Lista abas com `opencode session list`.
+3. Apaga (`session delete`) todas, menos a atual (e `--keep N` recentes, opcional).
 
 ## Uso
 
-### Executar (matar de verdade):
+### Dry-run (só listar o que seria apagado, sem apagar):
+```bash
+bash /root/.config/opencode/skills/matar-opencode-stale/kill-stale.sh --dry-run
+```
+
+### Executar (apagar abas inativas de verdade, preservando a atual):
 ```bash
 bash /root/.config/opencode/skills/matar-opencode-stale/kill-stale.sh
 ```
 
-### Dry-run (só listar o que seria morto, sem matar):
+### Preservar além da atual as N abas mais recentes:
 ```bash
-bash /root/.config/opencode/skills/matar-opencode-stale/kill-stale.sh --dry-run
+bash /root/.config/opencode/skills/matar-opencode-stale/kill-stale.sh --keep 5
 ```
 
 ## Quando usar
