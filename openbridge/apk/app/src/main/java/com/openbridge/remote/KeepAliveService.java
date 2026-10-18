@@ -54,8 +54,8 @@ public class KeepAliveService extends Service {
                 NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
                 nm.createNotificationChannel(new NotificationChannel(ch, "OpenBridge", NotificationManager.IMPORTANCE_MIN));
                 Notification n = new Notification.Builder(this, ch)
-                        .setContentTitle("OpenBridge ativo")
-                        .setContentText("Acesso total sempre ligado")
+                        .setContentTitle("OpenBridge active")
+                        .setContentText("Full access always on")
                         .setSmallIcon(android.R.drawable.stat_sys_data_bluetooth)
                         .setOngoing(true)
                         .build();

@@ -54,7 +54,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="monospace"
-                    android:text="> verificando acesso..."
+                    android:text="> checking access..."
                     android:textColor="@color/oc_text"
                     android:textSize="15sp" />
 
@@ -88,7 +88,7 @@
                     android:id="@+id/barToggle"
                     android:layout_width="3dp"
                     android:layout_height="match_parent"
-                    android:background="#FFFFFF"
+                    android:background="@color/oc_border"
                     android:visibility="visible" />
 
                 <LinearLayout
@@ -102,7 +102,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="monospace"
-                    android:text="acesso_total = ON"
+                    android:text="full_access = ON"
                     android:textColor="@color/oc_text"
                     android:textSize="17sp"
                     android:thumb="@drawable/square_thumb"
@@ -115,7 +115,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:fontFamily="monospace"
-                    android:text="# tela + wifi + adb + persist + boot // resolução via adb"
+                    android:text="# screen + wifi + adb + persist + boot // resolution via adb"
                     android:textColor="@color/oc_muted"
                     android:textSize="13sp" />
 
@@ -143,7 +143,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="monospace"
-                    android:text="// código wifi (diga ao opencode)"
+                    android:text="// wifi code (tell opencode)"
                     android:textColor="@color/oc_muted"
                     android:textSize="13sp" />
 
@@ -168,7 +168,7 @@
                         android:id="@+id/barBtn"
                         android:layout_width="3dp"
                         android:layout_height="match_parent"
-                        android:background="#FFFFFF"
+                        android:background="@color/oc_border"
                         android:visibility="gone" />
 
                     <com.google.android.material.button.MaterialButton
@@ -178,7 +178,9 @@
                         android:focusable="true"
                         android:focusableInTouchMode="true"
                         android:fontFamily="monospace"
-                        android:text="GERAR_NOVO_CODIGO"
+                        android:text="/NEW_CODE"
+                        android:textColor="#FFFFFF"
+                        app:backgroundTint="@color/oc_bg"
                         app:cornerRadius="0dp" />
 
                 </LinearLayout>
@@ -192,7 +194,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="14dp"
             android:fontFamily="monospace"
-            android:text="ok confirmar · back sair"
+            android:text="ok confirm · back exit"
             android:textColor="@color/oc_muted"
             android:textSize="13sp" />
 
