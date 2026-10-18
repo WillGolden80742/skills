@@ -17,7 +17,7 @@ import com.google.android.material.chip.Chip;
 import androidx.appcompat.widget.SwitchCompat;
 import com.google.android.material.snackbar.Snackbar;
 
-/** OPENBRIDGE v3 — UM toggle só: acesso total ao OpenCode (resolução é só um aspecto via ADB). */
+/** OPENBRIDGE v3 — ONE toggle only: full OpenCode access (resolution is just one aspect via ADB). */
 public class MainActivity extends AppCompatActivity {
 
     android.view.View root;
@@ -44,13 +44,10 @@ public class MainActivity extends AppCompatActivity {
         showPin(prefs.getString("pin", null), false);
         savePinFile(prefs.getString("pin", "0000"));
         findViewById(R.id.btnPin).setOnClickListener(v -> showPin(null, true));
-        // barra branca lateral SÓ quando selecionado (foco do controle)
+        // barra lateral laranja SÓ quando o botão está selecionado (foco do controle)
         final android.view.View barBtn = findViewById(R.id.barBtn);
-        final android.view.View barToggle = findViewById(R.id.barToggle);
         findViewById(R.id.btnPin).setOnFocusChangeListener((v, f) ->
                 barBtn.setVisibility(f ? android.view.View.VISIBLE : android.view.View.GONE));
-        swTotal.setOnFocusChangeListener((v, f) ->
-                barToggle.setVisibility(f ? android.view.View.VISIBLE : android.view.View.GONE));
 
         boolean on = prefs.getBoolean("total", true);
         swTotal.setChecked(on);
@@ -66,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         refresh();
     }
 
-    /** Liga TUDO que o OpenCode precisa para acesso total. */
+    /** Enables EVERYTHING OpenCode needs for full access. */
     void enableAll(boolean notify) {
         // 0. Fora do Doze: pede liberação de bateria uma vez (usuário confirma no controle)
         try {
@@ -107,14 +104,14 @@ public class MainActivity extends AppCompatActivity {
         // 4. Tentativas shell (funcionam com root/shell; sem root só ignoram)
         try { Runtime.getRuntime().exec(new String[]{"sh", "-c", "svc power stayon true"}); } catch (Exception ignored) {}
         try { Runtime.getRuntime().exec(new String[]{"sh", "-c", "setprop service.adb.tcp.port 5555"}); } catch (Exception ignored) {}
-        if (notify) snack("Acesso total ON — tudo liberado para o OpenCode");
+        if (notify) snack("Full access ON — all open for OpenCode");
     }
 
     void disableAll() {
         try { stopService(new Intent(this, KeepAliveService.class)); } catch (Exception ignored) {}
         try { if (wakeLock != null && wakeLock.isHeld()) wakeLock.release(); } catch (Exception ignored) {}
         try { if (wifiLock != null && wifiLock.isHeld()) wifiLock.release(); } catch (Exception ignored) {}
-        snack("Acesso total OFF");
+        snack("Full access OFF");
     }
 
     void refresh() {
@@ -123,12 +120,12 @@ public class MainActivity extends AppCompatActivity {
             WifiInfo wi = wm.getConnectionInfo();
             String ip = Formatter.formatIpAddress(wi.getIpAddress());
             boolean on = swTotal.isChecked();
-            swTotal.setText(on ? "acesso_total = ON" : "acesso_total = OFF");
-            txtStatus.setText((on ? "> acesso total ON\n" : "> acesso total OFF\n")
+            swTotal.setText(on ? "full_access = ON" : "full_access = OFF");
+            txtStatus.setText((on ? "> full access ON\n" : "> full access OFF\n")
                     + "> ip " + ip + ":5555\n> adb connect " + ip + ":5555");
-            chipAdb.setText(on ? "opencode • acesso total • " + ip : "opencode • desativado");
+            chipAdb.setText(on ? "opencode • full access • " + ip : "opencode • disabled");
         } catch (Exception e) {
-            txtStatus.setText("Status indisponível");
+            txtStatus.setText("Status unavailable");
         }
     }
 
@@ -139,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
             prefs.edit().putString("pin", pin).apply();
             savePinFile(pin);
             android.util.Log.i("OpencodeTV-PIN", "PIN=" + pin);
-            if (notify) snack("Novo código: " + pin);
+            if (notify) snack("New code: " + pin);
         }
         txtPin.setText(pin);
     }
