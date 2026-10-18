@@ -1,4 +1,5 @@
 #!/bin/bash
+[ -f "$HOME/.config/openbridge.env" ] && . "$HOME/.config/openbridge.env"
 # Sincroniza o PIN de 4 dígitos da TV para a skill.
 # Uso: pin-sync.sh [SERIAL]  (padrão tenta WiFi via OPENBRIDGE_SERIAL (ex. 192.168.1.100:5555))
 SERIAL=${1:-${OPENBRIDGE_SERIAL:-192.168.1.100:5555}}

@@ -82,8 +82,18 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
 
                 <androidx.appcompat.widget.SwitchCompat
                     android:id="@+id/swTotal"
@@ -107,6 +117,7 @@
                     android:textColor="@color/oc_muted"
                     android:textSize="13sp" />
 
+                </LinearLayout>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
@@ -145,16 +156,30 @@
                     android:textSize="52sp"
                     android:textStyle="bold" />
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/btnPin"
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:focusable="true"
-                    android:focusableInTouchMode="true"
-                    android:fontFamily="monospace"
-                    android:text="GERAR_NOVO_CODIGO"
-                    app:cornerRadius="0dp" />
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnPin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="monospace"
+                        android:text="GERAR_NOVO_CODIGO"
+                        app:cornerRadius="0dp"
+                        app:strokeColor="@color/btn_stroke"
+                        app:strokeWidth="3dp" />
+
+                </LinearLayout>
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
