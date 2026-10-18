@@ -1,0 +1,18 @@
+# OPTVBOX skill - ignora build e segredos
+*.apk
+*.aab
+*.ap_
+*.dex
+local.properties
+.gradle/
+build/
+app/build/
+captures/
+*.iml
+.idea/
+.DS_Store
+/tmp/
+*.log
+keystore*.jks
+*.keystore
+google-services.json
