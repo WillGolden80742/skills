@@ -10,6 +10,8 @@ public class BootReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context c, Intent i) {
         try {
+            // Só sobe sozinho se o estado for /ON
+            if (!c.getSharedPreferences("optvbox", Context.MODE_PRIVATE).getBoolean("total", true)) return;
             Intent s = new Intent(c, KeepAliveService.class);
             if (Build.VERSION.SDK_INT >= 26) c.startForegroundService(s);
             else c.startService(s);

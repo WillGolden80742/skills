@@ -4,14 +4,16 @@
     <color name="oc_bg">#000000</color>
     <color name="oc_surface">#0E0E10</color>
     <color name="oc_card">#141416</color>
-    <color name="oc_border">#E8A33D</color>
-    <color name="oc_primary">#E8A33D</color>
+    <color name="oc_border">#f5a742</color>
+    <color name="oc_primary">#f5a742</color>
     <color name="oc_on_primary">#000000</color>
     <color name="oc_text">#EDEDED</color>
     <color name="oc_muted">#9A9AA0</color>
     <color name="oc_logo">#8E8E93</color>
 
     <style name="Theme.OpenBridge" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:fontFamily">@font/vt323</item>
+        <item name="fontFamily">@font/vt323</item>
         <item name="colorPrimary">@color/oc_primary</item>
         <item name="colorOnPrimary">@color/oc_on_primary</item>
         <item name="android:colorBackground">@color/oc_bg</item>

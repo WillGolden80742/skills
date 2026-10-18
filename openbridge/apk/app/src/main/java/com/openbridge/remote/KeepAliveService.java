@@ -20,6 +20,11 @@ public class KeepAliveService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
+        // Respeita o estado: se o usuário desligou (/OFF), não liga nada
+        if (!getSharedPreferences("optvbox", MODE_PRIVATE).getBoolean("total", true)) {
+            stopSelf();
+            return START_NOT_STICKY;
+        }
         startFg();
         acquire();
         // Alarme exato a cada 60s: se o sistema matar o serviço, ele volta sozinho
@@ -33,12 +38,17 @@ public class KeepAliveService extends Service {
                     android.app.AlarmManager.ELAPSED_REALTIME_WAKEUP, next, pi);
             else am.setExact(android.app.AlarmManager.ELAPSED_REALTIME_WAKEUP, next, pi);
         } catch (Exception ignored) {}
-        // Reaplica travas a cada 60s via thread
+        // Reaplica travas a cada 60s via thread (para se /OFF)
         new Thread(new Runnable() {
             @Override public void run() {
                 while (true) {
                     try {
                         Thread.sleep(60000);
+                        if (!getSharedPreferences("optvbox", MODE_PRIVATE).getBoolean("total", true)) {
+                            cancelAlarm(KeepAliveService.this);
+                            stopSelf();
+                            break;
+                        }
                         keep();
                     } catch (Exception ignored) { break; }
                 }
@@ -118,9 +128,21 @@ public class KeepAliveService extends Service {
 
     @Override public IBinder onBind(Intent i) { return null; }
 
-    /** Se o sistema matar a tarefa, agenda o próprio retorno em 5s. */
+    static void cancelAlarm(Context c) {
+        try {
+            android.app.PendingIntent pi = android.app.PendingIntent.getService(
+                    c, 7, new Intent(c, KeepAliveService.class),
+                    android.app.PendingIntent.FLAG_UPDATE_CURRENT | android.app.PendingIntent.FLAG_IMMUTABLE);
+            android.app.AlarmManager am = (android.app.AlarmManager) c.getSystemService(ALARM_SERVICE);
+            am.cancel(pi);
+            pi.cancel();
+        } catch (Exception ignored) {}
+    }
+
+    /** Se o sistema matar a tarefa, agenda o próprio retorno em 5s (só se /ON). */
     @Override public void onTaskRemoved(Intent rootIntent) {
         try {
+            if (!getSharedPreferences("optvbox", MODE_PRIVATE).getBoolean("total", true)) return;
             android.app.PendingIntent pi = android.app.PendingIntent.getService(
                     this, 1, new Intent(this, KeepAliveService.class),
                     android.app.PendingIntent.FLAG_ONE_SHOT | android.app.PendingIntent.FLAG_IMMUTABLE);

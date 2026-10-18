@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
     android.view.View root;
     android.widget.TextView txtStatus;
     android.widget.TextView txtPin;
+    android.widget.TextView txtIp;
+    android.widget.TextView txtState;
     Chip chipAdb;
     com.google.android.material.button.MaterialButton btnPower;
     PowerManager.WakeLock wakeLock;
@@ -36,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
         root = findViewById(android.R.id.content);
         txtStatus = findViewById(R.id.txtStatus);
         txtPin = findViewById(R.id.txtPin);
+        txtIp = findViewById(R.id.txtIp);
+        txtState = findViewById(R.id.txtState);
         chipAdb = findViewById(R.id.chipAdb);
         btnPower = findViewById(R.id.btnPower);
         prefs = getSharedPreferences("optvbox", MODE_PRIVATE);
@@ -68,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void paintPower(boolean on) {
-        btnPower.setText(on ? "/ON" : "/OFF");
+        btnPower.setText(on ? "/TURN_OFF" : "/TURN_ON");
     }
 
     /** Enables EVERYTHING OpenCode needs for full access. */
@@ -116,6 +120,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void disableAll() {
+        try { KeepAliveService.cancelAlarm(this); } catch (Exception ignored) {}
         try { stopService(new Intent(this, KeepAliveService.class)); } catch (Exception ignored) {}
         try { if (wakeLock != null && wakeLock.isHeld()) wakeLock.release(); } catch (Exception ignored) {}
         try { if (wifiLock != null && wifiLock.isHeld()) wifiLock.release(); } catch (Exception ignored) {}
@@ -131,7 +136,23 @@ public class MainActivity extends AppCompatActivity {
             paintPower(on);
             txtStatus.setText((on ? "> full access ON\n" : "> full access OFF\n")
                     + "> ip " + ip + ":5555\n> adb connect " + ip + ":5555");
+            txtIp.setText(ip);
             chipAdb.setText(on ? "opencode • full access • " + ip : "opencode • disabled");
+            // estado real do adbd local: socket 127.0.0.1:5555
+            new Thread(() -> {
+                boolean up = false;
+                try {
+                    java.net.Socket s = new java.net.Socket();
+                    s.connect(new java.net.InetSocketAddress("127.0.0.1", 5555), 2000);
+                    s.close();
+                    up = true;
+                } catch (Exception ignored) {}
+                final boolean ok = up;
+                runOnUiThread(() -> {
+                    txtState.setText(ok ? "device" : "offline");
+                    txtState.setTextColor(ok ? 0xFFF5A742 : 0xFF9A9AA0);
+                });
+            }).start();
         } catch (Exception e) {
             txtStatus.setText("Status unavailable");
         }
