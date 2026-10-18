@@ -8,8 +8,8 @@ android {
         applicationId "com.openbridge.remote"
         minSdk 24
         targetSdk 34
-        versionCode 20
-        versionName "20.0-english"
+        versionCode 22
+        versionName "22.0-padding-powerbar"
     }
 
     buildTypes {

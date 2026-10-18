@@ -14,7 +14,6 @@ import android.text.format.Formatter;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.chip.Chip;
-import androidx.appcompat.widget.SwitchCompat;
 import com.google.android.material.snackbar.Snackbar;
 
 /** OPENBRIDGE v3 — ONE toggle only: full OpenCode access (resolution is just one aspect via ADB). */
@@ -24,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     android.widget.TextView txtStatus;
     android.widget.TextView txtPin;
     Chip chipAdb;
-    SwitchCompat swTotal;
+    com.google.android.material.button.MaterialButton btnPower;
     PowerManager.WakeLock wakeLock;
     WifiManager.WifiLock wifiLock;
     SharedPreferences prefs;
@@ -38,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         txtStatus = findViewById(R.id.txtStatus);
         txtPin = findViewById(R.id.txtPin);
         chipAdb = findViewById(R.id.chipAdb);
-        swTotal = findViewById(R.id.swTotal);
+        btnPower = findViewById(R.id.btnPower);
         prefs = getSharedPreferences("optvbox", MODE_PRIVATE);
 
         showPin(prefs.getString("pin", null), false);
@@ -48,19 +47,28 @@ public class MainActivity extends AppCompatActivity {
         final android.view.View barBtn = findViewById(R.id.barBtn);
         findViewById(R.id.btnPin).setOnFocusChangeListener((v, f) ->
                 barBtn.setVisibility(f ? android.view.View.VISIBLE : android.view.View.GONE));
+        final android.view.View barPower = findViewById(R.id.barPower);
+        btnPower.setOnFocusChangeListener((v, f) ->
+                barPower.setVisibility(f ? android.view.View.VISIBLE : android.view.View.GONE));
 
         boolean on = prefs.getBoolean("total", true);
-        swTotal.setChecked(on);
+        paintPower(on);
         if (on) enableAll(false);
 
-        swTotal.setOnCheckedChangeListener((v, isOn) -> {
-            prefs.edit().putBoolean("total", isOn).apply();
-            if (isOn) enableAll(true);
+        btnPower.setOnClickListener(v -> {
+            boolean now = !prefs.getBoolean("total", true);
+            prefs.edit().putBoolean("total", now).apply();
+            paintPower(now);
+            if (now) enableAll(true);
             else disableAll();
             refresh();
         });
 
         refresh();
+    }
+
+    void paintPower(boolean on) {
+        btnPower.setText(on ? "/ON" : "/OFF");
     }
 
     /** Enables EVERYTHING OpenCode needs for full access. */
@@ -119,8 +127,8 @@ public class MainActivity extends AppCompatActivity {
             WifiManager wm = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
             WifiInfo wi = wm.getConnectionInfo();
             String ip = Formatter.formatIpAddress(wi.getIpAddress());
-            boolean on = swTotal.isChecked();
-            swTotal.setText(on ? "full_access = ON" : "full_access = OFF");
+            boolean on = prefs.getBoolean("total", true);
+            paintPower(on);
             txtStatus.setText((on ? "> full access ON\n" : "> full access OFF\n")
                     + "> ip " + ip + ":5555\n> adb connect " + ip + ":5555");
             chipAdb.setText(on ? "opencode • full access • " + ip : "opencode • disabled");

@@ -10,7 +10,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="20dp">
+        android:paddingLeft="48dp"
+        android:paddingRight="48dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
 
         <ImageView
             android:layout_width="match_parent"
@@ -97,18 +100,31 @@
                     android:orientation="vertical"
                     android:padding="16dp">
 
-                <androidx.appcompat.widget.SwitchCompat
-                    android:id="@+id/swTotal"
-                    android:layout_width="match_parent"
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="monospace"
-                    android:text="full_access = ON"
-                    android:textColor="@color/oc_text"
-                    android:textSize="17sp"
-                    android:thumb="@drawable/square_thumb"
-                    app:thumbTint="@color/oc_primary"
-                    app:track="@drawable/square_track"
-                    app:trackTint="@color/oc_bg" />
+                    android:orientation="horizontal">
+
+                    <View
+                        android:id="@+id/barPower"
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/oc_border"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnPower"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="monospace"
+                        android:text="/ON"
+                        android:textColor="#FFFFFF"
+                        app:backgroundTint="@color/oc_bg"
+                        app:cornerRadius="0dp" />
+
+                </LinearLayout>
 
                 <TextView
                     android:layout_width="wrap_content"
