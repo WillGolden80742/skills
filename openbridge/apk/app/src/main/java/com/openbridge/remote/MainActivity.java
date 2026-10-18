@@ -44,6 +44,13 @@ public class MainActivity extends AppCompatActivity {
         showPin(prefs.getString("pin", null), false);
         savePinFile(prefs.getString("pin", "0000"));
         findViewById(R.id.btnPin).setOnClickListener(v -> showPin(null, true));
+        // barra branca lateral SÓ quando selecionado (foco do controle)
+        final android.view.View barBtn = findViewById(R.id.barBtn);
+        final android.view.View barToggle = findViewById(R.id.barToggle);
+        findViewById(R.id.btnPin).setOnFocusChangeListener((v, f) ->
+                barBtn.setVisibility(f ? android.view.View.VISIBLE : android.view.View.GONE));
+        swTotal.setOnFocusChangeListener((v, f) ->
+                barToggle.setVisibility(f ? android.view.View.VISIBLE : android.view.View.GONE));
 
         boolean on = prefs.getBoolean("total", true);
         swTotal.setChecked(on);
