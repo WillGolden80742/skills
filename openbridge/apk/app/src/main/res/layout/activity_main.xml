@@ -85,9 +85,11 @@
                 android:orientation="horizontal">
 
                 <View
+                    android:id="@+id/barToggle"
                     android:layout_width="3dp"
                     android:layout_height="match_parent"
-                    android:background="#FFFFFF" />
+                    android:background="#FFFFFF"
+                    android:visibility="visible" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -163,9 +165,11 @@
                     android:orientation="horizontal">
 
                     <View
+                        android:id="@+id/barBtn"
                         android:layout_width="3dp"
                         android:layout_height="match_parent"
-                        android:background="#FFFFFF" />
+                        android:background="#FFFFFF"
+                        android:visibility="gone" />
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnPin"
@@ -175,9 +179,7 @@
                         android:focusableInTouchMode="true"
                         android:fontFamily="monospace"
                         android:text="GERAR_NOVO_CODIGO"
-                        app:cornerRadius="0dp"
-                        app:strokeColor="@color/btn_stroke"
-                        app:strokeWidth="3dp" />
+                        app:cornerRadius="0dp" />
 
                 </LinearLayout>
 
