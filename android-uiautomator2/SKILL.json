@@ -1,0 +1,5 @@
+{
+  "name": "android-uiautomator2",
+  "description": "Automação Android via openatx/uiautomator2 (Python): conecta USB/WiFi, seletores, xpath, screenshot, D-pad TV, instala APK, integra PIN OpenBridge TV Box",
+  "triggers": ["uiautomator2", "uiautomator", "openatx", "automação android", "UI automator", "controlar app android", "xpath android", "dpad tv", "android tv launcher", "aptóide instalar", "atx-agent", "uiautodev"]
+}
