@@ -1,0 +1,5 @@
+{
+  "name": "openbridge",
+  "description": "Acesso total a qualquer Android com o app OpenBridge instalado via ADB USB/WiFi, resolução, screenshot, PIN",
+  "triggers": ["openbridge", "OpenBridge", "acesso remoto android", "controlar android", "android wifi adb", "espelhar android", "adb wifi", "PIN android", "TV BOX", "Allwinner", "1f3a", "resolução tv box", "wm size", "adb tv box", "dolphin_fvd_p1", "acesso total", "opencode tv"]
+}

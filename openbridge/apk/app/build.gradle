@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace "com.openbridge.remote"
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.openbridge.remote"
+        minSdk 24
+        targetSdk 34
+        versionCode 14
+        versionName "14.0-bridge-text"
+    }
+
+    buildTypes {
+        release { minifyEnabled false }
+        debug { }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
+}

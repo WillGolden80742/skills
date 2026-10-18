@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estética terminal OpenCode: preto, cantos quadrados, laranja -->
+    <color name="oc_bg">#000000</color>
+    <color name="oc_surface">#0E0E10</color>
+    <color name="oc_card">#141416</color>
+    <color name="oc_border">#E8A33D</color>
+    <color name="oc_primary">#E8A33D</color>
+    <color name="oc_on_primary">#000000</color>
+    <color name="oc_text">#EDEDED</color>
+    <color name="oc_muted">#9A9AA0</color>
+    <color name="oc_logo">#8E8E93</color>
+
+    <style name="Theme.OpenBridge" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/oc_primary</item>
+        <item name="colorOnPrimary">@color/oc_on_primary</item>
+        <item name="android:colorBackground">@color/oc_bg</item>
+        <item name="colorSurface">@color/oc_surface</item>
+        <item name="colorOnSurface">@color/oc_text</item>
+        <item name="shapeAppearanceSmallComponent">@style/Shape.Square</item>
+        <item name="shapeAppearanceMediumComponent">@style/Shape.Square</item>
+        <item name="shapeAppearanceLargeComponent">@style/Shape.Square</item>
+    </style>
+
+    <style name="Shape.Square" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">0dp</item>
+    </style>
+</resources>
