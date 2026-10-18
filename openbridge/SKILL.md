@@ -62,7 +62,7 @@ adb shell getprop persist.sys.usb.config # tem que dar mtp,adb
 - Se ficar `offline`: `adb disconnect <TV-IP>:5555` + `adb tcpip 5555` (via USB 1007) + `adb connect <TV-IP>:5555` de novo
 - Pode desplugar USB depois que WiFi virar `device` — OpenCode controla só pelo WiFi
 
-## APP definitivo anti-queda (OpenBridge v14 BRIDGE + PIN 8921) — INSTALADO 18/10/2026
+## APP definitivo anti-queda (OpenBridge v15 foco branco + PIN) — INSTALADO 18/10/2026
 
 - UI estética terminal OpenCode: preta, cantos quadrados, monospace, laranja; UM toggle `acesso_total`; card de PIN gigante + GERAR_NOVO_CODIGO (foco p/ controle remoto)
 - Ícone round dark de opencode-dark.png; nome "Opencode TV"; KeepAlive sempre ativo (foreground ongoing + boot + onTaskRemoved)

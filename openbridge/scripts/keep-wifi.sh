@@ -1,4 +1,5 @@
 #!/bin/bash
+[ -f "$HOME/.config/openbridge.env" ] && . "$HOME/.config/openbridge.env"
 # Mantém ADB WiFi da TV BOX sempre de pé. Roda no notebook.
 # Se o IP cair, varre a sub-rede na porta 5555 e reconecta sozinho.
 # Uso: keep-wifi.sh [IP]  (padrão $OPENBRIDGE_IP ou 192.168.1.100)

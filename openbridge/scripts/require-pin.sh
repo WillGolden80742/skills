@@ -1,4 +1,5 @@
 #!/bin/bash
+[ -f "$HOME/.config/openbridge.env" ] && . "$HOME/.config/openbridge.env"
 # Verifica o PIN informado contra o PIN atual da TV.
 # Sincroniza primeiro (o PIN MUDA quando o usuário toca GERAR_NOVO_CODIGO).
 # Uso: require-pin.sh 1234 [SERIAL]

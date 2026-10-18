@@ -8,8 +8,8 @@ android {
         applicationId "com.openbridge.remote"
         minSdk 24
         targetSdk 34
-        versionCode 14
-        versionName "14.0-bridge-text"
+        versionCode 16
+        versionName "16.0-leftbar"
     }
 
     buildTypes {

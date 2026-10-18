@@ -1,4 +1,5 @@
 #!/bin/bash
+[ -f "$HOME/.config/openbridge.env" ] && . "$HOME/.config/openbridge.env"
 # Conecta TV BOX via WiFi sem precisar de USB 100% do tempo
 # Uso: wifi-conectar.sh [IP]  (padrão OPENBRIDGE_IP (ex. 192.168.1.100))
 IP=${1:-${OPENBRIDGE_IP:-192.168.1.100}}
