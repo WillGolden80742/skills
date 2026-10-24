@@ -1,13 +1,13 @@
 {
-  "source": "/root/.config/opencode/skills/README.MD",
-  "generated_at": "2026-07-08T22:23:48.985148",
+  "source": "/home/user/.config/opencode/skills/README.MD",
+  "generated_at": "2026-10-24T14:32:21.823864",
   "nodes": [
     {
       "id": "md_README_h1_0",
       "label": "OpenCode Skills",
       "type": "heading",
       "level": 1,
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -15,7 +15,7 @@
       "label": "mattpocock/skills",
       "type": "link",
       "url": "https://github.com/mattpocock/skills",
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -23,7 +23,7 @@
       "label": "📁 Estrutura do Projeto",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -31,7 +31,7 @@
       "label": "Code: text",
       "type": "code_block",
       "language": "text",
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -39,7 +39,7 @@
       "label": "🎯 Skills por Categoria",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -47,7 +47,7 @@
       "label": "🛠️ Meta — Gestão de Skills",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -55,7 +55,7 @@
       "label": "💻 Desenvolvimento & Frontend",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -63,7 +63,7 @@
       "label": "🎨 Design & Visual",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -71,7 +71,7 @@
       "label": "📄 Documentos Office & PDF",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -79,7 +79,7 @@
       "label": "🗂️ Git, Arquivos & Projetos",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -87,7 +87,7 @@
       "label": "🌐 Web & Extrações",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -95,7 +95,7 @@
       "label": "📝 Documentação & Comunicação",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -103,7 +103,7 @@
       "label": "🧩 CSS & Estilização",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -111,7 +111,7 @@
       "label": "⚙️ Engineering (mattpocock)",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -119,7 +119,7 @@
       "label": "🚀 Productivity (mattpocock)",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -127,7 +127,7 @@
       "label": "⚰️ Deprecated (mattpocock)",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -135,7 +135,7 @@
       "label": "🔄 Fluxo de Routing (graphify-skill-router)",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -143,7 +143,7 @@
       "label": "Code: text",
       "type": "code_block",
       "language": "text",
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -151,7 +151,7 @@
       "label": "🚀 Uso Rápido",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     },
     {
@@ -159,51 +159,7 @@
       "label": "Code: bash",
       "type": "code_block",
       "language": "bash",
-      "file": "/root/.config/opencode/skills/README.MD",
-      "community": 999
-    },
-    {
-      "id": "md_README_h2_20",
-      "label": "📊 Estatísticas",
-      "type": "heading",
-      "level": 2,
-      "file": "/root/.config/opencode/skills/README.MD",
-      "community": 999
-    },
-    {
-      "id": "md_README_list_21",
-      "label": "**Total de skills**: 60+",
-      "type": "list_item",
-      "file": "/root/.config/opencode/skills/README.MD",
-      "community": 999
-    },
-    {
-      "id": "md_README_list_22",
-      "label": "**Categorias**: 10",
-      "type": "list_item",
-      "file": "/root/.config/opencode/skills/README.MD",
-      "community": 999
-    },
-    {
-      "id": "md_README_list_23",
-      "label": "**Origens**: originais + mattpocock/skills",
-      "type": "list_item",
-      "file": "/root/.config/opencode/skills/README.MD",
-      "community": 999
-    },
-    {
-      "id": "md_README_list_24",
-      "label": "**Grafo**: AST-only extraction (zero cost)",
-      "type": "list_item",
-      "file": "/root/.config/opencode/skills/README.MD",
-      "community": 999
-    },
-    {
-      "id": "md_README_link_25",
-      "label": "mattpocock/skills",
-      "type": "link",
-      "url": "https://github.com/mattpocock/skills",
-      "file": "/root/.config/opencode/skills/README.MD",
+      "file": "/home/user/.config/opencode/skills/README.MD",
       "community": 999
     }
   ],
@@ -301,36 +257,6 @@
     {
       "from": "md_README_h2_18",
       "to": "md_README_code_19",
-      "relation": "contains"
-    },
-    {
-      "from": "md_README_h1_0",
-      "to": "md_README_h2_20",
-      "relation": "section"
-    },
-    {
-      "from": "md_README_h2_20",
-      "to": "md_README_list_21",
-      "relation": "contains"
-    },
-    {
-      "from": "md_README_h2_20",
-      "to": "md_README_list_22",
-      "relation": "contains"
-    },
-    {
-      "from": "md_README_h2_20",
-      "to": "md_README_list_23",
-      "relation": "contains"
-    },
-    {
-      "from": "md_README_h2_20",
-      "to": "md_README_list_24",
-      "relation": "contains"
-    },
-    {
-      "from": "md_README_h2_20",
-      "to": "md_README_link_25",
       "relation": "contains"
     }
   ]

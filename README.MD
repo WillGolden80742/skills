@@ -37,9 +37,9 @@ skills/
 | `criar-novo-skill` | Cria um novo skill para o opencode a partir de um template padrão |
 | `editar-skill` | Edita uma skill existente — altera conteúdo, triggers, descrição e re-gerencia AST |
 | `gerenciar-remover-skills` | Remove ou atualiza skills que não ficaram boas o suficiente |
-| `graphify` | Knowledge graph do codebase — query/path/explain AST-only, zero cost |
-| `graphify-skill-router` | Router maestro que analisa o codebase via graphify e navega pelos AST JSON |
-| `buildify` | Agente buildify que executa graphify update antes de codar |
+| `graphify` | Knowledge graph EXCLUSIVO para indexação e busca do repositório de skills |
+| `graphify-skill-router` | Router maestro que consulta o grafo de skills para encontrar a skill apropriada |
+| `buildify` | Agente buildify — consulta o router de skills e segue procedimento padrão (grep, find, read) para código |
 
 ### 💻 Desenvolvimento & Frontend
 
@@ -149,18 +149,16 @@ skills/
 
 ## 🔄 Fluxo de Routing (graphify-skill-router)
 
+> **Nota:** Graphify é usado **EXCLUSIVAMENTE** no repositório de skills. Projetos e codebases externos seguem o procedimento padrão (grep, find, leitura direta).
+
 ```
 Tarefa do usuário
        ↓
-[1] Atualizar Knowledge Graph (graphify update)
+[1] Consultar Grafo de Skills (graphify query --graph ~/.config/opencode/skills/graphify-out/graph.json)
        ↓
-[2] Consultar o Grafo (graphify query)
-       ↓
-[3] Analisar AST dos Markdown (graphify --markdown-ast)
-       ↓
-[4] Mapear para Skill Apropriada
-       ↓
-Skill executa a tarefa
+[2] Encontrou Skill Especializada?
+       ├── SIM → Carrega e executa a Skill
+       └── NÃO → Segue procedimento padrão de desenvolvimento (grep, find, read, testes)
 ```
 
 ## 🚀 Uso Rápido
@@ -171,8 +169,10 @@ Skill executa a tarefa
 
 # Exemplos:
 /skill criar-editar-documento-word
-/skill graphify query "como funciona a autenticação?"
 /skill criar-novo-skill
+/skill engineering/domain-modeling
+/skill productivity/teach
+```
 /skill engineering/domain-modeling
 /skill productivity/teach
 ```

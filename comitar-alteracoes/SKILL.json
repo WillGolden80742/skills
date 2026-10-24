@@ -1,13 +1,13 @@
 {
-  "source": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
-  "generated_at": "2026-07-08T22:23:49.041692",
+  "source": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+  "generated_at": "2026-10-24T14:32:21.789209",
   "nodes": [
     {
       "id": "md_SKILL_h2_0",
       "label": "What I do",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
@@ -15,42 +15,42 @@
       "label": "Parameters",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_2",
       "label": "`message`: Mensagem do commit",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_3",
       "label": "`files`: Arquivos a serem comitados (separados por espaco, default: todos)",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_4",
       "label": "`project_path`: Caminho base do projeto (default: workspace root)",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_5",
       "label": "`yes`: Pular confirmacao interativa (default: false) — **SO use se o usuario ped",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_6",
       "label": "`force`: Usa --force-with-lease no push (default: false)",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
@@ -58,7 +58,7 @@
       "label": "Usage",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
@@ -66,7 +66,7 @@
       "label": "Commit padrao com confirmacao (RECOMENDADO):",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
@@ -74,7 +74,7 @@
       "label": "Code: text",
       "type": "code_block",
       "language": "text",
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
@@ -82,7 +82,7 @@
       "label": "Commit sem confirmacao interativa (SOMENTE se usuario pedir):",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
@@ -90,7 +90,7 @@
       "label": "Code: text",
       "type": "code_block",
       "language": "text",
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
@@ -98,7 +98,7 @@
       "label": "Commit com arquivos especificos:",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
@@ -106,7 +106,7 @@
       "label": "Code: text",
       "type": "code_block",
       "language": "text",
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
@@ -114,7 +114,7 @@
       "label": "Commit forcado (--force-with-lease):",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
@@ -122,7 +122,7 @@
       "label": "Code: text",
       "type": "code_block",
       "language": "text",
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
@@ -130,7 +130,7 @@
       "label": "Commit em projeto especifico:",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
@@ -138,7 +138,7 @@
       "label": "Code: text",
       "type": "code_block",
       "language": "text",
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
@@ -146,7 +146,7 @@
       "label": "Fluxo de confirmacao",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
@@ -154,7 +154,7 @@
       "label": "Script generate_commit_history.py",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
@@ -162,7 +162,7 @@
       "label": "Code: bash",
       "type": "code_block",
       "language": "bash",
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
@@ -170,21 +170,21 @@
       "label": "Skills Relacionadas",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_22",
       "label": "**gerar-historico-commits**: Skill dedicada para gerar/exportar historico de com",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_23",
       "label": "**recuperar-commits-salvos**: Skill para recuperar e exibir commits salvos",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
@@ -192,28 +192,28 @@
       "label": "Notes",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_25",
       "label": "O historico de commits fica em `commits/` na raiz do projeto",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_26",
       "label": "Para gerar/exportar todos os commits, use a skill \"gerar-historico-commits\"",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_27",
       "label": "Para ver commits ja salvos, use a skill \"recuperar-commits-salvos\"",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/comitar-alteracoes/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/comitar-alteracoes/SKILL.md",
       "community": 999
     }
   ],

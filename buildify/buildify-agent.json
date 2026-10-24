@@ -1,117 +1,190 @@
 {
-  "source": "/root/.config/opencode/skills/buildify/buildify-agent.md",
-  "generated_at": "2026-07-08T22:23:48.989608",
+  "source": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
+  "generated_at": "2026-10-24T14:36:26.226931",
   "nodes": [
     {
       "id": "md_buildify-agent_h1_0",
       "label": "Buildify Agent",
       "type": "heading",
       "level": 1,
-      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
       "community": 999
     },
     {
       "id": "md_buildify-agent_h2_1",
-      "label": "Core Rule (MANDATORY)",
+      "label": "🚨 STEP 0 (FIRST — ANTES DE TUDO): graphify-skill-router",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
       "community": 999
     },
     {
-      "id": "md_buildify-agent_h2_2",
-      "label": "Workflow",
-      "type": "heading",
-      "level": 2,
-      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "id": "md_buildify-agent_code_2",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
       "community": 999
     },
     {
-      "id": "md_buildify-agent_h2_3",
-      "label": "Cost-Free Knowledge Graph",
-      "type": "heading",
-      "level": 2,
-      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "id": "md_buildify-agent_list_3",
+      "label": "**Se o resultado apontar uma skill** (ex.: `Skill: <nome>`, `` `<nome-da-skill>`",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
       "community": 999
     },
     {
       "id": "md_buildify-agent_list_4",
-      "label": "Code files are parsed structurally (functions, classes, variables, calls)",
+      "label": "**Se nenhuma skill fizer match:**",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
       "community": 999
     },
     {
-      "id": "md_buildify-agent_list_5",
-      "label": "Docs/images are skipped (no semantic LLM extraction needed)",
-      "type": "list_item",
-      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "id": "md_buildify-agent_code_5",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
       "community": 999
     },
     {
-      "id": "md_buildify-agent_list_6",
-      "label": "Result: a full knowledge graph of your codebase for free",
-      "type": "list_item",
-      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
-      "community": 999
-    },
-    {
-      "id": "md_buildify-agent_h2_7",
-      "label": "Commands",
+      "id": "md_buildify-agent_h2_6",
+      "label": "STEP 1 — LIBERAR MEMÓRIA (KILL STALE INSTANCES)",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
       "community": 999
     },
     {
-      "id": "md_buildify-agent_list_8",
-      "label": "`graphify update <path>` - Build/update graph from code files (AST, no cost)",
-      "type": "list_item",
-      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "id": "md_buildify-agent_code_7",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_h2_8",
+      "label": "STEP 2 — CODEBASE EXPLORATION (PROCEDIMENTO PADRÃO)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
       "community": 999
     },
     {
       "id": "md_buildify-agent_list_9",
-      "label": "`graphify query \"<question>\"` - Ask questions against the graph",
+      "label": "Use `find` ou `glob` para listar e localizar arquivos e estruturas de diretórios",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
       "community": 999
     },
     {
       "id": "md_buildify-agent_list_10",
-      "label": "`graphify path \"A\" \"B\"` - Find shortest path between two concepts",
+      "label": "Use `grep` / busca textual para localizar declarações de classes, métodos, endpo",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
       "community": 999
     },
     {
       "id": "md_buildify-agent_list_11",
-      "label": "`graphify explain \"<symbol>\"` - Explain a specific symbol/node",
+      "label": "Use `read` para inspecionar o código relevante com precisão.",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
       "community": 999
     },
     {
       "id": "md_buildify-agent_list_12",
-      "label": "`graphify prs` - PR dashboard with CI state and review status",
+      "label": "Execute testes e ferramentas nativas do projeto (linters, compiladores, runtime)",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
       "community": 999
     },
     {
       "id": "md_buildify-agent_h2_13",
-      "label": "Example Workflow",
+      "label": "Workflow Padrão",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
       "community": 999
     },
     {
-      "id": "md_buildify-agent_code_14",
-      "label": "Code: text",
-      "type": "code_block",
-      "language": "text",
-      "file": "/root/.config/opencode/skills/buildify/buildify-agent.md",
+      "id": "md_buildify-agent_list_14",
+      "label": "**STEP 0 (FIRST)**: Executar `graphify-skill-router` (`graphify query \"... which",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_list_15",
+      "label": "**STEP 1**: Liberar instâncias stale.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_list_16",
+      "label": "**STEP 2**: Se não houver skill específica, explorar o codebase com ferramentas ",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_h2_17",
+      "label": "Regras de Interface e Visualização",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_list_18",
+      "label": "**NUNCA use `echo \"...\"` ou banners de status dentro de comandos bash.**",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_list_19",
+      "label": "**Silêncio das ferramentas:** Redirecione comandos para `/tmp/...` e leia com a ",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_list_20",
+      "label": "**Narre em linguagem natural** o que está fazendo antes de executar ações.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_list_21",
+      "label": "**Use `todowrite` para acompanhamento de tarefas multi-passo.**",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_h2_22",
+      "label": "Comandos Permitidos de Graphify",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_list_23",
+      "label": "`graphify query \"<task> which skill handles this?\" --graph ~/.config/opencode/sk",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
+      "community": 999
+    },
+    {
+      "id": "md_buildify-agent_list_24",
+      "label": "`graphify update ~/.config/opencode/skills`",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/buildify-agent.md",
       "community": 999
     }
   ],
@@ -122,57 +195,57 @@
       "relation": "section"
     },
     {
-      "from": "md_buildify-agent_h1_0",
-      "to": "md_buildify-agent_h2_2",
-      "relation": "section"
+      "from": "md_buildify-agent_h2_1",
+      "to": "md_buildify-agent_code_2",
+      "relation": "contains"
     },
     {
-      "from": "md_buildify-agent_h1_0",
-      "to": "md_buildify-agent_h2_3",
-      "relation": "section"
+      "from": "md_buildify-agent_h2_1",
+      "to": "md_buildify-agent_list_3",
+      "relation": "contains"
     },
     {
-      "from": "md_buildify-agent_h2_3",
+      "from": "md_buildify-agent_h2_1",
       "to": "md_buildify-agent_list_4",
       "relation": "contains"
     },
     {
-      "from": "md_buildify-agent_h2_3",
-      "to": "md_buildify-agent_list_5",
-      "relation": "contains"
-    },
-    {
-      "from": "md_buildify-agent_h2_3",
-      "to": "md_buildify-agent_list_6",
+      "from": "md_buildify-agent_h2_1",
+      "to": "md_buildify-agent_code_5",
       "relation": "contains"
     },
     {
       "from": "md_buildify-agent_h1_0",
-      "to": "md_buildify-agent_h2_7",
+      "to": "md_buildify-agent_h2_6",
       "relation": "section"
     },
     {
-      "from": "md_buildify-agent_h2_7",
-      "to": "md_buildify-agent_list_8",
+      "from": "md_buildify-agent_h2_6",
+      "to": "md_buildify-agent_code_7",
       "relation": "contains"
     },
     {
-      "from": "md_buildify-agent_h2_7",
+      "from": "md_buildify-agent_h1_0",
+      "to": "md_buildify-agent_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_buildify-agent_h2_8",
       "to": "md_buildify-agent_list_9",
       "relation": "contains"
     },
     {
-      "from": "md_buildify-agent_h2_7",
+      "from": "md_buildify-agent_h2_8",
       "to": "md_buildify-agent_list_10",
       "relation": "contains"
     },
     {
-      "from": "md_buildify-agent_h2_7",
+      "from": "md_buildify-agent_h2_8",
       "to": "md_buildify-agent_list_11",
       "relation": "contains"
     },
     {
-      "from": "md_buildify-agent_h2_7",
+      "from": "md_buildify-agent_h2_8",
       "to": "md_buildify-agent_list_12",
       "relation": "contains"
     },
@@ -183,7 +256,57 @@
     },
     {
       "from": "md_buildify-agent_h2_13",
-      "to": "md_buildify-agent_code_14",
+      "to": "md_buildify-agent_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_buildify-agent_h2_13",
+      "to": "md_buildify-agent_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_buildify-agent_h2_13",
+      "to": "md_buildify-agent_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_buildify-agent_h1_0",
+      "to": "md_buildify-agent_h2_17",
+      "relation": "section"
+    },
+    {
+      "from": "md_buildify-agent_h2_17",
+      "to": "md_buildify-agent_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_buildify-agent_h2_17",
+      "to": "md_buildify-agent_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_buildify-agent_h2_17",
+      "to": "md_buildify-agent_list_20",
+      "relation": "contains"
+    },
+    {
+      "from": "md_buildify-agent_h2_17",
+      "to": "md_buildify-agent_list_21",
+      "relation": "contains"
+    },
+    {
+      "from": "md_buildify-agent_h1_0",
+      "to": "md_buildify-agent_h2_22",
+      "relation": "section"
+    },
+    {
+      "from": "md_buildify-agent_h2_22",
+      "to": "md_buildify-agent_list_23",
+      "relation": "contains"
+    },
+    {
+      "from": "md_buildify-agent_h2_22",
+      "to": "md_buildify-agent_list_24",
       "relation": "contains"
     }
   ]

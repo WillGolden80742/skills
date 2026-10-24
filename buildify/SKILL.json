@@ -1,115 +1,272 @@
 {
-  "source": "/root/.config/opencode/skills/buildify/SKILL.md",
-  "generated_at": "2026-07-08T22:23:48.989295",
+  "source": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+  "generated_at": "2026-10-24T14:36:26.227812",
   "nodes": [
     {
       "id": "md_SKILL_h1_0",
-      "label": "Buildify Skill",
+      "label": "Buildify — graphify-skill-router FIRST (Antes de Tudo)",
       "type": "heading",
       "level": 1,
-      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_h2_1",
-      "label": "O que faz",
+      "label": "O Fluxo Buildify",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_h2_2",
-      "label": "Agente Injetado",
-      "type": "heading",
-      "level": 2,
-      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
-      "community": 999
-    },
-    {
-      "id": "md_SKILL_code_3",
-      "label": "Code: yaml",
-      "type": "code_block",
-      "language": "yaml",
-      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
-      "community": 999
-    },
-    {
-      "id": "md_SKILL_h2_4",
-      "label": "Workflow do Buildify",
-      "type": "heading",
-      "level": 2,
-      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
-      "community": 999
-    },
-    {
-      "id": "md_SKILL_code_5",
+      "id": "md_SKILL_code_2",
       "label": "Code: text",
       "type": "code_block",
       "language": "text",
-      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_h3_6",
-      "label": "Comandos do Graphify",
+      "id": "md_SKILL_h3_3",
+      "label": "🚨 FIRST: graphify-skill-router (ANTES DE TUDO)",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_h2_7",
-      "label": "Exemplo de Uso",
-      "type": "heading",
-      "level": 2,
-      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
-      "community": 999
-    },
-    {
-      "id": "md_SKILL_code_8",
-      "label": "Code: text",
+      "id": "md_SKILL_code_4",
+      "label": "Code: bash",
       "type": "code_block",
-      "language": "text",
-      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "language": "bash",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_h2_9",
-      "label": "Custo Zero",
-      "type": "heading",
-      "level": 2,
-      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "id": "md_SKILL_list_5",
+      "label": "**Achou `Skill: <nome>`?** Carregue imediatamente via `skill name=\"<nome>\"` e si",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
       "community": 999
     },
     {
-      "id": "md_SKILL_h2_10",
-      "label": "Arquivos da Skill",
+      "id": "md_SKILL_list_6",
+      "label": "**Nenhuma skill encontrada?** Prossiga para o STEP 1 (limpeza) e loop Fable padr",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_7",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_8",
+      "label": "STEP 1 — LIBERAR MEMÓRIA (MATAR INSTÂNCIAS STALE)",
       "type": "heading",
-      "level": 2,
-      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "level": 3,
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_code_9",
+      "label": "Code: bash",
+      "type": "code_block",
+      "language": "bash",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_10",
+      "label": "Sobe a árvore de processos para encontrar o opencode desta sessão.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_11",
-      "label": "`SKILL.md` - Esta documentação",
+      "label": "Mata (SIGTERM) toda instância stale, preservando: a sessão atual, ancestrais e f",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_12",
-      "label": "`buildify-agent.md` - Definição do agente injetado",
+      "label": "Se não identificar a sessão atual, aborta sem matar nada.",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_h2_13",
-      "label": "Ativação",
+      "label": "O Loop Fable (Procedimento Padrão para Código)",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/buildify/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_14",
+      "label": "Portão de trivialidade",
+      "type": "heading",
+      "level": 3,
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_15",
+      "label": "Passo 1 — Classificar",
+      "type": "heading",
+      "level": 3,
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_16",
+      "label": "Passo 2 — Definir \"done\"",
+      "type": "heading",
+      "level": 3,
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_17",
+      "label": "Passo 3 — Evidências (Procedimento Padrão)",
+      "type": "heading",
+      "level": 3,
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_18",
+      "label": "Passo 4 — Decidir",
+      "type": "heading",
+      "level": 3,
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_19",
+      "label": "Passo 5 — Agir",
+      "type": "heading",
+      "level": 3,
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_20",
+      "label": "Passo 6 — Verificar",
+      "type": "heading",
+      "level": 3,
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h3_21",
+      "label": "Passo 7 — Relatar",
+      "type": "heading",
+      "level": 3,
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_22",
+      "label": "Silêncio das ferramentas (NÃO mostre a \"mágica\")",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_23",
+      "label": "Regra de Ouro: Graphify EXCLUSIVO para Skills, Procedimento Padrão para Código",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_24",
+      "label": "Comandos Permitidos de Graphify",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_25",
+      "label": "Modos",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_26",
+      "label": "**plan** — Passos 1-4, entregar plano, parar",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_27",
+      "label": "**audit** — Avaliar trabalho contra o loop",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_28",
+      "label": "**report** — Re-escrever resposta conforme Passo 7",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_h2_29",
+      "label": "Arquivos",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_30",
+      "label": "`SKILL.md` — Esta skill",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_31",
+      "label": "Agente: `~/.config/opencode/agents/buildify.md`",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_32",
+      "label": "Template agente: `~/.config/opencode/skills/buildify/buildify-agent.md`",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_33",
+      "label": "Skill router: `~/.config/opencode/skills/graphify-skill-router/SKILL.md`",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
+      "community": 999
+    },
+    {
+      "id": "md_SKILL_list_34",
+      "label": "Agent injection: `~/.config/opencode/skills/agent-injection/SKILL.md`",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/buildify/SKILL.md",
       "community": 999
     }
   ],
@@ -120,57 +277,57 @@
       "relation": "section"
     },
     {
-      "from": "md_SKILL_h1_0",
-      "to": "md_SKILL_h2_2",
-      "relation": "section"
-    },
-    {
-      "from": "md_SKILL_h2_2",
-      "to": "md_SKILL_code_3",
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_code_2",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h1_0",
-      "to": "md_SKILL_h2_4",
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_3",
       "relation": "section"
     },
     {
-      "from": "md_SKILL_h2_4",
-      "to": "md_SKILL_code_5",
+      "from": "md_SKILL_h3_3",
+      "to": "md_SKILL_code_4",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h2_4",
-      "to": "md_SKILL_h3_6",
-      "relation": "section"
-    },
-    {
-      "from": "md_SKILL_h1_0",
-      "to": "md_SKILL_h2_7",
-      "relation": "section"
-    },
-    {
-      "from": "md_SKILL_h2_7",
-      "to": "md_SKILL_code_8",
+      "from": "md_SKILL_h3_3",
+      "to": "md_SKILL_list_5",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h1_0",
-      "to": "md_SKILL_h2_9",
+      "from": "md_SKILL_h3_3",
+      "to": "md_SKILL_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_3",
+      "to": "md_SKILL_code_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_1",
+      "to": "md_SKILL_h3_8",
       "relation": "section"
     },
     {
-      "from": "md_SKILL_h1_0",
-      "to": "md_SKILL_h2_10",
-      "relation": "section"
+      "from": "md_SKILL_h3_8",
+      "to": "md_SKILL_code_9",
+      "relation": "contains"
     },
     {
-      "from": "md_SKILL_h2_10",
+      "from": "md_SKILL_h3_8",
+      "to": "md_SKILL_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h3_8",
       "to": "md_SKILL_list_11",
       "relation": "contains"
     },
     {
-      "from": "md_SKILL_h2_10",
+      "from": "md_SKILL_h3_8",
       "to": "md_SKILL_list_12",
       "relation": "contains"
     },
@@ -178,6 +335,111 @@
       "from": "md_SKILL_h1_0",
       "to": "md_SKILL_h2_13",
       "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_h3_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_h3_15",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_h3_16",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_h3_17",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_h3_18",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_h3_19",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_h3_20",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_13",
+      "to": "md_SKILL_h3_21",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_22",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_23",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_24",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_25",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_25",
+      "to": "md_SKILL_list_26",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_25",
+      "to": "md_SKILL_list_27",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_25",
+      "to": "md_SKILL_list_28",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h1_0",
+      "to": "md_SKILL_h2_29",
+      "relation": "section"
+    },
+    {
+      "from": "md_SKILL_h2_29",
+      "to": "md_SKILL_list_30",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_29",
+      "to": "md_SKILL_list_31",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_29",
+      "to": "md_SKILL_list_32",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_29",
+      "to": "md_SKILL_list_33",
+      "relation": "contains"
+    },
+    {
+      "from": "md_SKILL_h2_29",
+      "to": "md_SKILL_list_34",
+      "relation": "contains"
     }
   ]
 }

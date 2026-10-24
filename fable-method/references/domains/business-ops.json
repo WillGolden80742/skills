@@ -1,0 +1,130 @@
+{
+  "source": "/home/user/.config/opencode/skills/fable-method/references/domains/business-ops.md",
+  "generated_at": "2026-10-24T14:32:21.712699",
+  "nodes": [
+    {
+      "id": "md_business-ops_h1_0",
+      "label": "Domain adapter: business and operations",
+      "type": "heading",
+      "level": 1,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/business-ops.md",
+      "community": 999
+    },
+    {
+      "id": "md_business-ops_h2_1",
+      "label": "Minimum evidence set (binding, before any recommendation)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/business-ops.md",
+      "community": 999
+    },
+    {
+      "id": "md_business-ops_h2_2",
+      "label": "Evidence and primary sources",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/business-ops.md",
+      "community": 999
+    },
+    {
+      "id": "md_business-ops_h2_3",
+      "label": "Authority order",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/business-ops.md",
+      "community": 999
+    },
+    {
+      "id": "md_business-ops_h2_4",
+      "label": "Verification by observation",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/business-ops.md",
+      "community": 999
+    },
+    {
+      "id": "md_business-ops_list_5",
+      "label": "All arithmetic (budgets, margins, projections, totals) recomputed and shown; a p",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/business-ops.md",
+      "community": 999
+    },
+    {
+      "id": "md_business-ops_list_6",
+      "label": "Every external commitment (a price quoted, a law cited, a vendor capability) tra",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/business-ops.md",
+      "community": 999
+    },
+    {
+      "id": "md_business-ops_list_7",
+      "label": "Anything outward-facing (sent, published, signed, purchased) is treated as irrev",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/business-ops.md",
+      "community": 999
+    },
+    {
+      "id": "md_business-ops_h2_8",
+      "label": "Fraud table (for fable-judge)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/business-ops.md",
+      "community": 999
+    },
+    {
+      "id": "md_business-ops_h2_9",
+      "label": "Done, by example",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/business-ops.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_business-ops_h1_0",
+      "to": "md_business-ops_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_business-ops_h1_0",
+      "to": "md_business-ops_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_business-ops_h1_0",
+      "to": "md_business-ops_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_business-ops_h1_0",
+      "to": "md_business-ops_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_business-ops_h2_4",
+      "to": "md_business-ops_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_business-ops_h2_4",
+      "to": "md_business-ops_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_business-ops_h2_4",
+      "to": "md_business-ops_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_business-ops_h1_0",
+      "to": "md_business-ops_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_business-ops_h1_0",
+      "to": "md_business-ops_h2_9",
+      "relation": "section"
+    }
+  ]
+}

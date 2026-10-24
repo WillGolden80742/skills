@@ -1,0 +1,142 @@
+{
+  "source": "/home/user/.config/opencode/skills/fable-method/references/domains/design-ux.md",
+  "generated_at": "2026-10-24T14:32:21.712879",
+  "nodes": [
+    {
+      "id": "md_design-ux_h1_0",
+      "label": "Domain adapter: design and UX",
+      "type": "heading",
+      "level": 1,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/design-ux.md",
+      "community": 999
+    },
+    {
+      "id": "md_design-ux_h2_1",
+      "label": "Minimum evidence set (binding, before any pixel)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/design-ux.md",
+      "community": 999
+    },
+    {
+      "id": "md_design-ux_h2_2",
+      "label": "Evidence and primary sources",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/design-ux.md",
+      "community": 999
+    },
+    {
+      "id": "md_design-ux_h2_3",
+      "label": "Authority order",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/design-ux.md",
+      "community": 999
+    },
+    {
+      "id": "md_design-ux_h2_4",
+      "label": "Verification by observation",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/design-ux.md",
+      "community": 999
+    },
+    {
+      "id": "md_design-ux_list_5",
+      "label": "The surface is actually rendered and looked at (screenshot or live), at more tha",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/design-ux.md",
+      "community": 999
+    },
+    {
+      "id": "md_design-ux_list_6",
+      "label": "Colors, spacing, radii, and type trace to tokens, not hardcoded values; violatio",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/design-ux.md",
+      "community": 999
+    },
+    {
+      "id": "md_design-ux_list_7",
+      "label": "Accessibility is checked, not asserted: contrast ratios computed, focus visible,",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/design-ux.md",
+      "community": 999
+    },
+    {
+      "id": "md_design-ux_list_8",
+      "label": "All states listed in the minimum evidence set exist and were seen, including err",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/design-ux.md",
+      "community": 999
+    },
+    {
+      "id": "md_design-ux_h2_9",
+      "label": "Fraud table (for fable-judge)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/design-ux.md",
+      "community": 999
+    },
+    {
+      "id": "md_design-ux_h2_10",
+      "label": "Done, by example",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/design-ux.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_design-ux_h1_0",
+      "to": "md_design-ux_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_design-ux_h1_0",
+      "to": "md_design-ux_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_design-ux_h1_0",
+      "to": "md_design-ux_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_design-ux_h1_0",
+      "to": "md_design-ux_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_design-ux_h2_4",
+      "to": "md_design-ux_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_design-ux_h2_4",
+      "to": "md_design-ux_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_design-ux_h2_4",
+      "to": "md_design-ux_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_design-ux_h2_4",
+      "to": "md_design-ux_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_design-ux_h1_0",
+      "to": "md_design-ux_h2_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_design-ux_h1_0",
+      "to": "md_design-ux_h2_10",
+      "relation": "section"
+    }
+  ]
+}

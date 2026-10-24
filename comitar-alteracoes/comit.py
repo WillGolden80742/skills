@@ -179,13 +179,19 @@ def update_readme_structure(project_path):
         print("README.md atualizado com a estrutura do projeto")
 
 def update_graphify_base(project_path):
-    """Atualiza a base de dados graphify-out após o commit"""
+    """Atualiza a base de dados graphify-out apenas se for o repositório de skills"""
+    # Graphify é usado EXCLUSIVAMENTE para o repositório de skills
+    resolved = os.path.abspath(project_path)
+    is_skills_repo = "opencode/skills" in resolved or os.path.exists(os.path.join(resolved, "buildify", "SKILL.md"))
+    if not is_skills_repo:
+        return
+
     graphify_out = os.path.join(project_path, "graphify-out")
     if not os.path.exists(graphify_out):
         print("graphify-out não encontrado, pulando atualização do grafo...")
         return
 
-    print("Atualizando base de dados graphify-out...")
+    print("Atualizando base de dados graphify-out do repositório de skills...")
 
     # Carregar configuração do graphify
     config_path = os.path.join(graphify_out, ".graphify_config")

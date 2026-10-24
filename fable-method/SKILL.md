@@ -50,23 +50,18 @@ Tell the user, in one or two sentences, what done looks like and how it will be 
 
 State your load-bearing assumptions. If one is checkable with a single tool call, check it instead of assuming. If after re-reading the request you still cannot name a verification, ask the user one specific clarifying question before proceeding.
 
-## Step 2 - Gather evidence (via Graphify)
+## Step 2 - Gather evidence (Standard Procedure)
 
-1. **Graphify first.** Before reading anything specific, query the knowledge graph. The grafo is the primary source — **never use grep, glob, or directory listing as the first approach**:
-   ```bash
-   graphify query "what are the main modules/classes/functions related to <X>?"
-   graphify path "<conceito>" "<conceito-relacionado>"
-   graphify explain "<simbolo-alvo>"
-   ```
-   If the graph does not exist for the codebase, run `graphify update <path>` (AST-only, zero cost). Only fall back to grep/glob if graphify is unavailable AND `graphify update` fails, or if the user explicitly asks for text search.
+1. **Standard exploration first.** Explore the codebase using standard tools: locate files with `find` / `glob`, search symbols and references with `grep` (or ripgrep), and examine relevant code slices with `read`.
+   > **Note on Graphify:** `graphify` is reserved **EXCLUSIVELY** for querying and updating the skills repository (`~/.config/opencode/skills`). Do NOT generate or query knowledge graphs on project codebases. Always follow standard exploration procedures.
 
 2. **Primary sources beat memory.** Read the actual code, files, and output. Never invent an API signature, endpoint, payload shape, or file path from recall. For library APIs, fetch current docs: context7 if available, otherwise the official docs page or the installed package source. If neither is possible, say explicitly that you are working from memory.
 
-3. **Parallelize what is independent and expensive.** Graphify queries, web fetches, doc lookups, subagent explorations, and reads across many files go in one parallel batch, never sequentially. Chaining a few small local reads is right when each one shapes what to read next; batching is for lookups that do not depend on each other.
+3. **Parallelize what is independent and expensive.** Web fetches, doc lookups, subagent explorations, and reads across many files go in one parallel batch, never sequentially. Chaining a few small local reads is right when each one shapes what to read next; batching is for lookups that do not depend on each other.
 
-4. **Read narrow, never re-read.** Use graphify to locate the relevant section, then read that section, not the whole file. Never re-fetch what is already in context.
+4. **Read narrow, never re-read.** Use grep/find to locate the relevant section, then read that section, not the whole file. Never re-fetch what is already in context.
 
-5. **Time-box mechanically.** One round of graphify queries plus one follow-up round covers most tasks; a third needs a stated reason. If two consecutive lookups told you nothing new, stop.
+5. **Time-box mechanically.** One round of standard lookups plus one follow-up round covers most tasks; a third needs a stated reason. If two consecutive lookups told you nothing new, stop.
 
 6. **Establish intent before changing behavior.** A failing check has two possible culprits: the code or the check itself. Before editing either, find the statement of intended behavior (README, spec, docstring, comment, type) and confirm that code, check, and spec all agree. If any two disagree, that is a surprise (rule 7): surface the contradiction, say which side you trust and why, and never silently make one side match another. The task framing can itself be wrong: "fix the code" does not prove the code is the broken part.
 

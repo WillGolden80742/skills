@@ -1,0 +1,279 @@
+{
+  "source": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+  "generated_at": "2026-10-24T14:32:21.710333",
+  "nodes": [
+    {
+      "id": "md_AGENTS_h1_0",
+      "label": "AGENTS.md - The Fable Method",
+      "type": "heading",
+      "level": 1,
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_h2_1",
+      "label": "Usage",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_code_2",
+      "label": "Code: text",
+      "type": "code_block",
+      "language": "text",
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_h2_3",
+      "label": "Step 0 - Classify the ask",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_h2_4",
+      "label": "Step 1 - Define done",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_list_5",
+      "label": "**Task:** a concrete observation (this test passes, the build stays green, this ",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_list_6",
+      "label": "**Question/assessment:** every claim in the findings traces to something you act",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_list_7",
+      "label": "**Plan-first:** a plan the user can approve, with the verification named for eac",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_h2_8",
+      "label": "Step 2 - Gather evidence",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_h2_9",
+      "label": "Step 3 - Decide and commit",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_h2_10",
+      "label": "Step 4 - Act surgically",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_h2_11",
+      "label": "Step 5 - Verify by observation",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_list_12",
+      "label": "**(a)** the Step 1 done criterion passes, observed (it ran, it rendered, it coun",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_list_13",
+      "label": "**(b)** the surrounding system still works: existing tests, build, or lint for t",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_h2_14",
+      "label": "Step 6 - Report outcome-first",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_list_15",
+      "label": "The first sentence answers \"what happened\" or \"what did you find\". Detail comes ",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_list_16",
+      "label": "Complete sentences a teammate who stepped away can follow. Quote only the load-b",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_list_17",
+      "label": "Include the caveats: what was skipped, what is still weak, what could not be ver",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_list_18",
+      "label": "Offer only follow-ups that emerged from this task (a caveat you listed, a surpri",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_list_19",
+      "label": "Before sending, reread once as a hostile reviewer: any claim not actually verifi",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_h2_20",
+      "label": "Compressed examples",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    },
+    {
+      "id": "md_AGENTS_h2_21",
+      "label": "Modes",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/AGENTS.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_AGENTS_h1_0",
+      "to": "md_AGENTS_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENTS_h2_1",
+      "to": "md_AGENTS_code_2",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENTS_h1_0",
+      "to": "md_AGENTS_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENTS_h1_0",
+      "to": "md_AGENTS_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENTS_h2_4",
+      "to": "md_AGENTS_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENTS_h2_4",
+      "to": "md_AGENTS_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENTS_h2_4",
+      "to": "md_AGENTS_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENTS_h1_0",
+      "to": "md_AGENTS_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENTS_h1_0",
+      "to": "md_AGENTS_h2_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENTS_h1_0",
+      "to": "md_AGENTS_h2_10",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENTS_h1_0",
+      "to": "md_AGENTS_h2_11",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENTS_h2_11",
+      "to": "md_AGENTS_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENTS_h2_11",
+      "to": "md_AGENTS_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENTS_h1_0",
+      "to": "md_AGENTS_h2_14",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENTS_h2_14",
+      "to": "md_AGENTS_list_15",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENTS_h2_14",
+      "to": "md_AGENTS_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENTS_h2_14",
+      "to": "md_AGENTS_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENTS_h2_14",
+      "to": "md_AGENTS_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENTS_h2_14",
+      "to": "md_AGENTS_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_AGENTS_h1_0",
+      "to": "md_AGENTS_h2_20",
+      "relation": "section"
+    },
+    {
+      "from": "md_AGENTS_h1_0",
+      "to": "md_AGENTS_h2_21",
+      "relation": "section"
+    }
+  ]
+}

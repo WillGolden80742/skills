@@ -55,46 +55,39 @@ dir/file.md   →  dir/file.json
 | `section` | Relação hierárquica entre headings (h1 → h2 → h3) |
 | `contains` | Elemento contenido em uma seção |
 
-## Fluxo de Routing
+## Fluxo de Routing de Skills
 
 ```
-Tarefa → [Graphify Query] → [Consultar AST JSON] → [Skill Selection] → [Execute]
+Tarefa → [Graphify Query no Repo de Skills] → [Consultar AST JSON de Skills] → [Skill Selection] → [Execute]
 ```
 
-## Passo 1: Atualizar o Knowledge Graph
+> [!IMPORTANT]
+> **USO EXCLUSIVO DO GRAPHIFY:**
+> O `graphify` é utilizado **EXCLUSIVAMENTE** para o repositório de skills (`~/.config/opencode/skills`).
+> **NÃO gere nem consulte grafos de código para o projeto ou outros repositórios.**
+> Para qualquer outro projeto ou código, utilize o **procedimento padrão** (grep, find, read, testes).
 
-Execute graphify para construir/atualizar o grafo:
+## Passo 1: Atualizar o Grafo de Skills (Apenas no Repo de Skills)
+
+Execute graphify no repositório de skills para construir/atualizar o grafo de skills quando uma skill for adicionada, alterada ou removida:
 
 ```bash
-# Atualizar grafo de código
-graphify update .
-
-# Navegar grafo interativo
-# Abra: graphify-out/graph.html
+graphify update ~/.config/opencode/skills
 ```
 
-## Passo 2: Consultar o Knowledge Graph
+## Passo 2: Consultar o Grafo de Skills para uma Tarefa
 
-Para cada tarefa, execute queries no graph:
+Para cada tarefa, consulte o grafo de skills para encontrar a skill apropriada:
 
 ```bash
-# Query 1: O que é este projeto?
-graphify query "What is this project about?"
-
-# Query 2: Qual a estrutura de diretórios?
-graphify query "What is the directory structure?"
-
-# Query 3: Encontrar módulos relacionados à tarefa
-graphify query "What files are related to [TASK_KEYWORD]?"
-
-# Query 4: Encontrar padrões existentes
-graphify query "What patterns exist for [TASK_KEYWORD]?"
-
-# Query 5: Encontrar conexões entre módulos
-graphify path "[MODULE_A]" "[MODULE_B]"
+# Query: Qual skill atende a esta tarefa?
+graphify query "<tarefa> which skill handles this?" --graph ~/.config/opencode/skills/graphify-out/graph.json > /tmp/gq.log 2>&1
 ```
 
-## Passo 3: Consultar AST dos Markdown
+Se o grafo retornar uma skill relevante, carregue-a com `skill name="<nome>"`.
+Se nenhuma skill for encontrada, siga o **procedimento padrão** de desenvolvimento (grep, find, leitura de arquivos).
+
+## Passo 3: Consultar AST dos Markdown de Skills
 
 Use os JSONs AST para entender estrutura de documentação:
 
@@ -287,8 +280,8 @@ cp ~/.config/opencode/skills/buildify/buildify-agent.md \
 
 ## Regras de Fallback
 
-1. **Se nenhuma skill específica for encontrada** → Use `graphify update` + `graphify query`
-2. **Se o graph não existir** → Execute `graphify update .` primeiro
-3. **Se a tarefa for ambígua** → Consulte múltiplas skills em paralelo
-4. **Se precisar entender estrutura de docs** → Consulte os `.json` AST correspondentes
-5. **Se buildify não estiver instalado** → Use skill `buildify` para instalar
+1. **Se nenhuma skill específica for encontrada** → Siga o **procedimento padrão** de desenvolvimento (grep, find, leitura de arquivos, testes). **NÃO gere grafos de código**.
+2. **Se o grafo de skills não existir** → Execute `graphify update ~/.config/opencode/skills` apenas no repositório de skills.
+3. **Se a tarefa for ambígua** → Consulte o grafo de skills com termos alternativos ou verifique as skills disponíveis.
+4. **Se precisar entender estrutura de docs das skills** → Consulte os `.json` AST correspondentes no repositório de skills.
+5. **Se buildify não estiver instalado** → Use a skill `buildify` para instalar.

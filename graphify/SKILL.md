@@ -1,11 +1,25 @@
 ---
 name: graphify
-description: "Use for any question about a codebase, its architecture, file relationships, or project content — especially when graphify-out/ exists, where the question should be treated as a graphify query first. Turns code files into a persistent knowledge graph (AST-only, zero cost) or any input (code + docs + papers + images + videos) with an API key. Features: god nodes, community detection, query/path/explain tools."
+description: "Ferramenta de knowledge graph utilizada EXCLUSIVAMENTE para o repositório de skills (~/.config/opencode/skills). Indexa e busca skills especializadas via AST. NÃO gera nem consulta grafos para outros projetos ou codebases (para o restante, segue o procedimento padrão: grep, find, read, testes)."
 ---
 
-# /graphify
+# /graphify (USO EXCLUSIVO: Repositório de Skills)
 
-Turn any folder of files into a navigable knowledge graph with community detection, an honest audit trail, and three outputs: interactive HTML, GraphRAG-ready JSON, and a plain-language GRAPH_REPORT.md.
+> [!IMPORTANT]
+> **DIRETIVA DE USO EXCLUSIVO:**
+> O `graphify` agora é utilizado **EXCLUSIVAMENTE** para o repositório de skills (`~/.config/opencode/skills`).
+> **É EXPRESSAMENTE PROIBIDO gerar ou consultar grafos para outros projetos, repositórios de código de clientes, temas, plugins ou qualquer codebase externo.**
+> Para todos os outros projetos, utilize o **procedimento padrão** (grep, find, leitura de arquivos, testes).
+
+## Uso Permitido (Apenas no Repositório de Skills)
+
+```bash
+# Atualizar grafo do repositório de skills (AST, zero custo)
+graphify update ~/.config/opencode/skills
+
+# Consultar qual skill atende a uma tarefa específica
+graphify query "<tarefa> which skill handles this?" --graph ~/.config/opencode/skills/graphify-out/graph.json
+```
 
 ## Usage
 
