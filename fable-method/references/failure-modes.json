@@ -1,0 +1,29 @@
+{
+  "source": "/home/user/.config/opencode/skills/fable-method/references/failure-modes.md",
+  "generated_at": "2026-10-24T14:32:21.711167",
+  "nodes": [
+    {
+      "id": "md_failure-modes_h1_0",
+      "label": "Failure modes: symptom → step",
+      "type": "heading",
+      "level": 1,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/failure-modes.md",
+      "community": 999
+    },
+    {
+      "id": "md_failure-modes_h2_1",
+      "label": "Reading an audit",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/failure-modes.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_failure-modes_h1_0",
+      "to": "md_failure-modes_h2_1",
+      "relation": "section"
+    }
+  ]
+}

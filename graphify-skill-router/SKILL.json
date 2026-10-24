@@ -1,13 +1,13 @@
 {
-  "source": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
-  "generated_at": "2026-07-08T22:23:48.990385",
+  "source": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
+  "generated_at": "2026-10-24T14:32:21.626601",
   "nodes": [
     {
       "id": "md_SKILL_h1_0",
       "label": "Graphify Skill Router",
       "type": "heading",
       "level": 1,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -15,7 +15,7 @@
       "label": "Estrutura de AST",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -23,7 +23,7 @@
       "label": "Code: text",
       "type": "code_block",
       "language": "text",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -31,7 +31,7 @@
       "label": "Estrutura do AST JSON",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -39,7 +39,7 @@
       "label": "Code: json",
       "type": "code_block",
       "language": "json",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -47,7 +47,7 @@
       "label": "Tipos de Node",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -55,7 +55,7 @@
       "label": "text",
       "type": "link",
       "url": "url",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -63,7 +63,7 @@
       "label": "alt",
       "type": "link",
       "url": "src",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -71,7 +71,7 @@
       "label": "alt",
       "type": "image",
       "src": "src",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -79,15 +79,15 @@
       "label": "Relações (Edges)",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_h2_10",
-      "label": "Fluxo de Routing",
+      "label": "Fluxo de Routing de Skills",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -95,15 +95,15 @@
       "label": "Code: text",
       "type": "code_block",
       "language": "text",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_h2_12",
-      "label": "Passo 1: Atualizar o Knowledge Graph",
+      "label": "Passo 1: Atualizar o Grafo de Skills (Apenas no Repo de Skills)",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -111,15 +111,15 @@
       "label": "Code: bash",
       "type": "code_block",
       "language": "bash",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_h2_14",
-      "label": "Passo 2: Consultar o Knowledge Graph",
+      "label": "Passo 2: Consultar o Grafo de Skills para uma Tarefa",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -127,15 +127,15 @@
       "label": "Code: bash",
       "type": "code_block",
       "language": "bash",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_h2_16",
-      "label": "Passo 3: Consultar AST dos Markdown",
+      "label": "Passo 3: Consultar AST dos Markdown de Skills",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -143,7 +143,7 @@
       "label": "Code: bash",
       "type": "code_block",
       "language": "bash",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -151,7 +151,7 @@
       "label": "Queries Úteis via grep/jq",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -159,7 +159,7 @@
       "label": "Code: bash",
       "type": "code_block",
       "language": "bash",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -167,7 +167,7 @@
       "label": "Passo 4: Mapear Resultados para Skills",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -175,7 +175,7 @@
       "label": "Gerar/Atualizar AST dos Markdown",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -183,7 +183,7 @@
       "label": "Code: bash",
       "type": "code_block",
       "language": "bash",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -191,7 +191,7 @@
       "label": "Exemplo de Routing Completo",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -199,7 +199,7 @@
       "label": "Code: bash",
       "type": "code_block",
       "language": "bash",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -207,7 +207,7 @@
       "label": "Code: bash",
       "type": "code_block",
       "language": "bash",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -215,7 +215,7 @@
       "label": "Skills por Categoria",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -223,42 +223,42 @@
       "label": "🛠️ Meta — Gestão de Skills",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_28",
       "label": "`buildify` - Agente buildify (graphify antes de codar)",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_29",
       "label": "`criar-novo-skill` - Criar nova skill",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_30",
       "label": "`editar-skill` - Editar skill existente",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_31",
       "label": "`gerenciar-remover-skills` - Gerenciar skills",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_32",
       "label": "`markdown-to-ast` - Gerar AST dos markdown",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -266,35 +266,35 @@
       "label": "💻 Desenvolvimento & Frontend",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_34",
       "label": "`construir-artefatos-react` - React components",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_35",
       "label": "`testar-aplicacoes-web` - Testes Playwright",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_36",
       "label": "`refatorar-css-variaveis` - CSS variables",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_37",
       "label": "`reverter-css-variaveis` - Reverter CSS",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -302,35 +302,35 @@
       "label": "📄 Documentos Office & PDF",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_39",
       "label": "`criar-editar-apresentacao` - PowerPoint",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_40",
       "label": "`criar-editar-documento-word` - Word",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_41",
       "label": "`criar-editar-planilhas-excel` - Excel",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_42",
       "label": "`processar-arquivos-pdf` - PDFs",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -338,42 +338,42 @@
       "label": "🗂️ Git, Arquivos & Projetos",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_44",
       "label": "`comitar-alteracoes` - Commits",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_45",
       "label": "`gerar-historico-commits` - Histórico",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_46",
       "label": "`gerar-arvore-diretorios` - Árvore dir",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_47",
       "label": "`mesclar-arquivos-diretorio` - Mesclar",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_48",
       "label": "`renomear-arquivos-referencias` - Renomear",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -381,28 +381,28 @@
       "label": "🎨 Design & Visual",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_50",
       "label": "`aplicar-temas-cores-fontes` - Temas",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_51",
       "label": "`design-interface-usuario` - UI design",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
       "id": "md_SKILL_list_52",
       "label": "`arte-algoritmica-generativa` - Arte p5.js",
       "type": "list_item",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -410,7 +410,7 @@
       "label": "Comandos de Router",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -418,7 +418,7 @@
       "label": "Code: bash",
       "type": "code_block",
       "language": "bash",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -426,7 +426,7 @@
       "label": "Agente Buildify (Auto-Instalação)",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -434,7 +434,7 @@
       "label": "Verificação Automática",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -442,7 +442,7 @@
       "label": "Code: bash",
       "type": "code_block",
       "language": "bash",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -450,7 +450,7 @@
       "label": "Fluxo de Verificação",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -458,7 +458,7 @@
       "label": "Code: text",
       "type": "code_block",
       "language": "text",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -466,7 +466,7 @@
       "label": "Instalação Manual (se necessário)",
       "type": "heading",
       "level": 3,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -474,7 +474,7 @@
       "label": "Code: bash",
       "type": "code_block",
       "language": "bash",
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     },
     {
@@ -482,7 +482,7 @@
       "label": "Regras de Fallback",
       "type": "heading",
       "level": 2,
-      "file": "/root/.config/opencode/skills/graphify-skill-router/SKILL.md",
+      "file": "/home/user/.config/opencode/skills/graphify-skill-router/SKILL.md",
       "community": 999
     }
   ],

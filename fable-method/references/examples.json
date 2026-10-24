@@ -1,0 +1,260 @@
+{
+  "source": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+  "generated_at": "2026-10-24T14:32:21.711639",
+  "nodes": [
+    {
+      "id": "md_examples_h1_0",
+      "label": "Worked examples: one per ask shape",
+      "type": "heading",
+      "level": 1,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_h2_1",
+      "label": "1. Trivial (gate, no loop)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_h2_2",
+      "label": "2. Question / assessment",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_list_3",
+      "label": "**Step 0:** assessment. Deliverable is a diagnosis. Change nothing.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_list_4",
+      "label": "**Step 1:** done = a cause backed by observations; every claim citable to a file",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_list_5",
+      "label": "**Step 2:** in one parallel batch: the data-fetching hook, the render path, and ",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_list_6",
+      "label": "**Step 3:** one cause, one recommended fix. \"It could be several things\" is not ",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_list_7",
+      "label": "**Step 6:** \"The dashboard refetches all 12 widgets on every keystroke: `useDash",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_h2_8",
+      "label": "3. Task",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_list_9",
+      "label": "**Step 0:** task. Deliverable is the fixed code, verified.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_list_10",
+      "label": "**Step 1:** done = the full suite passes, including `test_format_date`. Verifica",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_list_11",
+      "label": "**Step 2:** read the test and the function it exercises in one batch. Surprise: ",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_list_12",
+      "label": "**Step 4:** one edit in `formatDate`. Nothing else touched.",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_list_13",
+      "label": "**Step 5:** full suite run: 42 passed. Both halves: the target test passes, and ",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_list_14",
+      "label": "**Step 6:** \"The test was right: `formatDate` dropped the timezone offset (`date",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_h2_15",
+      "label": "4. Plan-first",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_list_16",
+      "label": "**Step 0:** plan-first: the user said \"propose\", and applying a standard across ",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_list_17",
+      "label": "**Step 1:** done = a plan the user can approve; each planned step names its own ",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_list_18",
+      "label": "**Step 2:** parallel: find every config instance, read them all in one batch, fe",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_list_19",
+      "label": "**Step 3:** one proposed standard. Conflicts between projects are named, each wi",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    },
+    {
+      "id": "md_examples_list_20",
+      "label": "**Deliver the plan. Stop.** Steps 4-6 happen only after approval, and then the e",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/examples.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_examples_h1_0",
+      "to": "md_examples_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_examples_h1_0",
+      "to": "md_examples_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_examples_h2_2",
+      "to": "md_examples_list_3",
+      "relation": "contains"
+    },
+    {
+      "from": "md_examples_h2_2",
+      "to": "md_examples_list_4",
+      "relation": "contains"
+    },
+    {
+      "from": "md_examples_h2_2",
+      "to": "md_examples_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_examples_h2_2",
+      "to": "md_examples_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_examples_h2_2",
+      "to": "md_examples_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_examples_h1_0",
+      "to": "md_examples_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_examples_h2_8",
+      "to": "md_examples_list_9",
+      "relation": "contains"
+    },
+    {
+      "from": "md_examples_h2_8",
+      "to": "md_examples_list_10",
+      "relation": "contains"
+    },
+    {
+      "from": "md_examples_h2_8",
+      "to": "md_examples_list_11",
+      "relation": "contains"
+    },
+    {
+      "from": "md_examples_h2_8",
+      "to": "md_examples_list_12",
+      "relation": "contains"
+    },
+    {
+      "from": "md_examples_h2_8",
+      "to": "md_examples_list_13",
+      "relation": "contains"
+    },
+    {
+      "from": "md_examples_h2_8",
+      "to": "md_examples_list_14",
+      "relation": "contains"
+    },
+    {
+      "from": "md_examples_h1_0",
+      "to": "md_examples_h2_15",
+      "relation": "section"
+    },
+    {
+      "from": "md_examples_h2_15",
+      "to": "md_examples_list_16",
+      "relation": "contains"
+    },
+    {
+      "from": "md_examples_h2_15",
+      "to": "md_examples_list_17",
+      "relation": "contains"
+    },
+    {
+      "from": "md_examples_h2_15",
+      "to": "md_examples_list_18",
+      "relation": "contains"
+    },
+    {
+      "from": "md_examples_h2_15",
+      "to": "md_examples_list_19",
+      "relation": "contains"
+    },
+    {
+      "from": "md_examples_h2_15",
+      "to": "md_examples_list_20",
+      "relation": "contains"
+    }
+  ]
+}

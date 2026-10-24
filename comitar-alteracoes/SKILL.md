@@ -10,7 +10,7 @@ Executa commits Git com as seguintes caracteristicas:
 2. Executa o commit Git
 3. Executa `generate_commit_history.py` para gerar arquivo de historico em `commits/yyyy/mm/dd/`
 4. Commita o arquivo de historico
-5. **Atualiza a base de dados graphify-out** com `graphify update`
+5. **Atualiza a base de dados graphify-out** apenas quando o commit for no repositório de skills (para outros projetos segue o procedimento padrão, sem grafos)
 6. Faz pull --rebase e push (ou --force-with-lease com flag --force)
 
 ## Parameters

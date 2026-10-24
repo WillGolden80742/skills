@@ -1,0 +1,142 @@
+{
+  "source": "/home/user/.config/opencode/skills/fable-method/references/domains/legal-compliance.md",
+  "generated_at": "2026-10-24T14:32:21.712506",
+  "nodes": [
+    {
+      "id": "md_legal-compliance_h1_0",
+      "label": "Domain adapter: legal and compliance",
+      "type": "heading",
+      "level": 1,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/legal-compliance.md",
+      "community": 999
+    },
+    {
+      "id": "md_legal-compliance_h2_1",
+      "label": "Minimum evidence set (binding, before any conclusion)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/legal-compliance.md",
+      "community": 999
+    },
+    {
+      "id": "md_legal-compliance_h2_2",
+      "label": "Evidence and primary sources",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/legal-compliance.md",
+      "community": 999
+    },
+    {
+      "id": "md_legal-compliance_h2_3",
+      "label": "Authority order",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/legal-compliance.md",
+      "community": 999
+    },
+    {
+      "id": "md_legal-compliance_h2_4",
+      "label": "Verification by observation",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/legal-compliance.md",
+      "community": 999
+    },
+    {
+      "id": "md_legal-compliance_list_5",
+      "label": "Every cited clause, section, or provision is quoted from the actual text with it",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/legal-compliance.md",
+      "community": 999
+    },
+    {
+      "id": "md_legal-compliance_list_6",
+      "label": "Every \"the law requires\" claim names the instrument and jurisdiction, verified c",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/legal-compliance.md",
+      "community": 999
+    },
+    {
+      "id": "md_legal-compliance_list_7",
+      "label": "Obligations, deadlines, and thresholds are exact: numbers, dates, and defined te",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/legal-compliance.md",
+      "community": 999
+    },
+    {
+      "id": "md_legal-compliance_list_8",
+      "label": "The report states plainly that it is document analysis, not legal advice, and na",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/legal-compliance.md",
+      "community": 999
+    },
+    {
+      "id": "md_legal-compliance_h2_9",
+      "label": "Fraud table (for fable-judge)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/legal-compliance.md",
+      "community": 999
+    },
+    {
+      "id": "md_legal-compliance_h2_10",
+      "label": "Done, by example",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/legal-compliance.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_legal-compliance_h1_0",
+      "to": "md_legal-compliance_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_legal-compliance_h1_0",
+      "to": "md_legal-compliance_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_legal-compliance_h1_0",
+      "to": "md_legal-compliance_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_legal-compliance_h1_0",
+      "to": "md_legal-compliance_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_legal-compliance_h2_4",
+      "to": "md_legal-compliance_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_legal-compliance_h2_4",
+      "to": "md_legal-compliance_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_legal-compliance_h2_4",
+      "to": "md_legal-compliance_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_legal-compliance_h2_4",
+      "to": "md_legal-compliance_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_legal-compliance_h1_0",
+      "to": "md_legal-compliance_h2_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_legal-compliance_h1_0",
+      "to": "md_legal-compliance_h2_10",
+      "relation": "section"
+    }
+  ]
+}

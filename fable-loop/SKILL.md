@@ -12,13 +12,7 @@ This skill orchestrates the fable-method: read its SKILL.md first; its rules gov
 ## Stage 1 - PLAN (the first bookend)
 
 1. Apply method Steps 0-3: classify the ask, define done with a named verification, state load-bearing assumptions.
-2. **Graphify first, then evidence fan-out.** Before spawning any subagents, query the knowledge graph:
-   ```bash
-   graphify query "what are the main modules/classes/functions related to <X>?"
-   graphify path "<conceito>" "<conceito-relacionado>"
-   graphify explain "<simbolo-alvo>"
-   ```
-   If no graph exists, run `graphify update <path>` (AST-only, zero cost). Only after exhausting graphify queries, fan out to parallel subagents in ONE message, never sequentially:
+2. **Standard evidence fan-out.** Note: `graphify` is used **EXCLUSIVELY** for the skills repository (`~/.config/opencode/skills`). For any project codebase, do NOT generate or query graphs. Instead, use standard exploration (grep, find, reading files) and fan out to parallel subagents in ONE message, never sequentially:
    - codebase questions not answered by the graph: an Explore agent per distinct area;
    - library or fact questions: a research agent that fetches current docs or searches the web;
    - each subagent returns distilled findings with citations, never raw file dumps.

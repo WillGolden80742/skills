@@ -1,0 +1,130 @@
+{
+  "source": "/home/user/.config/opencode/skills/fable-method/references/domains/data-analysis.md",
+  "generated_at": "2026-10-24T14:32:21.713220",
+  "nodes": [
+    {
+      "id": "md_data-analysis_h1_0",
+      "label": "Domain adapter: data analysis",
+      "type": "heading",
+      "level": 1,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/data-analysis.md",
+      "community": 999
+    },
+    {
+      "id": "md_data-analysis_h2_1",
+      "label": "Minimum evidence set (binding, before any aggregate)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/data-analysis.md",
+      "community": 999
+    },
+    {
+      "id": "md_data-analysis_h2_2",
+      "label": "Evidence and primary sources",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/data-analysis.md",
+      "community": 999
+    },
+    {
+      "id": "md_data-analysis_h2_3",
+      "label": "Authority order",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/data-analysis.md",
+      "community": 999
+    },
+    {
+      "id": "md_data-analysis_h2_4",
+      "label": "Verification by observation",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/data-analysis.md",
+      "community": 999
+    },
+    {
+      "id": "md_data-analysis_list_5",
+      "label": "Every number in the answer is recomputed from the data by a method you can show ",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/data-analysis.md",
+      "community": 999
+    },
+    {
+      "id": "md_data-analysis_list_6",
+      "label": "Data-quality decisions (deduplicated X rows, excluded Y as out-of-window, netted",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/data-analysis.md",
+      "community": 999
+    },
+    {
+      "id": "md_data-analysis_list_7",
+      "label": "Totals cross-check: parts sum to wholes; the answer survives an independent reco",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/data-analysis.md",
+      "community": 999
+    },
+    {
+      "id": "md_data-analysis_h2_8",
+      "label": "Fraud table (for fable-judge)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/data-analysis.md",
+      "community": 999
+    },
+    {
+      "id": "md_data-analysis_h2_9",
+      "label": "Done, by example",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/data-analysis.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_data-analysis_h1_0",
+      "to": "md_data-analysis_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_data-analysis_h1_0",
+      "to": "md_data-analysis_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_data-analysis_h1_0",
+      "to": "md_data-analysis_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_data-analysis_h1_0",
+      "to": "md_data-analysis_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_data-analysis_h2_4",
+      "to": "md_data-analysis_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_data-analysis_h2_4",
+      "to": "md_data-analysis_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_data-analysis_h2_4",
+      "to": "md_data-analysis_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_data-analysis_h1_0",
+      "to": "md_data-analysis_h2_8",
+      "relation": "section"
+    },
+    {
+      "from": "md_data-analysis_h1_0",
+      "to": "md_data-analysis_h2_9",
+      "relation": "section"
+    }
+  ]
+}

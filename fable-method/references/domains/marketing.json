@@ -1,0 +1,142 @@
+{
+  "source": "/home/user/.config/opencode/skills/fable-method/references/domains/marketing.md",
+  "generated_at": "2026-10-24T14:32:21.711894",
+  "nodes": [
+    {
+      "id": "md_marketing_h1_0",
+      "label": "Domain adapter: marketing and content",
+      "type": "heading",
+      "level": 1,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/marketing.md",
+      "community": 999
+    },
+    {
+      "id": "md_marketing_h2_1",
+      "label": "Minimum evidence set (binding, before any writing)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/marketing.md",
+      "community": 999
+    },
+    {
+      "id": "md_marketing_h2_2",
+      "label": "Evidence and primary sources",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/marketing.md",
+      "community": 999
+    },
+    {
+      "id": "md_marketing_h2_3",
+      "label": "Authority order",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/marketing.md",
+      "community": 999
+    },
+    {
+      "id": "md_marketing_h2_4",
+      "label": "Verification by observation",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/marketing.md",
+      "community": 999
+    },
+    {
+      "id": "md_marketing_list_5",
+      "label": "Every factual claim in the copy traces to a source you opened (product docs, a f",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/marketing.md",
+      "community": 999
+    },
+    {
+      "id": "md_marketing_list_6",
+      "label": "The copy is checked line-by-line against the brand rules: tone, banned words, fo",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/marketing.md",
+      "community": 999
+    },
+    {
+      "id": "md_marketing_list_7",
+      "label": "Names, prices, dates, and titles are exact. One wrong competitor price discredit",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/marketing.md",
+      "community": 999
+    },
+    {
+      "id": "md_marketing_list_8",
+      "label": "Rendered surfaces (landing pages, emails) are actually rendered and looked at, n",
+      "type": "list_item",
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/marketing.md",
+      "community": 999
+    },
+    {
+      "id": "md_marketing_h2_9",
+      "label": "Fraud table (for fable-judge)",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/marketing.md",
+      "community": 999
+    },
+    {
+      "id": "md_marketing_h2_10",
+      "label": "Done, by example",
+      "type": "heading",
+      "level": 2,
+      "file": "/home/user/.config/opencode/skills/fable-method/references/domains/marketing.md",
+      "community": 999
+    }
+  ],
+  "edges": [
+    {
+      "from": "md_marketing_h1_0",
+      "to": "md_marketing_h2_1",
+      "relation": "section"
+    },
+    {
+      "from": "md_marketing_h1_0",
+      "to": "md_marketing_h2_2",
+      "relation": "section"
+    },
+    {
+      "from": "md_marketing_h1_0",
+      "to": "md_marketing_h2_3",
+      "relation": "section"
+    },
+    {
+      "from": "md_marketing_h1_0",
+      "to": "md_marketing_h2_4",
+      "relation": "section"
+    },
+    {
+      "from": "md_marketing_h2_4",
+      "to": "md_marketing_list_5",
+      "relation": "contains"
+    },
+    {
+      "from": "md_marketing_h2_4",
+      "to": "md_marketing_list_6",
+      "relation": "contains"
+    },
+    {
+      "from": "md_marketing_h2_4",
+      "to": "md_marketing_list_7",
+      "relation": "contains"
+    },
+    {
+      "from": "md_marketing_h2_4",
+      "to": "md_marketing_list_8",
+      "relation": "contains"
+    },
+    {
+      "from": "md_marketing_h1_0",
+      "to": "md_marketing_h2_9",
+      "relation": "section"
+    },
+    {
+      "from": "md_marketing_h1_0",
+      "to": "md_marketing_h2_10",
+      "relation": "section"
+    }
+  ]
+}
