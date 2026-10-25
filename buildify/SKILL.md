@@ -22,9 +22,9 @@ Agente de desenvolvimento que executa **graphify-skill-router FIRST antes de tud
 ## O Fluxo Buildify
 
 ```
-entrada ─→ [FIRST: graphify-skill-router] ─┬─ Encontrou Skill ──→ Carrega skill e executa workflow especializado
-                                           │
-                                           └─ Nenhuma Skill ────→ [STEP 1] Kill Stale ──→ [Loop Fable Padrão]
+entrada ─→ [FIRST: graphify-skill-router] ─→ [STEP 1: Kill Stale — SEMPRE] ─┬─ Encontrou Skill ──→ Carrega skill e executa workflow especializado
+                                                                            │
+                                                                            └─ Nenhuma Skill ────→ [Loop Fable Padrão]
 ```
 
 ---
@@ -43,7 +43,7 @@ graphify query "<palavras-chave da tarefa> which skill handles this?" --graph ~/
 
 Leia `/tmp/gq.log` com a ferramenta Read — não mostre a saída e não use `echo` para anunciar.
 
-- **Achou `Skill: <nome>`?** Carregue imediatamente via `skill name="<nome>"` e siga o workflow especializado dela **PRIMEIRO**.
+- **Achou `Skill: <nome>`?** **Execute SEMPRE o STEP 1 (kill stale) primeiro** — é incondicional — depois carregue via `skill name="<nome>"` e siga o workflow especializado dela.
 - **Nenhuma skill encontrada?** Prossiga para o STEP 1 (limpeza) e loop Fable padrão abaixo.
 
 **NUNCA pule esta etapa.** É a primeira ação incondicional do Buildify para qualquer solicitação do usuário.
@@ -54,18 +54,18 @@ graphify update ~/.config/opencode/skills
 
 ---
 
-### STEP 1 — LIBERAR MEMÓRIA (MATAR INSTÂNCIAS STALE)
+### STEP 1 — LIBERAR MEMÓRIA (MATAR INSTÂNCIAS STALE) — SEMPRE OBRIGATÓRIO
 
-Se nenhuma skill especializada for selecionada para assumir o controle total da tarefa, libere a memória do VPS:
+**INCONDICIONAL:** execute a limpeza de sessões stale do OpenCode **SEMPRE — tendo encontrado skill ou não**. Nenhuma skill especializada substitui ou pula esta etapa. É obrigatória imediatamente após o FIRST (graphify-skill-router):
 
 ```bash
 bash ~/.config/opencode/skills/matar-opencode-stale/kill-stale.sh > /tmp/kill-stale.log 2>&1
 ```
 
 Leia `/tmp/kill-stale.log` com a ferramenta Read — NÃO mostre a saída ao usuário. O script:
-- Sobe a árvore de processos para encontrar o opencode desta sessão.
-- Mata (SIGTERM) toda instância stale, preservando: a sessão atual, ancestrais e filhos.
-- Se não identificar a sessão atual, aborta sem matar nada.
+- Lê a aba atual de `$OPENCODE_SESSION_ID` e apaga abas (sessões) stale via `opencode session delete`.
+- Nunca mata processos — o daemon `opencode serve` é compartilhado por todas as abas.
+- Preserva a aba atual e as recentes; sem `$OPENCODE_SESSION_ID`, aborta sem apagar nada.
 
 ---
 

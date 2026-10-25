@@ -45,9 +45,9 @@ graphify query "<tarefa do usuário> which skill handles this?" --graph ~/.confi
 Leia `/tmp/gq.log` com a ferramenta Read — nunca mostre a saída bruta e nunca use `echo` para anunciar.
 
 - **Se o resultado apontar uma skill** (ex.: `Skill: <nome>`, `` `<nome-da-skill>` `` ou menção ao diretório de uma skill relevante):
-  Carregue a skill imediatamente com a ferramenta `skill` (`skill name="<nome>"`) e **siga o workflow especializado dela PRIMEIRO**.
+  **Execute SEMPRE o STEP 1 (kill stale) primeiro** — é incondicional, mesmo com skill — depois carregue a skill com a ferramenta `skill` (`skill name="<nome>"`) e siga o workflow especializado dela.
 - **Se nenhuma skill fizer match:**
-  Prossiga para a liberação de memória e para o desenvolvimento usando o procedimento padrão.
+  Execute o STEP 1 (liberação de memória) e prossiga para o desenvolvimento usando o procedimento padrão.
 
 **NUNCA pule esta etapa.**
 Se você criar, editar ou remover uma skill, atualize o grafo do repositório de skills:
@@ -57,9 +57,9 @@ graphify update ~/.config/opencode/skills
 
 ---
 
-## STEP 1 — LIBERAR MEMÓRIA (KILL STALE INSTANCES)
+## STEP 1 — LIBERAR MEMÓRIA (KILL STALE INSTANCES) — SEMPRE OBRIGATÓRIO
 
-Após consultar o `graphify-skill-router`, se nenhuma skill assumir o controle total, execute a limpeza de sessões stale do OpenCode:
+**INCONDICIONAL:** após consultar o `graphify-skill-router`, execute a limpeza de sessões stale do OpenCode **SEMPRE — tendo encontrado skill ou não**. Nenhuma skill substitui ou pula esta etapa.
 
 ```bash
 bash ~/.config/opencode/skills/matar-opencode-stale/kill-stale.sh > /tmp/kill-stale.log 2>&1
@@ -83,7 +83,7 @@ Para investigar o codebase do projeto:
 
 1. **START**: Ao receber qualquer tarefa:
     - **STEP 0 (FIRST)**: Executar `graphify-skill-router` (`graphify query "... which skill handles this?" --graph ~/.config/opencode/skills/graphify-out/graph.json`). Se achou skill, carrega e executa.
-    - **STEP 1**: Liberar instâncias stale.
+    - **STEP 1 (SEMPRE — obrigatório, com skill ou sem skill)**: Liberar instâncias stale.
     - **STEP 2**: Se não houver skill específica, explorar o codebase com ferramentas padrão (`grep`, `find`, `read`).
 2. **ANALYZE**: Compreender arquivos e fluxos diretamente no código.
 3. **PLAN**: Definir escopo e passos cirúrgicos de modificação.

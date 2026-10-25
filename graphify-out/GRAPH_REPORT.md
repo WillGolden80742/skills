@@ -1,12 +1,12 @@
-# Graph Report - skills  (2026-10-06)
+# Graph Report - skills  (2026-10-24)
 
 ## Corpus Check
-- 546 files · ~20,999,738 words
+- 1258 files · ~21,367,883 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 26679 nodes · 3292 edges · 23961 communities (438 shown, 23523 thin omitted)
-- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 48 edges (avg confidence: 0.67)
+- 27632 nodes · 4463 edges · 23771 communities (788 shown, 22983 thin omitted)
+- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 50 edges (avg confidence: 0.67)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
@@ -277,7 +277,6 @@
 - Low Accuracy
 - Verification
 - Wayfinding operations
-- Resource Registration
 - Testing strategy: replace, don't layer
 - 2. Spawn sub-agents
 - Commands
@@ -387,7 +386,6 @@
 - Code Quality
 - Tool Naming
 - Pydantic v2 Key Features
-- Quick Reference
 - Server Naming Convention
 - Fase 1: Pesquisa Profunda e Planejamento
 - Commit 35a0fd7ff866 - 18/06/2026 21:50:13
@@ -790,7 +788,6 @@
 - **Surface gaps explicitly.** If no good resource exists for an area the mission
 - **Prune ruthlessly.** A resource that turned out to be wrong, shallow, or off-mi
 - Code: text
-- Code: bash
 - Code: bash
 - Code: bash
 - Commit 982f3f1c7f70 - 18/06/2026 23:32:37
@@ -1263,6 +1260,7 @@
 - stdout, _, _ = run_git_command(["git", "diff", "--cached", "--name-only"], cwd)
 - print(f"Erro ao fazer commit: {stderr}")
 - md_ast_md_commit-172f025f9ea0-2026-06-13-02-26-15_list_112
+- Skill Adianti — Persistência: Coleções e Criteria
 - commit_id = commit_hash[:7] if commit_hash else "0000000"
 - md_ast_md_commit-172f025f9ea0-2026-06-13-02-26-15_list_115
 - print(f"Commit realizado: {commit_hash[:7]}")
@@ -1354,6 +1352,8 @@
 - md_ast_md_commit-172f025f9ea0-2026-06-13-02-26-15_list_217
 - md_ast_md_commit-172f025f9ea0-2026-06-13-02-26-15_list_22
 - md_ast_md_commit-172f025f9ea0-2026-06-13-02-26-15_list_223
+- Skill Adianti — Persistência: Relacionamentos
+- Skill Adianti — Persistência: Conexões
 - content = f"# Projeto\n\n{new_section}"
 - files_list = "\n".join([f"- {f}" for f in files if f]) if files else "- (todos o
 - md_ast_md_commit-172f025f9ea0-2026-06-13-02-26-15_list_230
@@ -1402,6 +1402,7 @@
 - if tree_marker_start in content and tree_marker_end in content:
 - old_tree_section = content[content.index(tree_marker_start):content.index(tree_m
 - new_tree_section = f"{tree_marker_start}\n\n```\nuailove/
+- Commit 5d201aa7d38d - 06/10/2026 00:31:43
 - content = content.replace(old_tree_section, new_tree_section)
 - # 2. Atualizar tabelas de Controllers, Models, Services
 - sections = {
@@ -1482,6 +1483,7 @@
 - start_idx = i
 - comit/comit.py
 - end_idx = i
+- Commit 512b5d8a073c - 06/10/2026 00:38:47
 - md_ast_md_commit-172f025f9ea0-2026-06-13-02-26-15_list_63
 - if end_idx is None:
 - for i in range(len(lines) - 1, -1, -1):
@@ -1493,6 +1495,7 @@
 - content = "\n".join(lines)
 - else:
 - content += f"\n{new_section}"
+- Commit 783e5aed4aa6 - 06/10/2026 00:38:47
 - md_ast_md_commit-172f025f9ea0-2026-06-13-02-26-15_list_76
 - with open(readme_path, "w", encoding="utf-8") as f:
 - f.write(content)
@@ -1509,6 +1512,7 @@
 - if args.files:
 - for f in files_list:
 - run_git_command(["git", "add", f], project_path)
+- Quality Checklist
 - run_git_command(["git", "add", "-A"], project_path)
 - md_ast_md_commit-172f025f9ea0-2026-06-13-02-26-15_list_97
 - staged = get_staged_files(project_path)
@@ -1517,14 +1521,18 @@
 - Hash
 - rel = os.path.relpath(src_path, str(BASE)).replace("\\", "/")
 - if is_excluded(rel):
+- Process
 - if not os.path.isfile(src_path):
+- Skill Adianti — Relatórios, Gráficos, Etiquetas e Templates
 - size = os.path.getsize(src_path)
 - log.info("WATCH-SAFE Ignorado envio do arquivo local vazio: %s", rel)
 - client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 - if rel in DOWNLOADING_FILES:
 - log.info("WATCH-SAFE Ignorado: %s esta sendo baixado agora", rel)
+- Commit 512b5d8 - 06/10/2026 00:38:47
 - remote_path = REMOTE_BASE + "/" + rel
 - log.info("UPLOAD %s (%d bytes)", rel, size)
+- Advanced FastMCP Features
 - sftp_put(src_path, remote_path)
 - log.info("UPLOAD OK %s", rel)
 - log.error("UPLOAD FAIL %s: %s", rel, e)
@@ -1553,6 +1561,7 @@
 - to_download.append((rel, REMOTE_BASE + "/" + rel, local_path))
 - if not to_download:
 - log.info("Nenhum arquivo novo para baixar.")
+- Skill Adianti — Apresentação: Contêineres
 - out = stdout.read().decode("utf-8", errors="replace")
 - log.info("Preparando download de %d arquivos...", len(to_download))
 - from concurrent.futures import ThreadPoolExecutor
@@ -1597,6 +1606,7 @@
 - log.info("Observador de arquivos iniciado.")
 - end_time = time.time() + runtime_minutes * 60
 - poll_counter = 0
+- Skill Adianti — Apresentação: Diálogos
 - while time.time() < end_time:
 - time.sleep(POLL_INTERVAL)
 - poll_counter += 1
@@ -1615,7 +1625,9 @@
 - log.error("Variavel BHM_SSH_PW nao definida!")
 - print(f'  set "BHM_SSH_PW={pw_preview}"')
 - print(f'  set "VPS_SSH_PW={pw_preview}"')
+- Skill Adianti — Apresentação: Utilitários
 - sftp.get(remote_path, local_path)
+- Fase 1: Pesquisa Profunda e Planejamento
 - configurar-espelhamento-server/.sync_theme.py
 - client.connect(REMOTE_HOST, port=REMOTE_PORT, username=REMOTE_USER, password=SSH
 - remote_dir = os.path.dirname(remote_path)
@@ -1628,6 +1640,7 @@
 - for p in parts:
 - if not p:
 - current += "/" + p
+- Skill Adianti — Creating new components — Tutor Presentation > Templates > Creating new components
 - sftp.stat(current)
 - except FileNotFoundError:
 - sftp.mkdir(current)
@@ -1644,9 +1657,11 @@
 - parts = line.split("\t")
 - if len(parts) >= 3:
 - relpath = parts[0].replace("\\", "/")
+- Skill Adianti — AgendaEntryForm — Tutor Organization > Utilities
 - size = int(parts[1])
 - mtime = float(parts[2])
 - except ValueError:
+- Skill Adianti — Manual agenda — Tutor Organization > Utilities > Manual agenda
 - if size > 0:
 - level=logging.INFO,
 - files[relpath] = {"size": size, "mtime": mtime}
@@ -1656,6 +1671,7 @@
 - for p in EXCLUDED_PREFIXES:
 - if name.startswith(p):
 - return False
+- Skill Adianti — Object Simple Aggregation — Tutor Persistence > Relationships > Object Simple Aggregation
 - if os.path.isdir(path):
 - format="[%(asctime)s] %(levelname)-8s %(message)s",
 - os.rmdir(path)
@@ -1665,6 +1681,7 @@
 - pass
 - def on_modified(self, event):
 - if event.is_directory:
+- Skill Adianti — Object Aggregation — Tutor Persistence > Relationships > Object Aggregation
 - def on_created(self, event):
 - datefmt="%H:%M:%S",
 - return
@@ -1702,10 +1719,19 @@
 - - `project_path`: Caminho base do projeto (default: workspace root)
 - - `force`: Usa --force-with-lease no push (default: false)
 - ## Usage
+- Skill Adianti — Alerts — Tutor Presentation > Dialogs > Alerts
+- Skill Adianti — AnotherWindowView — Tutor Presentation > Containers
+- Skill Adianti — Arrow steps — Tutor Presentation > Utilities > Arrow steps
+- Skill Adianti — Object Association — Tutor Persistence > Relationships > Object Association
 - ### Commit com arquivos especificos:
+- Skill Adianti — Bar chart — Tutor Presentation > Charts > Bar chart
 - ### Commit forcado (--force-with-lease):
+- Skill Adianti — BreadCrumbView — Tutor Presentation > Utilities
+- Skill Adianti — CalendarEventForm — Tutor Organization > Utilities
 - ### Commit em projeto especifico:
+- Skill Adianti — CalendarEventPanelForm — Tutor Organization > Utilities
 - ```
+- Skill Adianti — Simple calendar — Tutor Presentation > Utilities > Simple calendar
 - ## Notes
 - from datetime import datetime
 - BASE_DIRS = ['app']
@@ -1748,6 +1774,7 @@
 - <div class="notif-sk-content">
 - <div class="skeleton-text notif-sk-text-14 w-90"></div>
 - <div class="skeleton-text notif-sk-text-12 w-50"></div>
+- Skill Adianti — Cards — Tutor Presentation > Utilities > Cards
 - if (append) {
 - this.listElement.insertAdjacentHTML('beforeend', skeletonHtml);
 - if 'Controllers' in str(content):
@@ -1761,15 +1788,18 @@
 - <div class="skeleton skeleton-text w-70"></div>
 - rows = [(name, desc[:60]) for name, desc in sections['Controllers']]
 - <div class="skeleton skeleton-text w-40"></div>
+- Skill Adianti — Carousel — Tutor Presentation > Templates > Carousel
 - <div class="grid-cell"><div class="skeleton skeleton-text w-60"></div></div>
 - <div class="grid-cell">
 - <div class="skeleton skeleton-btn"></div>
+- Skill Adianti — CartManagementView — Tutor Organization > Catalog
 - `;
 - container.innerHTML = skeletonHTML.repeat(4);
 - table = make_table(rows, ["Controller", "Responsabilidade"])
 - container.classList.add('pointer-none');
 - } else {
 - container.classList.remove('pointer-none');
+- Skill Adianti — Checkout form — Tutor Organization > Checkout screens > Checkout form
 - btn.classList.remove('skeleton', 'skeleton-button');
 - const icon = btn.querySelector('i');
 - if (icon) {
@@ -1914,6 +1944,7 @@
 - _, push_stderr, push_code = run_git_command(["git", "push", "--force-with-lease"
 - if push_code != 0:
 - print(f"Erro no push: {push_stderr}")
+- Skill Adianti — Circle plugin — Tutor Presentation > Templates > Circle plugin
 - print("Push forcado realizado com sucesso")
 - if not os.path.exists(commits_dir):
 - os.makedirs(commits_dir)
@@ -2038,6 +2069,7 @@
 - if entry.is_dir():
 - extension = "|   " if i < len(entries) - 1 else "    "
 - if entry.name in DIRS_TO_SKIP:
+- Skill Adianti — CitySeek — Tutor Organization > ComplexViews
 - sub = generate_tree(entry, prefix + extension, root)
 - lines.append(sub)
 - if root == str(path):
@@ -2068,10 +2100,12 @@
 - for line in f:
 - raw = line.rstrip("\n")
 - if not raw or raw.startswith("#") or raw.startswith("```"):
+- Skill Adianti — CityWindow — Tutor Organization > StandardControls
 - if "-- " not in raw:
 - merge/merge.py
 - depth = raw.index("-- ") // 4
 - if not name:
+- Skill Adianti — CollectionAggregation — código executável dbsamples (Persistence > Collections)
 - stack = stack[:depth]
 - stack.append(name)
 - rel = "/".join(stack)
@@ -2170,24 +2204,51 @@
 - Hash
 - algorithmic-art/LICENSE.txt
 - canvas-design/canvas-fonts/RedHatMono-Bold.ttf
+- Skill Adianti — Collection aggregations — Tutor Persistence > Collections > Collection aggregations
+- Skill Adianti — CollectionArray — código executável dbsamples (Persistence > Collections)
+- Skill Adianti — Collection as array — Tutor Persistence > Collections > Collection as array
 - extrair-conteudo-paginas/node_modules/.pnpm/function-bind@1.1.2/node_modules/fun
+- Skill Adianti — CollectionBatchUpdate — código executável dbsamples (Persistence > Collections)
+- Skill Adianti — Collection batch update — Tutor Persistence > Collections > Collection batch update
 - canvas-design/canvas-fonts/RedHatMono-OFL.txt
+- Skill Adianti — CollectionCount — código executável dbsamples (Persistence > Collections)
+- Skill Adianti — CollectionCountObjects — código executável dbsamples (Persistence > Collections)
+- Skill Adianti — Collection count objects — Tutor Persistence > Collections > Collection count objects
+- Skill Adianti — Collection count — Tutor Persistence > Collections > Collection count
+- Skill Adianti — CollectionDelete — código executável dbsamples (Persistence > Collections)
 - extrair-conteudo-paginas/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/cal
 - extrair-conteudo-paginas/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/es-
 - extrair-conteudo-paginas/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/fun
 - canvas-design/canvas-fonts/RedHatMono-Regular.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/get
+- Skill Adianti — Collection delete — Tutor Persistence > Collections > Collection delete
+- Skill Adianti — CollectionFilter — código executável dbsamples (Persistence > Collections)
+- Skill Adianti — Collection filter — Tutor Persistence > Collections > Collection filter
+- Skill Adianti — CollectionGetObjects — código executável dbsamples (Persistence > Collections)
+- Skill Adianti — Collection get objects — Tutor Persistence > Collections > Collection get objects
+- Skill Adianti — CollectionLoad — código executável dbsamples (Persistence > Collections)
+- Skill Adianti — CollectionLoadProperty — código executável dbsamples (Persistence > Collections)
 - canvas-design/canvas-fonts/Silkscreen-OFL.txt
 - extrair-conteudo-paginas/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/gop
 - extrair-conteudo-paginas/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/has
 - extrair-conteudo-paginas/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/mat
 - extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/dunder-
 - extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/es-obje
+- Skill Adianti — Collection paginated load — Tutor Persistence > Collections > Collection paginated load
+- Skill Adianti — Collection load — Tutor Persistence > Collections > Collection load
 - extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/get-pro
+- Skill Adianti — CollectionSimpleCountView — Tutor Persistence > Collections
 - canvas-design/canvas-fonts/Silkscreen-Regular.ttf
-- extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/get-pro
+- Skill Adianti — CollectionSimpleDelete — código executável dbsamples (Persistence > Collections)
+- resolucao.sh
+- Skill Adianti — CollectionSimpleDeleteView — Tutor Persistence > Collections
+- Skill Adianti — CollectionSimpleLoad — código executável dbsamples (Persistence > Collections)
+- Skill Adianti — CollectionSimpleLoadProperty — código executável dbsamples (Persistence > Collections)
+- Skill Adianti — Collection simple paginated load — Tutor Persistence > Collections > Collection simple paginated load
+- Skill Adianti — CollectionSimpleLoadView — Tutor Persistence > Collections
 - extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/get-pro
 - canvas-design/canvas-fonts/SmoochSans-Medium.ttf
+- Skill Adianti — CollectionStaticBatchUpdate — código executável dbsamples (Persistence > Collections)
 - extrair-conteudo-paginas/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd/.eslint
 - extrair-conteudo-paginas/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd/.github
 - extrair-conteudo-paginas/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd/CHANGEL
@@ -2201,18 +2262,35 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd/package
 - extrair-conteudo-paginas/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd/test/in
 - extrair-conteudo-paginas/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd/tsconfi
+- Skill Adianti — Collection static batch update — Tutor Persistence > Collections > Collection static batch update
+- Skill Adianti — CollectionStaticSimpleCount — código executável dbsamples (Persistence > Collections)
+- Skill Adianti — Collection static simple count — Tutor Persistence > Collections > Collection static simple count
+- screenshot.sh
 - extrair-conteudo-paginas/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-s
-- extrair-conteudo-paginas/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-s
+- Skill Adianti — CollectionStaticSimpleDelete — código executável dbsamples (Persistence > Collections)
 - canvas-design/canvas-fonts/Tektur-Medium.ttf
+- Skill Adianti — Collection static simple delete — Tutor Persistence > Collections > Collection static simple delete
+- Skill Adianti — CollectionStaticSimpleLoad — código executável dbsamples (Persistence > Collections)
+- Skill Adianti — Collection static simple load — Tutor Persistence > Collections > Collection static simple load
+- Skill Adianti — CollectionSubQuery — código executável dbsamples (Persistence > Collections)
+- Skill Adianti — Collections with subquery — Tutor Persistence > Collections > Collections with subquery
 - extrair-conteudo-paginas/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-s
+- Skill Adianti — CollectionTransform — código executável dbsamples (Persistence > Collections)
 - extrair-conteudo-paginas/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-s
 - extrair-conteudo-paginas/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/h
 - canvas-design/canvas-fonts/Tektur-OFL.txt
+- Skill Adianti — Collection update — Tutor Persistence > Collections > Collection update
+- Skill Adianti — Column chart — Tutor Presentation > Charts > Column chart
 - extrair-conteudo-paginas/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/h
-- extrair-conteudo-paginas/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/h
-- extrair-conteudo-paginas/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/h
-- extrair-conteudo-paginas/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/h
+- Skill Adianti — Manual DataGrid — Tutor Organization > Manual controls > Manual DataGrid
+- Skill Adianti — Manual Form/DataGrid — Tutor Organization > Manual controls > Manual Form/DataGrid
 - canvas-design/canvas-fonts/Tektur-Regular.ttf
+- Skill Adianti — Manual form — Tutor Organization > Manual controls > Manual form
+- Skill Adianti — Object Simple Composition — Tutor Persistence > Relationships > Object Simple Composition
+- Skill Adianti — Object Composition — Tutor Persistence > Relationships > Object Composition
+- Skill Adianti — ContactFormWindow — Tutor Organization > ComplexViews
+- Skill Adianti — Frame — Tutor Presentation > Containers > Frame
+- Skill Adianti — Horizontal Box — Tutor Presentation > Containers > Horizontal Box
 - extrair-conteudo-paginas/node_modules/.pnpm/hasown@2.0.4/node_modules/function-b
 - extrair-conteudo-paginas/node_modules/.pnpm/hasown@2.0.4/node_modules/hasown/.gi
 - extrair-conteudo-paginas/node_modules/.pnpm/hasown@2.0.4/node_modules/hasown/.ny
@@ -2225,37 +2303,63 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/hasown@2.0.4/node_modules/hasown/ind
 - extrair-conteudo-paginas/node_modules/.pnpm/hasown@2.0.4/node_modules/hasown/pac
 - extrair-conteudo-paginas/node_modules/.pnpm/hasown@2.0.4/node_modules/hasown/tsc
+- Skill Adianti — Bootstrap Notebook Wrapper — Tutor Presentation > Containers > Bootstrap Notebook Wrapper
 - extrair-conteudo-paginas/node_modules/.pnpm/html-encoding-sniffer@4.0.0/node_mod
 - canvas-design/canvas-fonts/WorkSans-BoldItalic.ttf
+- Skill Adianti — Notebook Pills — Tutor Presentation > Containers > Notebook Pills
+- Skill Adianti — Notebook events — Tutor Presentation > Containers > Notebook events
+- Skill Adianti — ContainerNotebookVerticalBootstrapView — Tutor Presentation > Containers
+- Skill Adianti — Notebook — Tutor Presentation > Containers > Notebook
+- Skill Adianti — Page Frame — Tutor Presentation > Containers > Page Frame
+- Skill Adianti — Page Wrapper — Tutor Presentation > Containers > Page Wrapper
 - extrair-conteudo-paginas/node_modules/.pnpm/http-proxy-agent@7.0.2/node_modules/
 - canvas-design/canvas-fonts/WorkSans-Italic.ttf
+- Skill Adianti — Panel group — Tutor Presentation > Containers > Panel group
+- Skill Adianti — Panel — Tutor Presentation > Containers > Panel
+- Skill Adianti — Scroll — Tutor Presentation > Containers > Scroll
+- Skill Adianti — Table Columns — Tutor Presentation > Containers > Table Columns
+- Skill Adianti — ContainerTableMultiCellView — Tutor Presentation > Containers
+- Skill Adianti — Table — Tutor Presentation > Containers > Table
+- Skill Adianti — Vertical Box — Tutor Presentation > Containers > Vertical Box
+- Skill Adianti — Window events — Tutor Presentation > Extras > Window events
+- Skill Adianti — Criteria API — Tutor Persistence > Collections > Criteria API
 - canvas-design/canvas-fonts/WorkSans-OFL.txt
+- Skill Adianti — Curtain filters — Tutor Organization > Complete registrations > Curtain filters
+- Skill Adianti — Customer list — Tutor Organization > Complete registrations > Customer list
 - extrair-conteudo-paginas/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules
-- extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
-- extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
-- extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
+- Skill Adianti — CustomerFormView — Tutor Organization > CompleteRegistrations
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - canvas-design/canvas-fonts/WorkSans-Regular.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
+- Skill Adianti — CustomerFormWindow — Tutor Organization > CompleteRegistrations
+- Skill Adianti — Customer Status — Tutor Organization > Query screens > Customer Status
+- Skill Adianti — Window filters — Tutor Organization > Complete registrations > Window filters
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
+- Skill Adianti — Dashboard — Tutor Presentation > Charts > Dashboard
 - canvas-design/canvas-fonts/YoungSerif-OFL.txt
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
+- Skill Adianti — Bootstrap Datagrid — Tutor Presentation > Datagrids > Bootstrap Datagrid
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - canvas-design/canvas-fonts/YoungSerif-Regular.ttf
+- Skill Adianti — Cash entries — Tutor Presentation > Reports > Cash entries
+- Skill Adianti — Datagrids with Checkbutton — Tutor Presentation > Extras > Datagrids with Checkbutton
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
+- Skill Adianti — Datagrids Columns group — Tutor Presentation > Datagrids > Datagrids Columns group
+- Skill Adianti — Datagrids Conditional actions — Tutor Presentation > Datagrids > Datagrids Conditional actions
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-
 - extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/safer-
+- Skill Adianti — Native datagrid — Tutor Presentation > Datagrids > Native datagrid
 - capturar-screenshot-paginas/SKILL.md
 - extrair-conteudo-paginas/node_modules/.pnpm/is-potential-custom-element-name@1.0
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/cssstyle
@@ -2287,6 +2391,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
+- Skill Adianti — Datatables — Tutor Presentation > Datagrids > Datatables
 - algorithmic-art/templates/generator_template.js
 - comit/__pycache__/comit.cpython-312.pyc
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
@@ -2304,6 +2409,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
+- Skill Adianti — Datagrid details — Tutor Presentation > Extras > Datagrid details
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
@@ -2408,7 +2514,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
-- extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - comunicados-internos-empresa/SKILL.md
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
@@ -2417,6 +2522,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
+- Skill Adianti — Datagrid with hiddable columns — Tutor Presentation > Datagrids > Datagrid with hiddable columns
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - comunicados-internos-empresa/examples/3p-updates.md
@@ -2443,6 +2549,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - comunicados-internos-empresa/examples/faq-answers.md
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
+- Skill Adianti — Horizontal Scrollable Datagrids — Tutor Presentation > Datagrids > Horizontal Scrollable Datagrids
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
@@ -2466,6 +2573,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
+- Skill Adianti — Datagrid with image — Tutor Presentation > Datagrids > Datagrid with image
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
@@ -2485,6 +2593,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - construir-artefatos-react/scripts/bundle-artifact.sh
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
+- Skill Adianti — Datagrids with input dialog — Tutor Presentation > Datagrids > Datagrids with input dialog
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
@@ -2568,8 +2677,8 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
+- Skill Adianti — Datagrid with input fields — Tutor Presentation > Datagrids > Datagrid with input fields
 - construir-servidor-mcp/reference/python_mcp_server.md
-- extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
@@ -2598,6 +2707,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
+- Skill Adianti — Datagrid with label — Tutor Presentation > Datagrids > Datagrid with label
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - construir-servidor-mcp/scripts/example_evaluation.xml
@@ -2677,8 +2787,8 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
-- extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - criar-editar-apresentacao/scripts/add_slide.py
+- Skill Adianti — Datagrid with links — Tutor Presentation > Datagrids > Datagrid with links
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
@@ -2690,6 +2800,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - criar-editar-apresentacao/scripts/clean.py
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
+- Skill Adianti — Datagrid calculations — Tutor Presentation > Datagrids > Datagrid calculations
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/
@@ -2803,20 +2914,31 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/ws
 - extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/xml-name-v
 - extrair-conteudo-paginas/node_modules/.pnpm/lock.yaml
+- Skill Adianti — Datagrids with popover — Tutor Presentation > Extras > Datagrids with popover
 - extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca
-- extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca
+- Skill Adianti — Datagrid SQL query — Tutor Presentation > Datagrids > Datagrid SQL query
 - extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreads
-- extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca
-- extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca
+- Skill Adianti — Datagrid Rest query — Tutor Presentation > Datagrids > Datagrid Rest query
+- Skill Adianti — Vertical Scrollable Datagrids — Tutor Presentation > Datagrids > Vertical Scrollable Datagrids
+- Skill Adianti — Datagrid search — Tutor Presentation > Datagrids > Datagrid search
+- Skill Adianti — DatagridStyleView — Tutor Presentation > Extras
+- Skill Adianti — Datagrid date conversion — Tutor Presentation > Extras > Datagrid date conversion
+- Skill Adianti — Datagrid formatting — Tutor Presentation > Datagrids > Datagrid formatting
+- Skill Adianti — Datagrid Window Form — Tutor Presentation > Extras > Datagrid Window Form
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordpro
+- Skill Adianti — Datagrids with new Window — Tutor Presentation > Datagrids > Datagrids with new Window
+- Skill Adianti — Toast notifications com TToast::show no Adianti
+- extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
+- Skill Adianti — Error dialog — Tutor Presentation > Dialogs > Error dialog
+- extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
+- Skill Adianti — Input dialog — Tutor Presentation > Dialogs > Input dialog
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
-- extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
-- extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
-- extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
+- Skill Adianti — Question dialog — Tutor Presentation > Dialogs > Question dialog
 - aplicar-temas-cores-fontes/themes/arctic-frost.md
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd
+- Skill Adianti — Toast — Tutor Presentation > Dialogs > Toast
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
@@ -2828,67 +2950,90 @@
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/shared-addi
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
+- Skill Adianti — Warning dialog — Tutor Presentation > Dialogs > Warning dialog
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
+- Skill Adianti — Document HTML->PDF — Tutor Presentation > Reports > Document HTML->PDF
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibl
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
+- Skill Adianti — Dropdown — Tutor Presentation > Utilities > Dropdown
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
 - extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
-- extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
-- extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m
+- Skill Adianti — Page with embedded PDF — Tutor Presentation > Pages > Page with embedded PDF
+- Skill Adianti — Page with embedded video — Tutor Presentation > Pages > Page with embedded video
+- Skill Adianti — Encapsulation — Tutor Persistence > Objects > Encapsulation
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/shared-comm
+- Skill Adianti — ExecuteSample — código executável dbsamples (Tutor > Exemplos executáveis)
+- Skill Adianti — Page with external content — Tutor Presentation > Pages > Page with external content
 - extrair-conteudo-paginas/node_modules/.pnpm/mime-db@1.52.0/node_modules/mime-db/
+- Skill Adianti — Window with external system — Tutor Presentation > Pages > Window with external system
 - extrair-conteudo-paginas/node_modules/.pnpm/mime-types@2.1.35/node_modules/mime-
+- Skill Adianti — FakeTransaction — código executável dbsamples (Persistence > Connections)
+- Skill Adianti — Readonly transactions — Tutor Persistence > Connections > Readonly transactions
 - extrair-conteudo-paginas/node_modules/.pnpm/ms@2.1.3/node_modules/ms/index.js
 - extrair-conteudo-paginas/node_modules/.pnpm/ms@2.1.3/node_modules/ms/license.md
 - extrair-conteudo-paginas/node_modules/.pnpm/ms@2.1.3/node_modules/ms/package.jso
 - extrair-conteudo-paginas/node_modules/.pnpm/ms@2.1.3/node_modules/ms/readme.md
+- Skill Adianti — Filesystem Icon View — Tutor Presentation > Utilities > Filesystem Icon View
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/shared-cust
+- Skill Adianti — Barcode — Tutor Presentation > Labels > Barcode
+- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
+- Skill Adianti — FormBootstrapView — Tutor Presentation > Forms
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
-- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
-- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
+- Skill Adianti — Bootstrap form grid — Tutor Presentation > Forms > Bootstrap form grid
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/shared-docu
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
+- Skill Adianti — Bootstrap form — Tutor Presentation > Forms > Bootstrap form
+- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
+- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
+- Skill Adianti — Styled buttons — Tutor Presentation > Extras > Styled buttons
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
+- Skill Adianti — Check list — Tutor Presentation > Forms > Check list
+- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
+- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
+- Skill Adianti — Client interactions — Tutor Presentation > Forms > Client interactions
+- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
+- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
+- Skill Adianti — Barcode, QRCode reader — Tutor Presentation > Forms > Barcode, QRCode reader
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
 - extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
-- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
-- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
-- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
-- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
-- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
-- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
-- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
-- extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules
+- Skill Adianti — Form components — Tutor Presentation > Forms > Form components
 - extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/data-u
 - extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/fetch-
 - extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/formda
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math
+- Skill Adianti — Conditional submission — Tutor Presentation > Extras > Conditional submission
+- Skill Adianti — Form confirmation — Tutor Presentation > Extras > Form confirmation
+- Skill Adianti — Copy button — Tutor Presentation > Extras > Copy button
+- Skill Adianti — Manual form — Tutor Presentation > Forms > Manual form
+- Skill Adianti — Automatic database selections — Tutor Presentation > Forms > Automatic database selections
+- Skill Adianti — Manual database selections — Tutor Presentation > Extras > Manual database selections
+- Skill Adianti — Sort DB List — Tutor Presentation > Forms > Sort DB List
+- Skill Adianti — Dynamic filtering — Tutor Organization > Field interactions > Dynamic filtering
 - extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f
 - aplicar-temas-cores-fontes/themes/botanical-garden.md
 - criar-editar-apresentacao/scripts/office/schemas/ISO-IEC29500-4_2016/shared-rela
-- extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f
-- extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f
-- extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f
+- Skill Adianti — Enable/disable interactions — Tutor Presentation > Forms > Enable/disable interactions
+- Skill Adianti — FormEventsPanelView — Tutor Presentation > Extras
 - extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f
 - extrair-conteudo-paginas/node_modules/.pnpm/node_modules/@asamuzakjp/css-color
 - extrair-conteudo-paginas/node_modules/.pnpm/node_modules/@csstools/color-helpers
@@ -2974,12 +3119,16 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/REA
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
+- Skill Adianti — Form events — Tutor Presentation > Extras > Form events
+- Skill Adianti — Expander — Tutor Presentation > Extras > Expander
+- Skill Adianti — Form bordered field list — Tutor Presentation > Extras > Form bordered field list
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - criar-editar-apresentacao/scripts/office/schemas/ecma/fouth-edition/opc-contentT
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
+- Skill Adianti — Field list events — Tutor Presentation > Extras > Field list events
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
@@ -2991,14 +3140,17 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
+- Skill Adianti — Form field list — Tutor Presentation > Forms > Form field list
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
+- Skill Adianti — Hierarchical combo — Tutor Organization > Field interactions > Hierarchical combo
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
+- Skill Adianti — Html Editor — Tutor Presentation > Forms > Html Editor
 - criar-editar-apresentacao/scripts/office/schemas/ecma/fouth-edition/opc-digSig.x
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
-- extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
+- Skill Adianti — Image upload and cropper — Tutor Presentation > Forms > Image upload and cropper
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
@@ -3010,10 +3162,10 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
-- extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
+- Skill Adianti — FormInlineBootstrapView — Tutor Presentation > Forms
+- Skill Adianti — Form inside Popover — Tutor Presentation > Extras > Form inside Popover
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - criar-editar-apresentacao/scripts/office/schemas/mce/mc.xsd
-- extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
 - extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis
@@ -3045,10 +3197,16 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/psl@1.15.0/node_modules/punycode
 - criar-editar-apresentacao/scripts/office/schemas/microsoft/wml-2018.xsd
 - extrair-conteudo-paginas/node_modules/.pnpm/punycode@2.3.1/node_modules/punycode
+- Skill Adianti — Likert scale — Tutor Presentation > Forms > Likert scale
+- Skill Adianti — Input masks — Tutor Presentation > Forms > Input masks
+- Skill Adianti — Bootstrap nested form — Tutor Presentation > Forms > Bootstrap nested form
 - extrair-conteudo-paginas/node_modules/.pnpm/querystringify@2.2.0/node_modules/qu
+- Skill Adianti — QRCode — Tutor Presentation > Labels > QRCode
 - criar-editar-apresentacao/scripts/office/schemas/microsoft/wml-cex-2018.xsd
+- Skill Adianti — FormQuickNotebookView — Tutor Presentation > Forms
+- Skill Adianti — FormQuickView — Tutor Presentation > Forms
+- Skill Adianti — Reusable MVC Forms — Tutor Presentation > Extras > Reusable MVC Forms
 - extrair-conteudo-paginas/node_modules/.pnpm/requires-port@1.0.0/node_modules/req
-- extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
@@ -3058,22 +3216,33 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
-- extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
+- Skill Adianti — Screen labels — Tutor Presentation > Labels > Screen labels
+- Skill Adianti — Seek button — Tutor Presentation > Forms > Seek button
 - criar-editar-apresentacao/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.
+- Skill Adianti — FormSeekTestView — Tutor Presentation > Forms
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
+- Skill Adianti — FormSessionDataView — Tutor Presentation > Extras
+- Skill Adianti — Show/hide rows — Tutor Presentation > Forms > Show/hide rows
+- Skill Adianti — Signature area — Tutor Presentation > Forms > Signature area
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
-- extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
+- Skill Adianti — Sort List — Tutor Presentation > Forms > Sort List
 - aplicar-temas-cores-fontes/themes/forest-canopy.md
 - criar-editar-apresentacao/scripts/office/schemas/microsoft/wml-symex-2015.xsd
+- Skill Adianti — Form with static post — Tutor Presentation > Forms > Form with static post
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
+- Skill Adianti — Static selections — Tutor Presentation > Forms > Static selections
+- Skill Adianti — Form validation — Tutor Presentation > Forms > Form validation
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb
+- Skill Adianti — FormVerticalBootstrapView — Tutor Presentation > Forms
+- Skill Adianti — Bootstrap vertical form — Tutor Presentation > Forms > Bootstrap vertical form
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
+- Skill Adianti — Form opening window — Tutor Presentation > Extras > Form opening window
+- Skill Adianti — Data calendar — Tutor Organization > Utilities > Data calendar
 - criar-editar-apresentacao/scripts/office/soffice.py
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
-- extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
-- extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
+- Skill Adianti — Calendar Split View — Tutor Organization > Utilities > Calendar Split View
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
@@ -3082,26 +3251,47 @@
 - criar-editar-apresentacao/scripts/office/unpack.py
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
+- Skill Adianti — Gantt with data — Tutor Organization > Utilities > Gantt with data
+- extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
+- Skill Adianti — GanttEventPanelForm — Tutor Organization > Utilities
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
-- extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
+- Skill Adianti — Gantt — Tutor Presentation > Utilities > Gantt
 - criar-editar-apresentacao/scripts/office/validate.py
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
+- Skill Adianti — HelloWorld — Tutor Presentation > Primeiros passos
+- Skill Adianti — HelloWorldAction2 — Tutor Presentation > Primeiros passos
 - extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
-- extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb
+- Skill Adianti — HelloWorldAction — Tutor Presentation > Primeiros passos
+- Skill Adianti — HelloWorldWindow — Tutor Presentation > Primeiros passos
 - extrair-conteudo-paginas/node_modules/.pnpm/safer-buffer@2.1.2/node_modules/safe
 - criar-editar-apresentacao/scripts/office/validators/__init__.py
+- Skill Adianti — Hook methods — Tutor Persistence > Objects > Hook methods
+- Skill Adianti — Icon View — Tutor Presentation > Utilities > Icon View
 - extrair-conteudo-paginas/node_modules/.pnpm/saxes@6.0.0/node_modules/saxes/READM
 - extrair-conteudo-paginas/node_modules/.pnpm/saxes@6.0.0/node_modules/saxes/packa
 - extrair-conteudo-paginas/node_modules/.pnpm/saxes@6.0.0/node_modules/saxes/saxes
 - extrair-conteudo-paginas/node_modules/.pnpm/saxes@6.0.0/node_modules/xmlchars
 - extrair-conteudo-paginas/node_modules/.pnpm/symbol-tree@3.2.4/node_modules/symbo
 - criar-editar-apresentacao/scripts/office/validators/base.py
+- Skill Adianti — Internal pages (inbox) — Tutor Presentation > Pages > Internal pages (inbox)
+- Skill Adianti — Inline editing datagrid — Tutor Organization > Batch operations > Inline editing datagrid
+- Skill Adianti — Joins — Tutor Persistence > Collections > Joins
+- Skill Adianti — Jumbotron — Tutor Presentation > Templates > Jumbotron
 - extrair-conteudo-paginas/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/psl
 - extrair-conteudo-paginas/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/puny
+- Skill Adianti — Kanban Custom — Tutor Presentation > Utilities > Kanban Custom
+- Skill Adianti — Kanban — Tutor Organization > Utilities > Kanban
 - criar-editar-apresentacao/scripts/office/validators/docx.py
 - extrair-conteudo-paginas/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/toug
+- Skill Adianti — KanbanItemForm — Tutor Organization > Utilities
+- Skill Adianti — KanbanStageForm — Tutor Organization > Utilities
+- Skill Adianti — Kanban — Tutor Presentation > Utilities > Kanban
+- Skill Adianti — Line chart — Tutor Presentation > Charts > Line chart
+- Skill Adianti — ManualConnection — código executável dbsamples (Persistence > Connections)
+- Skill Adianti — Manual connection — Tutor Persistence > Connections > Manual connection
+- Skill Adianti — Low level DDL commands — Tutor Persistence > Connections > Low level DDL commands
 - extrair-conteudo-paginas/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/univ
 - criar-editar-apresentacao/scripts/office/validators/pptx.py
 - extrair-conteudo-paginas/node_modules/.pnpm/tough-cookie@4.1.4/node_modules/url-
@@ -3115,17 +3305,28 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/tr46@5.1.1/node_modules/tr46/package
 - extrair-conteudo-paginas/node_modules/.pnpm/universalify@0.2.0/node_modules/univ
 - criar-editar-apresentacao/scripts/office/validators/redlining.py
+- Skill Adianti — Low level DML commands — Tutor Persistence > Connections > Low level DML commands
 - extrair-conteudo-paginas/node_modules/.pnpm/url-parse@1.5.10/node_modules/querys
 - extrair-conteudo-paginas/node_modules/.pnpm/url-parse@1.5.10/node_modules/requir
+- Skill Adianti — ManualPrepareQuery — código executável dbsamples (Persistence > Connections)
+- Skill Adianti — Manual Prepared Query — Tutor Persistence > Connections > Manual Prepared Query
+- Skill Adianti — ManualQuery — código executável dbsamples (Persistence > Connections)
 - criar-editar-apresentacao/scripts/thumbnail.py
+- Skill Adianti — Batch delete list — Tutor Organization > Batch operations > Batch delete list
 - extrair-conteudo-paginas/node_modules/.pnpm/url-parse@1.5.10/node_modules/url-pa
 - extrair-conteudo-paginas/node_modules/.pnpm/w3c-xmlserializer@5.0.0/node_modules
+- Skill Adianti — MessageView — Tutor Presentation > Extras
+- Skill Adianti — Modal form — Tutor Presentation > Forms > Modal form
+- Skill Adianti — Modal window — Tutor Presentation > Pages > Modal window
+- Skill Adianti — MultiCheck2View — Tutor Organization > BatchOperations
 - aplicar-temas-cores-fontes/themes/golden-hour.md
 - criar-editar-documento-word/LICENSE.txt
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
+- Skill Adianti — Multi check form — Tutor Organization > Batch operations > Multi check form
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
+- Skill Adianti — MultiStepMultiForm2View — Tutor Presentation > Pages
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
@@ -3134,43 +3335,64 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
+- Skill Adianti — Multi Step Wizard — Tutor Presentation > Pages > Multi Step Wizard
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
-- extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
+- Skill Adianti — MultiStepRegistration2View — Tutor Presentation > Pages
+- Skill Adianti — MultiStepRegistration3View — Tutor Presentation > Pages
 - criar-editar-documento-word/scripts/__init__.py
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
+- Skill Adianti — MultiStepRegistration4View — Tutor Presentation > Pages
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
+- Skill Adianti — NewWindowForm — Tutor Presentation > Extras
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
+- Skill Adianti — ObjectAggregation — código executável dbsamples (Persistence > Objects)
+- Skill Adianti — ObjectComposition — código executável dbsamples (Persistence > Objects)
 - criar-editar-documento-word/scripts/accept_changes.py
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
-- extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
-- extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
+- Skill Adianti — Alternative Object Store — Tutor Persistence > Objects > Alternative Object Store
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - criar-editar-documento-word/scripts/comment.py
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
 - extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu
+- Skill Adianti — ObjectCreation — código executável dbsamples (Persistence > Objects)
 - extrair-conteudo-paginas/node_modules/.pnpm/webidl-conversions@7.0.0/node_module
 - extrair-conteudo-paginas/node_modules/.pnpm/whatwg-encoding@3.1.1/node_modules/i
+- Skill Adianti — ObjectCriteria — código executável dbsamples (Persistence > Objects)
+- Skill Adianti — ObjectDelete — código executável dbsamples (Persistence > Objects)
 - criar-editar-documento-word/scripts/office/helpers/__init__.py
+- Skill Adianti — Object Delete — Tutor Persistence > Objects > Object Delete
 - extrair-conteudo-paginas/node_modules/.pnpm/whatwg-encoding@3.1.1/node_modules/w
+- Skill Adianti — ObjectEncapsulation — código executável dbsamples (Persistence > Objects)
+- Skill Adianti — ObjectFirstLast — código executável dbsamples (Persistence > Objects)
+- Skill Adianti — First and Last ID — Tutor Persistence > Objects > First and Last ID
+- Skill Adianti — ObjectFromArray — código executável dbsamples (Persistence > Objects)
 - extrair-conteudo-paginas/node_modules/.pnpm/whatwg-mimetype@4.0.0/node_modules/w
 - criar-editar-documento-word/scripts/office/helpers/merge_runs.py
+- Skill Adianti — Array conversion — Tutor Persistence > Objects > Array conversion
 - extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/tr46
 - extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/webid
-- extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatw
+- Skill Adianti — ObjectJoin — código executável dbsamples (Persistence > Objects)
+- Skill Adianti — ObjectLazy — código executável dbsamples (Persistence > Objects)
+- Skill Adianti — Lazy Load — Tutor Persistence > Objects > Lazy Load
+- Skill Adianti — ObjectLoad2 — código executável dbsamples (Persistence > Objects)
+- Skill Adianti — Object Static Load — Tutor Persistence > Objects > Object Static Load
 - criar-editar-documento-word/scripts/office/helpers/simplify_redlines.py
 - extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatw
+- Skill Adianti — ObjectLoad — código executável dbsamples (Persistence > Objects)
 - extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatw
-- extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatw
-- extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatw
+- Skill Adianti — Object Load — Tutor Persistence > Objects > Object Load
+- Skill Adianti — ObjectRender — código executável dbsamples (Persistence > Objects)
+- Skill Adianti — Object Render and evaluate — Tutor Persistence > Objects > Object Render and evaluate
+- Skill Adianti — ObjectStore — código executável dbsamples (Persistence > Objects)
 - criar-editar-documento-word/scripts/office/pack.py
 - extrair-conteudo-paginas/node_modules/.pnpm/ws@8.21.0/node_modules/ws/LICENSE
 - extrair-conteudo-paginas/node_modules/.pnpm/ws@8.21.0/node_modules/ws/README.md
@@ -3193,13 +3415,21 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/xml-name-validator@5.0.0/node_module
 - aplicar-temas-cores-fontes/themes/midnight-galaxy.md
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart
+- Skill Adianti — Object Store — Tutor Persistence > Objects > Object Store
+- Skill Adianti — ObjectToJson — código executável dbsamples (Persistence > Objects)
+- Skill Adianti — JSON conversion — Tutor Persistence > Objects > JSON conversion
 - extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
-- extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
+- Skill Adianti — ObjectUpdate — código executável dbsamples (Persistence > Objects)
+- Skill Adianti — Object Update — Tutor Persistence > Objects > Object Update
+- Skill Adianti — On demand window — Tutor Presentation > Pages > On demand window
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagr
+- Skill Adianti — Page center — Tutor Presentation > Pages > Page center
+- Skill Adianti — Designed Danfe — Tutor Presentation > Reports > Designed Danfe
+- Skill Adianti — Designed shapes — Tutor Presentation > Reports > Designed shapes
 - extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
+- Skill Adianti — Pie chart — Tutor Presentation > Charts > Pie chart
 - extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
-- extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
-- extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars
+- Skill Adianti — Cards — Tutor Organization > Utilities > Cards
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/dml-locke
 - extrair-conteudo-paginas/node_modules/@mozilla/readability
 - extrair-conteudo-paginas/node_modules/jsdom
@@ -3239,7 +3469,7 @@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
-- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- Skill Adianti — Product catalog — Tutor Organization > Utilities > Product catalog
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordp
@@ -3248,19 +3478,20 @@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- Skill Adianti — ProductForm — Tutor Organization > CompleteRegistrations
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- Skill Adianti — Product list — Tutor Organization > Complete registrations > Product list
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
-- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
-- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- Skill Adianti — ProductSeek — Tutor Presentation > Forms
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/shared-ad
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
@@ -3269,10 +3500,12 @@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- Skill Adianti — Batch selection list — Tutor Organization > Batch operations > Batch selection list
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bi
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- Skill Adianti — Batch update list — Tutor Organization > Batch operations > Batch update list
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
@@ -3285,23 +3518,68 @@
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/shared-co
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- Skill Adianti — RegisterLog — código executável dbsamples (Persistence > Objects)
+- Skill Adianti — RegisterLogDump — código executável dbsamples (Persistence > Objects)
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- Skill Adianti — Transaction log dump — Tutor Persistence > Objects > Transaction log dump
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- Skill Adianti — RegisterLogFunction — código executável dbsamples (Persistence > Objects)
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/shared-cu
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/l
+- Skill Adianti — Transaction logger function — Tutor Persistence > Objects > Transaction logger function
 - leitor-pagina-node/node_modules/.pnpm/@csstools+color-helpers@5.1.0/node_modules
+- Skill Adianti — Transaction class log — Tutor Persistence > Objects > Transaction class log
+- Skill Adianti — RelationShortcuts — código executável dbsamples (Persistence > Relationships)
+- Skill Adianti — Relationships shortcuts — Tutor Persistence > Relationships > Relationships shortcuts
+- Skill Adianti — Sale master-detail form I — Tutor Organization > Complete registrations > Sale master-detail form I
+- Skill Adianti — Sale list — Tutor Organization > Complete registrations > Sale list
+- Skill Adianti — Sale master-detail form II — Tutor Organization > Complete registrations > Sale master-detail form II
 - leitor-pagina-node/node_modules/.pnpm/@csstools+css-calc@2.1.4_@c_e8d5cb57048a11
+- Skill Adianti — Sales chart — Tutor Organization > Query screens > Sales chart
+- Skill Adianti — SaleSidePanelView — Tutor Organization > CompleteRegistrations
+- Skill Adianti — Active Records — Tutor Persistence > Objects > Active Records
+- Skill Adianti — Database Transactions — Tutor Persistence > Connections > Database Transactions
+- Skill Adianti — Side curtain — Tutor Presentation > Pages > Side curtain
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/shared-do
+- Skill Adianti — SingleEmailForm — Tutor Presentation > Extras
 - leitor-pagina-node/node_modules/.pnpm/@csstools+css-color-parser@_ac3eaa9e6357e2
+- Skill Adianti — Common page — Tutor Presentation > Pages > Common page
+- Skill Adianti — Common window — Tutor Presentation > Pages > Common window
+- Skill Adianti — SourceCode — Tutor Presentation > Utilities > SourceCode
+- Skill Adianti — SplitLeftRegisterView — Tutor Organization > StandardControls
+- Skill Adianti — Side by side Form/DataGrid — Tutor Organization > Standard controls > Side by side Form/DataGrid
 - leitor-pagina-node/node_modules/.pnpm/@csstools+css-parser-algori_f97be086dec111
+- Skill Adianti — SplitRightRegisterView — Tutor Organization > StandardControls
+- Skill Adianti — Standard DataGrid — Tutor Organization > Standard controls > Standard DataGrid
+- Skill Adianti — Standard Form/DataGrid with curtain — Tutor Organization > Standard controls > Standard Form/DataGrid with curtain
+- Skill Adianti — Standard Form/DataGrid — Tutor Organization > Standard controls > Standard Form/DataGrid
+- Skill Adianti — Standard Form/DataGrid with window — Tutor Organization > Standard controls > Standard Form/DataGrid with window
+- Skill Adianti — Standard Form — Tutor Organization > Standard controls > Standard Form
+- Skill Adianti — Steps — Tutor Presentation > Utilities > Steps
 - leitor-pagina-node/node_modules/.pnpm/@csstools+css-tokenizer@3.0.4/node_modules
+- Skill Adianti — Tabular report — Tutor Presentation > Reports > Tabular report
+- Skill Adianti — Report with manual query — Tutor Presentation > Reports > Report with manual query
+- Skill Adianti — Tabular report over view — Tutor Presentation > Reports > Tabular report over view
+- Skill Adianti — HTML manual form — Tutor Presentation > Templates > HTML manual form
 - leitor-pagina-node/node_modules/.pnpm/@mozilla+readability@0.5.0/node_modules/@m
+- Skill Adianti — Invoice — Tutor Presentation > Reports > Invoice
+- Skill Adianti — Template View repeated — Tutor Presentation > Templates > Template View repeated
+- Skill Adianti — Template View basic — Tutor Presentation > Templates > Template View basic
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/shared-ma
+- Skill Adianti — Template View masks — Tutor Presentation > Templates > Template View masks
+- Skill Adianti — TestCitySeek — Tutor Presentation > Forms
+- Skill Adianti — Texts and links — Tutor Presentation > Extras > Texts and links
+- Skill Adianti — Timeline — Tutor Presentation > Utilities > Timeline
+- Skill Adianti — TransactionInfo — código executável dbsamples (Persistence > Connections)
 - leitor-pagina-node/node_modules/.pnpm/agent-base@7.1.4/node_modules/agent-base/L
 - leitor-pagina-node/node_modules/.pnpm/agent-base@7.1.4/node_modules/agent-base/R
 - leitor-pagina-node/node_modules/.pnpm/agent-base@7.1.4/node_modules/agent-base/d
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/shared-re
+- Skill Adianti — Transaction information — Tutor Persistence > Connections > Transaction information
+- Skill Adianti — Tree View — Tutor Presentation > Utilities > Tree View
+- Skill Adianti — Video Cards — Tutor Presentation > Utilities > Video Cards
+- Skill Adianti — Window with embedded PDF — Tutor Presentation > Pages > Window with embedded PDF
 - leitor-pagina-node/node_modules/.pnpm/agent-base@7.1.4/node_modules/agent-base/p
 - leitor-pagina-node/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit/LICEN
 - leitor-pagina-node/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit/READM
@@ -3325,15 +3603,11 @@
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
-- leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
-- leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/vml-prese
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
-- leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - criar-editar-documento-word/scripts/office/schemas/ISO-IEC29500-4_2016/vml-sprea
-- leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/combined-stream@1.0.8/node_modules/combine
 - leitor-pagina-node/node_modules/.pnpm/combined-stream@1.0.8/node_modules/delayed
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/@asamuzakjp/cs
@@ -3381,9 +3655,7 @@
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
-- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - criar-editar-documento-word/scripts/office/schemas/ecma/fouth-edition/opc-digSig
-- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
@@ -3401,10 +3673,8 @@
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
-- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - aplicar-temas-cores-fontes/themes/sunset-boulevard.md
 - criar-editar-documento-word/scripts/office/schemas/mce/mc.xsd
-- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
@@ -3440,9 +3710,7 @@
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/call-bind-
 - criar-editar-documento-word/scripts/office/schemas/microsoft/wml-cid-2016.xsd
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
-- leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
 - criar-editar-documento-word/scripts/office/schemas/microsoft/wml-sdtdatahash-202
-- leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/es-errors
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/gopd
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/LICEN
@@ -3472,7 +3740,6 @@
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - aplicar-temas-cores-fontes/themes/tech-innovation.md
 - criar-editar-documento-word/scripts/office/validate.py
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
@@ -3491,10 +3758,7 @@
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - criar-editar-documento-word/scripts/office/validators/base.py
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
@@ -3540,11 +3804,8 @@
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-erro
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - criar-editar-documento-word/scripts/templates/commentsIds.xml
-- leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
-- leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - arte-algoritmica-generativa/LICENSE.txt
 - criar-editar-documento-word/scripts/templates/people.xml
-- leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - leitor-pagina-node/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_modules/es-e
 - leitor-pagina-node/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_modules/es-s
 - criar-editar-planilhas-excel/LICENSE.txt
@@ -3621,17 +3882,11 @@
 - leitor-pagina-node/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd/tsconfig.json
 - criar-editar-planilhas-excel/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main
 - leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
-- leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
-- leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - criar-editar-planilhas-excel/scripts/office/schemas/ISO-IEC29500-4_2016/dml-pict
-- leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-sym
-- leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - criar-editar-planilhas-excel/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spre
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
-- leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - criar-editar-planilhas-excel/scripts/office/schemas/ISO-IEC29500-4_2016/dml-word
-- leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - leitor-pagina-node/node_modules/.pnpm/hasown@2.0.4/node_modules/function-bind
 - leitor-pagina-node/node_modules/.pnpm/hasown@2.0.4/node_modules/hasown/.github/F
 - leitor-pagina-node/node_modules/.pnpm/hasown@2.0.4/node_modules/hasown/.nycrc
@@ -3659,12 +3914,8 @@
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/L
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/R
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
-- leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
-- leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
-- leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - arte-algoritmica-generativa/templates/generator_template.js
 - criar-editar-planilhas-excel/scripts/office/schemas/ISO-IEC29500-4_2016/shared-c
-- leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/l
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/p
@@ -3734,7 +3985,6 @@
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
-- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - criar-editar-planilhas-excel/scripts/office/schemas/ISO-IEC29500-4_2016/vml-offi
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
@@ -3790,7 +4040,6 @@
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
-- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - criar-editar-planilhas-excel/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
@@ -3814,7 +4063,6 @@
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - criar-editar-planilhas-excel/scripts/office/schemas/ecma/fouth-edition/opc-coreP
-- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
@@ -4126,7 +4374,6 @@
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
-- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - css-root-reverse/SKILL.md
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
@@ -4218,7 +4465,6 @@
 - leitor-pagina-node/node_modules/.pnpm/lock.yaml
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/LI
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/RE
-- leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
 - delegar-tarefas/agy-tasks/templates/task-template.md
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/pa
@@ -4230,9 +4476,7 @@
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
-- leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - design-interface-usuario/LICENSE.txt
-- leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
@@ -4246,9 +4490,7 @@
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
-- leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - design-visual-artistico/LICENSE.txt
-- leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
@@ -4271,10 +4513,8 @@
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
-- leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - canvas-design/SKILL.md
 - design-visual-artistico/canvas-fonts/ArsenalSC-Regular.ttf
-- leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
@@ -4288,9 +4528,7 @@
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
-- leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - design-visual-artistico/canvas-fonts/BigShoulders-OFL.txt
-- leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
@@ -4401,11 +4639,7 @@
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
-- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - design-visual-artistico/canvas-fonts/DMMono-Regular.ttf
-- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
-- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
-- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
@@ -4456,15 +4690,11 @@
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - design-visual-artistico/canvas-fonts/IBMPlexMono-OFL.txt
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - design-visual-artistico/canvas-fonts/IBMPlexMono-Regular.ttf
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
@@ -4484,15 +4714,11 @@
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - design-visual-artistico/canvas-fonts/IBMPlexSerif-Italic.ttf
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - design-visual-artistico/canvas-fonts/IBMPlexSerif-Regular.ttf
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/safer-buffer@2.1.2/node_modules/safer-buff
 - leitor-pagina-node/node_modules/.pnpm/saxes@6.0.0/node_modules/saxes/README.md
 - design-visual-artistico/canvas-fonts/InstrumentSans-Bold.ttf
@@ -4542,7 +4768,6 @@
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
-- leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - design-visual-artistico/canvas-fonts/Italiana-OFL.txt
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
@@ -4552,10 +4777,7 @@
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
-- leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - design-visual-artistico/canvas-fonts/Italiana-Regular.ttf
-- leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
-- leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - design-visual-artistico/canvas-fonts/JetBrainsMono-Bold.ttf
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
@@ -4576,11 +4798,7 @@
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/tr46
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/webidl-conv
 - design-visual-artistico/canvas-fonts/Jura-Light.ttf
-- leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
-- leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
-- leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - design-visual-artistico/canvas-fonts/Jura-Medium.ttf
-- leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/ws@8.21.0/node_modules/ws/LICENSE
 - leitor-pagina-node/node_modules/.pnpm/ws@8.21.0/node_modules/ws/README.md
@@ -4996,7 +5214,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
-- extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - canvas-design/canvas-fonts/DMMono-Regular.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
@@ -5008,7 +5225,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - canvas-design/canvas-fonts/EricaOne-OFL.txt
-- extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
@@ -5040,9 +5256,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
-- extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - canvas-design/canvas-fonts/GeistMono-Regular.ttf
-- extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
 - extrair-conteudo-paginas/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_mod
@@ -5064,11 +5278,7 @@
 - canvas-design/canvas-fonts/IBMPlexSerif-BoldItalic.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
 - extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
-- extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
-- extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
-- extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
 - canvas-design/canvas-fonts/IBMPlexSerif-Italic.ttf
-- extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
 - extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
 - canvas-design/canvas-fonts/IBMPlexSerif-Regular.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit
@@ -5076,11 +5286,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
 - extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
 - extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
-- extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
 - canvas-design/canvas-fonts/InstrumentSans-Bold.ttf
-- extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
-- extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
-- extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
 - extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
 - extrair-conteudo-paginas/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_m
 - canvas-design/canvas-fonts/InstrumentSans-BoldItalic.ttf
@@ -5096,9 +5302,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
-- extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - canvas-design/canvas-fonts/InstrumentSans-OFL.txt
-- extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
@@ -5133,9 +5337,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
-- extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - canvas-design/canvas-fonts/Italiana-OFL.txt
-- extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
 - extrair-conteudo-paginas/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle
@@ -5194,8 +5396,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/call
 - extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dund
 - canvas-design/canvas-fonts/LibreBaskerville-OFL.txt
-- extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dund
-- extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dund
 - extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/es-e
 - extrair-conteudo-paginas/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/gopd
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
@@ -5238,7 +5438,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
-- extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - canvas-design/canvas-fonts/Lora-OFL.txt
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
@@ -5250,8 +5449,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - canvas-design/canvas-fonts/Lora-Regular.ttf
-- extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
-- extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
@@ -5276,7 +5473,6 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
-- extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - agy/agy.py
 - canvas-design/canvas-fonts/NationalPark-Regular.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
@@ -5284,10 +5480,7 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/entities@6.0.1/node_modules/entities
 - extrair-conteudo-paginas/node_modules/.pnpm/es-define-property@1.0.1/node_module
 - canvas-design/canvas-fonts/NothingYouCouldDo-OFL.txt
-- extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
-- extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
 - canvas-design/canvas-fonts/NothingYouCouldDo-Regular.ttf
-- extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
 - extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
 - extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
 - extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
@@ -5295,15 +5488,9 @@
 - extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
 - extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
 - extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
-- extrair-conteudo-paginas/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-erro
-- extrair-conteudo-paginas/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/e
-- extrair-conteudo-paginas/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/e
 - canvas-design/canvas-fonts/Outfit-OFL.txt
 - extrair-conteudo-paginas/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/e
-- extrair-conteudo-paginas/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/e
 - canvas-design/canvas-fonts/Outfit-Regular.ttf
-- extrair-conteudo-paginas/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/e
-- extrair-conteudo-paginas/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_module
 - canvas-design/canvas-fonts/PixelifySans-Medium.ttf
 - extrair-conteudo-paginas/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_module
 - canvas-design/canvas-fonts/PixelifySans-OFL.txt
@@ -5427,7 +5614,6 @@
 - set_status(sys.argv[2], sys.argv[3])
 - elif command == "note":
 - print("Uso: agy.py note <id> 'nota text'")
-- else:
 - add_note(sys.argv[2], sys.argv[3])
 - elif command == "done":
 - if len(sys.argv) < 3:
@@ -5462,7 +5648,6 @@
 - elif os.path.isfile(script_ignore):
 - ignore_file = script_ignore
 - print(f"Usando .mergeignore do script: {ignore_file}")
-- else:
 - print("Nenhum .mergeignore encontrado.")
 - with open(ignore_file, "r", encoding="utf-8") as f:
 - for line in f:
@@ -5508,7 +5693,6 @@
 - script_dir = os.path.dirname(os.path.abspath(__file__))
 - if len(sys.argv) > 1:
 - base_dir = sys.argv[1].strip('"').strip("'")
-- else:
 - base_dir = script_dir
 - if not os.path.isdir(base_dir):
 - print(f"Caminho inválido: {base_dir}")
@@ -5583,7 +5767,6 @@
 - with open(filepath, "w", encoding="utf-8") as f:
 - if 0 <= idx < len(skills):
 - remove_skill(skills[idx])
-- else:
 - print("Numero invalido.")
 - f.write(content)
 - agy/SKILL.zip
@@ -5721,7 +5904,6 @@
 - "id": "comunicados_internos_empresa_examples_company_newsletter_prioritization",
 - "norm_label": "prioritization"
 - },
-- {
 - "label": "Example Formats",
 - "file_type": "document",
 - "source_file": "comunicados-internos-empresa/examples/company-newsletter.md",
@@ -5856,7 +6038,6 @@
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill",
 - },
-- "source_file": "arte-algoritmica-generativa/templates/generator_template.js",
 - {
 - "label": "Guia de Desenvolvimento de Servidores MCP",
 - "_origin": "ast",
@@ -5883,7 +6064,6 @@
 - {
 - "label": "\ud83d\ude80 Fluxo de Trabalho de Alto N\u00edvel",
 - "file_type": "document",
-- "source_file": "construir-servidor-mcp/SKILL.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_fluxo_de_trabalho_de_alto_n\u00edvel",
 - "norm_label": "\ud83d\ude80 fluxo de trabalho de alto nivel"
@@ -5900,7 +6080,6 @@
 - {
 - "label": "1.1 Compreender o Design Moderno do MCP",
 - "file_type": "document",
-- "source_location": "L24",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_1_1_compreender_o_design_moderno_do_mcp",
 - "norm_label": "1.1 compreender o design moderno do mcp"
@@ -5946,7 +6125,6 @@
 - "source_location": "L81",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_2_1_configure_estrutura_do_projeto",
-- "community": 27,
 - "norm_label": "2.1 configure estrutura do projeto"
 - },
 - "source_location": "L146",
@@ -6064,7 +6242,6 @@
 - {
 - "label": "Documenta\u00e7\u00e3o Principal MCP (Carregue Primeiro)",
 - "file_type": "document",
-- "source_file": "construir-servidor-mcp/SKILL.md",
 - "source_location": "L203",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_documenta\u00e7\u00e3o_principal_mcp_carregu
@@ -6083,7 +6260,6 @@
 - {
 - "label": "Guias de Implementa\u00e7\u00e3o Espec\u00edficos por Linguagem (Carre
 - "file_type": "document",
-- "source_file": "construir-servidor-mcp/SKILL.md",
 - "source_location": "L216",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_guias_de_implementa\u00e7\u00e3o_espec\u00ed
@@ -6093,7 +6269,6 @@
 - {
 - "label": "Guia de Avalia\u00e7\u00e3o (Carregue Durante Fase 4)",
 - "file_type": "document",
-- "source_file": "construir-servidor-mcp/SKILL.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_skill_guia_de_avalia\u00e7\u00e3o_carregue_durante
 - "norm_label": "guia de avaliacao (carregue durante fase 4)"
@@ -6112,7 +6287,6 @@
 - "label": "wrapAround()",
 - {
 - "label": "MCP Server Evaluation Guide",
-- "file_type": "document",
 - "source_file": "construir-servidor-mcp/reference/evaluation.md",
 - "source_location": "L1",
 - "_origin": "ast",
@@ -6236,7 +6410,6 @@
 - "source_file": "construir-servidor-mcp/reference/evaluation.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_evaluation_verification",
-- "community": 3,
 - "norm_label": "verification"
 - },
 - "_origin": "ast",
@@ -6247,7 +6420,6 @@
 - "source_location": "L137",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_evaluation_readability",
-- "community": 3,
 - "norm_label": "readability"
 - },
 - graphify-out/cache/ast/v0.9.10/9a0f64edc4694df02a06b84592f7c6510d217b3fb946908ca
@@ -6286,7 +6458,6 @@
 - {
 - "label": "Step 1: Documentation Inspection",
 - "file_type": "document",
-- "source_file": "construir-servidor-mcp/reference/evaluation.md",
 - "source_location": "L176",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_evaluation_step_1_documentation_inspecti
@@ -6390,14 +6561,12 @@
 - "source_location": "L366",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_evaluation_tips_for_creating_quality_eva
-- "community": 3,
 - "norm_label": "tips for creating quality evaluations"
 - },
 - {
 - {
 - "label": "Running Evaluations",
 - "file_type": "document",
-- "source_file": "construir-servidor-mcp/reference/evaluation.md",
 - "source_location": "L378",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_evaluation_running_evaluations",
@@ -6423,9 +6592,7 @@
 - "community": 3,
 - "norm_label": "evaluation file format"
 - },
-- {
 - "file_type": "document",
-- "source_file": "construir-servidor-mcp/reference/evaluation.md",
 - "source_location": "L418",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_evaluation_running_evaluations_418",
@@ -6439,7 +6606,6 @@
 - "source_location": "L426",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_evaluation_1_local_stdio_server",
-- "community": 3,
 - "norm_label": "1. local stdio server"
 - },
 - "_origin": "ast",
@@ -6539,7 +6705,6 @@
 - {
 - "label": "Timeout Issues",
 - "file_type": "document",
-- "source_file": "construir-servidor-mcp/reference/evaluation.md",
 - "source_location": "L596",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_evaluation_timeout_issues",
@@ -6590,7 +6755,6 @@
 - {
 - {
 - "file_type": "document",
-- "source_file": "construir-servidor-mcp/reference/mcp_best_practices.md",
 - "source_location": "L14",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_mcp_best_practices_response_formats",
@@ -6598,7 +6762,6 @@
 - "label": "vectorFromAngle()",
 - {
 - "file_type": "document",
-- "source_file": "construir-servidor-mcp/reference/mcp_best_practices.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_mcp_best_practices_pagination",
 - "norm_label": "pagination"
@@ -6627,7 +6790,6 @@
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_mcp_best_practices_tool_naming_and_desig
 - "norm_label": "tool naming and design"
-- },
 - "_origin": "ast",
 - {
 - "label": "Tool Naming",
@@ -6640,12 +6802,10 @@
 - {
 - "label": "Tool Design",
 - "file_type": "document",
-- "source_file": "construir-servidor-mcp/reference/mcp_best_practices.md",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_mcp_best_practices_tool_design",
 - "norm_label": "tool design"
 - },
-- "community": 13,
 - {
 - "label": "Response Formats",
 - "file_type": "document",
@@ -6778,7 +6938,6 @@
 - {
 - "label": "Testing Requirements",
 - "file_type": "document",
-- "source_file": "construir-servidor-mcp/reference/mcp_best_practices.md",
 - "source_location": "L231",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_reference_mcp_best_practices_testing_requirements"
@@ -6792,17 +6951,14 @@
 - },
 - {
 - "file_type": "code",
-- "source_location": "L12",
 - "_origin": "ast",
 - graphify-out/cache/ast/v0.9.10/9fa87ff84d7339cfc1c571084fd7969f54fbe3456535c38f5
 - "id": "comitar_alteracoes_comit_run_git_command",
-- "community": 16,
 - "norm_label": "run_git_command()"
 - },
 - {
 - "label": "get_staged_files()",
 - "file_type": "code",
-- "source_file": "comitar-alteracoes/comit.py",
 - "_origin": "ast",
 - graphify-out/cache/ast/v0.9.10/9fc21ab4bff18358ef8249d51738ed87e3b37c4b42b88aeeb
 - "id": "comitar_alteracoes_comit_get_staged_files",
@@ -6831,7 +6987,6 @@
 - "_origin": "ast",
 - graphify-out/cache/ast/v0.9.10/a50581c694a86003a2cc7426fa624addda9d2e91950114f3e
 - "id": "comitar_alteracoes_comit_scan_directory",
-- "community": 16,
 - "norm_label": "scan_directory()"
 - },
 - {
@@ -6849,13 +7004,11 @@
 - graphify-out/.graphify_labels.json
 - graphify-out/cache/ast/v0.9.10/a6041b490bb1299e11cd439ba74ff7f7e797cc52c2e50a7a2
 - "id": "comitar_alteracoes_comit_scan_php_classes",
-- "community": 16,
 - "norm_label": "scan_php_classes()"
 - },
 - {
 - "label": "make_table()",
 - "file_type": "code",
-- "source_file": "comitar-alteracoes/comit.py",
 - "_origin": "ast",
 - graphify-out/cache/ast/v0.9.10/a912e1ff17859bfc184f44d5fd9f487a464113ad65c155862
 - "id": "comitar_alteracoes_comit_make_table",
@@ -6890,11 +7043,9 @@
 - },
 - {
 - "file_type": "code",
-- "source_file": "comitar-alteracoes/comit.py",
 - "_origin": "ast",
 - graphify-out/cache/ast/v0.9.10/ad9908777e5176cc8b44b7ce81b11cc5058aac62693d2c574
 - "id": "comitar_alteracoes_comit_main",
-- "norm_label": "main()"
 - },
 - {
 - "label": "Gera a \u00e1rvore de diret\u00f3rios em formato ASCII",
@@ -6916,7 +7067,6 @@
 - {
 - "label": "Escaneia um diret\u00f3rio app/{subdir} e retorna lista de arquivos .p
 - "file_type": "rationale",
-- "source_file": "comitar-alteracoes/comit.py",
 - "_origin": "ast",
 - graphify-out/cache/ast/v0.9.10/ae5048396f62b5227fa46357f45cd8fb9482f8c54deaaf65e
 - "id": "comitar_alteracoes_comit_rationale_81",
@@ -6948,7 +7098,6 @@
 - "_origin": "ast",
 - graphify-out/cache/ast/v0.9.10/b83f7e7a07622431821f15b7f341fc2edc5b8aea61841534c
 - "id": "comitar_alteracoes_comit_rationale_182",
-- "community": 16,
 - "norm_label": "atualiza a base de dados graphify-out apos o commit"
 - },
 - {
@@ -7039,7 +7188,6 @@
 - graphify-out/cache/ast/v0.9.10/cb8e3222b44f10eebb9b7906e482b3d12c9d93c321c404704
 - {
 - "file_type": "code",
-- "source_file": "construir-servidor-mcp/scripts/connections.py",
 - "source_location": "L21",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_connections_mcpconnection_create_context",
@@ -7079,7 +7227,6 @@
 - graphify-out/cache/ast/v0.9.10/d4749be801d01d0b4d6a87ff81d1f21138b033ac0c996b15e
 - {
 - "file_type": "code",
-- "source_file": "",
 - "source_location": "",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_connections_py_any",
@@ -7095,13 +7242,11 @@
 - "norm_label": ".call_tool()"
 - },
 - graphify-out/cache/ast/v0.9.10/d6bffaabf8977f70ace1837c74bab6f3ec020a565e8fc4b8e
-- {
 - "label": "MCPConnectionStdio",
 - "file_type": "code",
 - "source_location": "L73",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_connections_mcpconnectionstdio",
-- "community": 1,
 - "norm_label": "mcpconnectionstdio"
 - },
 - graphify-out/cache/ast/v0.9.10/d75cdb227ba01c470e6c026f5b1ff123bb60c20da7b151ce8
@@ -7132,7 +7277,6 @@
 - graphify-out/cache/ast/v0.9.10/d9018edfc0487d54cac8503455144bf54647c6d6a9ba5f4db
 - {
 - "file_type": "code",
-- "source_file": "construir-servidor-mcp/scripts/connections.py",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_connections_mcpconnectionsse_init",
 - "community": 1,
@@ -7161,7 +7305,6 @@
 - "source_location": "L103",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_connections_mcpconnectionhttp_init",
-- "community": 1,
 - },
 - graphify-out/cache/ast/v0.9.10/dd0babd604fd2c9fc6436198e1d56e7a054f6676e0c50b847
 - {
@@ -7220,8 +7363,6 @@
 - graphify-out/cache/ast/v0.9.10/e27af02f1979d7e467bf0c25c376e576f2567851dc026eb1c
 - {
 - "label": "Clean up MCP server connection resources.",
-- "file_type": "rationale",
-- "source_file": "construir-servidor-mcp/scripts/connections.py",
 - "source_location": "L49",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_connections_rationale_49",
@@ -7235,7 +7376,6 @@
 - "source_file": "construir-servidor-mcp/scripts/connections.py",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_connections_rationale_56",
-- "community": 1,
 - "norm_label": "retrieve available tools from the mcp server."
 - },
 - graphify-out/cache/ast/v0.9.10/e5afca31e90957577ea1fad86d2faa7412163459c69f4933e
@@ -7269,7 +7409,6 @@
 - {
 - "label": "MCP connection using Streamable HTTP.",
 - "file_type": "rationale",
-- "source_file": "construir-servidor-mcp/scripts/connections.py",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_connections_rationale_101",
 - "norm_label": "mcp connection using streamable http."
@@ -7289,7 +7428,6 @@
 - {
 - "label": "evaluation.py",
 - "file_type": "code",
-- "source_file": "construir-servidor-mcp/scripts/evaluation.py",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_evaluation",
@@ -7356,7 +7494,6 @@
 - {
 - "label": "evaluate_single_task()",
 - "file_type": "code",
-- "source_file": "construir-servidor-mcp/scripts/evaluation.py",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_evaluation_evaluate_single_task",
 - "community": 1,
@@ -7375,7 +7512,6 @@
 - {
 - "label": "parse_headers()",
 - "file_type": "code",
-- "source_file": "construir-servidor-mcp/scripts/evaluation.py",
 - "source_location": "L275",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_evaluation_parse_headers",
@@ -7386,7 +7522,6 @@
 - {
 - "label": "parse_env_vars()",
 - "file_type": "code",
-- "source_file": "construir-servidor-mcp/scripts/evaluation.py",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_evaluation_parse_env_vars",
 - "community": 1,
@@ -7472,7 +7607,6 @@
 - "source_location": "L291",
 - "_origin": "ast",
 - "id": "construir_servidor_mcp_scripts_evaluation_rationale_291",
-- "community": 1,
 - "norm_label": "parse environment variable strings in format 'key=value' into a d
 - },
 - graphify-out/manifest.json
@@ -7506,7 +7640,6 @@
 - {
 - "label": "Path",
 - "file_type": "code",
-- "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_add_slide_py_path",
 - },
@@ -7707,7 +7840,6 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_merge_runs_get_child",
-- "community": 20,
 - },
 - stdout, _, _ = run_git_command(["git", "rev-parse", "--short", "HEAD"], cwd)
 - {
@@ -7751,10 +7883,8 @@
 - {
 - "label": "_first_child_run()",
 - "file_type": "code",
-- "source_file": "criar-editar-apresentacao/scripts/office/helpers/merge_runs.py",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_merge_runs_first_child_r
-- "community": 20,
 - },
 - os.makedirs(day_dir)
 - {
@@ -7772,10 +7902,8 @@
 - filename = f"commit-{timestamp}-{commit_id}.md"
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-apresentacao/scripts/office/helpers/merge_runs.py",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_merge_runs_is_run",
-- "community": 20,
 - },
 - filepath = os.path.join(day_dir, filename)
 - {
@@ -7788,7 +7916,6 @@
 - {
 - "label": "_merge_run_content()",
 - "file_type": "code",
-- "source_file": "criar-editar-apresentacao/scripts/office/helpers/merge_runs.py",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_merge_runs_merge_run_con
 - "norm_label": "_merge_run_content()"
@@ -7803,11 +7930,9 @@
 - with open(filepath, "w", encoding="utf-8") as f:
 - {
 - "file_type": "rationale",
-- "source_file": "criar-editar-apresentacao/scripts/office/helpers/merge_runs.py",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_merge_runs_rationale_1",
-- "community": 20,
 - "norm_label": "merge adjacent runs with identical formatting in docx.  merges ad
 - },
 - {
@@ -7836,7 +7961,6 @@
 - },
 - """Gera a árvore de diretórios em formato ASCII"""
 - {
-- "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_helpers_simplify_redlines_is_ele
 - "norm_label": "_is_element()"
@@ -7960,7 +8084,6 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_soffice",
-- "community": 17,
 - },
 - lines.extend(scan_directory(app_path, ""))
 - {
@@ -7984,9 +8107,7 @@
 - "label": "CompletedProcess",
 - "file_type": "code",
 - "source_location": "",
-- "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_soffice_py_completedprocess",
-- "community": 17,
 - "norm_label": "completedprocess"
 - },
 - d = os.path.join(project_path, 'app', subdir)
@@ -8009,7 +8130,6 @@
 - "label": "Path",
 - "file_type": "code",
 - "source_file": "",
-- "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_soffice_py_path",
 - },
@@ -8041,7 +8161,6 @@
 - },
 - fp = os.path.join(d, f)
 - {
-- "label": "Path",
 - "file_type": "code",
 - "source_file": "",
 - "source_location": "",
@@ -8131,7 +8250,6 @@
 - "file_type": "code",
 - "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
 - "_origin": "ast",
-- "id": "criar_editar_apresentacao_scripts_office_validators_base_baseschemavalida
 - },
 - if single:
 - {
@@ -8142,7 +8260,6 @@
 - description = single.group(1)
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_validators_base_baseschemavalida
 - },
@@ -8152,8 +8269,6 @@
 - "file_type": "code",
 - "source_location": "L143",
 - "_origin": "ast",
-- "id": "criar_editar_apresentacao_scripts_office_validators_base_baseschemavalida
-- "community": 11,
 - "norm_label": ".validate_xml()"
 - },
 - return result
@@ -8166,7 +8281,6 @@
 - """Gera tabela markdown"""
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
 - "source_location": "L199",
 - "_origin": "ast",
 - },
@@ -8174,13 +8288,11 @@
 - {
 - "file_type": "code",
 - "_origin": "ast",
-- "id": "criar_editar_apresentacao_scripts_office_validators_base_baseschemavalida
 - },
 - sep = "| " + " | ".join(["---"] * len(headers)) + " |"
 - {
 - "label": ".validate_all_relationship_ids()",
 - "file_type": "code",
-- "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
 - "source_location": "L385",
 - "_origin": "ast",
 - },
@@ -8202,7 +8314,6 @@
 - "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
 - "source_location": "L598",
 - "_origin": "ast",
-- "community": 11,
 - },
 - lines.append("| " + " | ".join(str(c) for c in row) + " |")
 - {
@@ -8218,14 +8329,12 @@
 - "label": "._get_schema_path()",
 - "file_type": "code",
 - "_origin": "ast",
-- "community": 11,
 - },
 - """Substitui conteúdo entre marcadores (incluindo os marcadores)"""
 - {
 - "label": "._clean_ignorable_namespaces()",
 - "file_type": "code",
 - "_origin": "ast",
-- "community": 11,
 - },
 - pattern = re.escape(marker_start) + r".*?" + re.escape(marker_end)
 - {
@@ -8245,7 +8354,6 @@
 - "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
 - "source_location": "L750",
 - "_origin": "ast",
-- "id": "criar_editar_apresentacao_scripts_office_validators_base_baseschemavalida
 - "community": 11,
 - "norm_label": "._validate_single_file_xsd()"
 - },
@@ -8268,7 +8376,6 @@
 - {
 - "label": "Base validator with common validation logic for document files.",
 - "file_type": "rationale",
-- "source_file": "criar-editar-apresentacao/scripts/office/validators/base.py",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_validators_base_rationale_1",
@@ -8303,7 +8410,6 @@
 - {
 - "label": ".validate_whitespace_preservation()",
 - "file_type": "code",
-- "source_file": "criar-editar-apresentacao/scripts/office/validators/docx.py",
 - "_origin": "ast",
 - "norm_label": ".validate_whitespace_preservation()"
 - },
@@ -8336,9 +8442,7 @@
 - {
 - "label": ".compare_paragraph_counts()",
 - "file_type": "code",
-- "source_file": "criar-editar-apresentacao/scripts/office/validators/docx.py",
 - "_origin": "ast",
-- "community": 28,
 - },
 - README.MD
 - graphify-out/cache/ast/v0.9.10/1222296b77e37385c86859f51839b70a327863878dafccce2
@@ -8397,7 +8501,6 @@
 - 'Models': scan_php_classes(project_path, 'models'),
 - {
 - "file_type": "code",
-- "source_file": "",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_office_validators_pptx_py_baseschemaval
 - "norm_label": "baseschemavalidator"
@@ -8464,7 +8567,6 @@
 - "label": ".__init__()",
 - "file_type": "code",
 - "_origin": "ast",
-- },
 - for section_name, section_header, next_header, headers in table_configs:
 - {
 - "file_type": "code",
@@ -8525,7 +8627,6 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_thumbnail_main",
-- "community": 17,
 - },
 - {
 - "label": "get_slide_info()",
@@ -8536,14 +8637,12 @@
 - },
 - table_end = content.index(next_header)
 - {
-- "label": "Path",
 - "file_type": "code",
 - "source_file": "",
 - "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_thumbnail_py_path",
 - "community": 17,
-- "norm_label": "path"
 - },
 - graphify-out/cache/ast/v0.9.10/16c2966893766622debb76fc462e145a2f7147039495b7ccb
 - old = content[table_start:table_end]
@@ -8602,7 +8701,6 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_apresentacao_scripts_thumbnail_rationale_1",
-- "community": 17,
 - "norm_label": "create thumbnail grids from powerpoint presentation slides.  crea
 - },
 - """Atualiza a base de dados graphify-out após o commit"""
@@ -8721,7 +8819,6 @@
 - key, value = line.split("=", 1)
 - {
 - "label": "_ensure_comment_relationships()",
-- "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_comment_ensure_comment_relationships"
 - "norm_label": "_ensure_comment_relationships()"
@@ -8733,7 +8830,6 @@
 - "id": "criar_editar_documento_word_scripts_comment_ensure_comment_content_types"
 - "norm_label": "_ensure_comment_content_types()"
 - },
-- {
 - "label": "add_comment()",
 - "file_type": "code",
 - "source_location": "L218",
@@ -8781,14 +8877,12 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_merge_runs_get_child",
-- "community": 21,
 - },
 - graphify-out/cache/ast/v0.9.10/1a7b1257f230e8805e4afabb35cdacfb769c2192f28ec7eb3
 - result = subprocess.run(cmd, cwd=project_path, capture_output=True, text=True, e
 - {
 - "label": "_get_children()",
 - "file_type": "code",
-- "source_file": "criar-editar-documento-word/scripts/office/helpers/merge_runs.py
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_merge_runs_get_childre
 - },
@@ -8799,22 +8893,18 @@
 - },
 - print("Base graphify-out atualizada com sucesso")
 - "file_type": "code",
-- "source_file": "criar-editar-documento-word/scripts/office/helpers/merge_runs.py
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_merge_runs_remove_elem
 - },
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-documento-word/scripts/office/helpers/merge_runs.py
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_merge_runs_strip_run_r
-- "community": 21,
 - },
 - {
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_merge_runs_merge_runs_
-- "community": 21,
 - },
 - parser = argparse.ArgumentParser(description="Git commit com historico")
 - {
@@ -8862,10 +8952,8 @@
 - {
 - "label": "_consolidate_text()",
 - "file_type": "code",
-- "source_file": "criar-editar-documento-word/scripts/office/helpers/merge_runs.py
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_merge_runs_consolidate
-- "community": 21,
 - },
 - {
 - "label": "Merge adjacent runs with identical formatting in DOCX.  Merges adjacen
@@ -8937,7 +9025,6 @@
 - "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_helpers_simplify_redlines_py_p
-- "norm_label": "path"
 - },
 - return
 - {
@@ -8971,7 +9058,6 @@
 - print(diff_stdout)
 - {
 - "file_type": "code",
-- "source_location": "L24",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_pack_pack",
 - "community": 0,
@@ -8983,11 +9069,9 @@
 - "source_location": "L69",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_pack_run_validation",
-- "community": 0,
 - },
 - diff_content, _, _ = run_git_command(["git", "diff", "--cached"], project_path)
 - {
-- "source_file": "",
 - "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_pack_py_path",
@@ -9053,7 +9137,6 @@
 - },
 - print("Commit cancelado.")
 - {
-- "label": "Path",
 - "file_type": "code",
 - "source_file": "",
 - "_origin": "ast",
@@ -9094,7 +9177,6 @@
 - {
 - "file_type": "code",
 - "source_file": "",
-- "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_unpack_py_path",
 - print("Nenhum arquivo para comitar")
@@ -9146,7 +9228,6 @@
 - print(f"Commit realizado: {commit_hash[:7]}")
 - {
 - "label": "Validation modules for Word document processing.",
-- "file_type": "rationale",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_validators_init_rationale_1",
@@ -9163,7 +9244,6 @@
 - create_commit_file(project_path, commit_id, args.message, staged, commit_hash, d
 - {
 - "file_type": "code",
-- "source_location": "L12",
 - "_origin": "ast",
 - },
 - print("Fazendo commit do historico...")
@@ -9184,7 +9264,6 @@
 - _, _, commit_hist_code = run_git_command(["git", "commit", "-m", f"chore: histor
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-documento-word/scripts/office/validators/base.py",
 - "_origin": "ast",
 - "community": 0,
 - },
@@ -9198,7 +9277,6 @@
 - {
 - "file_type": "code",
 - "_origin": "ast",
-- "id": "criar_editar_documento_word_scripts_office_validators_base_baseschemavali
 - "community": 0,
 - },
 - print(f"Commit do historico realizado: {commit_hash[:7]}")
@@ -9211,7 +9289,6 @@
 - "label": ".validate_unique_ids()",
 - "file_type": "code",
 - "_origin": "ast",
-- "id": "criar_editar_documento_word_scripts_office_validators_base_baseschemavali
 - },
 - graphify-out/cache/ast/v0.9.10/28608cb5b3024af5a835a95c78a434c30de810c92adfb1cf2
 - update_readme_structure(project_path)
@@ -9256,9 +9333,7 @@
 - if pull_code != 0:
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-documento-word/scripts/office/validators/base.py",
 - "_origin": "ast",
-- "id": "criar_editar_documento_word_scripts_office_validators_base_baseschemavali
 - "community": 0,
 - },
 - print(f"Aviso no pull: {pull_stderr}")
@@ -9304,7 +9379,6 @@
 - print("Fazendo push...")
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-documento-word/scripts/office/validators/base.py",
 - "_origin": "ast",
 - "community": 0,
 - },
@@ -9314,14 +9388,11 @@
 - "source_file": "criar-editar-documento-word/scripts/office/validators/base.py",
 - "source_location": "L814",
 - "_origin": "ast",
-- "id": "criar_editar_documento_word_scripts_office_validators_base_baseschemavali
-- "community": 0,
 - "norm_label": "._remove_template_tags_from_text_nodes()"
 - },
 - if push_code != 0:
 - {
 - "file_type": "rationale",
-- "source_file": "criar-editar-documento-word/scripts/office/validators/base.py",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_validators_base_rationale_1",
@@ -9329,7 +9400,6 @@
 - print(f"Erro no push: {push_stderr}")
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-documento-word/scripts/office/validators/docx.py",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_validators_docx",
@@ -9340,7 +9410,6 @@
 - "file_type": "code",
 - "source_location": "L16",
 - "_origin": "ast",
-- "community": 0,
 - "norm_label": "docxschemavalidator"
 - },
 - print("Push realizado com sucesso")
@@ -9433,7 +9502,6 @@
 - {
 - "label": "Validator for Word document XML files against XSD schemas.",
 - "file_type": "rationale",
-- "source_file": "criar-editar-documento-word/scripts/office/validators/docx.py",
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_validators_docx_rationale_1",
@@ -9552,7 +9620,6 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_documento_word_scripts_office_validators_redlining_redlining
-- "community": 0,
 - },
 - {
 - "file_type": "code",
@@ -9608,10 +9675,8 @@
 - ["git"] + args,
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-planilhas-excel/scripts/office/helpers/merge_runs.p
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_merge_runs_get_childr
-- "community": 22,
 - "norm_label": "_get_children()"
 - },
 - cwd=cwd,
@@ -9641,7 +9706,6 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_merge_runs_merge_runs
-- "community": 22,
 - },
 - graphify-out/cache/ast/v0.9.10/3ade861445f22b5886c7743b330e8d1c87926178e681c0d3b
 - return result.stdout.strip(), result.stderr
@@ -9651,7 +9715,6 @@
 - "source_location": "L128",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_merge_runs_first_chil
-- },
 - """Extrai detalhes de um commit específico."""
 - {
 - "file_type": "code",
@@ -9668,7 +9731,6 @@
 - },
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-planilhas-excel/scripts/office/helpers/merge_runs.p
 - "source_location": "L154",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_merge_runs_is_run",
@@ -9678,7 +9740,6 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_merge_runs_can_merge"
-- "community": 22,
 - },
 - {
 - "file_type": "code",
@@ -9688,17 +9749,14 @@
 - },
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-planilhas-excel/scripts/office/helpers/merge_runs.p
 - "source_location": "L178",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_merge_runs_consolidat
-- "community": 22,
 - "norm_label": "_consolidate_text()"
 - },
 - if not info:
 - {
 - "file_type": "rationale",
-- "source_file": "criar-editar-planilhas-excel/scripts/office/helpers/merge_runs.p
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_helpers_merge_runs_rationale_
@@ -9827,7 +9885,6 @@
 - "label": "Pack a directory into a DOCX, PPTX, or XLSX file.  Validates with auto
 - "file_type": "rationale",
 - "source_file": "criar-editar-planilhas-excel/scripts/office/pack.py",
-- "source_location": "L1",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_pack_rationale_1",
 - "community": 86,
@@ -9876,7 +9933,6 @@
 - {
 - "label": "Path",
 - "file_type": "code",
-- "source_location": "",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_soffice_py_path",
 - },
@@ -9950,7 +10006,6 @@
 - },
 - content = f"""# Commit {commit_info['hash'][:12]} - {dt.strftime('%d/%m/%Y %H:%M
 - {
-- "label": "main()",
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_validate_main",
@@ -9989,14 +10044,12 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_office_validators_base_baseschemaval
-- "community": 12,
 - },
 - parser = argparse.ArgumentParser(description="Gera histórico de commits do Git")
 - {
 - "file_type": "code",
 - "source_file": "criar-editar-planilhas-excel/scripts/office/validators/base.py",
 - "_origin": "ast",
-- "id": "criar_editar_planilhas_excel_scripts_office_validators_base_baseschemaval
 - "community": 12,
 - },
 - parser.add_argument("--repo", default=DEFAULT_REPO_PATH, help="Caminho do reposi
@@ -10033,7 +10086,6 @@
 - {
 - "label": ".validate_namespaces()",
 - "file_type": "code",
-- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/base.py",
 - "source_location": "L170",
 - "_origin": "ast",
 - },
@@ -10048,10 +10100,8 @@
 - print(f"Repo: {repo_path}")
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/base.py",
 - "source_location": "L289",
 - "_origin": "ast",
-- "community": 12,
 - },
 - print(f"Output: {output_base}")
 - {
@@ -10062,7 +10112,6 @@
 - },
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/base.py",
 - "_origin": "ast",
 - },
 - # Get all commits
@@ -10076,7 +10125,6 @@
 - "file_type": "code",
 - "source_file": "criar-editar-planilhas-excel/scripts/office/validators/base.py",
 - "_origin": "ast",
-- "id": "criar_editar_planilhas_excel_scripts_office_validators_base_baseschemaval
 - "norm_label": ".validate_file_against_xsd()"
 - },
 - graphify-out/cache/ast/v0.9.10/420eadf8d3074dd21d257372e628171d8d2e1813001c397fd
@@ -10103,7 +10151,6 @@
 - {
 - "file_type": "code",
 - "_origin": "ast",
-- "id": "criar_editar_planilhas_excel_scripts_office_validators_base_baseschemaval
 - "community": 12,
 - "norm_label": "._remove_ignorable_elements()"
 - },
@@ -10123,16 +10170,12 @@
 - {
 - "file_type": "code",
 - "_origin": "ast",
-- "id": "criar_editar_planilhas_excel_scripts_office_validators_base_baseschemaval
-- "community": 12,
 - "norm_label": "._get_original_file_errors()"
 - },
 - print(f"Processando commit {i+1}/{len(all_commits)}...")
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/base.py",
 - "_origin": "ast",
-- "community": 12,
 - },
 - # Check if file already exists
 - {
@@ -10153,7 +10196,6 @@
 - "log", "--format=%ad",
 - {
 - "file_type": "code",
-- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/docx.py",
 - "_origin": "ast",
 - },
 - "--date=format:%Y-%m-%d %H:%M:%S", "-1", commit_hash
@@ -10177,7 +10219,6 @@
 - },
 - {
 - "_origin": "ast",
-- "community": 30,
 - },
 - dt = datetime.strptime(info, "%Y-%m-%d %H:%M:%S")
 - {
@@ -10203,7 +10244,6 @@
 - {
 - "label": "._parse_id_value()",
 - "file_type": "code",
-- "source_file": "criar-editar-planilhas-excel/scripts/office/validators/docx.py",
 - "_origin": "ast",
 - },
 - graphify-out/cache/ast/v0.9.10/4395214e9774ddb593e23ed3f69958797cdf7f4e3bd39d913
@@ -10382,7 +10422,6 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_editar_planilhas_excel_scripts_recalc_setup_libreoffice_macro",
-- "community": 29,
 - "norm_label": "setup_libreoffice_macro()"
 - },
 - {
@@ -10436,7 +10475,6 @@
 - "source_file": "criar-gifs-animados-slack/core/easing.py",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_ease_in_quad",
-- "community": 5,
 - "norm_label": "ease_in_quad()"
 - },
 - "17": "thumbnail.py",
@@ -10455,7 +10493,6 @@
 - "source_file": "criar-gifs-animados-slack/core/easing.py",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_ease_in_out_quad",
-- "community": 5,
 - "norm_label": "ease_in_out_quad()"
 - },
 - "19": "Editing Presentations",
@@ -10555,7 +10592,6 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_interpolate",
-- "community": 5,
 - "norm_label": "interpolate()"
 - },
 - {
@@ -10611,7 +10647,6 @@
 - {
 - "label": "Linear interpolation (no easing).",
 - "file_type": "rationale",
-- "source_file": "criar-gifs-animados-slack/core/easing.py",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_rationale_13",
 - "norm_label": "linear interpolation (no easing)."
@@ -10628,7 +10663,6 @@
 - },
 - {
 - "label": "Quadratic ease-out (fast start, decelerating).",
-- "source_file": "criar-gifs-animados-slack/core/easing.py",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_rationale_23",
 - "norm_label": "quadratic ease-out (fast start, decelerating)."
@@ -10664,7 +10698,6 @@
 - {
 - "label": "Bounce ease-in (bouncy start).",
 - "file_type": "rationale",
-- "source_file": "criar-gifs-animados-slack/core/easing.py",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_rationale_52",
 - "community": 5,
@@ -10702,7 +10735,6 @@
 - "label": "Get easing function by name.",
 - "file_type": "rationale",
 - "source_location": "L118",
-- "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_rationale_118",
 - "community": 5,
 - "norm_label": "get easing function by name."
@@ -10729,7 +10761,6 @@
 - {
 - "label": "Back ease-out (overshoot forward then settle back).",
 - "file_type": "rationale",
-- "source_file": "criar-gifs-animados-slack/core/easing.py",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_rationale_148",
 - "community": 5,
@@ -10743,7 +10774,6 @@
 - "source_location": "L155",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_easing_rationale_155",
-- "community": 5,
 - "norm_label": "back ease-in-out (overshoot at both ends)."
 - },
 - {
@@ -10845,7 +10875,6 @@
 - "62": "Skill Doc Co-Authoring",
 - {
 - "label": "Create a vertical gradient background.      Args:         width: Frame
-- "file_type": "rationale",
 - "source_location": "L105",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_frame_composer_rationale_105",
@@ -10908,7 +10937,6 @@
 - {
 - "label": ".add_frames()",
 - "file_type": "code",
-- "source_file": "criar-gifs-animados-slack/core/gif_builder.py",
 - "source_location": "L54",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_gif_builder_gifbuilder_add_frames",
@@ -10919,7 +10947,6 @@
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_gif_builder_gifbuilder_optimize_colors",
-- "community": 14,
 - "norm_label": ".optimize_colors()"
 - },
 - {
@@ -10935,7 +10962,6 @@
 - {
 - "label": ".save()",
 - "file_type": "code",
-- "source_file": "criar-gifs-animados-slack/core/gif_builder.py",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_gif_builder_gifbuilder_save",
 - "community": 14,
@@ -10947,12 +10973,10 @@
 - "source_location": "",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_gif_builder_py_path",
-- "norm_label": "path"
 - },
 - {
 - "label": ".clear()",
 - "file_type": "code",
-- "source_file": "criar-gifs-animados-slack/core/gif_builder.py",
 - "source_location": "L267",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_gif_builder_gifbuilder_clear",
@@ -10964,7 +10988,6 @@
 - "file_type": "rationale",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_gif_builder_rationale_18",
-- "community": 14,
 - "norm_label": "builder for creating optimized gifs from frames."
 - },
 - "77": "Commit f4fd71c - 23/06/2026 21:41:54",
@@ -10973,7 +10996,6 @@
 - "file_type": "rationale",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_gif_builder_rationale_21",
-- "community": 14,
 - "norm_label": "initialize gif builder.          args:             width: frame w
 - },
 - {
@@ -10987,7 +11009,6 @@
 - {
 - "label": "Add multiple frames at once.",
 - "file_type": "rationale",
-- "source_file": "criar-gifs-animados-slack/core/gif_builder.py",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_gif_builder_rationale_55",
 - "norm_label": "add multiple frames at once."
@@ -11012,7 +11033,6 @@
 - "82": "📚 Biblioteca de Documentação",
 - {
 - "label": "Save frames as optimized GIF for Slack.          Args:             out
-- "file_type": "rationale",
 - "source_file": "criar-gifs-animados-slack/core/gif_builder.py",
 - "source_location": "L167",
 - "_origin": "ast",
@@ -11026,7 +11046,6 @@
 - "source_location": "L268",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_gif_builder_rationale_268",
-- "community": 14,
 - "norm_label": "clear all frames (useful for creating multiple gifs)."
 - },
 - "84": "unpack.py",
@@ -11047,9 +11066,7 @@
 - },
 - "86": "_run_validation",
 - {
-- "label": "Path",
 - "file_type": "code",
-- "source_file": "",
 - "_origin": "ast",
 - "id": "criar_gifs_animados_slack_core_validators_py_path",
 - "norm_label": "path"
@@ -11089,7 +11106,6 @@
 - },
 - "91": "Skill Leitor de Pagina (Node.js)",
 - {
-- "label": "main()",
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "criar_novo_skill_skillfactory_main",
@@ -11181,7 +11197,6 @@
 - },
 - "102": "Sunset Boulevard",
 - {
-- "label": "main()",
 - "file_type": "code",
 - "source_location": "L253",
 - "_origin": "ast",
@@ -11296,7 +11311,6 @@
 - {
 - "label": "__dirname",
 - "file_type": "code",
-- "source_location": "L9",
 - "_origin": "ast",
 - "id": "extrair_conteudo_paginas_script_index_dirname",
 - "norm_label": "__dirname"
@@ -11331,7 +11345,6 @@
 - "file_type": "code",
 - "source_location": "L61",
 - "id": "extrair_conteudo_paginas_script_index_main",
-- "norm_label": "main()"
 - },
 - {
 - "label": "dir_tree.py",
@@ -11358,7 +11371,6 @@
 - "source_location": "",
 - "_origin": "ast",
 - "id": "gerar_arvore_diretorios_dir_tree_py_path",
-- "norm_label": "path"
 - },
 - "125": "SKILL.md",
 - {
@@ -11412,7 +11424,6 @@
 - "source_file": "gerar-historico-commits/generate_commit_history.py",
 - "_origin": "ast",
 - "id": "gerar_historico_commits_generate_commit_history_main",
-- "norm_label": "main()"
 - },
 - {
 - "label": "Extrai detalhes de um commit espec\u00edfico.",
@@ -11475,7 +11486,6 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "graphify_references_model_prices",
-- "community": 32,
 - "norm_label": "model_prices.py"
 - },
 - {
@@ -11489,7 +11499,6 @@
 - {
 - "label": "_fetch_json()",
 - "file_type": "code",
-- "source_file": "graphify/references/model_prices.py",
 - "_origin": "ast",
 - "id": "graphify_references_model_prices_fetch_json",
 - "norm_label": "_fetch_json()"
@@ -11706,7 +11715,6 @@
 - {
 - "label": "RectAndField",
 - "file_type": "code",
-- "source_location": "L9",
 - "_origin": "ast",
 - "id": "processar_arquivos_pdf_scripts_check_bounding_boxes_rectandfield",
 - "community": 138,
@@ -11730,7 +11738,6 @@
 - "id": "processar_arquivos_pdf_scripts_check_fillable_fields",
 - "community": 165,
 - "norm_label": "check_fillable_fields.py"
-- },
 - {
 - "label": "convert_pdf_to_images.py",
 - "file_type": "code",
@@ -11850,7 +11857,6 @@
 - {
 - "label": "Extract form structure from a non-fillable PDF.  This script analyzes
 - "file_type": "rationale",
-- "source_location": "L1",
 - "_origin": "ast",
 - "id": "processar_arquivos_pdf_scripts_extract_form_structure_rationale_1",
 - "norm_label": "extract form structure from a non-fillable pdf.  this script anal
@@ -11894,7 +11900,6 @@
 - "source_location": "L1",
 - "_origin": "ast",
 - "id": "processar_arquivos_pdf_scripts_fill_pdf_form_with_annotations",
-- "community": 33,
 - "norm_label": "fill_pdf_form_with_annotations.py"
 - },
 - "28": "DOCXSchemaValidator",
@@ -11934,7 +11939,6 @@
 - "32": "model_prices.py",
 - {
 - "label": "run_git_command()",
-- "file_type": "code",
 - "_origin": "ast",
 - "id": "recuperar_commits_salvos_commitrecover_run_git_command",
 - },
@@ -11978,7 +11982,6 @@
 - "label": "cssRoot.py",
 - "file_type": "code",
 - "source_file": "refatorar-css-variaveis/cssRoot.py",
-- "source_location": "L1",
 - "_origin": "ast",
 - "id": "refatorar_css_variaveis_cssroot",
 - "norm_label": "cssroot.py"
@@ -12087,11 +12090,9 @@
 - },
 - "50": "agy.py",
 - {
-- "label": "main()",
 - "file_type": "code",
 - "_origin": "ast",
 - "id": "testar_aplicacoes_web_scripts_with_server_main",
-- "norm_label": "main()"
 - },
 - graphify-out/cache/ast/v0.9.10/6ba0e6cdeb2ac0a92040d5140721ee61428ee8a8a7e066c48
 - "51": "SKILL.md",
@@ -12123,14 +12124,12 @@
 - "source_file": "README.MD",
 - "_origin": "ast",
 - "id": "readme_instala\u00e7\u00e3o",
-- "community": 25,
 - "norm_label": "instalacao"
 - },
 - "55": "Skill DOCX - Documentos Word",
 - {
 - "label": "Como funciona uma skill",
 - "file_type": "document",
-- "source_file": "README.MD",
 - "_origin": "ast",
 - "id": "readme_como_funciona_uma_skill",
 - "community": 25,
@@ -12147,11 +12146,9 @@
 - {
 - "label": "\ud83d\udcc4 Documentos Office & PDF",
 - "file_type": "document",
-- "source_file": "README.MD",
 - "source_location": "L52",
 - "_origin": "ast",
 - "id": "readme_documentos_office_pdf",
-- "community": 25,
 - "norm_label": "\ud83d\udcc4 documentos office & pdf"
 - },
 - "58": "graphify reference: extra exports and benchmark",
@@ -12279,7 +12276,6 @@
 - "73": "index.js",
 - {
 - "label": "Criar Tema Personalizado",
-- "file_type": "document",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_skill_criar_tema_personalizado",
 - "norm_label": "criar tema personalizado"
@@ -12325,7 +12321,6 @@
 - "file_type": "document",
 - "source_file": "aplicar-temas-cores-fontes/themes/botanical-garden.md",
 - "source_location": "L1",
-- "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_botanical_garden",
 - "community": 95,
 - "norm_label": "botanical-garden.md"
@@ -12334,7 +12329,6 @@
 - {
 - "label": "Botanical Garden",
 - "file_type": "document",
-- "source_location": "L1",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_botanical_garden_botanical_garden",
 - "norm_label": "botanical garden"
@@ -12390,7 +12384,6 @@
 - "label": "Best Used For",
 - "file_type": "document",
 - "source_file": "aplicar-temas-cores-fontes/themes/desert-rose.md",
-- "source_location": "L17",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_desert_rose_best_used_for",
 - },
@@ -12461,7 +12454,6 @@
 - },
 - {
 - "file_type": "document",
-- "source_location": "L17",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_golden_hour_best_used_for",
 - },
@@ -12493,7 +12485,6 @@
 - },
 - {
 - "file_type": "document",
-- "source_location": "L12",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_midnight_galaxy_typography",
 - },
@@ -12647,7 +12638,6 @@
 - "122": "graphify reference: add a URL and watch a folder",
 - {
 - "label": "Typography",
-- "source_location": "L12",
 - "_origin": "ast",
 - "id": "aplicar_temas_cores_fontes_themes_tech_innovation_typography",
 - },
@@ -12736,14 +12726,12 @@
 - {
 - "label": "Skill: autenticar-github-device-flow",
 - "file_type": "document",
-- "_origin": "ast",
 - "id": "autenticar_github_device_flow_skill_skill_autenticar_github_device_flow",
 - "norm_label": "skill: autenticar-github-device-flow"
 - },
 - {
 - "label": "O que faz",
 - "file_type": "document",
-- "source_location": "L9",
 - "_origin": "ast",
 - "id": "autenticar_github_device_flow_skill_o_que_faz",
 - "norm_label": "o que faz"
@@ -12803,14 +12791,12 @@
 - "source_file": "boas-praticas-de-codigo/SKILL.md",
 - "_origin": "ast",
 - "id": "boas_praticas_de_codigo_skill_skill_boas_pr\u00e1ticas_object_calisthenic
-- "community": 7,
 - "norm_label": "skill: boas praticas \u2014 object calisthenics, mvc e filosofia
 - },
 - "143": "SMS Notification Fallback",
 - {
 - "label": "Abordagem",
 - "file_type": "document",
-- "source_location": "L9",
 - "_origin": "ast",
 - "id": "boas_praticas_de_codigo_skill_abordagem",
 - "norm_label": "abordagem"
@@ -12829,8 +12815,6 @@
 - {
 - "label": "Conven\u00e7\u00e3o sobre Configura\u00e7\u00e3o (CoC)",
 - "file_type": "document",
-- "source_file": "boas-praticas-de-codigo/SKILL.md",
-- "source_location": "L17",
 - "_origin": "ast",
 - "id": "boas_praticas_de_codigo_skill_conven\u00e7\u00e3o_sobre_configura\u00e7\u
 - "community": 7,
@@ -12912,7 +12896,6 @@
 - {
 - "label": "Regra 3 \u2014 Wrappe Todos os Primitivos e Strings",
 - "file_type": "document",
-- "source_file": "boas-praticas-de-codigo/SKILL.md",
 - "_origin": "ast",
 - "id": "boas_praticas_de_codigo_skill_regra_3_wrappe_todos_os_primitivos_e_string
 - "norm_label": "regra 3 \u2014 wrappe todos os primitivos e strings"
@@ -12921,7 +12904,6 @@
 - {
 - "label": "Regra 4 \u2014 Objetos com Primeira Classe / Cole\u00e7\u00f5es",
 - "file_type": "document",
-- "source_file": "boas-praticas-de-codigo/SKILL.md",
 - "_origin": "ast",
 - "id": "boas_praticas_de_codigo_skill_regra_4_objetos_com_primeira_classe_cole\u0
 - "community": 7,
@@ -12932,7 +12914,6 @@
 - "file_type": "document",
 - "_origin": "ast",
 - "id": "boas_praticas_de_codigo_skill_regra_5_apenas_um_ponto_por_linha",
-- "community": 7,
 - "norm_label": "regra 5 \u2014 apenas um ponto por linha"
 - },
 - "157": "Monitoramento e Alertas",
@@ -12993,7 +12974,6 @@
 - "source_location": "L180",
 - "_origin": "ast",
 - "id": "boas_praticas_de_codigo_skill_a_ess\u00eancia",
-- "community": 7,
 - "norm_label": "a essencia"
 - },
 - "163": "__init__.py",
@@ -13018,7 +12998,6 @@
 - "165": "check_fillable_fields.py",
 - {
 - "label": "Model \u00e9 a Camada de Dados (C\u00f3pia Descarada do Rails)",
-- "file_type": "document",
 - "source_file": "boas-praticas-de-codigo/SKILL.md",
 - "source_location": "L217",
 - "_origin": "ast",
@@ -13029,7 +13008,6 @@
 - {
 - "label": "Onde Colocar L\u00f3gica no Rails",
 - "file_type": "document",
-- "source_file": "boas-praticas-de-codigo/SKILL.md",
 - "source_location": "L230",
 - "_origin": "ast",
 - "id": "boas_praticas_de_codigo_skill_onde_colocar_l\u00f3gica_no_rails",
@@ -13052,7 +13030,6 @@
 - "source_location": "L262",
 - "_origin": "ast",
 - "id": "boas_praticas_de_codigo_skill_4_modelos_mentais_para_o_dia_a_dia",
-- "community": 7,
 - "norm_label": "4. modelos mentais para o dia a dia"
 - },
 - {
@@ -13146,7 +13123,6 @@
 - {
 - "label": "1. Instala\u00e7\u00e3o",
 - "file_type": "document",
-- "source_file": "buscar-grupos-whatsapp/SKILL.md",
 - "_origin": "ast",
 - "id": "buscar_grupos_whatsapp_skill_1_instala\u00e7\u00e3o",
 - "community": 23,
@@ -13173,7 +13149,6 @@
 - {
 - "label": "Aba IA",
 - "file_type": "document",
-- "source_file": "buscar-grupos-whatsapp/SKILL.md",
 - "source_location": "L33",
 - "_origin": "ast",
 - "id": "buscar_grupos_whatsapp_skill_aba_ia",
@@ -13194,7 +13169,6 @@
 - "file_type": "document",
 - "_origin": "ast",
 - "id": "buscar_grupos_whatsapp_skill_3_webhook_uazapi",
-- "community": 23,
 - "norm_label": "3. webhook uazapi"
 - },
 - {
@@ -13203,7 +13177,6 @@
 - "file_type": "document",
 - "_origin": "ast",
 - "id": "buscar_grupos_whatsapp_skill_4_grupo_whatsapp",
-- "community": 23,
 - "norm_label": "4. grupo whatsapp"
 - },
 - "label": "generator_template.js",
@@ -13222,11 +13195,8 @@
 - "id": "buscar_grupos_whatsapp_skill_logs",
 - "norm_label": "logs"
 - },
-- "source_file": "arte-algoritmica-generativa/templates/generator_template.js",
 - {
 - "label": "N\u00edveis de Log",
-- "file_type": "document",
-- "source_file": "buscar-grupos-whatsapp/SKILL.md",
 - "source_location": "L83",
 - "_origin": "ast",
 - "id": "buscar_grupos_whatsapp_skill_n\u00edveis_de_log",
@@ -13257,7 +13227,6 @@
 - "source_location": "L142",
 - "_origin": "ast",
 - "id": "buscar_grupos_whatsapp_skill_webhook_rest_api",
-- "community": 23,
 - "norm_label": "webhook rest api"
 - },
 - "community": 13,
@@ -13339,7 +13308,6 @@
 - "id": "coautoria_documentacao_tecnica_skill_skill_doc_co_authoring",
 - "norm_label": "skill doc co-authoring"
 - },
-- "community": 13,
 - {
 - "label": "Quando Oferecer",
 - "file_type": "document",
@@ -13360,7 +13328,6 @@
 - {
 - "label": "Est\u00e1gio 1: Coleta de Contexto",
 - "file_type": "document",
-- "source_location": "L17",
 - "_origin": "ast",
 - "id": "coautoria_documentacao_tecnica_skill_est\u00e1gio_1_coleta_de_contexto",
 - "norm_label": "estagio 1: coleta de contexto"
@@ -13391,7 +13358,6 @@
 - "id": "coautoria_documentacao_tecnica_skill_dicas",
 - "norm_label": "dicas"
 - },
-- "source_file": "arte-algoritmica-generativa/templates/generator_template.js",
 - {
 - "file_type": "document",
 - "source_location": "L1",
@@ -13577,7 +13543,6 @@
 - "_origin": "ast",
 - "id": "commits_commit_2026_06_23_00_53_03_c368e71_hash",
 - },
-- "community": 13,
 - {
 - "label": "commit-4e04532-18-06-2026-22-26-40.md",
 - "file_type": "document",
@@ -13703,7 +13668,6 @@
 - "id": "commits_commit_c857027_18_06_2026_23_31_20",
 - "norm_label": "commit-c857027-18-06-2026-23-31-20.md"
 - },
-- "source_file": "arte-algoritmica-generativa/templates/generator_template.js",
 - {
 - "label": "Commit c857027 - 18/06/2026 23:31:20",
 - "file_type": "document",
@@ -13732,7 +13696,6 @@
 - "_origin": "ast",
 - "id": "commits_commit_c857027_18_06_2026_23_31_20_hash",
 - },
-- "community": 13,
 - {
 - "label": "commit-ce527ce-18-06-2026-22-16-36.md",
 - "file_type": "document",
@@ -13770,7 +13733,6 @@
 - "id": "commits_commit_ce527ce_18_06_2026_22_16_36_hash",
 - "norm_label": "hash"
 - },
-- "file_type": "code",
 - {
 - "label": "SKILL.md",
 - "file_type": "document",
@@ -14694,7 +14656,6 @@
 - text=True,
 - timeout=30,
 - check=False,
-- )
 - except subprocess.TimeoutExpired:
 - canvas-design/canvas-fonts/BigShoulders-Regular.ttf
 - docx/scripts/templates/commentsExtended.xml
@@ -14903,7 +14864,6 @@
 - ids,
 - "w16cid:commentsIds",
 - f'<w16cid:commentId w16cid:paraId="{para_id}" w16cid:durableId="{durable_id}"/>'
-- )
 - extensible = word / "commentsExtensible.xml"
 - if not extensible.exists():
 - shutil.copy(TEMPLATE_DIR / "commentsExtensible.xml", extensible)
@@ -14911,7 +14871,6 @@
 - "w16cex:commentsExtensible",
 - pdf/reference.md
 - f'<w16cex:commentExtensible w16cex:durableId="{durable_id}" w16cex:dateUtc="{ts}
-- )
 - action = "reply" if parent_id is not None else "comment"
 - return para_id, f"Added {action} {comment_id} (para_id={para_id})"
 - p = argparse.ArgumentParser(description="Add comments to DOCX documents")
@@ -15201,7 +15160,6 @@
 - print(f"ERROR: Failed to parse {xml_file.name}: {e}", file=sys.stderr)
 - raise
 - description="Pack a directory into a DOCX, PPTX, or XLSX file"
-- )
 - canvas-design/canvas-fonts/CrimsonPro-Bold.ttf
 - pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtende
 - parser.add_argument("input_directory", help="Unpacked Office document directory"
@@ -15244,7 +15202,6 @@
 - <xsd:attribute name="val" type="xsd:unsignedInt" use="required"/>
 - </xsd:complexType>
 - <xsd:complexType name="CT_RelId">
-- </xsd:complexType>
 - pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd
 - <xsd:complexType name="CT_Extension">
 - <xsd:sequence>
@@ -15271,7 +15228,6 @@
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:complexType name="CT_NumRef">
-- <xsd:sequence>
 - <xsd:element name="numCache" type="CT_NumData" minOccurs="0" maxOccurs="1"/>
 - pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd
 - <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
@@ -15291,7 +15247,6 @@
 - <xsd:sequence>
 - canvas-design/canvas-fonts/CrimsonPro-Italic.ttf
 - pptx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd
-- <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:complexType name="CT_StrRef">
@@ -15343,7 +15298,6 @@
 - </xsd:complexType>
 - <xsd:complexType name="CT_SerTx">
 - <xsd:sequence>
-- </xsd:choice>
 - </xsd:sequence>
 - </xsd:complexType>
 - pptx/scripts/office/schemas/mce/mc.xsd
@@ -15382,16 +15336,13 @@
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:complexType name="CT_Layout">
-- <xsd:sequence>
 - <xsd:element name="manualLayout" type="CT_ManualLayout" minOccurs="0" maxOccurs=
 - <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:complexType name="CT_Title">
-- <xsd:sequence>
 - canvas-design/canvas-fonts/CrimsonPro-OFL.txt
 - pptx/scripts/office/schemas/microsoft/wml-cex-2018.xsd
-- <xsd:element name="spPr" type="a:CT_ShapeProperties" minOccurs="0" maxOccurs="1"
 - <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
 - </xsd:complexType>
@@ -15466,7 +15417,6 @@
 - <xsd:complexType name="CT_Surface">
 - <xsd:sequence>
 - <xsd:element name="thickness" type="CT_Thickness" minOccurs="0" maxOccurs="1"/>
-- <xsd:element name="spPr" type="a:CT_ShapeProperties" minOccurs="0" maxOccurs="1"
 - <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
 - </xsd:complexType>
@@ -15544,7 +15494,6 @@
 - slack-gif-creator/core/frame_composer.py
 - </xsd:complexType>
 - <xsd:simpleType name="ST_SizeRepresents">
-- <xsd:restriction base="xsd:string">
 - <xsd:enumeration value="area"/>
 - <xsd:enumeration value="w"/>
 - </xsd:restriction>
@@ -15569,7 +15518,6 @@
 - <xsd:simpleType name="ST_HoleSizeUByte">
 - slack-gif-creator/requirements.txt
 - <xsd:maxInclusive value="90"/>
-- </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:complexType name="CT_HoleSize">
 - <xsd:attribute name="val" type="ST_HoleSize" default="10%"/>
@@ -15655,7 +15603,6 @@
 - <xsd:complexType name="CT_DLbl">
 - <xsd:sequence>
 - <xsd:group ref="Group_DLbl" minOccurs="1" maxOccurs="1"/>
-- </xsd:choice>
 - <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
 - theme-factory/themes/modern-minimalist.md
 - </xsd:sequence>
@@ -15666,7 +15613,6 @@
 - <xsd:element name="showLeaderLines" type="CT_Boolean" minOccurs="0" maxOccurs="1
 - <xsd:element name="leaderLines" type="CT_ChartLines" minOccurs="0" maxOccurs="1"
 - </xsd:sequence>
-- </xsd:group>
 - <xsd:complexType name="CT_DLbls">
 - canvas-design/canvas-fonts/DMMono-Regular.ttf
 - theme-factory/themes/ocean-depths.md
@@ -15682,7 +15628,6 @@
 - theme-factory/themes/sunset-boulevard.md
 - <xsd:restriction base="xsd:string">
 - <xsd:enumeration value="dot"/>
-- <xsd:enumeration value="none"/>
 - <xsd:enumeration value="picture"/>
 - <xsd:enumeration value="plus"/>
 - <xsd:enumeration value="square"/>
@@ -15758,7 +15703,6 @@
 - <xsd:element name="name" type="xsd:string" minOccurs="0" maxOccurs="1"/>
 - canvas-design/canvas-fonts/EricaOne-OFL.txt
 - webapp-testing/examples/console_logging.py
-- <xsd:element name="spPr" type="a:CT_ShapeProperties" minOccurs="0" maxOccurs="1"
 - <xsd:element name="trendlineType" type="CT_TrendlineType" minOccurs="1" maxOccur
 - <xsd:element name="order" type="CT_Order" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="period" type="CT_Period" minOccurs="0" maxOccurs="1"/>
@@ -15780,7 +15724,6 @@
 - <xsd:attribute name="val" type="ST_ErrDir" use="required"/>
 - </xsd:complexType>
 - <xsd:simpleType name="ST_ErrBarType">
-- <xsd:restriction base="xsd:string">
 - <xsd:enumeration value="both"/>
 - <xsd:enumeration value="minus"/>
 - </xsd:restriction>
@@ -15834,7 +15777,6 @@
 - <xsd:element name="order" type="CT_UnsignedInt" minOccurs="1" maxOccurs="1"/>
 - <xsd:element name="tx" type="CT_SerTx" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
-- </xsd:group>
 - <xsd:complexType name="CT_LineSer">
 - <xsd:sequence>
 - xlsx/scripts/office/helpers/simplify_redlines.py
@@ -15850,21 +15792,18 @@
 - canvas-design/canvas-fonts/EricaOne-Regular.ttf
 - xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd
 - <xsd:element name="yVal" type="CT_NumDataSource" minOccurs="0" maxOccurs="1"/>
-- <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:complexType name="CT_RadarSer">
 - <xsd:sequence>
 - <xsd:element name="marker" type="CT_Marker" minOccurs="0" maxOccurs="1"/>
 - xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd
-- <xsd:element name="dLbls" type="CT_DLbls" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="val" type="CT_NumDataSource" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:complexType name="CT_BarSer">
 - <xsd:sequence>
 - xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd
-- <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
 - xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd
 - </xsd:sequence>
 - </xsd:complexType>
@@ -15881,7 +15820,6 @@
 - <xsd:sequence>
 - <xsd:element name="explosion" type="CT_UnsignedInt" minOccurs="0" maxOccurs="1"/
 - xlsx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd
-- <xsd:element name="dLbls" type="CT_DLbls" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
 - </xsd:complexType>
@@ -16071,7 +16009,6 @@
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:complexType name="CT_DoughnutChart">
-- <xsd:sequence>
 - <xsd:group ref="EG_PieChartShared" minOccurs="1" maxOccurs="1"/>
 - <xsd:element name="firstSliceAng" type="CT_FirstSliceAng" minOccurs="0" maxOccur
 - <xsd:element name="holeSize" type="CT_HoleSize" minOccurs="0" maxOccurs="1"/>
@@ -16170,7 +16107,6 @@
 - <xsd:attribute name="val" type="ST_CrossBetween" use="required"/>
 - </xsd:complexType>
 - <xsd:simpleType name="ST_TickMark">
-- <xsd:restriction base="xsd:string">
 - <xsd:enumeration value="cross"/>
 - xlsx/scripts/office/soffice.py
 - <xsd:enumeration value="out"/>
@@ -16180,7 +16116,6 @@
 - <xsd:attribute name="val" type="ST_TickMark" default="cross"/>
 - </xsd:complexType>
 - <xsd:simpleType name="ST_TickLblPos">
-- <xsd:restriction base="xsd:string">
 - canvas-design/canvas-fonts/Gloock-OFL.txt
 - xlsx/scripts/office/unpack.py
 - <xsd:enumeration value="high"/>
@@ -16327,7 +16262,6 @@
 - <xsd:element name="majorTickMark" type="CT_TickMark" minOccurs="0" maxOccurs="1"
 - <xsd:element name="minorTickMark" type="CT_TickMark" minOccurs="0" maxOccurs="1"
 - <xsd:element name="tickLblPos" type="CT_TickLblPos" minOccurs="0" maxOccurs="1"/
-- <xsd:element name="spPr" type="a:CT_ShapeProperties" minOccurs="0" maxOccurs="1"
 - <xsd:element name="crossAx" type="CT_UnsignedInt" minOccurs="1" maxOccurs="1"/>
 - <xsd:choice minOccurs="0" maxOccurs="1">
 - <xsd:element name="crosses" type="CT_Crosses" minOccurs="1" maxOccurs="1"/>
@@ -16565,7 +16499,6 @@
 - <xsd:element name="externalData" type="CT_ExternalData" minOccurs="0" maxOccurs=
 - <xsd:element name="printSettings" type="CT_PrintSettings" minOccurs="0" maxOccur
 - <xsd:element name="userShapes" type="CT_RelId" minOccurs="0" maxOccurs="1"/>
-- <xsd:element name="extLst" type="CT_ExtensionList" minOccurs="0" maxOccurs="1"/>
 - </xsd:complexType>
 - <xsd:element name="chartSpace" type="CT_ChartSpace"/>
 - <xsd:element name="userShapes" type="cdr:CT_Drawing"/>
@@ -16641,14 +16574,12 @@
 - <xsd:element name="sp" type="CT_Shape"/>
 - <xsd:element name="graphicFrame" type="CT_GraphicFrame"/>
 - </xsd:choice>
-- </xsd:sequence>
 - </xsd:complexType>
 - <xsd:group name="EG_ObjectChoices">
 - <xsd:sequence>
 - <xsd:element name="grpSp" type="CT_GroupShape"/>
 - <xsd:element name="cxnSp" type="CT_Connector"/>
 - <xsd:element name="pic" type="CT_Picture"/>
-- </xsd:choice>
 - </xsd:sequence>
 - </xsd:group>
 - <xsd:simpleType name="ST_MarkerCoordinate">
@@ -16659,7 +16590,6 @@
 - <xsd:sequence>
 - <xsd:element name="x" type="ST_MarkerCoordinate" minOccurs="1" maxOccurs="1"/>
 - <xsd:element name="y" type="ST_MarkerCoordinate" minOccurs="1" maxOccurs="1"/>
-- </xsd:sequence>
 - </xsd:complexType>
 - <xsd:complexType name="CT_RelSizeAnchor">
 - <xsd:sequence>
@@ -16736,7 +16666,6 @@
 - <xsd:element name="title" type="CT_CTName" minOccurs="0" maxOccurs="unbounded"/>
 - <xsd:element name="desc" type="CT_CTDescription" minOccurs="0" maxOccurs="unboun
 - <xsd:element name="styleLbl" type="CT_CTStyleLabel" minOccurs="0" maxOccurs="unb
-- <xsd:element name="extLst" type="a:CT_OfficeArtExtensionList" minOccurs="0" maxO
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:element name="colorsDef" type="CT_ColorTransform"/>
@@ -16809,7 +16738,6 @@
 - <xsd:element name="cxnLst" type="CT_CxnList" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="bg" type="a:CT_BackgroundFormatting" minOccurs="0"/>
 - <xsd:element name="whole" type="a:CT_WholeE2oFormatting" minOccurs="0"/>
-- <xsd:element name="extLst" type="a:CT_OfficeArtExtensionList" minOccurs="0" maxO
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:element name="dataModel" type="CT_DataModel"/>
@@ -16834,7 +16762,6 @@
 - <xsd:attribute name="refPtType" type="ST_ElementType" use="optional" default="al
 - <xsd:complexType name="CT_Constraint">
 - <xsd:sequence>
-- <xsd:element name="extLst" type="a:CT_OfficeArtExtensionList" minOccurs="0" maxO
 - </xsd:sequence>
 - <xsd:attributeGroup ref="AG_ConstraintAttributes"/>
 - <xsd:attributeGroup ref="AG_ConstraintRefAttributes"/>
@@ -16909,7 +16836,6 @@
 - <xsd:complexType name="CT_LayoutNode">
 - <xsd:element name="constrLst" type="CT_Constraints" minOccurs="0" maxOccurs="1"/
 - <xsd:element name="varLst" type="CT_LayoutVariablePropertySet" minOccurs="0" max
-- <xsd:element name="extLst" type="a:CT_OfficeArtExtensionList" minOccurs="0" maxO
 - <xsd:attribute name="styleLbl" type="xsd:string" use="optional" default=""/>
 - <xsd:attribute name="chOrder" type="ST_ChildOrderType" use="optional" default="b
 - <xsd:attribute name="moveWith" type="xsd:string" use="optional" default=""/>
@@ -17058,7 +16984,6 @@
 - <xsd:restriction base="xsd:token">
 - <xsd:enumeration value="none"/>
 - <xsd:enumeration value="branch"/>
-- </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_AnimLvlStr" final="restriction">
 - <xsd:restriction base="xsd:token">
@@ -17112,7 +17037,6 @@
 - <xsd:element name="animOne" type="CT_AnimOne" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="animLvl" type="CT_AnimLvl" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="resizeHandles" type="CT_ResizeHandles" minOccurs="0" maxOccur
-- </xsd:sequence>
 - </xsd:complexType>
 - <xsd:complexType name="CT_SDName">
 - </xsd:complexType>
@@ -17192,7 +17116,6 @@
 - <xsd:enumeration value="follow"/>
 - <xsd:enumeration value="preced"/>
 - <xsd:enumeration value="root"/>
-- <xsd:enumeration value="none"/>
 - </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_AxisTypes">
@@ -17200,7 +17123,6 @@
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_BoolOperator" final="restriction">
 - <xsd:restriction base="xsd:token">
-- <xsd:enumeration value="none"/>
 - <xsd:enumeration value="equ"/>
 - <xsd:enumeration value="gte"/>
 - </xsd:restriction>
@@ -17400,7 +17322,6 @@
 - canvas-design/canvas-fonts/InstrumentSerif-Italic.ttf
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_SecondaryChildAlignment" final="restriction">
-- <xsd:restriction base="xsd:token">
 - negligent acts) or agreed to in writing, shall any Contributor be
 - </xsd:restriction>
 - </xsd:simpleType>
@@ -17408,7 +17329,6 @@
 - <xsd:restriction base="xsd:token">
 - <xsd:enumeration value="fromR"/>
 - </xsd:restriction>
-- </xsd:simpleType>
 - <xsd:simpleType name="ST_SecondaryLinearDirection" final="restriction">
 - <xsd:restriction base="xsd:token">
 - <xsd:enumeration value="none"/>
@@ -17596,7 +17516,6 @@
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_OutputShapeType" final="restriction">
 - <xsd:restriction base="xsd:token">
-- <xsd:enumeration value="none"/>
 - <xsd:enumeration value="conn"/>
 - </xsd:restriction>
 - </xsd:simpleType>
@@ -17648,7 +17567,6 @@
 - </xsd:complexType>
 - canvas-design/canvas-fonts/Italiana-Regular.ttf
 - <xsd:group name="EG_Media">
-- <xsd:choice>
 - <xsd:element name="audioCd" type="CT_AudioCD"/>
 - <xsd:element name="wavAudioFile" type="CT_EmbeddedWAVAudioFile"/>
 - <xsd:element name="audioFile" type="CT_AudioFile"/>
@@ -17832,7 +17750,6 @@
 - </xsd:complexType>
 - <xsd:simpleType name="ST_PositivePercentage">
 - <xsd:union memberTypes="ST_PositivePercentageDecimal s:ST_PositivePercentage"/>
-- </xsd:simpleType>
 - <xsd:simpleType name="ST_PositivePercentageDecimal">
 - canvas-design/canvas-fonts/JetBrainsMono-OFL.txt
 - </xsd:restriction>
@@ -17842,7 +17759,6 @@
 - </xsd:complexType>
 - <xsd:simpleType name="ST_FixedPercentage">
 - <xsd:union memberTypes="ST_FixedPercentageDecimal s:ST_FixedPercentage"/>
-- </xsd:simpleType>
 - <xsd:simpleType name="ST_FixedPercentageDecimal">
 - <xsd:restriction base="ST_PercentageDecimal">
 - *
@@ -18206,7 +18122,6 @@
 - <xsd:enumeration value="yellow"/>
 - <xsd:enumeration value="yellowGreen"/>
 - </xsd:restriction>
-- </xsd:simpleType>
 - <xsd:complexType name="CT_PresetColor">
 - <xsd:sequence>
 - </xsd:sequence>
@@ -18268,7 +18183,6 @@
 - <xsd:attribute name="b" type="ST_Percentage" use="optional" default="0%"/>
 - </xsd:complexType>
 - <xsd:simpleType name="ST_RectAlignment">
-- <xsd:restriction base="xsd:token">
 - <xsd:enumeration value="tl"/>
 - // - Use noLoop() by default
 - <xsd:enumeration value="bl"/>
@@ -18306,7 +18220,6 @@
 - <xsd:enumeration value="blackWhite"/>
 - // Use random() here - it will be seeded
 - <xsd:enumeration value="hidden"/>
-- </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:attributeGroup name="AG_Blob">
 - <xsd:attribute ref="r:embed" use="optional" default=""/>
@@ -18372,10 +18285,8 @@
 - </xsd:complexType>
 - <xsd:complexType name="CT_GraphicalObjectFrameLocking">
 - <xsd:sequence>
-- <xsd:element name="extLst" type="CT_OfficeArtExtensionList" minOccurs="0" maxOcc
 - </xsd:sequence>
 - <xsd:attribute name="noDrilldown" type="xsd:boolean" use="optional" default="fal
-- }
 - </xsd:complexType>
 - <xsd:complexType name="CT_ContentPartLocking">
 - <xsd:sequence>
@@ -18425,7 +18336,6 @@
 - const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
 - <xsd:sequence>
 - <xsd:element name="graphicFrameLocks" type="CT_GraphicalObjectFrameLocking" minO
-- <xsd:element name="extLst" type="CT_OfficeArtExtensionList" minOccurs="0" maxOcc
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:complexType name="CT_NonVisualContentPartProperties">
@@ -18509,12 +18419,10 @@
 - <xsd:attribute name="bld" type="ST_AnimationChartBuildType" use="optional" defau
 - <xsd:attribute name="animBg" type="xsd:boolean" use="optional" default="true"/>
 - if (value < 0) return max;
-- </xsd:complexType>
 - <xsd:complexType name="CT_AnimationGraphicalObjectBuildProperties">
 - <xsd:choice>
 - <xsd:element name="bldDgm" type="CT_AnimationDgmBuildProperties"/>
 - <xsd:element name="bldChart" type="CT_AnimationChartBuildProperties"/>
-- </xsd:choice>
 - <xsd:complexType name="CT_BackgroundFormatting">
 - <xsd:sequence>
 - canvas-design/canvas-fonts/Lora-Bold.ttf
@@ -18575,7 +18483,6 @@
 - // Useful when parameters change significantly
 - <xsd:element name="blipFill" type="CT_BlipFillProperties" minOccurs="1" maxOccur
 - <xsd:element name="style" type="CT_ShapeStyle" minOccurs="0" maxOccurs="1"/>
-- <xsd:element name="extLst" type="CT_OfficeArtExtensionList" minOccurs="0" maxOcc
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:complexType name="CT_GvmlGraphicFrameNonVisual">
@@ -18761,7 +18668,6 @@
 - <xsd:element name="anchor" type="CT_Point3D" minOccurs="1" maxOccurs="1"/>
 - <xsd:element name="norm" type="CT_Vector3D" minOccurs="1" maxOccurs="1"/>
 - <xsd:element name="up" type="CT_Vector3D" minOccurs="1" maxOccurs="1"/>
-- <xsd:element name="extLst" type="CT_OfficeArtExtensionList" minOccurs="0" maxOcc
 - </xsd:sequence>
 - </xsd:complexType>
 - Let your philosophy guide the implementation.
@@ -18811,7 +18717,6 @@
 - <xsd:element name="bevelB" type="CT_Bevel" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="extrusionClr" type="CT_Color" minOccurs="0" maxOccurs="1"/>
 - <xsd:element name="contourClr" type="CT_Color" minOccurs="0" maxOccurs="1"/>
-- </xsd:sequence>
 - <xsd:attribute name="z" type="ST_Coordinate" use="optional" default="0"/>
 - <xsd:attribute name="extrusionH" type="ST_PositiveCoordinate" use="optional" def
 - canvas-design/canvas-fonts/Lora-OFL.txt
@@ -18968,7 +18873,6 @@
 - <xsd:sequence>
 - <xsd:group ref="EG_ColorChoice" minOccurs="0" maxOccurs="1"/>
 - </xsd:sequence>
-- </xsd:complexType>
 - <xsd:complexType name="CT_LinearShadeProperties">
 - <xsd:attribute name="ang" type="ST_PositiveFixedAngle" use="optional"/>
 - <xsd:attribute name="scaled" type="xsd:boolean" use="optional"/>
@@ -19145,7 +19049,6 @@
 - </xsd:complexType>
 - <xsd:complexType name="CT_GroupFillProperties"/>
 - <xsd:group name="EG_FillProperties">
-- <xsd:choice>
 - flex-shrink: 0;
 - <xsd:element name="solidFill" type="CT_SolidColorFillProperties" minOccurs="1" m
 - <xsd:element name="pattFill" type="CT_PatternFillProperties" minOccurs="1" maxOc
@@ -19161,7 +19064,6 @@
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:simpleType name="ST_BlendMode">
-- <xsd:restriction base="xsd:token">
 - backdrop-filter: blur(10px);
 - <xsd:enumeration value="over"/>
 - <xsd:enumeration value="mult"/>
@@ -19394,7 +19296,6 @@
 - <xsd:enumeration value="doubleWave"/>
 - <xsd:enumeration value="flowChartProcess"/>
 - canvas-design/canvas-fonts/NothingYouCouldDo-Regular.ttf
-- }
 - <xsd:enumeration value="flowChartDecision"/>
 - <xsd:enumeration value="flowChartInputOutput"/>
 - <xsd:enumeration value="flowChartPredefinedProcess"/>
@@ -19658,12 +19559,9 @@
 - </xsd:sequence>
 - </xsd:complexType>
 - <xsd:group name="EG_Geometry">
-- <xsd:choice>
 - <xsd:element name="prstGeom" type="CT_PresetGeometry2D" minOccurs="1" maxOccurs=
 - </xsd:choice>
-- }
 - <xsd:group name="EG_TextGeometry">
-- <xsd:choice>
 - <xsd:element name="custGeom" type="CT_CustomGeometry2D" minOccurs="1" maxOccurs=
 - <xsd:element name="prstTxWarp" type="CT_PresetTextShape" minOccurs="1" maxOccurs
 - </xsd:choice>
@@ -19683,7 +19581,6 @@
 - </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_LineEndLength">
-- <xsd:restriction base="xsd:token">
 - <xsd:enumeration value="med"/>
 - </xsd:restriction>
 - border-color: var(--anthropic-orange);
@@ -19699,7 +19596,6 @@
 - canvas-design/canvas-fonts/Outfit-Regular.ttf
 - box-shadow: 0 0 0 2px rgba(217, 119, 87, 0.1);
 - <xsd:element name="gradFill" type="CT_GradientFillProperties" minOccurs="1" maxO
-- </xsd:group>
 - <xsd:complexType name="CT_LineJoinBevel"/>
 - <xsd:complexType name="CT_LineJoinRound"/>
 - <xsd:complexType name="CT_LineJoinMiterProperties">
@@ -19743,7 +19639,6 @@
 - <xsd:element name="prstDash" type="CT_PresetLineDashProperties" minOccurs="1" ma
 - <xsd:element name="custDash" type="CT_DashStopList" minOccurs="1" maxOccurs="1"/
 - </xsd:choice>
-- </xsd:group>
 - <xsd:simpleType name="ST_LineCap">
 - grid-template-columns: 1fr 1fr;
 - <xsd:restriction base="xsd:token">
@@ -19759,7 +19654,6 @@
 - <xsd:simpleType name="ST_PenAlignment">
 - <xsd:restriction base="xsd:token">
 - <xsd:enumeration value="in"/>
-- </xsd:restriction>
 - </xsd:simpleType>
 - <xsd:simpleType name="ST_CompoundLine">
 - <xsd:restriction base="xsd:token">
@@ -19832,7 +19726,6 @@
 - <xsd:element name="lstStyle" type="CT_TextListStyle" minOccurs="1" maxOccurs="1"
 - <xsd:element name="extLst" type="CT_OfficeArtExtensionList" minOccurs="0" maxOcc
 - </xsd:sequence>
-- </xsd:complexType>
 - <xsd:complexType name="CT_ObjectStyleDefaults">
 - <xsd:sequence>
 - <xsd:element name="spDef" type="CT_DefaultShapeDefinit
@@ -19873,7 +19766,6 @@
 - /* Color Pickers */
 - .color-group {
 - margin-bottom: 16px;
-- }
 - .color-group label {
 - canvas-design/canvas-fonts/RedHatMono-Regular.ttf
 - display: block;
@@ -19986,12 +19878,10 @@
 - canvas-design/LICENSE.txt
 - canvas-design/canvas-fonts/YoungSerif-OFL.txt
 - <span class="value-display" id="particleCount-value">5000</span>
-- </div>
 - <!-- Flow Speed -->
 - <label>Flow Speed</label>
 - <input type="range" id="flowSpeed" min="0.1" max="2.0" step="0.1" value="0.5" on
 - <span class="value-display" id="flowSpeed-value">0.5</span>
-- </div>
 - canvas-design/canvas-fonts/YoungSerif-Regular.ttf
 - <!-- Noise Scale -->
 - <label>Noise Scale</label>
@@ -20034,14 +19924,12 @@
 - <button class="button" onclick="resetParameters()">Reset</button>
 - </div>
 - </div>
-- </div>
 - <!-- Main Canvas Area -->
 - <div class="canvas-area">
 - <div id="canvas-container">
 - <div class="loading">Initializing generative art...</div>
 - </div>
 - docx/scripts/comment.py
-- </div>
 - </div>
 - <script>
 - // GENERATIVE ART PARAMETERS - CUSTOMIZE FOR YOUR ALGORITHM
@@ -20543,9 +20431,7 @@
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
-- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
-- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
@@ -20624,13 +20510,7 @@
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/LI
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/RE
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
-- leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/di
 - leitor-pagina-node/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-cache/pa
-- leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
-- leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
-- leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
-- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
-- leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
 - leitor-pagina-node/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-in
@@ -20668,10 +20548,6 @@
 - leitor-pagina-node/node_modules/.pnpm/ms@2.1.3/node_modules/ms/readme.md
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/agent-base@7.1.4/node_modules/agent-base/R
-- leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
-- leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
-- leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
-- leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
 - leitor-pagina-node/node_modules/.pnpm/node-domexception@1.0.0/node_modules/node-
@@ -20800,11 +20676,7 @@
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
-- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
-- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit/lib/d
-- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
-- leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
 - leitor-pagina-node/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dist/cjs/
@@ -20843,17 +20715,13 @@
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit/lib/t
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit/packa
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb-cssom
@@ -20869,11 +20737,7 @@
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/asynckit@0.4.0/node_modules/asynckit/seria
-- leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
 - leitor-pagina-node/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb-cssom
@@ -20905,7 +20769,6 @@
 - leitor-pagina-node/node_modules/.pnpm/url-parse@1.5.10/node_modules/querystringi
 - leitor-pagina-node/node_modules/.pnpm/url-parse@1.5.10/node_modules/requires-por
 - leitor-pagina-node/node_modules/.pnpm/url-parse@1.5.10/node_modules/url-parse/LI
-- leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/url-parse@1.5.10/node_modules/url-parse/RE
 - leitor-pagina-node/node_modules/.pnpm/url-parse@1.5.10/node_modules/url-parse/di
 - leitor-pagina-node/node_modules/.pnpm/url-parse@1.5.10/node_modules/url-parse/in
@@ -20923,11 +20786,7 @@
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
-- leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
-- leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
-- leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
-- leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
 - leitor-pagina-node/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modules/we
@@ -20951,13 +20810,8 @@
 - leitor-pagina-node/node_modules/.pnpm/whatwg-encoding@3.1.1/node_modules/iconv-l
 - leitor-pagina-node/node_modules/.pnpm/whatwg-encoding@3.1.1/node_modules/whatwg-
 - leitor-pagina-node/node_modules/.pnpm/whatwg-mimetype@4.0.0/node_modules/whatwg-
-- leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/tr46
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/webidl-conv
-- leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
-- leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
-- leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
-- leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatwg-url/
 - leitor-pagina-node/node_modules/.pnpm/ws@8.21.0/node_modules/ws/LICENSE
 - leitor-pagina-node/node_modules/.pnpm/ws@8.21.0/node_modules/ws/README.md
@@ -20992,7 +20846,6 @@
 - leitor-pagina-node/node_modules/node-fetch
 - leitor-pagina-node/package.json
 - leitor-pagina-node/pnpm-lock.yaml
-- leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - leitor-pagina-node/proxies.txt
 - leitor-pagina-node/script/index.js
 - - "ler pagina"
@@ -21029,7 +20882,6 @@
 - "rrweb-cssom@0.7.1": {
 - "rrweb-cssom": "private"
 - },
-- leitor-pagina-node/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules
 - "symbol-tree@3.2.4": {
 - "symbol-tree": "private"
 - },
@@ -21148,14 +21000,12 @@
 - },
 - "ms@2.1.3": {
 - "ms": "private"
-- },
 - "es-errors@1.3.0": {
 - "es-errors": "private"
 - },
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/a
 - "get-intrinsic@1.3.0": {
 - "get-intrinsic": "private"
-- },
 - "has-tostringtag@1.0.2": {
 - "has-tostringtag": "private"
 - },
@@ -21178,7 +21028,6 @@
 - },
 - "gopd@1.2.0": {
 - "gopd": "private"
-- },
 - "get-proto@1.0.1": {
 - "get-proto": "private"
 - },
@@ -21218,7 +21067,6 @@
 - "registries": {
 - "default": "https://registry.npmjs.org/",
 - "@jsr": "https://npm.jsr.io/"
-- },
 - "skipped": [],
 - "storeDir": "C:\\Users\\willi\\AppData\\Local\\pnpm\\store\\v11",
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
@@ -21241,7 +21089,6 @@
 - "hoistWorkspacePackages": true,
 - "injectWorkspacePackages": false,
 - "linkWorkspacePackages": false,
-- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - "minimumReleaseAge": 1440,
 - "minimumReleaseAgeIgnoreMissingTime": true,
 - "nodeLinker": "isolated",
@@ -21302,7 +21149,6 @@
 - - `hex`, hex color notation, i.e. `#rrggbb`
 - - `hexAlpha`, hex color notation with alpha channel, i.e. `#rrggbbaa`
 - - `opt.alpha` **[boolean][136]?** return in #rrggbbaa notation
-- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - - `opt.dimension` **[object][135]?**
 - - `opt.customProperty` **[object][135]?**
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
@@ -21314,7 +21160,6 @@
 - - system colors are not supported
 - * Bradford chromatic adaptation from D50 to D65
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
-- *
 - * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - * @copyright This software or document includes material copied from or derived
 - */function _e(t){return At(Su,t)}const Au=[1.0479297925449969,.02294687060160965
@@ -21335,14 +21180,11 @@
 - * @param {number} white -  Whiteness as percentage 0..100
 - * @param {number} black -  Blackness as percentage 0..100
 - * @return {number[]} Array of RGB components 0..1
-- *
 - * @see https://github.com/w3c/csswg-drafts/blob/main/css-color-4/hwbToRgb.js
 - */function Pu(t){const e=t[0],n=t[1]/100,r=t[2]/100;if(n+r>=1){const o=n/(n+r);r
 - * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
-- * @copyright This software or document includes material copied from or derived
 - */function Mu(t){const e=t[2]*Math.PI/180;return[t[0],t[1]*Math.cos(e),t[1]*Math
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
-- * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - */function Du(t){const e=180*Math.atan2(t[2],t[1])/Math.PI;return[t[0],Math.sqrt
 - * Convert Lab to D50-adapted XYZ
 - */function ci(t){const e=903.2962962962963,n=216/24389,r=(t[0]+16)/116,s=t[1]/50
@@ -21362,7 +21204,6 @@
 - * Assuming XYZ is relative to D50, convert to CIE Lab
 - * from CIE standard, which now defines these as a rational fraction
 - */function fi(t){const e=Ra(t[0]/Qn[0]),n=Ra(t[1]/Qn[1]);return[116*n-16,500*(e-
-- * @copyright This software or document includes material copied from or derived
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - *
 - * XYZ <-> LMS matrices recalculated for consistent reference white
@@ -21371,11 +21212,9 @@
 - * Convert XYZ to linear-light rec2020
 - */const _u=[446124/178915,-333277/357830,-72051/178915,-14852/17905,63121/35810,
 - * Convert XYZ to linear-light P3
-- * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - * @copyright This software or document includes material copied from or derived
 - */function Hu(t){return At(_u,t)}const Uu=[1.3457868816471583,-.2555720873797946
 - * Convert D50 XYZ to linear-light prophoto-rgb
-- *
 - * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - */const zu=[1829569/896150,-506331/896150,-308931/896150,-851781/878810,1648619/
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
@@ -21389,7 +21228,6 @@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - *
-- * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - * @copyright This software or document includes material copied from or derived
 - */const pi=1.09929682680944,Gu=.018053968510807;function Wa(t){const e=t<0?-1:1,
 - * Convert an array of linear-light sRGB values in the range 0.0-1.0 to gamma cor
@@ -21410,7 +21248,6 @@
 - * to gamma corrected form.
 - * Transfer curve is gamma 1.8 with a small linear portion.
 - *
-- * @copyright This software or document includes material copied from or derived
 - */const Vu=1/512;function Ia(t){const e=t<0?-1:1,n=Math.abs(t);return n>=Vu?e*Ma
 - * Convert an array of linear-light a98-rgb in the range 0.0-1.0
 - * to gamma corrected form. Negative values are also now accepted
@@ -21434,7 +21271,6 @@
 - *  For negative values, linear portion is extended on reflection of axis,
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - *  then reflected power function is used.
-- * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - * @copyright This software or document includes material copied from or derived
 - */function Ps(t){return[Ha(t[0]),Ha(t[1]),Ha(t[2])]}function Ha(t){const e=t<0?-
 - * Convert an array of display-p3 RGB values in the range 0.0 - 1.0
@@ -21457,7 +21293,6 @@
 - */const Qu=16/512;function Ua(t){const e=t<0?-1:1,n=Math.abs(t);return n<=Qu?t/1
 - * Convert an array of linear-light prophoto-rgb values to CIE D50 XYZ.
 - * Matrix cannot be expressed in rational form, but is calculated to 64 bit accur
-- *
 - * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - * @see see https://github.com/w3c/csswg-drafts/issues/7675
@@ -21471,7 +21306,6 @@
 - *
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - * @license W3C https://www.w3.org/Consortium/Legal/2015/copyright-software-and-d
-- * @copyright This software or document includes material copied from or derived
 - * @see http://www.brucelindbloom.com/index.html?Eqn_RGB_XYZ_Matrix.html
 - * @see https://www.adobe.com/digitalimag/pdfs/AdobeRGB1998.pdf
 - * @see https://github.com/w3c/csswg-drafts/blob/main/css-color-4/matrixmaker.htm
@@ -21535,8 +21369,6 @@
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
-- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
-- leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/p
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/lib/u
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/cssstyle@4.6.0/node_modules/cssstyle/packa
@@ -21544,7 +21376,6 @@
 - leitor-pagina-node/node_modules/.pnpm/data-uri-to-buffer@4.0.1/node_modules/data
 - leitor-pagina-node/node_modules/.pnpm/data-urls@5.0.0/node_modules/data-urls/LIC
 - leitor-pagina-node/node_modules/.pnpm/data-urls@5.0.0/node_modules/data-urls/REA
-- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/data-urls@5.0.0/node_modules/data-urls/lib
 - leitor-pagina-node/node_modules/.pnpm/data-urls@5.0.0/node_modules/data-urls/pac
 - leitor-pagina-node/node_modules/.pnpm/data-urls@5.0.0/node_modules/whatwg-mimety
@@ -21563,8 +21394,6 @@
 - leitor-pagina-node/node_modules/.pnpm/delayed-stream@1.0.0/node_modules/delayed-
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/call-bind-
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
-- leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
-- leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-pro
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/es-errors
@@ -21592,21 +21421,7 @@
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
-- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
@@ -21619,7 +21434,16 @@
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
+- leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
 - leitor-pagina-node/node_modules/.pnpm/entities@6.0.1/node_modules/entities/dist/
@@ -21661,10 +21485,7 @@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-errors/uri
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-erro
-- leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
-- leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
-- leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - leitor-pagina-node/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-obje
 - leitor-pagina-node/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_modules/es-e
 - leitor-pagina-node/node_modules/.pnpm/es-set-tostringtag@2.1.0/node_modules/es-s
@@ -21739,16 +21560,10 @@
 - leitor-pagina-node/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd/package.json
 - leitor-pagina-node/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd/test/index.js
 - leitor-pagina-node/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd/tsconfig.json
-- leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
-- leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
-- leitor-pagina-node/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-sym
-- leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
-- leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
-- leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - leitor-pagina-node/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/has-tos
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
@@ -21774,17 +21589,12 @@
 - leitor-pagina-node/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules/debug
 - leitor-pagina-node/node_modules/.pnpm/https-proxy-agent@7.0.6/node_modules/https
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/.
-- leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/C
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/L
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/R
-- leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
-- leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
-- leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
-- leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/e
 - leitor-pagina-node/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/l
 - leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@
@@ -21803,7 +21613,6 @@
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/LICENSE.tx
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/README.md
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/api.js
-- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
@@ -21888,7 +21697,6 @@
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/@csstools+css-calc@2.1.4_@c_e8d5cb57048a11
-- leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
 - leitor-pagina-node/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/jsdom/
@@ -23351,7 +23159,6 @@
 - **Headers**: DejaVu Sans Bold
 - **Body Text**: DejaVu Sans
 - Code: typescript
-- Code: typescript
 - Code: bash
 - Node/TypeScript MCP Server Implementation Guide
 - Overview
@@ -23477,8 +23284,6 @@
 - **Headers**: DejaVu Sans Bold
 - **Body Text**: DejaVu Sans
 - Code: javascript
-- Code: javascript
-- Code: javascript
 - PptxGenJS Tutorial
 - Setup & Basic Structure
 - Lists & Bullets
@@ -23520,8 +23325,6 @@
 - **Chart data labels**: "outEnd", "inEnd", "center"
 - `LAYOUT_4x3`: 10" × 7.5"
 - `LAYOUT_WIDE`: 13.3" × 7.5"
-- Code: python
-- Code: python
 - Code: python
 - Code: python
 - Python MCP Server Implementation Guide
@@ -23829,7 +23632,7 @@
 7. `DOCXSchemaValidator` - 18 edges
 8. `DOCXSchemaValidator` - 18 edges
 9. `Python MCP Server Implementation Guide` - 18 edges
-10. `PptxGenJS Tutorial` - 14 edges
+10. `MainActivity` - 17 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `_run_validation()` --calls--> `DOCXSchemaValidator`  [INFERRED]
@@ -23846,7 +23649,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (23961 total, 23523 thin omitted)
+## Communities (23771 total, 22983 thin omitted)
+
+### Community 0 - "BaseSchemaValidator"
+Cohesion: 0.05
+Nodes (16): _condense_xml(), pack(), Path, Pack a directory into a DOCX, PPTX, or XLSX file.  Validates with auto-repair, c, _run_validation(), BaseSchemaValidator, Base validator with common validation logic for document files., DOCXSchemaValidator (+8 more)
 
 ### Community 1 - "MCPConnection"
 Cohesion: 0.06
@@ -23869,8 +23676,8 @@ Cohesion: 0.06
 Nodes (35): apply_squash_stretch(), calculate_arc_motion(), ease_back_in(), ease_back_in_out(), ease_back_out(), ease_in_bounce(), ease_in_cubic(), ease_in_elastic() (+27 more)
 
 ### Community 6 - "Python MCP Server Implementation Guide"
-Cohesion: 0.06
-Nodes (36): Advanced FastMCP Features, Advanced Features (where applicable), Async/Await Best Practices, Code Best Practices, Code Composability and Reusability, Code Quality, Complete Example, Context Parameter Injection (+28 more)
+Cohesion: 0.11
+Nodes (19): Async/Await Best Practices, Code Best Practices, Code Composability and Reusability, Complete Example, Error Handling, MCP Python SDK and FastMCP, Overview, Pagination Implementation (+11 more)
 
 ### Community 7 - "2. Object Calisthenics (9 Regras)"
 Cohesion: 0.06
@@ -23878,7 +23685,7 @@ Nodes (34): 1. Filosofia Ruby on Rails (O Rails Way), 2. Object Calisthenics (9 
 
 ### Community 8 - "What You Must Do When Invoked"
 Cohesion: 0.07
-Nodes (27): For /graphify add and --watch, For /graphify query, For the commit hook and native CLAUDE.md integration, For --update (recommended), --commit and --cluster-only, /graphify, Honesty Rules, Interpreter guard for subcommands, OpenCode Visualization (how to report status) (+19 more)
+Nodes (28): For /graphify add and --watch, For /graphify query, For the commit hook and native CLAUDE.md integration, For --update (recommended), --commit and --cluster-only, /graphify (USO EXCLUSIVO: Repositório de Skills), Honesty Rules, Interpreter guard for subcommands, OpenCode Visualization (how to report status) (+20 more)
 
 ### Community 9 - "PptxGenJS Tutorial"
 Cohesion: 0.08
@@ -23937,8 +23744,8 @@ Cohesion: 0.13
 Nodes (14): Abordagem, Assinatura, Cores, Escrita em Design, Estrutura é Informação, Layout, Movimento Deliberado, Princípios de Design (+6 more)
 
 ### Community 25 - "Skills disponíveis"
-Cohesion: 0.11
-Nodes (17): 🧩 CSS & Estilização, ⚰️ Deprecated (mattpocock), 💻 Desenvolvimento & Frontend, 🎨 Design & Visual, 📝 Documentação & Comunicação, 📄 Documentos Office & PDF, ⚙️ Engineering (mattpocock), 📊 Estatísticas (+9 more)
+Cohesion: 0.12
+Nodes (16): 🧩 CSS & Estilização, ⚰️ Deprecated (mattpocock), 💻 Desenvolvimento & Frontend, 🎨 Design & Visual, 📝 Documentação & Comunicação, 📄 Documentos Office & PDF, ⚙️ Engineering (mattpocock), 📁 Estrutura do Projeto (+8 more)
 
 ### Community 26 - "SKILL.md"
 Cohesion: 0.08
@@ -23946,19 +23753,15 @@ Nodes (25): Agente Buildify (Auto-Instalação), Comandos de Router, 💻 Desenv
 
 ### Community 27 - "Fase 1: Pesquisa Profunda e Planejamento"
 Cohesion: 0.14
-Nodes (14): 1.1 Compreender o Design Moderno do MCP, 1.2 Estudar Documentação do Protocolo MCP, 1.3 Estudar Documentação do Framework, 1.4 Planeje Sua Implementação, 2.1 Configure Estrutura do Projeto, 2.2 Implemente Infraestrutura Compartilhada, 2.3 Implemente Ferramentas, 3.1 Qualidade do Código (+6 more)
+Nodes (14): 2.1 Configure Estrutura do Projeto, 2.2 Implemente Infraestrutura Compartilhada, 2.3 Implemente Ferramentas, 3.1 Qualidade do Código, 3.2 Compile e Teste, 4.1 Entenda o Propósito da Avaliação, 4.2 Crie 10 Perguntas de Avaliação, 4.3 Requisitos da Avaliação (+6 more)
 
 ### Community 28 - "DOCXSchemaValidator"
 Cohesion: 0.17
-Nodes (11): Compressed examples, Modes, Step 0 - Classify the ask, Step 1 - Define done, Step 2 - Gather evidence (via Graphify), Step 3 - Decide and commit, Step 4 - Act surgically, Step 5 - Verify by observation (+3 more)
+Nodes (11): Compressed examples, Modes, Step 0 - Classify the ask, Step 1 - Define done, Step 2 - Gather evidence (Standard Procedure), Step 3 - Decide and commit, Step 4 - Act surgically, Step 5 - Verify by observation (+3 more)
 
 ### Community 29 - "get_soffice_env"
 Cohesion: 0.22
 Nodes (12): _ensure_shim(), get_soffice_env(), _needs_shim(), CompletedProcess, Path, Helper for running LibreOffice (soffice) in environments where AF_UNIX sockets m, run_soffice(), has_gtimeout() (+4 more)
-
-### Community 30 - "DOCXSchemaValidator"
-Cohesion: 0.25
-Nodes (3): main(), Command line tool to validate Office document XML files against XSD schemas and, RedliningValidator
 
 ### Community 31 - "Skill Slack GIF Creator"
 Cohesion: 0.14
@@ -23977,8 +23780,8 @@ Cohesion: 0.15
 Nodes (12): Commit com arquivos especificos:, Commit em projeto especifico:, Commit forcado (--force-with-lease):, Commit padrao com confirmacao (RECOMENDADO):, Commit sem confirmacao interativa (SOMENTE se usuario pedir):, Fluxo de confirmacao, Notes, Parameters (+4 more)
 
 ### Community 35 - "MCP Server Best Practices"
-Cohesion: 0.15
-Nodes (13): Documentation Requirements, Error Handling, JSON Format (`response_format="json"`), Markdown Format (`response_format="markdown"`, typically default), MCP Server Best Practices, Pagination, Response Formats, Server Naming Conventions (+5 more)
+Cohesion: 0.12
+Nodes (17): Documentation Requirements, Error Handling, JSON Format (`response_format="json"`), Markdown Format (`response_format="markdown"`, typically default), MCP Server Best Practices, Pagination, Response Formats, Server Naming Conventions (+9 more)
 
 ### Community 36 - "simplify_redlines.py"
 Cohesion: 0.29
@@ -24013,8 +23816,8 @@ Cohesion: 0.24
 Nodes (10): accept_changes(), Accept all tracked changes in a DOCX file using LibreOffice.  Requires LibreOffi, _setup_libreoffice_macro(), _ensure_shim(), get_soffice_env(), _needs_shim(), CompletedProcess, Path (+2 more)
 
 ### Community 44 - "validators.py"
-Cohesion: 0.28
-Nodes (7): main(), Command line tool to validate Office document XML files against XSD schemas and, is_slack_ready(), Path, Quick check if GIF is ready for Slack.      Args:         gif_path: Path to GIF, Validate GIF for Slack (dimensions, size, frame count).      Args:         gif_p, validate_gif()
+Cohesion: 0.20
+Nodes (9): main(), Command line tool to validate Office document XML files against XSD schemas and, main(), Command line tool to validate Office document XML files against XSD schemas and, is_slack_ready(), Path, Quick check if GIF is ready for Slack.      Args:         gif_path: Path to GIF, Validate GIF for Slack (dimensions, size, frame count).      Args:         gif_p (+1 more)
 
 ### Community 45 - "frame_composer.py"
 Cohesion: 0.23
@@ -24049,16 +23852,16 @@ Cohesion: 0.49
 Nodes (8): _add_to_content_types(), _add_to_presentation_rels(), create_slide_from_layout(), duplicate_slide(), _get_next_slide_id(), get_next_slide_number(), Path, Add a new slide to an unpacked PPTX directory.  Usage: python add_slide.py <unpa
 
 ### Community 54 - "__init__.py"
-Cohesion: 0.10
-Nodes (19): Arquivos, Buildify — Fable Method + Graph-First + Skill Router, Comandos, Core: Graph Query FIRST, Grep NEVER, Custo Zero, Modos, O Loop Buildify, O Loop (Fable Method) (+11 more)
+Cohesion: 0.11
+Nodes (18): Arquivos, Buildify — graphify-skill-router FIRST (Antes de Tudo), Comandos Permitidos de Graphify, 🚨 FIRST: graphify-skill-router (ANTES DE TUDO), Modos, O Fluxo Buildify, O Loop Fable (Procedimento Padrão para Código), Passo 1 — Classificar (+10 more)
 
 ### Community 55 - "Skill DOCX - Documentos Word"
 Cohesion: 0.20
 Nodes (9): Abordagens, Converter .doc para .docx, Criação de Documentos, Edição de Documentos Existentes, Extração de Texto, Regras Importantes, Skill DOCX - Documentos Word, Validação (+1 more)
 
 ### Community 56 - "RedliningValidator"
-Cohesion: 0.24
-Nodes (5): Base validator with common validation logic for document files., Validator for Word document XML files against XSD schemas., Validation modules for Word document processing., Validator for PowerPoint presentation XML files against XSD schemas., Validator for tracked changes in Word documents.
+Cohesion: 0.32
+Nodes (4): Base validator with common validation logic for document files., Validator for Word document XML files against XSD schemas., Validation modules for Word document processing., Validator for PowerPoint presentation XML files against XSD schemas.
 
 ### Community 57 - "Skill Algorithmic Art"
 Cohesion: 0.22
@@ -24139,6 +23942,10 @@ Nodes (5): Example Formats, Instructions, Prioritization, Sections, Tools to use
 ### Community 79 - "faq-answers.md"
 Cohesion: 0.33
 Nodes (5): Answer Guidelines, Formatting, Guidance, Instructions, Tools Available
+
+### Community 80 - "SKILL.md"
+Cohesion: 0.17
+Nodes (8): Arquivos de Referência, 📚 Biblioteca de Documentação, Documentação Principal MCP (Carregue Primeiro), Documentação SDK (Carregue Durante Fase 1/2), Guia de Avaliação (Carregue Durante Fase 4), Guia de Desenvolvimento de Servidores MCP, Guias de Implementação Específicos por Linguagem (Carregue Durante Fase 2), Visão Geral
 
 ### Community 81 - "Quick Reference"
 Cohesion: 0.15
@@ -24473,8 +24280,8 @@ Cohesion: 0.33
 Nodes (5): Exemplo de output, Integracao, Output, Uso, What I do
 
 ### Community 191 - "Buildify Agent"
-Cohesion: 0.15
-Nodes (12): Buildify Agent, Commands, Cost-Free Knowledge Graph, Example Workflow, MANDATORY STEP 0 — SKILL ROUTER (ANTES DE TUDO), ⚠️ MANDATORY STEP -1 — KILL STALE OPENCODE INSTANCES (FIRST THING), OpenCode Visualization (how to report status), Priority: Graph Query FIRST, Grep NEVER (+4 more)
+Cohesion: 0.25
+Nodes (7): Buildify Agent, Comandos Permitidos de Graphify, Regras de Interface e Visualização, 🚨 STEP 0 (FIRST — ANTES DE TUDO): graphify-skill-router, STEP 1 — LIBERAR MEMÓRIA (KILL STALE INSTANCES) — SEMPRE OBRIGATÓRIO, STEP 2 — CODEBASE EXPLORATION (PROCEDIMENTO PADRÃO), Workflow Padrão
 
 ### Community 193 - "md_to_ast.py"
 Cohesion: 0.29
@@ -24505,24 +24312,24 @@ Cohesion: 0.09
 Nodes (19): ADR Format, Numbering, Optional sections, Template, What qualifies, When to offer an ADR, CONTEXT.md Format, Rules (+11 more)
 
 ### Community 200 - "HTML Report Format"
-Cohesion: 0.10
-Nodes (18): Call-graph collapse, Candidate card, Cross-section (good for layered shallowness), Diagram patterns, Hand-built boxes-and-arrows (when Mermaid's layout fights you), Header, HTML Report Format, Mass diagram (good for "interface as wide as implementation") (+10 more)
+Cohesion: 0.15
+Nodes (13): Call-graph collapse, Candidate card, Cross-section (good for layered shallowness), Diagram patterns, Hand-built boxes-and-arrows (when Mermaid's layout fights you), Header, HTML Report Format, Mass diagram (good for "interface as wide as implementation") (+5 more)
 
 ### Community 201 - "template.sh"
 Cohesion: 0.22
 Nodes (16): ask(), ask_secret(), banner(), _clear(), finish(), note(), open_url(), pause() (+8 more)
 
 ### Community 202 - "Tickets: <short name of the work>"
-Cohesion: 0.25
-Nodes (7): 1. Gather context, 2. Explore the codebase (optional), 3. Draft vertical slices, 4. Quiz the user, 5. Publish the tickets to the configured tracker, Process, To Tickets
+Cohesion: 0.13
+Nodes (14): 1. Gather context, 2. Explore the codebase (optional), 3. Draft vertical slices, 4. Quiz the user, 5. Publish the tickets to the configured tracker, Acceptance criteria, Blocked by, Parent (+6 more)
 
 ### Community 203 - "DOCXSchemaValidator"
 Cohesion: 0.18
 Nodes (10): 1. The master router: any problem, start to finish, 2. Classifying the ask (Step 0, with tie-breaks), 3. Gathering evidence (Step 2, bounded), 4. The intent gate (Step 4, before any behavior change), 5. Verifying (Step 5, with the hard bound), 6. Judging finished work (fable-judge), 7. Which tool for which job (the family router), Provenance (+2 more)
 
 ### Community 204 - "Diagnosing Bugs"
-Cohesion: 0.25
-Nodes (7): Diagnosing Bugs, Minimise, Phase 2 — Reproduce + minimise, Phase 3 — Hypothesise, Phase 4 — Instrument, Phase 5 — Fix + regression test, Phase 6 — Cleanup + post-mortem
+Cohesion: 0.14
+Nodes (13): Completion criterion — a tight loop that goes red, Diagnosing Bugs, Minimise, Non-deterministic bugs, Phase 1 — Build a feedback loop, Phase 2 — Reproduce + minimise, Phase 3 — Hypothesise, Phase 4 — Instrument (+5 more)
 
 ### Community 205 - "Test-Driven Development"
 Cohesion: 0.15
@@ -24557,8 +24364,8 @@ Cohesion: 0.25
 Nodes (7): 1. Pin the fixed point, 2. Identify the spec source, 3. Identify the standards sources, 4. Spawn both sub-agents in parallel, 5. Aggregate, Process, Why two axes
 
 ### Community 215 - "Quality Checklist"
-Cohesion: 0.22
-Nodes (8): Como funciona, Dry-run (só listar o que seria morto, sem matar):, Executar (matar de verdade):, Integração com o agente buildify, Matar OpenCode Stale, Quando usar, Segurança, Uso
+Cohesion: 0.18
+Nodes (10): Como funciona, Dry-run (só listar o que seria apagado, sem apagar):, Executar (apagar abas inativas de verdade, preservando a atual):, Integração com o agente buildify, Matar OpenCode Stale (v2 — abas, não processos), Por que v2, Preservar além da atual as N abas mais recentes:, Quando usar (+2 more)
 
 ### Community 217 - "Advanced FastMCP Features"
 Cohesion: 0.29
@@ -24569,8 +24376,8 @@ Cohesion: 0.25
 Nodes (7): Authority order, Domain adapter: business and operations, Done, by example, Evidence and primary sources, Fraud table (for fable-judge), Minimum evidence set (binding, before any recommendation), Verification by observation
 
 ### Community 221 - "Issue tracker: GitLab"
-Cohesion: 0.29
-Nodes (7): Acceptance criteria, Blocked by, Parent, <Ticket title>, <Ticket title>, Tickets: <short name of the work>, What to build
+Cohesion: 0.17
+Nodes (11): Active Record mínimo, Conversões, First/Last, Hooks (HookMethod.php), Load / Load estático / Lazy, Log de transação, Padrões, Páginas cobertas (+3 more)
 
 ### Community 222 - "Process"
 Cohesion: 0.22
@@ -24584,13 +24391,21 @@ Nodes (3): capture(), hitl-loop.template.sh script, step()
 Cohesion: 0.50
 Nodes (3): GLOSSARY.md Format, Rules, Structure
 
+### Community 241 - "Usage"
+Cohesion: 0.10
+Nodes (19): AppCompatActivity, Bundle, Chip, IBinder, MaterialButton, Context, Intent, Override (+11 more)
+
 ### Community 258 - "Good Questions"
 Cohesion: 0.60
 Nodes (5): _condense_xml(), pack(), Path, Pack a directory into a DOCX, PPTX, or XLSX file.  Validates with auto-repair, c, _run_validation()
 
 ### Community 261 - "Step 0 — Constrained query expansion (REQUIRED before traversal)"
-Cohesion: 0.33
-Nodes (6): Completion criterion — a tight loop that goes red, Non-deterministic bugs, Phase 1 — Build a feedback loop, Tighten the loop, Ways to construct one — try them in roughly this order, When you genuinely cannot build a loop
+Cohesion: 0.18
+Nodes (10): Cortina lateral (right panel) — padrão usado no StandardFormDataGridCurtainView, Inbox / PageCenter, Janela modal / comum, Janela sob demanda, Padrões, PDF / vídeo embutido, Página comum, Páginas cobertas (+2 more)
+
+### Community 262 - "DOCXSchemaValidator"
+Cohesion: 0.14
+Nodes (13): Apps, CLI útil, Conectar (todo script), D-pad / teclas TV, Exemplo fim-a-fim: buscar + instalar na TV, Init no aparelho (uma vez por aparelho, precisa ADB online + PIN), Instalar APK (padrão estável WiFi), Instalação (notebook, uma vez) (+5 more)
 
 ### Community 265 - "MCP Server Evaluation Guide"
 Cohesion: 0.25
@@ -24601,8 +24416,8 @@ Cohesion: 0.25
 Nodes (7): Authority order, Domain adapter: data analysis, Done, by example, Evidence and primary sources, Fraud table (for fable-judge), Minimum evidence set (binding, before any aggregate), Verification by observation
 
 ### Community 271 - "Injeção de GraphAgy"
-Cohesion: 0.14
-Nodes (13): Agente Injetado, Arquivos da skill, Ativação, Comandos do Agy como escravo (modo print, sem TTY), Comandos do Graphify (PRIORIDADE), Custo zero, Exemplo de uso, Injeção de GraphAgy (+5 more)
+Cohesion: 0.18
+Nodes (10): APK OPENBRIDGE, APP definitivo anti-queda (OpenBridge v22 padding + PIN 7294) — INSTALADO 18/10/2026, Autenticação Wi-Fi por PIN (4 dígitos) — PIN É DINÂMICO, SEMPRE SINCRONIZAR, Nunca-cai (persistente), Regras de ouro (não esquecer), Resoluções usadas, Scripts desta skill, Skill OPENBRIDGE — Acesso TV BOX Allwinner (+2 more)
 
 ### Community 277 - "Domain adapter: design and UX"
 Cohesion: 0.25
@@ -24630,27 +24445,31 @@ Nodes (7): Authority order, Domain adapter: research and reporting, Done, by exa
 
 ### Community 300 - "Agent Injection"
 Cohesion: 0.10
-Nodes (19): Agent Injection — Buildify (Fable + Graph-First), Agente Buildify, Comandos, Core Rule: Graph Query FIRST, Grep NEVER, Localização dos Arquivos, Modos, O Loop Buildify, O que faz (+11 more)
+Nodes (19): Agent Injection — Buildify (Fable + Skill-Router), Agente Buildify, Comandos Permitidos de Graphify, Localização dos Arquivos, Modos, O Loop Buildify, O que faz, Passo 1 — Classificar o pedido (+11 more)
 
 ### Community 301 - "Process"
 Cohesion: 0.25
 Nodes (8): Branch, Completion Criterion, Leading Word, Legwork, Negation, Post-Completion Steps, Premature Completion, Steering
 
 ### Community 302 - "Examples"
-Cohesion: 0.33
-Nodes (6): Arquivos de Referência, 📚 Biblioteca de Documentação, Documentação Principal MCP (Carregue Primeiro), Documentação SDK (Carregue Durante Fase 1/2), Guia de Avaliação (Carregue Durante Fase 4), Guias de Implementação Específicos por Linguagem (Carregue Durante Fase 2)
+Cohesion: 0.20
+Nodes (9): Checkout / PDV, Combo hierárquica + filtro dinâmico, Edição inline / em lote, Exclusão massiva / seleção, Padrões, Páginas cobertas, Regras, Skill Adianti — Organização: Operações, Checkout e Interações (+1 more)
 
 ### Community 303 - "Images"
-Cohesion: 0.18
-Nodes (10): Comandos, GraphAgy — Agente Coordenador (agy é o escravo), MANDATORY STEP 0 — SKILL ROUTER (ANTES DE TUDO), OpenCode Visualization (como reportar status), Proibições, STEP 1 — GRAFO É PRIORIDADE (MANDATORY, sempre primeiro), STEP 2 — DELEGAR AO AGY ESCRAVO (SÓ DEPOIS DO GRAFO), STEP 3 — VALIDAR E ATUALIZAR O GRAFO (+2 more)
+Cohesion: 0.43
+Nodes (5): BroadcastReceiver, BootReceiver, Context, Intent, Override
 
 ### Community 304 - "Advanced FastMCP Features"
-Cohesion: 0.40
-Nodes (5): 4.1 Entenda o Propósito da Avaliação, 4.2 Crie 10 Perguntas de Avaliação, 4.3 Requisitos da Avaliação, 4.4 Formato de Saída, Fase 4: Crie Avaliações
+Cohesion: 0.22
+Nodes (8): FieldList / CheckList / SortList, Interações dinâmicas, Padrão base (FormBuilderView real), Páginas cobertas (resumo), Regras, Skill Adianti — Apresentação: Formulários, Upload / assinatura / QR/barcode reader, Validação / máscara / seek / DB selects
 
 ### Community 326 - "Commit c3efb81 - 11/07/2026 19:23:16"
 Cohesion: 0.33
 Nodes (5): Arquivos, Commit c3efb81 - 11/07/2026 19:23:16, Diff, Hash, Mensagem
+
+### Community 332 - "Response Format Options"
+Cohesion: 0.29
+Nodes (7): Advanced Features (where applicable), Code Quality, Implementation Quality, Quality Checklist, Strategic Design, Testing, Tool Configuration
 
 ### Community 335 - "Icon Libraries"
 Cohesion: 0.25
@@ -24700,6 +24519,10 @@ Nodes (6): Arquivos, AST Resumo, Commit 029721d8871b - 11/06/2026 23:38:42, Diff
 Cohesion: 0.29
 Nodes (6): Arquivos, AST Resumo, Commit 9b373ac20f0c - 11/06/2026 23:39:42, Diff, Hash, Mensagem
 
+### Community 375 - "Context Parameter Injection"
+Cohesion: 0.33
+Nodes (6): Advanced FastMCP Features, Context Parameter Injection, Lifespan Management, Resource Registration, Structured Output Types, Transport Options
+
 ### Community 378 - "qpdf Advanced Features"
 Cohesion: 0.33
 Nodes (5): 1. Trivial (gate, no loop), 2. Question / assessment, 3. Task, 4. Plan-first, Worked examples: one per ask shape
@@ -24715,6 +24538,14 @@ Nodes (6): Arquivos, AST Resumo, Commit 172f025f9ea0 - 13/06/2026 02:26:15, Diff
 ### Community 382 - "Commit bcb83e30eef7 - 14/06/2026 00:07:59"
 Cohesion: 0.29
 Nodes (6): Arquivos, AST Resumo, Commit bcb83e30eef7 - 14/06/2026 00:07:59, Diff, Hash, Mensagem
+
+### Community 388 - "Quick Reference"
+Cohesion: 0.33
+Nodes (5): Acesso remoto via WiFi (sem cabo), APK OPENBRIDGE — com.openbridge.remote, Compilar (notebook com JDK 17 + SDK), Instalar na TV BOX (em modo 1007), O que faz
+
+### Community 391 - "Tool Naming"
+Cohesion: 0.50
+Nodes (4): Key Imports, Quick Reference, Server Initialization, Tool Registration Pattern
 
 ### Community 395 - "Fase 1: Pesquisa Profunda e Planejamento"
 Cohesion: 0.33
@@ -24772,10 +24603,6 @@ Nodes (6): Arquivos, AST Resumo, Commit c857027bebd2 - 18/06/2026 23:31:06, Diff
 Cohesion: 0.29
 Nodes (6): Arquivos, AST Resumo, Commit 2f2c5af0c7a0 - 18/06/2026 23:31:20, Diff, Hash, Mensagem
 
-### Community 795 - "Code: text"
-Cohesion: 0.32
-Nodes (4): Base validator with common validation logic for document files., Validator for Word document XML files against XSD schemas., Validation modules for Word document processing., Validator for PowerPoint presentation XML files against XSD schemas.
-
 ### Community 799 - "Commit 982f3f1c7f70 - 18/06/2026 23:32:37"
 Cohesion: 0.29
 Nodes (6): Arquivos, AST Resumo, Commit 982f3f1c7f70 - 18/06/2026 23:32:37, Diff, Hash, Mensagem
@@ -24799,6 +24626,10 @@ Nodes (6): Arquivos, AST Resumo, Commit 0bd8346e875a - 19/06/2026 22:42:50, Diff
 ### Community 811 - "Commit d435d1f1508e - 20/06/2026 22:52:19"
 Cohesion: 0.29
 Nodes (6): Arquivos, AST Resumo, Commit d435d1f1508e - 20/06/2026 22:52:19, Diff, Hash, Mensagem
+
+### Community 813 - "Code: bash"
+Cohesion: 0.25
+Nodes (7): Export / input / busca fuse, onReload + paginação + busca, Padrão base (DatagridBootstrapView real), Páginas cobertas, Regras, Skill Adianti — Apresentação: Datagrids, Transformadores / links / imagens / progresso
 
 ### Community 815 - "Code: text"
 Cohesion: 0.29
@@ -24961,8 +24792,8 @@ Cohesion: 0.50
 Nodes (3): RESOURCES.md Format, Rules, Structure
 
 ### Community 1223 - "Transport Options"
-Cohesion: 0.50
-Nodes (4): stdio, Streamable HTTP, Transport Options, Transport Selection
+Cohesion: 0.25
+Nodes (7): Filtros em cortina/janela, Mestre-detalhe (SaleForm / SaleMultiValueForm), Padrão trait padrão (StandardFormDataGridCurtainView real — código completo no Tutor), Páginas cobertas, Regras, Skill Adianti — Organização: Cadastros, Trait provê de graça
 
 ### Community 1226 - "SKILL.md"
 Cohesion: 0.14
@@ -24984,18 +24815,1366 @@ Nodes (5): Arquivos, Commit 8fd074a - 06/10/2026 00:31:43, Diff, Hash, Mensagem
 Cohesion: 0.60
 Nodes (5): _condense_xml(), pack(), Path, Pack a directory into a DOCX, PPTX, or XLSX file.  Validates with auto-repair, c, _run_validation()
 
-### Community 1265 - "_run_validation"
-Cohesion: 0.60
-Nodes (5): _condense_xml(), pack(), Path, Pack a directory into a DOCX, PPTX, or XLSX file.  Validates with auto-repair, c, _run_validation()
+### Community 1269 - "Skill Adianti — Persistência: Coleções e Criteria"
+Cohesion: 0.25
+Nodes (7): Batch update / delete / agregação, Join com TSqlSelect, Padrão Criteria (Criteria.php real do Tutor), Páginas cobertas, Regras, Repository + coleções, Skill Adianti — Persistência: Coleções e Criteria
+
+### Community 1364 - "Skill Adianti — Persistência: Relacionamentos"
+Cohesion: 0.25
+Nodes (7): Atalhos (RelationShortcutsView), Padrão Agregação (N-N via intermediária), Padrão Associação (N-1) — get/set, Padrão Composição (1-N pai-filho, ex: Sale -> itens), Páginas cobertas, Regras, Skill Adianti — Persistência: Relacionamentos
+
+### Community 1365 - "Skill Adianti — Persistência: Conexões"
+Cohesion: 0.29
+Nodes (6): Padrão 1 — Transação padrão (SetupTransaction.php), Padrão 2 — Prepared query manual, Padrão 3 — Conexão manual sem transação, Páginas do Tutor cobertas, Regras, Skill Adianti — Persistência: Conexões
+
+### Community 1415 - "Commit 5d201aa7d38d - 06/10/2026 00:31:43"
+Cohesion: 0.29
+Nodes (6): Arquivos, AST Resumo, Commit 5d201aa7d38d - 06/10/2026 00:31:43, Diff, Hash, Mensagem
+
+### Community 1496 - "Commit 512b5d8a073c - 06/10/2026 00:38:47"
+Cohesion: 0.29
+Nodes (6): Arquivos, AST Resumo, Commit 512b5d8a073c - 06/10/2026 00:38:47, Diff, Hash, Mensagem
+
+### Community 1508 - "Commit 783e5aed4aa6 - 06/10/2026 00:38:47"
+Cohesion: 0.29
+Nodes (6): Arquivos, AST Resumo, Commit 783e5aed4aa6 - 06/10/2026 00:38:47, Diff, Hash, Mensagem
+
+### Community 1538 - "Process"
+Cohesion: 0.29
+Nodes (5): 1. Explore, 2. Present candidates as an HTML report, 3. Grilling loop, Improve Codebase Architecture, Process
+
+### Community 1540 - "Skill Adianti — Relatórios, Gráficos, Etiquetas e Templates"
+Cohesion: 0.33
+Nodes (5): Padrões, Páginas cobertas, Recursos HTML, Regras, Skill Adianti — Relatórios, Gráficos, Etiquetas e Templates
+
+### Community 1546 - "Commit 512b5d8 - 06/10/2026 00:38:47"
+Cohesion: 0.33
+Nodes (5): Arquivos, Commit 512b5d8 - 06/10/2026 00:38:47, Diff, Hash, Mensagem
+
+### Community 1579 - "Skill Adianti — Apresentação: Contêineres"
+Cohesion: 0.40
+Nodes (4): Padrões, Páginas cobertas, Regras, Skill Adianti — Apresentação: Contêineres
+
+### Community 1630 - "Skill Adianti — Apresentação: Diálogos"
+Cohesion: 0.40
+Nodes (4): Padrões, Páginas cobertas, Regras, Skill Adianti — Apresentação: Diálogos
+
+### Community 1653 - "Skill Adianti — Apresentação: Utilitários"
+Cohesion: 0.40
+Nodes (4): Padrões, Páginas cobertas, Regras, Skill Adianti — Apresentação: Utilitários
+
+### Community 1655 - "Fase 1: Pesquisa Profunda e Planejamento"
+Cohesion: 0.40
+Nodes (5): 1.1 Compreender o Design Moderno do MCP, 1.2 Estudar Documentação do Protocolo MCP, 1.3 Estudar Documentação do Framework, 1.4 Planeje Sua Implementação, Fase 1: Pesquisa Profunda e Planejamento
+
+### Community 1670 - "Skill Adianti — Creating new components — Tutor Presentation > Templates > Creating new components"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Creating new components — Tutor Presentation > Templates > Creating new components, Uso no seu projeto
+
+### Community 1687 - "Skill Adianti — AgendaEntryForm — Tutor Organization > Utilities"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — AgendaEntryForm — Tutor Organization > Utilities, Uso no seu projeto
+
+### Community 1691 - "Skill Adianti — Manual agenda — Tutor Organization > Utilities > Manual agenda"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Manual agenda — Tutor Organization > Utilities > Manual agenda, Uso no seu projeto
+
+### Community 1701 - "Skill Adianti — Object Simple Aggregation — Tutor Persistence > Relationships > Object Simple Aggregation"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Object Simple Aggregation — Tutor Persistence > Relationships > Object Simple Aggregation, Uso no seu projeto
+
+### Community 1711 - "Skill Adianti — Object Aggregation — Tutor Persistence > Relationships > Object Aggregation"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Object Aggregation — Tutor Persistence > Relationships > Object Aggregation, Uso no seu projeto
+
+### Community 1749 - "Skill Adianti — Alerts — Tutor Presentation > Dialogs > Alerts"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Alerts — Tutor Presentation > Dialogs > Alerts, Uso no seu projeto
+
+### Community 1750 - "Skill Adianti — AnotherWindowView — Tutor Presentation > Containers"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — AnotherWindowView — Tutor Presentation > Containers, Uso no seu projeto
+
+### Community 1751 - "Skill Adianti — Arrow steps — Tutor Presentation > Utilities > Arrow steps"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Arrow steps — Tutor Presentation > Utilities > Arrow steps, Uso no seu projeto
+
+### Community 1752 - "Skill Adianti — Object Association — Tutor Persistence > Relationships > Object Association"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Object Association — Tutor Persistence > Relationships > Object Association, Uso no seu projeto
+
+### Community 1754 - "Skill Adianti — Bar chart — Tutor Presentation > Charts > Bar chart"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Bar chart — Tutor Presentation > Charts > Bar chart, Uso no seu projeto
+
+### Community 1756 - "Skill Adianti — BreadCrumbView — Tutor Presentation > Utilities"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — BreadCrumbView — Tutor Presentation > Utilities, Uso no seu projeto
+
+### Community 1757 - "Skill Adianti — CalendarEventForm — Tutor Organization > Utilities"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CalendarEventForm — Tutor Organization > Utilities, Uso no seu projeto
+
+### Community 1759 - "Skill Adianti — CalendarEventPanelForm — Tutor Organization > Utilities"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CalendarEventPanelForm — Tutor Organization > Utilities, Uso no seu projeto
+
+### Community 1761 - "Skill Adianti — Simple calendar — Tutor Presentation > Utilities > Simple calendar"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Simple calendar — Tutor Presentation > Utilities > Simple calendar, Uso no seu projeto
+
+### Community 1804 - "Skill Adianti — Cards — Tutor Presentation > Utilities > Cards"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Cards — Tutor Presentation > Utilities > Cards, Uso no seu projeto
+
+### Community 1818 - "Skill Adianti — Carousel — Tutor Presentation > Templates > Carousel"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Carousel — Tutor Presentation > Templates > Carousel, Uso no seu projeto
+
+### Community 1822 - "Skill Adianti — CartManagementView — Tutor Organization > Catalog"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CartManagementView — Tutor Organization > Catalog, Uso no seu projeto
+
+### Community 1829 - "Skill Adianti — Checkout form — Tutor Organization > Checkout screens > Checkout form"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Checkout form — Tutor Organization > Checkout screens > Checkout form, Uso no seu projeto
+
+### Community 1975 - "Skill Adianti — Circle plugin — Tutor Presentation > Templates > Circle plugin"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Circle plugin — Tutor Presentation > Templates > Circle plugin, Uso no seu projeto
+
+### Community 2106 - "Skill Adianti — CitySeek — Tutor Organization > ComplexViews"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CitySeek — Tutor Organization > ComplexViews, Uso no seu projeto
+
+### Community 2141 - "Skill Adianti — CityWindow — Tutor Organization > StandardControls"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CityWindow — Tutor Organization > StandardControls, Uso no seu projeto
+
+### Community 2147 - "Skill Adianti — CollectionAggregation — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionAggregation — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2247 - "Skill Adianti — Collection aggregations — Tutor Persistence > Collections > Collection aggregations"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Collection aggregations — Tutor Persistence > Collections > Collection aggregations, Uso no seu projeto
+
+### Community 2248 - "Skill Adianti — CollectionArray — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionArray — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2249 - "Skill Adianti — Collection as array — Tutor Persistence > Collections > Collection as array"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Collection as array — Tutor Persistence > Collections > Collection as array, Uso no seu projeto
+
+### Community 2251 - "Skill Adianti — CollectionBatchUpdate — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionBatchUpdate — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2252 - "Skill Adianti — Collection batch update — Tutor Persistence > Collections > Collection batch update"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Collection batch update — Tutor Persistence > Collections > Collection batch update, Uso no seu projeto
+
+### Community 2254 - "Skill Adianti — CollectionCount — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionCount — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2255 - "Skill Adianti — CollectionCountObjects — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionCountObjects — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2256 - "Skill Adianti — Collection count objects — Tutor Persistence > Collections > Collection count objects"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Collection count objects — Tutor Persistence > Collections > Collection count objects, Uso no seu projeto
+
+### Community 2257 - "Skill Adianti — Collection count — Tutor Persistence > Collections > Collection count"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Collection count — Tutor Persistence > Collections > Collection count, Uso no seu projeto
+
+### Community 2258 - "Skill Adianti — CollectionDelete — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionDelete — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2264 - "Skill Adianti — Collection delete — Tutor Persistence > Collections > Collection delete"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Collection delete — Tutor Persistence > Collections > Collection delete, Uso no seu projeto
+
+### Community 2265 - "Skill Adianti — CollectionFilter — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionFilter — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2266 - "Skill Adianti — Collection filter — Tutor Persistence > Collections > Collection filter"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Collection filter — Tutor Persistence > Collections > Collection filter, Uso no seu projeto
+
+### Community 2267 - "Skill Adianti — CollectionGetObjects — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionGetObjects — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2268 - "Skill Adianti — Collection get objects — Tutor Persistence > Collections > Collection get objects"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Collection get objects — Tutor Persistence > Collections > Collection get objects, Uso no seu projeto
+
+### Community 2269 - "Skill Adianti — CollectionLoad — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionLoad — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2270 - "Skill Adianti — CollectionLoadProperty — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionLoadProperty — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2277 - "Skill Adianti — Collection paginated load — Tutor Persistence > Collections > Collection paginated load"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Collection paginated load — Tutor Persistence > Collections > Collection paginated load, Uso no seu projeto
+
+### Community 2278 - "Skill Adianti — Collection load — Tutor Persistence > Collections > Collection load"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Collection load — Tutor Persistence > Collections > Collection load, Uso no seu projeto
+
+### Community 2279 - "extrair-conteudo-paginas/node_modules/.pnpm/get-proto@1.0.1/node_modules/get-pro"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionSimpleCount — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2280 - "Skill Adianti — CollectionSimpleCountView — Tutor Persistence > Collections"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionSimpleCountView — Tutor Persistence > Collections, Uso no seu projeto
+
+### Community 2282 - "Skill Adianti — CollectionSimpleDelete — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionSimpleDelete — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2284 - "Skill Adianti — CollectionSimpleDeleteView — Tutor Persistence > Collections"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionSimpleDeleteView — Tutor Persistence > Collections, Uso no seu projeto
+
+### Community 2285 - "Skill Adianti — CollectionSimpleLoad — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionSimpleLoad — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2286 - "Skill Adianti — CollectionSimpleLoadProperty — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionSimpleLoadProperty — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2287 - "Skill Adianti — Collection simple paginated load — Tutor Persistence > Collections > Collection simple paginated load"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Collection simple paginated load — Tutor Persistence > Collections > Collection simple paginated load, Uso no seu projeto
+
+### Community 2288 - "Skill Adianti — CollectionSimpleLoadView — Tutor Persistence > Collections"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionSimpleLoadView — Tutor Persistence > Collections, Uso no seu projeto
+
+### Community 2291 - "Skill Adianti — CollectionStaticBatchUpdate — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionStaticBatchUpdate — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2305 - "Skill Adianti — Collection static batch update — Tutor Persistence > Collections > Collection static batch update"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Collection static batch update — Tutor Persistence > Collections > Collection static batch update, Uso no seu projeto
+
+### Community 2306 - "Skill Adianti — CollectionStaticSimpleCount — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionStaticSimpleCount — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2307 - "Skill Adianti — Collection static simple count — Tutor Persistence > Collections > Collection static simple count"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Collection static simple count — Tutor Persistence > Collections > Collection static simple count, Uso no seu projeto
+
+### Community 2310 - "Skill Adianti — CollectionStaticSimpleDelete — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionStaticSimpleDelete — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2312 - "Skill Adianti — Collection static simple delete — Tutor Persistence > Collections > Collection static simple delete"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Collection static simple delete — Tutor Persistence > Collections > Collection static simple delete, Uso no seu projeto
+
+### Community 2313 - "Skill Adianti — CollectionStaticSimpleLoad — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionStaticSimpleLoad — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2314 - "Skill Adianti — Collection static simple load — Tutor Persistence > Collections > Collection static simple load"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Collection static simple load — Tutor Persistence > Collections > Collection static simple load, Uso no seu projeto
+
+### Community 2315 - "Skill Adianti — CollectionSubQuery — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionSubQuery — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2316 - "Skill Adianti — Collections with subquery — Tutor Persistence > Collections > Collections with subquery"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Collections with subquery — Tutor Persistence > Collections > Collections with subquery, Uso no seu projeto
+
+### Community 2318 - "Skill Adianti — CollectionTransform — código executável dbsamples (Persistence > Collections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionTransform — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2319 - "extrair-conteudo-paginas/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-s"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Collection transform — Tutor Persistence > Collections > Collection transform, Uso no seu projeto
+
+### Community 2320 - "extrair-conteudo-paginas/node_modules/.pnpm/has-tostringtag@1.0.2/node_modules/h"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CollectionUpdate — código executável dbsamples (Persistence > Collections), Uso no seu projeto
+
+### Community 2322 - "Skill Adianti — Collection update — Tutor Persistence > Collections > Collection update"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Collection update — Tutor Persistence > Collections > Collection update, Uso no seu projeto
+
+### Community 2323 - "Skill Adianti — Column chart — Tutor Presentation > Charts > Column chart"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Column chart — Tutor Presentation > Charts > Column chart, Uso no seu projeto
+
+### Community 2327 - "Skill Adianti — Manual DataGrid — Tutor Organization > Manual controls > Manual DataGrid"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Manual DataGrid — Tutor Organization > Manual controls > Manual DataGrid, Uso no seu projeto
+
+### Community 2329 - "Skill Adianti — Manual Form/DataGrid — Tutor Organization > Manual controls > Manual Form/DataGrid"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Manual Form/DataGrid — Tutor Organization > Manual controls > Manual Form/DataGrid, Uso no seu projeto
+
+### Community 2331 - "Skill Adianti — Manual form — Tutor Organization > Manual controls > Manual form"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Manual form — Tutor Organization > Manual controls > Manual form, Uso no seu projeto
+
+### Community 2332 - "Skill Adianti — Object Simple Composition — Tutor Persistence > Relationships > Object Simple Composition"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Object Simple Composition — Tutor Persistence > Relationships > Object Simple Composition, Uso no seu projeto
+
+### Community 2333 - "Skill Adianti — Object Composition — Tutor Persistence > Relationships > Object Composition"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Object Composition — Tutor Persistence > Relationships > Object Composition, Uso no seu projeto
+
+### Community 2334 - "Skill Adianti — ContactFormWindow — Tutor Organization > ComplexViews"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ContactFormWindow — Tutor Organization > ComplexViews, Uso no seu projeto
+
+### Community 2335 - "Skill Adianti — Frame — Tutor Presentation > Containers > Frame"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Frame — Tutor Presentation > Containers > Frame, Uso no seu projeto
+
+### Community 2336 - "Skill Adianti — Horizontal Box — Tutor Presentation > Containers > Horizontal Box"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Horizontal Box — Tutor Presentation > Containers > Horizontal Box, Uso no seu projeto
+
+### Community 2349 - "Skill Adianti — Bootstrap Notebook Wrapper — Tutor Presentation > Containers > Bootstrap Notebook Wrapper"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Bootstrap Notebook Wrapper — Tutor Presentation > Containers > Bootstrap Notebook Wrapper, Uso no seu projeto
+
+### Community 2352 - "Skill Adianti — Notebook Pills — Tutor Presentation > Containers > Notebook Pills"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Notebook Pills — Tutor Presentation > Containers > Notebook Pills, Uso no seu projeto
+
+### Community 2353 - "Skill Adianti — Notebook events — Tutor Presentation > Containers > Notebook events"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Notebook events — Tutor Presentation > Containers > Notebook events, Uso no seu projeto
+
+### Community 2354 - "Skill Adianti — ContainerNotebookVerticalBootstrapView — Tutor Presentation > Containers"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ContainerNotebookVerticalBootstrapView — Tutor Presentation > Containers, Uso no seu projeto
+
+### Community 2355 - "Skill Adianti — Notebook — Tutor Presentation > Containers > Notebook"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Notebook — Tutor Presentation > Containers > Notebook, Uso no seu projeto
+
+### Community 2356 - "Skill Adianti — Page Frame — Tutor Presentation > Containers > Page Frame"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Page Frame — Tutor Presentation > Containers > Page Frame, Uso no seu projeto
+
+### Community 2357 - "Skill Adianti — Page Wrapper — Tutor Presentation > Containers > Page Wrapper"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Page Wrapper — Tutor Presentation > Containers > Page Wrapper, Uso no seu projeto
+
+### Community 2360 - "Skill Adianti — Panel group — Tutor Presentation > Containers > Panel group"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Panel group — Tutor Presentation > Containers > Panel group, Uso no seu projeto
+
+### Community 2361 - "Skill Adianti — Panel — Tutor Presentation > Containers > Panel"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Panel — Tutor Presentation > Containers > Panel, Uso no seu projeto
+
+### Community 2362 - "Skill Adianti — Scroll — Tutor Presentation > Containers > Scroll"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Scroll — Tutor Presentation > Containers > Scroll, Uso no seu projeto
+
+### Community 2363 - "Skill Adianti — Table Columns — Tutor Presentation > Containers > Table Columns"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Table Columns — Tutor Presentation > Containers > Table Columns, Uso no seu projeto
+
+### Community 2364 - "Skill Adianti — ContainerTableMultiCellView — Tutor Presentation > Containers"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ContainerTableMultiCellView — Tutor Presentation > Containers, Uso no seu projeto
+
+### Community 2365 - "Skill Adianti — Table — Tutor Presentation > Containers > Table"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Table — Tutor Presentation > Containers > Table, Uso no seu projeto
+
+### Community 2366 - "Skill Adianti — Vertical Box — Tutor Presentation > Containers > Vertical Box"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Vertical Box — Tutor Presentation > Containers > Vertical Box, Uso no seu projeto
+
+### Community 2367 - "Skill Adianti — Window events — Tutor Presentation > Extras > Window events"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Window events — Tutor Presentation > Extras > Window events, Uso no seu projeto
+
+### Community 2368 - "Skill Adianti — Criteria API — Tutor Persistence > Collections > Criteria API"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Criteria API — Tutor Persistence > Collections > Criteria API, Uso no seu projeto
+
+### Community 2370 - "Skill Adianti — Curtain filters — Tutor Organization > Complete registrations > Curtain filters"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Curtain filters — Tutor Organization > Complete registrations > Curtain filters, Uso no seu projeto
+
+### Community 2371 - "Skill Adianti — Customer list — Tutor Organization > Complete registrations > Customer list"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Customer list — Tutor Organization > Complete registrations > Customer list, Uso no seu projeto
+
+### Community 2375 - "Skill Adianti — CustomerFormView — Tutor Organization > CompleteRegistrations"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CustomerFormView — Tutor Organization > CompleteRegistrations, Uso no seu projeto
+
+### Community 2383 - "Skill Adianti — CustomerFormWindow — Tutor Organization > CompleteRegistrations"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — CustomerFormWindow — Tutor Organization > CompleteRegistrations, Uso no seu projeto
+
+### Community 2384 - "Skill Adianti — Customer Status — Tutor Organization > Query screens > Customer Status"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Customer Status — Tutor Organization > Query screens > Customer Status, Uso no seu projeto
+
+### Community 2385 - "Skill Adianti — Window filters — Tutor Organization > Complete registrations > Window filters"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Window filters — Tutor Organization > Complete registrations > Window filters, Uso no seu projeto
+
+### Community 2388 - "Skill Adianti — Dashboard — Tutor Presentation > Charts > Dashboard"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Dashboard — Tutor Presentation > Charts > Dashboard, Uso no seu projeto
+
+### Community 2390 - "extrair-conteudo-paginas/node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrids Actions group — Tutor Presentation > Datagrids > Datagrids Actions group, Uso no seu projeto
+
+### Community 2394 - "Skill Adianti — Bootstrap Datagrid — Tutor Presentation > Datagrids > Bootstrap Datagrid"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Bootstrap Datagrid — Tutor Presentation > Datagrids > Bootstrap Datagrid, Uso no seu projeto
+
+### Community 2400 - "Skill Adianti — Cash entries — Tutor Presentation > Reports > Cash entries"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Cash entries — Tutor Presentation > Reports > Cash entries, Uso no seu projeto
+
+### Community 2401 - "Skill Adianti — Datagrids with Checkbutton — Tutor Presentation > Extras > Datagrids with Checkbutton"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrids with Checkbutton — Tutor Presentation > Extras > Datagrids with Checkbutton, Uso no seu projeto
+
+### Community 2404 - "Skill Adianti — Datagrids Columns group — Tutor Presentation > Datagrids > Datagrids Columns group"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrids Columns group — Tutor Presentation > Datagrids > Datagrids Columns group, Uso no seu projeto
+
+### Community 2405 - "Skill Adianti — Datagrids Conditional actions — Tutor Presentation > Datagrids > Datagrids Conditional actions"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrids Conditional actions — Tutor Presentation > Datagrids > Datagrids Conditional actions, Uso no seu projeto
+
+### Community 2408 - "Skill Adianti — Native datagrid — Tutor Presentation > Datagrids > Native datagrid"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Native datagrid — Tutor Presentation > Datagrids > Native datagrid, Uso no seu projeto
+
+### Community 2440 - "Skill Adianti — Datatables — Tutor Presentation > Datagrids > Datatables"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datatables — Tutor Presentation > Datagrids > Datatables, Uso no seu projeto
+
+### Community 2458 - "Skill Adianti — Datagrid details — Tutor Presentation > Extras > Datagrid details"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrid details — Tutor Presentation > Extras > Datagrid details, Uso no seu projeto
+
+### Community 2518 - "extrair-conteudo-paginas/node_modules/.pnpm/jsdom@24.1.3/node_modules/jsdom/lib/"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrid export — Tutor Presentation > Datagrids > Datagrid export, Uso no seu projeto
+
+### Community 2572 - "Skill Adianti — Datagrid with hiddable columns — Tutor Presentation > Datagrids > Datagrid with hiddable columns"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrid with hiddable columns — Tutor Presentation > Datagrids > Datagrid with hiddable columns, Uso no seu projeto
+
+### Community 2599 - "Skill Adianti — Horizontal Scrollable Datagrids — Tutor Presentation > Datagrids > Horizontal Scrollable Datagrids"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Horizontal Scrollable Datagrids — Tutor Presentation > Datagrids > Horizontal Scrollable Datagrids, Uso no seu projeto
+
+### Community 2623 - "Skill Adianti — Datagrid with image — Tutor Presentation > Datagrids > Datagrid with image"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrid with image — Tutor Presentation > Datagrids > Datagrid with image, Uso no seu projeto
+
+### Community 2643 - "Skill Adianti — Datagrids with input dialog — Tutor Presentation > Datagrids > Datagrids with input dialog"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrids with input dialog — Tutor Presentation > Datagrids > Datagrids with input dialog, Uso no seu projeto
+
+### Community 2727 - "Skill Adianti — Datagrid with input fields — Tutor Presentation > Datagrids > Datagrid with input fields"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrid with input fields — Tutor Presentation > Datagrids > Datagrid with input fields, Uso no seu projeto
+
+### Community 2758 - "Skill Adianti — Datagrid with label — Tutor Presentation > Datagrids > Datagrid with label"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrid with label — Tutor Presentation > Datagrids > Datagrid with label, Uso no seu projeto
+
+### Community 2840 - "Skill Adianti — Datagrid with links — Tutor Presentation > Datagrids > Datagrid with links"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrid with links — Tutor Presentation > Datagrids > Datagrid with links, Uso no seu projeto
+
+### Community 2852 - "Skill Adianti — Datagrid calculations — Tutor Presentation > Datagrids > Datagrid calculations"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrid calculations — Tutor Presentation > Datagrids > Datagrid calculations, Uso no seu projeto
+
+### Community 2966 - "Skill Adianti — Datagrids with popover — Tutor Presentation > Extras > Datagrids with popover"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrids with popover — Tutor Presentation > Extras > Datagrids with popover, Uso no seu projeto
+
+### Community 2967 - "extrair-conteudo-paginas/node_modules/.pnpm/lru-cache@10.4.3/node_modules/lru-ca"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrid with progress bar — Tutor Presentation > Datagrids > Datagrid with progress bar, Uso no seu projeto
+
+### Community 2969 - "Skill Adianti — Datagrid SQL query — Tutor Presentation > Datagrids > Datagrid SQL query"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrid SQL query — Tutor Presentation > Datagrids > Datagrid SQL query, Uso no seu projeto
+
+### Community 2972 - "Skill Adianti — Datagrid Rest query — Tutor Presentation > Datagrids > Datagrid Rest query"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrid Rest query — Tutor Presentation > Datagrids > Datagrid Rest query, Uso no seu projeto
+
+### Community 2973 - "Skill Adianti — Vertical Scrollable Datagrids — Tutor Presentation > Datagrids > Vertical Scrollable Datagrids"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Vertical Scrollable Datagrids — Tutor Presentation > Datagrids > Vertical Scrollable Datagrids, Uso no seu projeto
+
+### Community 2974 - "Skill Adianti — Datagrid search — Tutor Presentation > Datagrids > Datagrid search"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrid search — Tutor Presentation > Datagrids > Datagrid search, Uso no seu projeto
+
+### Community 2975 - "Skill Adianti — DatagridStyleView — Tutor Presentation > Extras"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — DatagridStyleView — Tutor Presentation > Extras, Uso no seu projeto
+
+### Community 2976 - "Skill Adianti — Datagrid date conversion — Tutor Presentation > Extras > Datagrid date conversion"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrid date conversion — Tutor Presentation > Extras > Datagrid date conversion, Uso no seu projeto
+
+### Community 2977 - "Skill Adianti — Datagrid formatting — Tutor Presentation > Datagrids > Datagrid formatting"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrid formatting — Tutor Presentation > Datagrids > Datagrid formatting, Uso no seu projeto
+
+### Community 2980 - "Skill Adianti — Datagrid Window Form — Tutor Presentation > Extras > Datagrid Window Form"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrid Window Form — Tutor Presentation > Extras > Datagrid Window Form, Uso no seu projeto
+
+### Community 2982 - "Skill Adianti — Datagrids with new Window — Tutor Presentation > Datagrids > Datagrids with new Window"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Datagrids with new Window — Tutor Presentation > Datagrids > Datagrids with new Window, Uso no seu projeto
+
+### Community 2983 - "Skill Adianti — Toast notifications com TToast::show no Adianti"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Toast notifications com TToast::show no Adianti, Uso no seu projeto
+
+### Community 2985 - "Skill Adianti — Error dialog — Tutor Presentation > Dialogs > Error dialog"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Error dialog — Tutor Presentation > Dialogs > Error dialog, Uso no seu projeto
+
+### Community 2987 - "extrair-conteudo-paginas/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/m"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Information dialog — Tutor Presentation > Dialogs > Information dialog, Uso no seu projeto
+
+### Community 2988 - "Skill Adianti — Input dialog — Tutor Presentation > Dialogs > Input dialog"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Input dialog — Tutor Presentation > Dialogs > Input dialog, Uso no seu projeto
+
+### Community 2991 - "Skill Adianti — Question dialog — Tutor Presentation > Dialogs > Question dialog"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Question dialog — Tutor Presentation > Dialogs > Question dialog, Uso no seu projeto
+
+### Community 2994 - "Skill Adianti — Toast — Tutor Presentation > Dialogs > Toast"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Toast — Tutor Presentation > Dialogs > Toast, Uso no seu projeto
+
+### Community 3006 - "Skill Adianti — Warning dialog — Tutor Presentation > Dialogs > Warning dialog"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Warning dialog — Tutor Presentation > Dialogs > Warning dialog, Uso no seu projeto
+
+### Community 3011 - "Skill Adianti — Document HTML->PDF — Tutor Presentation > Reports > Document HTML->PDF"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Document HTML->PDF — Tutor Presentation > Reports > Document HTML->PDF, Uso no seu projeto
+
+### Community 3015 - "Skill Adianti — Dropdown — Tutor Presentation > Utilities > Dropdown"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Dropdown — Tutor Presentation > Utilities > Dropdown, Uso no seu projeto
+
+### Community 3020 - "Skill Adianti — Page with embedded PDF — Tutor Presentation > Pages > Page with embedded PDF"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Page with embedded PDF — Tutor Presentation > Pages > Page with embedded PDF, Uso no seu projeto
+
+### Community 3021 - "Skill Adianti — Page with embedded video — Tutor Presentation > Pages > Page with embedded video"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Page with embedded video — Tutor Presentation > Pages > Page with embedded video, Uso no seu projeto
+
+### Community 3023 - "Skill Adianti — Encapsulation — Tutor Persistence > Objects > Encapsulation"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Encapsulation — Tutor Persistence > Objects > Encapsulation, Uso no seu projeto
+
+### Community 3025 - "Skill Adianti — ExecuteSample — código executável dbsamples (Tutor > Exemplos executáveis)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ExecuteSample — código executável dbsamples (Tutor > Exemplos executáveis), Uso no seu projeto
+
+### Community 3026 - "Skill Adianti — Page with external content — Tutor Presentation > Pages > Page with external content"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Page with external content — Tutor Presentation > Pages > Page with external content, Uso no seu projeto
+
+### Community 3028 - "Skill Adianti — Window with external system — Tutor Presentation > Pages > Window with external system"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Window with external system — Tutor Presentation > Pages > Window with external system, Uso no seu projeto
+
+### Community 3030 - "Skill Adianti — FakeTransaction — código executável dbsamples (Persistence > Connections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — FakeTransaction — código executável dbsamples (Persistence > Connections), Uso no seu projeto
+
+### Community 3031 - "Skill Adianti — Readonly transactions — Tutor Persistence > Connections > Readonly transactions"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Readonly transactions — Tutor Persistence > Connections > Readonly transactions, Uso no seu projeto
+
+### Community 3036 - "Skill Adianti — Filesystem Icon View — Tutor Presentation > Utilities > Filesystem Icon View"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Filesystem Icon View — Tutor Presentation > Utilities > Filesystem Icon View, Uso no seu projeto
+
+### Community 3042 - "Skill Adianti — Barcode — Tutor Presentation > Labels > Barcode"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Barcode — Tutor Presentation > Labels > Barcode, Uso no seu projeto
+
+### Community 3045 - "Skill Adianti — FormBootstrapView — Tutor Presentation > Forms"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — FormBootstrapView — Tutor Presentation > Forms, Uso no seu projeto
+
+### Community 3049 - "Skill Adianti — Bootstrap form grid — Tutor Presentation > Forms > Bootstrap form grid"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Bootstrap form grid — Tutor Presentation > Forms > Bootstrap form grid, Uso no seu projeto
+
+### Community 3054 - "Skill Adianti — Bootstrap form — Tutor Presentation > Forms > Bootstrap form"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Bootstrap form — Tutor Presentation > Forms > Bootstrap form, Uso no seu projeto
+
+### Community 3057 - "Skill Adianti — Styled buttons — Tutor Presentation > Extras > Styled buttons"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Styled buttons — Tutor Presentation > Extras > Styled buttons, Uso no seu projeto
+
+### Community 3063 - "Skill Adianti — Check list — Tutor Presentation > Forms > Check list"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Check list — Tutor Presentation > Forms > Check list, Uso no seu projeto
+
+### Community 3067 - "Skill Adianti — Client interactions — Tutor Presentation > Forms > Client interactions"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Client interactions — Tutor Presentation > Forms > Client interactions, Uso no seu projeto
+
+### Community 3070 - "Skill Adianti — Barcode, QRCode reader — Tutor Presentation > Forms > Barcode, QRCode reader"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Barcode, QRCode reader — Tutor Presentation > Forms > Barcode, QRCode reader, Uso no seu projeto
+
+### Community 3072 - "extrair-conteudo-paginas/node_modules/.pnpm/node-domexception@1.0.0/node_modules"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — FormColumnsBootstrapView — Tutor Presentation > Forms, Uso no seu projeto
+
+### Community 3077 - "Skill Adianti — Form components — Tutor Presentation > Forms > Form components"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Form components — Tutor Presentation > Forms > Form components, Uso no seu projeto
+
+### Community 3082 - "Skill Adianti — Conditional submission — Tutor Presentation > Extras > Conditional submission"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Conditional submission — Tutor Presentation > Extras > Conditional submission, Uso no seu projeto
+
+### Community 3083 - "Skill Adianti — Form confirmation — Tutor Presentation > Extras > Form confirmation"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Form confirmation — Tutor Presentation > Extras > Form confirmation, Uso no seu projeto
+
+### Community 3084 - "Skill Adianti — Copy button — Tutor Presentation > Extras > Copy button"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Copy button — Tutor Presentation > Extras > Copy button, Uso no seu projeto
+
+### Community 3085 - "Skill Adianti — Manual form — Tutor Presentation > Forms > Manual form"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Manual form — Tutor Presentation > Forms > Manual form, Uso no seu projeto
+
+### Community 3086 - "Skill Adianti — Automatic database selections — Tutor Presentation > Forms > Automatic database selections"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Automatic database selections — Tutor Presentation > Forms > Automatic database selections, Uso no seu projeto
+
+### Community 3087 - "Skill Adianti — Manual database selections — Tutor Presentation > Extras > Manual database selections"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Manual database selections — Tutor Presentation > Extras > Manual database selections, Uso no seu projeto
+
+### Community 3088 - "Skill Adianti — Sort DB List — Tutor Presentation > Forms > Sort DB List"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Sort DB List — Tutor Presentation > Forms > Sort DB List, Uso no seu projeto
+
+### Community 3089 - "Skill Adianti — Dynamic filtering — Tutor Organization > Field interactions > Dynamic filtering"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Dynamic filtering — Tutor Organization > Field interactions > Dynamic filtering, Uso no seu projeto
+
+### Community 3090 - "extrair-conteudo-paginas/node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-f"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Dynamic criteria with session variable — Tutor Organization > Field interactions > Dynamic criteria with session variable, Uso no seu projeto
+
+### Community 3094 - "Skill Adianti — Enable/disable interactions — Tutor Presentation > Forms > Enable/disable interactions"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Enable/disable interactions — Tutor Presentation > Forms > Enable/disable interactions, Uso no seu projeto
+
+### Community 3097 - "Skill Adianti — FormEventsPanelView — Tutor Presentation > Extras"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — FormEventsPanelView — Tutor Presentation > Extras, Uso no seu projeto
+
+### Community 3183 - "Skill Adianti — Form events — Tutor Presentation > Extras > Form events"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Form events — Tutor Presentation > Extras > Form events, Uso no seu projeto
+
+### Community 3184 - "Skill Adianti — Expander — Tutor Presentation > Extras > Expander"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Expander — Tutor Presentation > Extras > Expander, Uso no seu projeto
+
+### Community 3185 - "Skill Adianti — Form bordered field list — Tutor Presentation > Extras > Form bordered field list"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Form bordered field list — Tutor Presentation > Extras > Form bordered field list, Uso no seu projeto
+
+### Community 3192 - "Skill Adianti — Field list events — Tutor Presentation > Extras > Field list events"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Field list events — Tutor Presentation > Extras > Field list events, Uso no seu projeto
+
+### Community 3204 - "Skill Adianti — Form field list — Tutor Presentation > Forms > Form field list"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Form field list — Tutor Presentation > Forms > Form field list, Uso no seu projeto
+
+### Community 3207 - "Skill Adianti — Hierarchical combo — Tutor Organization > Field interactions > Hierarchical combo"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Hierarchical combo — Tutor Organization > Field interactions > Hierarchical combo, Uso no seu projeto
+
+### Community 3209 - "Skill Adianti — Html Editor — Tutor Presentation > Forms > Html Editor"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Html Editor — Tutor Presentation > Forms > Html Editor, Uso no seu projeto
+
+### Community 3215 - "Skill Adianti — Image upload and cropper — Tutor Presentation > Forms > Image upload and cropper"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Image upload and cropper — Tutor Presentation > Forms > Image upload and cropper, Uso no seu projeto
+
+### Community 3228 - "Skill Adianti — FormInlineBootstrapView — Tutor Presentation > Forms"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — FormInlineBootstrapView — Tutor Presentation > Forms, Uso no seu projeto
+
+### Community 3229 - "Skill Adianti — Form inside Popover — Tutor Presentation > Extras > Form inside Popover"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Form inside Popover — Tutor Presentation > Extras > Form inside Popover, Uso no seu projeto
+
+### Community 3244 - "extrair-conteudo-paginas/node_modules/.pnpm/parse5@7.3.0/node_modules/parse5/dis"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Dynamic interactions — Tutor Presentation > Forms > Dynamic interactions, Uso no seu projeto
+
+### Community 3264 - "Skill Adianti — Likert scale — Tutor Presentation > Forms > Likert scale"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Likert scale — Tutor Presentation > Forms > Likert scale, Uso no seu projeto
+
+### Community 3265 - "Skill Adianti — Input masks — Tutor Presentation > Forms > Input masks"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Input masks — Tutor Presentation > Forms > Input masks, Uso no seu projeto
+
+### Community 3266 - "Skill Adianti — Bootstrap nested form — Tutor Presentation > Forms > Bootstrap nested form"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Bootstrap nested form — Tutor Presentation > Forms > Bootstrap nested form, Uso no seu projeto
+
+### Community 3268 - "Skill Adianti — QRCode — Tutor Presentation > Labels > QRCode"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — QRCode — Tutor Presentation > Labels > QRCode, Uso no seu projeto
+
+### Community 3270 - "Skill Adianti — FormQuickNotebookView — Tutor Presentation > Forms"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — FormQuickNotebookView — Tutor Presentation > Forms, Uso no seu projeto
+
+### Community 3271 - "Skill Adianti — FormQuickView — Tutor Presentation > Forms"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — FormQuickView — Tutor Presentation > Forms, Uso no seu projeto
+
+### Community 3272 - "Skill Adianti — Reusable MVC Forms — Tutor Presentation > Extras > Reusable MVC Forms"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Reusable MVC Forms — Tutor Presentation > Extras > Reusable MVC Forms, Uso no seu projeto
+
+### Community 3285 - "Skill Adianti — Screen labels — Tutor Presentation > Labels > Screen labels"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Screen labels — Tutor Presentation > Labels > Screen labels, Uso no seu projeto
+
+### Community 3286 - "Skill Adianti — Seek button — Tutor Presentation > Forms > Seek button"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Seek button — Tutor Presentation > Forms > Seek button, Uso no seu projeto
+
+### Community 3288 - "Skill Adianti — FormSeekTestView — Tutor Presentation > Forms"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — FormSeekTestView — Tutor Presentation > Forms, Uso no seu projeto
+
+### Community 3289 - "extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.7.1/node_modules/rrweb"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Selection breaks — Tutor Presentation > Extras > Selection breaks, Uso no seu projeto
+
+### Community 3292 - "Skill Adianti — FormSessionDataView — Tutor Presentation > Extras"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — FormSessionDataView — Tutor Presentation > Extras, Uso no seu projeto
+
+### Community 3293 - "Skill Adianti — Show/hide rows — Tutor Presentation > Forms > Show/hide rows"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Show/hide rows — Tutor Presentation > Forms > Show/hide rows, Uso no seu projeto
+
+### Community 3294 - "Skill Adianti — Signature area — Tutor Presentation > Forms > Signature area"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Signature area — Tutor Presentation > Forms > Signature area, Uso no seu projeto
+
+### Community 3296 - "Skill Adianti — Sort List — Tutor Presentation > Forms > Sort List"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Sort List — Tutor Presentation > Forms > Sort List, Uso no seu projeto
+
+### Community 3300 - "Skill Adianti — Form with static post — Tutor Presentation > Forms > Form with static post"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Form with static post — Tutor Presentation > Forms > Form with static post, Uso no seu projeto
+
+### Community 3302 - "Skill Adianti — Static selections — Tutor Presentation > Forms > Static selections"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Static selections — Tutor Presentation > Forms > Static selections, Uso no seu projeto
+
+### Community 3303 - "Skill Adianti — Form validation — Tutor Presentation > Forms > Form validation"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Form validation — Tutor Presentation > Forms > Form validation, Uso no seu projeto
+
+### Community 3305 - "Skill Adianti — FormVerticalBootstrapView — Tutor Presentation > Forms"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — FormVerticalBootstrapView — Tutor Presentation > Forms, Uso no seu projeto
+
+### Community 3306 - "Skill Adianti — Bootstrap vertical form — Tutor Presentation > Forms > Bootstrap vertical form"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Bootstrap vertical form — Tutor Presentation > Forms > Bootstrap vertical form, Uso no seu projeto
+
+### Community 3308 - "Skill Adianti — Form opening window — Tutor Presentation > Extras > Form opening window"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Form opening window — Tutor Presentation > Extras > Form opening window, Uso no seu projeto
+
+### Community 3309 - "Skill Adianti — Data calendar — Tutor Organization > Utilities > Data calendar"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Data calendar — Tutor Organization > Utilities > Data calendar, Uso no seu projeto
+
+### Community 3313 - "Skill Adianti — Calendar Split View — Tutor Organization > Utilities > Calendar Split View"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Calendar Split View — Tutor Organization > Utilities > Calendar Split View, Uso no seu projeto
+
+### Community 3317 - "extrair-conteudo-paginas/node_modules/.pnpm/rrweb-cssom@0.8.0/node_modules/rrweb"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Calendar — Tutor Presentation > Utilities > Calendar, Uso no seu projeto
+
+### Community 3323 - "Skill Adianti — Gantt with data — Tutor Organization > Utilities > Gantt with data"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Gantt with data — Tutor Organization > Utilities > Gantt with data, Uso no seu projeto
+
+### Community 3325 - "Skill Adianti — GanttEventPanelForm — Tutor Organization > Utilities"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — GanttEventPanelForm — Tutor Organization > Utilities, Uso no seu projeto
+
+### Community 3329 - "Skill Adianti — Gantt — Tutor Presentation > Utilities > Gantt"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Gantt — Tutor Presentation > Utilities > Gantt, Uso no seu projeto
+
+### Community 3333 - "Skill Adianti — HelloWorld — Tutor Presentation > Primeiros passos"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — HelloWorld — Tutor Presentation > Primeiros passos, Uso no seu projeto
+
+### Community 3334 - "Skill Adianti — HelloWorldAction2 — Tutor Presentation > Primeiros passos"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — HelloWorldAction2 — Tutor Presentation > Primeiros passos, Uso no seu projeto
+
+### Community 3336 - "Skill Adianti — HelloWorldAction — Tutor Presentation > Primeiros passos"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — HelloWorldAction — Tutor Presentation > Primeiros passos, Uso no seu projeto
+
+### Community 3337 - "Skill Adianti — HelloWorldWindow — Tutor Presentation > Primeiros passos"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — HelloWorldWindow — Tutor Presentation > Primeiros passos, Uso no seu projeto
+
+### Community 3340 - "Skill Adianti — Hook methods — Tutor Persistence > Objects > Hook methods"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Hook methods — Tutor Persistence > Objects > Hook methods, Uso no seu projeto
+
+### Community 3341 - "Skill Adianti — Icon View — Tutor Presentation > Utilities > Icon View"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Icon View — Tutor Presentation > Utilities > Icon View, Uso no seu projeto
+
+### Community 3348 - "Skill Adianti — Internal pages (inbox) — Tutor Presentation > Pages > Internal pages (inbox)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Internal pages (inbox) — Tutor Presentation > Pages > Internal pages (inbox), Uso no seu projeto
+
+### Community 3349 - "Skill Adianti — Inline editing datagrid — Tutor Organization > Batch operations > Inline editing datagrid"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Inline editing datagrid — Tutor Organization > Batch operations > Inline editing datagrid, Uso no seu projeto
+
+### Community 3350 - "Skill Adianti — Joins — Tutor Persistence > Collections > Joins"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Joins — Tutor Persistence > Collections > Joins, Uso no seu projeto
+
+### Community 3351 - "Skill Adianti — Jumbotron — Tutor Presentation > Templates > Jumbotron"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Jumbotron — Tutor Presentation > Templates > Jumbotron, Uso no seu projeto
+
+### Community 3354 - "Skill Adianti — Kanban Custom — Tutor Presentation > Utilities > Kanban Custom"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Kanban Custom — Tutor Presentation > Utilities > Kanban Custom, Uso no seu projeto
+
+### Community 3355 - "Skill Adianti — Kanban — Tutor Organization > Utilities > Kanban"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Kanban — Tutor Organization > Utilities > Kanban, Uso no seu projeto
+
+### Community 3358 - "Skill Adianti — KanbanItemForm — Tutor Organization > Utilities"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — KanbanItemForm — Tutor Organization > Utilities, Uso no seu projeto
+
+### Community 3359 - "Skill Adianti — KanbanStageForm — Tutor Organization > Utilities"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — KanbanStageForm — Tutor Organization > Utilities, Uso no seu projeto
+
+### Community 3360 - "Skill Adianti — Kanban — Tutor Presentation > Utilities > Kanban"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Kanban — Tutor Presentation > Utilities > Kanban, Uso no seu projeto
+
+### Community 3361 - "Skill Adianti — Line chart — Tutor Presentation > Charts > Line chart"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Line chart — Tutor Presentation > Charts > Line chart, Uso no seu projeto
+
+### Community 3362 - "Skill Adianti — ManualConnection — código executável dbsamples (Persistence > Connections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ManualConnection — código executável dbsamples (Persistence > Connections), Uso no seu projeto
+
+### Community 3363 - "Skill Adianti — Manual connection — Tutor Persistence > Connections > Manual connection"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Manual connection — Tutor Persistence > Connections > Manual connection, Uso no seu projeto
+
+### Community 3364 - "Skill Adianti — Low level DDL commands — Tutor Persistence > Connections > Low level DDL commands"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Low level DDL commands — Tutor Persistence > Connections > Low level DDL commands, Uso no seu projeto
+
+### Community 3378 - "Skill Adianti — Low level DML commands — Tutor Persistence > Connections > Low level DML commands"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Low level DML commands — Tutor Persistence > Connections > Low level DML commands, Uso no seu projeto
+
+### Community 3381 - "Skill Adianti — ManualPrepareQuery — código executável dbsamples (Persistence > Connections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ManualPrepareQuery — código executável dbsamples (Persistence > Connections), Uso no seu projeto
+
+### Community 3382 - "Skill Adianti — Manual Prepared Query — Tutor Persistence > Connections > Manual Prepared Query"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Manual Prepared Query — Tutor Persistence > Connections > Manual Prepared Query, Uso no seu projeto
+
+### Community 3383 - "Skill Adianti — ManualQuery — código executável dbsamples (Persistence > Connections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ManualQuery — código executável dbsamples (Persistence > Connections), Uso no seu projeto
+
+### Community 3385 - "Skill Adianti — Batch delete list — Tutor Organization > Batch operations > Batch delete list"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Batch delete list — Tutor Organization > Batch operations > Batch delete list, Uso no seu projeto
+
+### Community 3388 - "Skill Adianti — MessageView — Tutor Presentation > Extras"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — MessageView — Tutor Presentation > Extras, Uso no seu projeto
+
+### Community 3389 - "Skill Adianti — Modal form — Tutor Presentation > Forms > Modal form"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Modal form — Tutor Presentation > Forms > Modal form, Uso no seu projeto
+
+### Community 3390 - "Skill Adianti — Modal window — Tutor Presentation > Pages > Modal window"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Modal window — Tutor Presentation > Pages > Modal window, Uso no seu projeto
+
+### Community 3391 - "Skill Adianti — MultiCheck2View — Tutor Organization > BatchOperations"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — MultiCheck2View — Tutor Organization > BatchOperations, Uso no seu projeto
+
+### Community 3395 - "Skill Adianti — Multi check form — Tutor Organization > Batch operations > Multi check form"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Multi check form — Tutor Organization > Batch operations > Multi check form, Uso no seu projeto
+
+### Community 3399 - "Skill Adianti — MultiStepMultiForm2View — Tutor Presentation > Pages"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — MultiStepMultiForm2View — Tutor Presentation > Pages, Uso no seu projeto
+
+### Community 3407 - "extrair-conteudo-paginas/node_modules/.pnpm/web-streams-polyfill@3.3.3/node_modu"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Multi Step Form — Tutor Presentation > Pages > Multi Step Form, Uso no seu projeto
+
+### Community 3408 - "Skill Adianti — Multi Step Wizard — Tutor Presentation > Pages > Multi Step Wizard"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Multi Step Wizard — Tutor Presentation > Pages > Multi Step Wizard, Uso no seu projeto
+
+### Community 3412 - "Skill Adianti — MultiStepRegistration2View — Tutor Presentation > Pages"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — MultiStepRegistration2View — Tutor Presentation > Pages, Uso no seu projeto
+
+### Community 3413 - "Skill Adianti — MultiStepRegistration3View — Tutor Presentation > Pages"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — MultiStepRegistration3View — Tutor Presentation > Pages, Uso no seu projeto
+
+### Community 3417 - "Skill Adianti — MultiStepRegistration4View — Tutor Presentation > Pages"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — MultiStepRegistration4View — Tutor Presentation > Pages, Uso no seu projeto
+
+### Community 3421 - "Skill Adianti — NewWindowForm — Tutor Presentation > Extras"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — NewWindowForm — Tutor Presentation > Extras, Uso no seu projeto
+
+### Community 3423 - "Skill Adianti — ObjectAggregation — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ObjectAggregation — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3424 - "Skill Adianti — ObjectComposition — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ObjectComposition — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3431 - "Skill Adianti — Alternative Object Store — Tutor Persistence > Objects > Alternative Object Store"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Alternative Object Store — Tutor Persistence > Objects > Alternative Object Store, Uso no seu projeto
+
+### Community 3439 - "Skill Adianti — ObjectCreation — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ObjectCreation — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3442 - "Skill Adianti — ObjectCriteria — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ObjectCriteria — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3443 - "Skill Adianti — ObjectDelete — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ObjectDelete — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3445 - "Skill Adianti — Object Delete — Tutor Persistence > Objects > Object Delete"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Object Delete — Tutor Persistence > Objects > Object Delete, Uso no seu projeto
+
+### Community 3447 - "Skill Adianti — ObjectEncapsulation — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ObjectEncapsulation — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3448 - "Skill Adianti — ObjectFirstLast — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ObjectFirstLast — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3449 - "Skill Adianti — First and Last ID — Tutor Persistence > Objects > First and Last ID"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — First and Last ID — Tutor Persistence > Objects > First and Last ID, Uso no seu projeto
+
+### Community 3450 - "Skill Adianti — ObjectFromArray — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ObjectFromArray — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3453 - "Skill Adianti — Array conversion — Tutor Persistence > Objects > Array conversion"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Array conversion — Tutor Persistence > Objects > Array conversion, Uso no seu projeto
+
+### Community 3456 - "Skill Adianti — ObjectJoin — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ObjectJoin — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3457 - "Skill Adianti — ObjectLazy — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ObjectLazy — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3458 - "Skill Adianti — Lazy Load — Tutor Persistence > Objects > Lazy Load"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Lazy Load — Tutor Persistence > Objects > Lazy Load, Uso no seu projeto
+
+### Community 3459 - "Skill Adianti — ObjectLoad2 — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ObjectLoad2 — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3461 - "Skill Adianti — Object Static Load — Tutor Persistence > Objects > Object Static Load"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Object Static Load — Tutor Persistence > Objects > Object Static Load, Uso no seu projeto
+
+### Community 3463 - "extrair-conteudo-paginas/node_modules/.pnpm/whatwg-url@14.2.0/node_modules/whatw"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ObjectLoad3 — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3464 - "Skill Adianti — ObjectLoad — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ObjectLoad — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3468 - "Skill Adianti — Object Load — Tutor Persistence > Objects > Object Load"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Object Load — Tutor Persistence > Objects > Object Load, Uso no seu projeto
+
+### Community 3469 - "Skill Adianti — ObjectRender — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ObjectRender — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3470 - "Skill Adianti — Object Render and evaluate — Tutor Persistence > Objects > Object Render and evaluate"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Object Render and evaluate — Tutor Persistence > Objects > Object Render and evaluate, Uso no seu projeto
+
+### Community 3471 - "Skill Adianti — ObjectStore — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ObjectStore — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3494 - "Skill Adianti — Object Store — Tutor Persistence > Objects > Object Store"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Object Store — Tutor Persistence > Objects > Object Store, Uso no seu projeto
+
+### Community 3495 - "Skill Adianti — ObjectToJson — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ObjectToJson — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3496 - "Skill Adianti — JSON conversion — Tutor Persistence > Objects > JSON conversion"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — JSON conversion — Tutor Persistence > Objects > JSON conversion, Uso no seu projeto
+
+### Community 3498 - "Skill Adianti — ObjectUpdate — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ObjectUpdate — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3499 - "Skill Adianti — Object Update — Tutor Persistence > Objects > Object Update"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Object Update — Tutor Persistence > Objects > Object Update, Uso no seu projeto
+
+### Community 3501 - "Skill Adianti — On demand window — Tutor Presentation > Pages > On demand window"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — On demand window — Tutor Presentation > Pages > On demand window, Uso no seu projeto
+
+### Community 3503 - "Skill Adianti — Page center — Tutor Presentation > Pages > Page center"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Page center — Tutor Presentation > Pages > Page center, Uso no seu projeto
+
+### Community 3504 - "Skill Adianti — Designed Danfe — Tutor Presentation > Reports > Designed Danfe"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Designed Danfe — Tutor Presentation > Reports > Designed Danfe, Uso no seu projeto
+
+### Community 3505 - "Skill Adianti — Designed shapes — Tutor Presentation > Reports > Designed shapes"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Designed shapes — Tutor Presentation > Reports > Designed shapes, Uso no seu projeto
+
+### Community 3507 - "Skill Adianti — Pie chart — Tutor Presentation > Charts > Pie chart"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Pie chart — Tutor Presentation > Charts > Pie chart, Uso no seu projeto
+
+### Community 3510 - "extrair-conteudo-paginas/node_modules/.pnpm/xmlchars@2.2.0/node_modules/xmlchars"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — POS form (Master/detail) — Tutor Organization > Checkout screens > POS form (Master/detail), Uso no seu projeto
+
+### Community 3511 - "Skill Adianti — Cards — Tutor Organization > Utilities > Cards"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Cards — Tutor Organization > Utilities > Cards, Uso no seu projeto
+
+### Community 3551 - "Skill Adianti — Product catalog — Tutor Organization > Utilities > Product catalog"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Product catalog — Tutor Organization > Utilities > Product catalog, Uso no seu projeto
+
+### Community 3561 - "Skill Adianti — ProductForm — Tutor Organization > CompleteRegistrations"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ProductForm — Tutor Organization > CompleteRegistrations, Uso no seu projeto
+
+### Community 3562 - "leitor-pagina-node/node_modules/.pnpm/@asamuzakjp+css-color@3.2.0/node_modules/@"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Batch instant update list — Tutor Organization > Batch operations > Batch instant update list, Uso no seu projeto
+
+### Community 3568 - "Skill Adianti — Product list — Tutor Organization > Complete registrations > Product list"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Product list — Tutor Organization > Complete registrations > Product list, Uso no seu projeto
+
+### Community 3576 - "Skill Adianti — ProductSeek — Tutor Presentation > Forms"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — ProductSeek — Tutor Presentation > Forms, Uso no seu projeto
+
+### Community 3585 - "Skill Adianti — Batch selection list — Tutor Organization > Batch operations > Batch selection list"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Batch selection list — Tutor Organization > Batch operations > Batch selection list, Uso no seu projeto
+
+### Community 3590 - "Skill Adianti — Batch update list — Tutor Organization > Batch operations > Batch update list"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Batch update list — Tutor Organization > Batch operations > Batch update list, Uso no seu projeto
+
+### Community 3603 - "Skill Adianti — RegisterLog — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — RegisterLog — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3604 - "Skill Adianti — RegisterLogDump — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — RegisterLogDump — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3606 - "Skill Adianti — Transaction log dump — Tutor Persistence > Objects > Transaction log dump"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Transaction log dump — Tutor Persistence > Objects > Transaction log dump, Uso no seu projeto
+
+### Community 3608 - "Skill Adianti — RegisterLogFunction — código executável dbsamples (Persistence > Objects)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — RegisterLogFunction — código executável dbsamples (Persistence > Objects), Uso no seu projeto
+
+### Community 3612 - "Skill Adianti — Transaction logger function — Tutor Persistence > Objects > Transaction logger function"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Transaction logger function — Tutor Persistence > Objects > Transaction logger function, Uso no seu projeto
+
+### Community 3614 - "Skill Adianti — Transaction class log — Tutor Persistence > Objects > Transaction class log"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Transaction class log — Tutor Persistence > Objects > Transaction class log, Uso no seu projeto
+
+### Community 3615 - "Skill Adianti — RelationShortcuts — código executável dbsamples (Persistence > Relationships)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — RelationShortcuts — código executável dbsamples (Persistence > Relationships), Uso no seu projeto
+
+### Community 3616 - "Skill Adianti — Relationships shortcuts — Tutor Persistence > Relationships > Relationships shortcuts"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Relationships shortcuts — Tutor Persistence > Relationships > Relationships shortcuts, Uso no seu projeto
+
+### Community 3617 - "Skill Adianti — Sale master-detail form I — Tutor Organization > Complete registrations > Sale master-detail form I"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Sale master-detail form I — Tutor Organization > Complete registrations > Sale master-detail form I, Uso no seu projeto
+
+### Community 3618 - "Skill Adianti — Sale list — Tutor Organization > Complete registrations > Sale list"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Sale list — Tutor Organization > Complete registrations > Sale list, Uso no seu projeto
+
+### Community 3619 - "Skill Adianti — Sale master-detail form II — Tutor Organization > Complete registrations > Sale master-detail form II"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Sale master-detail form II — Tutor Organization > Complete registrations > Sale master-detail form II, Uso no seu projeto
+
+### Community 3621 - "Skill Adianti — Sales chart — Tutor Organization > Query screens > Sales chart"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Sales chart — Tutor Organization > Query screens > Sales chart, Uso no seu projeto
+
+### Community 3622 - "Skill Adianti — SaleSidePanelView — Tutor Organization > CompleteRegistrations"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — SaleSidePanelView — Tutor Organization > CompleteRegistrations, Uso no seu projeto
+
+### Community 3623 - "Skill Adianti — Active Records — Tutor Persistence > Objects > Active Records"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Active Records — Tutor Persistence > Objects > Active Records, Uso no seu projeto
+
+### Community 3624 - "Skill Adianti — Database Transactions — Tutor Persistence > Connections > Database Transactions"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Database Transactions — Tutor Persistence > Connections > Database Transactions, Uso no seu projeto
+
+### Community 3625 - "Skill Adianti — Side curtain — Tutor Presentation > Pages > Side curtain"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Side curtain — Tutor Presentation > Pages > Side curtain, Uso no seu projeto
+
+### Community 3627 - "Skill Adianti — SingleEmailForm — Tutor Presentation > Extras"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — SingleEmailForm — Tutor Presentation > Extras, Uso no seu projeto
+
+### Community 3629 - "Skill Adianti — Common page — Tutor Presentation > Pages > Common page"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Common page — Tutor Presentation > Pages > Common page, Uso no seu projeto
+
+### Community 3630 - "Skill Adianti — Common window — Tutor Presentation > Pages > Common window"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Common window — Tutor Presentation > Pages > Common window, Uso no seu projeto
+
+### Community 3631 - "Skill Adianti — SourceCode — Tutor Presentation > Utilities > SourceCode"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — SourceCode — Tutor Presentation > Utilities > SourceCode, Uso no seu projeto
+
+### Community 3632 - "Skill Adianti — SplitLeftRegisterView — Tutor Organization > StandardControls"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — SplitLeftRegisterView — Tutor Organization > StandardControls, Uso no seu projeto
+
+### Community 3633 - "Skill Adianti — Side by side Form/DataGrid — Tutor Organization > Standard controls > Side by side Form/DataGrid"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Side by side Form/DataGrid — Tutor Organization > Standard controls > Side by side Form/DataGrid, Uso no seu projeto
+
+### Community 3635 - "Skill Adianti — SplitRightRegisterView — Tutor Organization > StandardControls"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — SplitRightRegisterView — Tutor Organization > StandardControls, Uso no seu projeto
+
+### Community 3636 - "Skill Adianti — Standard DataGrid — Tutor Organization > Standard controls > Standard DataGrid"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Standard DataGrid — Tutor Organization > Standard controls > Standard DataGrid, Uso no seu projeto
+
+### Community 3637 - "Skill Adianti — Standard Form/DataGrid with curtain — Tutor Organization > Standard controls > Standard Form/DataGrid with curtain"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Standard Form/DataGrid with curtain — Tutor Organization > Standard controls > Standard Form/DataGrid with curtain, Uso no seu projeto
+
+### Community 3638 - "Skill Adianti — Standard Form/DataGrid — Tutor Organization > Standard controls > Standard Form/DataGrid"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Standard Form/DataGrid — Tutor Organization > Standard controls > Standard Form/DataGrid, Uso no seu projeto
+
+### Community 3639 - "Skill Adianti — Standard Form/DataGrid with window — Tutor Organization > Standard controls > Standard Form/DataGrid with window"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Standard Form/DataGrid with window — Tutor Organization > Standard controls > Standard Form/DataGrid with window, Uso no seu projeto
+
+### Community 3640 - "Skill Adianti — Standard Form — Tutor Organization > Standard controls > Standard Form"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Standard Form — Tutor Organization > Standard controls > Standard Form, Uso no seu projeto
+
+### Community 3641 - "Skill Adianti — Steps — Tutor Presentation > Utilities > Steps"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Steps — Tutor Presentation > Utilities > Steps, Uso no seu projeto
+
+### Community 3643 - "Skill Adianti — Tabular report — Tutor Presentation > Reports > Tabular report"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Tabular report — Tutor Presentation > Reports > Tabular report, Uso no seu projeto
+
+### Community 3644 - "Skill Adianti — Report with manual query — Tutor Presentation > Reports > Report with manual query"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Report with manual query — Tutor Presentation > Reports > Report with manual query, Uso no seu projeto
+
+### Community 3645 - "Skill Adianti — Tabular report over view — Tutor Presentation > Reports > Tabular report over view"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Tabular report over view — Tutor Presentation > Reports > Tabular report over view, Uso no seu projeto
+
+### Community 3646 - "Skill Adianti — HTML manual form — Tutor Presentation > Templates > HTML manual form"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — HTML manual form — Tutor Presentation > Templates > HTML manual form, Uso no seu projeto
+
+### Community 3648 - "Skill Adianti — Invoice — Tutor Presentation > Reports > Invoice"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Invoice — Tutor Presentation > Reports > Invoice, Uso no seu projeto
+
+### Community 3649 - "Skill Adianti — Template View repeated — Tutor Presentation > Templates > Template View repeated"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Template View repeated — Tutor Presentation > Templates > Template View repeated, Uso no seu projeto
+
+### Community 3650 - "Skill Adianti — Template View basic — Tutor Presentation > Templates > Template View basic"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Template View basic — Tutor Presentation > Templates > Template View basic, Uso no seu projeto
+
+### Community 3652 - "Skill Adianti — Template View masks — Tutor Presentation > Templates > Template View masks"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Template View masks — Tutor Presentation > Templates > Template View masks, Uso no seu projeto
+
+### Community 3653 - "Skill Adianti — TestCitySeek — Tutor Presentation > Forms"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — TestCitySeek — Tutor Presentation > Forms, Uso no seu projeto
+
+### Community 3654 - "Skill Adianti — Texts and links — Tutor Presentation > Extras > Texts and links"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Texts and links — Tutor Presentation > Extras > Texts and links, Uso no seu projeto
+
+### Community 3655 - "Skill Adianti — Timeline — Tutor Presentation > Utilities > Timeline"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Timeline — Tutor Presentation > Utilities > Timeline, Uso no seu projeto
+
+### Community 3656 - "Skill Adianti — TransactionInfo — código executável dbsamples (Persistence > Connections)"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — TransactionInfo — código executável dbsamples (Persistence > Connections), Uso no seu projeto
+
+### Community 3661 - "Skill Adianti — Transaction information — Tutor Persistence > Connections > Transaction information"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Transaction information — Tutor Persistence > Connections > Transaction information, Uso no seu projeto
+
+### Community 3662 - "Skill Adianti — Tree View — Tutor Presentation > Utilities > Tree View"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Tree View — Tutor Presentation > Utilities > Tree View, Uso no seu projeto
+
+### Community 3663 - "Skill Adianti — Video Cards — Tutor Presentation > Utilities > Video Cards"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Video Cards — Tutor Presentation > Utilities > Video Cards, Uso no seu projeto
+
+### Community 3664 - "Skill Adianti — Window with embedded PDF — Tutor Presentation > Pages > Window with embedded PDF"
+Cohesion: 0.50
+Nodes (3): Código, Skill Adianti — Window with embedded PDF — Tutor Presentation > Pages > Window with embedded PDF, Uso no seu projeto
 
 ## Knowledge Gaps
-- **25126 isolated node(s):** `params`, `bundle-artifact.sh script`, `init-artifact.sh script`, `name`, `version` (+25121 more)
+- **25335 isolated node(s):** `params`, `bundle-artifact.sh script`, `init-artifact.sh script`, `name`, `version` (+25330 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **23523 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **22983 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `MCP Server Best Practices` connect `MCP Server Best Practices` to `SKILL.md`, `Code: bash`, `Question Guidelines`?**
+  _High betweenness centrality (0.000) - this node is a cross-community bridge._
+- **Why does `Ask Matt` connect `Ask Matt` to `Advanced FastMCP Features`?**
+  _High betweenness centrality (0.000) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `BaseSchemaValidator` (e.g. with `DOCXSchemaValidator` and `PPTXSchemaValidator`) actually correct?**
   _`BaseSchemaValidator` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 2 inferred relationships involving `BaseSchemaValidator` (e.g. with `DOCXSchemaValidator` and `PPTXSchemaValidator`) actually correct?**
@@ -25003,10 +26182,6 @@ _Questions this graph is uniquely positioned to answer:_
 - **Are the 2 inferred relationships involving `BaseSchemaValidator` (e.g. with `DOCXSchemaValidator` and `PPTXSchemaValidator`) actually correct?**
   _`BaseSchemaValidator` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `params`, `Gera a árvore de diretórios em formato ASCII`, `Gera a árvore de diretórios do projeto a partir de app/` to the rest of the system?**
-  _25250 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `MCPConnection` be split into smaller, more focused modules?**
-  _Cohesion score 0.0611764705882353 - nodes in this community are weakly interconnected._
-- **Should `PDF Processing Advanced Reference` be split into smaller, more focused modules?**
-  _Cohesion score 0.0425531914893617 - nodes in this community are weakly interconnected._
-- **Should `MCP Server Evaluation Guide` be split into smaller, more focused modules?**
-  _Cohesion score 0.044444444444444446 - nodes in this community are weakly interconnected._
+  _25459 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `BaseSchemaValidator` be split into smaller, more focused modules?**
+  _Cohesion score 0.051560379918588875 - nodes in this community are weakly interconnected._
